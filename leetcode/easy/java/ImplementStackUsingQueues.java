@@ -1,4 +1,4 @@
-class MyStack {
+class ImplementStackUsingQueues {
     private Queue<Integer> queue;
     private Queue<Integer> queueHelper;
     private int topElement;

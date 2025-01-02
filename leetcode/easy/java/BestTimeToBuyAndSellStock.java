@@ -1,4 +1,4 @@
-class Solution {
+class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         int maximumProfit = 0;
         int minimumPriceSoFar = prices[0];

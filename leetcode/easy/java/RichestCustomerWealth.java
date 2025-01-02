@@ -1,4 +1,4 @@
-class Solution {
+class RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
         int wealth = 0;
         for (int j = 0; j < accounts[0].length; j++) {
@@ -14,4 +14,5 @@ class Solution {
         }
         return wealth;
     }
+
 }

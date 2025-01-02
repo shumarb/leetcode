@@ -1,6 +1,4 @@
-package programming.leetcode.medium;
-
-class Solution {
+class CountPrimes {
 
     public void printsArray(boolean[] arr) {
         System.out.print("Array: ");

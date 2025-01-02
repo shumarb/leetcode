@@ -1,7 +1,4 @@
-package programming.leetcode.medium;
-
-class Solution {
-    
+class UglyNumberTwo {
     public int nthUglyNumber(int n) {
         int[] uglyNumbers = new int[n];
         int numberOfMultiplesOf2 = 0;
@@ -31,4 +28,5 @@ class Solution {
         
         return currentUglyNumber;
     }
+
 }

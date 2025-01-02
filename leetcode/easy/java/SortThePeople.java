@@ -1,5 +1,4 @@
-class Solution {
-
+class SortThePeople {
     public void swap(String[] names, int[] heights, int i, int j) {
         int tempHeight = heights[i];
         String tempName = names[i];

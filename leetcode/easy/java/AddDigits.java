@@ -1,4 +1,4 @@
-class Solution {
+class AddDigits {
     public int addDigits(int num) {
         int sumOfDigits = 0;
         

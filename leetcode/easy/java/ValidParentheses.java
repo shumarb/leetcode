@@ -1,4 +1,4 @@
-class Solution {
+class ValidParentheses {
     public boolean isValid(String s) {
         if (s.length() % 2 != 0) {
             return false;

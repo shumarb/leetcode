@@ -1,4 +1,4 @@
-class Solution {
+class RandomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         Map<Character, Integer> map = new HashMap<> ();
 

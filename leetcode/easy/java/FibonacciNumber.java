@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-class Solution {
+class FibonacciNumber {
     public int fib(int N) {
         Vector <Integer> fibNumbers = new Vector <Integer> ();
         for (int i = 0; i <= N; i++) {

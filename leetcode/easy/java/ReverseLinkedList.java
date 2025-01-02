@@ -11,7 +11,7 @@ class ListNode {
     }
  }
 
-class Solution {
+class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode currentNode = head;
         ListNode nextNode = null;
@@ -26,4 +26,5 @@ class Solution {
         head = previousNode;
         return head;
     }
+
 }

@@ -1,4 +1,4 @@
-class Solution {
+class ConcatenationOfArrays {
     public int[] getConcatenation(int[] nums) {
         int[] ans = new int[nums.length * 2];
         int j = 0;

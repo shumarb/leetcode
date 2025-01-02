@@ -1,5 +1,4 @@
-class Solution {
-    
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         boolean isTest = false;
         String strX = Integer.toString(x);
@@ -14,4 +13,5 @@ class Solution {
         }
         return true;
     }
+
 }

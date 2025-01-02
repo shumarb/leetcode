@@ -1,4 +1,4 @@
-class MyQueue {
+class ImplementQueueUsingStacks {
     private Stack<Integer> stack;
     private Stack<Integer> stackHelper;
 
