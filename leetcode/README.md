@@ -1,7 +1,9 @@
 # LeetCode
 
 ## Overview
-This folder contains my accepted submissions on LeetCode (Note: Performance refers to the percentage of submissions that my code beats in terms of runtime).
+This folder contains my accepted submissions on LeetCode (*Note*:
+Performance refers to the percentage of submissions that my code beats in terms of runtime).
+
 LeetCode profile: https://leetcode.com/shumarb/
 
 ## Easy
