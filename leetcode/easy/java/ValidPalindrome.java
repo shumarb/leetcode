@@ -10,15 +10,7 @@ class ValidPalindrome {
                 sb.append(c);
             }
         }
-        char[] letters = sb.toString().toCharArray();
-        int l = 0;
-        int h = letters.length - 1;
-        while (l < h) {
-            if (letters[l++] != letters[h--]) {
-                return false;
-            }
-        }
-        return true;
+        return sb.toString().equals(sb.reverse().toString());
     }
 
 }
