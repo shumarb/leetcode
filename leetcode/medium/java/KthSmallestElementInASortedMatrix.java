@@ -1,20 +1,18 @@
-class ContainerWithMostWater {
-    public int maxArea(int[] height) {
-        int l = 0;
-        int r = height.length - 1;
-        int maxArea = 0;
-        while (l < r) {
-            int lHeight = height[l];
-            int rHeight = height[r];
-            int currArea = Math.min(lHeight, rHeight) * (r - l);
-            maxArea = Math.max(currArea, maxArea);
-            if (lHeight < rHeight) {
-                l++;
-            } else {
-                r--;
+// Question: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/
+
+class KthSmallestElementInASortedMatrix {
+    public int kthSmallest(int[][] matrix, int k) {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                minHeap.offer(matrix[i][j]);
             }
         }
-        return maxArea;
+        int kSmallest = 0;
+        for (int i = 0; i < k; i++) {
+            kSmallest = minHeap.poll();
+        }
+        return kSmallest;
     }
-    
+
 }

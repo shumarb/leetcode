@@ -1,25 +1,26 @@
+// Question: https://leetcode.com/problems/ransom-note/
+
 class RandomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
-        Map<Character, Integer> map = new HashMap<> ();
-
-        for (char c: magazine.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        if (ransomNote.length() > magazine.length()) {
+            return false;
         }
-
-        for (char c: ransomNote.toCharArray()) {
-            // If a character c in ransom note is not present in magazine,
-            // or character is present but number of characters available to use is 0
-            // the ransom note can't be formed frmo magazine
-            if (!map.containsKey(c) || map.get(c) <= 0) {
+        char[] rArr = formsFreqArr(ransomNote);
+        char[] mArr = formsFreqArr(magazine);
+        for (int i = 0; i < rArr.length; i++) {
+            if (rArr[i] != 0 && mArr[i] < rArr[i]) {
                 return false;
             }
-
-            // A character c is in magazine
-            // and can be used to form a ransom note, so reduce number of available characters c
-            // in magazine by 1
-            map.put(c, map.get(c) - 1);
         }
-
         return true;
     }
+
+    private char[] formsFreqArr(String str) {
+        char[] arr = new char[26];
+        for (int i = 0; i < str.length(); i++) {
+            arr[str.charAt(i) - 'a']++;
+        }
+        return arr;
+    }
+
 }

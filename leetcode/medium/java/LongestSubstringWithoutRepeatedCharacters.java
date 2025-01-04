@@ -1,26 +1,22 @@
+// Question: https://leetcode.com/problems/ongest-substring-without-repeating-characters/description/
+
 class LongestSubstringWithoutRepeatedCharacters {
     public int lengthOfLongestSubstring(String s) {
-        if (s.length() == 0) {
-            return 0;
-        }
-
-        int maxLength = 0;
-        for (int start = 0; start < s.length(); start++) {
-            Set<Character> checkedLetters = new HashSet<> ();
-            int currentLength = 0;
-            for (int end = start; end < s.length(); end++) {
-                char letter = s.charAt(end);
-                // Longest substring that starts at index start
-                // and has unique characters has been formed
-                if (checkedLetters.contains(letter)) {
-                    break;
-                }
-                checkedLetters.add(letter);
-                currentLength++;
-                maxLength = Math.max(maxLength, currentLength);
+        Set<Character> set = new HashSet<> ();
+        int maxLen = 0;
+        int l = 0;
+        int r = 0;
+        while (r < s.length()) {
+            char letter = s.charAt(r);
+            if (!set.contains(letter)) {
+                set.add(letter);
+                r++;
+            } else {
+                set.remove(s.charAt(l++));
             }
+            maxLen = Math.max(maxLen, set.size());
         }
-
-        return maxLength;
+        return maxLen;
     }
+
 }
