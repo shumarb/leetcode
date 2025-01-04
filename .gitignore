@@ -12,6 +12,7 @@
 #.metadata
 #target
 #.idea
+#.iml
 
 # Mac Specific ###
 .DS_Store
