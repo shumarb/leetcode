@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/squares-of-a-sorted-array/description/
+
 class SquaresOfASortedArray {
     public int[] sortedSquares(int[] nums) {
         int[] result = new int[nums.length];
