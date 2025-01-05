@@ -2,17 +2,21 @@
 
 class KthSmallestElementInASortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<> (Collections.reverseOrder());
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                minHeap.offer(matrix[i][j]);
+                int num = matrix[i][j];
+                if (maxHeap.size() < k) {
+                    maxHeap.offer(num);
+                } else {
+                    if (num < maxHeap.peek()) {
+                        maxHeap.poll();
+                        maxHeap.offer(num);
+                    }
+                }
             }
         }
-        int kSmallest = 0;
-        for (int i = 0; i < k; i++) {
-            kSmallest = minHeap.poll();
-        }
-        return kSmallest;
+        return maxHeap.peek();
     }
 
 }
