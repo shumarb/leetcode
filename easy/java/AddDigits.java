@@ -1,21 +1,17 @@
+// Question: https://leetcode.com/problems/add-digits/description/
+
 class AddDigits {
     public int addDigits(int num) {
-        int sumOfDigits = 0;
-        
-        while (true) {
-            while (num != 0) {
-                sumOfDigits += (num % 10);
-                num /= 10;
+        int sum = 0;
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+            if (num == 0 && sum > 9) {
+                num = sum;
+                sum = 0;
             }
-            
-            if (sumOfDigits < 10) {
-                break;
-            }
-            
-            num = sumOfDigits;
-            sumOfDigits = 0;
         }
-        
-        return sumOfDigits;
+        return sum;
     }
+
 }
