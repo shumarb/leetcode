@@ -1,39 +1,37 @@
+// Question: https://leetcode.com/problems/count-primes/description/
+
 class CountPrimes {
-
-    public void printsArray(boolean[] arr) {
-        System.out.print("Array: ");
-        for (int i = 0; i < arr.length - 1; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println(arr[arr.length - 1]);
-    }
-
     public int countPrimes(int n) {
+        boolean[] isP = new boolean[n + 1];
         boolean isTest = false;
-        boolean[] primeNumbers = new boolean[n + 1];
-        for (int i = 2; i <= n; i++) {
-            primeNumbers[i] = true;
+        int c = 0;
+        Arrays.fill(isP, true);
+
+        // 0 and 1 are not prime numbers
+        if (n > 0) {
+            isP[0] = false;
+            isP[1] = false;
         }
         if (isTest) {
-            printsArray(primeNumbers);
+            System.out.println(Arrays.toString(isP));
         }
 
-        for (int i = 2; (i * i) <= n; i++) {
-            // If current number is a prime number
-            // Set all of the it's multiples up to n to be false
-            if (primeNumbers[i]) {
-                for (int j = (i * i); j <= n; j += i) {
-                    primeNumbers[j] = false;
+        for (int i = 2; i * i <= n; i++) {
+            if (isP[i]) {
+                for (int j = i * i; j <= n; j += i) {
+                    isP[j] = false;
                 }
             }
         }
-
-        int count = 0;
-        for (int i = 0; i < primeNumbers.length; i++) {
-            if (i < n && primeNumbers[i]) {
-                count++;
+        if (isTest) {
+            System.out.println(Arrays.toString(isP));
+        }
+        for (int i = 0; i < n; i++) {
+            if (isP[i]) {
+                c++;
             }
         }
-        return count;
+        return c;
     }
+
 }
