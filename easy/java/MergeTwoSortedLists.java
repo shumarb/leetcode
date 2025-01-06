@@ -10,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode p1 = new ListNode();
         ListNode p2 = new ListNode();
