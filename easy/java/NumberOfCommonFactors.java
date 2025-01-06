@@ -1,3 +1,5 @@
+// Question: https://leetcode.com/problems/number-of-common-factors/description/
+
 class NumberOfCommonFactors {
     public int commonFactors(int a, int b) {
         int c = 0;
