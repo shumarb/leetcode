@@ -2,13 +2,17 @@
 
 class FirstUniqueCharacterInAString {
     public int firstUniqChar(String s) {
-        Map<Character, Integer> map = new HashMap<>();
-        char[] letters = s.toCharArray();
-        for (char x: letters) {
-            map.put(x, 1 + map.getOrDefault(x, 0));
+        int[] freq = new int[26];
+        boolean test = false;
+        for (char letter: s.toCharArray()) {
+            freq[letter - 'a']++;
         }
-        for (int i = 0; i < letters.length; i++) {
-            if (map.get(letters[i]) == 1) {
+        if (test) {
+            System.out.println("freq: " + Arrays.toString(freq));
+        }
+        for (int i = 0; i < s.length(); i++) {
+            char letter = s.charAt(i);
+            if (freq[letter - 'a'] == 1) {
                 return i;
             }
         }
