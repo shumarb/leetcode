@@ -1,5 +1,4 @@
 // Question: https://leetcode.com/problems/remove-linked-list-elements/description/
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,6 +36,9 @@ class Solution {
 
             curr = curr.next;
         }
+        if (t) {
+            p("list: ", head);
+        }
         return head;
     }
 
@@ -44,7 +46,7 @@ class Solution {
         ListNode c = h;
         System.out.print(s);
         while (c != null) {
-            System.out.print(h.val + " -> ");
+            System.out.print(c.val + " -> ");
             c = c.next;
         }
         System.out.println("null");
