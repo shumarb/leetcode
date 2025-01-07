@@ -8,7 +8,6 @@ class PercentageOfLetterInString {
                 count++;
             }
         }
-        double ratio = 100.0 * count / (double) s.length();
-        return (int) ratio;
+        return (int) (100.0 * count / (double) s.length());
     }
 }
