@@ -2,46 +2,23 @@
 
 class PermutationDifferenceBetweenTwoStrings {
     public int findPermutationDifference(String s, String t) {
-        Map<Character, Integer> sMap = new HashMap<>();
-        Map<Character, Integer> tMap = new HashMap<>();
-        boolean isTest = false;
-        populate(s, sMap);
-        populate(t, tMap);
-        if (isTest) {
-            System.out.println("s: " + s + " | sMap: " + sMap);
-            System.out.println("t: " + t + " | tMap: " + tMap);
-        }
+        int[] sFreq = new int[26];
+        int[] tFreq = new int[26];
+        boolean test = false;
         int sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            sFreq[s.charAt(i) - 'a'] = i;
+        }
         for (int i = 0; i < t.length(); i++) {
-            char letter = t.charAt(i);
-            if (isTest) {
-                System.out.println("letter: " + letter);
-            }
-            int sVal = 0;
-            int tVal = 0;
-            if (sMap.containsKey(letter)) {
-                sVal = sMap.get(letter);
-            } else {
-                sVal = 0;
-            }
-            if (tMap.containsKey(letter)) {
-                tVal = tMap.get(letter);
-            } else {
-                tVal = 0;
-            }
-            if (isTest) {
-                System.out.println("sVal = " + sVal + ", tVal = " + tVal);
-            }
-            sum += Math.abs(sVal - tVal);
+            tFreq[t.charAt(i) - 'a'] = i;
+        }
+        if (test) {
+            System.out.println("sVal: " + Arrays.toString(sFreq));
+            System.out.println("tVal: " + Arrays.toString(tFreq));
+        }
+        for (int i = 0; i < 26; i++) {
+            sum += Math.abs(sFreq[i] - tFreq[i]);
         }
         return sum;
-    }
-
-    private void populate(String s, Map<Character, Integer> map) {
-        char[] sArr = s.toCharArray();
-        for (int i = 0; i < sArr.length; i++) {
-            char letter = s.charAt(i);
-            map.put(letter, i);
-        }
     }
 }
