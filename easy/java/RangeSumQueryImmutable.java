@@ -1,18 +1,22 @@
 // Question: https://leetcode.com/problems/range-sum-query-immutable/
 
-class RangeSumQueryImmutable {
-    private int[] arrC;
+class RangeSumQueryImmutable class NumArray {
+    private int[] prefixSum;
 
     public NumArray(int[] nums) {
-        arrC = Arrays.copyOf(nums, nums.length);
+        int n = nums.length;
+        prefixSum = new int[n];
+        prefixSum[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            prefixSum[i] = nums[i] + prefixSum[i - 1];
+        }
     }
 
     public int sumRange(int left, int right) {
-        int sum = 0;
-        for (int i = left; i <= right; i++) {
-            sum += arrC[i];
+        if (left == 0) {
+            return prefixSum[right];
         }
-        return sum;
+        return prefixSum[right] - prefixSum[left - 1];
     }
 
 }
