@@ -78,6 +78,6 @@ LeetCode profile: https://leetcode.com/shumarb/
 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)                                                              | [SQL](https://github.com/shumarb/leetcode/blob/main/medium/sql/second_highest_salary.sql)                        | 480ms   | 64.38%      |
 
 ## Hard
-| Problem                                                                                  | Submission                                                                                   | Runtime | Performance |
-|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|-------------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java) | 5ms     | 34.76%      |
+| Problem                                                                                  | Submission                                                                             | Runtime Complexity (Performance) | Memory Complexity / Performance |
+|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------|---------------------------------|
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java) | 5ms (34.96%)                     | 44.49MB (57.31%)                |
