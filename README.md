@@ -61,7 +61,7 @@ LeetCode profile: https://leetcode.com/shumarb/
 | [Project Employees I](https://leetcode.com/problems/project-employees-i/)                                                                               | [SQL](https://github.com/shumarb/leetcode/blob/main/easy/sql/project_employees_1.sql)                             | 1032ms  | 62.20%      |
 
 ## Medium
-| Problem                                                                                                                                    | Submission                                                                                                             | Runtime | Performance |
+| Problem                                                                                                                                    | Submission                                                                                                       | Runtime | Performance |
 |--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/medium/java/ContainerWithMostWater.java)                    | 5ms     | 74.40%      |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/medium/java/CountPrimes.java)                               | 94ms    | 82.87%      |
@@ -78,6 +78,6 @@ LeetCode profile: https://leetcode.com/shumarb/
 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)                                                              | [SQL](https://github.com/shumarb/leetcode/blob/main/medium/sql/second_highest_salary.sql)                        | 480ms   | 64.38%      |
 
 ## Hard
-| Problem                                                                                  | Submission                                                                                   | Runtime | Performance |
+| Problem                                                                                  | Submission                                                                             | Runtime | Performance |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|-------------|
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java) | 5ms     | 34.76%      |
