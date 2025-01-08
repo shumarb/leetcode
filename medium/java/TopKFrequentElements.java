@@ -2,29 +2,44 @@
 
 class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<> ();
         int[] ans = new int[k];
+        boolean test = false;
+        Map<Integer, Integer> map = new HashMap<> ();
 
         for (int x: nums) {
-            map.put(x, map.getOrDefault(x, 0) + 1);
+            map.put(x, 1 + map.getOrDefault(x, 0));
+        }
+        if (test) {
+            System.out.println("map: " + map);
         }
 
-        PriorityQueue<Integer> minHeap = new PriorityQueue<> (
-                (a, b) -> map.get(a) - map.get(b)
+        PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<> (
+                (a, b) -> a.getValue() - b.getValue()
         );
-        for (int num: map.keySet()) {
-            minHeap.offer(num);
+        for (Map.Entry<Integer, Integer> e: map.entrySet()) {
+            minHeap.offer(e);
             if (minHeap.size() > k) {
+                if (test) {
+                    System.out.println("before removal - minHeap: " + minHeap);
+                }
                 minHeap.poll();
+                if (test) {
+                    System.out.println("after removal - minHeap: " + minHeap);
+                }
             }
         }
+        if (test) {
+            System.out.println("after iteration of hashmap entries, removal - minHeap: " + minHeap);
+        }
 
-        int i = 0;
+        int j = k - 1;
         while (!minHeap.isEmpty()) {
-            ans[i++] = minHeap.poll();
+            ans[j--] = minHeap.poll().getKey();
+        }
+        if (test) {
+            System.out.println("ans: " + Arrays.toString(ans));
         }
 
         return ans;
     }
-
 }
