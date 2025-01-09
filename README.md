@@ -1,13 +1,15 @@
 # LeetCode
 
 ## Overview
-This repository contains my accepted submissions on LeetCode (*Note*:
-Performance refers to the percentage of submissions that my code beats in terms of runtime).
+This repository contains my LeetCode submissions,
+some of which are included in my [Grind75](https://github.com/shumarb/grind75) repository.
+
+(*Note*: Performance refers to the percentage of submissions that my code beats in terms of runtime).
 
 LeetCode profile: https://leetcode.com/shumarb/
 
 ## Easy
-| Problem                                                                                                                                                 | Submission                                                                                                        | Runtime | Performance |
+| Question                                                                                                                                                | Submission                                                                                                        | Runtime | Performance |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/easy/java/AddDigits.java)                                    | 0ms     | 100%        |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/easy/java/BestTimeToBuyAndSellStock.java)                    | 2ms     | 72.40%      |
