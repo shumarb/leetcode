@@ -8,6 +8,8 @@ some of which are included in my [Grind75](https://github.com/shumarb/grind75) r
 
 LeetCode profile: https://leetcode.com/shumarb/
 
+![Leetcode Stats](https://leetcard.jacoblin.cool/shumarb?theme=dark)
+
 ### Easy
 | Question                                                                                                                                                | Submission                                                                                                          | Runtime | Performance |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|-------------|
