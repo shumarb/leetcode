@@ -8,7 +8,7 @@ some of which are included in my [Grind75](https://github.com/shumarb/grind75) r
 
 LeetCode profile: https://leetcode.com/shumarb/
 
-## Easy
+### Easy
 | Question                                                                                                                                                | Submission                                                                                                          | Runtime | Performance |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/easy/java/AddDigits.java)                                      | 0ms     | 100%        |
@@ -67,7 +67,7 @@ LeetCode profile: https://leetcode.com/shumarb/
 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/description/)                                                         | [SQL](https://github.com/shumarb/leetcode/blob/main/easy/sql/product_sales_analysis_1.sql)                          | 1896ms  | 83.84%      |
 | [Project Employees I](https://leetcode.com/problems/project-employees-i/)                                                                               | [SQL](https://github.com/shumarb/leetcode/blob/main/easy/sql/project_employees_1.sql)                               | 1032ms  | 62.20%      |
 
-## Medium
+### Medium
 | Question                                                                                                                                                       | Submission                                                                                                                | Runtime | Performance |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/medium/java/ContainerWithMostWater.java)                             | 5ms     | 74.40%      |
@@ -86,7 +86,7 @@ LeetCode profile: https://leetcode.com/shumarb/
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/medium/java/UglyNumberTwo.java)                                      | 2ms     | 98.25%      |
 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)                                                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/medium/sql/second_highest_salary.sql)                                 | 480ms   | 64.38%      |
 
-## Hard
+### Hard
 | Question                                                                                | Submission                                                                             | Runtime | Performance |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|-------------|
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java) | 5ms     | 34.76%      |
