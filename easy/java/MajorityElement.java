@@ -13,18 +13,17 @@ class MajorityElement {
             System.out.println("map: " + map);
         }
 
-        PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<> (
-                (a, b) -> b.getValue() - a.getValue()
-        );
+        int majKey = -1;
+        int majVal = Integer.MIN_VALUE;
         for (Map.Entry<Integer, Integer> e: map.entrySet()) {
-            if (e.getValue() > (nums.length / 2)) {
-                maxHeap.offer(e);
+            if (t) {
+                System.out.println("entry: " + e);
+            }
+            if (e.getValue() > (nums.length / 2) && e.getValue() > majVal) {
+                majVal = e.getValue();
+                majKey = e.getKey();
             }
         }
-        if (t) {
-            System.out.println("maxHeap: " + maxHeap);
-        }
-
-        return maxHeap.peek().getKey();
+        return majKey;
     }
 }
