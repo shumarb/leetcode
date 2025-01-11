@@ -25,6 +25,7 @@ class MajorityElement2 {
         if (t) {
             System.out.println("after | list: " + list);
         }
+        
         return list;
     }
 }
