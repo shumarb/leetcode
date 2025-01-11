@@ -3,7 +3,7 @@
 class MajorityElement {
     public int majorityElement(int[] nums) {
         /**
-         Implemented Boyer-Moore Voting Algorithm 
+         Implemented Boyer-Moore Majority Voting Algorithm
          */
         int candidate = -1;
         int count = 0;
