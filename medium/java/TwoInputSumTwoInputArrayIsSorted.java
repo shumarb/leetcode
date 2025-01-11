@@ -1,4 +1,4 @@
-class TwoInputSum2InputArrayIsSorted {
+class TwoInputSumTwoInputArrayIsSorted {
     public int[] twoSum(int[] numbers, int target) {
         int low = 0;
         int high = numbers.length - 1;
