@@ -2,28 +2,19 @@
 
 class MajorityElement {
     public int majorityElement(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
-        boolean t = false;
+        /**
+         Implemented Boyer-Moore Voting Algorithm 
+         */
+        int candidate = -1;
+        int count = 0;
 
         for (int x: nums) {
-            map.put(x, 1 + map.getOrDefault(x, 0));
-        }
-        if (t) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("map: " + map);
+            if (count == 0) {
+                candidate = x;
+            }
+            count += ((x == candidate) ? 1 : -1);
         }
 
-        int majKey = -1;
-        int majVal = Integer.MIN_VALUE;
-        for (Map.Entry<Integer, Integer> e: map.entrySet()) {
-            if (t) {
-                System.out.println("entry: " + e);
-            }
-            if (e.getValue() > (nums.length / 2) && e.getValue() > majVal) {
-                majVal = e.getValue();
-                majKey = e.getKey();
-            }
-        }
-        return majKey;
+        return candidate;
     }
 }
