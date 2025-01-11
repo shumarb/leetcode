@@ -13,12 +13,13 @@ class KthMissingPositiveNumber {
 
         // 1. Check if kth missing is within arr)
         for (int i = 1; i <= nums.length - 1; i++) {
-            // 1. Missing number found, increase count by 1
+            // 1.1. Missing number found, add it to list of missing numbers
             if (nums[i] == 0) {
                 if (t) {
                     System.out.println("adding " + i);
                 }
                 missing.add(i);
+                // 1.2. If k missing numbers achieved, current number is the kth number
                 if (missing.size() == k) {
                     return i;
                 }
@@ -28,8 +29,12 @@ class KthMissingPositiveNumber {
             System.out.println("missing: " + missing);
         }
 
-        // At this point, number of missing numbers accumulated < k
-        // so starting from last element of arr, keep on adding until k numbers of missing obtained
+        /**
+         2.  At this point, number of missing numbers accumulated < k
+         and all missing numbers checked in range [1, last element of array],
+         so starting from (1 + last element of array),
+         keep on adding until k numbers of missing obtained
+         */
         int num = arr[arr.length - 1] + 1;
         if (t) {
             System.out.println("start from " + num);
