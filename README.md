@@ -4,7 +4,7 @@
 This repository contains my [LeetCode](https://leetcode.com/shumarb/)  submissions,
 some of which are included in my [Grind75](https://github.com/shumarb/grind75) repository.
 
-(*Note*: Performance refers to the percentage of submissions that my code beats in terms of runtime).
+(*Note*: Performance indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
 ![Umar's LeetCode Statistics](https://leetcard.jacoblin.cool/shumarb?theme=dark)
 
