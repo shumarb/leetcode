@@ -2,7 +2,9 @@
 
 ## Overview
 This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions,
-some of which are part of my [Grind75](https://github.com/shumarb/grind75) and [AlgoMonster](https://github.com/shumarb/algomonster) repositories.
+some of which are included in these repositories:
+- [AlgoMonster](https://github.com/shumarb/algomonster)
+- [Grind75](https://github.com/shumarb/grind75)
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
