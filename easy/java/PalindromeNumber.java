@@ -1,17 +1,18 @@
-class PalindromeNumber {
+// Question: https://leetcode.com/problems/palindrome-number/description/
+
+class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
         }
-        String xStr = String.valueOf(x);
+        char[] digits = String.valueOf(x).toCharArray();
         int l = 0;
-        int r = xStr.length() - 1;
+        int r = digits.length - 1;
         while (l < r) {
-            if (xStr.charAt(l++) != xStr.charAt(r--)) {
+            if (digits[l++] != digits[r--]) {
                 return false;
             }
         }
         return true;
     }
-
 }
