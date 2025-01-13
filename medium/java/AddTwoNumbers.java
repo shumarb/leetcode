@@ -24,40 +24,31 @@ class AddTwoNumbers {
         if (t) {
             System.out.println("sb1: " + sb1 + "\nsb2: " + sb2);
         }
-        BigInteger sb1R = new BigInteger(sb1.reverse().toString());
-        BigInteger sb2R = new BigInteger(sb2.reverse().toString());
+
+        BigInteger b1 = new BigInteger(sb1.toString());
+        BigInteger b2 = new BigInteger(sb2.toString());
         if (t) {
-            System.out.println("sb1R: " + sb1R + "\nsb2R: " + sb2R);
+            System.out.println("b1: " + b1 + "\nb2: " + b2);
         }
-        BigInteger r = sb1R.add(sb2R);
+        String sum = b1.add(b2).toString();
         if (t) {
-            System.out.println("r: " + r);
+            System.out.println("sum: " + sum);
         }
 
-        String rR = r.toString();
-        StringBuilder sRev = new StringBuilder();
-        for (int i = rR.length() - 1; i >= 0; i--) {
-            sRev.append(rR.charAt(i));
-        }
-        if (t) {
-            System.out.println("sRev: " + sRev);
-        }
-
-        head.val = Character.getNumericValue(sRev.charAt(0));
-        if (t) {
-            System.out.println("head.val: " + head.val);
-        }
+        head.val = Character.getNumericValue(sum.charAt(sum.length() - 1));
         ListNode curr = head;
-        if (sRev.length() > 1) {
-            for (int i = 1; i < sRev.length(); i++) {
-                ListNode newNode = new ListNode(Character.getNumericValue(sRev.charAt(i)));
-                curr.next = newNode;
+        if (t) {
+            System.out.println("head: " + head.val);
+        }
+        if (sum.length() > 1) {
+            for (int i = sum.length() - 2; i >= 0; i--) {
+                ListNode newN = new ListNode(Character.getNumericValue(sum.charAt(i)));
+                curr.next = newN;
                 curr = curr.next;
             }
         }
 
         return head;
-
     }
 
     private void update(ListNode l, StringBuilder s) {
@@ -67,5 +58,6 @@ class AddTwoNumbers {
             s.append(Character.forDigit(v, 10));
             curr = curr.next;
         }
+        s = s.reverse();
     }
 }
