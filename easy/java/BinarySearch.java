@@ -1,22 +1,19 @@
+// Question: https://leetcode.com/problems/binary-search/description/
+
 class BinarySearch {
     public int search(int[] nums, int target) {
-        int highIndex = nums.length - 1;
-        int lowIndex = 0;
-
-        while (lowIndex <= highIndex) {
-            int midIndex = (lowIndex + highIndex) / 2;
-            
-            if (nums[midIndex] == target) {
-                return midIndex;
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
             } else {
-                if (nums[midIndex] < target) {
-                    lowIndex = midIndex + 1;
-                } else {
-                    highIndex = midIndex - 1;
-                }
+                high = mid - 1;
             }
         }
-
         return -1;
     }
 }
