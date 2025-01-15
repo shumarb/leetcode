@@ -1,110 +1,65 @@
 // Question: https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/
 
 class MaximumCountOfPositiveIntegerAndNegativeInteger {
+    private boolean t = false;
+
     public int maximumCount(int[] nums) {
-        int countPositive = 0;
-        int countNegative = 0;
-        for (int x: nums) {
-            if (x < 0) {
-                countNegative++;
+        int indexP = getFirstP(nums);
+        int indexN = getLastN(nums);
+        int countP = (indexP == -1 ? 0 : nums.length - indexP);
+        int countN = (indexN == -1 ? 0 : indexN + 1);
+        return Math.max(countP, countN);
+    }
+
+    private int getLastN(int[] a) {
+        int index = -1;
+        int low = 0;
+        int high = a.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (t) {
+                System.out.println("indices: " + low + ", " + mid + ", " + high);
+                System.out.println("elements: " + a[low] + ", " + a[mid] + ", " + a[high]);
             }
-            if (x > 0) {
-                countPositive++;
+            if (a[mid] >= 0) {
+                high = mid - 1;
+            } else {
+                // current element is negative but may not be last negative
+                // so take not of its index and search for negative element in indices [mid + 1, high]
+                index = mid;
+                low = mid + 1;
             }
         }
-        return Math.max(countPositive, countNegative);
+
+        if (t) {
+            System.out.println("last negative index: " + index);
+        }
+        return index;
+    }
+
+    private int getFirstP(int[] a) {
+        int low = 0;
+        int high = a.length - 1;
+        int index = -1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (t) {
+                System.out.println("indices: " + low + ", " + mid + ", " + high);
+                System.out.println("elements: " + a[low] + ", " + a[mid] + ", " + a[high]);
+            }
+            if (a[mid] <= 0) {
+                low = mid + 1;
+            } else {
+                // current element is positive but it's index may not be first positive
+                // so take note of index and search for first positive in index [low, mid - 1]
+                index = mid;
+                high = mid - 1;
+            }
+        }
+
+        if (t) {
+            System.out.println("first positive index: " + index);
+        }
+        return index;
     }
 }
-
-
-/**
- * Solution done using binary search of last negative index and first positive index
- * with runtime of O(log N) time,
- * but performance after submission shows solution runs in 1ms, beating 20.51%
- *
- *
- * class Solution {
- *     private boolean t = false;
- *
- *     public int maximumCount(int[] nums) {
- *         int firstP = getFirstP(nums);
- *         int lastN = getLastN(nums);
- *         int countP = countPositive(nums, firstP);
- *         int countN = countNegative(nums, lastN);
- *         return Math.max(countP, countN);
- *     }
- *
- *     private int countNegative(int[] nums, int n) {
- *         if (n == -1) {
- *             return 0;
- *         }
- *         int count = 0;
- *         for (int i = 0; i < n; i++) {
- *             count++;
- *         }
- *
- *         count += 1; // increase by 1 due to 0-based counting if counting from start of array
- *         if (t) {
- *             System.out.println("count negative: " + count);
- *         }
- *         return count;
- *     }
- *
- *     private int countPositive(int[] nums, int p) {
- *         if (p == -1) {
- *             return 0;
- *         }
- *         int count = 0;
- *         for (int i = p; i < nums.length; i++) {
- *             count++;
- *         }
- *
- *         if (t) {
- *             System.out.println("count positive: " + count);
- *         }
- *         return count;
- *     }
- *
- *     private int getLastN(int[] nums) {
- *         int low = 0;
- *         int high = nums.length - 1;
- *         int index = -1;
- *
- *         while (low <= high) {
- *             int mid = low + (high - low) / 2;
- *             if (nums[mid] >= 0) {
- *                 high = mid - 1;
- *             } else {
- *                 index = mid;
- *                 low = mid + 1;
- *             }
- *         }
- *
- *         if (t) {
- *             System.out.println("negative | index: " + index);
- *         }
- *         return index;
- *     }
- *
- *     private int getFirstP(int[] nums) {
- *         int index = -1;
- *         int low = 0;
- *         int high = nums.length - 1;
- *
- *         while (low <= high) {
- *             int mid = low + (high - low) / 2;
- *             if (nums[mid] <= 0) {
- *                 low = mid + 1;
- *             } else {
- *                 index = mid;
- *                 high = mid - 1;
- *             }
- *         }
- *
- *         if (t) {
- *             System.out.println("positive | index: " + index);
- *         }
- *         return index;
- *     }
- * }
- */
