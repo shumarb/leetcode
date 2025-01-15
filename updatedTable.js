@@ -1,3 +1,4 @@
+// updateTable.js
 const fs = require('fs');
 
 // Function to update row numbers in the table
