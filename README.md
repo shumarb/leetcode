@@ -1,8 +1,7 @@
 # LeetCode
 
 ## Overview
-This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions,
-organised by difficulty level, with entries sorted alphabetically by question title.
+This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions, with entries sorted alphabetically by question title.
 
 Some entries are included in these repositories:
 - [AlgoMonster](https://github.com/shumarb/algomonster).
