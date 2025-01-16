@@ -3,7 +3,7 @@
 ## Overview
 This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions, with entries sorted alphabetically by question title.
 
-Some entries are included in my [Programming](https://github.com/shumarb/programming) repository:
+Some entries are included in these sections of my [Programming](https://github.com/shumarb/programming) repository:
 - [AlgoMonster](https://github.com/shumarb/algomonster).
 - [Grind 75](https://github.com/shumarb/competitive-programming/tree/main/grind75).
 - [SQL 45](https://github.com/shumarb/competitive-programming/tree/main/sql45).
