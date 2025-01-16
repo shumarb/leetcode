@@ -1,5 +1,6 @@
 // Question: https://leetcode.com/problems/intersection-of-two-arrays/description/
-class IntersectionOfTwoArrays {
+
+class IntersectionOfTwoArraysTwo {
     public int[] intersection(int[] nums1, int[] nums2) {
         int[] small;
         int[] big;
