@@ -31,9 +31,11 @@ class FindTheDifferenceOfTwoArrays {
 
     private List<Integer> getNotPresent(int[] n, Set<Integer> s) {
         List<Integer> list = new ArrayList<>();
+        Set<Integer> counted = new HashSet<>();
         for (int x: n) {
-            if (!s.contains(x) && !list.contains(x)) {
+            if (!s.contains(x) && !counted.contains(x)) {
                 list.add(x);
+                counted.add(x);
             }
         }
         return list;
