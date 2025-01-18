@@ -1,6 +1,10 @@
 // Question: https://leetcode.com/problems/set-matrix-zeroes/description/
 
-class Solution {
+package java;
+
+import java.util.Arrays;
+
+class SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
         int[] rowArr = new int[matrix.length];
         int[] colArr = new int[matrix[0].length];

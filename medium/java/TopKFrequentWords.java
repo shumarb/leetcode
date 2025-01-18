@@ -1,10 +1,19 @@
 // Question: https://leetcode.com/problems/top-k-frequent-words/description/
 
-class Solution {
+package java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
+
+class TopKFrequentWords {
     public List<String> topKFrequent(String[] words, int k) {
         boolean t = false;
         List<String> ans = new ArrayList<> ();
-        Map<String, Integer> map = new HashMap<> ();
+        Map<String, Integer> map = new HashMap<>();
 
         for (String w: words) {
             map.put(w, 1 + map.getOrDefault(w, 0));

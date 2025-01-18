@@ -1,9 +1,11 @@
-// Question: https://leetcode.com/problems/majority-element-ii/description/
+package java;// Question: https://leetcode.com/problems/majority-element-ii/description/
 
-class MajorityElement2 {
+import java.util.*;
+
+class MajorityElementTwo {
     public List<Integer> majorityElement(int[] nums) {
-        List<Integer> list = new ArrayList<> ();
-        Map<Integer, Integer> map = new HashMap<> ();
+        List<Integer> list = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();
         boolean t = false;
 
         for (int x: nums) {
