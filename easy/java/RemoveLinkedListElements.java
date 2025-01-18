@@ -1,4 +1,5 @@
 // Question: https://leetcode.com/problems/remove-linked-list-elements/description/
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -9,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         boolean t = false;
         if (t) {
