@@ -128,7 +128,8 @@ Some entries are included in these sections of my [Programming](https://github.c
 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)                                                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/medium/sql/second_highest_salary.sql)                             | 480ms   | 64.38% |
 
 ### Hard
-| Question                                                                                | Submission                                                                             | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java) | 5ms     | 34.76% |
+| Question                                                                                    | Submission                                                                                | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
+| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/FirstMissingPositive.java) | 1ms     | 100%   |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/hard/java/MergeKSortedLists.java)    | 5ms     | 34.76% |
 
