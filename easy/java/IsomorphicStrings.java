@@ -13,19 +13,18 @@ class IsomorphicStrings {
         populate(s, t, sMap);
         populate(t, s, tMap);
         if (test) {
-            System.out.println("s: " + s + ", t: " + t);
-            System.out.println("sMap (s):");
-            for (Map.Entry<Character, Set<Character>> e: sMap.entrySet()) {
-                System.out.println("entry: " + e.getKey() + " - " + e.getValue());
-            }
-            System.out.println();
-            System.out.println("tMap (t):");
-            for (Map.Entry<Character, Set<Character>> e: tMap.entrySet()) {
-                System.out.println("entry: " + e.getKey() + " - " + e.getValue());
-            }
+            print(s, sMap);
+            print(t, tMap);
         }
 
         return isValid(sMap) && isValid(tMap);
+    }
+
+    private void print(String str, Map<Character, Set<Character>> map) {
+        System.out.println("string: " + str);
+        for (Map.Entry<Character, Set<Character>> e: map.entrySet()) {
+            System.out.println("entry: " + e.getKey() + " - " + e.getValue());
+        }
     }
 
     private void populate(String source, String check, Map<Character, Set<Character>> map) {
