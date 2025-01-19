@@ -4,6 +4,10 @@ class SortAnArray {
     private boolean t = false;
 
     public int[] sortArray(int[] nums) {
+        if (isSorted(nums)) {
+            return nums;
+        }
+
         if (t) {
             System.out.println("nums: " + Arrays.toString(nums));
             System.out.println("---------------------------------");
@@ -57,6 +61,16 @@ class SortAnArray {
             swap(n, i, largest);
             heapify(n, heapSize, largest);
         }
+    }
+
+    private boolean isSorted(int[] n) {
+        for (int i = 0; i < n.length - 1; i++) {
+            int j = i + 1;
+            if (n[j] < n[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private void swap(int[] n, int a, int b) {
