@@ -1,4 +1,4 @@
-// Question: https://leetcode.com/problems/find-pivot-index/description/
+// Question: https://leetcode.com/problems/find-the-middle-index-in-array/description/
 
 class FindTheMiddleIndexInArray {
     /**
