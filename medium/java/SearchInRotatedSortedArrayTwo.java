@@ -24,8 +24,9 @@ class SearchInRotatedSortedArrayTwo {
 
             // 1. Ensure both low and high pointers
             // point to elements of different values
-            if (n[low] == n[mid] && n[mid] == n[high]) {
+            if (n[low] == n[mid]) {
                 low++;
+            } else if (n[mid] == n[high]) {
                 high--;
 
             // 2. Left half is sorted, so check if target is in it
