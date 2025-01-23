@@ -28,24 +28,24 @@ class SearchInRotatedSortedArrayTwo {
                 low++;
                 high--;
 
-                // 2. Left half is sorted, so check if target is in it
+            // 2. Left half is sorted, so check if target is in it
             } else if (n[low] <= n[mid]) {
                 // 2.1. target is between elements at indices [low, mid - 1]
                 if (n[low] <= target && target < n[mid]) {
                     high = mid - 1;
 
-                    // 2.2. target is between elements at indices [mid + 1, high]
+                // 2.2. target is between elements at indices [mid + 1, high]
                 } else {
                     low = mid + 1;
                 }
 
-                // 3. Right half sorted, so check if target is in it
+            // 3. Right half sorted, so check if target is in it
             } else {
                 // 3.1. target is between elements at indices [mid + 1, high]
                 if (n[mid] <= target && target < n[high]) {
                     low = mid + 1;
 
-                    // 3.2. target is between elements at indices [low, mid - 1]
+                // 3.2. target is between elements at indices [low, mid - 1]
                 } else {
                     high = mid - 1;
                 }
