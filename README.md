@@ -2,8 +2,9 @@
 
 ## Overview
 This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions,
-with entries sorted by difficulty ([easy](#easy), [medium](#medium), [hard](#hard)),
-followed by alphabetically by question title.
+with entries sorted by:
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
+- Question title.
 
 Some entries are included in these sections of my [Programming](https://github.com/shumarb/programming) repository:
 - [AlgoMonster](https://github.com/shumarb/algomonster).
