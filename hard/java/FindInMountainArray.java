@@ -88,7 +88,7 @@ class FindInMountainArray {
                 maxIndex = mid;
                 high = mid - 1;
                 if (t) {
-                    System.out.println("update | maxIndx: " + maxIndex);
+                    System.out.println("update | maxIndex: " + maxIndex);
                 }
             } else {
                 low = mid + 1;
