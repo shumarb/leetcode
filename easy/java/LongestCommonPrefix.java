@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/longest-common-prefix/description/
 
 class LongestCommonPrefix {
     private boolean t = false;
