@@ -6,11 +6,7 @@ with entries sorted by:
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
-Some entries are included in these sections of my [Programming](https://github.com/shumarb/programming) repository:
-- [AlgoMonster](https://github.com/shumarb/algomonster).
-- [Grind 75](https://github.com/shumarb/competitive-programming/tree/main/grind75).
-- [Grind 169](https://github.com/shumarb/competitive-programming/tree/main/grind169).
-- [SQL 45](https://github.com/shumarb/competitive-programming/tree/main/sql45).
+Entries are used solved `challenges` listed in my [Programming](https://github.com/shumarb/programming) repository.
 
 (*Note*: Rank is the percentage of submissions that my code outperformed in terms of runtime.)
 
