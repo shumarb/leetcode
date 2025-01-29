@@ -5,7 +5,6 @@ class BinaryNumberWithAlternatingBits {
         if (n == 1) {
             return true;
         }
-
         StringBuilder nBinary = new StringBuilder();
         boolean isTest = false;
 
@@ -21,28 +20,29 @@ class BinaryNumberWithAlternatingBits {
             System.out.println("n: " + n + " | nBinary: " + nBinary);
         }
 
-        if (isSameBits(nBinary.toString())) {
+        String nBinaryString = nBinary.toString();
+
+        if (isSameBits(nBinaryString)) {
             return false;
         }
 
-        for (int i = 1; i < nBinary.toString().length() - 1; i++) {
-            char bit = nBinary.toString().charAt(i);
-            if (!isValid(nBinary.toString(), i, bit)) {
+        for (int i = 1; i < nBinaryString.length() - 1; i++) {
+            char bit = nBinaryString.charAt(i);
+            if (!isValid(nBinaryString, i, bit)) {
                 return false;
             }
         }
-
         return true;
     }
 
-    private boolean isValid(String nBinary, int i, char bit) {
-        return nBinary.charAt(i - 1) != bit && nBinary.charAt(i + 1) != bit;
+    private boolean isValid(String nBinaryString, int i, char bit) {
+        return nBinaryString.charAt(i - 1) != bit && nBinaryString.charAt(i + 1) != bit;
     }
 
-    private boolean isSameBits(String nBinary) {
+    private boolean isSameBits(String nBinaryString) {
         int num0 = 0;
         int num1 = 0;
-        for (char bit: nBinary.toCharArray()) {
+        for (char bit: nBinaryString.toCharArray()) {
             if (bit == '1') {
                 num1++;
             }
