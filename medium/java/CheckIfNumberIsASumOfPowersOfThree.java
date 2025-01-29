@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/
 
 class CheckIfNumberIsASumOfPowersOfThree {
     public boolean checkPowersOfThree(int n) {
