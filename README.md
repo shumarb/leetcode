@@ -6,7 +6,7 @@ with entries sorted by:
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
-Entries also solved numerous `challenges` listed in my [Programming](https://github.com/shumarb/programming) repository.
+The entries were used to solve `challenges` listed in my [Programming](https://github.com/shumarb/programming) repository.
 
 (*Note*: Rank is the percentage of submissions that my code outperformed in terms of runtime.)
 
