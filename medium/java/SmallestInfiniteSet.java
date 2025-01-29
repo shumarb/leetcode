@@ -1,5 +1,7 @@
 // Question: https://leetcode.com/problems/smallest-number-in-infinite-set/description/
 
+import java.util.Arrays;
+
 class SmallestInfiniteSet {
     private boolean[] freq;
 

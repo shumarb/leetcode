@@ -1,6 +1,6 @@
-// Question:
+// Question: https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 
-class Solution {
+class PeakIndexInAMountainArray {
     public int PeakIndexInAMountainArray(int[] arr) {
 
         /**

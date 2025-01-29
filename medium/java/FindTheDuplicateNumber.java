@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-the-duplicate-number/description/
 
-class FindTheDuplicateElement {
+class FindTheDuplicateNumber {
     public int findDuplicate(int[] nums) {
         int slow = 0;
         int fast = 0;
