@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/reverse-vowels-of-a-string/description/
 
-class ReverseVowels {
+class ReverseVowelsOfAString {
     public String reverseVowels(String s) {
         StringBuilder reverseVowelsString = new StringBuilder();
         boolean isTest = false;
