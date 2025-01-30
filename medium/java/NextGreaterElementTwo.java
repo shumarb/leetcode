@@ -3,24 +3,36 @@
 class NextGreaterElementTwo {
     public int[] nextGreaterElements(int[] nums) {
         int len = nums.length;
-        int[] ans = new int[len];
-        Arrays.fill(ans, -1);
+        boolean isTest = false;
+        int[] result = new int[len];
+        Arrays.fill(result, -1);
 
-        // 1. Stack containing indices of first greater element for each element in nums
-        Stack<Integer> indicesStack = new Stack<>();
+        // Stack contains indices of next greater element for an element during iteration
+        Stack<Integer> stack = new Stack<>();
 
-        for (int i = 0; i < 2 * len; i++) {
-            while (!indicesStack.isEmpty() && nums[indicesStack.peek()] < nums[i % len]) {
-                ans[indicesStack.pop()] = nums[i % len];
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums));
+        }
+
+        for (int i = 0; i < len; i++) {
+            if (isTest) {
+                System.out.println("checking | element: " + nums[i] + ", index: " + i);
             }
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
+                result[stack.pop()] = nums[i];
+            }
+            stack.push(i);
+        }
 
-            // 2. Ensure index < nums's length to ensure indices of array are added to stack
-            // to prevent array out of bounds
-            if (i < len) {
-                indicesStack.push(i);
+        for (int i = 0; i < len; i++) {
+            if (isTest) {
+                System.out.println("checking | element: " + nums[i] + ", index: " + i);
+            }
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
+                result[stack.pop()] = nums[i];
             }
         }
 
-        return ans;
+        return result;
     }
 }
