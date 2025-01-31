@@ -2,29 +2,30 @@
 
 class MissingNumber {
     public int missingNumber(int[] nums) {
-        boolean isTest = false;
-        int[] freq = new int[nums.length + 1];
         int max = 0;
-        int min = 0;
-        if (isTest) {
-            System.out.println("freq: " + Arrays.toString(freq));
-        }
-        for (int i = 0; i < nums.length; i++) {
-            freq[nums[i]]++;
-            max = Math.max(max, nums[i]);
-            min = Math.min(min, nums[i]);
+        boolean isTest = false;
+
+        for (int number: nums) {
+            max = Math.max(max, number);
         }
         if (isTest) {
-            System.out.println("freq: " + Arrays.toString(freq) + ", max: " + max + ", min: " + min);
+            System.out.println("nums: " + Arrays.toString(nums) + "\nmax: " + max);
         }
-        for (int i = min; i <= max; i++) {
-            if (freq[i] == 0) {
-                if (isTest) {
-                    System.out.println("missing: " + i);
-                }
+
+        boolean[] freqArr = new boolean[max + 1];
+        for (int number: nums) {
+            freqArr[number] = true;
+        }
+        if (isTest) {
+            System.out.println("freqArr: " + Arrays.toString(freqArr));
+        }
+        for (int i = 0; i < freqArr.length; i++) {
+            if (!freqArr[i]) {
                 return i;
             }
         }
+
+        // If nums array contains values in range [0, max]
         return max + 1;
     }
 }
