@@ -1,39 +1,46 @@
 // Question: https://leetcode.com/problems/plus-one/description/
 
-import java.math.BigInteger;
-
-class Solution {
+class PlusOne {
     public int[] plusOne(int[] digits) {
+        int len = digits.length;
+        int[] result = new int[len];
         boolean isTest = false;
-        int[] result;
-        StringBuilder digitsSb = new StringBuilder();
-
-        for (int digit: digits) {
-            digitsSb.append(Character.forDigit(digit, 10));
-        }
-        BigInteger digitsBI = new BigInteger(digitsSb.toString());
         if (isTest) {
-            System.out.println("digits: " + Arrays.toString(digits) + "\ndigitsSb: " + digitsSb + "\ndigitsBI: " + digitsBI);
+            System.out.println("digits: " + Arrays.toString(digits));
         }
 
-        BigInteger updatedDigitsBI = digitsBI.add(new BigInteger("1"));
+        for (int i = len - 1; i >= 0; i--) {
+            // 1. Current digit is < 9, so increase it for final answer
+            if (digits[i] < 9) {
+                digits[i]++;
+                if (isTest) {
+                    System.out.println("returning: " + Arrays.toString(digits));
+                }
+                return digits;
+
+                // 2. Since current digit == 9, there is a carry over of 1 to the next most-significant digit
+                // and current digit becomes 0
+            } else {
+                digits[i] = 0;
+            }
+            if (isTest) {
+                System.out.println("digits so far: " + Arrays.toString(digits));
+            }
+        }
+
         if (isTest) {
-            System.out.println("updatedDigitsBI: " + updatedDigitsBI);
+            System.out.println("digits so far: " + Arrays.toString(digits));
         }
 
-        String updatedDigitsBIString = updatedDigitsBI.toString();
+        // 3. All digits in initial array are 9, so there is a carry-over of 1 for every digit
+        // hence, all digits are currently 0
+        // so create a new array is to be created where the most-significant bit is 1 and all others are 0.
+        int[] newNumber = new int[len + 1];
+        newNumber[0] = 1;
         if (isTest) {
-            System.out.println("updatedDigitsBIString: " + updatedDigitsBIString);
+            System.out.println("returning: " + Arrays.toString(newNumber));
         }
 
-        result = new int[updatedDigitsBIString.length()];
-        for (int i = 0; i < updatedDigitsBIString.length(); i++) {
-            result[i] = Character.getNumericValue(updatedDigitsBIString.charAt(i));
-        }
-        if (isTest) {
-            System.out.println("result: " + Arrays.toString(result));
-        }
-
-        return result;
+        return newNumber;
     }
 }
