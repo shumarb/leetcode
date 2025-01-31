@@ -30,6 +30,7 @@ class AddTwoNumbers {
 
             current.next = new ListNode(sum % 10);
             carry = sum / 10;
+
             current = current.next;
             if (l1Current != null) {
                 l1Current = l1Current.next;
