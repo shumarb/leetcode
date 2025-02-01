@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/perfect-number/description/
 
-class PerfectSquares {
+class PerfectNumber {
     public boolean checkPerfectNumber(int num) {
         if (num == 1) {
             return false;
