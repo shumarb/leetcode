@@ -4,8 +4,7 @@ class /FindSmallestLetterGreaterThanTarget {
     public char nextGreatestLetter(char[] letters, char target) {
         int low = 0;
         int high = letters.length - 1;
-        boolean doesSmallestLetterExist = false;
-        char smallestLetter = 'a';
+        char smallestLetter = letters[0];
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
@@ -16,7 +15,6 @@ class /FindSmallestLetterGreaterThanTarget {
                  so take note of current letter as smallest letter greater than target
                  and set binary search boundary as [low, mid - 1]
                  */
-                doesSmallestLetterExist = true;
                 smallestLetter = letters[mid];
                 high = mid - 1;
 
@@ -30,6 +28,6 @@ class /FindSmallestLetterGreaterThanTarget {
             }
         }
 
-        return doesSmallestLetterExist ? smallestLetter : letters[0];
+        return smallestLetter;
     }
 }
