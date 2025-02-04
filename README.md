@@ -6,8 +6,12 @@ with entries sorted by:
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
-The entries were used to solve [challenges](https://github.com/shumarb/leetcode/tree/main/challenges/).
-Click [here](https://github.com/shumarb/leetcode/tree/main/topics/) for completed questions by `topics`. 
+The entries are categorised in these sections:
+
+| Category                                                                         | Content                                                                                                                                                                                                                      |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Challenges                                                                       | [Grind 75](https://github.com/shumarb/programming/tree/main/grind75), [Grind 169](https://github.com/shumarb/programming/tree/main/grind165), [SQL 45](https://github.com/shumarb/programming/tree/main/sql45)               |
+| Topics                                                                           | [Array](https://github.com/shumarb/leetcode/tree/main/topics/ARRAY.md), [Math](https://github.com/shumarb/leetcode/tree/main/topics/math), [Two Pointers](https://github.com/shumarb/leetcode/tree/main/topics/two-pointers) |
 
 (*Note*: Rank is the percentage of submissions that my code outperformed in terms of runtime.)
 
