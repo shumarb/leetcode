@@ -1,7 +1,7 @@
 # Challenges
 
 ## Overview
-This folder contains a summary of the LeetCode challenges I have completed
+The following is a summary of the LeetCode challenges I have worked on so far.
 
 | Challenge                                                              |
 |------------------------------------------------------------------------|

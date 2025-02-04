@@ -1,7 +1,7 @@
 # Topics
 
 ## Overview
-The following summarises the LeetCode questions I have completed by topics.
+The following is summary of the LeetCode questions I have completed, categorised by `topic`.
 
 | Topic                                                                             |
 |-----------------------------------------------------------------------------------|
