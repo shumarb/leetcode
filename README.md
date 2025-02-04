@@ -8,10 +8,10 @@ with entries sorted by:
 
 The entries are categorised in these sections:
 
-| Category                                                                         | Content                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Challenges                                                                       | [Grind 75](https://github.com/shumarb/leetcode/tree/main/readmes/grind75.md), [Grind 169](https://github.com/shumarb/leetcode/tree/main/readmes/grind169.md), [SQL 45](https://github.com/shumarb/leetcode/tree/main/readmes/sql45.md) |
-| Topics                                                                           | [Array](https://github.com/shumarb/leetcode/tree/main/readmes/array.md), [Math](https://github.com/shumarb/leetcode/tree/main/readmes/math.md), [Two Pointers](https://github.com/shumarb/leetcode/tree/main/readmes/two-pointers.md)  |
+| Category                                                                         | Content                                                                                                                                                                                                                                 |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Challenges                                                                       | [Grind 75](https://github.com/shumarb/leetcode/blob/main/readmes/grind75.md), [Grind 169](https://github.com/shumarb/leetcode/blob/main/readmes/grind-169.md), [SQL 45](https://github.com/shumarb/leetcode/blob/main/readmes/sql45.md) |
+| Topics                                                                           | [Array](https://github.com/shumarb/leetcode/blob/main/readmes/array.md), [Math](https://github.com/shumarb/leetcode/blob/main/readmes/math.md), [Two Pointers](https://github.com/shumarb/leetcode/blob/main/readmes/two-pointers.md)   |
 
 (*Note*: Rank is the percentage of submissions that my code outperformed in terms of runtime.)
 
