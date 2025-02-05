@@ -8,11 +8,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/186.
+Completed: 11/186.
 ### Easy
-| Question                                                                     | Submission                                                                                 | Runtime | Rank   |
-|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------|--------|
-| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)  | 11ms    | 28.63% |
+| Question                                                                                                      | Submission                                                                                  | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)      | 21ms    | 54.99% |
+| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)   | 11ms    | 28.63% |
 
 ### Medium
 | Question                                                                                                                         | Submission                                                                                                    | Runtime | Rank   |
