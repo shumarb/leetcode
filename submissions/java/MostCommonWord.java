@@ -7,7 +7,7 @@ class MostCommonWord {
             System.out.println("paragraph: " + paragraph + ", banned: " + Arrays.toString(banned));
         }
 
-        // 1. Replcae all non-letters and non-spaces with a space
+        // 1. Replace all non-letters and non-spaces with a space
         String cleanParagraph = paragraph.toLowerCase().replaceAll("[^a-zA-Z ]", " ");
 
         // 2. Split words by any whitespace character (eg: tab, whitespace, new line, etc.)
