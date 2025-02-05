@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/666.
+Completed: 51/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -16,6 +16,7 @@ Completed: 50/666.
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)     | 1ms     | 100%   |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)           | 4ms     | 92.01% |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
+| [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                    | 6ms     | 89.98% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                    | 6ms     | 86.92% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)                                    | 10ms    | 88.34% |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)                                 | 18ms    | 82.31% |
