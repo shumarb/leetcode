@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 90/1835.
+Completed: 91/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -46,6 +46,7 @@ Completed: 90/1835.
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.70% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.45% |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                          | 0ms     | 100%   |
+| [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                           | 6ms     | 86.06% |
 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthMissingPositiveNumber.java)                             | 2ms     | 11.57% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)                           | 2ms     | 98.18% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |

@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/666.
+Completed: 50/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -35,6 +35,7 @@ Completed: 49/666.
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.45% |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsomorphicStrings.java)                                    | 13ms    | 52.01% |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                          | 0ms     | 100%   |
+| [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                           | 6ms     | 86.06% |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                                      | 0ms     | 100%   |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |
