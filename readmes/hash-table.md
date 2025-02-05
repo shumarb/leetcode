@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/666.
+Completed: 49/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -39,6 +39,7 @@ Completed: 48/666.
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
+| [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                       | 18ms    | 32.89% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                              | 12ms    | 93.70% |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)               | 1ms     | 100%   |
