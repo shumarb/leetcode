@@ -13,7 +13,7 @@ Completed: 11/186.
 | Question                                                                                                      | Submission                                                                                  | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)      | 21ms    | 54.99% |
-| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)   | 1ms     | 61.66% |
+| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)   | 9ms     | 61.66% |
 
 ### Medium
 | Question                                                                                                                         | Submission                                                                                                    | Runtime | Rank   |
