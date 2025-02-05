@@ -1,4 +1,4 @@
-# Math
+# Bit Manipulation
 
 ## Overview
 This folder contains my solutions to the LeetCode [Bit Manipulation](https://leetcode.com/problem-list/bit-manipulation/) problem list,
