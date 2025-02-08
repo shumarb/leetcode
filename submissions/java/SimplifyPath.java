@@ -4,13 +4,8 @@ class SimplifyPath {
     public String simplifyPath(String path) {
         boolean isTest = false;
         Stack<String> stack = new Stack<>();
-        String[] pathComponents = path.split("/");
 
-        if (isTest) {
-            System.out.println("path: " + path + "\npathComponents: " + Arrays.toString(pathComponents));
-        }
-
-        for (String component: pathComponents) {
+        for (String component: path.split("/")) {
             // 1. Remove current directory if component == ".." and stack is non-empty
             if (component.equals("..") && !stack.isEmpty()) {
                 stack.pop();
