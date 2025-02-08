@@ -10,7 +10,7 @@ class SimplifyPath {
             if (component.equals("..") && !stack.isEmpty()) {
                 stack.pop();
 
-                // 2. Add valid path components
+            // 2. Add valid path components
             } else if (!component.equals("") && !component.equals("..") && !component.equals(".")) {
                 stack.push(component);
             }
