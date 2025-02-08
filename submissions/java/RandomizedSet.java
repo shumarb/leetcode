@@ -36,6 +36,9 @@ class RandomizedSet {
 
          [9 5 1 7]
          {9=0, 5=1, 1=2, 7=3}
+
+         [9 5 1]
+         {9=0, 5=1, 1=2}
          */
         int valIndex = map.get(val);
         int lastElement = list.get(list.size() - 1);
