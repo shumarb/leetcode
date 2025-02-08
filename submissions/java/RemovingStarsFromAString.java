@@ -10,14 +10,12 @@ class RemovingStarsFromAString {
             if (isTest) {
                 System.out.println("currentChar: " + currentChar + ", stack so far: " + stack);
             }
-            if (stack.isEmpty()) {
-                stack.push(currentChar);
-            } else {
-                if (currentChar == '*') {
+            if (currentChar == '*') {
+                if (!stack.isEmpty()) {
                     stack.pop();
-                } else {
-                    stack.push(currentChar);
                 }
+            } else {
+                stack.push(currentChar);
             }
         }
         if (isTest) {
@@ -25,10 +23,7 @@ class RemovingStarsFromAString {
         }
 
         while (!stack.isEmpty()) {
-            if (stack.peek() != '*') {
-                result.append(stack.peek());
-            }
-            stack.pop();
+            result.append(stack.pop());
         }
         result.reverse();
         if (isTest) {
