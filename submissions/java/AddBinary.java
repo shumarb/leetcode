@@ -4,13 +4,32 @@ import java.math.BigInteger;
 
 class AddBinary {
     public String addBinary(String a, String b) {
-        BigInteger b1 = new BigInteger(a, 2);
-        BigInteger b2 = new BigInteger(b, 2);
-        BigInteger sum = b1.add(b2);
-        boolean t = false;
-        if (t) {
-            System.out.println("b1: " + b1 + "\nb2: " + b2 + "\nsum: " + sum + "\nsum in base 2: " + sum.toString(2));
+        StringBuilder result = new StringBuilder();
+        boolean isTest = false;
+        int aPointer = a.length() - 1;
+        int bPointer = b.length() - 1;
+        int carry = 0;
+
+        while (aPointer >= 0 || bPointer >= 0 || carry != 0) {
+            int sum = carry;
+            if (aPointer >= 0) {
+                // Convert char char '1' to integer 1 or char '0' to integer 0
+                sum += a.charAt(aPointer--) - '0';
+            }
+
+            if (bPointer >= 0) {
+                // Convert char char '1' to integer 1 or char '0' to integer 0
+                sum += b.charAt(bPointer--) - '0';
+            }
+
+            result.append(sum % 2);
+            carry = sum / 2;
         }
-        return sum.toString(2);
+        result.reverse();
+        if (isTest) {
+            System.out.println("result: " + result);
+        }
+
+        return result.toString();
     }
 }
