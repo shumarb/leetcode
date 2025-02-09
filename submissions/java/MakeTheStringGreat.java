@@ -10,14 +10,10 @@ class MakeTheStringGreat {
             if (isTest) {
                 System.out.println("check: " + letter + " | stack so far: " + stack);
             }
-            if (stack.isEmpty()) {
-                stack.push(letter);
+            if (!stack.isEmpty() && isSameLetterInDifferentCases(stack.peek(), letter)) {
+                stack.pop();
             } else {
-                if (isSameLetterInDifferentCases(stack.peek(), letter)) {
-                    stack.pop();
-                } else {
-                    stack.push(letter);
-                }
+                stack.push(letter);
             }
         }
         if (isTest) {
