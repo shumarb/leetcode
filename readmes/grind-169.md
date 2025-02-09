@@ -5,7 +5,7 @@ This folder contains my solutions to the [Grind 169](https://www.techinterviewha
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
-(*Note*: Performance is the percentage of submissions that my code outperforms in terms of runtime.)
+(*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
 Completed: 40/169.
 
