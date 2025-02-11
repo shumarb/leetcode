@@ -20,7 +20,7 @@ Completed: 11/79.
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |
 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedList.java)            | 0ms     | 100%   |
 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java)                  | 1ms     | 94%    |
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 4ms     | 98.74% |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                      | Submission                                                                                | Runtime | Rank   |
