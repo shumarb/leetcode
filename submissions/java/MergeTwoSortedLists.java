@@ -12,32 +12,46 @@
  */
 class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode p1 = new ListNode();
-        ListNode p2 = new ListNode();
-        p1 = list1;
-        p2 = list2;
-        ListNode head = new ListNode();
-        ListNode curr = new ListNode();
-        curr = head;
-        while (p1 != null && p2 != null) {
+        // 1. No nodes in both nodes
+        if (list1 == null && list2 == null) {
+            return null;
+        }
+        ListNode list1Current = list1;
+        ListNode list2Current = list2;
+        ListNode head = new ListNode(-1);
+        ListNode current = head;
+
+        /**
+         2.  Both lists are have at least 1 node,
+         so check its corresponding elements to identify smaller element
+         and add it to combined list
+         */
+        while (list1Current != null && list2Current != null) {
             ListNode newNode;
-            if (p1.val <= p2.val) {
-                newNode = new ListNode(p1.val);
-                p1 = p1.next;
+            if (list1Current.val <= list2Current.val) {
+                newNode = new ListNode(list1Current.val);
+                list1Current = list1Current.next;
             } else {
-                newNode = new ListNode(p2.val);
-                p2 = p2.next;
+                newNode = new ListNode(list2Current.val);
+                list2Current = list2Current.next;
             }
-            curr.next = newNode;
-            curr = curr.next;
+            current.next = newNode;
+            current = current.next;
         }
 
-        if (p1 != null) {
-            curr.next = p1;
+        /**
+         3.  If both lists are of different lengths,
+         while loop above iterates the entirety of shorter list but not the other list
+         so set current node's next to the start node of remaining nodes of the other list 
+         that has not been traversed fully.
+         */
+        if (list1Current != null) {
+            current.next = list1Current;
         }
-        if (p2 != null) {
-            curr.next = p2;
+        if (list2Current != null) {
+            current.next = list2Current;
         }
+
         return head.next;
     }
 
