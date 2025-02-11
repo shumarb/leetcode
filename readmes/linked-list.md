@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/79.
+Completed: 12/79.
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -23,9 +23,10 @@ Completed: 11/79.
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                      | Submission                                                                                | Runtime | Rank   |
-|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java) | 1ms     | 100%   |
+| Question                                                                                                               | Submission                                                                                                    | Runtime | Rank  |
+|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|-------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                     | 1ms     | 100%  |
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.87% |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
