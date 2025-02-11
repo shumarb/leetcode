@@ -10,14 +10,12 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class MergeTwoSortedLists {
+class MergeTwoSortedLists  {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         // 1. No nodes in both nodes
         if (list1 == null && list2 == null) {
             return null;
         }
-        ListNode list1Current = list1;
-        ListNode list2Current = list2;
         ListNode head = new ListNode(-1);
         ListNode current = head;
 
@@ -26,16 +24,14 @@ class MergeTwoSortedLists {
          so check its corresponding elements to identify smaller element
          and add it to combined list
          */
-        while (list1Current != null && list2Current != null) {
-            ListNode newNode;
-            if (list1Current.val <= list2Current.val) {
-                newNode = new ListNode(list1Current.val);
-                list1Current = list1Current.next;
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                current.next = list1;
+                list1 = list1.next;
             } else {
-                newNode = new ListNode(list2Current.val);
-                list2Current = list2Current.next;
+                current.next = list2;
+                list2 = list2.next;
             }
-            current.next = newNode;
             current = current.next;
         }
 
@@ -45,11 +41,11 @@ class MergeTwoSortedLists {
          so set current node's next to the start node of remaining nodes of the other list 
          that has not been traversed fully.
          */
-        if (list1Current != null) {
-            current.next = list1Current;
+        if (list1 != null) {
+            current.next = list1;
         }
-        if (list2Current != null) {
-            current.next = list2Current;
+        if (list2 != null) {
+            current.next = list2;
         }
 
         return head.next;
