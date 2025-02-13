@@ -1,4 +1,4 @@
-# Math
+# Counting
 
 ## Overview
 This folder contains my solutions to the LeetCode [Counting](https://leetcode.com/problem-list/counting/) problem list,
