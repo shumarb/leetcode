@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/79.
+Completed: 14/79.
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -28,6 +28,7 @@ Completed: 13/79.
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                     | 1ms     | 100%  |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.87% |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%    |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                  | 0ms     | 100%  |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
