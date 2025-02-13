@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/213.
+Completed: 23/213.
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                            | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -37,5 +37,6 @@ Completed: 22/213.
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)            | 5ms     | 74.40% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 4ms     | 88.06% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.87%  |
+| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
 | [Two Input Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoInputSumTwoInputArrayIsSorted.java)  | 2ms     | 93.40% |

@@ -8,7 +8,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 96/1835.
+Completed: 97/1835.
 
 ### Easy
 | Question                                                                                                                                                                 | Submission                                                                                                                         | Runtime     | Rank      |
@@ -106,6 +106,7 @@ Completed: 96/1835.
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                         | 0ms       | 100%     |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArrayTwo.java)                      | 0ms       | 100%     |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                                    | 1ms       | 73.86%   |
+| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                                     | 0ms     | 100%   |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                                        | 41ms      | 26.79%   |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                                       | 0ms       | 100%     |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                               | 14ms      | 57.29%   |
