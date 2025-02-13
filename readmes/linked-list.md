@@ -27,7 +27,7 @@ Completed: 13/79.
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|-------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                     | 1ms     | 100%  |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.87% |
-| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 3ms     | 9.87%  |
+| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%    |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
