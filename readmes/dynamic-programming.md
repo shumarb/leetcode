@@ -17,6 +17,7 @@ Completed: 6/563.
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)           | 0ms     | 100%   |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)             | 1ms     | 93.37% |
 
+### Medium
 | Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java) | 5ms     | 88.83% |
