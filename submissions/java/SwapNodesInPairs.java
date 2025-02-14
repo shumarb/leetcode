@@ -38,13 +38,13 @@ class SwapNodesInPairs {
             first.next = second.next;
             second.next = first;
             previous.next = second;
-
-            // 4. Move to next pair of adjacent nodes
-            head = first.next;
             previous = first;
             if (isTest) {
                 display("after swap, list so far: ", dummy.next);
             }
+
+            // 4. Move to next pair of adjacent nodes
+            head = first.next;
         }
         if (isTest) {
             display("final list: ", dummy.next);
