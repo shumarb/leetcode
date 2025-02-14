@@ -72,7 +72,6 @@ Completed: 55/666.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                         | 6ms     | 98%    | 
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                             | 2ms     | 98.25% | 
 
-
 ### Hard
 | Question                                                                                    | Submission                                                                                       | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
