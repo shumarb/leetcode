@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/75.
+Completed: 24/75.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 23/75.
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)                  | 8ms     | 4.29%  |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
