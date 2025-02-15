@@ -1,14 +1,14 @@
-# Tree
+# Binary Tree
 
 ## Overview
-This folder contains my solutions to the LeetCode [Stack](https://leetcode.com/problem-list/tree/) problem list,
+This folder contains my solutions to the LeetCode [Binary Tree](https://leetcode.com/problem-list/binary-tree/) problem list,
 with entries sorted alphabetically by question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/240.
+Completed: 4/176.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                             | Runtime | Rank   |

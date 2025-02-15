@@ -1,20 +1,19 @@
-# Tree
+# Depth First Search
 
 ## Overview
-This folder contains my solutions to the LeetCode [Stack](https://leetcode.com/problem-list/tree/) problem list,
+This folder contains my solutions to the LeetCode [Depth First Search](https://leetcode.com/problem-list/depth-first-search/) problem list,
 with entries sorted alphabetically by question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/240.
+Completed: 3/312.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java) | 0ms     | 100%   |
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                 | 21ms    | 54.99% |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)   | 0ms     | 100%   |
 
 ### Medium
