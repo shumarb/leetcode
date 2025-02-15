@@ -2,34 +2,45 @@
 
 class ThirdMaximumNumber {
     public int thirdMax(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        boolean t = false;
-        for (int n: nums) {
-            if (!set.contains(n)) {
-                minHeap.offer(n);
-                // This ensures heap remains at size 3 at end of every iteration
-                if (minHeap.size() > 3) {
-                    minHeap.poll();
+        long firstMax = Long.MIN_VALUE;
+        long secondMax = Long.MIN_VALUE;
+        long thirdMax = Long.MIN_VALUE;
+        boolean isTest = false;
+
+        for (int number: nums) {
+            /**
+             1.  Ensures only top three distinct elements are processed
+             if nums has >= 3 distinct elements
+             */
+            if (firstMax == number || secondMax == number || thirdMax == number) {
+                continue;
+            } else {
+                if (number > firstMax) {
+                    thirdMax = secondMax;
+                    secondMax = firstMax;
+                    firstMax = number;
+                } else if (number > secondMax) {
+                    thirdMax = secondMax;
+                    secondMax =  number;
+                } else if (number > thirdMax) {
+                    thirdMax = number;
                 }
             }
-            set.add(n);
-        }
-        if (t) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("set: " + set);
-            System.out.println("minHeap: " + minHeap);
-        }
 
-        // If minHeap is of size 3, then root is 3rd distinct
-        // otherwise, reduce the heap to size 1 to get the maximum
-        if (minHeap.size() == 3) {
-            return minHeap.peek();
-        } else {
-            while (minHeap.size() != 1) {
-                minHeap.poll();
+            if (isTest) {
+                System.out.println("firstMax so far: " + firstMax);
+                System.out.println("secondMax so far: " + secondMax);
+                System.out.println("thirdMax so far: " + thirdMax);
             }
         }
-        return minHeap.peek();
+
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums));
+            System.out.println("firstMax: " + firstMax);
+            System.out.println("secondMax: " + secondMax);
+            System.out.println("thirdMax: " + thirdMax);
+        }
+
+        return (thirdMax == Long.MIN_VALUE) ? (int) firstMax : (int) thirdMax;
     }
 }
