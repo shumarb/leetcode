@@ -19,6 +19,6 @@ Completed: 5/312.
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)     | 0ms     | 100% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                           | Runtime | Rank  |
-|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|-------|
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java) | 8ms     | 4.29% |
+| Question                                                                                                  | Submission                                                                                           | Runtime | Rank |
+|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|------|
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java) | 0ms     | 100% |

@@ -16,23 +16,23 @@
  * }
  */
 class KthSmallestElementInABST {
-    private boolean isTest = true;
+    private int count = 0;
+    private int result = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> elements = new ArrayList<>();
-        populate(root, elements);
-        if (isTest) {
-            System.out.println("elements (sorted): " + elements);
-        }
-
-        return elements.get(k - 1);
+        traverse(root, k);
+        return result;
     }
 
-    private void populate(TreeNode node, List<Integer> elements) {
+    private void traverse(TreeNode node, int k) {
         if (node != null) {
-            populate(node.left, elements);
-            elements.add(node.val);
-            populate(node.right, elements);
+            traverse(node.left, k);
+            count++;
+            if (count == k) {
+                result = node.val;
+                return;
+            }
+            traverse(node.right, k);
         }
     }
 }
