@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/169.
+Completed: 46/169.
 
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -18,6 +18,7 @@ Completed: 45/169.
 | 5   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)                           | 4ms     | 54.42% |
 | 7   | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                              | 3ms     | 90.36% |
 | 8   | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                              | 0ms     | 100%   |
+| 15  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BalancedBinaryTree.java)                        | 0ms     | 100%   |
 | 16  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |
 | 17  | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementQueueUsingStacks.java)                 | 0ms     | 100%   |
 | 18  | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstBadVersion.java)                           | 24ms    | 98.13% |
