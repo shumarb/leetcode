@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/1835.
+Completed: 99/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -64,6 +64,7 @@ Completed: 98/1835.
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                       | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                              | 12ms    | 93.70% |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MoveZeroes.java)                                           | 1ms     | 99.85% |
+| [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50% |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PlusOne.java)                                              | 0ms     | 100%   |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumQueryImmutable.java)                               | 8ms     | 65.10% |

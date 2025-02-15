@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/437.
+Completed: 31/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 30/437.
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
+| [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50% |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                               | 25ms    | 86.01% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                                        | 9ms     | 61.66% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                          | 2ms     | 95.73% |
