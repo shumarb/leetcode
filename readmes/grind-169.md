@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/169.
+Completed: 45/169.
 
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -36,6 +36,7 @@ Completed: 44/169.
 | 65  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)                         | 10ms    | 88.34% |
 | 68  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
 | 71  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
+| 75  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)                  | 8ms     | 4.29%  |
 | 76  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                         | 77ms    | 31.05% |
 | 90  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 4ms     | 88.06% |
 | 91  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                         | 6ms     | 98.00% | 
