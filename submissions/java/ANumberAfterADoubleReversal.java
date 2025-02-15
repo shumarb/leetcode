@@ -21,7 +21,7 @@ class ANumberAfterADoubleReversal {
     private int getReversedNumber(int num) {
         int reversedNumber = 0;
 
-        // 1. Eliminate trailing zeroes
+        // 1. Eliminate leading zeroes
         while (num % 10 == 0 && num != 0) {
             num /= 10;
         }
