@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/40.
+Completed: 5/40.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 4/40.
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                       | 21ms    | 54.99% |
 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenBSTNodes.java) | 0ms     | 100%   |
+| [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumOfBST.java)                    | 1ms     | 45.33% |
 
 ### Medium
 | Question                                                                                                  | Submission                                                                                           | Runtime | Rank |
