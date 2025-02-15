@@ -2,7 +2,9 @@
 
 ## Overview
 This folder contains my solutions to the LeetCode [Hash Table](https://leetcode.com/problem-list/hash-table/) problem list,
-with entries sorted alphabetically by question title.
+with entries sorted by:
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
+- Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
