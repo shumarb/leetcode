@@ -7,12 +7,12 @@ class ANumberAfterADoubleReversal {
 
         int reversed1 = getReversedNumber(numCopy);
         if (isTest) {
-            System.out.println("num: " + num + "\nrevered1: " + reversed1);
+            System.out.println("num: " + num + "\nreversed1: " + reversed1);
         }
 
         int reversed2 = getReversedNumber(reversed1);
         if (isTest) {
-            System.out.println("num: " + num + "\nrevered2: " + reversed2);
+            System.out.println("num: " + num + "\nreversed2: " + reversed2);
         }
 
         return reversed2 == num;
