@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/1835.
+Completed: 100/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -34,6 +34,7 @@ Completed: 99/1835.
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                      | 2ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)      | 2ms     | 98.35% |
 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                   | 3ms     | 99.85% |
+| [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)                 | 1ms     | 100%   |
 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIndicesOfStableMountains.java)                         | 1ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)                    | 1ms     | 98.93% |
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                                       | 1ms     | 94.56% |
