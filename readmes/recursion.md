@@ -13,16 +13,16 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 Completed: 10/46.
 
 ### Easy
-| Question                                                                                              | Submission                                                                                           | Runtime | Rank |
-|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|------|
-| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)          | 0ms     | 100% |
-| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)      | 0ms     | 100% |
-| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeLinkedList.java)     | 10ms    | 24%  |
-| [Power of Four](https://leetcode.com/problems/power-of-four/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfFour.java)              | 0ms     | 100% |
-| [Power of Three](https://leetcode.com/problems/power-of-three/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfThree.java)             | 7ms     | 100% |
-| [Power of Two](https://leetcode.com/problems/power-of-two/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)               | 0ms     | 100% |
-| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java) | 1ms     | 94%  |
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)        | 0ms     | 100% |
+| Question                                                                                              | Submission                                                                                           | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)          | 0ms     | 100%   |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)      | 0ms     | 100%   |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeLinkedList.java)     | 4ms     | 83.80% |
+| [Power of Four](https://leetcode.com/problems/power-of-four/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfFour.java)              | 0ms     | 100%   |
+| [Power of Three](https://leetcode.com/problems/power-of-three/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfThree.java)             | 7ms     | 100%   |
+| [Power of Two](https://leetcode.com/problems/power-of-two/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)               | 0ms     | 100%   |
+| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java) | 1ms     | 94%    |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)        | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                               | Submission                                                                                   | Runtime | Rank |

@@ -12,26 +12,44 @@
  */
 class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
-        ListNode current = head;
-        StringBuilder str = new StringBuilder();
-        boolean isTest = false;
-
-        while (current != null) {
-            str.append(Character.forDigit(current.val, 10));
-            current = current.next;
-        }
-        if (isTest) {
-            System.out.println("str: " + str);
+        // 1. Edge cases: empty list, list with 1 element
+        if (head == null || head.next == null) {
+            return true;
         }
 
-        int left = 0;
-        int right = str.length() - 1;
-        while (left < right) {
-            if (str.charAt(left++) != str.charAt(right--)) {
+        // 2. Iterate first half of linked list
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        // 3. Reverse second half of linked list
+        slow = reverse(slow);
+
+        // 4. Check if corresponding elements of first and second halves of linked list are equal
+        // If not, it is not a linked list.
+        fast = head;
+        while (slow != null) {
+            if (slow.val != fast.val) {
                 return false;
             }
+            slow = slow.next;
+            fast = fast.next;
         }
-
         return true;
+    }
+
+    private ListNode reverse(ListNode head) {
+        ListNode previous = null;
+        ListNode current = head;
+        while (current != null) {
+            ListNode next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+        return previous;
     }
 }
