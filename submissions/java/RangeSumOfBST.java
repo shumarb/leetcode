@@ -24,12 +24,13 @@ class RangeSumOfBST {
     }
 
     private void inOrderTraversal(TreeNode node, int low, int high) {
-        if (node != null) {
-            inOrderTraversal(node.left, low, high);
-            if (node.val >= low && node.val <= high) {
-                sum += node.val;
-            }
-            inOrderTraversal(node.right, low, high);
+        if (node == null) {
+            return;
         }
+        inOrderTraversal(node.left, low, high);
+        if (node.val >= low && node.val <= high) {
+            sum += node.val;
+        }
+        inOrderTraversal(node.right, low, high);
     }
 }
