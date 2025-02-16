@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/46.
+Completed: 10/46.
 
 ### Easy
 | Question                                                                                              | Submission                                                                                           | Runtime | Rank |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|------|
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)          | 0ms     | 100% |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)      | 0ms     | 100% |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//PalindromeLinkedList.java)    | 10ms    | 24%  |
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfFour.java)              | 0ms     | 100% |
 | [Power of Three](https://leetcode.com/problems/power-of-three/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfThree.java)             | 7ms     | 100% |
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)               | 0ms     | 100% |

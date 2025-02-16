@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/79.
+Completed: 15/79.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 14/79.
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)                       | 0ms     | 100%   |
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//PalindromeLinkedList.java)                     | 10ms    | 24%    |
 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedList.java)            | 0ms     | 100%   |
 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java)                  | 1ms     | 94%    |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 0ms     | 100%   |
