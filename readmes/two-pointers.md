@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/213.
+Completed: 24/213.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                            | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                  | 1ms     | 95.99% |
+| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                    | 1ms     | 78.15% |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                 | 2ms     | 94.12% |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java) | 0ms     | 100%   |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |

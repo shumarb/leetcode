@@ -10,20 +10,21 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/167.
+Completed: 14/167.
 
 ### Easy
-| Question                                                                                                                        | Submission                                                                                                      | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)          | 0ms     | 100%   |
-| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)         | 0ms     | 100%   |
-| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)        | 0ms     | 100%   |
-| [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementQueueUsingStacks.java)           | 0ms     | 100%   |
-| [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java)           | 0ms     | 100%   |
-| [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                  | 3ms     | 62.40% |
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)               | 3ms     | 92.50% |
-| [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java) | 36ms    | 48.71% |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)                    | 2ms     | 97.66% |
+| Question                                                                                                                         | Submission                                                                                                      | Runtime  | Rank   |
+|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------|--------|
+| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)              | 1ms      | 78.15% |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)          | 0ms      | 100%   |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)         | 0ms      | 100%   |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)        | 0ms      | 100%   |
+| [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementQueueUsingStacks.java)           | 0ms      | 100%   |
+| [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java)           | 0ms      | 100%   |
+| [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                  | 3ms      | 62.40% |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)               | 3ms      | 92.50% |
+| [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java) | 36ms     | 48.71% |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)                    | 2ms      | 97.66% |
 
 ### Medium
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |

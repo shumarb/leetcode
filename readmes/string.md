@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/760.
+Completed: 44/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                        | 2ms     | 99.94% |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                       | 2ms     | 61.51% |
+| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckedBalancedString.java)                            | 1ms     | 99.21% |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java) | 1ms     | 100%   |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                              | 4ms     | 66.45% |
