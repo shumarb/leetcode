@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/666.
+Completed: 57/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -53,6 +53,7 @@ Completed: 56/666.
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                           | 1ms     | 99.52% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                          | 2ms     | 95.73% |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) | 1ms     | 92.66% |
+| [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                       | 5ms     | 92.79% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                        | 0ms     | 94.45% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                  | 0ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                               | 1ms     | 98.25% |

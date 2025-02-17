@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/437.
+Completed: 33/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -33,6 +33,7 @@ Completed: 32/437.
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                                        | 9ms     | 61.66% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                          | 2ms     | 95.73% |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) | 1ms     | 92.66% |
+| [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                       | 5ms     | 92.79% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                        | 0ms     | 94.45% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                                | 1ms     | 100%   |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThirdMaximumNumber.java)                                   | 1ms     | 97.13% |
