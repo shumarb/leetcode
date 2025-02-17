@@ -2,15 +2,19 @@
 
 import java.math.BigInteger;
 
-class Solution {
+class FindTheKthLargestIntegerInTheArray {
     public String kthLargestNumber(String[] nums, int k) {
         PriorityQueue<BigInteger> minHeap = new PriorityQueue<>();
         boolean isTest = false;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < k; i++) {
             minHeap.offer(new BigInteger(nums[i]));
-            if (minHeap.size() > k) {
+        }
+        for (int i = k; i < nums.length; i++) {
+            BigInteger currentElement = new BigInteger(nums[i]);
+            if (currentElement.compareTo(minHeap.peek()) > 0) {
                 minHeap.poll();
+                minHeap.offer(currentElement);
             }
         }
         if (isTest) {
