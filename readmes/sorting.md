@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/437.
+Completed: 32/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -39,14 +39,15 @@ Completed: 31/437.
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                         | 3ms     | 90.36% |
 
 ### Medium
-| Question                                                                                                                      | Submission                                                                                                    | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)        | 39ms    | 73.11% |
-| [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java) | 15ms    | 55.37% |
-| [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                | 10ms    | 45.32% |
-| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)         | 13ms    | 74.79% |
-| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
-| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)              | 14ms    | 57.29% |
-| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                 | 6ms     | 98%    | 
+| Question                                                                                                                          | Submission                                                                                                    | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 90ms    | 27.80% |
+| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)        | 39ms    | 73.11% |
+| [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java) | 15ms    | 55.37% |
+| [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                | 10ms    | 45.32% |
+| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)         | 13ms    | 74.79% |
+| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
+| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)              | 14ms    | 57.29% |
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                 | 6ms     | 98%    | 

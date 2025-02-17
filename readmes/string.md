@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/760.
+Completed: 47/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -60,6 +60,7 @@ Completed: 46/760.
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
+| [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 90ms    | 27.80% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                  | 87ms    | 32.57% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                              | 5ms     | 51.87% |
