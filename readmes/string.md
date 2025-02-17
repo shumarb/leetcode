@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/760.
+Completed: 46/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 45/760.
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                    | 3ms     | 50.44% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                     | 3ms     | 90.36% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)                                  | 4ms     | 54.42% |
+| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                               | 4ms     | 99.71% |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)                                 | 2ms     | 97.66% |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/WordPattern.java)                                      | 1ms     | 82.52% |
 
