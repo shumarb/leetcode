@@ -26,7 +26,7 @@ Completed: 24/75.
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)         | 4ms     | 98.74% |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                    | 1ms     | 98.25% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)              | 3ms     | 90.36% |
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)           | 4ms     | 54.42% |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)           | 2ms     | 99.08% |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)          | 2ms     | 97.66% |
 
 ### Medium
