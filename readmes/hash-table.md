@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/666.
+Completed: 58/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -47,6 +47,7 @@ Completed: 57/666.
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                       | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                              | 12ms    | 93.70% |
+| [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)              | 1ms     | 100%   |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)               | 1ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                               | 25ms    | 86.01% |

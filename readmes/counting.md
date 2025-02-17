@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/157.
+Completed: 21/157.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 20/157.
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java)      | 0ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                       | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                              | 12ms    | 93.70% |
+| [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)              | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                           | 1ms     | 99.52% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                  | 0ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                        | 3ms     | 50.44% |
