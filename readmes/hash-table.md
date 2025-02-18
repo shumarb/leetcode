@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/666.
+Completed: 60/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -53,6 +53,7 @@ Completed: 59/666.
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)               | 1ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                               | 25ms    | 86.01% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                           | 1ms     | 99.52% |
+| [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondLargestDigitInAString.java)                          | 1ms     | 95.03% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                          | 2ms     | 95.73% |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) | 1ms     | 92.66% |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                       | 5ms     | 92.79% |
