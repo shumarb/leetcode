@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/213.
+Completed: 28/213.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                            | Runtime | Rank   |
@@ -34,9 +34,9 @@ Completed: 27/213.
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseString.java)                             | 0ms     | 100%   |
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseVowelsOfAString.java)                    | 4ms     | 50.91% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                     | 1ms     | 100%   |
+| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                     | 1ms     | 96.19% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)                           | 2ms     | 99.08% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                        | 4ms     | 99.71% |
-
 
 ### Medium
 | Question                                                                                                               | Submission                                                                                                    | Runtime | Rank   |

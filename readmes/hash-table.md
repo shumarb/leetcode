@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/666.
+Completed: 61/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -60,6 +60,7 @@ Completed: 60/666.
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                        | 0ms     | 94.45% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                  | 0ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                               | 1ms     | 98.25% |
+| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                                | 1ms     | 96.19% |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                        | 3ms     | 50.44% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                         | 3ms     | 90.36% |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/WordPattern.java)                                          | 1ms     | 82.52% |
