@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/437.
+Completed: 34/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 33/437.
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                                    | 2ms     | 62.27% |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)         | 5ms     | 83.20% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofMultipleArrays.java)                         | 2ms     | 100%   |
+| [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |

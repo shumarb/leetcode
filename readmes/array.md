@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 104/1835.
+Completed: 105/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -54,6 +54,7 @@ Completed: 104/1835.
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                          | 0ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                           | 6ms     | 86.06% |
 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthMissingPositiveNumber.java)                             | 2ms     | 11.57% |
+| [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)                           | 2ms     | 98.18% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                                    | 0ms     | 100%   |
