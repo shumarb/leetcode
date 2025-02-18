@@ -1,14 +1,15 @@
+// Question: https://leetcode.com/problems/two-sum/description/
+
 class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        HashMap <Integer, Integer> numberIndexMap = new HashMap <Integer, Integer> ();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int numberToFind = target - nums[i];
-            if (numberIndexMap.containsKey(numberToFind)) {
-                return new int[] {i, numberIndexMap.get(numberToFind)};
-            }  
-            numberIndexMap.put(nums[i], i);
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] {i, map.get(complement)};
+            }
+            map.put(nums[i], i);
         }
-        return null;   
+        return null;
     }
-
 }
