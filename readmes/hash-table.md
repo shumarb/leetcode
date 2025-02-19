@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 67/666.
+Completed: 68/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 67/666.
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.70% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.45% |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsomorphicStrings.java)                                    | 13ms    | 52.01% |
+| [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JewelsAndStones.java)                                      | 1ms     | 60.50% |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                          | 0ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                           | 6ms     | 86.06% |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 52/760.
+Completed: 53/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -36,6 +36,7 @@ Completed: 52/760.
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                         | 1ms     | 99.52% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)                                    | 1ms     | 93.37% |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsomorphicStrings.java)                                | 13ms    | 52.01% |
+| [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JewelsAndStones.java)                                  | 1ms     | 60.50% |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                      | 0ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                       | 6ms     | 86.06% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix//description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                              | 1ms     | 64.40% |
