@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/760.
+Completed: 52/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 51/760.
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                   | 3ms     | 98.26% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)             | 1ms     | 100%   |
 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWordsContainingCharacter.java)                     | 2ms     | 54.27% |
+| [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWordsThatCanBeFormedByCharacters.java)             | 5ms     | 87.08% |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                                | 2ms     | 62.27% |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java)        | 0ms     | 100%   |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                         | 0ms     | 100%   |
