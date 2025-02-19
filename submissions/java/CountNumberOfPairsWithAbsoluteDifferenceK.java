@@ -3,13 +3,18 @@
 class CountNumberOfPairsWithAbsoluteDifferenceK {
     public int countKDifference(int[] nums, int k) {
         int count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                if (i < j && Math.abs(nums[i] - nums[j]) == k) {
-                    count++;
-                }
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int number: nums) {
+            map.put(number, 1 + map.getOrDefault(number, 0));
+        }
+
+        for (int number: nums) {
+            int complement = k + number;
+            if (map.containsKey(complement)) {
+                count += map.get(complement);
             }
         }
+
         return count;
     }
 }
