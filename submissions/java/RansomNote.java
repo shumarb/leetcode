@@ -8,7 +8,6 @@ class RansomNote {
 
         int[] magazineFrequency = new int[26];
         int[] ransomNoteFrequency = new int[26];
-
         populate(magazine, magazineFrequency);
         populate(ransomNote, ransomNoteFrequency);
 
@@ -17,7 +16,6 @@ class RansomNote {
                 return false;
             }
         }
-
         return true;
     }
 
