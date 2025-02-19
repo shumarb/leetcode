@@ -24,7 +24,7 @@ class FindSumPairs {
             map.remove(elementBeforeUpdate);
         }
 
-        // Increase number of times updatedElement appear in nums2 by 1
+        // 2. Increase number of times updatedElement appear in nums2 by 1
         nums2[index] += val;
         int updatedElement = nums2[index];
         map.put(updatedElement, 1 + map.getOrDefault(updatedElement, 0));

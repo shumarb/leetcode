@@ -25,6 +25,6 @@ Completed: 9/126.
 ### Medium
 | Question                                                                                                        | Submission                                                                                      | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)     | 170ms   | 14.63% |
+| [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)     | 153ms   | 42.39% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)       | 25ms    | 93.59% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java) | 16ms    | 33.15% |
