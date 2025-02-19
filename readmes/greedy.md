@@ -16,7 +16,7 @@ Completed: 4/400.
 | Question                                                                              | Submission                                                                                     | Runtime | Rank   |
 |---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)     | 48ms    | 5.12%  |
-| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)  | 7ms     | 52.78% |
+| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)  | 2ms     | 89.66% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java) | 4ms     | 99.71% |
 
 ### Medium

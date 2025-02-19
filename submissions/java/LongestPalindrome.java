@@ -2,31 +2,35 @@
 
 class LongestPalindrome {
     public int longestPalindrome(String s) {
-        int longestPalindromeLength = 0;
+        int[] letterFrequency = new int[52];
         boolean isTest = false;
-        Map<Character, Integer> map = new HashMap<>();
+        int longestPalindromeLength = 0;
 
         for (char letter: s.toCharArray()) {
-            map.put(letter, 1 + map.getOrDefault(letter, 0));
+            if (Character.isUpperCase(letter)) {
+                letterFrequency[letter - 'A']++;
+            } else {
+                letterFrequency[letter - 'a' + 26]++;
+            }
         }
         if (isTest) {
-            System.out.println("s: " + s + "\nmap: " + map);
+            System.out.println("s: " + s + "\nletterFrequency: " + Arrays.toString(letterFrequency));
         }
 
-        int countOddNumberOfLetters = 0;
-        for (Map.Entry<Character, Integer> entry: map.entrySet()) {
-            // 1. If letter appears even number of times, all of it can be part of longest palindrome
-            if (entry.getValue() % 2 == 0) {
-                longestPalindromeLength += entry.getValue();
+        boolean countAllOddLettersOnce = false;
+        for (int count: letterFrequency) {
+            if (count % 2 == 0) {
+                // 1. If letter appears even number of times, all of it can be part of longest palindrome.
+                longestPalindromeLength += count;
             } else {
-                // 2. For letters appearing odd numbers, can add total number of times it appears exactly once,
-                // and for the rest, can only add its total - 1.
-                if (countOddNumberOfLetters == 0) {
-                    longestPalindromeLength += entry.getValue();
+                // 2. For letters appearing an odd number of times, add the count of one letter,
+                // and for others, add count - 1.
+                if (!countAllOddLettersOnce) {
+                    longestPalindromeLength += count;
+                    countAllOddLettersOnce = true;
                 } else {
-                    longestPalindromeLength += entry.getValue() - 1;
+                    longestPalindromeLength += count - 1;
                 }
-                countOddNumberOfLetters++;
             }
         }
 
