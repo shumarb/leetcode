@@ -10,22 +10,23 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/176.
+Completed: 13/176.
 
 ### Easy
-| Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BalancedBinaryTree.java)               | 0ms     | 100%   |
-| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)       | 0ms     | 100%   |
-| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)      | 0ms     | 100%   |
-| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)     | 0ms     | 100%   |
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                       | 21ms    | 54.99% |
-| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
-| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoBinaryTrees.java)              | 0ms     | 100%   |
-| [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
-| [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenBSTNodes.java) | 0ms     | 100%   |
-| [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumOfBST.java)                    | 1ms     | 45.33% |
-| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
+| Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BalancedBinaryTree.java)               | 0ms     | 100%   |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)       | 0ms     | 100%   |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)      | 0ms     | 100%   |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)     | 0ms     | 100%   |
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                       | 21ms    | 54.99% |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
+| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoBinaryTrees.java)              | 0ms     | 100%   |
+| [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
+| [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenBSTNodes.java) | 0ms     | 100%   |
+| [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumOfBST.java)                    | 1ms     | 45.33% |
+| [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondMinimumNodeInABinaryTree.java)   | 0ms     | 100%   |
+| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
 | Question                                                                                                  | Submission                                                                                           | Runtime | Rank |
