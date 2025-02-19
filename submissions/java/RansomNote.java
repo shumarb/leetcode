@@ -5,22 +5,25 @@ class RansomNote {
         if (ransomNote.length() > magazine.length()) {
             return false;
         }
-        char[] rArr = formsFreqArr(ransomNote);
-        char[] mArr = formsFreqArr(magazine);
-        for (int i = 0; i < rArr.length; i++) {
-            if (rArr[i] != 0 && mArr[i] < rArr[i]) {
+
+        int[] magazineFrequency = new int[26];
+        int[] ransomNoteFrequency = new int[26];
+
+        populate(magazine, magazineFrequency);
+        populate(ransomNote, ransomNoteFrequency);
+
+        for (int i = 0; i < 26; i++) {
+            if (magazineFrequency[i] < ransomNoteFrequency[i]) {
                 return false;
             }
         }
+
         return true;
     }
 
-    private char[] formsFreqArr(String str) {
-        char[] arr = new char[26];
-        for (int i = 0; i < str.length(); i++) {
-            arr[str.charAt(i) - 'a']++;
+    private void populate(String str, int[] frequency) {
+        for (char letter: str.toCharArray()) {
+            frequency[letter - 'a']++;
         }
-        return arr;
     }
-
 }
