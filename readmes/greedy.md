@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/400.
+Completed: 4/400.
 
 ### Easy
-| Question                                                                                | Submission                                                                                     | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
-| [Array Partition](https://leetcode.com/problems/array-partition/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)     | 48ms    | 5.12%  |
-| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java) | 4ms     | 99.71% |
+| Question                                                                              | Submission                                                                                     | Runtime | Rank   |
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
+| [Array Partition](https://leetcode.com/problems/array-partition/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)     | 48ms    | 5.12%  |
+| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)  | 7ms     | 52.78% |
+| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java) | 4ms     | 99.71% |
 
 ### Medium
 | Question                                                                                          | Submission                                                                                         | Runtime | Rank   |

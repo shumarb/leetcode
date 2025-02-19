@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/760.
+Completed: 51/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -38,6 +38,7 @@ Completed: 50/760.
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                      | 0ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                       | 6ms     | 86.06% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix//description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                              | 1ms     | 64.40% |
+| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                | 7ms     | 52.78% |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                               | 3ms     | 62.40% |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                          | 3ms     | 75.90% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                             | 3ms     | 100%   |
