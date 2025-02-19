@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 107/1835.
+Completed: 108/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -106,6 +106,7 @@ Completed: 107/1835.
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPeakElement.java)                                | 0ms     | 100%   |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                         | 4ms     | 88.06% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                         | 79ms    | 50.60% |
+| [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                | 170ms   | 14.63% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                                  | 25ms    | 93.59% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                     | 39ms    | 73.11% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java)              | 15ms    | 55.37% |
