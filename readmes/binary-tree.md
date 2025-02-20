@@ -31,7 +31,7 @@ Completed: 16/176.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                           | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java) | 0ms     | 100%   |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java) | 2ms     | 98.25% | 
+| Question                                                                                                  | Submission                                                                                           | Runtime | Rank |
+|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|------|
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java) | 0ms     | 100% |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java) | 0ms     | 100- |  

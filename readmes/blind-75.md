@@ -43,7 +43,7 @@ Completed: 26/75.
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                              | 0ms     | 100%   |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                          | 0ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                      | 14ms    | 57.29% |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)                  | 2ms     | 98.25% | 
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
