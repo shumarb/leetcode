@@ -2,21 +2,22 @@
 
 class LongestSubstringWithoutRepeatedCharacters {
     public int lengthOfLongestSubstring(String s) {
-        Set<Character> set = new HashSet<> ();
-        int maxLen = 0;
-        int l = 0;
-        int r = 0;
-        while (r < s.length()) {
-            char letter = s.charAt(r);
-            if (!set.contains(letter)) {
-                set.add(letter);
-                r++;
-            } else {
-                set.remove(s.charAt(l++));
-            }
-            maxLen = Math.max(maxLen, set.size());
-        }
-        return maxLen;
-    }
+        int maxLength = 0;
+        int left = 0;
+        int right = 0;
+        Set<Character> set = new HashSet<>();
 
+        while (right != s.length()) {
+            char sCharacter = s.charAt(right);
+            if (!set.contains(sCharacter)) {
+                set.add(sCharacter);
+                maxLength = Math.max(maxLength, set.size());
+                right++;
+            } else {
+                set.remove(s.charAt(left++));
+            }
+        }
+
+        return maxLength;
+    }
 }
