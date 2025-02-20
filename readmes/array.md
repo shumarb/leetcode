@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 111/1835.
+Completed: 112/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -95,6 +95,7 @@ Completed: 111/1835.
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                  | 0ms     | 100%   |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThirdMaximumNumber.java)                                   | 1ms     | 97.13% |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                               | 1ms     | 98.89% |
+| [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueNumberOfOccurrences.java)                            | 2ms     | 97.94% |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)                          | 1ms     | 100%   |
 
 ### Medium
