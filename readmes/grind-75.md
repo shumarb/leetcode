@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/75.
+Completed: 29/75.
 
 | #  | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -27,6 +27,7 @@ Completed: 28/75.
 | 28 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |
 | 30 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                         | 2ms     | 89.66% |
 | 32 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 4ms     | 98.74% |
+| 33 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)                  | 2ms     | 98.25% |
 | 36 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
 | 46 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                           | 2ms     | 99.80% |
 | 47 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                 | 2ms     | 99.94% |

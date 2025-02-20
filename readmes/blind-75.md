@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/75.
+Completed: 26/75.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 24/75.
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)             | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)             | 0ms     | 100%   |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)         | 4ms     | 98.74% |
+| [Same Tree](https://leetcode.com/problems/same-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SameTree.java)                  | 0ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                    | 1ms     | 98.25% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)              | 3ms     | 90.36% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)           | 2ms     | 99.08% |
@@ -42,6 +43,7 @@ Completed: 24/75.
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                              | 0ms     | 100%   |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                          | 0ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                      | 14ms    | 57.29% |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)                  | 2ms     | 98.25% | 
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
