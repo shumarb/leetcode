@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 113/1835.
+Completed: 114/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -121,6 +121,7 @@ Completed: 113/1835.
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                          | 9ms     | 94.03% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PeakIndexInAMountainArray.java)                      | 0ms     | 100%   |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                       | 2ms     | 89.32% |
+| [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveStonesToMinimizeTheTotal.java)                 | 600ms   | 20.43% |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                     | 0ms     | 100%   |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArrayTwo.java)                  | 0ms     | 100%   |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                                | 1ms     | 73.86% |

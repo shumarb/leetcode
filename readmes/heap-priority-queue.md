@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/186.
+Completed: 14/186.
 
 ### Easy
 | Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
@@ -25,6 +25,7 @@ Completed: 13/186.
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 79ms    | 50.60% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)        | 39ms    | 73.11% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java) | 15ms    | 55.37% |
+| [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveStonesToMinimizeTheTotal.java)    | 600ms   | 20.43% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java)               | 16ms    | 33.15% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)         | 14ms    | 64.05% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
