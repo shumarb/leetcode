@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/126.
+Completed: 10/126.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -27,4 +27,5 @@ Completed: 9/126.
 |-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)     | 153ms   | 42.39% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)       | 25ms    | 93.59% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)            | 4ms     | 97.18% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java) | 16ms    | 33.15% |

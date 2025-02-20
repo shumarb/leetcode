@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/167.
+Completed: 16/167.
 
 ### Easy
 | Question                                                                                                                        | Submission                                                                                                      | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 15/167.
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)        | 77ms    | 31.05% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                 | 4ms     | 97.18% |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)    | 9ms     | 94.03% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java) | 87ms    | 32.57% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)             | 5ms     | 51.87% |
