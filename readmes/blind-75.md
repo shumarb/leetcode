@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/75.
+Completed: 27/75.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 26/75.
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java) | 2ms     | 72.40% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)         | 10ms    | 88.34% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)              | 2ms     | 95%    |
+| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InvertBinaryTree.java)          | 0ms     | 100%   |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)           | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)  | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)       | 0ms     | 100%   |
