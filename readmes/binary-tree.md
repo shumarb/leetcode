@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/176.
+Completed: 19/176.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -29,6 +29,7 @@ Completed: 18/176.
 | [Path Sum](https://leetcode.com/problems/path-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PathSum.java)                          | 0ms     | 100%   |
 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumOfBST.java)                    | 1ms     | 45.33% |
 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SameTree.java)                         | 0ms     | 100%   |
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInABinarySearchTree.java)        | 0ms     | 100%   |
 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondMinimumNodeInABinaryTree.java)   | 0ms     | 100%   |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 

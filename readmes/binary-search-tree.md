@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/40.
+Completed: 10/40.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 9/40.
 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenBSTNodes.java) | 0ms     | 100%   |
 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumOfBST.java)                    | 1ms     | 45.33% |
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInABinarySearchTree.java)        | 0ms     | 100%   |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
