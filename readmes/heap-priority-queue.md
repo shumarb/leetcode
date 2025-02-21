@@ -10,16 +10,17 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/186.
+Completed: 18/186.
 
 ### Easy
-| Question                                                                                                                              | Submission                                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                           | 21ms    | 54.99% |
-| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastStoneWeight.java)                      | 1ms     | 97.76% |
-| [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java) | 0ms     | 100%   |
-| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                        | 9ms     | 61.66% |
-| [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)          | 6ms     | 52.37% |
+| Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java) | 8ms     | 62.37% |
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                                | 21ms    | 54.99% |
+| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastStoneWeight.java)                           | 1ms     | 97.76% |
+| [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java)      | 0ms     | 100%   |
+| [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                             | 9ms     | 61.66% |
+| [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)               | 6ms     | 52.37% |
 
 ### Medium
 | Question                                                                                                                          | Submission                                                                                                       | Runtime | Rank   |
