@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/176.
+Completed: 18/176.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -20,6 +20,7 @@ Completed: 17/176.
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)      | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)     | 0ms     | 100%   |
 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindModeInBinarySearchTree.java)       | 6ms     | 44.33% |
+| [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)        | 0ms     | 100%   |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                       | 21ms    | 54.99% |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoBinaryTrees.java)              | 0ms     | 100%   |
