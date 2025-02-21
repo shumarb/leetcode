@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/186.
+Completed: 19/186.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -38,6 +38,7 @@ Completed: 18/186.
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                        | 2ms     | 98.25% | 
 
 ### Hard
-| Question                                                                                | Submission                                                                                    | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java) | 5ms     | 35.39% |
+| Question                                                                                                | Submission                                                                                    | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)      | 92ms    | 78.28% |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java) | 5ms     | 35.39% |

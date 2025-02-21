@@ -3,14 +3,14 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Design](https://leetcode.com/problem-list/design/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/126.
+Completed: 11/126.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -29,3 +29,8 @@ Completed: 10/126.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)       | 25ms    | 93.59% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)            | 4ms     | 97.18% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java) | 16ms    | 33.15% |
+
+### Hard
+| Question                                                                                                | Submission                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java) | 92ms    | 78.28% |

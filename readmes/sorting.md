@@ -3,14 +3,14 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Sorting](https://leetcode.com/problem-list/sorting/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/437.
+Completed: 39/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                        | Runtime | Rank   |
@@ -57,3 +57,8 @@ Completed: 38/437.
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)              | 14ms    | 57.29% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                 | 6ms     | 98%    | 
+
+### Hard
+| Question                                                                                                | Submission                                                                                | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)  | 92ms    | 78.28% |

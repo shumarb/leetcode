@@ -3,14 +3,14 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Two Pointers](https://leetcode.com/problem-list/two-pointers/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/213.
+Completed: 34/213.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -52,3 +52,8 @@ Completed: 33/213.
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                           | 42ms    | 5%     |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                 | 3ms     | 93.35% |
 | [Two Input Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoInputSumTwoInputArrayIsSorted.java)   | 2ms     | 93.40% |
+
+### Hard
+| Question                                                                                                | Submission                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java) | 92ms    | 78.28% |
