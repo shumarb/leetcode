@@ -1,5 +1,3 @@
-// Question: https://leetcode.com/problems/increasing-order-search-tree/description/
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -15,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class IncreasingOrderSearchTree {
     public TreeNode increasingBST(TreeNode root) {
         List<TreeNode> elements = new ArrayList<>();
         boolean isTest = false;
@@ -24,18 +22,18 @@ class Solution {
         if (isTest) {
             display(elements);
         }
-        for (int i = 0; i < elements.size() - 1; i++) {
+        for (int i = 0; i < elements.size(); i++) {
             TreeNode current = elements.get(i);
             current.left = null;
-            current.right = elements.get(i + 1);
+            if (i == elements.size() - 1) {
+                // 1. Only last element's right child is set to null
+                current.right = null;
+            } else {
+                current.right = elements.get(i + 1);
+            }
         }
 
-        // 1. Update last element
-        TreeNode lastElement = elements.get(elements.size() - 1);
-        lastElement.left = null;
-        lastElement.right = null;
-
-        // 2. Set root to first element in the list
+        // 2. Set root to first element in the list.
         root = elements.get(0);
         return root;
     }
