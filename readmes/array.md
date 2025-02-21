@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 114/1835.
+Completed: 115/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -116,6 +116,7 @@ Completed: 114/1835.
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                     | 39ms    | 73.11% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java)              | 15ms    | 55.37% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                             | 10ms    | 45.32% |
+| [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)           | 164ms   | 13.81% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)       | 54ms    | 30.96% |
 | [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumSumOfMountainTripletsTwo.java)                | 2ms     | 100%   |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                          | 9ms     | 94.03% |
