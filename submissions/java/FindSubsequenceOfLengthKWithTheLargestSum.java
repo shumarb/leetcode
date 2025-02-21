@@ -13,8 +13,10 @@ class FindSubsequenceOfLengthKWithTheLargestSum {
             displayList("list before sort: ", list);
         }
 
-        // 1. Sort list in descending order of element and ascending order of index
-        // to preserve order of elements.
+        /**
+         1.  Sort list in descending order of element and ascending order of index
+         to preserve order of elements.
+         */
         list.sort((a, b) -> b[0] - a[0]);
         if (isTest) {
             displayList("list after sort: ", list);
@@ -26,10 +28,11 @@ class FindSubsequenceOfLengthKWithTheLargestSum {
             displayList("top k elements: ", list);
         }
 
-        // 3. Sort k elements in ascending order of value whilst preserving order,
-        // an populate result array accordingly.
+        /**
+         3.  Sort k elements in ascending order of value whilst preserving order,
+         an populate result array accordingly.
+         */
         topKElements.sort((a, b) -> a[1] - b[1]);
-
         for (int i = 0; i < k; i++) {
             result[i] = topKElements.get(i)[0];
         }
