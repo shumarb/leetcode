@@ -9,11 +9,13 @@ class MinStack {
     }
 
     public void push(int val) {
-        if (stack.isEmpty()) {
-            minimum = val;
-        } else {
-            minimum = Math.min(stack.peek().getMinimum(), val);
-        }
+        /**
+             1.  If stack is empty, the first value in stack is the minimum.
+             2.  If stack is not empty, retrieve minimum value in stack
+             by checking minimum value after insertion of latest element
+             before current element.
+         */
+        minimum = stack.isEmpty() ? val : Math.min(stack.peek().getMinimum(), val);
         stack.push(new Pair(val, minimum));
     }
 
