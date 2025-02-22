@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 120/1835.
+Completed: 121/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -80,6 +80,7 @@ Completed: 120/1835.
 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50% |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDistinctAverages.java)                             | 1ms     | 99.35% |
+| [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEmployeesWhoMetTheTarget.java)                     | 0ms     | 100%   |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PlusOne.java)                                              | 0ms     | 100%   |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumQueryImmutable.java)                               | 8ms     | 65.10% |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                               | 25ms    | 86.01% |
