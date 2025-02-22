@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/400.
+Completed: 8/400.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                          | Runtime | Rank   |
@@ -21,8 +21,9 @@ Completed: 7/400.
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                      | 4ms     | 99.71% |
 
 ### Medium
-| Question                                                                                                                          | Submission                                                                                                       | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)               | 5ms     | 74.40% |
-| [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java) | 164ms   | 13.81% |
-| [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveStonesToMinimizeTheTotal.java)       | 600ms   | 20.43% |
+| Question                                                                                                                           | Submission                                                                                                        | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                | 5ms     | 74.40% |
+| [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)  | 164ms   | 13.81% |
+| [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToHalfArraySum.java)       | 198ms   | 74.18% |
+| [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveStonesToMinimizeTheTotal.java)        | 600ms   | 20.43% |
