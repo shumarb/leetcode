@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 70/666.
+Completed: 71/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -48,6 +48,7 @@ Completed: 70/666.
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                                      | 0ms     | 100%   |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                    | 2ms     | 89.66% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
+| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java)              | 0ms     | 100%   |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                              | 3ms     | 75.90% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                                 | 3ms     | 100%   |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |

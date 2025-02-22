@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 118/1835.
+Completed: 119/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -62,6 +62,7 @@ Completed: 118/1835.
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastStoneWeight.java)                                      | 1ms     | 97.76% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)                           | 2ms     | 98.18% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
+| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java)              | 0ms     | 100%   |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                                    | 0ms     | 100%   |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java)      | 0ms     | 100%   |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
