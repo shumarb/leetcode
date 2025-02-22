@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/171.
+Completed: 17/171.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                          | Runtime | Rank   |
@@ -31,7 +31,8 @@ Completed: 16/171.
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)             | 1ms     | 100%   |
 
 ### Medium
-| Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java) | 87ms    | 32.57% |
-| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)             | 0ms     | 100%   |
+| Question                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueTwo.java) | 146ms   | 71.53% |
+| [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                   | 87ms    | 32.57% |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                               | 0ms     | 100%   |
