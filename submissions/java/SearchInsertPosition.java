@@ -2,21 +2,24 @@
 
 class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
-        int l = 0;
-        int h = nums.length - 1;
-        while (l <= h) {
-            int m = (l + h) / 2;
-            if (nums[m] == target) {
-                return m;
-            } else if (nums[m] < target) {
-                l++;
-            } else {
-                h--;
-            }
-        }
+        // 1. If target > last element, it's insert position is at index nums.length
         if (target > nums[nums.length - 1]) {
             return nums.length;
         }
-        return l;
+
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return low;
     }
 }
