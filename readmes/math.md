@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/556.
+Completed: 48/556.
 
 ### Easy
 | Question                                                                                                                                                       | Submission                                                                                                                  | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 47/556.
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                       | 2ms     | 99.94% |
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddDigits.java)                                       | 0ms     | 100%   |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                      | 2ms     | 61.51% |
+| [Add Two Integers](https://leetcode.com/problems/add-two-integers/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoIntegers.java)                                  | 0ms     | 100%   |
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddToArrayFormOfInteger.java)                         | 2ms     | 99.20% |
 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AlternatingDigitSum.java)                             | 0ms     | 100%   |
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Base7.java)                                           | 1ms     | 70.47% |
