@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/666.
+Completed: 74/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 73/666.
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                            | 12ms    | 97.83% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                      | 2ms     | 100%   |
 | [Find All Numbers Disappeared In An Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                   | 3ms     | 99.85% |
+| [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)             | 5ms     | 14.27% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)            | 8ms     | 62.37% |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValidPairOfAdjacentDigitsInString.java)                | 2ms     | 88.14% |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWordsThatCanBeFormedByCharacters.java)                 | 5ms     | 87.08% |
