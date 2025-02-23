@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/666.
+Completed: 75/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -35,6 +35,7 @@ Completed: 74/666.
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                                    | 2ms     | 62.27% |
 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifferenceOfTwoArrays.java)                         | 11ms    | 45.10% |
 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDistinctDifferenceArray.java)                       | 5ms     | 93.20% |
+| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)                                     | 0ms     | 100%   |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                             | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstUniqueCharacterInAString.java)                        | 5ms     | 93.93% |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                          | 0ms     | 100%   |

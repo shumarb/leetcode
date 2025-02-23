@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 125/1835.
+Completed: 126/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 125/1835.
 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheHighestAltitude.java)                               | 0ms     | 100%   |
 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMiddleIndexInArray.java)                            | 0ms     | 100%   |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindThePeaks.java)                                         | 1ms     | 100%   |
+| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)                                     | 0ms     | 100%   |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)         | 5ms     | 83.20% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofMultipleArrays.java)                         | 2ms     | 100%   |
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                              | 1ms     | 98.70% |
