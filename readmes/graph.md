@@ -16,4 +16,4 @@ Completed: 2/158.
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInG-raph.java) | 53ms    | 88.29% |
-| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)         | 0ms     | 100%   |
+| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)         | 2ms     | 100%   |
