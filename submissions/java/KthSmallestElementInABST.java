@@ -20,19 +20,19 @@ class KthSmallestElementInABST {
     private int result = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        traverse(root, k);
+        inOrderTraversal(root, k);
         return result;
     }
 
-    private void traverse(TreeNode node, int k) {
+    private void inOrderTraversal(TreeNode node, int k) {
         if (node != null) {
-            traverse(node.left, k);
+            inOrderTraversal(node.left, k);
             count++;
             if (count == k) {
                 result = node.val;
                 return;
             }
-            traverse(node.right, k);
+            inOrderTraversal(node.right, k);
         }
     }
 }
