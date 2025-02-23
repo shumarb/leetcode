@@ -5,7 +5,7 @@ class FindIfPathExistsInGraph {
         List<Integer>[] graph = new List[n];
         boolean[] visited = new boolean[n];
 
-        // 1. Populate graph
+        // 1. Populate graph.
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
