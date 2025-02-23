@@ -1,7 +1,7 @@
 // Question: https://leetcode.com/problems/min-stack/description/
 
 class MinStack {
-    private Stack<Pair> stack;
+    private Stack<int[]> stack;
     private int minimum = 0;
 
     public MinStack() {
@@ -10,13 +10,13 @@ class MinStack {
 
     public void push(int val) {
         /**
-             1.  If stack is empty, the first value in stack is the minimum.
-             2.  If stack is not empty, retrieve minimum value in stack
-             by checking minimum value after insertion of latest element
-             before current element.
+         1.  If stack is empty, the first value in stack is the minimum.
+         2.  If stack is not empty, retrieve minimum value in stack
+         by checking minimum value after insertion of latest element
+         before current element.
          */
-        minimum = stack.isEmpty() ? val : Math.min(stack.peek().getMinimum(), val);
-        stack.push(new Pair(val, minimum));
+        minimum = stack.isEmpty() ? val : Math.min(stack.peek()[1], val);
+        stack.push(new int[]{val, minimum});
     }
 
     public void pop() {
@@ -24,32 +24,13 @@ class MinStack {
     }
 
     public int top() {
-        return stack.peek().getElement();
+        return stack.peek()[0];
     }
 
     public int getMin() {
-        return stack.peek().getMinimum();
+        return stack.peek()[1];
     }
 }
-
-class Pair {
-    private int element;
-    private int minimum;
-
-    public Pair(int element, int minimum) {
-        this.element = element;
-        this.minimum = minimum;
-    }
-
-    public int getElement() {
-        return element;
-    }
-
-    public int getMinimum() {
-        return minimum;
-    }
-}
-
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack obj = new MinStack();
