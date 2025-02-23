@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/556.
+Completed: 50/556.
 
 ### Easy
 | Question                                                                                                                                                       | Submission                                                                                                                  | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 49/556.
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java) | 2ms     | 98.35% |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)                                 | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)               | 1ms     | 98.93% |
+| [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfDigitGameCanBeWon.java)                         | 0ms     | 100%   |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                        | 1ms     | 99.52% |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                               | 1ms     | 99.64% |
