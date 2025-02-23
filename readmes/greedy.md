@@ -10,14 +10,15 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 8/400.
+Completed: 9/400.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                          | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                          | 48ms    | 5.12%  |
-| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java) | 0ms     | 100%   |
+| [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                       | 1ms     | 99.64% |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                       | 2ms     | 89.66% |
+| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java) | 0ms     | 100%   |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                      | 4ms     | 99.71% |
 
 ### Medium

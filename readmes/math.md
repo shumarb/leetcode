@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/556.
+Completed: 47/556.
 
 ### Easy
 | Question                                                                                                                                                       | Submission                                                                                                                  | Runtime | Rank   |
@@ -32,6 +32,7 @@ Completed: 46/556.
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)               | 1ms     | 98.93% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                        | 1ms     | 99.52% |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |
+| [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                               | 1ms     | 99.64% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                    | 11ms    | 84.46% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                   | 1ms     | 36.78% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfCommonFactors.java)                           | 1ms     | 44.28% |
