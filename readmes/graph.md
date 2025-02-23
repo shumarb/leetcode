@@ -10,10 +10,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/158.
+Completed: 3/158.
 
 ### Easy
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCenterOfStarGraph.java)    | 3ms     | 34.14% |
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInG-raph.java) | 53ms    | 88.29% |
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)         | 2ms     | 100%   |
