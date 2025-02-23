@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/666.
+Completed: 73/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -80,6 +80,7 @@ Completed: 72/666.
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                           | 153ms   | 42.39% |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                             | 9ms     | 35.78% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                             | 25ms    | 93.59% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                        | 10ms    | 45.32% |
