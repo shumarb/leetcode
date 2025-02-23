@@ -5,7 +5,7 @@ class FindIfPathExistsInGraph {
         List<Integer>[] graph = new List[n];
         boolean[] visited = new boolean[n];
 
-        // 1. Populate graph.
+        // 1. Populate graph
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
@@ -16,14 +16,9 @@ class FindIfPathExistsInGraph {
             graph[end].add(start);
         }
 
-        // 2. Use BFS iteratively with a queue.
-        return bfs(graph, source, destination, visited);
-    }
-
-    private boolean bfs(List<Integer>[] graph, int source, int destination, boolean[] visited) {
+        // 2. Execute breadth-first search on start vertex.
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(source);
-
         while (!queue.isEmpty()) {
             int current = queue.poll();
 
@@ -37,9 +32,8 @@ class FindIfPathExistsInGraph {
                 continue;
             }
 
-            /**
-             5.  Mark current node as visited,
-                 and check all its unvisited neighbours.
+            /** 5.  Mark current node as visited
+             and check its unvisited neighbours.
              */
             visited[current] = true;
             for (int neighbour: graph[current]) {

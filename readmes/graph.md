@@ -13,6 +13,6 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 Completed: 1/158.
 
 ### Easy
-| Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find if Path Exists](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInGraph.java)          | 5ms     | 88.29% |
+| Question                                                                                                | Submission                                                                                          | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|--------|
+| [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInGraph.java) | 54ms    | 88.04% |
