@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/556.
+Completed: 51/556.
 
 ### Easy
 | Question                                                                                                                                                       | Submission                                                                                                                  | Runtime | Rank   |
@@ -36,6 +36,7 @@ Completed: 50/556.
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                               | 1ms     | 99.64% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                    | 11ms    | 84.46% |
+| [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)      | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                   | 1ms     | 36.78% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfCommonFactors.java)                           | 1ms     | 44.28% |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeNumber.java)                                | 6ms     | 30.91% |

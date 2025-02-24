@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 128/1835.
+Completed: 129/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -73,6 +73,7 @@ Completed: 128/1835.
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)           | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |
+| [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)           | 1ms     | 100%   |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumSumOfMountainTripletsOne.java)                      | 1ms     | 100%   |
 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueOne.java)           | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
