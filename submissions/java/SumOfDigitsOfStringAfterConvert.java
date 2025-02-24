@@ -1,54 +1,45 @@
 // Question: https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/
 
-class SumOfDigitsOfStringAfterConvert {
+class SumOfDigitsOfStringAfterConvert class Solution {
+    private boolean isTest = false;
+
     public int getLucky(String s, int k) {
-        boolean t = false;
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            int cVal = 1 + (c - 'a');
-            if (t) {
-                System.out.println("c: " + c + " | cVal: " + cVal);
+        String converted = convert(s);
+        if (isTest) {
+            System.out.println("s: " + s + " --> converted: " + converted + "\nk: " + k);
+        }
+        for (int i = 0; i < k; i++) {
+            if (isTest) {
+                System.out.println("----------------------------------------------------------");
+                System.out.println("before, result: " + converted + ", iteration: " + (i + 1));
             }
-            sb.append(cVal);
-        }
-        if (t) {
-            System.out.println("sb: " + sb);
-        }
-
-        String convertedS = sb.toString();
-        if (t) {
-            System.out.println("convertedS: " + convertedS);
-        }
-        int num = 0;
-        for (int i = 0; i < convertedS.length(); i++) {
-            num += Character.getNumericValue(convertedS.charAt(i));
-        }
-        if (t) {
-            System.out.println("num: " + num);
-        }
-        if (k == 1) {
-            return num;
-        }
-
-        int sum = 0;
-        for (int i = 0; i < k - 1; i++) {
-            sum += computeSum(num);
-            if (i != k - 2) {
-                num = sum;
-                sum = 0;
+            converted = transform(converted);
+            if (isTest) {
+                System.out.println("after, result: " + converted);
             }
         }
 
-        return sum;
+        return Integer.parseInt(converted);
     }
 
-    private int computeSum(int n) {
+    private String transform(String converted) {
         int sum = 0;
-        while (n > 0) {
-            sum += (n % 10);
-            n /= 10;
+        for (int i = 0; i < converted.length(); i++) {
+            char digit = converted.charAt(i);
+            if (isTest) {
+                System.out.println(" * current: " + digit + " --> value: " + Character.getNumericValue(digit));
+            }
+            sum += Character.getNumericValue(digit);
         }
-        return sum;
+        return String.valueOf(sum);
+    }
+
+    private String convert(String s) {
+        StringBuilder converted = new StringBuilder();
+        for (char letter: s.toCharArray()) {
+            int value = letter - 'a' + 1;
+            converted.append(value);
+        }
+        return converted.toString();
     }
 }
