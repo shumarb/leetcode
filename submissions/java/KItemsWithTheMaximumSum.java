@@ -2,39 +2,29 @@
 
 class KItemsWithTheMaximumSum {
     public int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {
-        int maximumSum = 0;
+        List<Integer> elements = new ArrayList<>();
         boolean isTest = false;
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        int maximumSum = 0;
 
-        populate(maxHeap, numOnes, 1);
-        populate(maxHeap, numZeros, 0);
-        populate(maxHeap, numNegOnes, -1);
+        populate(elements, -1, numNegOnes);
+        populate(elements, 0, numZeros);
+        populate(elements, 1, numOnes);
         if (isTest) {
-            System.out.println("numOnes: " + numOnes + ", numZeros: " + numZeros + ", numNegOnes: " + numNegOnes + ",k: " + k);
-            System.out.println("maxHeap: " + maxHeap);
+            System.out.println("numNegOnes: " + numNegOnes + ", numZeros: " + numZeros + ", numOnes: " + numOnes + ", k: " + k);
+            System.out.println("elements: " + elements);
         }
 
+        int j = elements.size() - 1;
         for (int i = 0; i < k; i++) {
-            if (isTest) {
-                System.out.println("-------------------------");
-                System.out.println("before, maxHeap: " + maxHeap + ", maximumSum: " + maximumSum);
-            }
-            maximumSum += maxHeap.peek();
-            maxHeap.poll();
-            if (isTest) {
-                System.out.println("after, maxHeap: " + maxHeap + ", maximumSum: " + maximumSum);
-            }
-        }
-        if (isTest) {
-            System.out.println("final maximumSum: " + maximumSum);
+            maximumSum += elements.get(j--);
         }
 
         return maximumSum;
     }
 
-    private void populate(PriorityQueue<Integer> maxHeap, int count, int number) {
+    private void populate(List<Integer> elements, int number, int count) {
         for (int i = 0; i < count; i++) {
-            maxHeap.offer(number);
+            elements.add(number);
         }
     }
 }
