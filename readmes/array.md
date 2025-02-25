@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 134/1835.
+Completed: 135/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 134/1835.
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)      | 2ms     | 98.35% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalPricesWithASpecialDiscountInAShop.java)               | 2ms     | 65.61% |
 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                   | 3ms     | 99.85% |
+| [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindClosestNumberToZero.java)                              | 2ms     | 85.90% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)                 | 1ms     | 100%   |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                     | 0ms     | 100%   |
 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIndicesOfStableMountains.java)                         | 1ms     | 100%   |
