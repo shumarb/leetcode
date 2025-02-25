@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 133/1835.
+Completed: 134/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -44,6 +44,7 @@ Completed: 133/1835.
 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIndicesOfStableMountains.java)                         | 1ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)                    | 1ms     | 98.93% |
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                                       | 1ms     | 94.56% |
+| [Find Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)             | 5ms     | 14.27% |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSmallestLetterGreaterThanTarget.java)                  | 0ms     | 100%   |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)            | 8ms     | 62.37% |

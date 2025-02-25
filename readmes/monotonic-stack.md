@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/65.
+Completed: 5/65.
 
 ### Easy
-| Question                                                                                                                        | Submission                                                                                                      | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)               | 3ms     | 92.50% |
+| Question                                                                                                                                   | Submission                                                                                        | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java) | 3ms     | 92.50% |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java) | 3ms     | 92.50% |
 
 ### Medium
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
