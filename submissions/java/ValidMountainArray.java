@@ -2,7 +2,7 @@
 
 class ValidMountainArray {
     public boolean validMountainArray(int[] arr) {
-        // 1. Array has < 3 elements, so it is not mountain array
+        // 1. Array has < 3 elements, so it is not mountain array.
         if (arr.length < 3) {
             return false;
         }
@@ -13,7 +13,7 @@ class ValidMountainArray {
             System.out.println("arr: " + Arrays.toString(arr) + ", peakIndex: " + peakIndex);
         }
 
-        // 2. No boundary index, so return false;
+        // 2. No peak index (index of peak element), so return false.
         if (peakIndex == -1) {
             return false;
         }
@@ -53,8 +53,9 @@ class ValidMountainArray {
 
             /**
              4.  Current element > its next element.
-             It could be peak index, so take note of it,
+             It could be peak element, so set current index as peak index,
              and repeat check in range [low, mid - 1].
+             Current index may not be the peak index after subsequent checks.
              */
             if (arr[mid] > arr[mid + 1]) {
                 peakIndex = mid;
@@ -71,4 +72,4 @@ class ValidMountainArray {
 
         return peakIndex;
     }
-}
+}}
