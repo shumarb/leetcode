@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/
 
-class FindPricesWithASpecialDiscountInAShop {
+class FinalPricesWithASpecialDiscountInAShop {
     public int[] finalPrices(int[] prices) {
         boolean isTest = false;
 
@@ -20,14 +20,5 @@ class FindPricesWithASpecialDiscountInAShop {
         }
 
         return prices;
-    }
-
-    private boolean isAscending(int[] prices) {
-        for (int i = 1; i < prices.length; i++) {
-            if (prices[i] < prices[i - 1]) {
-                return false;
-            }
-        }
-        return true;
     }
 }

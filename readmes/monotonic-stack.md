@@ -13,10 +13,10 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 Completed: 5/65.
 
 ### Easy
-| Question                                                                                                                                   | Submission                                                                                        | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java) | 3ms     | 92.50% |
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java) | 3ms     | 92.50% |
+| Question                                                                                                                                    | Submission                                                                                                         | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalPricesWithASpecialDiscountInAShop.java) | 2ms     | 65.61% |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                  | 3ms     | 92.50% |
 
 ### Medium
 | Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
