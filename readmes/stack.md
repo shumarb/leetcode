@@ -3,14 +3,14 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Stack](https://leetcode.com/problem-list/stack/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/167.
+Completed: 18/167.
 
 ### Easy
 | Question                                                                                                                        | Submission                                                                                                      | Runtime | Rank   |
@@ -36,3 +36,8 @@ Completed: 17/167.
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)    | 9ms     | 94.03% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java) | 87ms    | 32.57% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)             | 5ms     | 51.87% |
+
+### Hard
+| Question                                                                                                              | Submission                                                                                                | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |
