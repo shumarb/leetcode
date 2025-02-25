@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/437.
+Completed: 43/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -30,6 +30,7 @@ Completed: 42/437.
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java)              | 0ms     | 100%   |
+| [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductDifferenceBetweenTwoPairs.java)              | 2ms     | 98.79% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java)                 | 0ms     | 100%   |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |
