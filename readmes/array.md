@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 136/1835.
+Completed: 137/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 136/1835.
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddToArrayFormOfInteger.java)                              | 2ms     | 99.20% |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                             | 1ms     | 95.99% |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                       | 48ms    | 5.12%  |
+| [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)     | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)     | 0ms     | 100%   |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java)                            | 2ms     | 72.40% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                         | 0ms     | 100%   |
