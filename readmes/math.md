@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/556.
+Completed: 57/556.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 56/556.
 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheDigitsThatDivideANumber.java)                  | 0ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)  | 2ms     | 98.35% |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)                                  | 0ms     | 100%   |
+| [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                 | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)                | 1ms     | 98.93% |
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfDigitGameCanBeWon.java)                          | 0ms     | 100%   |
