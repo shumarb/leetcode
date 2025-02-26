@@ -1,12 +1,19 @@
 // Question: https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/
 
 class MinimumNumberOfVerticesToReachAllNodes {
-    private boolean isTest = false;
-
     public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
         List<Integer> result = new ArrayList<>();
-        boolean[] destinations = getDestinations(n, edges);
+        boolean[] destinations = new boolean[n];
+        boolean isTest = false;
 
+        /**
+         1.  Mark vertices with >= 1 incoming edge.
+         This means that these vertices are destinations,
+         as there exists a path to these vertices.
+         */
+        for (List<Integer> edge: edges) {
+            destinations[edge.get(1)] = true;
+        }
         if (isTest) {
             display(n, edges);
             System.out.println("destinations: " + Arrays.toString(destinations));
@@ -14,23 +21,14 @@ class MinimumNumberOfVerticesToReachAllNodes {
 
         for (int i = 0; i < n; i++) {
             /**
-             1.  Only count vertices with 0 incoming edges
-             because there exists a path for all other vertices with at leat 1 incoming edge,
-             and these vertices with 0 incoming edges must be counted in order to reach all nodes.
+             2.  Only count vertices with 0 incoming edges
+             because these vertices must be counted in order to reach all nodes.
              */
             if (!destinations[i]) {
                 result.add(i);
             }
         }
 
-        return result;
-    }
-
-    private boolean[] getDestinations(int n, List<List<Integer>> edges) {
-        boolean[] result = new boolean[n];
-        for (List<Integer> edge: edges) {
-            result[edge.get(1)] = true;
-        }
         return result;
     }
 

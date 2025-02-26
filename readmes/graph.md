@@ -22,4 +22,4 @@ Completed: 5/158.
 ### Medium
 | Question                                                                                                                                  | Submission                                                                                                         | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfVerticesToReachAllNodes.java) | 10ms    | 40.71% |
+| [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfVerticesToReachAllNodes.java) | 8ms     | 99.23% |
