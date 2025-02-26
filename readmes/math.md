@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/556.
+Completed: 56/556.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -43,6 +43,7 @@ Completed: 55/556.
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)       | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                    | 1ms     | 36.78% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfCommonFactors.java)                            | 1ms     | 44.28% |
+| [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                | 1ms     | 88.22% |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeNumber.java)                                 | 6ms     | 30.91% |
 | [Perfect Number](https://leetcode.com/problems/perfect-number/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PerfectNumber.java)                                    | 2ms     | 83.64% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PlusOne.java)                                          | 0ms     | 100%   |
