@@ -28,7 +28,7 @@ Completed: 18/233.
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)                                 | 0ms     | 100%   |
 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeNumberOfSetBitsInBinaryRepresentation.java) | 66ms    | 10.43% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                | 2ms     | 95.73% |
-| [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)             | 12ms    | 17%    |
+| [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)             | 10ms    | 38.72% |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XorOperationInAnArray.java)                      | 0ms     | 100%   |
 
 ### Medium
