@@ -2,31 +2,41 @@
 
 class SortIntegersByTheNumberOf1Bits {
     public int[] sortByBits(int[] arr) {
-        Arrays.sort(arr);
-        List<int[]> sortedNumbers = new ArrayList();
         boolean isTest = false;
+        Integer[] integerArr = new Integer[arr.length];
 
-        for (int element: arr) {
-            sortedNumbers.add(new int[] {element, Integer.bitCount(element)});
-        }
-        sortedNumbers.sort((e1, e2) -> e1[0] != e2[0] ? e1[1] - e2[1] : e1[0] - e2[0]);
-        if (isTest) {
-            System.out.println("before, nums: " + Arrays.toString(arr));
-            System.out.print("sorted numbers: [");
-            for (int i = 0; i < sortedNumbers.size() - 1; i++) {
-                int[] current = sortedNumbers.get(i);
-                System.out.print("(" + current[0] + ", " + current[1] + "), ");
-            }
-            int[] last = sortedNumbers.get(sortedNumbers.size() - 1);
-            System.out.println("(" + last[0] + ", " + last[1] + ")]");
-        }
-
+        /**
+         1.  Create new array Integer wrapper objects,
+         where each element is order as per arr
+         as comparator works on objects and not primitive types.
+         */
         int i = 0;
-        for (int[] current: sortedNumbers) {
-            arr[i++] = current[0];
+        for (int number: arr) {
+            integerArr[i++] = number;
         }
         if (isTest) {
-            System.out.println("after, nums: " + Arrays.toString(arr));
+            System.out.println("integerArr: " + Arrays.toString(integerArr));
+        }
+
+        Arrays.sort(integerArr, (a, b) -> {
+            int numBitsA = Integer.bitCount(a);
+            int numBitsB = Integer.bitCount(b);
+            if (numBitsA != numBitsB) {
+                return numBitsA - numBitsB;
+            } else {
+                return a - b;
+            }
+        });
+        if (isTest) {
+            System.out.println("integerArr: " + Arrays.toString(integerArr));
+        }
+
+        i = 0;
+        for (int number: integerArr) {
+            arr[i++] = number;
+        }
+        if (isTest) {
+            System.out.println("arr: " + Arrays.toString(arr));
         }
 
         return arr;
