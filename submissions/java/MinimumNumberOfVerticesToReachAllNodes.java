@@ -3,20 +3,19 @@
 class MinimumNumberOfVerticesToReachAllNodes {
     public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
         List<Integer> result = new ArrayList<>();
-        boolean[] destinations = new boolean[n];
+        boolean[] hasIncomingEdge = new boolean[n];
         boolean isTest = false;
 
         /**
          1.  Mark vertices with >= 1 incoming edge.
-         This means that these vertices are destinations,
-         as there exists a path to these vertices.
+         This means that there exists a path to these vertices.
          */
         for (List<Integer> edge: edges) {
-            destinations[edge.get(1)] = true;
+            hasIncomingEdge[edge.get(1)] = true;
         }
         if (isTest) {
             display(n, edges);
-            System.out.println("destinations: " + Arrays.toString(destinations));
+            System.out.println("hasIncomingEdge: " + Arrays.toString(hasIncomingEdge));
         }
 
         for (int i = 0; i < n; i++) {
@@ -24,7 +23,7 @@ class MinimumNumberOfVerticesToReachAllNodes {
              2.  Only count vertices with 0 incoming edges
              because these vertices must be counted in order to reach all nodes.
              */
-            if (!destinations[i]) {
+            if (!hasIncomingEdge[i]) {
                 result.add(i);
             }
         }
