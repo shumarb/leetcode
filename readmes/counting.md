@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/157.
+Completed: 26/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -34,6 +34,7 @@ Completed: 25/157.
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                          | 12ms    | 93.70% |
 | [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)          | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                       | 1ms     | 99.14% |
+| [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                   | 12ms    | 17%    |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                              | 0ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                    | 3ms     | 50.44% |
 

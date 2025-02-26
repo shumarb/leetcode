@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 140/1835.
+Completed: 141/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -109,6 +109,7 @@ Completed: 140/1835.
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SignOfTheProductOfAnArray.java)                            | 0ms     | 100%   |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) | 1ms     | 92.66% |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                       | 5ms     | 92.79% |
+| [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                       | 12ms    | 17%    |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                        | 0ms     | 94.45% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                                | 1ms     | 100%   |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)                        | 1ms     | 100%   |
