@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 141/1835.
+Completed: 142/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -29,6 +29,7 @@ Completed: 141/1835.
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConcatenationOfArrays.java)                                | 1ms     | 96.28% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)                                    | 10ms    | 88.34% |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)                                 | 18ms    | 82.31% |
+| [Counting Words With a Given Prefix Occurrence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                        | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                    | 6ms     | 89.98% |
 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountEqualAndDivisiblePairsInAnArray.java)                 | 3ms     | 99.52% |
 | [Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)                  | 0ms     | 100%   |
