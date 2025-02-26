@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/171.
+Completed: 18/171.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                          | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 17/171.
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountIntegersWithEvenDigitSum.java)           | 1ms     | 86.87% |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                          | 3ms     | 98.26% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                | 1ms     | 99.52% |
+| [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//KeepMultiplyingFoundValuesByTwo.java)        | 0ms     | 100%   |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//MakeArrayZeroBySubtractingEqualAmounts.java) | 0ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SeparateTheDigitsInAnArray.java)              | 5ms     | 74.92% |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)         | 2ms     | 50.64% |
