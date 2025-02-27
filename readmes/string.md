@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/760.
+Completed: 64/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -22,6 +22,7 @@ Completed: 63/760.
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                    | 0ms     | 100%   |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)              | 1ms     | 59.87% |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java) | 1ms     | 100%   |
+| [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAStringIsAnAcronymOfWords.java)                 | 1ms     | 100%   |
 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConsecutiveCharacters.java)                            | 1ms     | 99.83% |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                              | 4ms     | 66.45% |
 | [Counting Words With a Given Prefix Occurrence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                    | 0ms     | 100%   |
