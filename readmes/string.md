@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/760.
+Completed: 72/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -33,6 +33,7 @@ Completed: 71/760.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings//description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                        | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                 | 6ms     | 86.92% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                   | 2ms     | 100%   |
+| [Detect Capital](https://leetcode.com/problems/detect-capital/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetectCapital.java)                                     | 1ms     | 91.16% |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                    | 3ms     | 98.26% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)      | 1ms     | 74.56% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)              | 1ms     | 100%   |
