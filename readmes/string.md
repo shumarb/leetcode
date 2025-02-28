@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/760.
+Completed: 65/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                   | Runtime | Rank   |
@@ -54,6 +54,7 @@ Completed: 64/760.
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                          | 3ms     | 75.90% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                             | 3ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                   | 17ms    | 43.61% |
+| [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)               | 3ms     | 78.75% |
 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PercentageOfLetterInString.java)                       | 0ms     | 100%   |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)           | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                       | 1ms     | 99.14% |
