@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/760.
+Completed: 70/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -63,6 +63,7 @@ Completed: 68/760.
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)            | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                        | 1ms     | 99.14% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java)               | 36ms    | 48.71% |
+| [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveTrailingZerosFromAString.java)                    | 1ms     | 100%   |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseString.java)                                     | 0ms     | 100%   |
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseVowelsOfAString.java)                            | 4ms     | 50.91% |
 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ScoreOfAString.java)                                    | 1ms     | 99.49% |
