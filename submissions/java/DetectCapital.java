@@ -2,36 +2,25 @@
 
 class DetectCapital {
     public boolean detectCapitalUse(String word) {
-        return isAllUpperCase(word) || isAllLowerCase(word) || isOnlyFirstUppercase(word);
-    }
-
-    private boolean isAllLowerCase(String word) {
-        for (char c: word.toCharArray()) {
-            if (Character.isUpperCase(c)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    private boolean isOnlyFirstUppercase(String word) {
-        if (Character.isLowerCase(word.charAt(0))) {
-            return false;
-        }
-        for (int i = 1; i < word.length(); i++) {
+        /** 1.  Count number of uppercase letters in word,
+                and use it to check if >= 1 of the conditions is fulfilled.
+         */
+        int countUpperCaseLetters = 0;
+        for (int i = 0; i < word.length(); i++) {
             if (Character.isUpperCase(word.charAt(i))) {
-                return false;
+                countUpperCaseLetters++;
             }
         }
-        return true;
-    }
 
-    private boolean isAllUpperCase(String word) {
-        for (char letter: word.toCharArray()) {
-            if (Character.isLowerCase(letter)) {
-                return false;
-            }
+        /**
+             2. Case 1: All letters in word are upper case.
+             3. Case 2: No letters in word are upper case.
+         */
+        if (countUpperCaseLetters == word.length() || countUpperCaseLetters == 0) {
+            return true;
         }
-        return true;
+
+        // 4. Case 4: Only 1 uppercase letter, which is the first letter.
+        return countUpperCaseLetters == 1 && Character.isUpperCase(word.charAt(0));
     }
 }
