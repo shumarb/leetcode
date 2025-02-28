@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/760.
+Completed: 73/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -32,6 +32,7 @@ Completed: 72/760.
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                 | 6ms     | 89.98% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings//description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                        | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                 | 6ms     | 86.92% |
+| [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-is/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersOne.java)              | 1ms     | 100%   |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                   | 2ms     | 100%   |
 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetectCapital.java)                                     | 0ms     | 100%   |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                    | 3ms     | 98.26% |
