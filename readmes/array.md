@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 153/1835.
+Completed: 154/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -39,6 +39,7 @@ Completed: 153/1835.
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                    | 6ms     | 86.92% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                            | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                            | 12ms    | 97.83% |
+| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)                                        | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                      | 2ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)      | 2ms     | 98.35% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java)     | 4ms     | 17.42% |

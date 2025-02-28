@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 81/666.
+Completed: 82/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 81/666.
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)                                 | 18ms    | 82.31% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                            | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                            | 12ms    | 97.83% |
+| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)                                        | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                      | 2ms     | 100%   |
 | [Find All Numbers Disappeared In An Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                   | 3ms     | 99.85% |
 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonElementsBetweenTwoArrays.java)                   | 1ms     | 100%   |

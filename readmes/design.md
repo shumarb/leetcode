@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/126.
+Completed: 12/126.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                 | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                 | 12ms    | 97.83% |
+| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)             | 76ms    | 99.56% |
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementQueueUsingStacks.java) | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java) | 0ms     | 100%   |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                | 21ms    | 54.99% |

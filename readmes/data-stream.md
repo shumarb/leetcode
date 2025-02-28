@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/21.
+Completed: 3/21.
 
 ### Easy
-| Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                                | 21ms    | 54.99% |
+| Question                                                                                                      | Submission                                                                                | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
+| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java) | 76ms    | 99.56% |
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)    | 21ms    | 54.99% |
 
 ### Hard
 | Question                                                                                                | Submission                                                                               | Runtime | Rank   |
