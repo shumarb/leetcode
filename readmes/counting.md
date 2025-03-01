@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 29/157.
+Completed: 30/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 29/157.
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)  | 1ms     | 100%   |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java) | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                 | 6ms     | 89.98% |
+| [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithMaximumFrequency.java)                 | 1ms     | 99.75% |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)         | 4ms     | 95.49% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings//description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                        | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                 | 6ms     | 86.92% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/666.
+Completed: 88/666.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 87/666.
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheNumberIsFascinating.java)                        | 0ms     | 100%   |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                    | 6ms     | 89.98% |
+| [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithMaximumFrequency.java)                    | 1ms     | 99.75% |
 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountLargestGroup.java)                                    | 3ms     | 96.75% |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)            | 4ms     | 95.49% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings//description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                           | 58ms    | 41.34% |
