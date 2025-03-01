@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/157.
+Completed: 30/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -27,7 +27,6 @@ Completed: 31/157.
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWordsThatCanBeFormedByCharacters.java)              | 5ms     | 87.08% |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                          | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstUniqueCharacterInAString.java)                     | 5ms     | 93.93% |
-| [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)      | 5ms     | 83.20% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofMultipleArrays.java)                      | 2ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                        | 6ms     | 86.06% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                   | 2ms     | 99.80% |
