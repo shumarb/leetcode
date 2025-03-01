@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/157.
+Completed: 31/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -32,6 +32,7 @@ Completed: 30/157.
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                        | 6ms     | 86.06% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                   | 2ms     | 99.80% |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java)   | 0ms     | 100%   |
+| [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)    | 1ms     | 100%   |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                           | 3ms     | 75.90% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                    | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                           | 12ms    | 93.70% |
