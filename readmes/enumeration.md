@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/107.
+Completed: 8/107.
 
 ### Easy
 | Question                                                                                                                                      | Submission                                                                                                           | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSymmetricIntegers.java)                   | 44ms    | 25.05% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GreatestEnglishLetterInUpperAndLowerCase.java) | 4ms     | 72.30% |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindThePeaks.java)                             | 1ms     | 100%   |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfCommonFactors.java)                    | 1ms     | 44.28% |
