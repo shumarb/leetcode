@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/247.
+Completed: 11/247.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java) | 4ms     | 92.01% |
+| [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java) | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfMatrixIsXMatrix.java)                     | 0ms     | 100%   |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)        | 0ms     | 100%   |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                          | 0ms     | 100%   |
