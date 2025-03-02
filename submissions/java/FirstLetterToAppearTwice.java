@@ -2,13 +2,15 @@
 
 class FirstLetterToAppearTwice {
     public char repeatedCharacter(String s) {
-        Set<Character> set = new HashSet<> ();
+        boolean[] isLetterPresent = new boolean[26];
+
         for (char letter: s.toCharArray()) {
-            if (set.contains(letter)) {
+            if (isLetterPresent[letter - 'a']) {
                 return letter;
             }
-            set.add(letter);
+            isLetterPresent[letter - 'a'] = true;
         }
-        return ' '; // dummy variable that won't be reached.
+
+        return ' ';
     }
 }
