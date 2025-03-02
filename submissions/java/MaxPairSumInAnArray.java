@@ -2,30 +2,45 @@
 
 class MaxPairSumInAnArray {
     public int maxSum(int[] nums) {
-        int len = nums.length;
-        int[] largestDigit = new int[len];
+        Pair[] largestPairPerDigit = new Pair[10];
         boolean isTest = false;
+        int maxSumPair = -1;
 
-        for (int i = 0; i < len; i++) {
-            largestDigit[i] = findLargestDigit(nums[i]);
-        }
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\nlargest digit: " + Arrays.toString(largestDigit));
+        for (int i = 0; i < 10; i++) {
+            largestPairPerDigit[i] = new Pair(-1, -1);
         }
 
-        int maxPairSum = -1;
-        for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (largestDigit[i] == largestDigit[j]) {
-                    maxPairSum = Math.max(maxPairSum, nums[i] + nums[j]);
-                }
+        for (int number: nums) {
+            int largestDigit = findLargestDigit(number);
+            Pair largestDigitPair = largestPairPerDigit[largestDigit];
+            if (number > largestDigitPair.getLargest()) {
+                largestDigitPair.setSecondLargest(largestDigitPair.getLargest());
+                largestDigitPair.setLargest(number);
+            } else if (number > largestDigitPair.getSecondLargest()) {
+                largestDigitPair.setSecondLargest(number);
             }
         }
         if (isTest) {
-            System.out.println("max pair sum: " + maxPairSum);
+            System.out.println("nums: " + Arrays.toString(nums));
+            System.out.println("largestPairPerDigit:");
+            for (int i = 0; i < 10; i++) {
+                Pair pair = largestPairPerDigit[i];
+                System.out.println(" * index: " + i + " --> [" + pair.getLargest() + ", " + pair.getSecondLargest() + "]");
+            }
         }
 
-        return maxPairSum;
+        for (Pair pair: largestPairPerDigit) {
+            int largest = pair.getLargest();
+            int secondLargest = pair.getSecondLargest();
+            if (largest != -1 && secondLargest != -1) {
+                maxSumPair = Math.max(maxSumPair, largest + secondLargest);
+            }
+        }
+        if (isTest) {
+            System.out.println("max sum pair: " + maxSumPair);
+        }
+
+        return maxSumPair;
     }
 
     private int findLargestDigit(int number) {
@@ -35,5 +50,31 @@ class MaxPairSumInAnArray {
             number /= 10;
         }
         return largestDigit;
+    }
+}
+
+class Pair {
+    int largest;
+    int secondLargest;
+
+    public Pair(int largest, int secondLargest) {
+        this.largest = largest;
+        this.secondLargest = secondLargest;
+    }
+
+    public int getLargest() {
+        return largest;
+    }
+
+    public int getSecondLargest() {
+        return secondLargest;
+    }
+
+    public void setLargest(int largest) {
+        this.largest = largest;
+    }
+
+    public void setSecondLargest(int secondLargest) {
+        this.secondLargest = secondLargest;
     }
 }
