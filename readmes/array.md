@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 159/1835.
+Completed: 160/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 159/1835.
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                         | 0ms     | 100%   |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)                  | 1ms     | 59.87% |
+| [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                   | 2ms     | 74.84% |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)           | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfMatrixIsXMatrix.java)                               | 0ms     | 100%   |
 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAStringIsAnAcronymOfWords.java)                     | 1ms     | 100%   |
