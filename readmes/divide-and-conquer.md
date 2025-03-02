@@ -24,7 +24,7 @@ Completed: 8/47.
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java) | 39ms    | 73.11% |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                   | 42ms    | 5%     |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                | 41ms    | 26.79% |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)       | 14ms    | 57.29% |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)       | 14ms    | 58.56% |
 
 ### Hard
 | Question                                                                                | Submission                                                                                           | Runtime | Rank   |

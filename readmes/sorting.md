@@ -64,7 +64,7 @@ Completed: 48/437.
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)              | 14ms    | 57.29% |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)              | 14ms    | 58.56% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                 | 6ms     | 98%    | 
 
 ### Hard

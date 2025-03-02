@@ -2,44 +2,32 @@
 
 class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
-        int[] ans = new int[k];
-        boolean test = false;
-        Map<Integer, Integer> map = new HashMap<> ();
+        Map<Integer, Integer> map = new HashMap<>();
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>();
+        boolean isTest = false;
 
-        for (int x: nums) {
-            map.put(x, 1 + map.getOrDefault(x, 0));
+        for (int number: nums) {
+            map.put(number, 1 + map.getOrDefault(number, 0));
         }
-        if (test) {
-            System.out.println("map: " + map);
+        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+            list.add(entry);
         }
-
-        PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<> (
-                (a, b) -> a.getValue() - b.getValue()
-        );
-        for (Map.Entry<Integer, Integer> e: map.entrySet()) {
-            minHeap.offer(e);
-            if (minHeap.size() > k) {
-                if (test) {
-                    System.out.println("before removal - minHeap: " + minHeap);
-                }
-                minHeap.poll();
-                if (test) {
-                    System.out.println("after removal - minHeap: " + minHeap);
-                }
+        list.sort((e1, e2) -> e2.getValue() - e1.getValue());
+        if (isTest) {
+            System.out.println("list:");
+            for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+                System.out.println(" * " + entry);
             }
         }
-        if (test) {
-            System.out.println("after iteration of hashmap entries, removal - minHeap: " + minHeap);
+
+        int[] result = new int[k];
+        for (int i = 0; i < k; i++) {
+            result[i] = list.get(i).getKey();
+        }
+        if (isTest) {
+            System.out.println("result: " + Arrays.toString(result));
         }
 
-        int j = k - 1;
-        while (!minHeap.isEmpty()) {
-            ans[j--] = minHeap.poll().getKey();
-        }
-        if (test) {
-            System.out.println("ans: " + Arrays.toString(ans));
-        }
-
-        return ans;
+        return result;
     }
 }
