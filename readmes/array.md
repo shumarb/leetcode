@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 161/1835.
+Completed: 162/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -45,6 +45,7 @@ Completed: 161/1835.
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)                                        | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                      | 2ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)      | 2ms     | 98.35% |
+| [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistributeCandies.java)                                    | 31ms    | 55.24% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java)     | 4ms     | 17.42% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalPricesWithASpecialDiscountInAShop.java)               | 2ms     | 65.61% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)         | 1ms     | 74.56% |
