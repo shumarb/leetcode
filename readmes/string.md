@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/760.
+Completed: 79/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 78/760.
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                         | 2ms     | 99.94% |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                        | 2ms     | 61.51% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                            | 1ms     | 78.15% |
+| [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CapitalizeTheTitle.java)                                | 3ms     | 88.41% |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckedBalancedString.java)                             | 1ms     | 99.21% |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)               | 1ms     | 59.87% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                     | 0ms     | 100%   |
