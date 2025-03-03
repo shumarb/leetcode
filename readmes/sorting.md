@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/437.
+Completed: 51/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                       | 48ms    | 5.12%  |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)     | 0ms     | 100%   |
+| [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)               | 1ms     | 100%   |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                   | 2ms     | 74.84% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)                                    | 7ms     | 99.29% |
