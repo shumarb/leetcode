@@ -1,3 +1,5 @@
+// Question: https://leetcode.com/problems/sort-the-people/description/
+
 class SortThePeople {
     public void swap(String[] names, int[] heights, int i, int j) {
         int tempHeight = heights[i];
@@ -9,12 +11,11 @@ class SortThePeople {
     }
 
     public void minHeapify(String[] names, int[] heights, int numberOfElements, int currentIndex) {
-        int parentIndex = currentIndex;   
-        int leftChildIndex = (2 * parentIndex) + 1;        
-        int rightChildIndex = (2 * parentIndex) + 2;  
-        
-        // 1. Finds largest value between a parent and its children
-        // First part of expression is to ensure no array out of bounds exception thrown
+        int parentIndex = currentIndex;
+        int leftChildIndex = (2 * parentIndex) + 1;
+        int rightChildIndex = (2 * parentIndex) + 2;
+
+        // 1. Find the largest value between a parent and its children
         if (leftChildIndex < numberOfElements && heights[leftChildIndex] < heights[parentIndex]) {
             parentIndex = leftChildIndex;
         }
@@ -22,14 +23,16 @@ class SortThePeople {
             parentIndex = rightChildIndex;
         }
 
-        // 2. If any of the children are larger than the parent, swap that child with the parent,
-        // and MinHeapify the the array based on the largest element found so far
+        /**
+         2.  If any of the children are larger than the parent, swap that child with the parent,
+         and MinHeapify the the array based on the largest element found so far.
+         */
         if (parentIndex != currentIndex) {
             swap(names, heights, currentIndex, parentIndex);
             minHeapify(names, heights, numberOfElements, parentIndex);
         }
     }
-    
+
     public String[] sortPeople(String[] names, int[] heights) {
         for (int i = heights.length - 1; i >= 0; i--) {
             minHeapify(names, heights, heights.length, i);
@@ -40,6 +43,4 @@ class SortThePeople {
         }
         return names;
     }
-
 }
-
