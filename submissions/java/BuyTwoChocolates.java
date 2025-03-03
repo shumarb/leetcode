@@ -21,10 +21,10 @@ class Solution {
 
         /**
          1.  If the sum of 2 smallest prices <= money,
-         thenn exactly 2 chocolates can be bought with money,
+         then exactly 2 chocolates can be bought with money,
          so return the balance (money - sum of 2 smallest prices),
          else return money as it is impossible to buy those 2 chocolates without ending in debt.
          */
-        return (minimum + secondMinimum <= money) ? (money - (minimum + secondMinimum)) : money;
+        return (minimum + secondMinimum <= money) ? (money - minimum - secondMinimum) : money;
     }
 }
