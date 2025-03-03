@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/760.
+Completed: 78/760.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -47,6 +47,7 @@ Completed: 77/760.
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                          | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstUniqueCharacterInAString.java)                     | 5ms     | 93.93% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                          | 1ms     | 99.52% |
+| [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GenerateAStringWithCharactersThatHaveOddCounts.java)    | 1ms     | 83.40% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                                     | 9ms     | 35.78% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GreatestEnglishLetterInUpperAndLowerCase.java)          | 4ms     | 72.30% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)                                     | 1ms     | 93.37% |
