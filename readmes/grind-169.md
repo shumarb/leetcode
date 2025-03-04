@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/169.
+Completed: 56/169.
 
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -36,6 +36,7 @@ Completed: 55/169.
 | 47  | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                 | 2ms     | 99.94% |
 | 49  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |
 | 51  | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                                | 0ms     | 100%   |
+| 52  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/top-k-frequent-words/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% |
 | 55  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                              | 0ms     | 100%   |
 | 62  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java)                         | 5ms     | 34.76% |
 | 64  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)                  | 0ms     | 100%   |
