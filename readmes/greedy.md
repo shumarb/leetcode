@@ -22,7 +22,7 @@ Completed: 13/400.
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                      | 2ms     | 89.66% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java) | 0ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumWithExactlyKElements.java)         | 1ms     | 100%   |
-| [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                   | 19ms    | 9.31%  |
+| [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                   | 8ms     | 95.90% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                     | 4ms     | 99.71% |
 
 ### Medium
