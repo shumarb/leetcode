@@ -3,18 +3,20 @@
 class MaximumUnitsOnATruck {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
         boolean isTest = false;
-        int maximumTotalUnits = 0;
-        List<int[]> list = new ArrayList<>();
+        int maximumUnits = 0;
+
+        Arrays.sort(boxTypes, (a, b) -> Integer.compare(b[1], a[1]));
+        if (isTest) {
+            System.out.println("truck size: " + truckSize);
+            System.out.println("sorted boxTypes:");
+            for (int[] entry: boxTypes) {
+                System.out.println(" * [quantity: " + entry[0] + ", units: " + entry[1] + "]");
+            }
+        }
 
         for (int[] entry: boxTypes) {
-            list.add(entry);
-        }
-        list.sort((a, b) -> Integer.compare(b[1], a[1]));
-
-        for (int i = 0; i < list.size(); i++) {
-            int[] entry = list.get(i);
             while (truckSize != 0) {
-                maximumTotalUnits += entry[1];
+                maximumUnits += entry[1];
                 entry[0]--;
                 truckSize--;
                 if (entry[0] == 0) {
@@ -23,6 +25,6 @@ class MaximumUnitsOnATruck {
             }
         }
 
-        return maximumTotalUnits;
+        return maximumUnits;
     }
 }
