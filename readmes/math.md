@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/556.
+Completed: 64/556.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 63/556.
 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AlternatingDigitSum.java)                              | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java) | 0ms     | 100%   |
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Base7.java)                                            | 1ms     | 70.47% |
+| [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheNumberIsFascinating.java)                    | 0ms     | 100%   |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertBinaryNumberInALinkedListToInteger.java)        | 0ms     | 100%   |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                              | 4ms     | 66.45% |
