@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 164/1835.
+Completed: 165/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -25,6 +25,7 @@ Completed: 164/1835.
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)               | 1ms     | 100%   |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)                  | 1ms     | 59.87% |
+| [Check Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckItemsMatchingARule.java)                              | 3ms     | 98.89% |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                   | 2ms     | 74.84% |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)           | 4ms     | 92.01% |
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)           | 4ms     | 92.01% |
