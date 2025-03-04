@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/556.
+Completed: 63/556.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -38,6 +38,7 @@ Completed: 62/556.
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                 | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)                | 1ms     | 98.93% |
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfDigitGameCanBeWon.java)                          | 0ms     | 100%   |
+| [Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKeyOfTheNumbers.java)                           | 2ms     | 37.83% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                         | 1ms     | 99.52% |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                      | 0ms     | 100%   |
 | [Harshad Number](https://leetcode.com/problems/harshad-number/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HarshadNumber.java)                                    | 0ms     | 100%   |
