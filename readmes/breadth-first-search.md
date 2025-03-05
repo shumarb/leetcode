@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/239.
+Completed: 11/239.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -26,6 +26,7 @@ Completed: 10/239.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                           | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)        | 1ms     | 88.40% |
+| Question                                                                                                        | Submission                                                                                              | Runtime | Rank    |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
+| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java) | 7ms     | 2.28%   |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)           | 1ms     | 88.40%  |
