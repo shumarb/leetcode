@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/240.
+Completed: 26/240.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageOfLevelsInBinaryTree.java)      | 2ms     | 94.44% |
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BalancedBinaryTree.java)               | 0ms     | 100%   |
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)       | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)     | 0ms     | 100%   |

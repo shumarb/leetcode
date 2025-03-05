@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/239.
+Completed: 14/239.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageOfLevelsInBinaryTree.java)      | 2ms     | 94.44% |
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInGraph.java)          | 53ms    | 88.29% |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InvertBinaryTree.java)                 | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
