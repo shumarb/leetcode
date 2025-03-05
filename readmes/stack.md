@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/167.
+Completed: 20/167.
 
 ### Easy
 | Question                                                                                                                                    | Submission                                                                                                         | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 19/167.
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java)              | 0ms     | 100%   |
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)              | 0ms     | 100%   |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                     | 3ms     | 62.40% |
+| [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreePostOrderTraversal.java)             | 0ms     | 100%   |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                  | 3ms     | 92.50% |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeLinkedList.java)                   | 4ms     | 83.80% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java)    | 36ms    | 48.71% |
