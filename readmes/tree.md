@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/240.
+Completed: 25/240.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -38,8 +38,9 @@ Completed: 24/240.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)    | 0ms     | 100%   |
-| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java) | 3ms     | 71.32% |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)    | 0ms     | 100%   | 
+| Question                                                                                                          | Submission                                                                                                | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java) | 1ms     | 89.68% |
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)      | 0ms     | 100%   |
+| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java)   | 3ms     | 71.32% |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)      | 0ms     | 100%   | 
