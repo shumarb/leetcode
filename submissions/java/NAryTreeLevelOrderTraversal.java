@@ -20,52 +20,60 @@ class Node {
 */
 
 class NAryTreeLevelOrderTraversal {
-    private List<int[]> pairs = new ArrayList<>();
-    private int maximumLevel = Integer.MIN_VALUE;
-
     public List<List<Integer>> levelOrder(Node root) {
-        boolean isTest = false;
-
-        levelOrderTraversal(root, 0);
-        if (isTest) {
-            System.out.println("maximum level: " + maximumLevel);
-            System.out.println("pairs: ");
-            for (int[] pair: pairs) {
-                System.out.println(" * node: " + pair[0] + " -> level: " + pair[1]);
-            }
-        }
         List<List<Integer>> result = new ArrayList<>();
 
-        int currentLevel = 0;
-        while (currentLevel <= maximumLevel) {
-            List<Integer> list = new ArrayList<>();
-            for (int[] pair: pairs) {
-                if (pair[1] == currentLevel) {
-                    list.add(pair[0]);
+        // 1. Edge case: 0 nodes in tree.
+        if (root == null) {
+            return result;
+        }
+
+        boolean isTest = false;
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            /**
+             2.  All nodes in queue at start of iteration
+             are all nodes at current level.
+             */
+            int nodesAtCurrentLevel = queue.size();
+            List<Integer> currentLevel = new ArrayList<>();
+
+            for (int i = 0; i < nodesAtCurrentLevel; i++) {
+                /**
+                 3.  Extract every node at current level,
+                 and it to list node all nodes at current level.
+                 */
+                Node node = queue.poll();
+                currentLevel.add(node.val);
+                /**
+                 4.  For every node at current level,
+                 add its non-null child into queue.
+                 */
+                for (Node child: node.children) {
+                    if (child != null) {
+                        queue.offer(child);
+                    }
                 }
             }
-            result.add(list);
-            currentLevel++;
+
+            /**
+             5.  All nodes at current level added to list,
+             hence add this list to result.
+             */
+            result.add(currentLevel);
         }
         if (isTest) {
             System.out.println("result: ");
-            for (List<Integer> path: result) {
-                System.out.println(" * " + path);
+            /**
+             6.  Each list comprises of all nodes level-by-level.
+             */
+            for (List<Integer> level: result) {
+                System.out.println(" * " + level);
             }
         }
-        return result;
-    }
 
-    private void levelOrderTraversal(Node node, int level) {
-        if (node != null) {
-            int[] newPair = new int[] {node.val, level};
-            pairs.add(newPair);
-            maximumLevel = Math.max(maximumLevel, level);
-            for (Node child: node.children) {
-                if (child != null) {
-                    levelOrderTraversal(child, level + 1);
-                }
-            }
-        }
+        return result;
     }
 }
