@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 168/1835.
+Completed: 169/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -74,6 +74,7 @@ Completed: 168/1835.
 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheNumberOfGoodPairsOne.java)                          | 1ms     | 100%   |
 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheNumberOfWinningPlayers.java)                        | 1ms     | 100%   |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindThePeaks.java)                                         | 1ms     | 100%   |
+| [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheSumOfEncryptedIntegers.java)                        | 1ms     | 100%   |
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheTownJudge.java)                                     | 2ms     | 100%   |
 | [Height Checker](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HeightChecker.java)                                        | 2ms     | 88.86% |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)         | 5ms     | 83.20% |
