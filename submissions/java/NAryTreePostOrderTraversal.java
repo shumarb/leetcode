@@ -23,15 +23,15 @@ class NAryTreePostOrderTraversal {
     private List<Integer> result = new ArrayList<>();
 
     public List<Integer> postorder(Node root) {
-        traverse(root);
+        postOrderTraversal(root);
         return result;
     }
 
-    private void traverse(Node node) {
+    private void postOrderTraversal(Node node) {
         if (node != null) {
             for (Node child: node.children) {
                 if (child != null) {
-                    traverse(child);
+                    postOrderTraversal(child);
                 }
             }
             result.add(node.val);
