@@ -3,28 +3,18 @@
 class StrictlyPalindromicNumber {
     public boolean isStrictlyPalindromic(int n) {
         for (int base = 2; base <= (n - 2); base++) {
-            if (!isStrictlyPalindromicNumber(n, base)) {
+            if (!isStrictlyPalindromicNumber(Integer.toString(n, base))) {
                 return false;
             }
         }
         return true;
     }
 
-    private boolean isStrictlyPalindromicNumber(int number, int base) {
-        boolean isTest = false;
-        StringBuilder result = new StringBuilder();
-        while (number != 0) {
-            result.append(number % base);
-            number /= base;
-        }
-        if (isTest) {
-            System.out.println("base: " + base + ", result: " + result);
-        }
+    private boolean isStrictlyPalindromicNumber(String baseRepresentation) {
         int left = 0;
-        int right = result.length() - 1;
-        String str = result.toString();
+        int right = baseRepresentation.length() - 1;
         while (left < right) {
-            if (str.charAt(left++) != str.charAt(right--)) {
+            if (baseRepresentation.charAt(left++) != baseRepresentation.charAt(right--)) {
                 return false;
             }
         }
