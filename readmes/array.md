@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 169/1835.
+Completed: 170/1835.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -40,7 +40,8 @@ Completed: 169/1835.
 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountEqualAndDivisiblePairsInAnArray.java)                 | 3ms     | 99.52% |
 | [Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)                  | 0ms     | 100%   |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)            | 4ms     | 95.49% |
-| [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings//description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                           | 58ms    | 41.34% |
+| [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                           | 58ms    | 41.34% |
+| [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                         | 0ms     | 100%   |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                    | 6ms     | 86.92% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                            | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                            | 12ms    | 97.83% |
