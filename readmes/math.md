@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 69/556.
+Completed: 70/556.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -77,14 +77,15 @@ Completed: 69/556.
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XorOperationInAnArray.java)                            | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                              | Submission                                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                        | 11ms    | 4.35%  |
-| [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberIsASumOfPowersOfThree.java)   | 0ms     | 100%   |
-| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                          | 94ms    | 82.87% |
-| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideTwoIntegers.java)                    | 4ms     | 5.52%  |
-| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                        | 25ms    | 93.59% |
-| [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                       | 0ms     | 100%   |
-| [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                   | 3ms     | 93.35% |
-| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                     | 0ms     | 100%   |
-| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                        | 2ms     | 98.25% | 
+| Question                                                                                                                              | Submission                                                                                                     | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                      | 11ms    | 4.35%  |
+| [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberIsASumOfPowersOfThree.java) | 0ms     | 100%   |
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                        | 94ms    | 82.87% |
+| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideTwoIntegers.java)                  | 4ms     | 5.52%  |
+| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                      | 25ms    | 93.59% |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                     | 0ms     | 100%   |
+| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)          | 0ms     | 100%   |
+| [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                 | 3ms     | 93.35% |
+| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                   | 0ms     | 100%   |
+| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                      | 2ms     | 98.25% | 
