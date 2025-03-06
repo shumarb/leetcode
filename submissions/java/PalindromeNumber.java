@@ -5,14 +5,13 @@ class PalindromeNumber {
         if (x < 0) {
             return false;
         }
-        char[] digits = String.valueOf(x).toCharArray();
-        int l = 0;
-        int r = digits.length - 1;
-        while (l < r) {
-            if (digits[l++] != digits[r--]) {
-                return false;
-            }
+        int xCopy = x;
+        int reverseX = 0;
+        while (xCopy != 0) {
+            reverseX *= 10;
+            reverseX += xCopy % 10;
+            xCopy /= 10;
         }
-        return true;
+        return x == reverseX;
     }
 }
