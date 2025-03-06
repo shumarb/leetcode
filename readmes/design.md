@@ -21,7 +21,7 @@ Completed: 13/126.
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementQueueUsingStacks.java) | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java) | 0ms     | 100%   |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                | 21ms    | 54.99% |
-| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RangeSumQueryImmutable.java)    | 8ms     | 65.10% |
+| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                  | 7ms     | 100%   |
 
 ### Medium
 | Question                                                                                                        | Submission                                                                                      | Runtime | Rank   |
