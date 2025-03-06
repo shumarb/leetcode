@@ -22,6 +22,7 @@ class BinaryTreeZigZagLevelOrderTraversal {
         }
         List<List<Integer>> result = new ArrayList<>();
         boolean isTest = false;
+        boolean isEvenLevel = true;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
@@ -31,7 +32,11 @@ class BinaryTreeZigZagLevelOrderTraversal {
 
             for (int i = 0; i < totalNodesOnCurrentLevel; i++) {
                 TreeNode node = queue.poll();
-                nodesOnCurrentLevel.add(node.val);
+                if (isEvenLevel) {
+                    nodesOnCurrentLevel.add(node.val);
+                } else {
+                    nodesOnCurrentLevel.add(0, node.val);
+                }
                 if (node.left != null) {
                     queue.offer(node.left);
                 }
@@ -39,13 +44,8 @@ class BinaryTreeZigZagLevelOrderTraversal {
                     queue.offer(node.right);
                 }
             }
+            isEvenLevel = !isEvenLevel;
             result.add(nodesOnCurrentLevel);
-        }
-
-        for (int i = 0; i < result.size(); i++) {
-            if (i % 2 != 0) {
-                reverseOrder(result.get(i));
-            }
         }
 
         if (isTest) {
@@ -55,16 +55,5 @@ class BinaryTreeZigZagLevelOrderTraversal {
             }
         }
         return result;
-    }
-
-    private void reverseOrder(List<Integer> level) {
-        Stack<Integer> stack = new Stack<>();
-        for (int value: level) {
-            stack.push(value);
-        }
-        int i = 0;
-        while (!stack.isEmpty()) {
-            level.set(i++, stack.pop());
-        }
     }
 }
