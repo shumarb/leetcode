@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/239.
+Completed: 15/239.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -28,8 +28,9 @@ Completed: 14/239.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                          | Submission                                                                                                | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java) | 1ms     | 89.68% |
-| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java)   | 3ms     | 71.32% |
-| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)             | 1ms     | 88.40% |
+| Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)    | 1ms     | 89.68% |
+| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversalTwo.java) | 1ms     | 93.85% |
+| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java)      | 3ms     | 71.32% |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)                | 1ms     | 88.40% |
