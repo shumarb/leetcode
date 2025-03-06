@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 174/1855.
+Completed: 175/1855.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -44,6 +44,7 @@ Completed: 174/1855.
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                         | 0ms     | 100%   |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                    | 6ms     | 86.92% |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                        | 0ms     | 100%   |
+| [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                            | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                            | 12ms    | 97.83% |
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)                                        | 76ms    | 99.56% |

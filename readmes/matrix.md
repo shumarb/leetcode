@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/247.
+Completed: 13/247.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 12/247.
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java) | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfMatrixIsXMatrix.java)                     | 0ms     | 100%   |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)        | 0ms     | 100%   |
+| [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)               | 4ms     | 91.17% |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                          | 0ms     | 100%   |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RichestCustomerWealth.java)                      | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RowWithMaximumOnes.java)                         | 5ms     | 27.61% |

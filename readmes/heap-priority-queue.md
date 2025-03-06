@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/186.
+Completed: 25/186.
 
 ### Easy
 | Question                                                                                                                                                  | Submission                                                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)        | 8ms     | 62.37% |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                                       | 21ms    | 54.99% |

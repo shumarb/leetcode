@@ -10,11 +10,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/171.
+Completed: 24/171.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------=--------------------------------------------------------------------------------------------|---------|--------|
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                        | 2ms     | 99.94% |
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddDigits.java)                                        | 0ms     | 100%   |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                       | 2ms     | 61.51% |
@@ -23,6 +23,7 @@ Completed: 23/171.
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConcatenationOfArrays.java)                            | 1ms     | 96.28% |
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountIntegersWithEvenDigitSum.java)                    | 1ms     | 86.87% |
+| [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)               | 4ms     | 91.17% |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                   | 3ms     | 98.26% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)     | 1ms     | 74.56% |
