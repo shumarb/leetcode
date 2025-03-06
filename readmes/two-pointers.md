@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 37/213.
+Completed: 38/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 37/213.
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                        | 1ms     | 95.99% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                          | 1ms     | 78.15% |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                       | 2ms     | 94.12% |
+| [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfStringIsAPrefixOfArray.java)                   | 1ms     | 87.61% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100%   |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java)       | 0ms     | 100%   |

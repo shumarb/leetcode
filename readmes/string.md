@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 85/760.
+Completed: 86/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 85/760.
 | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CapitalizeTheTitle.java)                                | 3ms     | 88.41% |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckedBalancedString.java)                             | 1ms     | 99.21% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)   | 8ms     | 78.87% |
+| [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfStringIsAPrefixOfArray.java)                     | 1ms     | 87.61% |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)               | 1ms     | 59.87% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                     | 0ms     | 100%   |
 | [Check Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckItemsMatchingARule.java)                           | 3ms     | 98.89% |
