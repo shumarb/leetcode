@@ -3,19 +3,20 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Sliding Window](https://leetcode.com/problem-list/sliding-window/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty.
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/147.
+Completed: 5/147.
 
 ### Easy
-| Question                                                                                                                                                                  | Submission                                                                                                                     | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)                               | 18ms    | 82.31% |
+| Question                                                                                  | Submission                                                                                            | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)      | 18ms    | 82.31% |
+| [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java) | 5ms     | 36.77% |
 
 ### Medium
 | Question                                                                                                                                                         | Submission                                                                                                                  | Runtime | Rank   |

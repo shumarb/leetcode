@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 172/1855.
+Completed: 173/1855.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -99,6 +99,7 @@ Completed: 172/1855.
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                                    | 0ms     | 100%   |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaxConsecutiveOnes.java)                                   | 2ms     | 93.86% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaxPairSumInAnArray.java)                                  | 3ms     | 93.95% |
+| [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java)                            | 5ms     | 36.77% |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java)      | 0ms     | 100%   |
 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductDifferenceBetweenTwoPairs.java)              | 2ms     | 98.79% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
