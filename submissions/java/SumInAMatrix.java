@@ -3,41 +3,27 @@
 class SumInAMatrix {
     public int matrixSum(int[][] nums) {
         int highestValue = 0;
-        int numCols = nums[0].length;
         boolean isTest = false;
-        List<PriorityQueue<Integer>> list = new ArrayList<>();
 
         for (int[] row: nums) {
-            PriorityQueue<Integer> rowValues = new PriorityQueue<>(Collections.reverseOrder());
-            for (int element: row) {
-                rowValues.offer(element);
-            }
-            list.add(rowValues);
+            Arrays.sort(row);
         }
         if (isTest) {
-            display(list);
+            System.out.println("sorted nums:");
+            for (int[] row: nums) {
+                System.out.println(" * " + Arrays.toString(row));
+            }
+            System.out.println("-------------------------------------------------");
         }
 
-        for (int i = 0; i < numCols; i++) {
+        for (int i = 0; i < nums[0].length; i++) {
             int maximum = Integer.MIN_VALUE;
-            if (isTest) {
-                System.out.print("start of iteration | highest value: " + highestValue + " | ");
-                display(list);
-            }
-            for (PriorityQueue<Integer> maxHeap: list) {
-                maximum = Math.max(maximum, maxHeap.poll());
+            for (int[] row: nums) {
+                maximum = Math.max(maximum, row[i]);
             }
             highestValue += maximum;
         }
 
         return highestValue;
-    }
-
-    private void display(List<PriorityQueue<Integer>> list) {
-        System.out.println("list:");
-        for (PriorityQueue<Integer> maxHeap: list) {
-            System.out.println(" * " + maxHeap);
-        }
-        System.out.println("-------------------------------------------------");
     }
 }

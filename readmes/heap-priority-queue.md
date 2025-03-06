@@ -46,4 +46,4 @@ Completed: 24/186.
 |---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)      | 92ms    | 78.28% |
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java) | 5ms     | 35.39% |
-| [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumInAMatrix.java)      | 85ms    | 9.89%  |
+| [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumInAMatrix.java)      | 13ms    | 99.35% |
