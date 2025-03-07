@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/247.
+Completed: 14/247.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 13/247.
 ### Medium
 | Question                                                                                                                      | Submission                                                                                                    | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)            | 12ms    | 88.41% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java) | 15ms    | 55.37% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                   | 1ms     | 73.86% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                      | 0ms     | 100%   |
