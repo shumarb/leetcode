@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 177/1855.
+Completed: 178/1855.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -148,6 +148,7 @@ Completed: 177/1855.
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)                        | 1ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                  | 0ms     | 100%   |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)                          | 6ms     | 52.37% |
+| [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TeemoAttacking.java)                                       | 3ms     | 83.20% |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThirdMaximumNumber.java)                                   | 1ms     | 97.13% |
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeConsecutiveOdds..java)                                | 0ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                               | 1ms     | 98.89% |
