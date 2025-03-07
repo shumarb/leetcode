@@ -18,16 +18,18 @@
 class ReverseOddLevelsOfBinaryTree {
     public TreeNode reverseOddLevels(TreeNode root) {
         boolean isTest = false;
-        List<List<TreeNode>> levels = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
+        int level = 0;
         queue.offer(root);
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            List<TreeNode> currentLevel = new ArrayList<>();
+            List<TreeNode> oddLevel = new ArrayList<>();
             for (int i = 0; i < size; i++) {
                 TreeNode current = queue.poll();
-                currentLevel.add(current);
+                if (level % 2 != 0) {
+                    oddLevel.add(current);
+                }
                 if (current.left != null) {
                     queue.offer(current.left);
                 }
@@ -35,22 +37,13 @@ class ReverseOddLevelsOfBinaryTree {
                     queue.offer(current.right);
                 }
             }
-            levels.add(currentLevel);
-        }
-        if (isTest) {
-            display(levels);
-        }
-
-        for (int i = 0; i < levels.size(); i++) {
-            if (i % 2 != 0) {
+            if (oddLevel.size() > 1) {
                 if (isTest) {
-                    System.out.println("swap at level " + i);
+                    System.out.println("swap at level " + level + " --> " + oddLevel);
                 }
-                swap(levels.get(i));
+                swap(oddLevel);
             }
-        }
-        if (isTest) {
-            display(levels);
+            level++;
         }
 
         return root;
@@ -68,19 +61,5 @@ class ReverseOddLevelsOfBinaryTree {
             left++;
             right--;
         }
-    }
-
-    private void display(List<List<TreeNode>> levels) {
-        System.out.println("levels:");
-        for (int i = 0; i < levels.size(); i++) {
-            List<TreeNode> level = levels.get(i);
-            System.out.print(" * level " + i + " --> ");
-            for (int j = 0; j < level.size() - 1; j++) {
-                TreeNode node = level.get(j);
-                System.out.print(node.val + ", ");
-            }
-            System.out.println(level.get(level.size() - 1).val);
-        }
-        System.out.println("---------------------------------------------------------");
     }
 }
