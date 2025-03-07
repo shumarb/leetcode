@@ -55,7 +55,7 @@ Completed: 38/215.
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)         | 0ms     | 100%   |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                | 3ms     | 93.35% |
-| [Two Input Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoInputSumTwoInputArrayIsSorted.java)  | 2ms     | 93.40% |
+| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)       | 2ms     | 92.54% |
 
 ### Hard
 | Question                                                                                                | Submission                                                                               | Runtime | Rank   |
