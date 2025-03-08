@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 21/233.
+Completed: 22/233.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
@@ -22,6 +22,7 @@ Completed: 21/233.
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)                               | 2ms     | 95%    |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                          | 2ms     | 62.27% |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthCharacterInStringGameOne.java)         | 4ms     | 56.59% |
+| [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheXOROfNumbersWhichAppearTwice.java)        | 1ms     | 98.52% |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                   | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                              | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                              | 0ms     | 100%   |
