@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/770.
+Completed: 88/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -87,6 +87,7 @@ Completed: 87/770.
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                   | 2ms     | 50.64% |
 | [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ToLowerCase.java)                                       | 0ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                     | 3ms     | 50.44% |
+| [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                              | 1ms     | 100%   |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                      | 2ms     | 97.84% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)                                   | 2ms     | 99.08% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                                | 2ms     | 99.08% |
