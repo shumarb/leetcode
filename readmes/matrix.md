@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/249.
+Completed: 16/249.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
@@ -22,6 +22,7 @@ Completed: 15/249.
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)               | 4ms     | 91.17% |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)               | 1ms     | 100%   |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                          | 0ms     | 100%   |
+| [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LuckyNumbersInAMatrix.java)                      | 5ms     | 11.05% |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RichestCustomerWealth.java)                      | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RowWithMaximumOnes.java)                         | 5ms     | 27.61% |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)                | 1ms     | 100%   |
