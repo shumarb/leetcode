@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 86/770.
+Completed: 87/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -75,6 +75,7 @@ Completed: 86/770.
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)            | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                        | 1ms     | 99.14% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java)               | 36ms    | 48.71% |
+| [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                   | 1ms     | 49.79% |
 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveTrailingZerosFromAString.java)                    | 1ms     | 100%   |
 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RepeatedSubstringPattern.java)                          | 74ms    | 56.66% |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseString.java)                                     | 0ms     | 100%   |

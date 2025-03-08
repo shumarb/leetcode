@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/157.
+Completed: 33/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 32/157.
 | [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)           | 1ms     | 100%   |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                 | 0ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                        | 1ms     | 99.14% |
+| [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                   | 1ms     | 49.79% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                    | 7ms     | 74.98% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                               | 0ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                     | 3ms     | 50.44% |
