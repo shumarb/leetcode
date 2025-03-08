@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/563.
+Completed: 73/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 72/563.
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                | 1ms     | 99.64% |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestTriangleArea.java)                              | 4ms     | 99.15% |
+| [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Maximum69Number.java)                                  | 0ms     | 100%   |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                     | 11ms    | 84.46% |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)       | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                    | 1ms     | 36.78% |
