@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 183/1855.
+Completed: 184/1855.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -143,6 +143,7 @@ Completed: 183/1855.
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SeparateTheDigitsInAnArray.java)                           | 5ms     | 74.92% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                          | 2ms     | 95.73% |
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SignOfTheProductOfAnArray.java)                            | 0ms     | 100%   |
+| [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                                         | 1ms     | 99.85% |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) | 1ms     | 92.66% |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                       | 5ms     | 92.79% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                       | 7ms     | 74.98% |

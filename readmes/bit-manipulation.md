@@ -10,14 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/233.
+Completed: 21/233.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                  | 2ms     | 99.94% |
 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryNumberWithAlternatingBits.java)            | 1ms     | 11.33% |
-| [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
+| [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)          | 6ms     | 86.92% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)                               | 2ms     | 95%    |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                          | 2ms     | 62.27% |
@@ -29,6 +29,7 @@ Completed: 20/233.
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)                                 | 0ms     | 100%   |
 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeNumberOfSetBitsInBinaryRepresentation.java) | 66ms    | 10.43% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                | 2ms     | 95.73% |
+| [Single Number](https://leetcode.com/problems/single-number/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                               | 1ms     | 99.85% |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestNumberWithAllSetBits.java)               | 1ms     | 30.35% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)             | 7ms     | 74.98% |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XorOperationInAnArray.java)                      | 0ms     | 100%   |
