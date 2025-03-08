@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/176.
+Completed: 27/176.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -37,11 +37,12 @@ Completed: 26/176.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                                            | Submission                                                                                                      | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)       | 1ms     | 89.68% |
-| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversalTwo.java)    | 1ms     | 93.85% |
-| [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeZigZagLevelOrderTraversal.java) | 1ms     | 69.75% |
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)            | 0ms     | 100%   |
-| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java)        | 10ms    | 32.12% |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)            | 0ms     | 100-   |  
+| Question                                                                                                                        | Submission                                                                                                      | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)       | 1ms     | 89.68% |
+| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversalTwo.java)    | 1ms     | 93.85% |
+| [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeZigZagLevelOrderTraversal.java) | 1ms     | 69.75% |
+| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java)       | 2ms     | 79.36% |
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)            | 0ms     | 100%   |
+| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java)        | 10ms    | 32.12% |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)            | 0ms     | 100-   |  

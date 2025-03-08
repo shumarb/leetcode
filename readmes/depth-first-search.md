@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/312.
+Completed: 26/312.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -38,9 +38,10 @@ Completed: 25/312.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                          | Submission                                                                                               | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)     | 0ms     | 100%   |
-| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)            | 1ms     | 88.40% |
-| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java) | 10ms    | 32.12% |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)     | 0ms     | 100%   | 
+| Question                                                                                                              | Submission                                                                                                | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java) | 2ms     | 79.36% |
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)      | 0ms     | 100%   |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)             | 1ms     | 88.40% |
+| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java)  | 10ms    | 32.12% |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)      | 0ms     | 100%   | 
