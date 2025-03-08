@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/294.
+Completed: 28/294.
 
 ### Easy
 | Question                                                                                                                                                     | Submission                                                                                                                         | Runtime | Rank   |
@@ -43,6 +43,7 @@ Completed: 27/294.
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PeakIndexInAMountainArray.java)                      | 0ms     | 100%   |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                     | 0ms     | 100%   |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArrayTwo.java)                  | 0ms     | 100%   |
+| [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleElementInASortedArray.java)                    | 0ms     | 100%   |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                             | 3ms     | 93.35% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)                    | 2ms     | 92.54% |
 
