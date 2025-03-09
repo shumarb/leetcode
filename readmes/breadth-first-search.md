@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/239.
+Completed: 20/239.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -28,13 +28,14 @@ Completed: 19/239.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)            | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                                              | Submission                                                                                                        | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)         | 1ms     | 89.68% |
-| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversalTwo.java)      | 1ms     | 93.85% |
-| [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeZigZagLevelOrderTraversal.java)   | 1ms     | 69.75% |
-| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java)         | 2ms     | 79.36% |
-| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java)           | 3ms     | 71.32% |
-| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)                     | 1ms     | 88.40% |
-| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNode.java) | 3ms     | 35.47% |
-| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java)          | 10ms    | 32.12% |
+| Question                                                                                                                                    | Submission                                                                                                           | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)            | 1ms     | 89.68% |
+| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversalTwo.java)         | 1ms     | 93.85% |
+| [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeZigZagLevelOrderTraversal.java)      | 1ms     | 69.75% |
+| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java)            | 2ms     | 79.36% |
+| [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreeLevelOrderTraversal.java)              | 3ms     | 71.32% |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfProvinces.java)                        | 1ms     | 88.40% |
+| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNode.java)    | 3ms     | 35.47% |
+| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
+| [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOddLevelsOfBinaryTree.java)             | 10ms    | 32.12% |
