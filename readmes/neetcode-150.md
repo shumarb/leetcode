@@ -1,8 +1,8 @@
 # NeetCode 150
 
 ## Overview
-This folder contains my solutions to the [NeetCode 150](https://leetcode.com/problem-list/plakya4j/) list.
-With entries sorted by:
+This folder contains my solutions to the [NeetCode 150](https://leetcode.com/problem-list/plakya4j/) list,
+with entries sorted by:
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
