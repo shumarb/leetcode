@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 186/1855.
+Completed: 187/1855.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -179,6 +179,7 @@ Completed: 186/1855.
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                | 153ms   | 42.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                                  | 9ms     | 35.78% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                                  | 25ms    | 93.59% |
+| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                         | 37ms    | 29.39% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                     | 39ms    | 73.11% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java)              | 15ms    | 55.37% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                             | 10ms    | 45.32% |
