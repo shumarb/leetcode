@@ -45,7 +45,9 @@ class PopulatingNextRightPointersInEachNode {
                     queue.offer(current.right);
                 }
             }
-            update(nodesOnCurrentLevel);
+            if (nodesOnCurrentLevel.size() > 1) {
+                update(nodesOnCurrentLevel);
+            }
         }
 
         return root;
