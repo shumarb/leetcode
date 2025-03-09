@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/312.
+Completed: 32/312.
 
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
@@ -25,6 +25,7 @@ Completed: 31/312.
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)        | 0ms     | 100%   |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InvertBinaryTree.java)                 | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
+| [Maximum Depth of N-Ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfNAryTree.java)           | 2ms     | 23.23% |
 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoBinaryTrees.java)              | 0ms     | 100%   |
 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDepthOfBinaryTree.java)         | 2ms     | 89.35% |
