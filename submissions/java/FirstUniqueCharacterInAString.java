@@ -2,20 +2,17 @@
 
 class FirstUniqueCharacterInAString {
     public int firstUniqChar(String s) {
-        int[] freq = new int[26];
-        boolean test = false;
-        for (char letter: s.toCharArray()) {
-            freq[letter - 'a']++;
-        }
-        if (test) {
-            System.out.println("freq: " + Arrays.toString(freq));
-        }
+        int[] letterFrequency = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            char letter = s.charAt(i);
-            if (freq[letter - 'a'] == 1) {
+            letterFrequency[s.charAt(i) - 'a']++;
+        }
+
+        for (int i = 0; i < s.length(); i++) {
+            if (letterFrequency[s.charAt(i) - 'a'] == 1) {
                 return i;
             }
         }
+
         return -1;
     }
 }
