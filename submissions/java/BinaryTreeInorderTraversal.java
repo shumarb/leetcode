@@ -17,16 +17,16 @@
  */
 class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> inOrderElements = new ArrayList<>();
-        populate(root, inOrderElements);
-        return inOrderElements;
+        List<Integer> elements = new ArrayList<>();
+        inOrderTraversal(root, elements);
+        return elements;
     }
 
-    private void populate(TreeNode node, List<Integer> inOrderElements) {
+    private void inOrderTraversal(TreeNode node, List<Integer> elements) {
         if (node != null) {
-            populate(node.left, inOrderElements);
-            inOrderElements.add(node.val);
-            populate(node.right, inOrderElements);
+            inOrderTraversal(node.left, elements);
+            elements.add(node.val);
+            inOrderTraversal(node.right, elements);
         }
     }
 }
