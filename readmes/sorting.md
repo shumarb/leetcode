@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/437.
+Completed: 57/437.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 56/437.
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                            | 2ms     | 94.12% |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                   | 2ms     | 74.84% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicate.java)                                    | 7ms     | 99.29% |
+| [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithStrictlySmallerAndGreaterElements.java)   | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)             | 5ms     | 14.27% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)            | 8ms     | 62.37% |
