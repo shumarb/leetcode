@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 21/239.
+Completed: 22/239.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                   | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 21/239.
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDepthOfBinaryTree.java)         | 0ms     | 100%   |
 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoBinaryTrees.java)              | 0ms     | 100%   |
 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java)   | 0ms     | 100%   |
+| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDepthOfBinaryTree.java)         | 2ms     | 89.35% |
 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenBSTNodes.java) | 0ms     | 100%   |
 | [Path Sum](https://leetcode.com/problems/path-sum/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PathSum.java)                          | 0ms     | 100%   |
 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SameTree.java)                         | 0ms     | 100%   |
