@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/79.
+Completed: 18/79.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -27,14 +27,15 @@ Completed: 17/79.
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                         | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                               | Submission                                                                                                    | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                     | 1ms     | 100%   |
-| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)     | 1ms     | 18.41% |
-| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.87%  |
-| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
-| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5%     |
-| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                  | 0ms     | 100%   |
+| Question                                                                                                               | Submission                                                                                                        | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                         | 1ms     | 100%   |
+| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)         | 1ms     | 18.41% |
+| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/number-of-provinces/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNode.java) | 3ms     | 35.47% |
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java)     | 3ms     | 9.87%  |
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)            | 0ms     | 100%   |
+| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                              | 42ms    | 5%     |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                      | 0ms     | 100%   |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank   |
