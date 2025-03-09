@@ -2,34 +2,73 @@
 
 class SortCharactersByFrequency {
     public String frequencySort(String s) {
-        Map<Character, Integer> map = new HashMap<> ();
-        boolean t = false;
+        StringBuilder result = new StringBuilder();
+        boolean isTest = false;
+        int[] characterFrequency = new int[62];
 
-        for (char x: s.toCharArray()) {
-            map.put(x, 1 + map.getOrDefault(x, 0));
-        }
-        List<Map.Entry<Character, Integer>> list = new ArrayList<>(map.entrySet());
-        list.sort((e1, e2) -> e2.getValue().compareTo(e1.getValue()));
-        if (t) {
-            System.out.println("s: " + s);
-            System.out.println("map: " + map);
-            System.out.println("list: " + list);
-        }
-
-        StringBuilder sb = new StringBuilder();
-        for (Map.Entry<Character, Integer> entry: list) {
-            char c = entry.getKey();
-            if (t) {
-                System.out.println(entry);
-                System.out.println("letter: " + c);
-            }
-            for (int i = 0; i < entry.getValue(); i++) {
-                sb.append(c);
+        for (char c: s.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') {
+                characterFrequency[c - 'A']++;
+            } else if (c >= 'a' && c <= 'z') {
+                characterFrequency[c - 'a' + 26]++;
+            } else {
+                characterFrequency[c - '0' + 52]++;
             }
         }
-        if (t) {
-            System.out.println("sb: " + sb.toString());
+        if (isTest) {
+            System.out.println("s: " + s + "\ncharacterFrequency: " + Arrays.toString(characterFrequency));
         }
-        return sb.toString();
+
+        List<Pair> list = new ArrayList<>();
+        for (char c: s.toCharArray()) {
+            if (c >= 'A' && c <= 'Z' && characterFrequency[c - 'A'] > 0) {
+                list.add(new Pair(c, characterFrequency[c - 'A']));
+                characterFrequency[c - 'A'] = 0;
+            } else if (c >= 'a' && c <= 'z' && characterFrequency[c - 'a' + 26] > 0) {
+                list.add(new Pair(c, characterFrequency[c - 'a' + 26]));
+                characterFrequency[c - 'a' + 26] = 0;
+            } else if (c >= '0' && c <= '9' && characterFrequency[c - '0' + 52] > 0) {
+                list.add(new Pair(c, characterFrequency[c - '0' + 52]));
+                characterFrequency[c - '0' + 52] = 0;
+            }
+        }
+        list.sort(
+                (a, b) -> a.getCount() == b.getCount() ? a.getSChar() - b.getSChar() : b.getCount() - a.getCount()
+        );
+        if (isTest) {
+            System.out.println("list:");
+            for (Pair entry: list) {
+                System.out.println(" * " + entry.getSChar() + " --> " + entry.getCount());
+            }
+        }
+
+        for (Pair pair: list) {
+            for (int i = 0; i < pair.getCount(); i++) {
+                result.append(pair.getSChar());
+            }
+        }
+        if (isTest) {
+            System.out.println("result: " + result.toString());
+        }
+
+        return result.toString();
+    }
+}
+
+class Pair {
+    private char sChar;
+    private int count;
+
+    public Pair(char sChar, int count) {
+        this.sChar = sChar;
+        this.count = count;
+    }
+
+    public char getSChar() {
+        return sChar;
+    }
+
+    public int getCount() {
+        return count;
     }
 }
