@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/21.
+Completed: 4/21.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 3/21.
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)    | 21ms    | 54.99% |
 
 ### Hard
-| Question                                                                                                | Submission                                                                               | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java) | 92ms    | 78.28% |
+| Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)     | 92ms    | 78.28% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java) | 2490ms  | 5.01%  |

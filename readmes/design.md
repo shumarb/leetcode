@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/126.
+Completed: 14/126.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -30,6 +30,7 @@ Completed: 13/126.
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)       | 25ms    | 93.59% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)            | 4ms     | 97.18% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)    | 2490ms  | 5.01%  |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java) | 16ms    | 33.15% |
 
 ### Hard
