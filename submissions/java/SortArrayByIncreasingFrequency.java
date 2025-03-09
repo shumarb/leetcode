@@ -2,29 +2,35 @@
 
 class SortArrayByIncreasingFrequency {
     public int[] frequencySort(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] numberFrequency = new int[201];
         boolean isTest = false;
 
-        for (int value: nums) {
-            map.put(value, 1 + map.getOrDefault(value, 0));
-        }
-        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
-        list.sort((e1, e2) -> e1.getValue() == e2.getValue() ? e2.getKey() - e1.getKey() : e1.getValue() - e2.getValue());
         if (isTest) {
             System.out.println("before, nums: " + Arrays.toString(nums));
-            System.out.println("list: " + list);
-            System.out.println("map: " + map);
+        }
+        for (int num: nums) {
+            numberFrequency[num + 100]++;
         }
 
-        int i = 0;
-        for (Map.Entry<Integer, Integer> entry: list) {
-            if (isTest) {
-                System.out.println("entry: " + entry.getKey() + "-->" + entry.getValue());
+        List<int[]> list = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (numberFrequency[nums[i] + 100] != 0) {
+                list.add(new int[] {nums[i], numberFrequency[nums[i] + 100]});
+                numberFrequency[nums[i] + 100] = 0;
             }
-            int key = entry.getKey();
-            int value = entry.getValue();
-            while (value-- != 0) {
-                nums[i++] = key;
+        }
+        list.sort((a, b) -> a[1] == b[1] ? b[0] - a[0] : a[1] - b[1]);
+        if (isTest) {
+            System.out.println("list:");
+            for (int[] entry: list) {
+                System.out.println(" * " + entry[0] + " --> " + entry[1]);
+            }
+        }
+
+        int k = 0;
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = 0; j < list.get(i)[1]; j++) {
+                nums[k++] = list.get(i)[0];
             }
         }
         if (isTest) {
