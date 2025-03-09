@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/157.
+Completed: 34/157.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -46,9 +46,10 @@ Completed: 33/157.
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                     | 3ms     | 50.44% |
 
 ### Medium
-| Question                                                                                                | Submission                                                                                            | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)        | 10ms    | 45.32% |
-| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java) | 14ms    | 64.05% |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)      | 14ms    | 58.56% |
-| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)         | 6ms     | 98%    | 
+| Question                                                                                                    | Submission                                                                                             | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
+| [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)         | 10ms    | 45.32% |
+| [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java) | 51ms    | 69.39% |
+| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)  | 14ms    | 64.05% |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)       | 14ms    | 58.56% |
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)          | 6ms     | 98%    | 
