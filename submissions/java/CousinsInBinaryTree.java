@@ -17,11 +17,13 @@
  */
 class CousinsInBinaryTree {
     private List<TreeNodeInfo> list = new ArrayList<>();
+    private TreeNodeInfo xNode = null;
+    private TreeNodeInfo yNode = null;
 
     public boolean isCousins(TreeNode root, int x, int y) {
         boolean isTest = false;
 
-        list.add(new TreeNodeInfo(null, root.val, 1));
+        list.add(new TreeNodeInfo(new TreeNode(-1), root.val, 1));
         traverse(root, 1);
 
         if (isTest) {
@@ -31,8 +33,6 @@ class CousinsInBinaryTree {
             }
         }
 
-        TreeNodeInfo xNode = null;
-        TreeNodeInfo yNode = null;
         for (TreeNodeInfo node: list) {
             if (node.getValue() == x) {
                 xNode = node;
@@ -46,7 +46,7 @@ class CousinsInBinaryTree {
     }
 
     private void traverse(TreeNode node, int depth) {
-        if (node != null) {
+        if (node != null && xNode == null && yNode == null) {
             depth++;
             if (node.left != null) {
                 list.add(new TreeNodeInfo(node, node.left.val, depth));
