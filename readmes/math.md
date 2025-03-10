@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/563.
+Completed: 77/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -26,6 +26,7 @@ Completed: 76/563.
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Base7.java)                                            | 1ms     | 70.47% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheNumberIsFascinating.java)                    | 0ms     | 100%   |
+| [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoChessboardSquaresHaveTheSameColour.java)     | 1ms     | 23.08% |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertBinaryNumberInALinkedListToInteger.java)        | 0ms     | 100%   |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                              | 4ms     | 66.45% |
 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/description)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertTheTemperature.java)                            | 0ms     | 100%   |

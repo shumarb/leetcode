@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/770.
+Completed: 90/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -29,6 +29,7 @@ Completed: 89/770.
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)  | 1ms     | 100%   |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java) | 0ms     | 100%   |
 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumbersAreAscendingInASentence.java)             | 0ms     | 100%   |
+| [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoChessboardSquaresHaveTheSameColour.java)      | 1ms     | 23.08% |
 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAStringIsAnAcronymOfWords.java)                  | 1ms     | 100%   |
 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConsecutiveCharacters.java)                             | 1ms     | 99.83% |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                               | 4ms     | 66.45% |
