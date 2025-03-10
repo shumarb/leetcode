@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/563.
+Completed: 78/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -35,6 +35,7 @@ Completed: 77/563.
 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-largest-group/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountOddNumbersInAnIntervalRange.java)                 | 329ms   | 10.03% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSymmetricIntegers.java)                           | 44ms    | 25.05% |
 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheDigitsThatDivideANumber.java)                  | 0ms     | 100%   |
+| [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineColorOfAChessboardSquare.java)                | 0ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)  | 2ms     | 98.35% |
 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivisibleAndNonDivisibleSumsDifference.java)           | 0ms     | 100%   |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)                                  | 0ms     | 100%   |
