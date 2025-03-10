@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/233.
+Completed: 23/233.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
@@ -26,6 +26,7 @@ Completed: 22/233.
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                   | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                              | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                              | 0ms     | 100%   |
+| [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEvenAndOddBits.java)                     | 2ms     | 23.78% |
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfFour.java)                                | 0ms     | 100%   |
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)                                 | 0ms     | 100%   |
 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeNumberOfSetBitsInBinaryRepresentation.java) | 66ms    | 10.43% |
