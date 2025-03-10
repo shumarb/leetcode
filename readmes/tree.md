@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/240.
+Completed: 41/240.
 
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
@@ -20,6 +20,7 @@ Completed: 40/240.
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)                            | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)                          | 0ms     | 100%   |
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)                           | 0ms     | 100%   |
+| [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CousinsInBinaryTree.java)                                   | 1ms     | 26.22% |
 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindModeInBinarySearchTree.java)                            | 6ms     | 44.33% |
 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java) | 1ms     | 98.35% |
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)                             | 0ms     | 100%   |

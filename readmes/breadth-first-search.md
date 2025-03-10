@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/239.
+Completed: 28/239.
 
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageOfLevelsInBinaryTree.java)                           | 2ms     | 94.44% |
+| [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CousinsInBinaryTree.java)                                   | 1ms     | 26.22% |
 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java) | 1ms     | 98.35% |
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIfPathExistsInGraph.java)                               | 53ms    | 88.29% |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InvertBinaryTree.java)                                      | 0ms     | 100%   |
