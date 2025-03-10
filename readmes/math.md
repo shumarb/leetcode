@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/563.
+Completed: 76/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -86,6 +86,7 @@ Completed: 75/563.
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberIsASumOfPowersOfThree.java) | 0ms     | 100%   |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                        | 94ms    | 82.87% |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideTwoIntegers.java)                  | 4ms     | 5.52%  |
+| [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EliminationGame.java)                    | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                      | 25ms    | 93.59% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)             | 37ms    | 29.39% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                   | 2490ms  | 5.01%  |
