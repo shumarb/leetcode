@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/312.
+Completed: 37/312.
 
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
@@ -45,6 +45,7 @@ Completed: 36/312.
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java)        | 17ms    | 75.89% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeRightSideView.java)                  | 1ms     | 71.42% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java)            | 2ms     | 79.36% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |

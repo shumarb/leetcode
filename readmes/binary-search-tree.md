@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/40.
+Completed: 11/40.
 
 ### Easy
 | Question                                                                                                            | Submission                                                                                                 | Runtime | Rank   |
@@ -25,7 +25,8 @@ Completed: 10/40.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)          | 1ms     | 96.19% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                           | Runtime | Rank  |
-|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|-------|
-| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java) | 0ms     | 100%  |
-| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java) | 0ms     | 100%  | 
+| Question                                                                                                                      | Submission                                                                                                    | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java) | 17ms    | 75.89% |
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)          | 0ms     | 100%   |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)          | 0ms     | 100%   | 
