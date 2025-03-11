@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/240.
+Completed: 46/240.
 
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
@@ -54,6 +54,7 @@ Completed: 45/240.
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeRightSideView.java)                  | 1ms     | 71.42% |
 | [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeZigZagLevelOrderTraversal.java)      | 1ms     | 69.75% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeepestLeavesSum.java)                         | 9ms     | 13.83% |
+| [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EvenOddTree.java)                              | 17ms    | 23.05% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLargestValueInEachTreeRow.java)            | 2ms     | 79.36% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestSumInABinaryTree.java)               | 45ms    | 83.54% |
