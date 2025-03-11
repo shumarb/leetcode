@@ -2,27 +2,17 @@
 
 class NthTribonacciNumber {
     public int tribonacci(int n) {
-        List<Integer> tribonacciNumbers = new ArrayList<>();
-        tribonacciNumbers.add(0);
-        tribonacciNumbers.add(1);
-        tribonacciNumbers.add(1);
+        int[] tribonacciNumbers = new int[38];
+        tribonacciNumbers[1] = 1;
+        tribonacciNumbers[2] = 1;
 
         if (n <= 2) {
-            return tribonacciNumbers.get(n);
+            return tribonacciNumbers[n];
+        }
+        for (int i = 3; i <= n; i++) {
+            tribonacciNumbers[i] = tribonacciNumbers[i - 3] + tribonacciNumbers[i - 2] + tribonacciNumbers[i - 1];
         }
 
-        boolean isTest = false;
-        while (tribonacciNumbers.size() < n + 1) {
-            int size = tribonacciNumbers.size();
-            int first = tribonacciNumbers.get(size - 3);
-            int second = tribonacciNumbers.get(size - 2);
-            int third = tribonacciNumbers.get(size - 1);
-            tribonacciNumbers.add(first + second + third);
-        }
-        if (isTest) {
-            System.out.println("tribonacci numbers: " + tribonacciNumbers);
-        }
-
-        return tribonacciNumbers.get(tribonacciNumbers.size() - 1);
+        return tribonacciNumbers[n];
     }
 }
