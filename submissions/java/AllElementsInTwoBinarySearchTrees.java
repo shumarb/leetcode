@@ -18,17 +18,28 @@
 class AllElementsInTwoBinarySearchTrees {
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> result = new ArrayList<>();
-        traverse(root1, result);
-        traverse(root2, result);
-        Collections.sort(result);
+        int[] elementFrequency = new int[200001];
+        inOrderTraversal(root1, elementFrequency);
+        inOrderTraversal(root2, elementFrequency);
+        populate(result, elementFrequency);
         return result;
     }
 
-    private void traverse(TreeNode node, List<Integer> result) {
+    private void populate(List<Integer> result, int[] elementFrequency) {
+        for (int i = 0; i < elementFrequency.length; i++) {
+            if (elementFrequency[i] > 0) {
+                for (int j = 0; j < elementFrequency[i]; j++) {
+                    result.add(i - 100000);
+                }
+            }
+        }
+    }
+
+    private void inOrderTraversal(TreeNode node, int[] elementFrequency) {
         if (node != null) {
-            result.add(node.val);
-            traverse(node.left, result);
-            traverse(node.right, result);
+            inOrderTraversal(node.left, elementFrequency);
+            elementFrequency[node.val + 100000]++;
+            inOrderTraversal(node.right, elementFrequency);
         }
     }
 }
