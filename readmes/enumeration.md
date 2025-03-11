@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/107.
+Completed: 11/107.
 
 ### Easy
 | Question                                                                                                                                      | Submission                                                                                                           | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountGoodTriplets.java)                        | 10ms    | 79.74% |
+| [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSpecialQuadruplets.java)                  | 13ms    | 41.65% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSymmetricIntegers.java)                   | 44ms    | 25.05% |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindThePeaks.java)                             | 1ms     | 100%   |
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Finding3DigitEvenNumber.java)                  | 6ms     | 81.30% |
