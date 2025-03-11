@@ -3,14 +3,14 @@
 ## Overview
 This folder contains my solutions to the LeetCode [Dynamic Programming](https://leetcode.com/problem-list/dynamic-programming/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty.
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/563.
+Completed: 7/563.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 6/563.
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)              | 2ms     | 95%    |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)           | 0ms     | 100%   |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)             | 1ms     | 93.37% |
+| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)       | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
