@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/240.
+Completed: 44/240.
 
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 43/240.
 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInABinarySearchTree.java)                             | 0ms     | 100%   |
 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondMinimumNodeInABinaryTree.java)                        | 0ms     | 100%   |
 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfLeftLeaves.java)                                       | 0ms     | 100%   |
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SymmetricTree.java)                                         | 0ms     | 100%   |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                                 | 1ms     | 96.19% |
 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UnivaluedBinaryTree.java)                                   | 0ms     | 100%   |
 
