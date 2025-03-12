@@ -21,26 +21,36 @@ class ReduceArraySizeToTheHalf {
             System.out.println("numberFrequency: " + Arrays.toString(numberFrequency));
         }
 
-        PriorityQueue<int[]> maxHeap = new PriorityQueue<>(
-                (a, b) -> Integer.compare(b[1], a[1]) == 0 ? Integer.compare(a[0], b[0]) : Integer.compare(b[1], a[1])
-        );
+        int countIntegers = 0;
         for (int i = 0; i < numberFrequency.length; i++) {
             if (numberFrequency[i] > 0) {
-                maxHeap.offer(new int[] {i, numberFrequency[i]});
-            }
-        }
-        if (isTest) {
-            System.out.println("max heap:" );
-            for (int[] entry: maxHeap) {
-                System.out.println(" * number: " + entry[0] + " --> frequency: " + entry[1]);
+                countIntegers++;
             }
         }
 
-        int size = arr.length;
-        while (size > arr.length / 2) {
-            int[] entry = maxHeap.poll();
+        int[][] maxHeap = new int[countIntegers][2];
+        int j = 0;
+        for (int i = 0; i < numberFrequency.length; i++) {
+            if (numberFrequency[i] > 0) {
+                maxHeap[j++] = new int[] {i, numberFrequency[i]};
+            }
+        }
+        Arrays.sort(maxHeap, (a, b) -> Integer.compare(b[1], a[1]) == 0 ? Integer.compare(a[0], b[0]) : Integer.compare(b[1], a[1]));
+        if (isTest) {
+            System.out.println("maxHeap:");
+            for (int[] row: maxHeap) {
+                System.out.println(" * number: " + row[0] + " --> " + row[1]);
+            }
+        }
+
+        int arraySize = arr.length;
+        j = 0;
+        while (arraySize > arr.length / 2) {
+            arraySize -= maxHeap[j++][1];
             minSetSize++;
-            size -= entry[1];
+        }
+        if (isTest) {
+            System.out.println("min set size: " + minSetSize);
         }
 
         return minSetSize;
