@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/444.
+Completed: 63/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -60,6 +60,7 @@ Completed: 62/444.
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                                | 1ms     | 100%   |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TheKWeakestRowsInAMatrix.java)                             | 2ms     | 76.03% |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThirdMaximumNumber.java)                                   | 1ms     | 97.13% |
+| [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransformArrayByParity.java)                               | 1ms     | 100%   |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                         | 2ms     | 97.84% |
 
 ### Medium
