@@ -2,7 +2,7 @@
 
 class MaximalScoreAfterApplyingKOperations {
     public long maxKelements(int[] nums, int k) {
-        PriorityQueue<Long> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Long> maxHeap = new PriorityQueue<>((a, b) -> Long.compare(b, a));
         long score = 0;
         boolean isTest = false;
 
