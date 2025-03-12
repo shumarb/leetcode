@@ -2,10 +2,6 @@
 
 class MinimumOperationsToExceedThresholdValueTwo {
     public int minOperations(int[] nums, int k) {
-        if (nums.length < 2) {
-            return 0;
-        }
-
         PriorityQueue<Long> minHeap = new PriorityQueue<>();
         int count = 0;
         boolean isTest = false;
@@ -23,7 +19,7 @@ class MinimumOperationsToExceedThresholdValueTwo {
             }
             long minimum = minHeap.poll();
             long secondMinimum = minHeap.poll();
-            long toAdd = Math.min(minimum, secondMinimum) * 2 + Math.max(minimum, secondMinimum);
+            long toAdd = 2 * minimum + secondMinimum;
             if (isTest) {
                 System.out.println(" * minimum: " + minimum + ", secondMinimum: " + secondMinimum + ", toAdd: " + toAdd);
             }
