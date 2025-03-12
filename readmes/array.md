@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 197/1859.
+Completed: 198/1859.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -176,6 +176,7 @@ Completed: 197/1859.
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                         | 5ms     | 74.40% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                    | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                              | 77ms    | 31.05% |
+| [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EmployeeImportance.java)                             | 4ms     | 99.25% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)                         | 12ms    | 88.41% |
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems//find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstAndLastPositionOfElementInSortedArray.java) | 0ms     | 100%   |
