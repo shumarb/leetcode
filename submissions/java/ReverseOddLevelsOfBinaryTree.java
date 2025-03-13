@@ -17,47 +17,22 @@
  */
 class ReverseOddLevelsOfBinaryTree {
     public TreeNode reverseOddLevels(TreeNode root) {
-        boolean isTest = false;
-        Queue<TreeNode> queue = new LinkedList<>();
-        int level = 0;
-        queue.offer(root);
-
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            List<TreeNode> oddLevel = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                if (level % 2 != 0) {
-                    oddLevel.add(current);
-                }
-                if (current.left != null) {
-                    queue.offer(current.left);
-                }
-                if (current.right != null) {
-                    queue.offer(current.right);
-                }
-            }
-            if (isTest) {
-                System.out.println("swap at level " + level + " --> " + oddLevel);
-            }
-            swap(oddLevel);
-            level++;
-        }
-
+        reverseOddLevels(root.left, root.right, 1);
         return root;
     }
 
-    private void swap(List<TreeNode> level) {
-        int left = 0;
-        int right = level.size() - 1;
-        while (left < right) {
-            TreeNode leftNode = level.get(left);
-            TreeNode rightNode = level.get(right);
-            int temp = leftNode.val;
-            leftNode.val = rightNode.val;
-            rightNode.val = temp;
-            left++;
-            right--;
+    private void reverseOddLevels(TreeNode leftSubtree, TreeNode rightSubtree, int level) {
+        if (leftSubtree == null && rightSubtree == null) {
+            return;
         }
+
+        if (level % 2 == 1) {
+            int temp = leftSubtree.val;
+            leftSubtree.val = rightSubtree.val;
+            rightSubtree.val = temp;
+        }
+
+        reverseOddLevels(leftSubtree.left, rightSubtree.right, level + 1);
+        reverseOddLevels(leftSubtree.right, rightSubtree.left, level + 1);
     }
 }
