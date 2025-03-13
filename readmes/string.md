@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 92/770.
+Completed: 93/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -106,6 +106,7 @@ Completed: 92/770.
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 79ms    | 50.60% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                  | 87ms    | 32.57% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                | 51ms    | 69.39% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                              | 5ms     | 51.87% |

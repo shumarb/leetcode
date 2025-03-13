@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/147.
+Completed: 6/147.
 
 ### Easy
 | Question                                                                                  | Submission                                                                                            | Runtime | Rank   |
@@ -19,8 +19,9 @@ Completed: 5/147.
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java) | 5ms     | 36.77% |
 
 ### Medium
-| Question                                                                                                                                                         | Submission                                                                                                                  | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                        | 9ms     | 91.31% |
-| [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java)       | 6ms     | 70.55% |
-| [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)        | 54ms    | 30.96% |
+| Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
+| [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
+| [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)  | 54ms    | 30.96% |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
