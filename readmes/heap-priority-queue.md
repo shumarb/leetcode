@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/189.
+Completed: 29/189.
 
 ### Easy
 | Question                                                                                                                                                  | Submission                                                                                                                   | Runtime | Rank   |
@@ -34,6 +34,7 @@ Completed: 28/189.
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                 | 39ms    | 73.11% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInASortedMatrix.java)          | 11ms    | 65.35% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)       | 130ms   | 63.04% |
+| [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                          | 3ms     | 41.37% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueTwo.java) | 144ms   | 74.64% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToHalfArraySum.java)            | 172ms   | 82.34% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReduceArraySizeToTheHalf.java)                   | 17ms    | 92.02% |
