@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/215.
+Completed: 39/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -29,6 +29,7 @@ Completed: 38/215.
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java) | 6ms     | 61.28% |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                                 | 0ms     | 100%   |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                | 1ms     | 29.79% |
+| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeStringsAlternately.java)                         | 1ms     | 82.95% |
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                           | 0ms     | 100%   |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)      | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                              | 2ms     | 86.22% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/770.
+Completed: 92/770.
 
 ### Easy
 | Question                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
@@ -69,6 +69,7 @@ Completed: 91/770.
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                                | 3ms     | 62.40% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)    | 1ms     | 100%   |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                           | 3ms     | 75.90% |
+| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeStringsAlternately.java)                           | 1ms     | 82.95% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                              | 3ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                    | 17ms    | 43.61% |
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)                | 3ms     | 78.75% |
