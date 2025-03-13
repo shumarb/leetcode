@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/215.
+Completed: 41/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -50,6 +50,7 @@ Completed: 40/215.
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)            | 5ms     | 74.40% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 4ms     | 88.06% |
+| [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestPrimeFaction.java)           | 359ms   | 38.30% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.12%  |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
