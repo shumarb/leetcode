@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 200/1859.
+Completed: 201/1859.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -45,6 +45,7 @@ Completed: 200/1859.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                           | 58ms    | 41.34% |
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                         | 0ms     | 100%   |
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSpecialQuadruplets.java)                              | 13ms    | 41.65% |
+| [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSubarraysOfLengthThreeWithACondition.java)            | 1ms     | 100%   |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                    | 6ms     | 86.92% |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                        | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
