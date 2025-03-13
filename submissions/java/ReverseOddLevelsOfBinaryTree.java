@@ -37,12 +37,10 @@ class ReverseOddLevelsOfBinaryTree {
                     queue.offer(current.right);
                 }
             }
-            if (oddLevel.size() > 1) {
-                if (isTest) {
-                    System.out.println("swap at level " + level + " --> " + oddLevel);
-                }
-                swap(oddLevel);
+            if (isTest) {
+                System.out.println("swap at level " + level + " --> " + oddLevel);
             }
+            swap(oddLevel);
             level++;
         }
 
