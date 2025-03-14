@@ -12,27 +12,31 @@
  */
 class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<> ();
-        if (lists == null || lists.length == 0) {
+        if (lists == null) {
             return null;
         }
-        for (int i = 0; i < lists.length; i++) {
-            ListNode head = lists[i];
-            ListNode curr = new ListNode();
-            curr = head;
-            while (curr != null) {
-                minHeap.offer(curr.val);
-                curr = curr.next;
+
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>(
+                (a, b) -> Integer.compare(a.val, b.val)
+        );
+        for (ListNode list: lists) {
+            if (list != null) {
+                minHeap.offer(list);
             }
         }
+
         ListNode head = new ListNode();
-        ListNode curr = new ListNode();
-        curr = head;
+        ListNode current = head;
         while (!minHeap.isEmpty()) {
-            ListNode newNode = new ListNode(minHeap.poll());
-            curr.next = newNode;
-            curr = curr.next;
+            ListNode newNode = minHeap.poll();
+            if (newNode.next != null) {
+                minHeap.offer(newNode.next);
+            }
+            newNode.next = null;
+            current.next = newNode;
+            current = current.next;
         }
+
         return head.next;
     }
 }

@@ -1,7 +1,7 @@
 # Divide and Conquer
 
 ## Overview
-This folder contains my solutions to the LeetCode [Stack](https://leetcode.com/problem-list/divide-and-conquer/) problem list,
+This folder contains my solutions to the LeetCode [Stack](https://leetcode.com/problem-list/divide-and-conquer/) problem list.
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
@@ -30,4 +30,4 @@ Completed: 9/47.
 ### Hard
 | Question                                                                                | Submission                                                                                           | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java)        | 5ms     | 35.39% |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java)        | 4ms     | 71.29% |
