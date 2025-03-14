@@ -20,7 +20,7 @@ class MaximumIceCreamBars {
         }
 
         for (int i = 1; i < costFrequency.length && coins > 0; i++) {
-            while (costFrequency[i] > 0 && coins > 0 && (coins - i) >= 0) {
+            while (costFrequency[i] > 0 && (coins - i) >= 0) {
                 if (isTest) {
                     System.out.println("adding to cost: " + i);
                     System.out.println("before | coins: " + coins + ", maxIceCream: " + maxIceCream);
