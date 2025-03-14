@@ -12,31 +12,25 @@
  */
 class SortList {
     public ListNode sortList(ListNode head) {
-        // 1. Edge cases: 0 elements or 1 element in list.
+        // 1. Edge cases: List has either 0 elements or 1 element.
         if (head == null || head.next == null) {
             return head;
         }
 
-        PriorityQueue<ListNode> minHeap = new PriorityQueue<>(
-                (a, b) -> Integer.compare(a.val, b.val)
-        );
+        int[] valueFrequency = new int[200001];
         ListNode current = head;
         while (current != null) {
-            minHeap.offer(current);
+            valueFrequency[current.val + 100000]++;
             current = current.next;
         }
 
-        int count = 0;
         current = head;
-        while (!minHeap.isEmpty()) {
-            ListNode newNode = minHeap.poll();
-            count++;
-            if (count == 1) {
-                head = newNode;
+        for (int i = 0; i < valueFrequency.length; i++) {
+            while (valueFrequency[i] > 0) {
+                current.val = i - 100000;
+                current = current.next;
+                valueFrequency[i]--;
             }
-            newNode.next = null;
-            current.next = newNode;
-            current = current.next;
         }
 
         return head;

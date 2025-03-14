@@ -15,7 +15,7 @@ Completed: 3/12.
 ### Medium
 | Question                                                                                                                          | Submission                                                                                                    | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 42ms    | 5.02%  |
+| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 41ms    | 26.79% |
 
 ### Hard
