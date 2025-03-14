@@ -12,49 +12,33 @@
  */
 class SortList {
     public ListNode sortList(ListNode head) {
-        // 1. Edge case: empty list or list with single element
+        // 1. Edge cases: 0 elements or 1 element in list.
         if (head == null || head.next == null) {
             return head;
         }
 
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        boolean isTest = false;
-        if (isTest) {
-            display(head);
-        }
-
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>(
+                (a, b) -> Integer.compare(a.val, b.val)
+        );
         ListNode current = head;
         while (current != null) {
-            minHeap.offer(current.val);
+            minHeap.offer(current);
             current = current.next;
-        }
-        if (isTest) {
-            System.out.println("minHeap: " + minHeap);
         }
 
+        int count = 0;
         current = head;
         while (!minHeap.isEmpty()) {
-            current.val = minHeap.poll();
-            current = current.next;
-            if (isTest) {
-                System.out.println("minHeap so far: " + minHeap);
+            ListNode newNode = minHeap.poll();
+            count++;
+            if (count == 1) {
+                head = newNode;
             }
-        }
-        if (isTest) {
-            display(head);
+            newNode.next = null;
+            current.next = newNode;
+            current = current.next;
         }
 
         return head;
-    }
-
-    private void display(ListNode head) {
-        ListNode current = head;
-        while (current != null) {
-            System.out.print(current.val + " -> ");
-            if (current.next == null) {
-                System.out.println("null");
-            }
-            current = current.next;
-        }
     }
 }

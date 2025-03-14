@@ -36,7 +36,7 @@ Completed: 20/79.
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java)        | 3ms     | 9.12%  |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)               | 0ms     | 100%   |
-| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                 | 42ms    | 5%     |
+| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                 | 42ms    | 5.02%  |
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                         | 0ms     | 100%   |
 
 ### Hard
