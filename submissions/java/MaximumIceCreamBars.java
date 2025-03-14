@@ -6,10 +6,8 @@ class MaximumIceCreamBars {
         boolean isTest = false;
 
         int maximumCost = costs[0];
-        int minimumCost = costs[0];
         for (int cost: costs) {
             maximumCost = Math.max(maximumCost, cost);
-            minimumCost = Math.min(minimumCost, cost);
         }
 
         int[] costFrequency = new int[maximumCost + 1];
