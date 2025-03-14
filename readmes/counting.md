@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 37/157.
+Completed: 38/157.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 37/157.
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
+| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                                 | 6ms     | 88.17% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                          | 51ms    | 69.39% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)                           | 8ms     | 87.71% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                                | 14ms    | 58.56% |
