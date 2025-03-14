@@ -22,4 +22,4 @@ Completed: 4/10.
 ### Medium
 | Question                                                                  | Submission                                                                              | Runtime | Rank   |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java) | 41ms    | 26.79% |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java) | 5ms     | 97.68% |
