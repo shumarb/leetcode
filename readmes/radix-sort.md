@@ -10,9 +10,10 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/3.
+Completed: 2/3.
 
 ### Medium
 | Question                                                                  | Submission                                                                              | Runtime | Rank   |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
+| [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumGap.java)  | 11ms    | 93.10% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java) | 5ms     | 97.68% |

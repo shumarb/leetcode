@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/6.
+Completed: 5/6.
 
 ### Medium
 | Question                                                                                                | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumGap.java)                | 11ms    | 93.10% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java) | 8ms     | 87.71% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)               | 5ms     | 97.68% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)      | 14ms    | 58.56% |
