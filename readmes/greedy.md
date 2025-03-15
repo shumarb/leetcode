@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/406.
+Completed: 16/406.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                         | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 15/406.
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Maximum69Number.java)                        | 0ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumWithExactlyKElements.java)         | 1ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                   | 8ms     | 95.90% |
+| [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)     | 1ms     | 100%   |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                     | 4ms     | 99.71% |
 
 ### Medium

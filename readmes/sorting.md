@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/444.
+Completed: 69/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -47,6 +47,7 @@ Completed: 68/444.
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)           | 2ms     | 97.31% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                    | 3ms     | 41.37% |
+| [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)                   | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDistinctAverages.java)                             | 1ms     | 99.35% |
