@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/10.
+Completed: 7/10.
 
 ### Easy
 | Question                                                                                                                                                | Submission                                                                                                               | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 6/10.
 | [Height Checker](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HeightChecker.java)                                | 2ms     | 88.86% |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java) | 5ms     | 83.20% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)           | 1ms     | 100%   |
+| [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeSortArray.java)                            | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                                    | Submission                                                                                      | Runtime | Rank   |

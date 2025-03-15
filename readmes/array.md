@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 207/1859.
+Completed: 208/1859.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                       | Runtime | Rank   |
@@ -144,6 +144,7 @@ Completed: 207/1859.
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                                             | 7ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                               | 25ms    | 86.01% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                                        | 9ms     | 61.66% |
+| [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeSortArray.java)                                    | 0ms     | 100%   |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedArray.java)                      | 1ms     | 64.98% |
 | [Remove Element](https://leetcode.com/problems/remove-element/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveElement.java)                                        | 0ms     | 100%   |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RichestCustomerWealth.java)                                | 0ms     | 100%   |
