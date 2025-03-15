@@ -2,17 +2,22 @@
 
 class KthLargestElementInAnArray {
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<> ();
-        for (int i = 0; i < k; i++) {
-            minHeap.offer(nums[i]);
+        int[] numberFrequency = new int[20001];
+
+        for (int number: nums) {
+            numberFrequency[number + 10000]++;
         }
-        for (int i = k; i < nums.length; i++) {
-            if (nums[i] > minHeap.peek()) {
-                minHeap.poll();
-                minHeap.offer(nums[i]);
+
+        for (int i = numberFrequency.length - 1; i >= 0; i--) {
+            while (numberFrequency[i] > 0) {
+                k--;
+                numberFrequency[i]--;
+                if (k == 0) {
+                    return i - 10000;
+                }
             }
         }
-        return minHeap.peek();
-    }
 
+        return 0;
+    }
 }
