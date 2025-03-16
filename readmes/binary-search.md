@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/301.
+Completed: 31/301.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -36,6 +36,7 @@ Completed: 30/301.
 ## Medium
 | Question                                                                                                                                                       | Submission                                                                                                                 | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                           | 21ms    | 25.69% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                         | 4ms     | 88.06% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems//find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstAndLastPositionOfElementInSortedArray.java) | 0ms     | 100%   |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPeakElement.java)                                | 0ms     | 100%   |

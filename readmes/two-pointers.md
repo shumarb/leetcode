@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/215.
+Completed: 42/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -49,6 +49,7 @@ Completed: 41/215.
 | Question                                                                                                                  | Submission                                                                                                    | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)            | 5ms     | 74.40% |
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)              | 21ms    | 25.69% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 4ms     | 88.06% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestPrimeFaction.java)           | 359ms   | 38.30% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |

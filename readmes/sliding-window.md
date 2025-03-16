@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/147.
+Completed: 7/147.
 
 ### Easy
 | Question                                                                                  | Submission                                                                                            | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 6/147.
 ### Medium
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                      | 21ms    | 25.69% |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)  | 54ms    | 30.96% |
