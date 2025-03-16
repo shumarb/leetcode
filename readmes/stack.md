@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/167.
+Completed: 23/167.
 
 ### Easy
 | Question                                                                                                                                    | Submission                                                                                                         | Runtime | Rank   |
@@ -32,14 +32,15 @@ Completed: 22/167.
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)                       | 2ms     | 97.66% |
 
 ### Medium
-| Question                                                                                                            | Submission                                                                                                | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)             | 77ms    | 31.05% |
-| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java) | 1ms     | 18.41% |
-| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                      | 4ms     | 97.18% |
-| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)         | 9ms     | 94.03% |
-| [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)      | 87ms    | 32.57% |
-| [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                  | 5ms     | 51.87% |
+| Question                                                                                                                              | Submission                                                                                                         | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                      | 77ms    | 31.05% |
+| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)          | 1ms     | 18.41% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                               | 4ms     | 97.18% |
+| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                  | 9ms     | 94.03% |
+| [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java) | 31ms    | 52.93% |
+| [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)               | 87ms    | 32.57% |
+| [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                           | 5ms     | 51.87% |
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                                | Runtime | Rank   |
