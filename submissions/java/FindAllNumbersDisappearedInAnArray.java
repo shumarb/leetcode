@@ -6,6 +6,7 @@ class FindAllNumbersDisappearedInAnArray {
         int[] freq = new int[n + 1];
         boolean t = false;
         List<Integer> missing = new ArrayList<> ();
+
         for (int i = 0; i < n; i++) {
             freq[nums[i]]++;
         }
@@ -22,6 +23,7 @@ class FindAllNumbersDisappearedInAnArray {
         if (t) {
             System.out.println("missing: " + missing);
         }
+
         return missing;
     }
 }
