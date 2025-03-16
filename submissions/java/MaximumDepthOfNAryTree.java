@@ -20,16 +20,20 @@ class Node {
 */
 
 class MaximumDepthOfNAryTree {
+    private int maximumDepth = 0;
+
     public int maxDepth(Node root) {
-        if (root == null) {
-            return 0;
-        }
+        dfs(root, 1);
+        return maximumDepth;
+    }
 
-        int maximumLevel = 0;
-        for (Node child: root.children) {
-            maximumLevel = Math.max(maximumLevel, maxDepth(child));
+    private void dfs(Node node, int currentDepth) {
+        if (node == null) {
+            return;
         }
-
-        return maximumLevel + 1;
+        maximumDepth = Math.max(maximumDepth, currentDepth);
+        for (Node child: node.children) {
+            dfs(child, 1 + currentDepth);
+        }
     }
 }
