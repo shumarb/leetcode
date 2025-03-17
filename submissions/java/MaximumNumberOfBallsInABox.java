@@ -4,8 +4,14 @@ class MaximumNumberOfBallsInABox {
     public int countBalls(int lowLimit, int highLimit) {
         int[] sumOfDigitsFrequency = new int[46];
         boolean isTest = false;
+
         for (int i = lowLimit; i <= highLimit; i++) {
-            int sumOfDigits = computeSumOfDigits(i);
+            int sumOfDigits = 0;
+            int number = i;
+            while (number != 0) {
+                sumOfDigits += (number % 10);
+                number /= 10;
+            }
             sumOfDigitsFrequency[sumOfDigits]++;
         }
 
@@ -23,14 +29,5 @@ class MaximumNumberOfBallsInABox {
         }
 
         return maximumBallsCount;
-    }
-
-    private int computeSumOfDigits(int number) {
-        int sumOfDigits = 0;
-        while (number != 0) {
-            sumOfDigits += (number % 10);
-            number /= 10;
-        }
-        return sumOfDigits;
     }
 }
