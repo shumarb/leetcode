@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 210/1859.
+Completed: 211/1859.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                       | Runtime | Rank   |
@@ -61,6 +61,7 @@ Completed: 210/1859.
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)         | 1ms     | 74.56% |
 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                   | 3ms     | 99.85% |
 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindClosestNumberToZero.java)                              | 2ms     | 85.15% |
+| [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonCharacters.java)                                 | 2ms     | 91.04% |
 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonElementsBetweenTwoArrays.java)                   | 1ms     | 100%   |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)                 | 1ms     | 100%   |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                     | 0ms     | 100%   |
