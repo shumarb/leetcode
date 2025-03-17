@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 112/671.
+Completed: 113/671.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -74,6 +74,7 @@ Completed: 112/671.
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaxPairSumInAnArray.java)                                  | 3ms     | 93.95% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)       | 1ms     | 100%   |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                              | 3ms     | 75.90% |
+| [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBallsInABox.java)                           | 14ms    | 90.33% |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfPairsInArray.java)                          | 0ms     | 100%   |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                                 | 3ms     | 100%   |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |
