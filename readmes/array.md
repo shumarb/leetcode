@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 211/1859.
+Completed: 212/1859.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                       | Runtime | Rank   |
@@ -137,6 +137,7 @@ Completed: 211/1859.
 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NRepeatedElementInSize2NArray.java)                        | 2ms     | 54.25% |
 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50% |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                                | 3ms     | 92.50% |
+| [Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfBeautifulPairs.java)                               | 18ms    | 52.42% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDistinctAverages.java)                             | 1ms     | 99.35% |
 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEmployeesWhoMetTheTarget.java)                     | 0ms     | 100%   |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                    | 0ms     | 100%   |

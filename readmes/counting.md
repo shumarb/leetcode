@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/157.
+Completed: 40/157.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 39/157.
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                     | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                            | 12ms    | 93.70% |
 | [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)            | 1ms     | 100%   |
+| [Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfBeautifulPairs.java)                             | 18ms    | 52.42% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                  | 0ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                         | 1ms     | 99.14% |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                    | 1ms     | 49.79% |
