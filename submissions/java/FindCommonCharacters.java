@@ -31,10 +31,10 @@ class FindCommonCharacters {
                     if (letterFrequency[j][i] == 0) {
                         isLetterPresent = false;
                         break;
-                    } else {
+                    } else if (letterFrequency[j][i] != count) {
                         /**
                          2.  Letter is present in another word,
-                         so find minimum count of letter in words.
+                             so find minimum count of letter in words.
                          */
                         count = Math.min(count, letterFrequency[j][i]);
                     }
