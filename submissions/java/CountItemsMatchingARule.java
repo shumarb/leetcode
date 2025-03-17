@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/count-items-matching-a-rule/description/
 
-class Solution {
+class CountItemsMatchingARule {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         boolean isTest = false;
         int count = 0;
