@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/770.
+Completed: 98/770.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -25,6 +25,7 @@ Completed: 97/770.
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)               | 1ms     | 59.87% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.java)   | 0ms     | 100%   |
 | [Check Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckItemsMatchingARule.java)                           | 3ms     | 98.89% |
+| [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckWhetherTwoStringsAreAlmostEquivalent.java)         | 0ms     | 100%   |
 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ChecksIfAllAsAppearsBeforeAllBs.java)                   | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)  | 1ms     | 100%   |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java) | 0ms     | 100%   |
