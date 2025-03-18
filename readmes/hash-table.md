@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 115/671.
+Completed: 116/671.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -79,6 +79,7 @@ Completed: 115/671.
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfPairsInArray.java)                          | 0ms     | 100%   |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                                 | 3ms     | 100%   |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                   | 2ms     | 86.22% |
+| [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToCollectElements.java)                   | 1ms     | 99.04% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                        | 0ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                       | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                              | 12ms    | 93.70% |
