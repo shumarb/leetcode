@@ -18,11 +18,15 @@ class SwappingNodesInALinkedList {
         }
 
         ListNode current = head;
+        ListNode kthNodeFront = head;
         boolean isTest = false;
         int count = 0;
 
         while (current != null) {
             count++;
+            if (count == k) {
+                kthNodeFront = current;
+            }
             current = current.next;
         }
 
@@ -31,11 +35,7 @@ class SwappingNodesInALinkedList {
             return head;
         }
 
-        ListNode kthNodeFront = head;
         ListNode kthNodeBack = head;
-        for (int i = 0; i < k - 1; i++) {
-            kthNodeFront = kthNodeFront.next;
-        }
         for (int i = 0; i < count - k; i++) {
             kthNodeBack = kthNodeBack.next;
         }
