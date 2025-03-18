@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/215.
+Completed: 44/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -60,6 +60,7 @@ Completed: 43/215.
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)         | 0ms     | 100%   |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                | 3ms     | 93.35% |
+| [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwappingNodesInALinkedList.java)        | 2ms     | 53.34% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)       | 2ms     | 92.54% |
 
 ### Hard
