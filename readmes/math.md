@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/563.
+Completed: 85/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -95,6 +95,7 @@ Completed: 84/563.
 | [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EliminationGame.java)                                     | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                                       | 25ms    | 93.59% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                              | 37ms    | 29.39% |
+| [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java)                                | 10ms    | 91.74% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                                    | 2490ms  | 5.01%  |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)                                     | 58ms    | 99.02% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)                                | 21ms    | 99.89% |

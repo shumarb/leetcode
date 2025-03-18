@@ -10,9 +10,10 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/4.
+Completed: 2/4.
 
 ### Medium
-| Question                                                                          | Submission                                                                                  | Runtime | Rank   |
-|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java) | 58ms    | 99.02% |
+| Question                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java) | 10ms    | 91.74% |
+| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)      | 58ms    | 99.02% |

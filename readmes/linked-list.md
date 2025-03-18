@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/79.
+Completed: 21/79.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -32,6 +32,7 @@ Completed: 20/79.
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                            | 1ms     | 100%   |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                             | 11ms    | 5.12%  |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
+| [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java)                     | 10ms    | 91.74% |
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNode.java)    | 3ms     | 35.47% |
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java)        | 3ms     | 9.12%  |
