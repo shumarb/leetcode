@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/444.
+Completed: 73/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -70,6 +70,7 @@ Completed: 72/444.
 | Question                                                                                                                          | Submission                                                                                                    | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java) | 16ms    | 87.21% |
+| [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                  | 4ms     | 22.05% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)              | 4ms     | 96.68% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 79ms    | 50.60% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)            | 37ms    | 29.39% |

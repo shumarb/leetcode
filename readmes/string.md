@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/770.
+Completed: 99/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -105,6 +105,7 @@ Completed: 98/770.
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersTwo.java)      | 35ms    | 49.81% |
+| [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                          | 4ms     | 22.05% |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthLargestIntegerInTheArray.java)        | 16ms    | 95.51% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
