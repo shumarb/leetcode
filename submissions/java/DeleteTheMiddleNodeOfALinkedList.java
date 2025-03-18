@@ -29,15 +29,8 @@ class DeleteTheMiddleNodeOfALinkedList {
             System.out.println("middle: " + slow.val);
         }
 
-        ListNode current = head;
-        while (true) {
-            if (current.next == slow) {
-                current.next = current.next.next;
-                slow.next = null;
-                break;
-            }
-            current = current.next;
-        }
+        previous.next = slow.next;
+        slow.next = null;
         if (isTest) {
             display(head);
         }
