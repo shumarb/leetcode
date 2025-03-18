@@ -2,30 +2,31 @@
 
 class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        List<Map.Entry<Integer, Integer>> list = new ArrayList<>();
+        int[] result = new int[k];
+        int[] numberFrequency = new int[20001];
         boolean isTest = false;
-
         for (int number: nums) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+            numberFrequency[number + 10000]++;
         }
-        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
-            list.add(entry);
+
+        List<int[]> list = new ArrayList<>();
+        for (int i = 0; i < numberFrequency.length; i++) {
+            if (numberFrequency[i] > 0) {
+                list.add(new int[] {i - 10000, numberFrequency[i]});
+            }
         }
-        list.sort((e1, e2) -> e2.getValue() - e1.getValue());
+        list.sort(
+                (a, b) -> Integer.compare(b[1], a[1])
+        );
         if (isTest) {
             System.out.println("list:");
-            for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
-                System.out.println(" * " + entry);
+            for (int[] entry: list) {
+                System.out.println(" * (" + entry[0] + " --> freq: " + entry[1] + ")");
             }
         }
 
-        int[] result = new int[k];
         for (int i = 0; i < k; i++) {
-            result[i] = list.get(i).getKey();
-        }
-        if (isTest) {
-            System.out.println("result: " + Arrays.toString(result));
+            result[i] = list.get(i)[0];
         }
 
         return result;
