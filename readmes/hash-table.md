@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 116/671.
+Completed: 117/671.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -125,6 +125,7 @@ Completed: 116/671.
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)            | 54ms    | 30.96% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                                 | 6ms     | 86.31% |
+| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)                                     | 78ms    | 77.41% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReduceArraySizeToTheHalf.java)                            | 17ms    | 92.02% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RewardTopKStudents.java)                                  | 65ms    | 86.25% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                          | 51ms    | 69.39% |

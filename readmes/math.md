@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 83/563.
+Completed: 84/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -96,6 +96,7 @@ Completed: 83/563.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                                       | 25ms    | 93.59% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                              | 37ms    | 29.39% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                                    | 2490ms  | 5.01%  |
+| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)                                     | 78ms    | 77.41% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)                                | 21ms    | 99.89% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                                      | 0ms     | 100%   |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)                           | 0ms     | 100%   |
