@@ -15,5 +15,5 @@ Completed: 2/4.
 ### Medium
 | Question                                                                                      | Submission                                                                                       | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java) | 10ms    | 91.74% |
+| [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java) | 9ms     | 100%   |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)      | 58ms    | 99.02% |

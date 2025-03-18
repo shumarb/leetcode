@@ -11,56 +11,31 @@
  * }
  */
 class LinkedListRandomNode {
-    private ListNode[] nodes;
+    private ListNode head;
     private Random random;
-    private boolean isTest = false;
+    private int count;
 
     public LinkedListRandomNode(ListNode head) {
         random = new Random();
-        nodes = populate(head);
+        this.head = head;
+        countNodes(head);
     }
 
-    private ListNode[] populate(ListNode head) {
-        ListNode[] nodes;
+    private void countNodes(ListNode head) {
         ListNode current = head;
-        int index = -1;
-
         while (current != null) {
-            index++;
+            count++;
             current = current.next;
         }
-
-        nodes = new ListNode[index + 1];
-        index = 0;
-        current = head;
-        while (current != null) {
-            nodes[index++] = current;
-            current = current.next;
-        }
-
-        if (isTest) {
-            display(nodes);
-        }
-
-        return nodes;
-    }
-
-    private void display(ListNode[] nodes) {
-        System.out.println("nodes:");
-        for (int i = 0; i < nodes.length - 1; i++) {
-            System.out.print(nodes[i].val + " --> ");
-        }
-        System.out.println(nodes[nodes.length - 1].val);
     }
 
     public int getRandom() {
-        // 1. List has 1 node, so return this node's value
-        if (nodes.length == 1) {
-            return nodes[0].val;
+        ListNode current = head;
+        int randomNumber = random.nextInt(count);
+        for (int i = 0; i < randomNumber; i++) {
+            current = current.next;
         }
-
-        int index = random.nextInt(0, nodes.length);
-        return nodes[index].val;
+        return current.val;
     }
 }
 
