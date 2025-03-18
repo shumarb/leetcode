@@ -15,4 +15,4 @@ Completed: 1/4.
 ### Medium
 | Question                                                                          | Submission                                                                                  | Runtime | Rank   |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java) | 78ms    | 77.41% |
+| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java) | 75ms    | 90.23% |
