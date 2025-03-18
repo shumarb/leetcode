@@ -16,5 +16,5 @@ Completed: 3/12.
 | Question                                                                                              | Submission                                                                                       | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)        | 25ms    | 93.59% |
-| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)      | 75ms    | 90.23% |
+| [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)      | 58ms    | 99.02% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java) | 21ms    | 99.89% |

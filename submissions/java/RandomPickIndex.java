@@ -1,32 +1,33 @@
 // Question: https://leetcode.com/problems/random-pick-index/description/
 
 class RandomPickIndex {
-    private Map<Integer, List<Integer>> map;
     private Random random;
+    private int[] nums;
 
-    public RandomPickIndex(int[] nums) {
-        map = new HashMap<>();
+    public Solution(int[] nums) {
         random = new Random();
-        for (int i = 0; i < nums.length; i++) {
-            int key = nums[i];
-            if (map.containsKey(key)) {
-                map.get(key).add(i);
-            } else {
-                List<Integer> indices = new ArrayList<>();
-                indices.add(i);
-                map.put(key, indices);
-            }
-        }
+        this.nums = nums;
     }
 
     public int pick(int target) {
-        List<Integer> indices = map.get(target);
-        if (indices.size() == 1) {
-            return indices.get(0);
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                int start = i;
+                int end = i + 1;
+                while (end < nums.length && nums[end] == target) {
+                    end++;
+                }
+
+                // 1. Target occurs once in nums
+                if (start + 1 == end) {
+                    return start;
+                }
+
+                return random.nextInt(start, end);
+            }
         }
 
-        int randomIndex = random.nextInt(0, indices.size());
-        return indices.get(randomIndex);
+        return -1; // dummy value.
     }
 }
 
