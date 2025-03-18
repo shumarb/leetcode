@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/215.
+Completed: 43/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -46,20 +46,21 @@ Completed: 42/215.
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                              | 4ms     | 99.71% |
 
 ### Medium
-| Question                                                                                                                  | Submission                                                                                                    | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)            | 5ms     | 74.40% |
-| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)              | 4ms     | 96.68% |
-| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 4ms     | 88.06% |
-| [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestPrimeFaction.java)           | 359ms   | 38.30% |
-| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |
-| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.12%  |
-| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
-| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
-| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
-| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)         | 0ms     | 100%   |
-| [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                | 3ms     | 93.35% |
-| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)       | 2ms     | 92.54% |
+| Question                                                                                                                     | Submission                                                                                                    | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)            | 5ms     | 74.40% |
+| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/elete-the-middle-node-of-a-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteTheMiddleNodeOfALinkedList.java)  | 4ms     | 16.67% |
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)              | 4ms     | 96.68% |
+| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)            | 4ms     | 88.06% |
+| [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestPrimeFaction.java)           | 359ms   | 38.30% |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.12%  |
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
+| [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
+| [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
+| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)         | 0ms     | 100%   |
+| [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                | 3ms     | 93.35% |
+| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)       | 2ms     | 92.54% |
 
 ### Hard
 | Question                                                                                                | Submission                                                                               | Runtime | Rank   |
