@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 215/1867.
+Completed: 216/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -194,6 +194,7 @@ Completed: 215/1867.
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                                | 4ms     | 96.68% |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumInRotatedSortedArray.java)                     | 0ms     | 100%   |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPeakElement.java)                                     | 0ms     | 100%   |
+| [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                              | 4ms     | 88.06% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                              | 79ms    | 50.60% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                     | 153ms   | 42.39% |
