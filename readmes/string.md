@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/774.
+Completed: 100/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -32,6 +32,7 @@ Completed: 99/774.
 | [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoChessboardSquaresHaveTheSameColour.java)      | 1ms     | 23.08% |
 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfWordEqualsSummationOfTwoWords.java)              | 0ms     | 100%   |
 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAStringIsAnAcronymOfWords.java)                  | 1ms     | 100%   |
+| [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ClearDigits.java)                                       | 3ms     | 26.32% |
 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConsecutiveCharacters.java)                             | 1ms     | 99.83% |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                               | 4ms     | 66.45% |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                     | 0ms     | 100%   |
