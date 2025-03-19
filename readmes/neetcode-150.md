@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/150.
+Completed: 49/150.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -50,11 +50,12 @@ Completed: 48/150.
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 4ms     | 88.06% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                             | 9ms     | 35.78% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
-| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                    | 37ms    | 29.39% |
+| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                    | 30ms    | 63.52% |
+| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                | 3ms     | 98.86% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)                  | 0ms     | 100%   |
-| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                | 39ms    | 73.11% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                                  | 4ms     | 97.18% |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)                | 0ms     | 100%   |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                            | 0ms     | 100%   |
@@ -62,7 +63,7 @@ Completed: 48/150.
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                           | 1ms     | 73.86% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                              | 0ms     | 100%   |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                          | 0ms     | 100%   |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                      | 14ms    | 57.29% |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                      | 6ms     | 99.18% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)               | 2ms     | 92.54% |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 
