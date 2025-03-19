@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 29/171.
+Completed: 30/171.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
@@ -34,6 +34,7 @@ Completed: 29/171.
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinMaxGame.java)                                       | 1ms     | 64.62% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                | 3ms     | 41.37% |
+| [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumStringLengthAfterRemovingSubstrings.java)       | 5ms     | 56.70% |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                  | 2ms     | 50.64% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
