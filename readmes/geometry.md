@@ -20,4 +20,4 @@ Completed: 2/40.
 ### Medium
 | Question                                                                                            | Submission                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java) | 37ms    | 29.39% |
+| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java) | 30ms    | 63.52% |
