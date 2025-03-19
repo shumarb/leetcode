@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/215.
+Completed: 45/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -56,6 +56,7 @@ Completed: 44/215.
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 3ms     | 9.12%  |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
+| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAString.java)             | 6ms     | 86.18% |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                        | 0ms     | 100%   |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)         | 0ms     | 100%   |
