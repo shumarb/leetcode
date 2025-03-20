@@ -76,18 +76,6 @@ public class IntersectionOfTwoLinkedLists {
         return count;
     }
 
-    private void check(ListNode check, ListNode head) {
-        ListNode current = head;
-        while (current != null) {
-            if (check == current) {
-                intersectionNode = current;
-                isIntersectionFound = true;
-                break;
-            }
-            current = current.next;
-        }
-    }
-
     private void display(String sentence, ListNode head) {
         System.out.print(sentence);
         ListNode current = head;
