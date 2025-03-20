@@ -12,9 +12,6 @@
  * }
  */
 public class IntersectionOfTwoLinkedLists {
-    private ListNode intersectionNode = null;
-    private boolean isIntersectionFound = false;
-
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         boolean isTest = false;
 
@@ -23,13 +20,11 @@ public class IntersectionOfTwoLinkedLists {
 
         if (isTest) {
             System.out.println("countA: " + countA + "\ncountB: " + countB);
-            display("A: ", headA);
-            display("B: ", headB);
+            displayList("A: ", headA);
+            displayList("B: ", headB);
         }
 
-        if (countA == countB) {
-            findIntersection(headA, headB);
-        } else {
+        if (countA != countB) {
             if (countA > countB) {
                 headA = adjustHead(headA, countA - countB);
             } else {
@@ -38,10 +33,9 @@ public class IntersectionOfTwoLinkedLists {
             if (isTest) {
                 System.out.println("headA: " + headA.val + "\nheadB: " + headB.val);
             }
-            findIntersection(headA, headB);
         }
 
-        return intersectionNode;
+        return findIntersection(headA, headB);
     }
 
     private ListNode adjustHead(ListNode head, int count) {
@@ -52,18 +46,18 @@ public class IntersectionOfTwoLinkedLists {
         return current;
     }
 
-    private void findIntersection(ListNode headA, ListNode headB) {
+    private ListNode findIntersection(ListNode headA, ListNode headB) {
         ListNode currentA = headA;
         ListNode currentB = headB;
         while (currentA != null && currentB != null) {
             if (currentA == currentB) {
-                intersectionNode = currentA;
-                isIntersectionFound = true;
-                break;
+                return currentA;
             }
             currentA = currentA.next;
             currentB = currentB.next;
         }
+
+        return null;
     }
 
     private int countNodes(ListNode head) {
@@ -76,7 +70,7 @@ public class IntersectionOfTwoLinkedLists {
         return count;
     }
 
-    private void display(String sentence, ListNode head) {
+    private void displayList(String sentence, ListNode head) {
         System.out.print(sentence);
         ListNode current = head;
         while (current != null) {
