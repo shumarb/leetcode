@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/147.
+Completed: 8/147.
 
 ### Easy
-| Question                                                                                  | Submission                                                                                            | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)      | 18ms    | 82.31% |
-| [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java) | 5ms     | 36.77% |
+| Question                                                                                                  | Submission                                                                                            | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainsDuplicateTwo.java)      | 18ms    | 82.31% |
+| [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKBeautyOfANumber.java)   | 1ms     | 40.75% |
+| [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java) | 5ms     | 36.77% |
 
 ### Medium
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
