@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/79.
+Completed: 24/79.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 23/79.
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertBinaryNumberInALinkedListToInteger.java) | 0ms     | 100%   |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                 | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                                 | 12ms    | 97.83% |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionOfTwoLinkedLists.java)              | 593ms   | 5.04%  |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)                       | 0ms     | 100%   |
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |

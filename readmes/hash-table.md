@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 120/671.
+Completed: 121/671.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -62,6 +62,7 @@ Completed: 120/671.
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofMultipleArrays.java)                           | 2ms     | 100%   |
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                                | 1ms     | 98.70% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                                | 1ms     | 98.45% |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionOfTwoLinkedLists.java)                           | 593ms   | 5.04%  |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsomorphicStrings.java)                                      | 13ms    | 52.01% |
 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JewelsAndStones.java)                                        | 1ms     | 60.50% |
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//KeepMultiplyingFoundValuesByTwo.java)                       | 0ms     | 100%   |

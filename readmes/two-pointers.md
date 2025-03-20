@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/215.
+Completed: 47/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -23,8 +23,9 @@ Completed: 46/215.
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java)       | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |
-| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                         | 1ms     | 98.70% |
-| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                         | 1ms     | 98.45% |
+| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionOfTwoArrays.java)                         | 1ms     | 98.70% |
+| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionOfTwoArrays.java)                         | 1ms     | 98.45% |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionOfTwoLinkedLists.java)                    | 593ms   | 5.04%  |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)                                   | 1ms     | 93.37% |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java) | 6ms     | 61.28% |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                                 | 0ms     | 100%   |
