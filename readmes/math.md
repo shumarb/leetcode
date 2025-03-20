@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 86/563.
+Completed: 87/563.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -88,7 +88,8 @@ Completed: 86/563.
 ### Medium
 | Question                                                                                                                              | Submission                                                                                                                      | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                                       | 11ms    | 4.35%  |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                                       | 1ms     | 100%   |
+| [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbersTwo.java)                                    | 3ms     | 39.24% |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberIsASumOfPowersOfThree.java)                  | 0ms     | 100%   |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                         | 94ms    | 82.87% |

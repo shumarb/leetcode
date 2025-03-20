@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/79.
+Completed: 25/79.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                            | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 24/79.
 | Question                                                                                                                                    | Submission                                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                            | 1ms     | 100%   |
+| [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbersTwo.java)                         | 3ms     | 39.24% |
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteTheMiddleNodeOfALinkedList.java)         | 3ms     | 99.75% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                             | 11ms    | 5.12%  |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
