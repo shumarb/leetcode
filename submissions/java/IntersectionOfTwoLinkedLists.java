@@ -40,7 +40,7 @@ public class IntersectionOfTwoLinkedLists {
 
     private ListNode adjustHead(ListNode head, int count) {
         ListNode current = head;
-        for (int i = 0; i < count; i++) {
+        while (count-- != 0) {
             current = current.next;
         }
         return current;
