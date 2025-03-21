@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 105/774.
+Completed: 106/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -120,6 +120,7 @@ Completed: 105/774.
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                  | 87ms    | 32.57% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAString.java)                     | 6ms     | 86.18% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RewardTopKStudents.java)                        | 65ms    | 86.25% |
+| [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchSuggestionsSystem.java)                   | 38ms    | 36.75% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                | 49ms    | 82.90% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                              | 5ms     | 51.87% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)                 | 8ms     | 87.71% |
