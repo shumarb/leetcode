@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/301.
+Completed: 34/301.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -18,6 +18,7 @@ Completed: 33/301.
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                    | 0ms     | 100%   |
 | [Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                       | 2ms     | 94.12% |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)             | 0ms     | 100%   |
+| [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSmallestLetterGreaterThanTarget.java)             | 0ms     | 100%   |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTargetIndicesAfterSortingArray.java)              | 0ms     | 100%   |
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstBadVersion.java)                                 | 24ms    | 98.13% |

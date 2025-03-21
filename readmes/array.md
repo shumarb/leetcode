@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 218/1867.
+Completed: 219/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -44,6 +44,7 @@ Completed: 218/1867.
 | [Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)                    | 0ms     | 100%   |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)              | 4ms     | 95.49% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                             | 58ms    | 41.34% |
+| [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsWhoseSumIsLessThanTarget.java)                     | 1ms     | 100%   |
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                           | 0ms     | 100%   |
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSpecialQuadruplets.java)                                | 13ms    | 41.65% |
 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSubarraysOfLengthThreeWithACondition.java)              | 1ms     | 100%   |
