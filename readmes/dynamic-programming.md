@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/563.
+Completed: 8/563.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -24,5 +24,6 @@ Completed: 7/563.
 ### Medium
 | Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java) | 46ms    | 87.58% | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java) | 5ms     | 88.83% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)            | 2ms     | 98.25% | 

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 121/671.
+Completed: 122/671.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -119,6 +119,7 @@ Completed: 121/671.
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                                    | 4ms     | 22.05% |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EmployeeImportance.java)                                  | 4ms     | 99.25% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)                              | 12ms    | 88.41% |
+| [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)                            | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                            | 9ms     | 91.31% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                     | 153ms   | 42.39% |

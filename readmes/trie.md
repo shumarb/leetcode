@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/55.
+Completed: 4/55.
 
 ### Easy
 | Question                                                                                  | Submission                                                                                      | Runtime | Rank   |
@@ -18,7 +18,8 @@ Completed: 3/55.
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java) | 1ms     | 64.40% |
 
 ### Medium
-| Question                                                                                              | Submission                                                                                    | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
-| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)              | 33ms    | 85.89% | 
-| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java) | 6ms     | 98%    | 
+| Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java) | 46ms    | 87.58% | 
+| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                     | 33ms    | 85.89% | 
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)        | 6ms     | 98%    | 
