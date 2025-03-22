@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 219/1867.
+Completed: 220/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -210,6 +210,7 @@ Completed: 219/1867.
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)                | 130ms   | 63.04% |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumGap.java)                                          | 11ms    | 93.10% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                                 | 6ms     | 88.17% |
+| [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductAfterKIncrements.java)                      | 291ms   | 48.57% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)            | 54ms    | 30.96% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueTwo.java)          | 144ms   | 74.64% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToHalfArraySum.java)                     | 172ms   | 82.34% |
