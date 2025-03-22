@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/150.
+Completed: 50/150.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -46,6 +46,7 @@ Completed: 49/150.
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeRightSideView.java)                   | 1ms     | 71.42% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                         | 77ms    | 31.05% |
+| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 95.96% | 
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 4ms     | 88.06% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                             | 9ms     | 35.78% |
