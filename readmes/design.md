@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/126.
+Completed: 16/127.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -24,15 +24,16 @@ Completed: 15/126.
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                  | 7ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                          | Submission                                                                                      | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)        | 11ms    | 5.12%  |
-| [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)     | 153ms   | 42.39% |
-| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                | 33ms    | 85.89% | 
-| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)       | 25ms    | 93.59% |
-| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)            | 4ms     | 97.18% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)    | 2490ms  | 5.01%  |
-| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java) | 16ms    | 33.15% |
+| Question                                                                                                                            | Submission                                                                                                       | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java) | 162ms   | 95.96% | 
+| [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                         | 11ms    | 5.12%  |
+| [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                      | 153ms   | 42.39% |
+| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                 | 33ms    | 85.89% | 
+| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                        | 25ms    | 93.59% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                             | 4ms     | 97.18% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                     | 2490ms  | 5.01%  |
+| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java)                  | 16ms    | 33.15% |
 
 ### Hard
 | Question                                                                                                | Submission                                                                               | Runtime | Rank   |

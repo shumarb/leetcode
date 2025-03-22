@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/169.
+Completed: 66/169.
 
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
@@ -50,6 +50,7 @@ Completed: 65/169.
 | 76  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                         | 77ms    | 31.05% |
 | 80  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                    | 1ms     | 78.15% |
 | 84  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                             | 9ms     | 35.78% |
+| 86  | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 95.96% |
 | 88  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)                | 0ms     | 100%   |
 | 90  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                    | 4ms     | 88.06% |
 | 91  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                         | 6ms     | 98.00% | 

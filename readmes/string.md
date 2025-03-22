@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/774.
+Completed: 107/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -110,6 +110,7 @@ Completed: 106/774.
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersTwo.java)      | 35ms    | 49.81% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                          | 4ms     | 22.05% |
+| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 95.96% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)                  | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthLargestIntegerInTheArray.java)        | 16ms    | 95.51% |
