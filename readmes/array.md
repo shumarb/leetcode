@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 220/1867.
+Completed: 221/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddToArrayFormOfInteger.java)                                | 2ms     | 99.20% |
+| [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AppleRedistributionIntoBoxes.java)                           | 1ms     | 100%   |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                               | 1ms     | 95.99% |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                         | 48ms    | 5.12%  |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)       | 0ms     | 100%   |

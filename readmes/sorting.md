@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/444.
+Completed: 77/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AppleRedistributionIntoBoxes.java)                         | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                       | 48ms    | 5.12%  |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)     | 0ms     | 100%   |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)               | 1ms     | 100%   |

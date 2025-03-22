@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/406.
+Completed: 19/406.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AppleRedistributionIntoBoxes.java)           | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                         | 48ms    | 5.12%  |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java) | 1ms     | 100%   |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KItemsWithTheMaximumSum.java)                | 1ms     | 89.54% |
