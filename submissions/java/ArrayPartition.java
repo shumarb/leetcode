@@ -2,25 +2,27 @@
 
 class ArrayPartition {
     public int arrayPairSum(int[] nums) {
-        // 1. Edge case: array with 1 element
-        if (nums.length == 1) {
-            return nums[0];
-        }
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        int maximizedSum = 0;
         boolean isTest = false;
-        int maximisedSum = 0;
+        Arrays.sort(nums);
 
-        for (int element: nums) {
-            minHeap.offer(element);
+        if (isTest) {
+            System.out.println("sorted nums: " + Arrays.toString(nums));
+        }
+
+        for (int i = 0; i < nums.length; i += 2) {
+            if (isTest) {
+                System.out.println(" * indices: " + i + ", " + (i + 1));
+                System.out.println(" * elements: " + nums[i] + ", " + nums[i + 1]);
+                System.out.println(" * minimum: " + nums[i] + " --> adding to maximizedSum");
+                System.out.println("-------------------------------------------------------------");
+            }
+            maximizedSum += nums[i];
         }
         if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\nminHeap: " + minHeap);
+            System.out.println("maximized sum: " + maximizedSum);
         }
 
-        while (!minHeap.isEmpty()) {
-            maximisedSum += minHeap.poll();
-            minHeap.poll();
-        }
-        return maximisedSum;
+        return maximizedSum;
     }
 }
