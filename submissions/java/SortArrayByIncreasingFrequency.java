@@ -2,6 +2,10 @@
 
 class SortArrayByIncreasingFrequency {
     public int[] frequencySort(int[] nums) {
+        if (nums.length == 1) {
+            return nums;
+        }
+
         int[] numberFrequency = new int[201];
         boolean isTest = false;
 
