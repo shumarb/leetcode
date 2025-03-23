@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 221/1867.
+Completed: 222/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -125,6 +125,7 @@ Completed: 221/1867.
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinMaxGame.java)                                             | 1ms     | 64.62% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)             | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                     | 2ms     | 86.22% |
+| [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)      | 5ms     | 97.12% |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                      | 3ms     | 41.37% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)                     | 1ms     | 100%   |
