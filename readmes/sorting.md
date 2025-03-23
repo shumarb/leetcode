@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 79/444.
+Completed: 80/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -47,6 +47,7 @@ Completed: 79/444.
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                                 | 8ms     | 95.90% |
 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MeanOfArrayAfterRemovingSomElements.java)                  | 11ms    | 5.94%  |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                     | 1ms     | 29.79% |
+| [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifference.java)                            | 17ms    | 91.38% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)           | 2ms     | 97.31% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                    | 3ms     | 41.37% |
 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)    | 5ms     | 97.12% |
