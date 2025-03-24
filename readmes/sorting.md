@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 82/444.
+Completed: 83/444.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -76,6 +76,7 @@ Completed: 82/444.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java)              | 16ms    | 87.21% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                               | 4ms     | 22.05% |
+| [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java)         | 7ms     | 100%   |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                           | 4ms     | 96.68% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                 | 44ms    | 93.03% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                         | 79ms    | 50.60% |

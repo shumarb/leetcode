@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 225/1867.
+Completed: 226/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -192,6 +192,7 @@ Completed: 225/1867.
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                         | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                                   | 77ms    | 31.05% |
+| [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java)              | 7ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EmployeeImportance.java)                                  | 4ms     | 99.25% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)                              | 12ms    | 88.41% |
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)                            | 46ms    | 87.58% | 
