@@ -16,45 +16,29 @@
  * }
  */
 class DeepestLeavesSum {
+    private int maximumLevel = 0;
+    private int deepestLeavesSum = 0;
+
     public int deepestLeavesSum(TreeNode root) {
-        int deepestLevel = 0;
-        int deepestLeavesSum = 0;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-
-        while (!queue.isEmpty()) {
-            deepestLevel++;
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                if (current.left != null) {
-                    queue.offer(current.left);
-                }
-                if (current.right != null) {
-                    queue.offer(current.right);
-                }
-            }
-        }
-
-        queue.offer(root);
-        int currentLevel = 0;
-        while (!queue.isEmpty()) {
-            currentLevel++;
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                if (currentLevel == deepestLevel) {
-                    deepestLeavesSum += current.val;
-                }
-                if (current.left != null) {
-                    queue.offer(current.left);
-                }
-                if (current.right != null) {
-                    queue.offer(current.right);
-                }
-            }
-        }
-
+        dfs(root, 1);
         return deepestLeavesSum;
+    }
+
+    private void dfs(TreeNode node, int currentLevel) {
+        if (node != null) {
+            if (currentLevel > maximumLevel) {
+                maximumLevel = currentLevel;
+                deepestLeavesSum = node.val;
+            } else if (currentLevel == maximumLevel) {
+                deepestLeavesSum += node.val;
+            }
+
+            if (node.left != null) {
+                dfs(node.left, 1 + currentLevel);
+            }
+            if (node.right != null) {
+                dfs(node.right, 1 + currentLevel);
+            }
+        }
     }
 }
