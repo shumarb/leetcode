@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 109/774.
+Completed: 110/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -76,6 +76,7 @@ Completed: 109/774.
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                           | 3ms     | 75.90% |
 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeStringsAlternately.java)                           | 1ms     | 82.95% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                              | 3ms     | 100%   |
+| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumIndexSumOfTwoLists.java)                         | 8ms     | 95.80% |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumStringLengthAfterRemovingSubstrings.java)        | 5ms     | 56.70% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                    | 17ms    | 43.61% |
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)                | 3ms     | 78.75% |
