@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 108/774.
+Completed: 109/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -108,6 +108,7 @@ Completed: 108/774.
 ### Medium
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddingSpacesToAString.java)                     | 26ms    | 38.74% |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersTwo.java)      | 35ms    | 49.81% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                          | 4ms     | 22.05% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 95.96% | 

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 226/1867.
+Completed: 227/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -188,6 +188,7 @@ Completed: 226/1867.
 ### Medium
 | Question                                                                                                                                                       | Submission                                                                                                                      | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddingSpacesToAString.java)                               | 26ms    | 38.74% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                              | 5ms     | 74.40% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                         | 94ms    | 82.87% |
