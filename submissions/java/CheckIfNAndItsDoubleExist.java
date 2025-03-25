@@ -1,13 +1,14 @@
+// Question: https://leetcode.com/problems/check-if-n-and-its-double-exist/description/
+
 class CheckIfNAndItsDoubleExist {
     public boolean checkIfExist(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if (i != j && arr[i] == 2 * arr[j]) {
-                        return true;
-                }
+        Set<Integer> set = new HashSet<>();
+        for (int number: arr) {
+            if (set.contains(number * 2) || (number % 2 == 0) && set.contains(number / 2)) {
+                return true;
             }
+            set.add(number);
         }
-
         return false;
     }
 }
