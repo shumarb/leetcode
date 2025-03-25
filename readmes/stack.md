@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/167.
+Completed: 28/167.
 
 ### Easy
 | Question                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
@@ -39,6 +39,7 @@ Completed: 27/167.
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbersTwo.java)                       | 3ms     | 39.24% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                      | 77ms    | 31.05% |
+| [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomStack.java)                            | 11ms    | 20.40% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)          | 1ms     | 18.41% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                               | 4ms     | 97.18% |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                  | 9ms     | 94.03% |

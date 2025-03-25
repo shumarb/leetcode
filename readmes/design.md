@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/127.
+Completed: 17/127.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -26,7 +26,8 @@ Completed: 16/127.
 ### Medium
 | Question                                                                                                                            | Submission                                                                                                       | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java) | 162ms   | 95.96% | 
+| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java) | 162ms   | 95.96% |
+| [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomStack.java)                          | 11ms    | 20.40% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                         | 11ms    | 5.12%  |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                      | 153ms   | 42.39% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                 | 33ms    | 85.89% | 
