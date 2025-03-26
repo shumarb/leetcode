@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 21/406.
+Completed: 22/406.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                         | Runtime | Rank   |
@@ -23,6 +23,7 @@ Completed: 21/406.
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                      | 2ms     | 89.66% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java) | 0ms     | 100%   |
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Maximum69Number.java)                        | 0ms     | 100%   |
+| [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumOddBinaryNumber.java)                 | 1ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumWithExactlyKElements.java)         | 1ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                   | 8ms     | 95.90% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostOfBuyingCandiesWithDiscount.java) | 2ms     | 98.80% |
