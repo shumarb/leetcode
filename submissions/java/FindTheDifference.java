@@ -2,20 +2,23 @@
 
 class FindTheDifference {
     public char findTheDifference(String s, String t) {
-        int[] count = new int[26];
         boolean isTest = false;
-        for (char c: s.toCharArray()) {
-            count[c - 'a']++;
-        }
-        for (char x: t.toCharArray()) {
-            count[x - 'a']--;
-            if (count[x - 'a'] < 0) {
-                return x;
-            }
+        int charIntValue = 0;
+
+        for (char letter: t.toCharArray()) {
+            charIntValue += letter;
         }
         if (isTest) {
-            System.out.println("count: " + Arrays.toString(count));
+            System.out.println("1. charIntValue: " + charIntValue);
         }
-        return 'a'; // dummmy value won't be reached
+
+        for (char letter: s.toCharArray()) {
+            charIntValue -= letter;
+        }
+        if (isTest) {
+            System.out.println("2. charIntValue: " + charIntValue);
+        }
+
+        return (char) charIntValue;
     }
 }
