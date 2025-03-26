@@ -3,15 +3,15 @@
 class FindTheDifferenceOfTwoArrays {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         List<List<Integer>> result = new ArrayList<>();
-        Set<Integer> set1 = getNumbersInArray(nums1);
-        Set<Integer> set2 = getNumbersInArray(nums2);
+        boolean[] set1 = getSet(nums1);
+        boolean[] set2 = getSet(nums2);
 
         for (int i = 0; i < 2; i++) {
-            List<Integer> list;
+            List<Integer> list = new ArrayList<>();
             if (i == 0) {
-                list = populate(set1, set2);
+                list = getNumbersNotPresent(nums1, set2);
             } else {
-                list = populate(set2, set1);
+                list = getNumbersNotPresent(nums2, set1);
             }
             result.add(list);
         }
@@ -19,21 +19,24 @@ class FindTheDifferenceOfTwoArrays {
         return result;
     }
 
-    private List<Integer> populate(Set<Integer> first, Set<Integer> second) {
+    private List<Integer> getNumbersNotPresent(int[] nums, boolean[] set) {
         List<Integer> result = new ArrayList<>();
-        for (int number: first) {
-            if (!second.contains(number)) {
+        for (int number: nums) {
+            if (!set[number + 1000]) {
                 result.add(number);
+
+                // 1. Prevent double-counting of number.
+                set[number + 1000] = true;
             }
         }
         return result;
     }
 
-    private Set<Integer> getNumbersInArray(int[] nums) {
-        Set<Integer> result = new HashSet<>();
+    private boolean[] getSet(int[] nums) {
+        boolean[] isNumberPresent = new boolean[2001];
         for (int number: nums) {
-            result.add(number);
+            isNumberPresent[number + 1000] = true;
         }
-        return result;
+        return isNumberPresent;
     }
 }
