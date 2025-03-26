@@ -2,20 +2,13 @@
 
 class NRepeatedElementInSize2NArray {
     public int repeatedNTimes(int[] nums) {
-        boolean isTest = false;
-
-        int maximum = nums[0];
+        Set<Integer> set = new HashSet<>();
         for (int number: nums) {
-            maximum = Math.max(maximum, number);
-        }
-        boolean[] isNumberPresent = new boolean[maximum + 1];
-        for (int i = 0; i < nums.length; i++) {
-            if (isNumberPresent[nums[i]]) {
-                return nums[i];
+            if (set.contains(number)) {
+                return number;
             }
-            isNumberPresent[nums[i]] = true;
+            set.add(number);
         }
-
-        return -1; // dummy value.
+        return -1;
     }
 }
