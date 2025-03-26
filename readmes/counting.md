@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/157.
+Completed: 43/157.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
@@ -53,6 +53,7 @@ Completed: 42/157.
 ### Medium
 | Question                                                                                                                     | Submission                                                                                                                      | Runtime | Rank   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BullsAndCows.java)                                        | 1ms     | 100%   |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
