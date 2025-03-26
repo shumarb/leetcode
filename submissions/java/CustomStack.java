@@ -1,28 +1,30 @@
 // Question: https://leetcode.com/problems/design-a-stack-with-increment-operation/description/
 
 class CustomStack {
-    private List<Integer> stack;
-    private int maxSize;
     private boolean isTest = false;
+    private int[] stack;
+    private int currentSize;
+    private int maxSize;
+    private int topIndex;
 
     public CustomStack(int maxSize) {
         this.maxSize = maxSize;
-        stack = new ArrayList<>(maxSize);
+        this.topIndex = -1;
+        this.stack = new int[maxSize];
+        Arrays.fill(stack, -1);
     }
 
     public void push(int x) {
         if (isTest) {
-            System.out.println("push | " + x);
-            display("before | ");
+            System.out.println("push | x: " + x);
+            display("before | currentSize: " + currentSize + ", topIndex: " + topIndex);
         }
-        if (stack == null) {
-            stack = new ArrayList<>(maxSize);
-        }
-        if (stack.size() < maxSize) {
-            stack.add(x);
+        if (currentSize < maxSize) {
+            stack[++topIndex] = x;
+            currentSize++;
         }
         if (isTest) {
-            display("after | ");
+            display("after | currentSize: " + currentSize + ", topIndex: " + topIndex);
             display();
         }
     }
@@ -30,55 +32,48 @@ class CustomStack {
     public int pop() {
         if (isTest) {
             System.out.println("pop");
-            display("before | ");
+            display("before | currentSize: " + currentSize + ", topIndex: " + topIndex);
         }
-        if (stack.isEmpty()) {
+        if (currentSize == 0) {
             if (isTest) {
-                System.out.println(" * return: -1");
-                display("after | ");
-                display();
+                System.out.println("empty stack, return -1");
             }
             return -1;
-        } else {
-            int topElement = stack.get(stack.size() - 1);
-            stack.remove(stack.size() - 1);
-            if (isTest) {
-                System.out.println(" * return: " + topElement);
-                display("after | ");
-                display();
-            }
-            return topElement;
         }
+        int topElement = stack[topIndex];
+        currentSize--;
+        stack[topIndex--] = -1;
+        if (isTest) {
+            display("after | currentSize: " + currentSize + ", topIndex: " + topIndex);
+            System.out.println("return top element: " + topElement);
+        }
+
+        return topElement;
     }
 
     public void increment(int k, int val) {
-        if (isTest) {
-            System.out.println("increment | k: " + k + ", val: " + val);
-            display("before | ");
-        }
-        if (!stack.isEmpty()) {
-            if (stack.size() < k) {
-                for (int i = 0; i < stack.size(); i++) {
-                    stack.set(i, stack.get(i) + val);
-                }
-            } else {
-                for (int i = 0; i < k; i++) {
-                    stack.set(i, stack.get(i) + val);
-                }
+        if (stack.length > 0) {
+            if (isTest) {
+                System.out.println("increment | k: " + k + ", val: " + val);
+                display("before | currentSize: " + currentSize + ", topIndex: " + topIndex);
+            }
+            for (int i = 0; i < Math.min(currentSize, k); i++) {
+                stack[i] += val;
+            }
+            if (isTest) {
+                System.out.println("increment | k: " + k + ", val: " + val);
+                display("after | currentSize: " + currentSize + ", topIndex: " + topIndex);
             }
         }
-        if (isTest) {
-            display("after | ");
-            display();
-        }
-    }
-
-    private void display() {
-        System.out.println("----------------------------------------");
     }
 
     private void display(String sentence) {
-        System.out.println(sentence + "stack: " + stack);
+        System.out.println(sentence);
+        System.out.println(" * stack: " + Arrays.toString(stack));
+    }
+
+    private void display() {
+        System.out.println("-------------------------------------------------------------");
     }
 }
 
