@@ -2,12 +2,12 @@
 
 class NRepeatedElementInSize2NArray {
     public int repeatedNTimes(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isNumberPresent = new boolean[10001];
         for (int number: nums) {
-            if (set.contains(number)) {
+            if (isNumberPresent[number]) {
                 return number;
             }
-            set.add(number);
+            isNumberPresent[number] = true;
         }
         return -1;
     }
