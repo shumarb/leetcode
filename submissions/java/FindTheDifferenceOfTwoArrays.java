@@ -2,48 +2,38 @@
 
 class FindTheDifferenceOfTwoArrays {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
-        List<List<Integer>> ans = new ArrayList<> ();
-        Set<Integer> set1 = new HashSet<> ();
-        Set<Integer> set2 = new HashSet<> ();
-        boolean t = false;
-
-        populate(set1, nums1);
-        populate(set2, nums2);
-        if (t) {
-            System.out.println("nums1: " + Arrays.toString(nums1) + ", nums2: " + Arrays.toString(nums2));
-            System.out.println("set1: " + set1 + ", set2: " + set2);
-        }
+        List<List<Integer>> result = new ArrayList<>();
+        Set<Integer> set1 = getNumbersInArray(nums1);
+        Set<Integer> set2 = getNumbersInArray(nums2);
 
         for (int i = 0; i < 2; i++) {
-            List<Integer> notPresent;
+            List<Integer> list;
             if (i == 0) {
-                notPresent = getNotPresent(nums1, set2);
+                list = populate(set1, set2);
             } else {
-                notPresent = getNotPresent(nums2, set1);
+                list = populate(set2, set1);
             }
-            if (t) {
-                System.out.println("notPresent: " + notPresent);
-            }
-            ans.add(notPresent);
+            result.add(list);
         }
-        return ans;
+
+        return result;
     }
 
-    private List<Integer> getNotPresent(int[] n, Set<Integer> s) {
-        List<Integer> list = new ArrayList<>();
-        Set<Integer> counted = new HashSet<>();
-        for (int x: n) {
-            if (!s.contains(x) && !counted.contains(x)) {
-                list.add(x);
-                counted.add(x);
+    private List<Integer> populate(Set<Integer> first, Set<Integer> second) {
+        List<Integer> result = new ArrayList<>();
+        for (int number: first) {
+            if (!second.contains(number)) {
+                result.add(number);
             }
         }
-        return list;
+        return result;
     }
 
-    private void populate(Set<Integer> s, int[] n) {
-        for (int x: n) {
-            s.add(x);
+    private Set<Integer> getNumbersInArray(int[] nums) {
+        Set<Integer> result = new HashSet<>();
+        for (int number: nums) {
+            result.add(number);
         }
+        return result;
     }
 }
