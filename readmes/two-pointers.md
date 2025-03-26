@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/215.
+Completed: 50/215.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -23,6 +23,7 @@ Completed: 49/215.
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java)       | 0ms     | 100%   |
+| [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                                 | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArrays.java)                         | 1ms     | 98.80% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofTwoArraysTwo.java)                      | 1ms     | 98.51% |
