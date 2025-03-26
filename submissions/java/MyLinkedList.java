@@ -59,14 +59,8 @@ class MyLinkedList {
             System.out.println("delete at index | index: " + index);
             display();
         }
-        if (!list.isEmpty() || index < list.size()) {
-            List newList = new ArrayList<>();
-            for (int i = 0; i < list.size(); i++) {
-                if (i != index) {
-                    newList.add(list.get(i));
-                }
-            }
-            list = newList;
+        if (index < list.size()) {
+            list.remove(index);
         }
     }
 
