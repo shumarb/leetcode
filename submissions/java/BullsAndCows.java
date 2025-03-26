@@ -27,11 +27,9 @@ class BullsAndCows {
         for (int i = 0; i < secret.length(); i++) {
             int guessDigit = guess.charAt(i) - '0';
             int secretDigit = secret.charAt(i) - '0';
-            if (secretDigit != guessDigit) {
-                if (secretDigitFrequency[guessDigit] > 0) {
-                    countCow++;
-                    secretDigitFrequency[guessDigit]--;
-                }
+            if (secretDigit != guessDigit && secretDigitFrequency[guessDigit] > 0) {
+                countCow++;
+                secretDigitFrequency[guessDigit]--;
             }
         }
 
