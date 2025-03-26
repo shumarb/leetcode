@@ -5,7 +5,6 @@ class BullsAndCows {
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
         int[] secretDigitFrequency = new int[10];
-
         int countBull = 0;
         int countCow = 0;
 
