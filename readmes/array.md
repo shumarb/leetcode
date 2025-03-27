@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 231/1867.
+Completed: 232/1867.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -138,6 +138,7 @@ Completed: 231/1867.
 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueOne.java)             | 0ms     | 100%   |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumSumOfMountainTripletsOne.java)                        | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                          | 0ms     | 100%   |
+| [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ModifyTheMatrix.java)                                        | 1ms     | 100%   |
 | [Monotonic Stack](https://leetcode.com/problems/monotonic-stack/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MonotonicStack.java)                                         | 1ms     | 98.82% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                         | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                                | 12ms    | 93.70% |
