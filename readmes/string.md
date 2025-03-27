@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 112/774.
+Completed: 113/774.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -67,6 +67,7 @@ Completed: 112/774.
 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JewelsAndStones.java)                                   | 1ms     | 60.50% |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeyboardRow.java)                                       | 0ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthDistinctStringInAnArray.java)                        | 6ms     | 86.06% |
+| [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Largest3SameDigitNumberInString.java)                   | 2ms     | 83.21% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                 | 1ms     | 99.64% |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LengthOfLastWord.java)                                  | 1ms     | 33.68% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                               | 1ms     | 64.40% |
