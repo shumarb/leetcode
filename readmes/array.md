@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 235/1871.
+Completed: 236/1871.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 235/1871.
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java)                              | 2ms     | 72.40% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                           | 0ms     | 100%   |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)                 | 1ms     | 100%   |
+| [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CalculateAmountPaidInTaxes.java)                             | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CellsWithOddValuesInAMatrix.java)                            | 1ms     | 85.31% |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                              | 1ms     | 99.29% |
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfStringIsAPrefixOfArray.java)                          | 1ms     | 87.61% |
