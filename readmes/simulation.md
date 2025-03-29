@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 34/171.
+Completed: 34/174.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
@@ -26,6 +26,7 @@ Completed: 34/171.
 | [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ClearDigits.java)                                      | 2ms     | 62.83% |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConcatenationOfArrays.java)                            | 1ms     | 96.28% |
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountIntegersWithEvenDigitSum.java)                    | 1ms     | 86.87% |
+| [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountOperationsToObtainZero.java)                      | 1ms     | 90.10% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                   | 3ms     | 98.26% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |

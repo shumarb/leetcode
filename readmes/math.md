@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 90/565.
+Completed: 91/565.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -34,6 +34,7 @@ Completed: 90/565.
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountIntegersWithEvenDigitSum.java)                    | 1ms     | 86.87% |
 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountLargestGroup.java)                                | 3ms     | 96.75% |
 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-largest-group/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountOddNumbersInAnIntervalRange.java)                 | 329ms   | 10.03% |
+| [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountOperationsToObtainZero.java)                      | 1ms     | 90.10% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSymmetricIntegers.java)                           | 44ms    | 25.05% |
 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheDigitsThatDivideANumber.java)                  | 0ms     | 100%   |
 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineColorOfAChessboardSquare.java)                | 0ms     | 100%   |
