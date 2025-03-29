@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/406.
+Completed: 23/406.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                         | Runtime | Rank   |
@@ -28,6 +28,7 @@ Completed: 22/406.
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                   | 8ms     | 95.90% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostOfBuyingCandiesWithDiscount.java) | 2ms     | 98.80% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)     | 1ms     | 100%   |
+| [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)   | 2ms     | 50.45% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                     | 4ms     | 99.71% |
 
 ### Medium
