@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/234.
+Completed: 27/234.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
@@ -27,6 +27,7 @@ Completed: 26/234.
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                            | 0ms     | 100%   |
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToCollectElements.java)         | 1ms     | 99.04% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                              | 0ms     | 100%   |
+| [Number Complement](https://leetcode.com/problems/number-complement/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberComplement.java)                           | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                              | 0ms     | 100%   |
 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEvenAndOddBits.java)                     | 2ms     | 23.78% |
 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfStepsToReduceANumberToZero.java)         | 0ms     | 100%   |
