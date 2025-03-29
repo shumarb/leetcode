@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 124/671.
+Completed: 125/681.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -104,6 +104,7 @@ Completed: 124/671.
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                         | 4ms     | 98.04% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                          | 4ms     | 97.69% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
+| [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                                 | 1ms     | 98.89% |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                                  | 1ms     | 96.19% |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                          | 3ms     | 50.44% |
