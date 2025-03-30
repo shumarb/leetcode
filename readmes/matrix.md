@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 21/250.
+Completed: 22/250.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
@@ -29,6 +29,7 @@ Completed: 21/250.
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RowWithMaximumOnes.java)                         | 5ms     | 27.61% |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpecialPositionsInABinaryMatrix.java)            | 2ms     | 83.84% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TheKWeakestRowsInAMatrix.java)                   | 2ms     | 76.03% |
+| [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransposeMatrix.java)                            | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)                | 1ms     | 100%   |
 
 ### Medium

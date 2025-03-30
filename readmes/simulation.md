@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 34/174.
+Completed: 36/174.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
@@ -43,6 +43,7 @@ Completed: 34/174.
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                  | 2ms     | 50.64% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TeemoAttacking.java)                                   | 3ms     | 83.20% |
+| [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransposeMatrix.java)                                  | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
 
 ### Medium
