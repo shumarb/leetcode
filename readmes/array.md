@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 239/1871.
+Completed: 240/1871.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -189,6 +189,7 @@ Completed: 239/1871.
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeConsecutiveOdds..java)                                  | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransformArrayByParity.java)                                 | 1ms     | 100%   |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)                   | 2ms     | 50.45% |
+| [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoOutOfThree.java)                                          | 6ms     | 45.85% |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                                 | 1ms     | 98.89% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
