@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/250.
+Completed: 23/250.
 
 ### Easy
 | Question                                                                                                                                            | Submission                                                                                                             | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 22/250.
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNegativeNumbersInASortedMatrix.java)        | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)               | 4ms     | 91.17% |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)               | 1ms     | 100%   |
+| [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWinnerOnATicTacToeGame.java)                 | 0ms     | 100%   |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                            | 0ms     | 100%   |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LuckyNumbersInAMatrix.java)                      | 5ms     | 11.05% |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                          | 0ms     | 100%   |
