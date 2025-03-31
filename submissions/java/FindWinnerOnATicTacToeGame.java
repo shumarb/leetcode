@@ -61,7 +61,6 @@ class FindWinnerOnATicTacToeGame {
             }
         }
 
-        int j = 0;
         for (int i = 0; i < 3; i++) {
             if (grid[0][i] == playerCode && grid[1][i] == playerCode && grid[2][i] == playerCode) {
                 return true;
