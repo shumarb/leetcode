@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 92/565.
+Completed: 93/565.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 92/565.
 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AlternatingDigitSum.java)                              | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java) | 0ms     | 100%   |
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Base7.java)                                            | 1ms     | 70.47% |
+| [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CategorizeBoxAccordingToCriteria.java)                 | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CellsWithOddValuesInAMatrix.java)                      | 1ms     | 85.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheNumberIsFascinating.java)                    | 0ms     | 100%   |
