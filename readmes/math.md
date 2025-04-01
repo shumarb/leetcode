@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 93/565.
+Completed: 94/565.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                   | Runtime | Rank   |
@@ -31,6 +31,7 @@ Completed: 93/565.
 | [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoChessboardSquaresHaveTheSameColour.java)     | 1ms     | 23.08% |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertBinaryNumberInALinkedListToInteger.java)        | 0ms     | 100%   |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertDateToBinary.java)                              | 4ms     | 66.45% |
+| [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/description)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)        | 0ms     | 100%   |
 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/description)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ConvertTheTemperature.java)                            | 0ms     | 100%   |
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountIntegersWithEvenDigitSum.java)                    | 1ms     | 86.87% |
 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountLargestGroup.java)                                | 3ms     | 96.75% |
