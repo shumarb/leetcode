@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 113/774.
+Completed: 114/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -95,6 +95,7 @@ Completed: 113/774.
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseVowelsOfAString.java)                            | 4ms     | 50.91% |
 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ScoreOfAString.java)                                    | 1ms     | 99.49% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondLargestDigitInAString.java)                       | 1ms     | 95.03% |
+| [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ShortestCompletingWord.java)                            | 4ms     | 81.11% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                     | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortingTheSentence.java)                                | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                   | 2ms     | 50.64% |

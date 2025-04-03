@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 242/1871.
+Completed: 243/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -170,6 +170,7 @@ Completed: 242/1871.
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInsertPosition.java)                                   | 0ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SeparateTheDigitsInAnArray.java)                             | 5ms     | 74.92% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                            | 2ms     | 95.73% |
+| [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ShortestCompletingWord.java)                                 | 4ms     | 81.11% |
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SignOfTheProductOfAnArray.java)                              | 0ms     | 100%   |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                                           | 1ms     | 99.85% |
 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestIndexWithEqualValue.java)                            | 0ms     | 100%   |
