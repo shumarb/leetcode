@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 130/682.
+Completed: 131/682.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -80,6 +80,7 @@ Completed: 130/682.
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                                | 3ms     | 75.90% |
 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBallsInABox.java)                             | 13ms    | 97.88% |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfPairsInArray.java)                            | 0ms     | 100%   |
+| [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsYouCanType.java)                         | 1ms     | 108%   |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                                   | 3ms     | 100%   |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                                     | 2ms     | 86.22% |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumIndexSumOfTwoLists.java)                              | 8ms     | 95.80% |
