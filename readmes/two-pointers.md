@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/215.
+Completed: 51/217.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -43,6 +43,7 @@ Completed: 50/215.
 | [Remove Element](https://leetcode.com/problems/remove-element/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveElement.java)                                   | 0ms     | 100%   |
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReversePrefixOfWord..java)                            | 1ms     | 52.92% |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseString.java)                                   | 0ms     | 100%   |
+| [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseStringTwo.java)                                | 1ms     | 80.89% |
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseVowelsOfAString.java)                          | 4ms     | 50.91% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                           | 1ms     | 100%   |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                           | 1ms     | 96.19% |
