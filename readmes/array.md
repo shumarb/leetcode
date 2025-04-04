@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 243/1876.
+Completed: 245/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -208,6 +208,7 @@ Completed: 243/1876.
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                         | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                                   | 77ms    | 31.05% |
+| [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodesFromLinkedListPresentInArray.java)             | 4ms     | 95.87% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomStack.java)                                         | 5ms     | 91.76% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java)              | 7ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EmployeeImportance.java)                                  | 4ms     | 99.25% |
