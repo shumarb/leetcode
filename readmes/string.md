@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 124/780.
+Completed: 125/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -109,6 +109,7 @@ Completed: 124/780.
 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrongPasswordCheckerTwo.java)                          | 1ms     | 67.43% |
 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StudentAttendanceRecordOne.java)                        | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                   | 2ms     | 50.64% |
+| [Thousand Separator](https://leetcode.com/problems/thousand-separator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThousandSeparator.java)                                 | 0ms     | 100%   |
 | [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ToLowerCase.java)                                       | 0ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                     | 3ms     | 50.44% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                              | 1ms     | 100%   |
