@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 125/780.
+Completed: 126/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -81,6 +81,7 @@ Completed: 125/780.
 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsFoundInSentences.java)              | 3ms     | 83.48% |
 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsYouCanType.java)                    | 1ms     | 108%   |
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumOddBinaryNumber.java)                            | 1ms     | 100%   |
+| [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumValueOfAStringInAnArray.java)                    | 0ms     | 100%   |
 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeStringsAlternately.java)                           | 1ms     | 82.95% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimizeStringLength.java)                              | 3ms     | 100%   |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumIndexSumOfTwoLists.java)                         | 8ms     | 95.80% |
