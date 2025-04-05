@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 126/780.
+Completed: 127/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -107,6 +107,7 @@ Completed: 126/780.
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ShortestCompletingWord.java)                            | 4ms     | 81.11% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                     | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortingTheSentence.java)                                | 0ms     | 100%   |
+| [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StringMatchingInAnArray.java)                           | 4ms     | 89.02% |
 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrongPasswordCheckerTwo.java)                          | 1ms     | 67.43% |
 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StudentAttendanceRecordOne.java)                        | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                   | 2ms     | 50.64% |

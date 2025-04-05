@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/35.
+Completed: 5/36.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                  | Runtime | Rank   |
@@ -19,3 +19,4 @@ Completed: 4/35.
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.java) | 0ms     | 100%   |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100%   |
 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RepeatedSubstringPattern.java)                        | 74ms    | 56.66% |
+| [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StringMatchingInAnArray.java)                         | 4ms     | 89.02% |

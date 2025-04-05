@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 247/1876.
+Completed: 248/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -183,6 +183,7 @@ Completed: 247/1876.
 | [Special Array I](https://leetcode.com/problems/special-array-i/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpecialArrayOne.java)                                        | 0ms     | 100%   |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpecialPositionsInABinaryMatrix.java)                        | 2ms     | 83.84% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                                  | 1ms     | 100%   |
+| [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StringMatchingInAnArray.java)                                | 4ms     | 89.02% |
 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SummaryRanges.java)                                          | 5ms     | 80.55% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)                          | 1ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
