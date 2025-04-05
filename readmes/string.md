@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 123/780.
+Completed: 124/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -72,6 +72,7 @@ Completed: 123/780.
 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Largest3SameDigitNumberInString.java)                   | 2ms     | 83.21% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                 | 1ms     | 99.64% |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LengthOfLastWord.java)                                  | 1ms     | 33.68% |
+| [License Key Formatting](https://leetcode.com/problems/license-key-formatting/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LicenseKeyFormatting.java)                              | 11ms    | 79.25% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                               | 1ms     | 64.40% |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                 | 2ms     | 89.66% |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                                | 3ms     | 62.40% |
