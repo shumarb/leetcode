@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/158.
+Completed: 44/158.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
@@ -23,6 +23,7 @@ Completed: 43/158.
 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithStrictlySmallerAndGreaterElements.java) | 0ms     | 100%   |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)          | 4ms     | 95.49% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                         | 58ms    | 41.34% |
+| [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayOne.java)                  | 1ms     | 97.87% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                  | 6ms     | 86.92% |
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLuckyIntegerInAnArray.java)                          | 1ms     | 100%   |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValidPairOfAdjacentDigitsInString.java)              | 2ms     | 88.14% |
