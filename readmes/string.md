@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 127/780.
+Completed: 128/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -88,6 +88,7 @@ Completed: 127/780.
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumStringLengthAfterRemovingSubstrings.java)        | 5ms     | 56.70% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                    | 17ms    | 43.61% |
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)                | 3ms     | 78.75% |
+| [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfSegmentsInAString.java)                         | 1ms     | 44.98% |
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfSeniorCitizens.java)                            | 0ms     | 100%   |
 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PercentageOfLetterInString.java)                        | 0ms     | 100%   |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)            | 1ms     | 100%   |
