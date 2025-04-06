@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 133/682.
+Completed: 134/682.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckDistancesBetweenSameLetters.java)                       | 1ms     | 90.31% |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                              | 1ms     | 99.29% |
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckWhetherTwoStringsAreAlmostEquivalent.java)              | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)       | 1ms     | 100%   |

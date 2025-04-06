@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 128/780.
+Completed: 129/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -20,6 +20,7 @@ Completed: 128/780.
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                            | 1ms     | 78.15% |
 | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CapitalizeTheTitle.java)                                | 3ms     | 88.41% |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckedBalancedString.java)                             | 1ms     | 99.21% |
+| [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckDistancesBetweenSameLetters.java)                  | 1ms     | 90.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)   | 8ms     | 78.87% |
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfStringIsAPrefixOfArray.java)                     | 1ms     | 87.61% |
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTwoStringArraysAreEquivalent.java)               | 1ms     | 59.87% |
