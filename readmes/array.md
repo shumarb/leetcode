@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 250/1876.
+Completed: 251/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -123,6 +123,7 @@ Completed: 250/1876.
 | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenIncreasingElements.java)             | 0ms     | 100%   |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfPairsInArray.java)                            | 0ms     | 100%   |
 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsFoundInSentences.java)                   | 3ms     | 83.48% |
+| [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumPopulationYear.java)                                  | 2ms     | 26.45% |
 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductDifferenceBetweenTwoPairs.java)                | 2ms     | 98.79% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                           | 11ms    | 84.46% |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java)                   | 0ms     | 100%   |

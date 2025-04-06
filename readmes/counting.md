@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/157.
+Completed: 42/158.
 
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
@@ -38,6 +38,7 @@ Completed: 43/157.
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                            | 3ms     | 75.90% |
 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBallsInABox.java)                         | 13ms    | 97.88% |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfPairsInArray.java)                        | 0ms     | 100%   |
+| [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumPopulationYear.java)                              | 2ms     | 26.45% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                     | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                            | 12ms    | 93.70% |
 | [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentNumberFollowingKeyInAnArray.java)            | 1ms     | 100%   |
