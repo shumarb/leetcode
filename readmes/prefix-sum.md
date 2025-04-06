@@ -10,17 +10,18 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/191.
+Completed: 11/199.
 
 ### Easy
-| Question                                                                                                    | Submission                                                                                             | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)             | 1ms     | 94.56% |
-| [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheHighestAltitude.java)     | 0ms     | 100%   |
-| [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMiddleIndexInArray.java)  | 0ms     | 100%   |
-| [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java) | 2ms     | 98.18% |
-| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                   | 7ms     | 100%   |
-| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RunningSumOf1DArray.java)        | 0ms     | 100%   |
+| Question                                                                                                                                        | Submission                                                                                                          | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllTheIntegersInARangeAreCovered.java) | 0ms     | 100%   |
+| [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                          | 1ms     | 94.56% |
+| [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheHighestAltitude.java)                  | 0ms     | 100%   |
+| [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMiddleIndexInArray.java)               | 0ms     | 100%   |
+| [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)              | 2ms     | 98.18% |
+| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                                | 7ms     | 100%   |
+| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
