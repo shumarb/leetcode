@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 252/1876.
+Completed: 253/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -213,6 +213,7 @@ Completed: 252/1876.
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddingSpacesToAString.java)                               | 26ms    | 38.74% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                              | 5ms     | 74.40% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
+| [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayTwo.java)                   | 5ms     | 69.71% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrimes.java)                                         | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)                                   | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodesFromLinkedListPresentInArray.java)             | 4ms     | 95.87% |

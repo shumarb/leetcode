@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 135/682.
+Completed: 136/682.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -126,6 +126,7 @@ Completed: 135/682.
 |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BullsAndCows.java)                                        | 1ms     | 100%   |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
+| [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayTwo.java)                   | 5ms     | 69.71% |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersTwo.java)                | 35ms    | 49.81% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                                    | 4ms     | 22.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodesFromLinkedListPresentInArray.java)             | 4ms     | 95.87% |
