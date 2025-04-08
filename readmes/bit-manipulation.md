@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/234.
+Completed: 30/234.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                  | 2ms     | 99.94% |
+| [Binary Gap](https://leetcode.com/problems/binary-gap/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryGap.java)                                  | 1ms     | 40.09% |
 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryNumberWithAlternatingBits.java)            | 0ms     | 100%   |
 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ComplementOfBase10Integer.java)                  | 0ms     | 100%   |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
