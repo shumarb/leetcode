@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 131/780.
+Completed: 132/780.
 
 ### Easy
 | Question                                                                                                                                                                | Submission                                                                                                                    | Runtime | Rank   |
@@ -100,6 +100,7 @@ Completed: 131/780.
 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveTrailingZerosFromAString.java)                    | 1ms     | 100%   |
 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RepeatedSubstringPattern.java)                          | 74ms    | 56.66% |
 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReplaceAllDigitsWithCharacters.java)                    | 0ms     | 100%   |
+| [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseDegreeOfAString.java)                            | 1ms     | 100%   |
 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseOnlyLetters..java)                               | 0ms     | 100%   |
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReversePrefixOfWord.java)                               | 1ms     | 52.92% |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseString.java)                                     | 0ms     | 100%   |
