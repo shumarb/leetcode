@@ -2,17 +2,17 @@
 
 class ReverseDegreeOfAString {
     public int reverseDegree(String s) {
+        String key = "zyxwvutsrqponmlkjihgfedcba";
         boolean isTest = false;
         int reverseDegree = 0;
-        String key = "zyxwvutsrqponmlkjihgfedcba";
 
         for (int i = 0; i < s.length(); i++) {
             char letter = s.charAt(i);
-            int letterIndex = letter - 'a';
-            char letterKey = key.charAt(letterIndex);
+            int letterValue = letter - 'a';
+            char letterKey = key.charAt(letterValue);
             if (isTest) {
                 System.out.println("------------------------------------------------------------------");
-                System.out.println("s letter: " + letter + "\nletterKey: " + letterKey);
+                System.out.println("s letter: " + letter + "\nletterValue: " + letterValue);
                 System.out.println("before, reverseDegree: " + reverseDegree);
             }
             reverseDegree += ((i + 1) * (1 + letterKey - 'a'));
