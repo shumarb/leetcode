@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 256/1876.
+Completed: 257/1876.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -21,6 +21,7 @@ Completed: 256/1876.
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                         | 12ms    | 97.33% |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)       | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)       | 0ms     | 100%   |
+| [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                                           | 2ms     | 96.48% |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java)                              | 2ms     | 72.40% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                           | 0ms     | 100%   |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)                 | 1ms     | 100%   |

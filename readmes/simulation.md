@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/175.
+Completed: 39/175.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
@@ -20,6 +20,7 @@ Completed: 38/175.
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                       | 2ms     | 61.51% |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                         | 1ms     | 95.99% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
+| [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                                     | 2ms     | 96.48% |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CalculateAmountPaidInTaxes.java)                       | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CellsWithOddValuesInAMatrix.java)                      | 1ms     | 85.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
