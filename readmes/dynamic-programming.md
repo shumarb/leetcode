@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 8/563.
+Completed: 9/575.
 
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
@@ -19,6 +19,7 @@ Completed: 8/563.
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)              | 2ms     | 95%    |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)           | 0ms     | 100%   |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IsSubsequence.java)             | 1ms     | 93.37% |
+| [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumRepeatingSubstring.java) | 0ms     | 100%   |
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)       | 0ms     | 100%   |
 
 ### Medium
