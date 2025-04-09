@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 258/1876.
+Completed: 259/1882.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -101,6 +101,7 @@ Completed: 258/1876.
 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheXOROfNumbersWhichAppearTwice.java)                    | 1ms     | 98.52% |
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Finding3DigitEvenNumber.java)                                | 6ms     | 81.30% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                                        | 0ms     | 100%   |
+| [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FormSmallestNumberFromTwoDigitArrays.java)                   | 1ms     | 85.14% |
 | [Height Checker](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HeightChecker.java)                                          | 2ms     | 88.86% |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)           | 5ms     | 83.20% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IntersectionofMultipleArrays.java)                           | 2ms     | 100%   |
