@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 260/1882.
+Completed: 261/1882.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -185,6 +185,7 @@ Completed: 260/1882.
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                                           | 1ms     | 99.85% |
 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestIndexWithEqualValue.java)                            | 0ms     | 100%   |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)   | 1ms     | 92.66% |
+| [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByParity.java)                                      | 0ms     | 100%   |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByIncreasingFrequency.java)                         | 4ms     | 98.04% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                         | 7ms     | 74.98% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortThePeople.java)                                          | 4ms     | 97.69% |
