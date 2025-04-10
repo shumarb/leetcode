@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/406.
+Completed: 24/409.
 
 ### Easy
 | Question                                                                                                                                | Submission                                                                                                         | Runtime | Rank   |
@@ -36,6 +36,7 @@ Completed: 23/406.
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                 | 5ms     | 74.40% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java) | 7ms     | 100%   |
+| [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                               | 3ms     | 42.85% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)   | 130ms   | 63.04% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                    | 6ms     | 88.17% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductAfterKIncrements.java)         | 291ms   | 48.57% |
