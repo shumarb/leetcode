@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/217.
+Completed: 56/217.
 
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
@@ -49,6 +49,7 @@ Completed: 55/217.
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseVowelsOfAString.java)                          | 4ms     | 50.91% |
 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAStringThree.java)                      | 4ms     | 86.63% |
 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByParity.java)                               | 0ms     | 100%   |
+| [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortArrayByParityTwo.java)                            | 2ms     | 99.96% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                           | 1ms     | 100%   |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumFourInputIsABST.java)                           | 1ms     | 96.19% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindrome.java)                                 | 2ms     | 99.08% |
