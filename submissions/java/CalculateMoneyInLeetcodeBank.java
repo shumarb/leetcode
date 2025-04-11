@@ -2,20 +2,16 @@
 
 class CalculateMoneyInLeetcodeBank {
     public int totalMoney(int n) {
-        boolean[] isMonday = new boolean[1001];
+        boolean[] isMonday = new boolean[n + 1];
         int[] money = new int[n + 1];
-        int i = 1;
         int sum = 1;
+        money[1] = 1;
+        isMonday[1] = true;
 
-        money[i] = 1;
-        while (i < isMonday.length) {
-            isMonday[i] = true;
-            i += 7;
-        }
-
-        for (i = 2; i <= n; i++) {
-            if (isMonday[i]) {
+        for (int i = 2; i <= n; i++) {
+            if (i - 7 >= 1 && isMonday[i - 7]) {
                 money[i] = 1 + money[i - 7];
+                isMonday[i] = true;
             } else {
                 money[i] = 1 + money[i - 1];
             }
