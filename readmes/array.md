@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 263/1882.
+Completed: 264/1882.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -136,6 +136,7 @@ Completed: 263/1882.
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                                   | 8ms     | 95.90% |
 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumValueOfAStringInAnArray.java)                         | 0ms     | 100%   |
 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MeanOfArrayAfterRemovingSomElements.java)                    | 11ms    | 5.94%  |
+| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSimilarItems.java)                                      | 3ms     | 98.07% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSortedArray.java)                                       | 1ms     | 29.79% |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinMaxGame.java)                                             | 1ms     | 64.62% |
 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifference.java)                              | 17ms    | 91.38% |
