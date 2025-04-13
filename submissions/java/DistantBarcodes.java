@@ -61,7 +61,7 @@ class DistantBarcodes class Solution {
              so set last element as this element.
          */
         if (!maxHeap.isEmpty()) {
-            barcodes[index] = maxHeap.poll()[0];
+            barcodes[index] = maxHeap.peek()[0];
         }
 
         return barcodes;
