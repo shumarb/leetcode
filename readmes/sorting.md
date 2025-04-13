@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/445.
+Completed: 90/445.
 
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                       | Runtime | Rank   |
@@ -81,6 +81,7 @@ Completed: 89/445.
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java)              | 16ms    | 87.21% |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountDaysWithoutMeetings.java)                       | 35ms    | 98.19% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                               | 4ms     | 22.05% |
+| [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistantBarcodes.java)                                | 1529ms  | 5.76%  |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java)         | 7ms     | 100%   |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                           | 4ms     | 96.68% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                 | 44ms    | 93.03% |
