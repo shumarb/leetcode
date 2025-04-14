@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 270/1888.
+Completed: 271/1888.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -80,6 +80,7 @@ Completed: 270/1888.
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                       | 0ms     | 100%   |
 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIndicesOfStableMountains.java)                           | 1ms     | 100%   |
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLuckyIntegerInAnArray.java)                              | 1ms     | 100%   |
+| [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java) | 0ms     | 100%   |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNUniqueIntegersSumUpToZero.java)                         | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindNumbersWithEvenNumberOfDigits.java)                      | 1ms     | 98.93% |
