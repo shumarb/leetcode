@@ -2,11 +2,7 @@
 
 class SplitTheArray {
     public boolean isPossibleToSplit(int[] nums) {
-        int maximum = nums[0];
-        for (int number: nums) {
-            maximum = Math.max(number, maximum);
-        }
-        int[] numberFrequency = new int[maximum + 1];
+        int[] numberFrequency = new int[101];
         for (int number: nums) {
             /**
              1.  If number appears more than 2 times,
@@ -17,7 +13,6 @@ class SplitTheArray {
                 return false;
             }
         }
-
         return true;
     }
 }
