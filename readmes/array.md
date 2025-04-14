@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 269/1888.
+Completed: 270/1888.
 
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
@@ -63,6 +63,7 @@ Completed: 269/1888.
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java)                                          | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                        | 2ms     | 100%   |
 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineIfTwoEventsHaveConflict.java)                       | 0ms     | 100%   |
+| [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineTheWinnerOfABowlingGame.java)                       | 1ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)        | 2ms     | 98.35% |
 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistributeCandies.java)                                      | 31ms    | 55.24% |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistributeElementsIntoTwoArraysOne.java)                     | 1ms     | 100%   |
