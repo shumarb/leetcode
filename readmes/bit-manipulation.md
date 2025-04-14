@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/234.
+Completed: 31/236.
 
 ### Easy
 | Question                                                                                                                                          | Submission                                                                                                             | Runtime | Rank   |
@@ -22,6 +22,7 @@ Completed: 30/234.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)          | 6ms     | 86.92% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)                               | 2ms     | 95%    |
+| [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoEqualPairs.java)                  | 1ms     | 99.99% |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDifference.java)                          | 1ms     | 99.40% |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthCharacterInStringGameOne.java)         | 4ms     | 56.59% |
 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheXOROfNumbersWhichAppearTwice.java)        | 1ms     | 98.52% |
