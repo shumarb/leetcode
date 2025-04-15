@@ -8,7 +8,7 @@ class MinimumNumberOfOperationsToMakeElementsInArrayDistinct {
 
         int result = 0;
         int i = 0;
-        while (i < nums.length && !isDistinct(nums, i)) {
+        while (!isDistinct(nums, i) && i < nums.length) {
             i += 3;
             result++;
         }
@@ -17,12 +17,12 @@ class MinimumNumberOfOperationsToMakeElementsInArrayDistinct {
     }
 
     private boolean isDistinct(int[] nums, int i) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isNumberPresent = new boolean[101];
         for (int j = i; j < nums.length; j++) {
-            if (set.contains(nums[j])) {
+            if (isNumberPresent[nums[j]]) {
                 return false;
             }
-            set.add(nums[j]);
+            isNumberPresent[nums[j]] = true;
         }
 
         return true;
