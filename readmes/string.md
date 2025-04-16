@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 137/783.
+Completed: 138/783.
 
 ## Submissions
 ### Easy
@@ -97,6 +97,7 @@ Completed: 137/783.
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)                           | 3ms     | 78.75% |
 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfSegmentsInAString.java)                                    | 1ms     | 44.98% |
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfSeniorCitizens.java)                                       | 0ms     | 100%   |
+| [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OccurrencesAfterBigram.java)                                       | 0ms     | 100%   |
 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PercentageOfLetterInString.java)                                   | 0ms     | 100%   |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)                       | 1ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                                   | 1ms     | 99.14% |
