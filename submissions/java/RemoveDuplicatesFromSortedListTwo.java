@@ -12,43 +12,27 @@
  */
 class RemoveDuplicatesFromSortedListTwo {
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null) {
-            return head;
-        }
-
-        List<ListNode> list = new ArrayList<>();
         ListNode newHead = new ListNode(-1);
-        ListNode current = head;
-        boolean isTest = false;
-        int[] numberFrequency = new int[201];
+        newHead.next = head;
+        ListNode previous = newHead;
 
-        while (current != null) {
-            numberFrequency[current.val + 100]++;
-            current = current.next;
-        }
+        while (head != null) {
+            boolean isDuplicate = false;
 
-        current = head;
-        while (current != null) {
-            if (numberFrequency[current.val + 100] == 1) {
-                list.add(current);
+            while (head.next != null && head.next.val == head.val) {
+                head = head.next;
+                isDuplicate = true;
             }
-            current = current.next;
-        }
-        if (isTest) {
-            System.out.println("list: " + list);
-        }
 
-        if (list.isEmpty()) {
-            return newHead.next;
-        }
-
-        if (!list.isEmpty()) {
-            newHead.next = list.get(0);
-            list.get(list.size() - 1).next = null;
-            for (int i = 0; i < list.size() - 1; i++) {
-                list.get(i).next = list.get(i + 1);
+            if (isDuplicate) {
+                previous.next = head.next;
+            } else {
+                previous = previous.next;
             }
+
+            head = head.next;
         }
+
         return newHead.next;
     }
 }
