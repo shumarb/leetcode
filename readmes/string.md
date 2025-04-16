@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 135/780.
+Completed: 136/783.
 
 ## Submissions
 ### Easy
@@ -130,6 +130,7 @@ Completed: 135/780.
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                                | 2ms     | 99.08% |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidParentheses.java)                                  | 2ms     | 97.66% |
 | [Valid Word](https://leetcode.com/problems/valid-word/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidWord.java)                                         | 1ms     | 99.05% |
+| [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/VerifyingAnAlienDictionary.java)                        | 0ms     | 100%   |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/WordPattern.java)                                       | 1ms     | 82.52% |
 
 ### Medium

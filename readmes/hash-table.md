@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 142/687.
+Completed: 143/687.
 
 ## Submissions
 ### Easy
@@ -125,6 +125,7 @@ Completed: 142/687.
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                           | 2ms     | 97.84% |
+| [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/VerifyingAnAlienDictionary.java)                             | 0ms     | 100%   |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/WordPattern.java)                                            | 1ms     | 82.52% |
 
 ### Medium

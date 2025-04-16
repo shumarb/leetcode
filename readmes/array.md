@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 272/1888.
+Completed: 273/1888.
 
 ## Submissions
 ### Easy
@@ -221,6 +221,7 @@ Completed: 272/1888.
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidMountainArray.java)                                     | 2ms     | 71.67% |
+| [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/VerifyingAnAlienDictionary.java)                             | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ZigzagGridTraversalWithSkip.java)                            | 1ms     | 100%   |
 
 ### Medium
