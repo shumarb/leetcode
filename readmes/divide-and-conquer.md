@@ -11,6 +11,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 Completed: 9/47.
 
+## Submissions
 ### Easy
 | Question                                                                        | Submission                                                                                  | Runtime | Rank   |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|

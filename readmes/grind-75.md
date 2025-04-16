@@ -9,6 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 Completed: 36/75.
 
+## Submissions
 | #  | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                    | 1ms     | 98.25% |

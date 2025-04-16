@@ -18,6 +18,7 @@ The concepts applied to solve these questions are explained in my [Learning](htt
 
 ![Umar's LeetCode Statistics](https://leetcard.jacoblin.cool/shumarb?theme=dark)
 
+## Submissions
 ### Easy
 | Question                                                                                                                                                                            | Submission                                                                                                                         | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

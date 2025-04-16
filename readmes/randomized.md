@@ -12,6 +12,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 Completed: 4/12.
 
+## Submissions
 ### Medium
 | Question                                                                                              | Submission                                                                                       | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
