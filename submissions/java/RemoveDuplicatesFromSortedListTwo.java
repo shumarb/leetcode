@@ -10,28 +10,26 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class RemoveDuplicatesFromSortedListTwo {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return head;
         }
-        Map<Integer, Integer> map = new HashMap<>();
+
         List<ListNode> list = new ArrayList<>();
         ListNode newHead = new ListNode(-1);
         ListNode current = head;
         boolean isTest = false;
+        int[] numberFrequency = new int[201];
 
         while (current != null) {
-            map.put(current.val, 1 + map.getOrDefault(current.val, 0));
+            numberFrequency[current.val + 100]++;
             current = current.next;
-        }
-        if (isTest) {
-            System.out.println("map: " + map);
         }
 
         current = head;
         while (current != null) {
-            if (map.get(current.val) == 1) {
+            if (numberFrequency[current.val + 100] == 1) {
                 list.add(current);
             }
             current = current.next;
