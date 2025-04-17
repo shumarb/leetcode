@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 273/1888.
+Completed: 274/1888.
 
 ## Submissions
 ### Easy
@@ -215,6 +215,7 @@ Completed: 273/1888.
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeConsecutiveOdds..java)                                  | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransformArrayByParity.java)                                 | 1ms     | 100%   |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransposeMatrix.java)                                        | 0ms     | 100%   |
+| [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TruncateSentence.java)                                       | 1ms     | 79.33% |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)                   | 2ms     | 50.45% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoOutOfThree.java)                                          | 1ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                                 | 1ms     | 98.89% |

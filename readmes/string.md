@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 140/783.
+Completed: 141/783.
 
 ## Submissions
 ### Easy
@@ -127,6 +127,7 @@ Completed: 140/783.
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                              | 2ms     | 50.64% |
 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThousandSeparator.java)                                            | 0ms     | 100%   |
 | [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ToLowerCase.java)                                                  | 0ms     | 100%   |
+| [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TruncateSentence.java)                                             | 1ms     | 79.33% |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                                | 3ms     | 50.44% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                                         | 1ms     | 100%   |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                                 | 2ms     | 97.84% |
