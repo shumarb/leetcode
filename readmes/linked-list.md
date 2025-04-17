@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/79.
+Completed: 27/81.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 26/79.
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java)        | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)               | 0ms     | 100%   |
+| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedListTwo.java)                     | 0ms     | 100%   |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                 | 9ms     | 94.52% |
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                         | 0ms     | 100%   |
 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwappingNodesInALinkedList.java)               | 2ms     | 53.34% |
