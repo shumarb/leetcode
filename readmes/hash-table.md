@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 143/687.
+Completed: 144/687.
 
 ## Submissions
 ### Easy
@@ -104,6 +104,7 @@ Completed: 143/687.
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDifferentIntegersInAString.java)                     | 3ms     | 78.75% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDistinctAverages.java)                               | 1ms     | 99.35% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                      | 0ms     | 100%   |
+| [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfUnequalTripletsInArray.java)                         | 8ms     | 54.13% |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)                 | 1ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                             | 1ms     | 99.14% |
