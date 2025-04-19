@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/115.
+Completed: 14/115.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 13/115.
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Finding3DigitEvenNumber.java)                  | 6ms     | 81.30% |
 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FormSmallestNumberFromTwoDigitArrays.java)     | 1ms     | 85.14% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GreatestEnglishLetterInUpperAndLowerCase.java) | 4ms     | 72.30% |
+| [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfArithmeticTriplets.java)               | 17ms    | 33.88% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfCommonFactors.java)                    | 1ms     | 44.28% |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestDivisibleDigitProductOne.java)         | 1ms     | 65.70% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)            | 1ms     | 100%   |

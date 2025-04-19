@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/217.
+Completed: 58/217.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 57/217.
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)      | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCommonValue.java)                              | 2ms     | 86.22% |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MoveZeroes.java)                                      | 1ms     | 99.85% |
+| [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfArithmeticTriplets.java)                      | 17ms    | 33.88% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfDistinctAverages.java)                        | 1ms     | 99.35% |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeLinkedList.java)                            | 4ms     | 83.80% |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedArray.java)                 | 1ms     | 64.98% |
