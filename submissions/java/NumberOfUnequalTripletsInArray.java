@@ -6,8 +6,11 @@ class NumberOfUnequalTripletsInArray {
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             for (int j = i + 1; j < len; j++) {
+                if (nums[i] == nums[j]) {
+                    continue;
+                }
                 for (int k = j + 1; k < len; k++) {
-                    if (nums[i] != nums[j] && nums[i] != nums[k] && nums[j] != nums[k]) {
+                    if (nums[i] != nums[k] && nums[j] != nums[k]) {
                         count++;
                     }
                 }
