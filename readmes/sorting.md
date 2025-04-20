@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/445.
+Completed: 92/445.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 91/445.
 ### Medium
 | Question                                                                                                                                                  | Submission                                                                                                                 | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeSum.java)                                       | 31ms    | 58.55% |
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AllElementsInTwoBinarySearchTrees.java)              | 16ms    | 87.21% |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountDaysWithoutMeetings.java)                       | 35ms    | 98.19% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CustomSortString.java)                               | 4ms     | 22.05% |

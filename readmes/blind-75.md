@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/75.
+Completed: 33/75.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 32/75.
 ### Medium
 | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeSum.java)                                  | 31ms    | 58.55% |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeLevelOrderTraversal.java)             | 1ms     | 89.68% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 95.96% | 
