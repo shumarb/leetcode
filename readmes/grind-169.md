@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 67/169.
+Completed: 68/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -62,6 +62,7 @@ Completed: 67/169.
 | 109 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SameTree.java)                                  | 0ms     | 100%   |
 | 110 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                             | 0ms     | 100%   |
 | 111 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                       | 1ms     | 64.40% |
+| 113 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                                  | 3ms     | 42.85% |
 | 114 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                             | 1ms     | 100%   |
 | 116 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                  | 9ms     | 94.52% |
 | 121 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)                      | 21ms    | 99.89% |
