@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/573.
+Completed: 98/573.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 97/573.
 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivisibleAndNonDivisibleSumsDifference.java)                 | 0ms     | 100%   |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)                                        | 0ms     | 100%   |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java)       | 4ms     | 17.42% |
+| [Find Closest Person](https://leetcode.com/problems/find-closest-person/description)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindClosestPerson.java)                                      | 0ms     | 100%   |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGreatestCommonDivisorOfArray.java)                       | 0ms     | 100%   |
 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java) | 0ms     | 100%   |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
