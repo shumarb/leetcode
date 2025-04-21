@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/573.
+Completed: 99/573.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                                     | Submission                                                                                                                         | Runtime | Rank   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ANumberAfterADoubleReversal.java)                            | 0ms     | 100%   |
+| [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AccountBalanceAfterRoundedPurchase.java)                     | 0ms     | 100%   |
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                              | 2ms     | 99.94% |
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddDigits.java)                                              | 0ms     | 100%   |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                             | 2ms     | 61.51% |
