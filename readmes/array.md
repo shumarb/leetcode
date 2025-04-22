@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 277/1888.
+Completed: 279/1893.
 
 ## Submissions
 ### Easy
@@ -128,6 +128,7 @@ Completed: 277/1888.
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                                      | 0ms     | 100%   |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaxConsecutiveOnes.java)                                     | 2ms     | 93.86% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaxPairSumInAnArray.java)                                    | 3ms     | 93.95% |
+| [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximizeSumOfArrayAfterKNegations.java)                      | 1ms     | 100%   |
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumAverageSubarrayOne.java)                              | 5ms     | 36.77% |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java)        | 0ms     | 100%   |
 | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenIncreasingElements.java)             | 0ms     | 100%   |
