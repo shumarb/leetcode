@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 142/784.
+Completed: 143/784.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 142/784.
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                                 | 0ms     | 100%   |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                            | 6ms     | 86.92% |
 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfSpecialCharactersOne.java)                         | 1ms     | 100%   |
+| [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfVowelStringsInRange.java)                          | 1ms     | 100%   |
 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DecryptStringFromAlphabetToIntegerMapping.java)                    | 1ms     | 79.11% |
 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DefangingAnIPAddress.java)                                         | 0ms     | 100%   |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DestinationCity.java)                                              | 2ms     | 100%   |

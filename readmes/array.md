@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 280/1893.
+Completed: 281/1893.
 
 ## Submissions
 ### Easy
@@ -58,6 +58,7 @@ Completed: 280/1893.
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSpecialQuadruplets.java)                                | 13ms    | 41.65% |
 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSubarraysOfLengthThreeWithACondition.java)              | 1ms     | 100%   |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                      | 6ms     | 86.92% |
+| [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfVowelStringsInRange.java)                    | 1ms     | 100%   |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingWordsWithAGivenPrefix.java)                          | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                           | 4ms     | 91.17% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                                              | 32ms    | 39.02% |

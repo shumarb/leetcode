@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/159.
+Completed: 51/159.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 50/159.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                         | 58ms    | 41.34% |
 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayOne.java)                  | 1ms     | 97.87% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                  | 6ms     | 86.92% |
+| [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfVowelStringsInRange.java)                | 1ms     | 100%   |
 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineIfStringHalvesAreAlike.java)                    | 1ms     | 99.74% |
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoEqualPairs.java)                          | 1ms     | 99.99% |
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLuckyIntegerInAnArray.java)                          | 1ms     | 100%   |
