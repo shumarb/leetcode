@@ -6,8 +6,6 @@ class ShortestDistanceToACharacter {
         int len = s.length();
         int previous = -1;
         int[] result = new int[len];
-        int[] prefix = new int[len];
-        int[] suffix = new int[len];
 
         for (int i = 0; i < len; i++) {
             if (s.charAt(i) == c) {
@@ -19,8 +17,9 @@ class ShortestDistanceToACharacter {
             if (s.charAt(i) == c) {
                 previous = i;
             }
-            prefix[i] = Math.abs(i - previous);
+            result[i] = Math.abs(i - previous);
         }
+
         for (int i = len - 1; i >= 0; i--) {
             if (s.charAt(i) == c) {
                 previous = i;
@@ -31,15 +30,11 @@ class ShortestDistanceToACharacter {
             if (s.charAt(i) == c) {
                 previous = i;
             }
-            suffix[i] = Math.abs(i - previous);
+            result[i] = Math.min(result[i], Math.abs(previous - i));
         }
         if (isTest) {
             System.out.println("s: " + s + "\nc: " + c);
-            System.out.println("prefix: " + Arrays.toString(prefix));
-            System.out.println("suffix: " + Arrays.toString(suffix));
-        }
-        for (int i = 0; i < len; i++) {
-            result[i] = Math.min(prefix[i], suffix[i]);
+            System.out.println("result: " + Arrays.toString(result));
         }
 
         return result;
