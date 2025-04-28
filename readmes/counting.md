@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/159.
+Completed: 52/160.
 
 ## Submissions
 ### Easy
@@ -66,6 +66,7 @@ Completed: 51/159.
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayTwo.java)                   | 5ms     | 69.71% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistantBarcodes.java)                                     | 15ms    | 83.05% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
+| [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMostCommonResponse.java)                           | 143ms   | 51.44% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                                 | 6ms     | 88.17% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                          | 49ms    | 82.90% |

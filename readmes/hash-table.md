@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 146/688.
+Completed: 147/690.
 
 ## Submissions
 ### Easy
@@ -147,6 +147,7 @@ Completed: 146/688.
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                            | 9ms     | 91.31% |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllDuplicatesInAnArray.java)                          | 5ms     | 94.05% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
+| [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMostCommonResponse.java)                           | 143ms   | 51.44% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                     | 153ms   | 42.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                                       | 9ms     | 35.78% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                                | 33ms    | 85.89% | 
