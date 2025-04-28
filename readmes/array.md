@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 283/1893.
+Completed: 285/1901.
 
 ## Submissions
 ### Easy
@@ -155,6 +155,7 @@ Completed: 283/1893.
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostOfBuyingCandiesWithDiscount.java)                 | 2ms     | 98.80% |
 | [Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostToReachEveryPosition.java)                        | 1ms     | 96.63% |
 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)      | 5ms     | 97.12% |
+| [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDistanceToTheTargetElement.java)                      | 0ms     | 100%   |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumIndexSumOfTwoLists.java)                              | 8ms     | 95.80% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                      | 3ms     | 41.37% |
