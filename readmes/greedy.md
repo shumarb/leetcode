@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/410.
+Completed: 28/411.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 27/410.
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumWithExactlyKElements.java)                   | 1ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                             | 8ms     | 95.90% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostOfBuyingCandiesWithDiscount.java)           | 2ms     | 98.80% |
+| [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumMovesToConvertString.java)                      | 1ms     | 71.27% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)               | 1ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)             | 2ms     | 50.45% |
