@@ -22,4 +22,4 @@ Completed: 3/42.
 ### Medium
 | Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
-| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java) | 40ms    | 62.68% |
+| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |

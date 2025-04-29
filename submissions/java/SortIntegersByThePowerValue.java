@@ -7,7 +7,17 @@ class SortIntegersByThePowerValue {
         int j = 0;
 
         for (int i = lo; i <= hi; i++) {
-            list[j++] = new int[] {i, getPowerValue(i)};
+            int count = 0;
+            int x = i;
+            while (x != 1) {
+                if (x % 2 == 0) {
+                    x /= 2;
+                } else {
+                    x = (3 * x + 1);
+                }
+                count++;
+            }
+            list[j++] = new int[] {i, count};
         }
         Arrays.sort(list, (a, b) -> Integer.compare(a[1], b[1]));
         if (isTest) {
@@ -16,19 +26,7 @@ class SortIntegersByThePowerValue {
                 System.out.println(" * " + Arrays.toString(entry));
             }
         }
-        return list[k - 1][0];
-    }
 
-    private int getPowerValue(int x) {
-        int count = 0;
-        while (x != 1) {
-            if (x % 2 == 0) {
-                x /= 2;
-            } else {
-                x = (3 * x + 1);
-            }
-            count++;
-        }
-        return count;
+        return list[k - 1][0];
     }
 }
