@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/576.
+Completed: 11/580.
 
 ## Submissions
 ### Easy
@@ -24,9 +24,10 @@ Completed: 10/576.
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)       | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java) | 46ms    | 87.58% | 
-| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java) | 5ms     | 88.83% |
-| [Jump Game](https://leetcode.com/problems/jump-game/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                 | 3ms     | 42.85% |
-| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)            | 2ms     | 98.25% | 
+| Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
+| [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)    | 46ms    | 87.58% | 
+| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java)    | 5ms     | 88.83% |
+| [Jump Game](https://leetcode.com/problems/jump-game/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                    | 3ms     | 42.85% |
+| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java) | 41ms    | 59.49% |
+| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)               | 2ms     | 98.25% | 

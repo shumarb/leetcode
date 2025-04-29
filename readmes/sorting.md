@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 93/446.
+Completed: 94/448.
 
 ## Submissions
 ### Easy
@@ -105,6 +105,7 @@ Completed: 93/446.
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchSuggestionsSystem.java)                        | 38ms    | 36.75% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)                      | 8ms     | 87.71% |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortColors.java)                                     | 0ms     | 100%   |
+| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java)                    | 41ms    | 59.49% |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                       | 9ms     | 94.52% |
 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortVowelsInAString.java)                            | 75ms    | 29.08% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                                    | 5ms     | 97.68% |
