@@ -1,8 +1,8 @@
-// Question:
+// Question: https://leetcode.com/problems/kth-largest-element-in-a-stream/description/
 
 class KthLargest {
-    PriorityQueue<Integer> minHeap;
-    int topK = 0;
+    private PriorityQueue<Integer> minHeap;
+    private int topK = 0;
 
     public KthLargest(int k, int[] nums) {
         minHeap = new PriorityQueue<>();

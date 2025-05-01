@@ -17,7 +17,7 @@ Completed: 4/21.
 | Question                                                                                                      | Submission                                                                                | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java) | 76ms    | 99.56% |
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)    | 21ms    | 54.99% |
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)    | 21ms    | 53.45% |
 
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
