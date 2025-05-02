@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/71.
+Completed: 3/71.
 
 ## Submissions
 ### Easy
-| Question                                                                              | Submission                                                                                    | Runtime | Rank   |
-|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
-| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSimilarItems.java) | 3ms     | 98.07% |
+| Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSimilarItems.java)                | 3ms     | 98.07% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |
 
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                                      | Runtime | Rank   |

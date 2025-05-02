@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 285/1901.
+Completed: 287/1901.
 
 ## Submissions
 ### Easy
@@ -165,6 +165,7 @@ Completed: 285/1901.
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToCollectElements.java)                     | 1ms     | 99.04% |
 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueOne.java)             | 0ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeColumnsStrictlyIncreasing.java)       | 1ms     | 100%   |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java)                       | 2ms     | 79.90% |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumSumOfMountainTripletsOne.java)                        | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                          | 0ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ModifyTheMatrix.java)                                        | 1ms     | 100%   |

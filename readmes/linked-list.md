@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/81.
+Completed: 28/81.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 27/81.
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeTwoSortedLists.java)                       | 0ms     | 100%   |
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java)          | 2ms     | 79.90% |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeLinkedList.java)                      | 4ms     | 83.80% |
 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedList.java)            | 0ms     | 100%   |
 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java)                  | 1ms     | 94%    |

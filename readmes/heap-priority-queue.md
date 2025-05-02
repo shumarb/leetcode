@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 35/194.
+Completed: 36/194.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 35/194.
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastStoneWeight.java)                                  | 1ms     | 97.76% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java)             | 0ms     | 100%   |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java)                 | 2ms     | 79.90% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeRanks.java)                                    | 9ms     | 61.66% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TheKWeakestRowsInAMatrix.java)                         | 2ms     | 76.03% |

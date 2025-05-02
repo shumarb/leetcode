@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 147/690.
+Completed: 148/690.
 
 ## Submissions
 ### Easy
@@ -94,6 +94,7 @@ Completed: 147/690.
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumIndexSumOfTwoLists.java)                              | 8ms     | 95.80% |
 | [Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java) | 1ms     | 95.72% |
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToCollectElements.java)                     | 1ms     | 99.04% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java)                       | 2ms     | 79.90% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                          | 0ms     | 100%   |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostCommonWord.java)                                         | 17ms    | 43.61% |
 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MostFrequentEvenElement.java)                                | 6ms     | 99.88% |

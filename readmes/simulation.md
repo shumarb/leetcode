@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/177.
+Completed: 42/179.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 41/177.
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinMaxGame.java)                                       | 1ms     | 64.62% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                | 3ms     | 41.37% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java)                 | 2ms     | 79.90% |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumStringLengthAfterRemovingSubstrings.java)       | 5ms     | 56.70% |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
