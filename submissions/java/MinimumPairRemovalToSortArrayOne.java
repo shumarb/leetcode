@@ -3,17 +3,15 @@
 class MinimumPairRemovalToSortArrayOne {
     public int minimumPairRemoval(int[] nums) {
         int count = 0;
-
         while (nums.length > 1 && !isNonDescending(nums)) {
             nums = update(nums);
             count++;
         }
-
         return count;
     }
 
     private int[] update(int[] nums) {
-        int mergeIndex = 0;
+        int index = 0;
         int minimumSum = nums[0] + nums[1];
         int len = nums.length;
         int[] result = new int[len - 1];
@@ -21,15 +19,15 @@ class MinimumPairRemovalToSortArrayOne {
         for (int i = 1; i < len - 1; i++) {
             int currentSum = nums[i] + nums[i + 1];
             if (currentSum < minimumSum) {
+                index = i;
                 minimumSum = currentSum;
-                mergeIndex = i;
             }
         }
 
         int j = 0;
-        for (int i = 0; i < len; ) {
-            if (i == mergeIndex) {
-                result[j++] = nums[i] + nums[i + 1];
+        for (int i = 0; i < len;) {
+            if (i == index) {
+                result[j++] = minimumSum;
                 i += 2;
             } else {
                 result[j++] = nums[i++];
@@ -40,17 +38,12 @@ class MinimumPairRemovalToSortArrayOne {
     }
 
     private boolean isNonDescending(int[] nums) {
-        if (nums.length <= 1) {
-            return true;
-        }
-
         int len = nums.length;
         for (int i = 0; i < len - 1; i++) {
             if (nums[i] > nums[i + 1]) {
                 return false;
             }
         }
-
         return true;
     }
 }
