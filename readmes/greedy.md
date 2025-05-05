@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/411.
+Completed: 29/411.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 28/411.
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumMovesToConvertString.java)                      | 1ms     | 71.27% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)               | 1ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
+| [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeTheArrayIncreasing.java)        | 3ms     | 86.89% |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)             | 2ms     | 50.45% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPalindromeTwo.java)                               | 4ms     | 99.71% |
 
