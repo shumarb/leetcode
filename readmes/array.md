@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 288/1901.
+Completed: 289/1901.
 
 ## Submissions
 ### Easy
@@ -76,6 +76,7 @@ Completed: 288/1901.
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java)       | 4ms     | 17.42% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalPricesWithASpecialDiscountInAShop.java)                 | 2ms     | 65.61% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)           | 1ms     | 74.56% |
+| [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllKDistantIndicesInAnArray.java)                        | 33ms    | 31.15% |
 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllNumbersDisappearedInAnArray.java)                     | 3ms     | 99.85% |
 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindClosestNumberToZero.java)                                | 2ms     | 85.15% |
 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonCharacters.java)                                   | 2ms     | 91.04% |
