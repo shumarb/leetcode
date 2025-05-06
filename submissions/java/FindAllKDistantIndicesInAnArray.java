@@ -7,7 +7,7 @@ class FindAllKDistantIndicesInAnArray {
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < len; j++) {
-                if (Math.abs(i - j) <= k && nums[j] == key && !isIndexPresent[i]) {
+                if (!isIndexPresent[i] && Math.abs(i - j) <= k && nums[j] == key) {
                     isIndexPresent[i] = true;
                     result.add(i);
                 }
