@@ -2,15 +2,18 @@
 
 class MinimumOperationsToMakeArrayValuesEqualToK {
     public int minOperations(int[] nums, int k) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isNumberChecked = new boolean[101];
         int len = nums.length;
+        int minimumOperations = 0;
         for (int i = 0; i < len; i++) {
-            if (nums[i] < k) {
+            int number = nums[i];
+            if (number < k) {
                 return -1;
-            } else if (nums[i] > k) {
-                set.add(nums[i]);
+            } else if (!isNumberChecked[number] && number > k) {
+                isNumberChecked[number] = true;
+                minimumOperations++;
             }
         }
-        return set.size();
+        return minimumOperations;
     }
 }
