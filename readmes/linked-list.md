@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/81.
+Completed: 29/81.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 28/81.
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                            | 1ms     | 100%   |
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbersTwo.java)                         | 3ms     | 39.24% |
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodeInALinkedList.java)                  | 0ms     | 100%   |
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteTheMiddleNodeOfALinkedList.java)         | 3ms     | 99.75% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                             | 6ms     | 99.03% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodesFromLinkedListPresentInArray.java)  | 4ms     | 95.87% |
