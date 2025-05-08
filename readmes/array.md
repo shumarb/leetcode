@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 291/1905.
+Completed: 292/1905.
 
 ## Submissions
 ### Easy
@@ -311,8 +311,9 @@ Completed: 291/1905.
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSumTwoInputArrayIsSorted.java)                         | 2ms     | 92.54% |
 
 ### Hard
-| Question                                                                                                              | Submission                                                                                                | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindInMountainArray.java)           | 0ms     | 100%   |
-| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstMissingPositive.java)          | 1ms     | 100%   |
-| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |
+| Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindInMountainArray.java)           | 0ms     | 100%   |
+| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstMissingPositive.java)          | 1ms     | 100%   |
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedCollection.java)          | 31ms    | 84.09% |
+| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |

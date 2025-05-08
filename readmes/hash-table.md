@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 149/691.
+Completed: 150/691.
 
 ## Submissions
 ### Easy
@@ -170,6 +170,7 @@ Completed: 149/691.
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
 
 ### Hard
-| Question                                                                                    | Submission                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstMissingPositive.java) | 1ms     | 100%   |
+| Question                                                                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstMissingPositive.java) | 1ms     | 100%   |
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedCollection.java) | 31ms    | 84.09% |

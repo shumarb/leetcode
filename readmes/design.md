@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/127.
+Completed: 18/128.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 17/127.
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java)                  | 16ms    | 33.15% |
 
 ### Hard
-| Question                                                                                                | Submission                                                                               | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java) | 92ms    | 78.28% |
+| Question                                                                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)         | 92ms    | 78.28% |
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedCollection.java) | 31ms    | 84.09% |

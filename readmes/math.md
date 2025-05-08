@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 102/578.
+Completed: 103/578.
 
 ## Submissions
 ### Easy
@@ -122,3 +122,8 @@ Completed: 102/578.
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                                  | 3ms     | 93.35% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                                    | 0ms     | 100%   |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
+
+### Hard
+| Question                                                                                                                                      | Submission                                                                                                           | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedCollection.java)                     | 31ms    | 84.09% |
