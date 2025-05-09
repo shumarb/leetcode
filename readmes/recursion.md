@@ -36,4 +36,4 @@ Completed: 13/47.
 ### Hard
 | Question                                                                                        | Submission                                                                                          | Runtime | Rank  |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|-------|
-| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java)    | 5ms     | 2.37% |
+| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java)    | 2ms     | 5.78% |

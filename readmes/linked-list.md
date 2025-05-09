@@ -53,4 +53,4 @@ Completed: 30/81.
 | Question                                                                                        | Submission                                                                                       | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java)    | 4ms     | 71.29% |
-| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java) | 5ms     | 2.37%  |
+| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java) | 2ms     | 5.78%  |

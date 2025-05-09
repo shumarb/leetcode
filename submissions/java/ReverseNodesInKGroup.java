@@ -11,59 +11,47 @@
  * }
  */
 class ReverseNodesInKGroup {
-    private boolean isTest = false;
-
     public ListNode reverseKGroup(ListNode head, int k) {
-        List<Integer> list = new ArrayList<>();
-        ListNode current = head;
+        // 1. Edge case: Linked list has only 1 node.
+        if (head == null || head.next == null) {
+            return head;
+        }
 
+        ListNode current = head;
+        int count = 0;
         while (current != null) {
-            list.add(current.val);
+            count++;
             current = current.next;
         }
-        if (isTest) {
-            System.out.println("before, list: " + list + "\nk: " + k);
-        }
 
-        int len = list.size();
-        for (int i = 0; i < len; i += k) {
-            int start = i;
-            int end = i + k - 1;
-            if (isTest) {
-                System.out.println(" * start: " + start + ", end: " + end);
-            }
-            if (start < len && end < len) {
-                list = update(list, start, end);
-            }
-        }
-        if (isTest) {
-            System.out.println("after, list: " + list);
-        }
-
+        ListNode[] nodes = new ListNode[count];
         current = head;
         int i = 0;
         while (current != null) {
-            current.val = list.get(i++);
+            nodes[i++] = current;
             current = current.next;
         }
 
-        return head;
-    }
+        for (i = 0; i < count; i += k) {
+            int start = i;
+            int end = i + k - 1;
+            while (end < count && start < end) {
+                ListNode temp = nodes[start];
+                nodes[start++] = nodes[end];
+                nodes[end--] = temp;
+            }
+        }
+        for (i = 0; i < count; i++) {
+            if (i == 0) {
+                head = nodes[0];
+                nodes[0].next = nodes[1];
+            } else if (i == count - 1) {
+                nodes[i].next = null;
+            } else {
+                nodes[i].next = nodes[i + 1];
+            }
+        }
 
-    private List<Integer> update(List<Integer> list, int start, int end) {
-        List<Integer> result = new ArrayList<>();
-        for (int number: list) {
-            result.add(number);
-        }
-        int left = start;
-        int right = end;
-        while (left < right) {
-            int temp = result.get(left);
-            result.set(left, result.get(right));
-            result.set(right, temp);
-            left++;
-            right--;
-        }
-        return result;
+        return head;
     }
 }
