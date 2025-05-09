@@ -34,6 +34,6 @@ Completed: 13/47.
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java) | 0ms     | 100%  |
 
 ### Hard
-| Question                                                                                        | Submission                                                                                          | Runtime | Rank  |
-|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|-------|
-| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java)    | 2ms     | 5.78% |
+| Question                                                                                        | Submission                                                                                          | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|--------|
+| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java)    | 1ms     | 30.85% |

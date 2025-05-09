@@ -41,16 +41,11 @@ class ReverseNodesInKGroup {
                 nodes[end--] = temp;
             }
         }
-        for (i = 0; i < count; i++) {
-            if (i == 0) {
-                head = nodes[0];
-                nodes[0].next = nodes[1];
-            } else if (i == count - 1) {
-                nodes[i].next = null;
-            } else {
-                nodes[i].next = nodes[i + 1];
-            }
+        for (i = 0; i < count - 1; i++) {
+            nodes[i].next = nodes[i + 1];
         }
+        head = nodes[0];
+        nodes[count - 1].next = null;
 
         return head;
     }
