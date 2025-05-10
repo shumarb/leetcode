@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/47.
+Completed: 14/47.
 
 ## Submissions
 ### Easy
@@ -27,11 +27,12 @@ Completed: 13/47.
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                  | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                               | Submission                                                                                   | Runtime | Rank  |
-|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|-------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)    | 1ms     | 100%  |
-| [Elimination Game](https://leetcode.com/problems/elimination-game/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EliminationGame.java)  | 1ms     | 100%  |
-| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java) | 0ms     | 100%  |
+| Question                                                                                                  | Submission                                                                                            | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)             | 1ms     | 100%   |
+| [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EliminationGame.java)           | 1ms     | 100%   |
+| [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)          | 0ms     | 100%   |
 
 ### Hard
 | Question                                                                                        | Submission                                                                                          | Runtime | Rank   |

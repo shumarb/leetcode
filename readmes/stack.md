@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/167.
+Completed: 30/168.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                     | 1ms     | 78.15% |
+| [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                               | 2ms     | 96.48% |
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreeInorderTraversal.java)                 | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePostorderTraversal.java)               | 0ms     | 100%   |
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryTreePreorderTraversal.java)                | 0ms     | 100%   |
@@ -45,6 +46,7 @@ Completed: 28/167.
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinStack.java)                               | 4ms     | 97.18% |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                  | 9ms     | 94.03% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java) | 31ms    | 52.93% |
+| [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java)              | 7ms     | 73.29% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)               | 87ms    | 32.57% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                           | 5ms     | 51.87% |
 

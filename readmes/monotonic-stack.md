@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/65.
+Completed: 6/66.
 
 ## Submissions
 ### Easy
@@ -20,10 +20,11 @@ Completed: 5/65.
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementOne.java)                  | 3ms     | 92.50% |
 
 ### Medium
-| Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)        | 77ms    | 31.05% |
-| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)    | 9ms     | 94.03% |
+| Question                                                                                                  | Submission                                                                                            | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)         | 77ms    | 31.05% |
+| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)     | 9ms     | 94.03% |
+| [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                                | Runtime | Rank   |
