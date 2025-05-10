@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/179.
+Completed: 43/179.
 
 ## Submissions
 ### Easy
@@ -58,6 +58,7 @@ Completed: 42/179.
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddingSpacesToAString.java)                      | 26ms    | 38.74% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)                     | 12ms    | 88.41% |
+| [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeNodesInBetweenZeros.java)                   | 18ms    | 5.26%  |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueTwo.java) | 144ms   | 74.64% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                   | 87ms    | 32.57% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                               | 0ms     | 100%   |
