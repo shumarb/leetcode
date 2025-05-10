@@ -12,69 +12,22 @@
  */
 class MergeNodesInBetweenZeros {
     public ListNode mergeNodes(ListNode head) {
-        ListNode newHead = new ListNode(-1);
-        ListNode current = head;
-        boolean isTest = false;
-        int count = 0;
+        ListNode current = head.next;
+        ListNode result = head;
+        int sum = 0;
 
         while (current != null) {
-            count++;
-            current = current.next;
-        }
-        ListNode[] nodes = new ListNode[count];
-        int i = 0;
-        current = head;
-        while (current != null) {
-            nodes[i++] = current;
-            current = current.next;
-        }
-        if (isTest) {
-            display("nodes: ", head);
-        }
-
-        int len = nodes.length;
-        List<Integer> list = new ArrayList<>();
-        for (i = 0; i < len; i++) {
-            if (nodes[i].val != 0) {
-                continue;
+            int value = current.val;
+            if (value != 0) {
+                sum += value;
             } else {
-                int j = i + 1;
-                int sum = 0;
-                while (j < len && nodes[j].val != 0) {
-                    sum += nodes[j++].val;
-                }
-                if (sum != 0) {
-                    list.add(sum);
-                }
-            }
-        }
-        if (isTest) {
-            System.out.println("list: " + list);
-        }
-
-        current = newHead;
-        for (int value: list) {
-            ListNode incoming = new ListNode(value);
-            current.next = incoming;
-            current = current.next;
-        }
-        if (isTest) {
-            display("new list: ", newHead.next);
-        }
-
-        return newHead.next;
-    }
-
-    private void display(String sentence, ListNode head) {
-        System.out.print(sentence);
-        ListNode current = head;
-        while (current != null) {
-            System.out.print(current.val + " --> ");
-            if (current.next == null) {
-                System.out.println("null");
+                result.next = new ListNode(sum);
+                result = result.next;
+                sum = 0;
             }
             current = current.next;
         }
-        System.out.println("--------------------------------------------------------------");
+
+        return head.next;
     }
 }
