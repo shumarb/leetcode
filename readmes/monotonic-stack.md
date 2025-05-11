@@ -24,7 +24,7 @@ Completed: 7/66.
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DailyTemperatures.java)           | 77ms    | 31.05% |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)       | 9ms     | 94.03% |
-| [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterNodeInLinkedList.java) | 328ms   | 22.79% |
+| [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterNodeInLinkedList.java) | 303ms   | 23.32% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java)   | 7ms     | 73.29% |
 
 ### Hard
