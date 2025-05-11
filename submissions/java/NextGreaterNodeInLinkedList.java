@@ -17,8 +17,8 @@ class NextGreaterNodeInLinkedList {
         }
         ListNode current = head;
         boolean isTest = false;
-        int[] arr;
-        int[] suffix;
+        int[] values;
+        int[] result;
         int count = 0;
 
         while (current != null) {
@@ -27,26 +27,26 @@ class NextGreaterNodeInLinkedList {
         }
 
         int i = 0;
-        arr = new int[count];
-        suffix = new int[count];
+        values = new int[count];
+        result = new int[count];
         current = head;
         while (current != null) {
-            arr[i++] = current.val;
+            values[i++] = current.val;
             current = current.next;
         }
-        for (i = 0; i < count - 1; i++) {
-            for (int j = i + 1; j < count; j++) {
-                if (arr[j] > arr[i]) {
-                    suffix[i] = arr[j];
-                    break;
-                }
+
+        Stack<Integer> stack = new Stack<>();
+        for (i = 0; i < count; i++) {
+            while (!stack.isEmpty() && values[stack.peek()] < values[i]) {
+                result[stack.pop()] = values[i];
             }
+            stack.push(i);
         }
         if (isTest) {
-            System.out.println("arr:    " + Arrays.toString(arr));
-            System.out.println("suffix: " + Arrays.toString(suffix));
+            System.out.println("values:    " + Arrays.toString(values));
+            System.out.println("result:    " + Arrays.toString(result));
         }
 
-        return suffix;
+        return result;
     }
 }
