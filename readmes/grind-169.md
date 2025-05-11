@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 70/169.
+Completed: 71/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -59,6 +59,7 @@ Completed: 70/169.
 | 91  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                         | 6ms     | 98.00% | 
 | 94  | [Counting Bits](https://leetcode.com/problems/counting-bits/description)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountingBits.java)                              | 2ms     | 95%    |
 | 98  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)                          | 0ms     | 100%   |
+| 101 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateArray.java)                               | 0ms     | 100%   |
 | 106 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                      | 4ms     | 96.68% |
 | 109 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SameTree.java)                                  | 0ms     | 100%   |
 | 110 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                             | 0ms     | 100%   |

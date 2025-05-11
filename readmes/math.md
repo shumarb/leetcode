@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 103/578.
+Completed: 104/578.
 
 ## Submissions
 ### Easy
@@ -118,6 +118,7 @@ Completed: 103/578.
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)                                     | 58ms    | 99.02% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)                                | 21ms    | 99.89% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                                      | 0ms     | 100%   |
+| [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateArray.java)                                         | 0ms     | 100%   |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)                           | 0ms     | 100%   |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquareNumbers.java)                                  | 3ms     | 93.35% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfTwoIntegers.java)                                    | 0ms     | 100%   |
