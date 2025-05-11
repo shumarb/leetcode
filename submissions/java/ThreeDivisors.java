@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/three-divisors/description/
 
 class ThreeDivisors {
     public boolean isThree(int n) {
