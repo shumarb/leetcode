@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/81.
+Completed: 34/81.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 33/81.
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertionSortList.java)                        | 28ms    | 8.25%  |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java)                     | 9ms     | 100%   |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeNodesInBetweenZeros.java)                 | 5ms     | 83.64% |
+| [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterNodeInLinkedList.java)              | 328ms   | 22.79% |
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNode.java)    | 3ms     | 35.47% |
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java)        | 0ms     | 100%   |

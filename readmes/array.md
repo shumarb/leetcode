@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 293/1905.
+Completed: 294/1905.
 
 ## Submissions
 ### Easy
@@ -288,6 +288,7 @@ Completed: 293/1905.
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToHalfArraySum.java)                     | 172ms   | 82.34% |
 | [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumSumOfMountainTripletsTwo.java)                     | 2ms     | 100%   |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterElementTwo.java)                               | 9ms     | 94.03% |
+| [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NextGreaterNodeInLinkedList.java)                         | 328ms   | 22.79% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PeakIndexInAMountainArray.java)                           | 0ms     | 100%   |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                            | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                                    | 2490ms  | 5.01%  |
