@@ -25,9 +25,9 @@ class RotateList {
 
         /**
          1. Edge cases (no rotations):
-         1. Linked list has 0 nodes.
-         2. Linked list has 1 node.
-         3. k == number of nodes.
+             1. Linked list has 0 nodes.
+             2. Linked list has 1 node.
+             3. k == number of nodes.
          */
         if (head == null || head.next == null || k == count) {
             return head;
@@ -48,9 +48,9 @@ class RotateList {
 
         /**
          3. Execute rotations
-         1. Reverse all elements.
-         2. Reverse first k elements.
-         3. Reverse last (count - k) elements.
+             1. Reverse all elements.
+             2. Reverse first k elements.
+             3. Reverse last (count - k) elements.
          */
         reverse(0, count - 1);
         reverse(0, k - 1);
@@ -89,5 +89,4 @@ class RotateList {
         }
         System.out.println("------------------------------------------------------------------");
     }
-
 }
