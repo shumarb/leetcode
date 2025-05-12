@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/56.
+Completed: 7/57.
 
 ## Submissions
 ### Easy
-| Question                                                                                  | Submission                                                                                      | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java) | 1ms     | 64.40% |
+| Question                                                                                                      | Submission                                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrefixAndSuffixPairsOne.java) | 3ms     | 33.56% |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)          | 1ms     | 64.40% |
 
 ### Medium
 | Question                                                                                                                            | Submission                                                                                                       | Runtime | Rank   |
