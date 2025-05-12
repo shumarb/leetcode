@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/150.
+Completed: 56/150.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 55/150.
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)                | 0ms     | 100%   |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReorderList.java)                               | 4ms     | 12.39% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                            | 0ms     | 100%   |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                           | 1ms     | 73.86% |

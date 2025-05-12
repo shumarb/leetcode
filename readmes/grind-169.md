@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/169.
+Completed: 73/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -77,6 +77,7 @@ Completed: 72/169.
 | 142 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                             | 1ms     | 36.78% |
 | 145 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseInteger.java)                            | 0ms     | 100%   |
 | 146 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                           | 1ms     | 73.86% |
+| 147 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReorderList.java)                               | 4ms     | 12.39% |
 | 152 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PalindromeNumber.java)                          | 4ms     | 100%   |
 | 155 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubtreeOfAnotherTree.java)                      | 2ms     | 97.86% |
 | 156 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SquaresOfASortedArray.java)                     | 1ms     | 100%   |
