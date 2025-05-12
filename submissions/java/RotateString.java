@@ -28,15 +28,9 @@ class RotateString {
         }
 
         int len = doubledS.length();
+        String doubledSStr = doubledS.toString();
         for (int i = 0; i <= len - k; i++) {
-            StringBuilder current = new StringBuilder();
-            for (int j = i; j < len && j <= i + k - 1; j++) {
-                current.append(doubledS.charAt(j));
-            }
-            if (isTest) {
-                System.out.println(" * current: " + current + " | goal: " + goal);
-            }
-            if (current.toString().equals(goal)) {
+            if (doubledSStr.substring(i, i + k).equals(goal)) {
                 return true;
             }
         }
