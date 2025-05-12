@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/217.
+Completed: 65/217.
 
 ## Submissions
 ### Easy
@@ -74,6 +74,7 @@ Completed: 64/217.
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)               | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveDuplicatesFromSortedListTwo.java) | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReorderList.java)                       | 4ms     | 12.39% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAString.java)             | 6ms     | 86.18% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateArray.java)                       | 0ms     | 100%   |
 | [Rotate List](https://leetcode.com/problems/rotate-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateList.java)                        | 0ms     | 100%   |

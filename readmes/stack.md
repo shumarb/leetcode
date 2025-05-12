@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/168.
+Completed: 32/168.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 31/168.
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java) | 31ms    | 52.93% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java)              | 7ms     | 73.29% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)               | 87ms    | 32.57% |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReorderList.java)                            | 4ms     | 12.39% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SimplifyPath.java)                           | 5ms     | 51.87% |
 
 ### Hard

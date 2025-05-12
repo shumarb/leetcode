@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/47.
+Completed: 15/47.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 14/47.
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)             | 1ms     | 100%   |
 | [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EliminationGame.java)           | 1ms     | 100%   |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReorderList.java)               | 4ms     | 12.39% |
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SwapNodesInPairs.java)          | 0ms     | 100%   |
 
 ### Hard
