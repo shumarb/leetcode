@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 148/786.
+Completed: 149/786.
 
 ## Submissions
 ### Easy
@@ -129,6 +129,7 @@ Completed: 148/786.
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StringMatchingInAnArray.java)                                      | 4ms     | 89.02% |
 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrongPasswordCheckerTwo.java)                                     | 1ms     | 67.43% |
 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StudentAttendanceRecordOne.java)                                   | 0ms     | 100%   |
+| [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubstringMatchingPattern.java)                                     | 2ms     | 48.35% |
 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubstringsOfSizeThreeWithDistinctCharacters.java)                  | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfDigitsOfStringAfterConvert.java)                              | 2ms     | 50.64% |
 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThousandSeparator.java)                                            | 0ms     | 100%   |

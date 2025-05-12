@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/37.
+Completed: 10/37.
 
 ## Submissions
 ### Easy
@@ -24,4 +24,5 @@ Completed: 9/37.
 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RepeatedSubstringPattern.java)                        | 74ms    | 56.66% |
 | [Rotate String](https://leetcode.com/problems/rotate-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateString.java)                                    | 0ms     | 100%   |
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StringMatchingInAnArray.java)                         | 4ms     | 89.02% |
+| [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubstringMatchingPattern.java)                        | 2ms     | 48.35% |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubtreeOfAnotherTree.java)                            | 2ms     | 97.86% |
