@@ -16,7 +16,7 @@ Completed: 4/40.
 ### Easy
 | Question                                                                                                      | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrefixAndSuffixPairsOne.java) | 3ms     | 33.56% |
+| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrefixAndSuffixPairsOne.java) | 2ms     | 99.94% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashMap.java)                    | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyHashSet.java)                    | 12ms    | 97.83% |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubtreeOfAnotherTree.java)         | 2ms     | 97.86% |
