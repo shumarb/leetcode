@@ -25,7 +25,7 @@ Completed: 16/47.
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)                         | 0ms     | 100%   |
 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLinkedListElements.java)           | 1ms     | 94%    |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseLinkedList.java)                  | 0ms     | 100%   |
-| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Unique3DigitEvenNumbers.java)            | 11ms    | 12.94% |
+| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Unique3DigitEvenNumbers.java)            | 7ms     | 17.93% |
 
 ### Medium
 | Question                                                                                                  | Submission                                                                                            | Runtime | Rank   |

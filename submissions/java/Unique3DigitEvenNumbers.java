@@ -28,6 +28,11 @@ class Unique3DigitEvenNumbers {
         int[] numberFrequency = new int[10];
         int n = number;
         while (n != 0) {
+            int digit = n % 10;
+            // 1. Digit in number is not in digits array.
+            if (digitFrequency[digit] == 0) {
+                return false;
+            }
             numberFrequency[n % 10]++;
             n /= 10;
         }
