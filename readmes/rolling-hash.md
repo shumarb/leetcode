@@ -1,4 +1,4 @@
-# Hash Function
+# Rolling Hash
 
 ## Overview
 This folder contains my solutions to the LeetCode [Rolling Hash](https://leetcode.com/problem-list/rolling-hash/) problem list,
