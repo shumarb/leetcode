@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/115.
+Completed: 15/115.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 14/115.
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestDivisibleDigitProductOne.java)         | 1ms     | 65.70% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)            | 1ms     | 100%   |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeDivisors.java)                            | 1ms     | 61.86% |
+| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Unique3DigitEvenNumbers.java)                  | 11ms    | 12.94% |
 
 ### Medium
 | Question                                                                | Submission                                                                              | Runtime | Rank   |

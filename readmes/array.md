@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 296/1905.
+Completed: 297/1905.
 
 ## Submissions
 ### Easy
@@ -236,6 +236,7 @@ Completed: 296/1905.
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoFurthestHousesWithDifferentColors.java)                   | 2ms     | 50.45% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoOutOfThree.java)                                          | 1ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoSum.java)                                                 | 2ms     | 98.84% |
+| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Unique3DigitEvenNumbers.java)                                | 11ms    | 12.94% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidMountainArray.java)                                     | 2ms     | 71.67% |
