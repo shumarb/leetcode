@@ -16,24 +16,22 @@ class DoubleANumberRepresentedAsALinkedList {
         ListNode result = null;
         Stack<ListNode> stack = new Stack<>();
         boolean isTest = false;
+        int carry = 0;
 
+        if (isTest) {
+            display("number: ", head);
+        }
         while (current != null) {
             stack.push(current);
             current = current.next;
         }
-        if (isTest) {
-            display("number: ", head);
-        }
 
-        int carry = 0;
         current = result;
         while (!stack.isEmpty()) {
-            int number = stack.pop().val;
-            int doubled = 2 * number + carry;
-            int digit = doubled % 10;
-            carry = doubled / 10;
+            int doubledNumber = 2 * stack.pop().val + carry;
+            carry = doubledNumber / 10;
 
-            ListNode incoming = new ListNode(digit);
+            ListNode incoming = new ListNode(doubledNumber % 10);
             incoming.next = result;
             result = incoming;
         }
@@ -43,7 +41,7 @@ class DoubleANumberRepresentedAsALinkedList {
             result = incoming;
         }
         if (isTest) {
-            display("result: ", result.next);
+            display("result: ", result);
         }
 
         return result;
@@ -60,6 +58,6 @@ class DoubleANumberRepresentedAsALinkedList {
             }
             current = current.next;
         }
-        System.out.println("-----------------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------------------");
     }
 }
