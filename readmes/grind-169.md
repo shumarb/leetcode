@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/169.
+Completed: 75/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -67,6 +67,7 @@ Completed: 74/169.
 | 113 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                                  | 3ms     | 42.85% |
 | 114 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddTwoNumbers.java)                             | 1ms     | 100%   |
 | 116 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                                  | 9ms     | 94.52% |
+| 119 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubarraySumEqualsK.java)                        | 24ms    | 75.04% |
 | 121 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)                      | 21ms    | 99.89% |
 | 122 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargestElementInAnArray.java)                | 3ms     | 98.86% |
 | 127 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                              | 1ms     | 99.85% |

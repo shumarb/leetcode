@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/201.
+Completed: 14/204.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 13/201.
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumPopulationYear.java)                   | 2ms     | 26.45% |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                                | 7ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
 
 ### Medium
 | Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |

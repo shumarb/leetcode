@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 153/696.
+Completed: 154/696.
 
 ## Submissions
 ### Easy
@@ -168,6 +168,7 @@ Completed: 153/696.
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                                     | 1ms     | 73.86% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java)                                 | 16ms    | 33.15% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortCharactersByFrequency.java)                           | 8ms     | 87.71% |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubarraySumEqualsK.java)                                  | 24ms    | 75.04% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)                                | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentWords.java)                                   | 6ms     | 98%    | 
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
