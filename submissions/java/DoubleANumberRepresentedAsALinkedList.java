@@ -1,7 +1,5 @@
 // Question: https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/
 
-import java.math.BigInteger;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -15,42 +13,40 @@ import java.math.BigInteger;
 class DoubleANumberRepresentedAsALinkedList {
     public ListNode doubleIt(ListNode head) {
         ListNode current = head;
-        StringBuilder str = new StringBuilder();
+        ListNode result = null;
+        Stack<ListNode> stack = new Stack<>();
         boolean isTest = false;
 
         while (current != null) {
-            str.append(current.val);
+            stack.push(current);
             current = current.next;
         }
-        BigInteger number = new BigInteger(str.toString());
         if (isTest) {
-            display("number list: ", head);
-            System.out.println("str: " + str.toString());
-            System.out.println("number: " + number);
+            display("number: ", head);
         }
 
-        number = number.multiply(new BigInteger("2"));
-        if (isTest) {
-            System.out.println("doubled number: " + number);
-        }
-
-        ListNode result = new ListNode(-1);
+        int carry = 0;
         current = result;
-        String doubledNumber = number.toString();
-        int len = doubledNumber.length();
-        if (isTest) {
-            System.out.println("doubled number string: " + doubledNumber);
+        while (!stack.isEmpty()) {
+            int number = stack.pop().val;
+            int doubled = 2 * number + carry;
+            int digit = doubled % 10;
+            carry = doubled / 10;
+
+            ListNode incoming = new ListNode(digit);
+            incoming.next = result;
+            result = incoming;
         }
-        for (int i = 0; i < len; i++) {
-            ListNode incoming = new ListNode(Character.getNumericValue(doubledNumber.charAt(i)));
-            current.next = incoming;
-            current = current.next;
+        if (carry > 0) {
+            ListNode incoming = new ListNode(carry);
+            incoming.next = result;
+            result = incoming;
         }
         if (isTest) {
-            display("doubled number list: ", result.next);
+            display("result: ", result.next);
         }
 
-        return result.next;
+        return result;
     }
 
     private void display(String sentence, ListNode head) {
@@ -64,6 +60,6 @@ class DoubleANumberRepresentedAsALinkedList {
             }
             current = current.next;
         }
-        System.out.println("----------------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------");
     }
 }
