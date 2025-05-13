@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/81.
+Completed: 37/81.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 36/81.
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteTheMiddleNodeOfALinkedList.java)         | 3ms     | 99.75% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MyLinkedList.java)                             | 6ms     | 99.03% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteNodesFromLinkedListPresentInArray.java)  | 4ms     | 95.87% |
+| [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DoubleANumberRepresentedAsALinkedList.java)    | 163ms   | 5.46%  |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertionSortList.java)                        | 28ms    | 8.25%  |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListRandomNode.java)                     | 9ms     | 100%   |
