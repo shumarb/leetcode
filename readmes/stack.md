@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/169.
+Completed: 34/169.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 33/169.
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ImplementStackUsingQueues.java)                  | 0ms     | 100%   |
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)                  | 0ms     | 100%   |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                         | 3ms     | 62.40% |
+| [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNestingDepthOfTheParentheses.java)        | 0ms     | 100%   |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumStringLengthAfterRemovingSubstrings.java) | 5ms     | 56.70% |
 | [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreePostOrderTraversal.java)                 | 0ms     | 100%   |
 | [N-Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NAryTreePreOrderTraversal.java)                  | 0ms     | 100%   |

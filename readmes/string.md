@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 149/786.
+Completed: 150/788.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 149/786.
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                            | 2ms     | 89.66% |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                                           | 3ms     | 62.40% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)               | 1ms     | 100%   |
+| [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNestingDepthOfTheParentheses.java)                          | 0ms     | 100%   |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBalloons.java)                                      | 3ms     | 75.90% |
 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsFoundInSentences.java)                         | 3ms     | 83.48% |
 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfWordsYouCanType.java)                               | 1ms     | 108%   |
