@@ -27,6 +27,10 @@ class SumOfDigitsOfStringAfterConvert {
             System.out.println("---------------------------------------------------------------------------------");
         }
 
+        /**
+         1.  Reduce number of remaining transformations by 1
+             because the conversion counts as 1 transformation.
+         */
         for (int i = 0; i < k - 1; i++) {
             sum = digitSum(sum);
         }
