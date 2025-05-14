@@ -1,45 +1,45 @@
 // Question: https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/
 
-class SumOfDigitsOfStringAfterConvert class Solution {
-    private boolean isTest = false;
-
+class SumOfDigitsOfStringAfterConvert {
     public int getLucky(String s, int k) {
-        String converted = convert(s);
-        if (isTest) {
-            System.out.println("s: " + s + " --> converted: " + converted + "\nk: " + k);
-        }
-        for (int i = 0; i < k; i++) {
-            if (isTest) {
-                System.out.println("----------------------------------------------------------");
-                System.out.println("before, result: " + converted + ", iteration: " + (i + 1));
-            }
-            converted = transform(converted);
-            if (isTest) {
-                System.out.println("after, result: " + converted);
-            }
-        }
-
-        return Integer.parseInt(converted);
-    }
-
-    private String transform(String converted) {
+        boolean isTest = false;
         int sum = 0;
-        for (int i = 0; i < converted.length(); i++) {
-            char digit = converted.charAt(i);
-            if (isTest) {
-                System.out.println(" * current: " + digit + " --> value: " + Character.getNumericValue(digit));
-            }
-            sum += Character.getNumericValue(digit);
+
+        if (isTest) {
+            System.out.println("s: " + s + "\nk: " + k + "\n\nConversion:");
         }
-        return String.valueOf(sum);
+        for (char c: s.toCharArray()) {
+            int value = c - 'a' + 1;
+            if (value >= 10) {
+                if (isTest) {
+                    System.out.println(" * adding: " + (value % 10) + ", " + (value / 10));
+                }
+                sum += (value % 10 + value / 10);
+            } else {
+                if (isTest) {
+                    System.out.println(" * adding: " + value);
+                }
+                sum += value;
+            }
+        }
+        if (isTest) {
+            System.out.println("\nsum: " + sum);
+            System.out.println("---------------------------------------------------------------------------------");
+        }
+
+        for (int i = 0; i < k - 1; i++) {
+            sum = digitSum(sum);
+        }
+
+        return sum;
     }
 
-    private String convert(String s) {
-        StringBuilder converted = new StringBuilder();
-        for (char letter: s.toCharArray()) {
-            int value = letter - 'a' + 1;
-            converted.append(value);
+    private int digitSum(int number) {
+        int digitSum = 0;
+        while (number != 0) {
+            digitSum += number % 10;
+            number /= 10;
         }
-        return converted.toString();
+        return digitSum;
     }
 }
