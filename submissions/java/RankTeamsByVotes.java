@@ -3,55 +3,48 @@
 class RankTeamsByVotes {
     public String rankTeams(String[] votes) {
         StringBuilder result = new StringBuilder();
-        Map<Character, int[]> map = new HashMap<>();
         boolean isTest = false;
-        int numberOfTeams = votes[0].length();
+        int numTeams = votes[0].length();
+        int[][] map = new int[26][numTeams + 1];
 
-        for (char letter: votes[0].toCharArray()) {
-            map.put(letter, new int[numberOfTeams]);
-        }
-        if (isTest) {
-            System.out.println("votes: " + Arrays.toString(votes));
-            display("before, map: ", map);
-            System.out.println("------------------------------------------------------------------------");
+        for (int i = 0; i < 26; i++) {
+            map[i][0] = i;
         }
         for (String vote: votes) {
             for (int i = 0; i < vote.length(); i++) {
-                map.get(vote.charAt(i))[i]++;
+                map[vote.charAt(i) - 'A'][i + 1]++;
             }
         }
-        if (isTest) {
-            display("after, map: ", map);
-            System.out.println("------------------------------------------------------------------------");
-        }
-
-        List<Character> list = new ArrayList<>(map.keySet());
-        list.sort(
-                (a, b) -> {
-                    for (int i = 0; i < numberOfTeams; i++) {
-                        // 1. Sort by descending order of vote count.
-                        if (map.get(a)[i] != map.get(b)[i]) {
-                            return Integer.compare(map.get(b)[i], map.get(a)[i]);
+        Arrays.sort(
+                map, (a, b) -> {
+                    for (int i = 1; i < numTeams + 1; i++) {
+                        if (b[i] > a[i]) {
+                            // 1. b comes before a.
+                            return 1;
+                        } else if (b[i] < a[i]) {
+                            // 2. a comes before b.
+                            return -1;
                         }
                     }
-                    return Character.compare(a, b);
+                    return 0;
                 }
         );
-        for (char letter: list) {
-            result.append(letter);
+        for (int i = 0; i < numTeams; i++) {
+            result.append((char) ('A' + map[i][0]));
         }
         if (isTest) {
-            System.out.println("list: " + list);
+            System.out.println("votes: " + Arrays.toString(votes));
+            display("map:", map);
             System.out.println("result: " + result.toString());
         }
-
         return result.toString();
     }
 
-    private void display(String sentence, Map<Character, int[]> map) {
+    private void display(String sentence, int[][] map) {
         System.out.println(sentence);
-        for (Map.Entry<Character, int[]> entry: map.entrySet()) {
-            System.out.println(" * " + entry.getKey() + " --> " + Arrays.toString(entry.getValue()));
+        for (int[] row: map) {
+            System.out.println(Arrays.toString(row));
         }
+        System.out.println("----------------------------------------------------");
     }
 }
