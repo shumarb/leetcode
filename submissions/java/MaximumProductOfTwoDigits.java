@@ -3,36 +3,23 @@
 class MaximumProductOfTwoDigits {
     public int maxProduct(int n) {
         boolean isTest = false;
-        int maxProduct = 0;
+        int largestDigit = -1;
+        int secondLargestDigit = -1;
         int nCopy = n;
-        int[] digitFrequency = new int[10];
 
         while (nCopy != 0) {
-            digitFrequency[nCopy % 10]++;
+            int digit = nCopy % 10;
+            if (digit > largestDigit) {
+                secondLargestDigit = largestDigit;
+                largestDigit = digit;
+            } else if (digit > secondLargestDigit) {
+                secondLargestDigit = digit;
+            }
             nCopy /= 10;
         }
         if (isTest) {
-            System.out.println("n: " + n + "\ndigitFrequency: " + Arrays.toString(digitFrequency));
-        }
-
-        int largestDigit = -1;
-        int secondLargestDigit = -1;
-        for (int i = 9; i >= 0; i--) {
-            if (digitFrequency[i]-- > 0) {
-                largestDigit = i;
-                break;
-            }
-        }
-        for (int i = 9; i >= 0; i--) {
-            if (digitFrequency[i]-- > 0) {
-                secondLargestDigit = i;
-                break;
-            }
-        }
-        if (isTest) {
-            System.out.println("largestDigit: " + largestDigit);
-            System.out.println("secondLargestDigit: " + secondLargestDigit);
-            System.out.println("product of aforementioned digits: " + (largestDigit * secondLargestDigit));
+            System.out.println("n: " + n + "\nlargestDigit: " + largestDigit);
+            System.out.println("secondLargestDigit: " + secondLargestDigit + "\nmaximum product: " + (largestDigit * secondLargestDigit));
         }
 
         return largestDigit * secondLargestDigit;
