@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/204.
+Completed: 16/204.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 15/204.
 |-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AntOnTheBoundary.java)                        | 0ms     | 100%   |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllTheIntegersInARangeAreCovered.java) | 0ms     | 100%   |
+| [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPartitionsWithEvenSumDifference.java)    | 1ms     | 44.42% |
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                          | 1ms     | 94.56% |
 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheHighestAltitude.java)                  | 0ms     | 100%   |
 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMiddleIndexInArray.java)               | 0ms     | 100%   |

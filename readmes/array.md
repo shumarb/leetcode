@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 301/1910.
+Completed: 302/1910.
 
 ## Submissions
 ### Easy
@@ -56,6 +56,7 @@ Completed: 301/1910.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                             | 58ms    | 41.34% |
 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayOne.java)                      | 1ms     | 97.87% |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsWhoseSumIsLessThanTarget.java)                     | 1ms     | 100%   |
+| [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPartitionsWithEvenSumDifference.java)                   | 1ms     | 44.42% |
 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrefixAndSuffixPairsOne.java)                           | 2ms     | 99.94% |
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java//CountPrefixesOfAGivenString.java)                           | 0ms     | 100%   |
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSpecialQuadruplets.java)                                | 13ms    | 41.65% |
