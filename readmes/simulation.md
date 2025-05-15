@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/179.
+Completed: 44/179.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 43/179.
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                        | 2ms     | 99.94% |
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddDigits.java)                                        | 0ms     | 100%   |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddStrings.java)                                       | 2ms     | 61.51% |
+| [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AntOnTheBoundary.java)                                 | 0ms     | 100%   |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ApplyOperationsToAnArray.java)                         | 1ms     | 95.99% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                                     | 2ms     | 96.48% |

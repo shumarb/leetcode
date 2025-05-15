@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/204.
+Completed: 15/204.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                        | Submission                                                                                                          | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AntOnTheBoundary.java)                        | 0ms     | 100%   |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllTheIntegersInARangeAreCovered.java) | 0ms     | 100%   |
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                          | 1ms     | 94.56% |
 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheHighestAltitude.java)                  | 0ms     | 100%   |
