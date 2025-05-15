@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 107/578.
+Completed: 108/578.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 107/578.
 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumNumberOfBallsInABox.java)                             | 13ms    | 97.88% |
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumOddBinaryNumber.java)                                 | 1ms     | 100%   |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                           | 11ms    | 84.46% |
+| [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoDigits.java)                              | 1ms     | 95.36% |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                          | 1ms     | 36.78% |
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)                                    | 0ms     | 100%   |

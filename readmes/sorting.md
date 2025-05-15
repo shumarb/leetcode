@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 96/451.
+Completed: 97/451.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 96/451.
 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximizeSumOfArrayAfterKNegations.java)                    | 1ms     | 100%   |
 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductDifferenceBetweenTwoPairs.java)              | 2ms     | 98.79% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                         | 11ms    | 84.46% |
+| [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoDigits.java)                            | 1ms     | 95.36% |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoElementsInAnArray.java)                 | 0ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumUnitsOnATruck.java)                                 | 8ms     | 95.90% |
 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MeanOfArrayAfterRemovingSomElements.java)                  | 11ms    | 5.94%  |
