@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 154/696.
+Completed: 155/696.
 
 ## Submissions
 ### Easy
@@ -161,6 +161,7 @@ Completed: 154/696.
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)            | 54ms    | 30.96% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                                 | 6ms     | 86.31% |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickIndex.java)                                     | 58ms    | 99.02% |
+| [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTeamsByVotes.java)                                    | 11ms    | 50.03% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReduceArraySizeToTheHalf.java)                            | 17ms    | 92.02% |
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)         | 2ms     | 91.55% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RewardTopKStudents.java)                                  | 65ms    | 86.25% |

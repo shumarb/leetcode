@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 150/788.
+Completed: 151/788.
 
 ## Submissions
 ### Easy
@@ -161,6 +161,7 @@ Completed: 150/788.
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
+| [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTeamsByVotes.java)                          | 11ms    | 50.03% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java)    | 31ms    | 52.93% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                  | 87ms    | 32.57% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAString.java)                     | 6ms     | 86.18% |
