@@ -8,7 +8,8 @@ class PrimeInDiagonal {
 
         for (int i = 0; i < len; i++) {
             int number = nums[i][i];
-            if (isPrime(number)) {
+            // 1. Numbers 0 and 1 are no-prime so skip it.
+            if (number >= 2 && isPrime(number)) {
                 diagonalPrime = Math.max(diagonalPrime, number);
             }
         }
@@ -16,7 +17,7 @@ class PrimeInDiagonal {
         int column = len - 1;
         while (row < len && column >= 0) {
             int number = nums[row][column];
-            if (isPrime(number)) {
+            if (number >= 2 && isPrime(number)) {
                 diagonalPrime = Math.max(diagonalPrime, number);
             }
             row++;
@@ -27,10 +28,6 @@ class PrimeInDiagonal {
     }
 
     private boolean isPrime(int number) {
-        // 1. Numbers less than 2 are not prime.
-        if (number < 2) {
-            return false;
-        }
         for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 return false;
