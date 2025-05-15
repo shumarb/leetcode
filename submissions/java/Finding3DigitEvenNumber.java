@@ -5,14 +5,19 @@ class Finding3DigitEvenNumber {
 
     public int[] findEvenNumbers(int[] digits) {
         List<Integer> even = new ArrayList<>();
+        int[] digitFrequency = new int[10];
+        for (int digit: digits) {
+            digitFrequency[digit]++;
+        }
 
-        for (int i = 100; i <= 999; i++) {
-            if (i % 2 == 0 && canBeFormed(i, digits)) {
+        for (int i = 100; i <= 998; i += 2) {
+            if (canBeFormed(i, digitFrequency)) {
                 even.add(i);
             }
         }
         if (isTest) {
             System.out.println("digits: " + Arrays.toString(digits));
+            System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
             System.out.println("even: " + even);
         }
 
@@ -21,20 +26,25 @@ class Finding3DigitEvenNumber {
         for (int number: even) {
             result[i++] = number;
         }
+
         return result;
     }
 
-    private boolean canBeFormed(int number, int[] digits) {
-        int[] digitFrequency = new int[10];
+    private boolean canBeFormed(int number, int[] digitFrequency) {
         int[] numberDigitFrequency = new int[10];
-
-        for (int digit: digits) {
-            digitFrequency[digit]++;
-        }
-
         int numberCopy = number;
+
         while (numberCopy != 0) {
-            numberDigitFrequency[numberCopy % 10]++;
+            int digit = numberCopy % 10;
+
+            /**
+             1. Digit in number is not in digits array,
+             so number can't be formed from digits.
+             */
+            if (digitFrequency[digit] == 0) {
+                return false;
+            }
+            numberDigitFrequency[digit]++;
             numberCopy /= 10;
         }
         if (isTest) {
@@ -49,6 +59,7 @@ class Finding3DigitEvenNumber {
                 return false;
             }
         }
+
         return true;
     }
 }
