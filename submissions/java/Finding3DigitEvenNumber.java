@@ -4,7 +4,8 @@ class Finding3DigitEvenNumber {
     private boolean isTest = false;
 
     public int[] findEvenNumbers(int[] digits) {
-        List<Integer> even = new ArrayList<>();
+        boolean[] isEvenNumberFormed = new boolean[999];
+        int count = 0;
         int[] digitFrequency = new int[10];
         for (int digit: digits) {
             digitFrequency[digit]++;
@@ -12,19 +13,22 @@ class Finding3DigitEvenNumber {
 
         for (int i = 100; i <= 998; i += 2) {
             if (canBeFormed(i, digitFrequency)) {
-                even.add(i);
+                count++;
+                isEvenNumberFormed[i] = true;
+            }
+        }
+
+        int[] result = new int[count];
+        int j = 0;
+        for (int i = 0; i <= 998; i += 2) {
+            if (isEvenNumberFormed[i]) {
+                result[j++] = i;
             }
         }
         if (isTest) {
             System.out.println("digits: " + Arrays.toString(digits));
             System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
-            System.out.println("even: " + even);
-        }
-
-        int[] result = new int[even.size()];
-        int i = 0;
-        for (int number: even) {
-            result[i++] = number;
+            System.out.println("result: " + Arrays.toString(result));
         }
 
         return result;
@@ -44,6 +48,7 @@ class Finding3DigitEvenNumber {
             if (digitFrequency[digit] == 0) {
                 return false;
             }
+
             numberDigitFrequency[digit]++;
             numberCopy /= 10;
         }
