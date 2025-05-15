@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/578.
+Completed: 107/578.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 106/578.
 | [Power of Three](https://leetcode.com/problems/power-of-three/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfThree.java)                                           | 7ms     | 100%   |
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfTwo.java)                                             | 0ms     | 100%   |
 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)             | 66ms    | 10.43% |
+| [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeInDiagonal.java)                                        | 10ms    | 26.91% |
 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SelfDividingNumbers.java)                                    | 1ms     | 100%   |
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SignOfTheProductOfAnArray.java)                              | 0ms     | 100%   |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestDivisibleDigitProductOne.java)                       | 1ms     | 65.70% |

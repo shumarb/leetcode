@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/252.
+Completed: 25/256.
 
 ## Submissions
 ### Easy
@@ -28,6 +28,7 @@ Completed: 24/252.
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MatrixDiagonalSum.java)                                | 0ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ModifyTheMatrix.java)                                  | 1ms     | 100%   |
+| [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeInDiagonal.java)                                  | 10ms    | 26.91% |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RichestCustomerWealth.java)                            | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RowWithMaximumOnes.java)                               | 5ms     | 27.61% |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpecialPositionsInABinaryMatrix.java)                  | 2ms     | 83.84% |
