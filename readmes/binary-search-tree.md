@@ -16,7 +16,7 @@ Completed: 11/40.
 ### Easy
 | Question                                                                                                            | Submission                                                                                                 | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindModeInBinarySearchTree.java)     | 6ms     | 44.33% |
+| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindModeInBinarySearchTree.java)     | 6ms     | 43.24% |
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/IncreasingOrderSearchTree.java)      | 0ms     | 100%   |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)                     | 21ms    | 53.45% |
 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifferenceInBST.java) | 0ms     | 100%   |
