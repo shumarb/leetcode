@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 157/696.
+Completed: 158/696.
 
 ## Submissions
 ### Easy
@@ -50,6 +50,7 @@ Completed: 157/696.
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMostFrequentVowelAndConsonant.java)                      | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)               | 5ms     | 14.27% |
+| [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubarraysWithEqualSum.java)                              | 1ms     | 99.86% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)              | 8ms     | 62.37% |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValidPairOfAdjacentDigitsInString.java)                  | 2ms     | 88.14% |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWinnerOnATicTacToeGame.java)                             | 0ms     | 100%   |

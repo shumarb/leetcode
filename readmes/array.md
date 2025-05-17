@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 304/1910.
+Completed: 305/1910.
 
 ## Submissions
 ### Easy
@@ -96,6 +96,7 @@ Completed: 304/1910.
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPivotIndex.java)                                         | 1ms     | 94.56% |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)               | 5ms     | 14.27% |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSmallestLetterGreaterThanTarget.java)                    | 0ms     | 100%   |
+| [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubarraysWithEqualSum.java)                              | 1ms     | 99.86% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindSubsequenceOfLengthKWithTheLargestSum.java)              | 8ms     | 62.37% |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTargetIndicesAfterSortingArray.java)                     | 0ms     | 100%   |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWinnerOnATicTacToeGame.java)                             | 0ms     | 100%   |
