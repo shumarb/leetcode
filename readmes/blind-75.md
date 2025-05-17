@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/75.
+Completed: 39/75.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 38/75.
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                             | 9ms     | 35.78% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
+| [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertInterval.java)                            | 3ms     | 20.98% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                                  | 3ms     | 42.85% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestElementInABST.java)                  | 0ms     | 100%   |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |

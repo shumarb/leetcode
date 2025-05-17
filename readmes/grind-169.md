@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/169.
+Completed: 76/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -20,6 +20,7 @@ Completed: 75/169.
 | 6   | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InvertBinaryTree.java)                          | 0ms     | 100%   |
 | 7   | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                              | 3ms     | 90.36% |
 | 8   | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                              | 0ms     | 100%   |
+| 12  | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertInterval.java)                            | 3ms     | 20.98% |
 | 14  | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                    | 30ms    | 63.52% |
 | 15  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BalancedBinaryTree.java)                        | 0ms     | 100%   |
 | 16  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LinkedListCycle.java)                           | 0ms     | 100%   |
