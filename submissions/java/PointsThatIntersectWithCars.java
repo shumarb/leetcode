@@ -5,16 +5,16 @@ class PointsThatIntersectWithCars {
         boolean[] isNumberPresent = new boolean[101];
         int len = isNumberPresent.length;
         int numberOfPoints = 0;
+
         for (List<Integer> entry: nums) {
             for (int i = entry.get(0); i <= entry.get(1); i++) {
-                isNumberPresent[i] = true;
+                if (!isNumberPresent[i]) {
+                    isNumberPresent[i] = true;
+                    numberOfPoints++;
+                }
             }
         }
-        for (int i = 1; i <= 100; i++) {
-            if (isNumberPresent[i]) {
-                numberOfPoints++;
-            }
-        }
+
         return numberOfPoints;
     }
 }
