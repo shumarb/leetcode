@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/239.
+Completed: 33/239.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 32/239.
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstLetterToAppearTwice.java)                   | 0ms     | 100%   |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                            | 0ms     | 100%   |
 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HammingDistance.java)                            | 0ms     | 100%   |
+| [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumBitFlipsToConvertNumber.java)             | 0ms     | 100%   |
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToCollectElements.java)         | 1ms     | 99.04% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                              | 0ms     | 100%   |
 | [Number Complement](https://leetcode.com/problems/number-complement/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberComplement.java)                           | 0ms     | 100%   |
