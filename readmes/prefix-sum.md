@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/204.
+Completed: 17/204.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 16/204.
 | [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindThePivotInteger.java)                     | 1ms     | 70.60% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)              | 2ms     | 98.18% |
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumPopulationYear.java)                   | 2ms     | 26.45% |
+| [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PointsThatIntersectWithCars.java)             | 7ms     | 12.04% |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                                | 7ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |

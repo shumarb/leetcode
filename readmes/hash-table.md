@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 156/696.
+Completed: 157/696.
 
 ## Submissions
 ### Easy
@@ -111,6 +111,7 @@ Completed: 156/696.
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                      | 0ms     | 100%   |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfUnequalTripletsInArray.java)                         | 5ms     | 85.76% |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)                 | 1ms     | 100%   |
+| [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PointsThatIntersectWithCars.java)                            | 7ms     | 12.04% |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                             | 1ms     | 99.14% |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeSortArray.java)                                      | 0ms     | 100%   |

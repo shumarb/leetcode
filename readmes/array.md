@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 302/1910.
+Completed: 303/1910.
 
 ## Submissions
 ### Easy
@@ -193,6 +193,7 @@ Completed: 302/1910.
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfSeniorCitizens.java)                                 | 0ms     | 100%   |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfUnequalTripletsInArray.java)                         | 5ms     | 85.76% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PlusOne.java)                                                | 0ms     | 100%   |
+| [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PointsThatIntersectWithCars.java)                            | 7ms     | 12.04% |
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeInDiagonal.java)                                        | 10ms    | 26.91% |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumArray.java)                                               | 7ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
