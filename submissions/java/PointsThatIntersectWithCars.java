@@ -2,44 +2,19 @@
 
 class PointsThatIntersectWithCars {
     public int numberOfPoints(List<List<Integer>> nums) {
-        Stack<List<Integer>> stack = new Stack<>();
-        boolean isTest = false;
+        boolean[] isNumberPresent = new boolean[101];
+        int len = isNumberPresent.length;
         int numberOfPoints = 0;
-
-        nums.sort((a, b) -> Integer.compare(a.get(0), b.get(0)));
-        if (isTest) {
-            System.out.println("sorted nums: ");
-            for (List<Integer> entry: nums) {
-                System.out.println(" * entry: " + entry);
+        for (List<Integer> entry: nums) {
+            for (int i = entry.get(0); i <= entry.get(1); i++) {
+                isNumberPresent[i] = true;
             }
         }
-
-        stack.push(nums.get(0));
-        for (int i = 1; i < nums.size(); i++) {
-            List<Integer> incoming = nums.get(i);
-            if (incoming.get(0) <= stack.peek().get(1)) {
-                stack.peek().set(1, Math.max(stack.peek().get(1), incoming.get(1)));
-            } else {
-                stack.push(incoming);
+        for (int i = 1; i <= 100; i++) {
+            if (isNumberPresent[i]) {
+                numberOfPoints++;
             }
         }
-        if (isTest) {
-            System.out.println("---------------------------------------------------");
-            System.out.println("stack: ");
-            for (List<Integer> entry: stack) {
-                System.out.println(" * entry: " + entry);
-            }
-        }
-
-        while (!stack.isEmpty()) {
-            List<Integer> top = stack.pop();
-            numberOfPoints += (top.get(1) - top.get(0) + 1);
-        }
-        if (isTest) {
-            System.out.println("---------------------------------------------------");
-            System.out.println("numberOfPoints: " + numberOfPoints);
-        }
-
         return numberOfPoints;
     }
 }
