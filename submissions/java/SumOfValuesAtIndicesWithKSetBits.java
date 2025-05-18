@@ -6,24 +6,10 @@ class SumOfValuesAtIndicesWithKSetBits {
         int len = nums.size();
         int sumIndicesWithKSetBits = 0;
         for (int i = 0; i < len; i++) {
-            if (hasKSetBits(i, k)) {
-                if (isTest) {
-                    System.out.println(" ** adding: " + nums.get(i));
-                }
+            if (Integer.bitCount(i) == k) {
                 sumIndicesWithKSetBits += nums.get(i);
             }
         }
         return sumIndicesWithKSetBits;
-    }
-
-    private boolean hasKSetBits(int number, int k) {
-        int countSetBits = 0;
-        while (number != 0) {
-            if (number % 2 == 1) {
-                countSetBits++;
-            }
-            number /= 2;
-        }
-        return countSetBits == k;
     }
 }
