@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 158/696.
+Completed: 159/696.
 
 ## Submissions
 ### Easy
@@ -167,6 +167,7 @@ Completed: 158/696.
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTeamsByVotes.java)                                    | 5ms     | 84.98% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReduceArraySizeToTheHalf.java)                            | 17ms    | 92.02% |
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveZeroSumConsecutiveNodesFromLinkedList.java)         | 2ms     | 91.55% |
+| [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReplaceElementsInAnArray.java)                            | 41ms    | 79.62% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RewardTopKStudents.java)                                  | 65ms    | 86.25% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SenderWithLargestWordCount.java)                          | 49ms    | 82.90% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMatrixZeroes.java)                                     | 1ms     | 73.86% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/179.
+Completed: 45/179.
 
 ## Submissions
 ### Easy
@@ -62,5 +62,6 @@ Completed: 44/179.
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeNodesInBetweenZeros.java)                   | 5ms     | 83.64% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToExceedThresholdValueTwo.java) | 144ms   | 74.64% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                   | 87ms    | 32.57% |
+| [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReplaceElementsInAnArray.java)                   | 41ms    | 79.62% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                               | 0ms     | 100%   |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumInAMatrix.java)                               | 13ms    | 99.35% |
