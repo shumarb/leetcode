@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 29/411.
+Completed: 30/414.
 
 ## Submissions
 ### Easy
@@ -47,5 +47,6 @@ Completed: 29/411.
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                    | 6ms     | 88.17% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductAfterKIncrements.java)         | 291ms   | 48.57% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToHalfArraySum.java)        | 172ms   | 82.34% |
+| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NonOverlappingIntervals.java)                | 48ms    | 59.58% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReduceArraySizeToTheHalf.java)               | 17ms    | 92.02% |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveStonesToMinimizeTheTotal.java)         | 335ms   | 88.82% |

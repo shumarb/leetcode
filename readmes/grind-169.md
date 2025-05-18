@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/169.
+Completed: 77/169.
 
 ## Submissions
 | #   | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
@@ -86,5 +86,6 @@ Completed: 76/169.
 | 158 | [Rotate List](https://leetcode.com/problems/rotate-list/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RotateList.java)                                | 0ms     | 100%   |
 | 159 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
 | 162 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                             | 25ms    | 93.59% |
+| 163 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NonOverlappingIntervals.java)                   | 48ms    | 59.58% |
 | 165 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseNodesInKGroup.java)                      | 1ms     | 30.85% |
 | 167 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FirstMissingPositive.java)                      | 1ms     | 100%   |

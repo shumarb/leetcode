@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/580.
+Completed: 12/584.
 
 ## Submissions
 ### Easy
@@ -29,5 +29,6 @@ Completed: 11/580.
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)    | 46ms    | 87.58% | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java)    | 5ms     | 88.83% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                    | 3ms     | 42.85% |
+| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NonOverlappingIntervals.java)     | 48ms    | 59.58% |
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumberTwo.java)               | 2ms     | 98.25% | 
