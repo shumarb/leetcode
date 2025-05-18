@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 34/239.
+Completed: 35/239.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 34/239.
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                              | 0ms     | 100%   |
 | [Number Complement](https://leetcode.com/problems/number-complement/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberComplement.java)                           | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)                              | 0ms     | 100%   |
+| [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfBitChangesToMakeTwoIntegersEqual.java)   | 2ms     | 12.09% |
 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEvenAndOddBits.java)                     | 2ms     | 23.78% |
 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfStepsToReduceANumberToZero.java)         | 0ms     | 100%   |
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PowerOfFour.java)                                | 0ms     | 100%   |
