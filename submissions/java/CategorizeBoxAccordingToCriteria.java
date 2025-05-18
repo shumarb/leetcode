@@ -7,10 +7,7 @@ class CategorizeBoxAccordingToCriteria {
         boolean isTest = false;
         long volume = (long) length * (long) width * (long) height;
 
-        if (isBulkyDimension(length) || isBulkyDimension(width) || isBulkyDimension(height)) {
-            isBulky = true;
-        }
-        if (volume >= 1000000000) {
+        if (volume >= 1000000000 || isBulkyDimension(length) || isBulkyDimension(width) || isBulkyDimension(height)) {
             isBulky = true;
         }
         if (mass >= 100) {
