@@ -1,7 +1,7 @@
 # Blind 75
 
 ## Overview
-This folder contains my solutions to the [Blind 75](https://leetcode.com/problem-list/oizxjoit/) list.
+This folder contains my solutions to the [Blind 75](https://leetcode.com/problem-list/oizxjoit/) list,
 with entries sorted by:
 - Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
