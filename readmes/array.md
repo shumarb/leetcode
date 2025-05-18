@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 306/1910.
+Completed: 307/1910.
 
 ## Submissions
 ### Easy
@@ -229,6 +229,7 @@ Completed: 306/1910.
 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SummaryRanges.java)                                          | 5ms     | 80.55% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfSquaresOfSpecialElements.java)                          | 1ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
+| [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfValuesAtIndicesWithKSetBits.java)                       | 2ms     | 29.15% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TakeGiftsFromTheRichestPile.java)                            | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TeemoAttacking.java)                                         | 3ms     | 83.20% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TheKWeakestRowsInAMatrix.java)                               | 2ms     | 76.03% |

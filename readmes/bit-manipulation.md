@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/239.
+Completed: 34/239.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 33/239.
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SingleNumber.java)                               | 1ms     | 99.85% |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestNumberWithAllSetBits.java)               | 1ms     | 30.35% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)             | 7ms     | 74.98% |
+| [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfValuesAtIndicesWithKSetBits.java)           | 2ms     | 29.15% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TwoOutOfThree.java)                              | 1ms     | 100%   |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XorOperationInAnArray.java)                      | 0ms     | 100%   |
 
