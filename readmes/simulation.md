@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/179.
+Completed: 48/179.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 47/179.
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineTheWinnerOfABowlingGame.java)                 | 1ms     | 100%   |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistributeElementsIntoTwoArraysOne.java)               | 1ms     | 100%   |
+| [Divide a String Into Groups of Size K](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideAStringIntoGroupsOfSizeK.java)                   | 1ms     | 92.75% |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FaultyKeyboard.java)                                   | 3ms     | 98.26% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)     | 1ms     | 74.56% |
