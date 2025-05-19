@@ -2,42 +2,59 @@
 
 class CountDaysWithoutMeetings {
     public int countDays(int days, int[][] meetings) {
+        Arrays.sort(meetings, (a, b) -> Integer.compare(a[0], b[0]));
+        List<int[]> list = new ArrayList<>();
         boolean isTest = false;
-        int countDays = days;
-        int previousEnd = -1;
+        int count = 0;
 
-        // 1. Sort meetings in ascending order of start times.
-        Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
-        if (isTest) {
-            System.out.println("days: " + days + "\nsorted meetings:");
-            for (int[] row: meetings) {
-                System.out.println(" * " + Arrays.toString(row));
-            }
-        }
-
-        for (int[] meeting: meetings) {
-            int start = meeting[0];
-            int end = meeting[1];
-
-            /**
-             2.  If current meeting starts after previous one ends,
-             reduce available days by number of days that the meeting covers.
-             */
-            if (start > previousEnd) {
-                countDays -= (end - start + 1);
+        /**
+         1.  Set current meeting as first meeting,
+             and count number of days before start day of first meeting.
+             Example: First meeting: [2, 8] means day 1 is free
+             (no day 0 due to 1-based counting),
+             so number of free days = start day - 1.
+         */
+        int[] current = meetings[0];
+        count += current[0] - 1;
+        list.add(meetings[0]);
+        for (int i = 1; i < meetings.length; i++) {
+            int[] incoming = meetings[i];
+            if (incoming[0] <= current[1]) {
+                current[1] = Math.max(incoming[1], current[1]);
             } else {
-                /**
-                 3. There is an overlap of meetings, so count only the uncovered days.
-                 */
-                if (end > previousEnd) {
-                    countDays -= (end - previousEnd);
-                }
+                list.add(incoming);
+                current = incoming;
             }
-
-            // 4. Updated end time of last processed meeting.
-            previousEnd = Math.max(end, previousEnd);
         }
 
-        return countDays;
+        if (isTest) {
+            System.out.println("days: " + days + "\nsorted meetings (ascending start time):");
+            for (int[] row: meetings) {
+                System.out.println(Arrays.toString(row));
+            }
+            System.out.println("\nlist:");
+            for (int[] row: list) {
+                System.out.println(Arrays.toString(row));
+            }
+            System.out.println("-------------------------------");
+        }
+
+        /**
+         2.  Count number of free days between 2 adjacent days up from first to last day,
+             then count number of free days between last day and total number of days
+             an employee is available for work.
+
+             For first calculation, reduce value by 1 to avoid overlapping days.
+         */
+        int len = list.size();
+        for (int i = 0; i < len - 1; i++) {
+            count += (list.get(i + 1)[0] - list.get(i)[1] - 1);
+        }
+        count += (days - list.get(len - 1)[1]);
+        if (isTest) {
+            System.out.println("count: " + count);
+        }
+
+        return count;
     }
 }
