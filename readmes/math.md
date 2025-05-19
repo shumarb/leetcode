@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 109/578.
+Completed: 110/578.
 
 ## Submissions
 ### Easy
@@ -75,6 +75,7 @@ Completed: 109/578.
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfThreeNumbers.java)                           | 11ms    | 84.46% |
 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumProductOfTwoDigits.java)                              | 1ms     | 95.36% |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
+| [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-perations-to-make-array-sum-divisible-by-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumOperationsToMakeArraySumDivisibleByK.java)            | 1ms     | 92.04% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MissingNumber.java)                                          | 1ms     | 36.78% |
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)                                    | 0ms     | 100%   |
 | [Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfBeautifulPairs.java)                                 | 18ms    | 52.42% |
