@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/179.
+Completed: 47/179.
 
 ## Submissions
 ### Easy
@@ -66,3 +66,4 @@ Completed: 46/179.
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReplaceElementsInAnArray.java)                   | 13ms    | 98.85% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SpiralMatrix.java)                               | 0ms     | 100%   |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumInAMatrix.java)                               | 13ms    | 99.35% |
+| [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfEvenNumbersAfterQueries.java)               | 2359ms  | 11.69% |
