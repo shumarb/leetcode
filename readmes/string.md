@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 153/788.
+Completed: 154/788.
 
 ## Submissions
 ### Easy
@@ -107,6 +107,7 @@ Completed: 153/788.
 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OccurrencesAfterBigram.java)                                       | 0ms     | 100%   |
 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PercentageOfLetterInString.java)                                   | 0ms     | 100%   |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationDifferenceBetweenTwoStrings.java)                       | 1ms     | 100%   |
+| [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PositionsOfLargeGroups.java)                                       | 2ms     | 35.68% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                                   | 1ms     | 99.14% |
 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RearrangeSpacesBetweenWords.java)                                  | 2ms     | 75.99% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInString.java)                          | 36ms    | 48.71% |
