@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/
 
-class Solution {
+class DivideAStringIntoGroupsOfSizeK {
     public String[] divideString(String s, int k, char fill) {
         String[] result;
         boolean isTest = false;
