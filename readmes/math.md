@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 111/578.
+Completed: 112/578.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 111/578.
 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPartitionsWithEvenSumDifference.java)                   | 0ms     | 100%   |
 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSquareSumTriples.java)                                  | 62ms    | 37.87% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountSymmetricIntegers.java)                                 | 44ms    | 25.05% |
+| [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountOfMatchesInTournament.java)                             | 0ms     | 100%   |
 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheDigitsThatDivideANumber.java)                        | 0ms     | 100%   |
 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineColorOfAChessboardSquare.java)                      | 0ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)        | 2ms     | 98.35% |
