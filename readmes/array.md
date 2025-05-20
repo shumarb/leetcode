@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 310/1910.
+Completed: 311/1915.
 
 ## Submissions
 ### Easy
@@ -130,6 +130,7 @@ Completed: 310/1910.
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestPositiveIntegerThatExistsWithItsNegative.java)        | 6ms     | 61.28% |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestTriangleArea.java)                                    | 4ms     | 99.15% |
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastStoneWeight.java)                                        | 1ms     | 97.76% |
+| [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastVisitedIntegers.java)                                    | 2ms     | 40.11% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LeftAndRightSumDifferences.java)                             | 2ms     | 98.18% |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LuckyNumbersInAMatrix.java)                                  | 5ms     | 11.05% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)                                        | 2ms     | 99.80% |
