@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/162.
+Completed: 57/162.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 56/162.
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountNumberOfPairsWithAbsoluteDifferenceK.java)          | 4ms     | 95.49% |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                         | 58ms    | 41.34% |
 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsThatFormACompleteDayOne.java)                  | 1ms     | 97.87% |
+| [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTestedDevicesAfterTestOperations.java)              | 3ms     | 1.14%  |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)                  | 6ms     | 86.92% |
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfVowelStringsInRange.java)                | 1ms     | 100%   |
 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DetermineIfStringHalvesAreAlike.java)                    | 1ms     | 99.74% |
