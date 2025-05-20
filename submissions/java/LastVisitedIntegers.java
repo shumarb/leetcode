@@ -23,7 +23,7 @@ class LastVisitedIntegers {
             if (number > 0) {
                 // 1. Reset k to 0 as chain of consecutive -1's is broken.
                 k = 0;
-                seen.add(0, number);
+                seen.addFirst(number);
             } else {
                 k++;
                 if (k <= seen.size()) {
