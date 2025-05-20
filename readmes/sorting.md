@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/451.
+Completed: 99/452.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 98/451.
 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAbsoluteDifference.java)                            | 17ms    | 91.38% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumAverageOfSmallestAndLargestElements.java)           | 2ms     | 97.31% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumCostOfBuyingCandiesWithDiscount.java)               | 2ms     | 98.80% |
+| [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDeletionsForAtMostKDistinctCharacters.java)         | 2ms     | 97.55% |
 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumDifferenceBetweenHighestAndLowestOfKScores.java)    | 5ms     | 97.12% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberGame.java)                                    | 3ms     | 41.37% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumNumberOfMovesToSeatEveryone.java)                   | 1ms     | 100%   |
