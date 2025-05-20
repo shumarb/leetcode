@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 112/578.
+Completed: 113/580.
 
 ## Submissions
 ### Easy
@@ -96,6 +96,7 @@ Completed: 112/578.
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SignOfTheProductOfAnArray.java)                              | 0ms     | 100%   |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestDivisibleDigitProductOne.java)                       | 1ms     | 65.70% |
 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestEvenMultiple.java)                                   | 0ms     | 100%   |
+| [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestIndexWithDigitSumEqualToIndex.java)                  | 0ms     | 100%   |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestNumberWithAllSetBits.java)                           | 1ms     | 30.35% |
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SqrtX.java)                                                  | 1ms     | 86%    |
 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubtractTheProductAndSumOfDigitsOfAnInteger.java)            | 0ms     | 100%   |
