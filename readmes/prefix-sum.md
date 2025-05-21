@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/204.
+Completed: 18/204.
 
 ## Submissions
 ### Easy
@@ -31,9 +31,10 @@ Completed: 17/204.
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
 
 ### Medium
-| Question                                                                                                    | Submission                                                                                           | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java) | 5ms     | 88.83% |
-| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java) | 2ms     | 89.32% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)         | 2490ms  | 5.01%  |
-| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)     | 21ms    | 99.89% |
+| Question                                                                                                                    | Submission                                                                                                    | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java)          | 5ms     | 88.83% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FrequencyOfTheMostFrequentElement.java) | 11ms    | 99.39% |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfArrayExceptSelf.java)          | 2ms     | 89.32% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java)                  | 2490ms  | 5.01%  |
+| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomPickWithWeight.java)              | 21ms    | 99.89% |

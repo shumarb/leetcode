@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 313/1915.
+Completed: 314/1915.
 
 ## Submissions
 ### Easy
@@ -282,6 +282,7 @@ Completed: 313/1915.
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                              | 79ms    | 50.60% |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMostCommonResponse.java)                           | 143ms   | 51.44% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindingPairsSum.java)                                     | 153ms   | 42.39% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FrequencyOfTheMostFrequentElement.java)                   | 11ms    | 99.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/GroupAnagrams.java)                                       | 9ms     | 35.78% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RandomizedSet.java)                                       | 25ms    | 93.59% |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertInterval.java)                                      | 2ms     | 36.52% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/452.
+Completed: 100/452.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 99/452.
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                           | 4ms     | 96.68% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindPlayersWithZeroOrOneLosses.java)                 | 44ms    | 93.03% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheDuplicateNumber.java)                         | 79ms    | 50.60% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FrequencyOfTheMostFrequentElement.java)              | 11ms    | 99.39% |
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/InsertionSortList.java)                              | 28ms    | 8.25%  |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java)                         | 30ms    | 63.52% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthSmallestPrimeFaction.java)                        | 344ms   | 44.26% |

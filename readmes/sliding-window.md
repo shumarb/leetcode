@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/150.
+Completed: 11/150.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 10/150.
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                      | 4ms     | 96.68% |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FrequencyOfTheMostFrequentElement.java)         | 11ms    | 99.39% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumSumOfDistinctSubarraysWithLengthK.java)  | 54ms    | 30.96% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/414.
+Completed: 32/414.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 31/414.
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ContainerWithMostWater.java)                 | 5ms     | 74.40% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DistantBarcodes.java)                        | 15ms    | 83.05% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/DivideArrayIntoArraysWithMaxDifference.java) | 7ms     | 100%   |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FrequencyOfTheMostFrequentElement.java)      | 11ms    | 99.39% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/JumpGame.java)                               | 3ms     | 42.85% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximalScoreAfterApplyingKOperations.java)   | 130ms   | 63.04% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumIceCreamBars.java)                    | 6ms     | 88.17% |
