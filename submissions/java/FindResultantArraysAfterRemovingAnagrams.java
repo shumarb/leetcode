@@ -3,19 +3,13 @@
 class FindResultantArraysAfterRemovingAnagrams {
     public List<String> removeAnagrams(String[] words) {
         List<String> result = new ArrayList<>();
-        String previousSorted = sortLetters(words[0]);
         boolean isTest = false;
 
+        // 1. Set first word as anagram to be removed.
         result.add(words[0]);
-        if (isTest) {
-            System.out.println("word: " + words[0] + " --> previousSorted: " + previousSorted);
-        }
         for (int i = 1; i < words.length; i++) {
-            String current = words[i];
-            String currentSorted = sortLetters(current);
-            if (!currentSorted.equals(previousSorted)) {
-                result.add(current);
-                previousSorted = currentSorted;
+            if (!isAnagram(words[i - 1], words[i])) {
+                result.add(words[i]);
             }
         }
         if (isTest) {
@@ -26,9 +20,19 @@ class FindResultantArraysAfterRemovingAnagrams {
         return result;
     }
 
-    private String sortLetters(String word) {
-        char[] letters = word.toCharArray();
-        Arrays.sort(letters);
-        return new String(letters);
+    private boolean isAnagram(String first, String second) {
+        int[] frequency = new int[26];
+        for (char letter: first.toCharArray()) {
+            frequency[letter - 'a']++;
+        }
+        for (char letter: second.toCharArray()) {
+            frequency[letter - 'a']--;
+        }
+        for (int letterFrequency: frequency) {
+            if (letterFrequency != 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
