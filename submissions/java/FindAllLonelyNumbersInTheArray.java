@@ -21,13 +21,11 @@ class FindAllLonelyNumbersInTheArray {
             int left = number - 1;
             int right = number + 1;
 
-            // 1. Edge case: number == 0.
-            if (number == 0) {
-                if (numberFrequency[number] == 1 && numberFrequency[right] == 0) {
+            if (numberFrequency[number] == 1) {
+                // 1. Edge case: number == 0.
+                if (number == 0 && numberFrequency[right] == 0) {
                     result.add(number);
-                }
-            } else {
-                if (numberFrequency[number] == 1 && numberFrequency[left] == 0 && numberFrequency[right] == 0) {
+                } else if (number != 0 && numberFrequency[left] == 0 && numberFrequency[right] == 0) {
                     result.add(number);
                 }
             }
