@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/217.
+Completed: 66/217.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 65/217.
 | [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllKDistantIndicesInAnArray.java)                 | 29ms    | 31.29% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindIndicesWithIndexAndValueDifferenceOne.java)       | 1ms     | 99.01% |
+| [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheArrayConcatenationValue.java)                  | 1ms     | 96.03% |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheIndexOfTheFirstOccurrenceInAString.java)       | 0ms     | 100%   |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                                 | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/HappyNumber.java)                                     | 0ms     | 100%   |

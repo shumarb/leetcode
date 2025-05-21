@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/179.
+Completed: 51/179.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 50/179.
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FinalArrayStateAfterKMultiplicationOperationsOne.java) | 4ms     | 17.42% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)     | 1ms     | 74.56% |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindWinnerOnATicTacToeGame.java)                       | 0ms     | 100%   |
+| [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheArrayConcatenationValue.java)                   | 1ms     | 96.03% |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthCharacterInStringGameOne.java)               | 4ms     | 56.59% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                         | 1ms     | 99.52% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                                  | 0ms     | 100%   |
