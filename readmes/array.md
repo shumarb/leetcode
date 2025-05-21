@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 314/1915.
+Completed: 315/1915.
 
 ## Submissions
 ### Easy
@@ -272,6 +272,7 @@ Completed: 314/1915.
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/EqualRowAndColumnPairs.java)                              | 12ms    | 88.41% |
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ExtraCharactersInAString.java)                            | 46ms    | 87.58% | 
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllDuplicatesInAnArray.java)                          | 5ms     | 94.05% |
+| [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindAllLonelyNumbersInTheArray.java)                      | 100ms   | 5.67%  |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstAndLastPositionOfElementInSortedArray.java)      | 0ms     | 100%   |
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindGoodDaysToRobTheBank.java)                            | 5ms     | 88.83% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindKClosestElements.java)                                | 4ms     | 96.68% |
