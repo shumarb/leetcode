@@ -5,27 +5,19 @@ class SmallestIndexWithDigitSumEqualToIndex {
         int len = nums.length;
 
         for (int i = 0; i < len; i++) {
-            int digitSum = getDigitSum(nums[i]);
-            /**
-             1.  The smallest index is the index
-                 where the first element whose digit sum is equal to its index
-             */
+            int element = nums[i];
+            int digitSum = 0;
+
+            while (element > 9) {
+                digitSum += element % 10;
+                element /= 10;
+            }
+            digitSum += element;
             if (digitSum == i) {
                 return i;
             }
         }
 
         return -1;
-    }
-
-    private int getDigitSum(int number) {
-        int digitSum = 0;
-
-        while (number != 0) {
-            digitSum += (number % 10);
-            number /= 10;
-        }
-
-        return digitSum;
     }
 }
