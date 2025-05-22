@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 161/698.
+Completed: 162/698.
 
 ## Submissions
 ### Easy
@@ -116,6 +116,7 @@ Completed: 161/698.
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PointsThatIntersectWithCars.java)                            | 2ms     | 74.65% |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                             | 1ms     | 99.14% |
+| [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RearrangeCharactersToMakeTargetString.java)                  | 0ms     | 100%   |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeSortArray.java)                                      | 0ms     | 100%   |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                        | 1ms     | 49.79% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondLargestDigitInAString.java)                            | 1ms     | 95.03% |

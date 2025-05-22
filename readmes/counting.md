@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 58/162.
+Completed: 59/162.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 58/162.
 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfEquivalentDominoPairs.java)                      | 3ms     | 82.93% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOfGoodPairs.java)                                  | 0ms     | 100%   |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RansomNote.java)                                         | 1ms     | 99.14% |
+| [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RearrangeCharactersToMakeTargetString.java)              | 0ms     | 100%   |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                    | 1ms     | 49.79% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByTheNumberOf1Bits.java)                     | 7ms     | 74.98% |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SplitTheArray.java)                                      | 0ms     | 100%   |
