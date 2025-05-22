@@ -4,9 +4,8 @@ class CountTestedDevicesAfterTestOperations {
     public int countTestedDevices(int[] batteryPercentages) {
         int countDecrement = 0;
         int countTestedDevices = 0;
-        int len = batteryPercentages.length;
 
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < batteryPercentages.length; i++) {
             if (batteryPercentages[i] - countDecrement > 0) {
                 countTestedDevices++;
                 countDecrement++;
