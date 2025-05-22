@@ -7,26 +7,29 @@ class CheckIfOneStringSwapCanMakeStringsEqual {
             return true;
         }
 
-        List<Integer> mismatchedIndices = new ArrayList<>();
+        int[] mismatchedIndices = new int[2];
+        int countMismatchedIndices = 0;
+        int j = 0;
         boolean isTest = false;
 
         for (int i = 0; i < s1.length(); i++) {
             if (s1.charAt(i) != s2.charAt(i)) {
-                mismatchedIndices.add(i);
+                // 2. Impossible for 1 swap if number of mismatches characters is more than 2.
+                countMismatchedIndices++;
+                if (countMismatchedIndices > 2) {
+                    return false;
+                }
+                mismatchedIndices[j++] = i;
             }
         }
         if (isTest) {
-            System.out.println("s1: " + s1 + "\ns2: " + s2 + "\nmismatchedIndices: " + mismatchedIndices);
+            System.out.println("s1: " + s1 + "\ns2: " + s2 + "\nmismatchedIndices: " + Arrays.toString(mismatchedIndices));
         }
 
-        // 2. Impossible for swap if number of mismatched indices != 2
-        if (mismatchedIndices.size() != 2) {
-            return false;
-        }
+        int firstIndex = mismatchedIndices[0];
+        int secondIndex = mismatchedIndices[1];
 
-        int i = mismatchedIndices.get(0);
-        int j = mismatchedIndices.get(1);
+        return s1.charAt(firstIndex) == s2.charAt(secondIndex) && s1.charAt(secondIndex) == s2.charAt(firstIndex);
 
-        return s1.charAt(i) == s2.charAt(j) && s1.charAt(j) == s2.charAt(i);
     }
 }
