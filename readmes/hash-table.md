@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 163/698.
+Completed: 164/698.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 163/698.
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                     | 2ms     | 74.84% |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)             | 4ms     | 92.01% |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)      | 0ms     | 100%   |
+| [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfOneStringSwapCanMakeStringsEqual.java)                | 1ms     | 39.21% |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheNumberIsFascinating.java)                          | 0ms     | 100%   |
 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfTheSentenceIsPangram.java)                            | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                      | 6ms     | 89.98% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/162.
+Completed: 61/162.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 60/162.
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckWhetherTwoStringsAreAlmostEquivalent.java)          | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)   | 1ms     | 100%   |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)  | 0ms     | 100%   |
+| [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfOneStringSwapCanMakeStringsEqual.java)            | 1ms     | 39.21% |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountCommonWordsWithOneOccurrence.java)                  | 6ms     | 89.98% |
 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithMaximumFrequency.java)                  | 0ms     | 100%   |
 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountElementsWithStrictlySmallerAndGreaterElements.java) | 0ms     | 100%   |
