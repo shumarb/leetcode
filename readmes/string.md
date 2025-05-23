@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 159/788.
+Completed: 160/788.
 
 ## Submissions
 ### Easy
@@ -62,6 +62,7 @@ Completed: 159/788.
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValueOfVariableAfterPerformingOperations.java)                 | 1ms     | 74.56% |
 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonCharacters.java)                                         | 2ms     | 91.04% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindFirstPalindromicStringInTheArray.java)                         | 1ms     | 100%   |
+| [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMaximumNumberOfStringPairs.java)                               | 6ms     | 50.57% |
 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMostFrequentVowelAndConsonant.java)                            | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)                     | 1ms     | 100%   |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindValidPairOfAdjacentDigitsInString.java)                        | 2ms     | 88.14% |

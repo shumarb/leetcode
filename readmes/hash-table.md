@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 165/698.
+Completed: 166/698.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 165/698.
 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonCharacters.java)                                   | 2ms     | 91.04% |
 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindCommonElementsBetweenTwoArrays.java)                     | 1ms     | 100%   |
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindLuckyIntegerInAnArray.java)                              | 1ms     | 100%   |
+| [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMaximumNumberOfStringPairs.java)                         | 6ms     | 50.57% |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindMostFrequentVowelAndConsonant.java)                      | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindResultantArraysAfterRemovingAnagrams.java)               | 1ms     | 100%   |
