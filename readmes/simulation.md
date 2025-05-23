@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/179.
+Completed: 52/179.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 51/179.
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheKthCharacterInStringGameOne.java)               | 4ms     | 56.59% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FizzBuzz.java)                                         | 1ms     | 99.52% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FlippingAnImage.java)                                  | 0ms     | 100%   |
+| [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FruitsIntoBasketsTwo.java)                             | 2ms     | 58.29% |
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KeepMultiplyingFoundValuesByTwo.java)                  | 0ms     | 100%   |
 | [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LastVisitedIntegers.java)                              | 1ms     | 100%   |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
