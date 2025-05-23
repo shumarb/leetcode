@@ -14,6 +14,6 @@ Completed: 1/63.
 
 ## Submissions
 ### Easy
-| Question                                                                                    | Submission                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FruitsIntoBasketsTwo.java) | 2ms     | 58.29% |
+| Question                                                                                    | Submission                                                                                       | Runtime | Rank |
+|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|------|
+| [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FruitsIntoBasketsTwo.java) | 1ms     | 100% |

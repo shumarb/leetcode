@@ -3,7 +3,7 @@
 class FruitsIntoBasketsTwo {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         boolean isTest = false;
-        int count = 0;
+        int countUsedBaskets = 0;
 
         if (isTest) {
             System.out.println("before:\nfruits: " + Arrays.toString(fruits));
@@ -20,6 +20,7 @@ class FruitsIntoBasketsTwo {
                 }
                 if (basket >= fruit) {
                     baskets[j] = -1;
+                    countUsedBaskets++;
                     if (isTest) {
                         System.out.println(" * insert");
                     }
@@ -33,14 +34,9 @@ class FruitsIntoBasketsTwo {
         if (isTest) {
             System.out.println("after:\nfruits: " + Arrays.toString(fruits));
             System.out.println("baskets: " + Arrays.toString(baskets));
+            System.out.println("countUsedBaskets: " + countUsedBaskets);
         }
 
-        for (int i = 0; i < baskets.length; i++) {
-            if (baskets[i] != -1) {
-                count++;
-            }
-        }
-
-        return count;
+        return baskets.length - countUsedBaskets;
     }
 }
