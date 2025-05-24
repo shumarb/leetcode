@@ -2,17 +2,16 @@
 
 class /FindMaximumNumberOfStringPairs {
     public int maximumNumberOfStringPairs(String[] words) {
-        Set<String> checked = new HashSet<>();
         Set<String> set = new HashSet<>();
         int count = 0;
 
         for (String word: words) {
             StringBuilder wordComplement = new StringBuilder(word);
-            if (!checked.contains(word) && set.contains(wordComplement.reverse().toString())) {
+            if (set.contains(wordComplement.reverse().toString())) {
                 count++;
+            } else {
+                set.add(word);
             }
-            checked.add(word);
-            set.add(word);
         }
 
         return count;
