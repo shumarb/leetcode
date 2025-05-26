@@ -1,35 +1,32 @@
 // Question: https://leetcode.com/problems/largest-substring-between-two-equal-characters/description/
 
-class Solution {
+class LargestSubstringBetweenTwoEqualCharacters {
     public int maxLengthBetweenEqualCharacters(String s) {
-        int[] first = new int[26];
-        int[] last = new int[26];
         boolean isTest = false;
+        int[] letterFirstIndex = new int[26];
+        int[] letterLastIndex = new int[26];
         int maxLengthBetweenEqualCharacters = -1;
 
-        Arrays.fill(first, -1);
-        Arrays.fill(last, -1);
+        Arrays.fill(letterFirstIndex, -1);
+        Arrays.fill(letterLastIndex, -1);
         for (int i = 0; i < s.length(); i++) {
             char letter = s.charAt(i);
-            if (first[letter - 'a'] == -1) {
-                first[letter - 'a'] = i;
+            if (letterFirstIndex[letter - 'a'] == -1) {
+                letterFirstIndex[letter - 'a'] = i;
+            } else {
+                letterLastIndex[letter - 'a'] = i;
             }
-        }
-        for (int i = s.length() - 1; i >= 0; i--) {
-            char letter = s.charAt(i);
-            if (last[letter - 'a'] == -1) {
-                last[letter - 'a'] = i;
+            int firstIndex = letterFirstIndex[letter - 'a'];
+            int lastIndex = letterLastIndex[letter - 'a'];
+            if (firstIndex != -1 && lastIndex != -1) {
+                // 1. Reduce index difference by 1 as firstIndex and lastIndex are 1-based, and array indices are 0-based.
+                maxLengthBetweenEqualCharacters = Math.max(maxLengthBetweenEqualCharacters, lastIndex - firstIndex - 1);
             }
         }
         if (isTest) {
-            System.out.println("s: " + s + "\nfirst: " + Arrays.toString(first));
-            System.out.println("last: " + Arrays.toString(last) + "\nmaxLengthBetweenEqualCharacters: " + maxLengthBetweenEqualCharacters);
-        }
-
-        for (int i = 0; i < 26; i++) {
-            if (first[i] != -1 && last[i] != -1) {
-                maxLengthBetweenEqualCharacters = Math.max(maxLengthBetweenEqualCharacters, last[i] - first[i] - 1);
-            }
+            System.out.println("s: " + s + "maxLengthBetweenEqualCharacters: " + maxLengthBetweenEqualCharacters);
+            System.out.println("letterFirstIndex: " + Arrays.toString(letterFirstIndex));
+            System.out.println("letterLastIndex: " + Arrays.toString(letterLastIndex));
         }
 
         return maxLengthBetweenEqualCharacters;
