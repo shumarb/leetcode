@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 166/698.
+Completed: 167/698.
 
 ## Submissions
 ### Easy
@@ -143,6 +143,7 @@ Completed: 166/698.
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidAnagram.java)                                           | 2ms     | 97.84% |
 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/VerifyingAnAlienDictionary.java)                             | 0ms     | 100%   |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/WordPattern.java)                                            | 1ms     | 82.52% |
+| [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XOfAKindInADeckOfCards.java)                                 | 2ms     | 98.93% |
 
 ### Medium
 | Question                                                                                                                                            | Submission                                                                                                                      | Runtime | Rank   |

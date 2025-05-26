@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/162.
+Completed: 62/162.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 61/162.
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SumOfUniqueElements.java)                                | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TransformArrayByParity.java)                             | 1ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UncommonWordsFromTwoSentences.java)                      | 3ms     | 50.44% |
+| [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XOfAKindInADeckOfCards.java)                             | 2ms     | 98.93% |
 
 ### Medium
 | Question                                                                                                                      | Submission                                                                                                                      | Runtime | Rank   |

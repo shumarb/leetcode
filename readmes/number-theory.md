@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/69.
+Completed: 10/69.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 9/69.
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PrimeInDiagonal.java)                                 | 10ms    | 26.91% |
 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestEvenMultiple.java)                            | 0ms     | 100%   |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ThreeDivisors.java)                                   | 1ms     | 61.86% |
+| [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XOfAKindInADeckOfCards.java)                          | 2ms     | 98.93% |
 
 ### Medium
 | Question                                                                                                                              | Submission                                                                                                       | Runtime | Rank   |

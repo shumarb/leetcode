@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 113/580.
+Completed: 114/580.
 
 ## Submissions
 ### Easy
@@ -107,6 +107,7 @@ Completed: 113/580.
 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/UglyNumber.java)                                             | 0ms     | 100%   |
 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ValidPerfectSquare.java)                                     | 0ms     | 100%   |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XorOperationInAnArray.java)                                  | 0ms     | 100%   |
+| [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/XOfAKindInADeckOfCards.java)                                 | 2ms     | 98.93% |
 
 ### Medium
 | Question                                                                                                                                | Submission                                                                                                                      | Runtime | Rank   |
