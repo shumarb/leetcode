@@ -26,6 +26,9 @@ class XOfAKindInADeckOfCards {
         }
 
         for (int i = 0; i <= largest; i++) {
+            if (frequency[i] == 0) {
+                continue;
+            }
             if (gcd == -1) {
                 gcd = frequency[i];
             } else {
