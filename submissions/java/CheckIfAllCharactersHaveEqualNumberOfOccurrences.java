@@ -16,10 +16,7 @@ class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
         }
 
         for (int frequency: letterFrequency) {
-            if (frequency == 0) {
-                continue;
-            }
-            if (frequency != count) {
+            if (frequency > 0 && frequency != count) {
                 return false;
             }
         }
