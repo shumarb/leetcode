@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 168/698.
+Completed: 169/701.
 
 ## Submissions
 ### Easy
@@ -124,6 +124,7 @@ Completed: 168/698.
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RedistributeCharactersToMakeAllStringsEqual.java)            | 2ms     | 94.26% |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RelativeSortArray.java)                                      | 0ms     | 100%   |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveLetterToEqualizeFrequency.java)                        | 1ms     | 49.79% |
+| [Rings and Rods](https://leetcode.com/problems/rings-and-rods/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RingsAndRods.java)                                           | 1ms     | 59.81% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SecondLargestDigitInAString.java)                            | 1ms     | 95.03% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SetMismatch.java)                                            | 2ms     | 95.73% |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ShortestCompletingWord.java)                                 | 4ms     | 81.11% |
