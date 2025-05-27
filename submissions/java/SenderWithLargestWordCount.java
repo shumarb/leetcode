@@ -3,37 +3,35 @@
 class SenderWithLargestWordCount {
     public String largestWordCount(String[] messages, String[] senders) {
         Map<String, Integer> map = new HashMap<>();
+        String result = "";
         boolean isTest = false;
-        String result = null;
+        int maximumCount = -1;
 
         for (int i = 0; i < senders.length; i++) {
+            String sender = senders[i];
+            String message = messages[i];
             if (isTest) {
-                System.out.println(" * " + senders[i] + " --> " + messages[i]);
+                System.out.println(" * " + sender + " --> " + message);
             }
-            if (!map.containsKey(senders[i])) {
-                map.put(senders[i], messages[i].split(" ").length);
+            if (!map.containsKey(sender)) {
+                map.put(sender, message.split(" ").length);
             } else {
-                map.put(senders[i], map.get(senders[i]) + messages[i].split(" ").length);
+                map.put(sender, map.get(sender) + message.split(" ").length);
+            }
+        }
+
+        for (Map.Entry<String, Integer> entry: map.entrySet()) {
+            String currentSender = entry.getKey();
+            int currentCount = entry.getValue();
+            if (currentCount > maximumCount || (currentCount == maximumCount && currentSender.compareTo(result) > 0)) {
+                result = currentSender;
+                maximumCount = currentCount;
             }
         }
         if (isTest) {
             System.out.println("------------------------------------------------------------");
             System.out.println("map: " + map);
-        }
-
-        int currentCount = -1;
-        for (Map.Entry<String, Integer> entry: map.entrySet()) {
-            if (result == null) {
-                result = entry.getKey();
-                currentCount = entry.getValue();
-            } else {
-                if (entry.getValue() > currentCount) {
-                    currentCount = entry.getValue();
-                    result = entry.getKey();
-                } else if (entry.getValue() == currentCount && entry.getKey().compareTo(result) > 0) {
-                    result = entry.getKey();
-                }
-            }
+            System.out.println("result: " + result + " | maximumCount: " + maximumCount);
         }
 
         return result;
