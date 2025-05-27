@@ -33,6 +33,9 @@ class MakeNumberOfDistinctCharactersEqual {
                     f1[j]++;
                     f2[j]--;
                     f2[i]++;
+                    if (f1[i] < 0 || f2[j] < 0) {
+                        continue;
+                    }
                     if (countDistinct(f1) == countDistinct(f2)) {
                         return true;
                     }
