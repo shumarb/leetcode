@@ -2,24 +2,28 @@
 
 class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
     public boolean areOccurrencesEqual(String s) {
-        boolean t = false;
-        int[] freq = new int[26];
-        for (char c: s.toCharArray()) {
-            freq[c - 'a']++;
+        boolean isTest = false;
+        int[] letterFrequency = new int[26];
+        int count = 0;
+
+        for (char letter: s.toCharArray()) {
+            letterFrequency[letter - 'a']++;
+            count = letterFrequency[letter - 'a'];
         }
-        if (t) {
-            System.out.println("s: " + s + "\nfreq: " + Arrays.toString(freq));
+        if (isTest) {
+            System.out.println("s: " + s + "\ncount: " + count);
+            System.out.println("letterFrequency: " + Arrays.toString(letterFrequency));
         }
 
-        int count = freq[s.charAt(0) - 'a'];
-        if (t) {
-            System.out.println("initial count: " + count);
-        }
-        for (int x: freq) {
-            if (x > 0 && x != count) {
+        for (int frequency: letterFrequency) {
+            if (frequency == 0) {
+                continue;
+            }
+            if (frequency != count) {
                 return false;
             }
         }
+
         return true;
     }
 }
