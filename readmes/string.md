@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 162/792.
+Completed: 163/792.
 
 ## Submissions
 ### Easy
@@ -171,6 +171,7 @@ Completed: 162/792.
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FindTheMostCommonResponse.java)                 | 143ms   | 51.44% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/Trie.java)                                      | 33ms    | 85.89% | 
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
+| [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeNumberOfDistinctCharactersEqual.java)       | 13ms    | 39.22% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/PermutationInString.java)                       | 6ms     | 86.31% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTeamsByVotes.java)                          | 5ms     | 84.98% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java)    | 31ms    | 52.93% |
