@@ -2,8 +2,8 @@
 
 class RingsAndRods {
     public int countPoints(String rings) {
-        boolean isTest = false;
         Map<Integer, Set<Character>> map = new HashMap<>();
+        boolean isTest = false;
         int countPoints = 0;
 
         for (int i = 0; i < rings.length(); i += 2) {
@@ -18,12 +18,12 @@ class RingsAndRods {
                 map.put(rod, set);
             } else {
                 Set<Character> set = map.get(rod);
-                set.add(letter);
-            }
-        }
-        for (Map.Entry<Integer, Set<Character>> entry: map.entrySet()) {
-            if (entry.getValue().size() == 3) {
-                countPoints++;
+                if (!set.contains(letter)) {
+                    set.add(letter);
+                    if (set.size() == 3) {
+                        countPoints++;
+                    }
+                }
             }
         }
 
