@@ -17,7 +17,7 @@ class MaximumLengthSubstringWithTwoOccurrences {
                 if (isTest) {
                     System.out.println(" * checking: " + current.toString());
                 }
-                if (isValidSubstring(current.toString()) && current.toString().length() > maximumSubstring.length()) {
+                if (current.toString().length() > maximumSubstring.length() && isValidSubstring(current.toString())) {
                     maximumSubstring = current.toString();
                 }
             }
