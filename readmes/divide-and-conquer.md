@@ -29,6 +29,6 @@ Completed: 9/47.
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/TopKFrequentElements.java)               | 6ms     | 99.18% |
 
 ### Hard
-| Question                                                                                | Submission                                                                                           | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java)        | 4ms     | 71.29% |
+| Question                                                                                | Submission                                                                                    | Runtime | Rank |
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|------|
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java) | 4ms     | 74%  |
