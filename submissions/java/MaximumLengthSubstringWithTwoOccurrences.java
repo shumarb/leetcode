@@ -4,13 +4,9 @@ class MaximumLengthSubstringWithTwoOccurrences {
     public int maximumLengthSubstring(String s) {
         String maximumSubstring = "";
         boolean isTest = false;
-        int[] frequency = new int[26];
 
-        for (char letter: s.toCharArray()) {
-            frequency[letter - 'a']++;
-        }
         if (isTest) {
-            System.out.println("s: " + s + "\nfrequency: " + Arrays.toString(frequency));
+            System.out.println("s: " + s);
             System.out.println("-----------------------------------------------------------------------");
         }
         for (int i = 0; i < s.length(); i++) {
@@ -21,7 +17,7 @@ class MaximumLengthSubstringWithTwoOccurrences {
                 if (isTest) {
                     System.out.println(" * checking: " + current.toString());
                 }
-                if (isValidSubstring(current.toString(), frequency) && current.toString().length() > maximumSubstring.length()) {
+                if (isValidSubstring(current.toString()) && current.toString().length() > maximumSubstring.length()) {
                     maximumSubstring = current.toString();
                 }
             }
@@ -34,12 +30,12 @@ class MaximumLengthSubstringWithTwoOccurrences {
         return maximumSubstring.length();
     }
 
-    private boolean isValidSubstring(String str, int[] frequency) {
+    private boolean isValidSubstring(String str) {
         int[] strFrequency = new int[26];
         for (char letter: str.toCharArray()) {
             strFrequency[letter - 'a']++;
         }
-        for (int i = 0; i < frequency.length; i++) {
+        for (int i = 0; i < 26; i++) {
             if (strFrequency[i] > 2) {
                 return false;
             }
