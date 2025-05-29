@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 164/792.
+Completed: 165/792.
 
 ## Submissions
 ### Easy
@@ -89,6 +89,7 @@ Completed: 164/792.
 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LicenseKeyFormatting.java)                                         | 11ms    | 79.25% |
 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongPressedName.java)                                              | 1ms     | 82.56% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestCommonPrefix.java)                                          | 1ms     | 64.40% |
+| [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestNiceSubstring.java)                                         | 85ms    | 5.20%  |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                            | 2ms     | 89.66% |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MakeTheStringGreat.java)                                           | 3ms     | 62.40% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)               | 1ms     | 100%   |
