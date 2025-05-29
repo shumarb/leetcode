@@ -11,7 +11,7 @@ class LongestNiceSubstring {
                 if (isTest) {
                     System.out.println(" * check: " + str);
                 }
-                if (isNiceSubstring(str) && str.length() > result.length()) {
+                if (str.length() > result.length() && isNiceSubstring(str)) {
                     result = str;
                 }
             }
