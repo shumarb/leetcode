@@ -13,7 +13,7 @@ class LongestNiceSubstring {
                 if (isTest) {
                     System.out.println(" * check: " + current.toString());
                 }
-                if (isNiceSubstring(current.toString()) && current.toString().length() > result.length()) {
+                if (current.toString().length() > result.length() && isNiceSubstring(current.toString())) {
                     result = current.toString();
                 }
             }
@@ -26,22 +26,28 @@ class LongestNiceSubstring {
     }
 
     private boolean isNiceSubstring(String word) {
-        Set<Character> lower = new HashSet<>();
-        Set<Character> upper = new HashSet<>();
+        int[] frequency = new int[52];
 
         for (char letter: word.toCharArray()) {
             if (Character.isUpperCase(letter)) {
-                upper.add(letter);
+                frequency[letter - 'A']++;
             } else {
-                lower.add(letter);
+                frequency[letter - 'a' + 26]++;
             }
         }
+
         for (char letter: word.toCharArray()) {
-            if (Character.isUpperCase(letter) && !lower.contains(Character.toLowerCase(letter))) {
-                return false;
-            }
-            if (Character.isLowerCase(letter) && !upper.contains(Character.toUpperCase(letter))) {
-                return false;
+            char complement;
+            if (Character.isUpperCase(letter)) {
+                complement = Character.toLowerCase(letter);
+                if (frequency[complement - 'a' + 26] == 0) {
+                    return false;
+                }
+            } else {
+                complement = Character.toUpperCase(letter);
+                if (frequency[complement - 'A'] == 0) {
+                    return false;
+                }
             }
         }
 
