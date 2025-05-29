@@ -16,7 +16,7 @@ Completed: 10/48.
 | Question                                                                                    | Submission                                                                                       | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MajorityElement.java)      | 2ms     | 99.80% |
-| [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestNiceSubstring.java) | 45ms    | 15.06% |
+| [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestNiceSubstring.java) | 40ms    | 15.48% |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NumberOf1Bits.java)        | 0ms     | 100%   |
 
 ### Medium

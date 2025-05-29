@@ -6,15 +6,13 @@ class LongestNiceSubstring {
         boolean isTest = false;
 
         for (int i = 0; i < s.length() - 1; i++) {
-            StringBuilder current = new StringBuilder();
-            current.append(s.charAt(i));
             for (int j = i + 1; j < s.length(); j++) {
-                current.append(s.charAt(j));
+                String str = s.substring(i, j + 1);
                 if (isTest) {
-                    System.out.println(" * check: " + current.toString());
+                    System.out.println(" * check: " + str);
                 }
-                if (current.toString().length() > result.length() && isNiceSubstring(current.toString())) {
-                    result = current.toString();
+                if (isNiceSubstring(str) && str.length() > result.length()) {
+                    result = str;
                 }
             }
         }
