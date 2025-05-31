@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/414.
+Completed: 33/415.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 32/414.
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AppleRedistributionIntoBoxes.java)                     | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ArrayPartition.java)                                   | 12ms    | 97.33% |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)           | 1ms     | 100%   |
+| [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/CanPlaceFlowers.java.java)            | 1ms     | 97.29% |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                | 1ms     | 99.64% |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LongestPalindrome.java)                                | 2ms     | 89.66% |

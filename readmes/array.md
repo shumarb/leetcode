@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 321/1918.
+Completed: 322/1918.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 321/1918.
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)                         | 1ms     | 100%   |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CalculateAmountPaidInTaxes.java)                                     | 0ms     | 100%   |
 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/CanMakeArithmeticProgressionFromSequence.java.java) | 2ms     | 98.24% |
+| [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/CanPlaceFlowers.java.java)                          | 1ms     | 97.29% |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CellsWithOddValuesInAMatrix.java)                                    | 1ms     | 85.31% |
 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckDistancesBetweenSameLetters.java)                               | 1ms     | 90.31% |
 | [Check If All 1's Are at Least K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAll1sAreAtLeastKPlacesAway.java)                              | 1ms     | 100%   |
