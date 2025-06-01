@@ -2,17 +2,7 @@
 
 class CountOddNumbersInAnIntervalRange {
     public int countOdds(int low, int high) {
-        int range = high - low + 1;
-        if (range % 2 == 0) {
-            return range / 2;
-        }
-        int countOddNumbers = 0;
-        if (low % 2 == 0) {
-            low++;
-        }
-        for (int i = low; i <= high; i += 2) {
-            countOddNumbers++;
-        }
-        return countOddNumbers;
+        int totalNumbers = high - low + 1;
+        return (low % 2 != 0 && high % 2 != 0) ? totalNumbers / 2 + 1 : totalNumbers / 2;
     }
 }
