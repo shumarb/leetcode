@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/240.
+Completed: 37/240.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 36/240.
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AddBinary.java)                                  | 2ms     | 99.94% |
 | [Binary Gap](https://leetcode.com/problems/binary-gap/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryGap.java)                                  | 1ms     | 40.09% |
 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryNumberWithAlternatingBits.java)            | 0ms     | 100%   |
+| [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfBitwiseOrHasTrailingZeros.java)           | 1ms     | 56.88% |
 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ComplementOfBase10Integer.java)                  | 0ms     | 100%   |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountTheNumberOfConsistentStrings.java)          | 6ms     | 86.92% |

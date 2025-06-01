@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 322/1918.
+Completed: 323/1918.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 322/1918.
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.java)                | 0ms     | 100%   |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfAllTheIntegersInARangeAreCovered.java)                        | 0ms     | 100%   |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfArrayIsGood.java)                                             | 2ms     | 74.84% |
+| [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfBitwiseOrHasTrailingZeros.java)                               | 1ms     | 56.88% |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)                     | 4ms     | 92.01% |
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfEveryRowAndColumnContainsAllNumbers.java)                     | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfMatrixIsXMatrix.java)                                         | 0ms     | 100%   |
