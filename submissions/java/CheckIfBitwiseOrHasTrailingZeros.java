@@ -6,8 +6,11 @@ class CheckIfBitwiseOrHasTrailingZeros {
         for (int number: nums) {
             if (number % 2 == 0) {
                 countEven++;
+                if (countEven >= 2) {
+                    return true;
+                }
             }
         }
-        return countEven >= 2;
+        return false;
     }
 }
