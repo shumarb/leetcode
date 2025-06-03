@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 324/1918.
+Completed: 325/1923.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 324/1918.
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)               | 0ms     | 100%   |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                                                   | 2ms     | 96.48% |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java)                                      | 2ms     | 72.40% |
+| [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryPrefixDivisibleBy5.java)                                       | 4ms     | 18.28% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                                   | 0ms     | 100%   |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/submissions/java/BuyTwoChocolates.java.java)                         | 1ms     | 100%   |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CalculateAmountPaidInTaxes.java)                                     | 0ms     | 100%   |
