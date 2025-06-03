@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 173/702.
+Completed: 174/702.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                         | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestPokerHand.java)                                          | 0ms     | 100%   |
 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BuddyStrings.java)                                           | 1ms     | 99.49% |
 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckDistancesBetweenSameLetters.java)                       | 1ms     | 90.31% |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfNAndItsDoubleExist.java)                              | 1ms     | 99.29% |

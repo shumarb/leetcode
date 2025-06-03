@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 327/1923.
+Completed: 328/1923.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 327/1923.
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)               | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)               | 0ms     | 100%   |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BaseballGame.java)                                                   | 2ms     | 96.48% |
+| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestPokerHand.java)                                                  | 0ms     | 100%   |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BestTimeToBuyAndSellStock.java)                                      | 2ms     | 72.40% |
 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinaryPrefixDivisibleBy5.java)                                       | 3ms     | 98.17% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/BinarySearch.java)                                                   | 0ms     | 100%   |
