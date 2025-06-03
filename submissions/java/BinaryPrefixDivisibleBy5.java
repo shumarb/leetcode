@@ -7,7 +7,7 @@ class BinaryPrefixDivisibleBy5 {
         int value = 0;
 
         for (int bit: nums) {
-            value = (value * 2 + bit) % 5;
+            value = ((value << 1) + bit) % 5;
             if (isTest) {
                 System.out.println("value: " + value);
             }
