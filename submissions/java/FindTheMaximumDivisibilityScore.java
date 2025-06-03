@@ -2,34 +2,32 @@
 
 class FindTheMaximumDivisibilityScore {
     public int maxDivScore(int[] nums, int[] divisors) {
-        Map<Integer, Integer> map = new HashMap<>();
         boolean isTest = false;
-        int maxDivScore = Integer.MAX_VALUE;
+        int maxFrequency = 0;
+        int result = Integer.MAX_VALUE;
+        int[] divScores = new int[divisors.length];
 
-        for (int divisor: divisors) {
-            int count = 0;
+        for (int i = 0; i < divisors.length; i++) {
             for (int number: nums) {
-                if (number % divisor == 0) {
-                    count++;
+                if (number % divisors[i] == 0) {
+                    divScores[i]++;
+                    maxFrequency = Math.max(divScores[i], maxFrequency);
                 }
             }
-            map.put(divisor, count);
         }
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\ndivisors: " + Arrays.toString(divisors) + "\nmap: " + map);
-        }
-
-        int maxFrequency = -1;
-        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
-            if (entry.getValue() > maxFrequency || entry.getValue() == maxFrequency && entry.getKey() < maxDivScore) {
-                maxDivScore = entry.getKey();
-                maxFrequency = entry.getValue();
+        for (int i = 0; i < divScores.length; i++) {
+            int divScore = divScores[i];
+            if (maxFrequency == divScores[i] && divisors[i] < result) {
+                result = divisors[i];
             }
         }
         if (isTest) {
-            System.out.println("maxDivScore: " + maxDivScore);
+            System.out.println("nums: " + Arrays.toString(nums));
+            System.out.println("divisors: " + Arrays.toString(divisors));
+            System.out.println("divScores: " + Arrays.toString(divScores));
+            System.out.println("result: " + result);
         }
 
-        return maxDivScore == Integer.MAX_VALUE ? 0 : maxDivScore;
+        return result;
     }
 }
