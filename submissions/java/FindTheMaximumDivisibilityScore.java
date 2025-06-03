@@ -5,25 +5,25 @@ class FindTheMaximumDivisibilityScore {
         boolean isTest = false;
         int maxFrequency = 0;
         int result = Integer.MAX_VALUE;
-        int[] frequency = new int[divisors.length];
 
-        for (int i = 0; i < divisors.length; i++) {
+        for (int divisor: divisors) {
+            int currentFrequency = 0;
             for (int number: nums) {
-                if (number % divisors[i] == 0) {
-                    frequency[i]++;
+                if (number % divisor == 0) {
+                    currentFrequency++;
                 }
             }
-        }
-        for (int i = 0; i < frequency.length; i++) {
-            if (frequency[i] > maxFrequency || (frequency[i] == maxFrequency && divisors[i] < result)) {
-                maxFrequency = frequency[i];
-                result = divisors[i];
+            if (currentFrequency > maxFrequency) {
+                maxFrequency = currentFrequency;
+                result = divisor;
+            } else if (currentFrequency == maxFrequency && divisor < result) {
+                result = divisor;
             }
         }
         if (isTest) {
             System.out.println("nums: " + Arrays.toString(nums));
             System.out.println("divisors: " + Arrays.toString(divisors));
-            System.out.println("frequency: " + Arrays.toString(frequency));
+            System.out.println("maxFrequency: " + maxFrequency);
             System.out.println("result: " + result);
         }
 
