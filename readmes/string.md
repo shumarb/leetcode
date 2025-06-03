@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 166/792.
+Completed: 167/792.
 
 ## Submissions
 ### Easy
@@ -179,6 +179,7 @@ Completed: 166/792.
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RankTeamsByVotes.java)                          | 5ms     | 84.98% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemoveAllAdjacentDuplicatesInStringTwo.java)    | 31ms    | 52.93% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RemovingStarsFromAString.java)                  | 87ms    | 32.57% |
+| [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReportSpamMessage.java)                         | 50ms    | 70.56% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ReverseWordsInAString.java)                     | 6ms     | 86.18% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/RewardTopKStudents.java)                        | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SearchSuggestionsSystem.java)                   | 38ms    | 36.75% |
