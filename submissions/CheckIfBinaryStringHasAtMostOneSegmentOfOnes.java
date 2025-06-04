@@ -10,8 +10,8 @@ class CheckIfBinaryStringHasAtMostOneSegmentOfOnes {
             if (s.charAt(i) == '1') {
                 currentLength++;
             } else {
-                if (currentLength > 0) {
-                    countOnesSegment++;
+                if (currentLength > 0 && ++countOnesSegment > 1) {
+                    return false;
                 }
                 currentLength = 0;
             }
