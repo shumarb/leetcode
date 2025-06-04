@@ -2,30 +2,24 @@
 
 class AddingSpacesToAString {
     public String addSpaces(String s, int[] spaces) {
-        StringBuilder result = new StringBuilder();
         boolean isTest = false;
-        boolean[] isSpaceIndex = populate(s, spaces);
+        int j = 0;
+        int k = 0;
+        int sLen = s.length();
+        char[] letters = new char[sLen + spaces.length];
 
-        for (int i = 0; i < s.length(); i++) {
-            if (isSpaceIndex[i]) {
-                result.append(" ");
+        for (int i = 0; i < sLen; i++) {
+            if (j < spaces.length && i == spaces[j]) {
+                letters[k++] = ' ';
+                j++;
             }
-            result.append(s.charAt(i));
+            letters[k++] = s.charAt(i);
         }
         if (isTest) {
-            System.out.println("s: " + s + "\nspaces: " + Arrays.toString(spaces));
-            System.out.println("isSpaceIndex: " + Arrays.toString(isSpaceIndex));
-            System.out.println("result: " + result.toString());
+            System.out.println("s: " + s + "\nspaces: " + Arrays.toString(spaces) + "\nletters: " + Arrays.toString(letters));
         }
 
-        return result.toString();
+        return new String(letters);
     }
 
-    private boolean[] populate(String s, int[] spaces) {
-        boolean[] isSpaceIndex = new boolean[s.length()];
-        for (int index: spaces) {
-            isSpaceIndex[index] = true;
-        }
-        return isSpaceIndex;
-    }
 }
