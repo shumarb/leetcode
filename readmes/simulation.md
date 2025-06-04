@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/180.
+Completed: 55/180.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                    | Submission                                                                                                                   | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                    | Submission                                                                                                              | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddBinary.java)                                        | 2ms     | 99.94% |
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddDigits.java)                                        | 0ms     | 100%   |
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddStrings.java)                                       | 2ms     | 61.51% |
@@ -52,6 +52,7 @@ Completed: 54/180.
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinMaxGame.java)                                       | 1ms     | 64.62% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberGame.java)                                | 3ms     | 41.37% |
+| [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfChairsInAWaitingRoom.java)              | 1ms     | 100%   |
 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java)                 | 2ms     | 79.90% |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterRemovingSubstrings.java)       | 5ms     | 56.70% |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
@@ -63,8 +64,8 @@ Completed: 54/180.
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                      | Submission                                                                                                        | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                      | 11ms    | 98.01% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                     | 12ms    | 88.41% |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                   | 5ms     | 83.64% |

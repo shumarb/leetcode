@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 169/792.
+Completed: 170/792.
 
 ## Submissions
 ### Easy
@@ -108,6 +108,7 @@ Completed: 169/792.
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)                 | 2ms     | 97.55% |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIndexSumOfTwoLists.java)                                    | 8ms     | 95.80% |
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToConvertString.java)                                  | 1ms     | 71.27% |
+| [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfChairsInAWaitingRoom.java)                          | 1ms     | 100%   |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterRemovingSubstrings.java)                   | 5ms     | 56.70% |
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostCommonWord.java)                                               | 17ms    | 43.61% |
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDifferentIntegersInAString.java)                           | 3ms     | 78.75% |
