@@ -15,16 +15,18 @@ class LongerContiguousSegmentsOfOnesThanZeros {
     }
 
     private int getLongestConsecutive(String s, char c) {
-        int current = 0;
-        int maximum = 0;
+        int currentLength = 0;
+        int maximumLength = 0;
+
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == c) {
-                current++;
+                currentLength++;
             } else {
-                maximum = Math.max(maximum, current);
-                current = 0;
+                maximumLength = Math.max(maximumLength, currentLength);
+                currentLength = 0;
             }
         }
-        return Math.max(maximum, current);
+
+        return Math.max(maximumLength, currentLength);
     }
 }
