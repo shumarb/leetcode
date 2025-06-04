@@ -7,9 +7,9 @@ class ReportSpamMessage {
         for (String word: message) {
             if (set.contains(word)) {
                 count++;
-            }
-            if (count == 2) {
-                return true;
+                if (count == 2) {
+                    return true;
+                }
             }
         }
 
