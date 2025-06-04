@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 170/792.
+Completed: 171/792.
 
 ## Submissions
 ### Easy
@@ -90,6 +90,7 @@ Completed: 170/792.
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLastWord.java)                                             | 1ms     | 33.68% |
 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LicenseKeyFormatting.java)                                         | 11ms    | 79.25% |
 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongPressedName.java)                                              | 1ms     | 82.56% |
+| [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longest-contiguous-segments-of-ones-than-zeros/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongerContiguousSegmentsOfOnesThanZeros.java)                      | 1ms     | 77.78% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)                                          | 1ms     | 64.40% |
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                                         | 37ms    | 17.29% |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                            | 2ms     | 89.66% |
