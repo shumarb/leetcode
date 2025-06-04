@@ -16,10 +16,10 @@ Completed: 3/12.
 ### Medium
 | Question                                                                                                                          | Submission                                                                                                    | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortList.java)                          | 9ms     | 94.52% |
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java)                       | 5ms     | 97.68% |
+| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                          | 9ms     | 94.52% |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                       | 5ms     | 97.68% |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeKSortedLists.java) | 4ms     | 74%  |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 74%  |

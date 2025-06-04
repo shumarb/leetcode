@@ -16,10 +16,10 @@ Completed: 3/42.
 ### Easy
 | Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/FibonacciNumber.java)           | 0ms     | 100%   |
-| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/NthTribonacciNumber.java)       | 0ms     | 100%   |
+| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)           | 0ms     | 100%   |
+| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)       | 0ms     | 100%   |
 
 ### Medium
 | Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
-| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |
+| [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |

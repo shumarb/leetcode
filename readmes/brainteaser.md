@@ -16,4 +16,4 @@ Completed: 1/17.
 ### Medium
 | Question                                                                                                                              | Submission                                                                                                     | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/StrictlyPalindromicNumber.java)          | 0ms     | 100%   |
+| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java)          | 0ms     | 100%   |

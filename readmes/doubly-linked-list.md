@@ -16,4 +16,4 @@ Completed: 1/13.
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |

@@ -16,4 +16,4 @@ Completed: 1/31.
 ### Easy
 | Question                                                                                                      | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CountPrefixAndSuffixPairsOne.java) | 2ms     | 99.94% |
+| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java) | 2ms     | 99.94% |

@@ -16,5 +16,5 @@ Completed: 2/3.
 ### Medium
 | Question                                                                  | Submission                                                                              | Runtime | Rank   |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
-| [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MaximumGap.java)  | 11ms    | 93.10% |
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SortAnArray.java) | 5ms     | 97.68% |
+| [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)  | 11ms    | 93.10% |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java) | 5ms     | 97.68% |

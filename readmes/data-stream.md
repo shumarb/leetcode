@@ -16,11 +16,11 @@ Completed: 4/21.
 ### Easy
 | Question                                                                                                      | Submission                                                                                | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
-| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/OrderedStream.java) | 76ms    | 99.56% |
-| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KthLargest.java)    | 21ms    | 53.45% |
+| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OrderedStream.java) | 76ms    | 99.56% |
+| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargest.java)    | 21ms    | 53.45% |
 
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MedianFinder.java)     | 92ms    | 78.28% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/ProductOfNumbers.java) | 2490ms  | 5.01%  |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)     | 92ms    | 78.28% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java) | 2490ms  | 5.01%  |

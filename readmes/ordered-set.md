@@ -16,10 +16,10 @@ Completed: 3/71.
 ### Easy
 | Question                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MergeSimilarItems.java)                | 3ms     | 98.07% |
-| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |
+| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                | 3ms     | 98.07% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |
 
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                                      | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/SmallestInfiniteSet.java)                                 | 16ms    | 33.15% |
+| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                 | 16ms    | 33.15% |

@@ -16,10 +16,10 @@ Completed: 3/40.
 ### Easy
 | Question                                                                                                                        | Submission                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/CheckIfItIsAStraightLine.java) | 0ms     | 100%   |
-| [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/LargestTriangleArea.java)      | 4ms     | 99.15% |
+| [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfItIsAStraightLine.java) | 0ms     | 100%   |
+| [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestTriangleArea.java)      | 4ms     | 99.15% |
 
 ### Medium
 | Question                                                                                            | Submission                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/java/KClosestPointsToOrigin.java) | 30ms    | 63.52% |
+| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java) | 30ms    | 63.52% |
