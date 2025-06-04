@@ -6,20 +6,19 @@ class AddingSpacesToAString {
         int j = 0;
         int k = 0;
         int sLen = s.length();
-        char[] letters = new char[sLen + spaces.length];
+        char[] updatedWordParts = new char[sLen + spaces.length];
 
         for (int i = 0; i < sLen; i++) {
             if (j < spaces.length && i == spaces[j]) {
-                letters[k++] = ' ';
+                updatedWordParts[k++] = ' ';
                 j++;
             }
-            letters[k++] = s.charAt(i);
+            updatedWordParts[k++] = s.charAt(i);
         }
         if (isTest) {
-            System.out.println("s: " + s + "\nspaces: " + Arrays.toString(spaces) + "\nletters: " + Arrays.toString(letters));
+            System.out.println("s: " + s + "\nspaces: " + Arrays.toString(spaces) + "\nupdatedWordParts: " + Arrays.toString(updatedWordParts));
         }
 
-        return new String(letters);
+        return new String(updatedWordParts);
     }
-
 }
