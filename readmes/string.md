@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 171/792.
+Completed: 172/792.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 171/792.
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.java)              | 0ms     | 100%   |
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckWhetherTwoStringsAreAlmostEquivalent.java)                    | 0ms     | 100%   |
 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ChecksIfAllAsAppearsBeforeAllBs.java)                              | 0ms     | 100%   |
+| [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java)                 | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)             | 1ms     | 99.69% |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)            | 0ms     | 100%   |
 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumbersAreAscendingInASentence.java)                        | 0ms     | 100%   |
