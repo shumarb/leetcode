@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 330/1923.
+Completed: 331/1923.
 
 ## Submissions
 ### Easy
@@ -207,6 +207,7 @@ Completed: 330/1923.
 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEquivalentDominoPairs.java)                             | 3ms     | 82.93% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodPairs.java)                                         | 0ms     | 100%   |
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSeniorCitizens.java)                                    | 0ms     | 100%   |
+| [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsDoingHomeworkAtAGivenTime.java)                 | 0ms     | 100%   |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfUnequalTripletsInArray.java)                            | 5ms     | 85.76% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                                                   | 0ms     | 100%   |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)                               | 2ms     | 74.65% |
