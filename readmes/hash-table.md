@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 174/702.
+Completed: 175/702.
 
 ## Submissions
 ### Easy
@@ -62,6 +62,7 @@ Completed: 174/702.
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifference.java)                                      | 1ms     | 99.40% |
 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifferenceOfTwoArrays.java)                           | 2ms     | 99.85% |
 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistinctDifferenceArray.java)                         | 5ms     | 93.20% |
+| [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLargestAlmostMissingInteger.java)                     | 1ms     | 100%   |
 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfGoodPairsOne.java)                            | 1ms     | 100%   |
 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfWinningPlayers.java)                          | 1ms     | 100%   |
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)                                       | 2ms     | 100%   |
