@@ -1,14 +1,14 @@
 // Question: https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/
 
 class FindSumPairs {
+    private Map<Integer, Integer> map;
     private int[] nums1;
     private int[] nums2;
-    private Map<Integer, Integer> map;
 
     public FindSumPairs(int[] nums1, int[] nums2) {
-        this.nums1 = nums1;
-        this.nums2 = nums2;
-        map = new HashMap<>();
+        this.map = new HashMap<>();
+        this.nums1 = nums1.clone();
+        this.nums2 = nums2.clone();
         for (int number: nums2) {
             map.put(number, 1 + map.getOrDefault(number, 0));
         }
@@ -17,14 +17,14 @@ class FindSumPairs {
     public void add(int index, int val) {
         int elementBeforeUpdate = nums2[index];
 
-        // 1. Remove occurrences of previous value by 1
+        // 1. Remove occurrences of previous value by 1.
         int mapValue = map.get(elementBeforeUpdate);
         map.put(elementBeforeUpdate, map.get(elementBeforeUpdate) - 1);
         if (map.get(elementBeforeUpdate) == 0) {
             map.remove(elementBeforeUpdate);
         }
 
-        // 2. Increase number of times updatedElement appear in nums2 by 1
+        // 2. Increase number of times updatedElement appear in nums2 by 1.
         nums2[index] += val;
         int updatedElement = nums2[index];
         map.put(updatedElement, 1 + map.getOrDefault(updatedElement, 0));
