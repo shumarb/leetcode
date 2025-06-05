@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/162.
+Completed: 65/162.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                          | Submission                                                                                                                     | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestPokerHand.java)                                      | 0ms     | 100%   |
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckWhetherTwoStringsAreAlmostEquivalent.java)          | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)   | 1ms     | 99.69% |
@@ -68,8 +68,8 @@ Completed: 64/162.
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                             | 2ms     | 98.93% |
 
 ### Medium
-| Question                                                                                                                        | Submission                                                                                                                      | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                        | Submission                                                                                                                 | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                        | 1ms     | 100%   |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                   | 5ms     | 69.71% |
@@ -80,6 +80,7 @@ Completed: 64/162.
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                 | 12ms    | 39.22% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                                 | 6ms     | 88.17% |
+| [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                   | 37ms    | 75.44% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                    | 5ms     | 84.98% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                          | 49ms    | 78.74% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                           | 8ms     | 87.71% |
