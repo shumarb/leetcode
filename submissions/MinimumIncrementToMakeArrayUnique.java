@@ -2,6 +2,11 @@
 
 class MinimumIncrementToMakeArrayUnique {
     public int minIncrementForUnique(int[] nums) {
+        // 1. Edge case: Array has 1 element, so no increments required.
+        if (nums.length == 1) {
+            return 0;
+        }
+
         boolean isTest = false;
         int minIncrementForUnique = 0;
 
@@ -41,6 +46,7 @@ class MinimumIncrementToMakeArrayUnique {
                 arr[j++] = i;
             }
         }
+
         return arr;
     }
 }
