@@ -14,10 +14,10 @@ Completed: 15/115.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                      | Submission                                                                                                           | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                      | Submission                                                                                                      | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodTriplets.java)                        | 10ms    | 79.74% |
-| [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSpecialQuadruplets.java)                  | 13ms    | 41.65% |
+| [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSpecialQuadruplets.java)                  | 12ms    | 86.95% |
 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSquareSumTriples.java)                    | 62ms    | 37.87% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSymmetricIntegers.java)                   | 44ms    | 25.05% |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePeaks.java)                             | 1ms     | 100%   |
@@ -32,6 +32,6 @@ Completed: 15/115.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                  | 7ms     | 17.93% |
 
 ### Medium
-| Question                                                                | Submission                                                                              | Runtime | Rank   |
-|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                | Submission                                                                         | Runtime | Rank   |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------|--------|
 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java) | 94ms    | 82.87% |
