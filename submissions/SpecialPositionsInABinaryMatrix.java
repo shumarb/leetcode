@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/
 
-class Solution {
+class SpecialPositionsInABinaryMatrix {
     private boolean isTest = false;
 
     public int numSpecial(int[][] mat) {

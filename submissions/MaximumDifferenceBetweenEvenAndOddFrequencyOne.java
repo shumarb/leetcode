@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/
 
-class Solution {
+class MaximumDifferenceBetweenEvenAndOddFrequencyOne {
     public int maxDifference(String s) {
         int maxDifference = 0;
         int countMaxOddOccurrences = Integer.MIN_VALUE;

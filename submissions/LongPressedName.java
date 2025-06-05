@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/long-pressed-name/description/
 
-class Solution {
+class LongPressedName {
     public boolean isLongPressedName(String name, String typed) {
         int i = 0;
         int j = 0;

@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> postOrderElements = new ArrayList<>();
         populate(root, postOrderElements);

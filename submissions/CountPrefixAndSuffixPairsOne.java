@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/
 
-class CountPrefixAndSuffixPairsOn {
+class CountPrefixAndSuffixPairsOne {
     public int countPrefixSuffixPairs(String[] words) {
         int countPrefixSuffixPairs = 0;
         int len = words.length;

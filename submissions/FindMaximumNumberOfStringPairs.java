@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/
 
-class /FindMaximumNumberOfStringPairs {
+class FindMaximumNumberOfStringPairs {
     public int maximumNumberOfStringPairs(String[] words) {
         Set<String> set = new HashSet<>();
         int count = 0;

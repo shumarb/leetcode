@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-absolute-difference/description/
 
-class Solution {
+class MinimumAbsoluteDifference {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         List<List<Integer>> result = new ArrayList<>();
         boolean isTest = false;

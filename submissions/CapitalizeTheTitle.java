@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/capitalize-the-title/description/
 
-class Solution {
+class CapitalizeTheTitle {
     public String capitalizeTitle(String title) {
         StringBuilder result = new StringBuilder();
         String[] words = title.split(" ");

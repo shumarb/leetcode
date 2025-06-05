@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class SubtreeOfAnotherTree {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         /**
             1. Root is null, so no tree to compare.

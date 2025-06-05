@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/
 
-class Solution {
+class RearrangeCharactersToMakeTargetString {
     public int rearrangeCharacters(String s, String target) {
         boolean isTest = false;
         int count = Integer.MAX_VALUE;

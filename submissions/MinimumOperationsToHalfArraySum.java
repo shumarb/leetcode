@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/
 
-class MinimumOperationsToHalfArraySum class Solution {
+class MinimumOperationsToHalfArraySum {
     public int halveArray(int[] nums) {
         int count = 0;
         double sum = 0;

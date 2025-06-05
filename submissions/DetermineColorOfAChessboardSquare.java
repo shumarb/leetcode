@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/determine-color-of-a-chessboard-square/description/
 
-class DetermineColourOfAChessboardSquare {
+class DetermineColorOfAChessboardSquare {
     public boolean squareIsWhite(String coordinates) {
         boolean isTest = false;
 

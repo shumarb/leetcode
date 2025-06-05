@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/
 
-class FindFirstPalindromicStringInAnArray {
+class FindFirstPalindromicStringInTheArray {
     public String firstPalindrome(String[] words) {
         for (String word: words) {
             if (isPalindrome(word)) {

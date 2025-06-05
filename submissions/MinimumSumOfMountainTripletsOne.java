@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/
 
-class MinimumSumOfMountainTripletsI {
+class MinimumSumOfMountainTripletsOne {
     public int minimumSum(int[] nums) {
         int len = nums.length;
         int minimumSum = Integer.MAX_VALUE;

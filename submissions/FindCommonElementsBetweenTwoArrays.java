@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-common-elements-between-two-arrays/description/
 
-class Solution {
+class FindCommonElementsBetweenTwoArrays {
     public int[] findIntersectionValues(int[] nums1, int[] nums2) {
         int answer1 = countIndices(nums2, nums1);
         int answer2 = countIndices(nums1, nums2);

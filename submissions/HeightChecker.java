@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/height-checker/description/
 
-class Solution {
+class HeightChecker {
     public int heightChecker(int[] heights) {
         int len = heights.length;
         int count = 0;

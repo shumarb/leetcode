@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-the-array-concatenation-value/description/
 
-class Solution {
+class FindTheArrayConcatenationValue {
     public long findTheArrayConcVal(int[] nums) {
         boolean isTest = false;
         int left = 0;

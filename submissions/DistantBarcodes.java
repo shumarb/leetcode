@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/distant-barcodes/description/
 
-class DistantBarcodes class Solution {
+class DistantBarcodes {
     public int[] rearrangeBarcodes(int[] barcodes) {
         // 1. Edge case: Array with single element, so return array.
         if (barcodes.length == 1) {

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/
 
-class Solution {
+class FindWordsThatCanBeFormedByCharacters {
     public int countCharacters(String[] words, String chars) {
         int count = 0;
         int[] charFrequency = countLetters(chars);

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-number-of-balloons/description/
 
-class MaximumNumberOfBalloon {
+class MaximumNumberOfBalloons {
     public int maxNumberOfBalloons(String text) {
         String word = "balloon";
         boolean isTest = false;

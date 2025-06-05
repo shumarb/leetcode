@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/
 
-class Solution {
+class TheTwoSneakyNumbersOfDigitville {
     public int[] getSneakyNumbers(int[] nums) {
         boolean isTest = false;
         int[] result = new int[2];

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-units-on-a-truck/description/
 
-class MaximumUnitsOnATruck class Solution {
+class MaximumUnitsOnATruck {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
         boolean isTest = false;
         int maximumUnits = 0;

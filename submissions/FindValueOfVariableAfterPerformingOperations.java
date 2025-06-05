@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/
 
-class FindValueOfVariableAfterPerformingOoperations {
+class FindValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {
         int value = 0;
         for (String operation: operations) {
