@@ -23,4 +23,4 @@ Completed: 4/48.
 ### Hard
 | Question                                                                                            | Submission                                                                                  | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 80ms    | 12.87% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 8ms     | 99.23% |
