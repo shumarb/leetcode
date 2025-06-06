@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 102/455.
+Completed: 103/455.
 
 ## Submissions
 ### Easy
@@ -111,6 +111,7 @@ Completed: 102/455.
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java) | 34ms    | 70.37% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                             | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                        | 38ms    | 36.75% |
+| [Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueOfTheRearrangedNumber.java)             | 0ms     | 100%   |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                      | 8ms     | 87.71% |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                     | 0ms     | 100%   |
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java)                    | 36ms    | 82.14% |
