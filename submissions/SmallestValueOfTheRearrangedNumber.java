@@ -1,20 +1,18 @@
 // Question: https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/
 
-class Solution {
+class SmallestValueOfTheRearrangedNumber {
     public long smallestNumber(long num) {
         // 1. Edge case: Single-digit number.
         if (num >= -9 && num <= 9) {
             return num;
         }
 
-        boolean isNegative = false;
         boolean isTest = false;
         int[] digitFrequency = new int[10];
         long numCopy = num;
         long result = 0;
 
         if (num < 0) {
-            isNegative = true;
             numCopy *= -1;
         }
         while (numCopy != 0) {
@@ -26,7 +24,7 @@ class Solution {
             System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
         }
 
-        if (isNegative) {
+        if (num < 0) {
             for (int i = 9; i >= 1; i--) {
                 if (digitFrequency[i]-- > 0) {
                     result = i;
