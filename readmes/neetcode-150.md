@@ -14,8 +14,8 @@ Completed: 58/150.
 
 ## Submissions
 ### Easy
-| Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalancedBinaryTree.java)        | 0ms     | 100%   |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 2ms     | 72.40% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)              | 0ms     | 100%   |
@@ -41,8 +41,8 @@ Completed: 58/150.
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)          | 2ms     | 97.66% |
 
 ### Medium
-| Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                   | Submission                                                                                                       | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                  | 30ms    | 69.14% |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                             | 1ms     | 100%   |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)             | 1ms     | 89.68% |
@@ -77,8 +77,9 @@ Completed: 58/150.
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 
 ### Hard
-| Question                                                                                                | Submission                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                | Submission                                                                                  | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 92ms    | 78.28% |
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)    | 4ms     | 71.29% |
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java) | 1ms     | 30.85% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 7ms     | 99.46% |
