@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 332/1923.
+Completed: 333/1923.
 
 ## Submissions
 ### Easy
@@ -357,3 +357,4 @@ Completed: 332/1923.
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)          | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)          | 31ms    | 84.09% |
 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)          | 80ms    | 12.87% |
