@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/307.
+Completed: 37/307.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 36/307.
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                     | 0ms     | 100%   |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArrayTwo.java)                  | 0ms     | 100%   |
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                    | 0ms     | 100%   |
+| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                       | 850ms   | 11.15% |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquareNumbers.java)                             | 3ms     | 93.35% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                    | 2ms     | 92.54% |
 

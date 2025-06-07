@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/204.
+Completed: 19/205.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                        | Submission                                                                                                          | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                        | Submission                                                                                                     | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AntOnTheBoundary.java)                        | 0ms     | 100%   |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllTheIntegersInARangeAreCovered.java) | 0ms     | 100%   |
 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPartitionsWithEvenSumDifference.java)    | 0ms     | 100%   |
@@ -31,10 +31,11 @@ Completed: 18/204.
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
 
 ### Medium
-| Question                                                                                                                    | Submission                                                                                                    | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                    | Submission                                                                                               | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)          | 5ms     | 88.83% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java) | 11ms    | 99.39% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)          | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                  | 2490ms  | 5.01%  |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)              | 21ms    | 99.89% |
+| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)          | 850ms   | 11.15% |
