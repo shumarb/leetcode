@@ -1,28 +1,21 @@
 // Question: https://leetcode.com/problems/clear-digits/description/
 
-class ClearDigits {
+class ClearDigits class Solution {
     public String clearDigits(String s) {
-        Stack<Character> stack = new Stack<>();
-        boolean isTest = false;
         StringBuilder result = new StringBuilder();
+        boolean isTest = false;
 
-        for (char c: s.toCharArray()) {
-            if (Character.isLetter(c)) {
-                stack.push(c);
+        for (char part: s.toCharArray()) {
+            if (Character.isDigit(part)) {
+                if (result.length() > 0) {
+                    result.deleteCharAt(result.length() - 1);
+                }
             } else {
-                stack.pop();
+                result.append(part);
             }
         }
         if (isTest) {
-            System.out.println("s: " + s + "\nstack: " + stack);
-        }
-
-        while (!stack.isEmpty()) {
-            result.append(stack.pop());
-        }
-        result = result.reverse();
-        if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("result: " + result.toString());
         }
 
         return result.toString();
