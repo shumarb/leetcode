@@ -9,12 +9,13 @@ class LexicographicallyMinimumStringAfterRemovingStars {
         );
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
+        char[] parts = s.toCharArray();
 
         for (int i = 0; i < s.length(); i++) {
             char part = s.charAt(i);
             if (part == '*') {
                 if (!minHeap.isEmpty()) {
-                    minHeap.poll();
+                    parts[minHeap.poll().index] = '*';
                 }
             } else {
                 minHeap.offer(new Pair(part, i));
@@ -23,21 +24,18 @@ class LexicographicallyMinimumStringAfterRemovingStars {
         if (isTest) {
             System.out.println("minHeap: ");
             for (Pair entry: minHeap) {
-                System.out.println(entry.letter + " -> " + entry.index);
+                System.out.println(" * " + entry.letter + " -> " + entry.index);
             }
+            System.out.println("parts: " + Arrays.toString(parts));
         }
         if (minHeap.isEmpty()) {
             return "";
         }
 
-        Pair[] arr = new Pair[minHeap.size()];
-        int i = 0;
-        while (!minHeap.isEmpty()) {
-            arr[i++] = minHeap.poll();
-        }
-        Arrays.sort(arr, (a, b) -> Integer.compare(a.index, b.index));
-        for (Pair entry: arr) {
-            result.append(entry.letter);
+        for (char part: parts) {
+            if (part != '*') {
+                result.append(part);
+            }
         }
         if (isTest) {
             System.out.println("s: " + s + "\nresult: " + result.toString());
