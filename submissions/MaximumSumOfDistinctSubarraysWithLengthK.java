@@ -2,53 +2,46 @@
 
 class MaximumSumOfDistinctSubarraysWithLengthK {
     public long maximumSubarraySum(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        boolean isTest = false;
-        long maximumSum = 0;
         long runningSum = 0;
+        long maximumSum = 0;
+        int countDistinct = 0;
+        int largest = nums[0];
+        int[] frequency;
 
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + ", k: " + k);
-            System.out.println("--------------------------");
+        for (int number: nums) {
+            largest = Math.max(largest, number);
         }
-
+        frequency = new int[largest + 1];
         for (int i = 0; i < k; i++) {
-            int number = nums[i];
-            runningSum += number;
-            map.put(number, 1 + map.getOrDefault(number, 0));
+            int current = nums[i];
+            runningSum += current;
+            if (frequency[current] == 0) {
+                countDistinct++;
+            }
+            frequency[current]++;
         }
-        if (map.size() == k) {
-            maximumSum = runningSum;
-        }
-        if (isTest) {
-            System.out.println("maximumSum so far: " + maximumSum);
-            System.out.println("--------------------------");
+        if (countDistinct == k) {
+            maximumSum = Math.max(maximumSum, runningSum);
         }
 
         for (int i = k; i < nums.length; i++) {
-            int toRemove = nums[i - k];
-            runningSum -= toRemove;
-            map.put(toRemove, map.get(toRemove) - 1);
-            if (map.get(toRemove) == 0) {
-                map.remove(toRemove);
+            int remove = nums[i - k];
+            runningSum -= remove;
+            frequency[remove]--;
+            if (frequency[remove] == 0) {
+                countDistinct--;
             }
 
-            int toAdd = nums[i];
-            runningSum += toAdd;
-            map.put(toAdd, 1 + map.getOrDefault(toAdd, 0));
+            int incoming = nums[i];
+            runningSum += incoming;
+            if (frequency[incoming] == 0) {
+                countDistinct++;
+            }
+            frequency[incoming]++;
 
-            if (map.size() == k) {
+            if (countDistinct == k) {
                 maximumSum = Math.max(maximumSum, runningSum);
             }
-
-            if (isTest) {
-                System.out.println("maximumSum so far: " + maximumSum);
-                System.out.println("--------------------------");
-            }
-        }
-
-        if (isTest) {
-            System.out.println("maximumSum: " + maximumSum);
         }
 
         return maximumSum;
