@@ -1,12 +1,11 @@
 // Question: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
 
 class MaximumSumOfDistinctSubarraysWithLengthK {
-    private boolean isTest = false;
-
     public long maximumSubarraySum(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        boolean isTest = false;
         long maximumSum = 0;
         long runningSum = 0;
-        Map<Integer, Integer> map = new HashMap<>();
 
         if (isTest) {
             System.out.println("nums: " + Arrays.toString(nums) + ", k: " + k);
@@ -51,6 +50,7 @@ class MaximumSumOfDistinctSubarraysWithLengthK {
         if (isTest) {
             System.out.println("maximumSum: " + maximumSum);
         }
+
         return maximumSum;
     }
 }
