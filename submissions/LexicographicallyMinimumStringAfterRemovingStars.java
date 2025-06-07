@@ -28,9 +28,6 @@ class LexicographicallyMinimumStringAfterRemovingStars {
             }
             System.out.println("parts: " + Arrays.toString(parts));
         }
-        if (minHeap.isEmpty()) {
-            return "";
-        }
 
         for (char part: parts) {
             if (part != '*') {
