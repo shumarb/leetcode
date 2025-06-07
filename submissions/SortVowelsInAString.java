@@ -2,41 +2,30 @@
 
 class SortVowelsInAString {
     public String sortVowels(String s) {
+        PriorityQueue<Character> minHeap = new PriorityQueue<>();
         boolean isTest = false;
-        StringBuilder result = new StringBuilder();
-        List<String> vowels = new ArrayList<>();
+        char[] letters = s.toCharArray();
 
-        if (isTest) {
-            System.out.println("s: " + s);
-        }
-
-        for (char letter: s.toCharArray()) {
+        for (char letter: letters) {
             if (isVowel(letter)) {
-                vowels.add(Character.toString(letter));
-            }
-        }
-        vowels.sort((a, b) -> a.compareTo(b));
-        if (isTest) {
-            System.out.println("sorted vowels: " + vowels);
-        }
-
-        int j = 0;
-        for (char letter: s.toCharArray()) {
-            if (!isVowel(letter)) {
-                result.append(letter);
-            } else {
-                result.append(vowels.get(j++).charAt(0));
+                minHeap.offer(letter);
             }
         }
         if (isTest) {
-            System.out.println("result: " + result.toString());
+            System.out.println("s: " + s + "\nletters: " + Arrays.toString(letters) + "\nminHeap: " + minHeap);
         }
 
-        return result.toString();
+        for (int i = 0; i < letters.length; i++) {
+            if (isVowel(letters[i])) {
+                letters[i] = minHeap.poll();
+            }
+        }
+
+        return new String(letters);
     }
 
     private boolean isVowel(char letter) {
-        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' ||
-                letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U';
+        return letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ||
+                letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
     }
 }
