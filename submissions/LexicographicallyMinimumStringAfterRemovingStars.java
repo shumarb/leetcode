@@ -2,52 +2,40 @@
 
 class LexicographicallyMinimumStringAfterRemovingStars {
     public String clearStars(String s) {
-        PriorityQueue<Pair> minHeap = new PriorityQueue<>(
-                (a, b) -> Character.compare(a.letter, b.letter) == 0
-                        ? Integer.compare(b.index, a.index)
-                        : Character.compare(a.letter, b.letter)
-        );
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
         char[] parts = s.toCharArray();
+        List<Stack<Integer>> lastIndex = new ArrayList<>();
 
-        for (int i = 0; i < s.length(); i++) {
-            char part = s.charAt(i);
-            if (part == '*') {
-                if (!minHeap.isEmpty()) {
-                    parts[minHeap.poll().index] = '*';
-                }
+        if (isTest) {
+            System.out.println("s: " + s + "\nparts: " + Arrays.toString(parts));
+        }
+        for (int i = 0; i < 26; i++) {
+            lastIndex.add(new Stack<>());
+        }
+        for (int i = 0; i < parts.length; i++) {
+            char current = parts[i];
+            if (current != '*') {
+                lastIndex.get(current - 'a').push(i);
             } else {
-                minHeap.offer(new Pair(part, i));
+                for (int j = 0; j < 26; j++) {
+                    if (!lastIndex.get(j).isEmpty()) {
+                        int indexOfUpdate = lastIndex.get(j).pop();
+                        parts[indexOfUpdate] = '*';
+                        break;
+                    }
+                }
+            }
+        }
+        for (char letter: parts) {
+            if (letter != '*') {
+                result.append(letter);
             }
         }
         if (isTest) {
-            System.out.println("minHeap: ");
-            for (Pair entry: minHeap) {
-                System.out.println(" * " + entry.letter + " -> " + entry.index);
-            }
-            System.out.println("parts: " + Arrays.toString(parts));
-        }
-
-        for (char part: parts) {
-            if (part != '*') {
-                result.append(part);
-            }
-        }
-        if (isTest) {
-            System.out.println("s: " + s + "\nresult: " + result.toString());
+            System.out.println("\nparts: " + Arrays.toString(parts) + "\nresult: " + result.toString());
         }
 
         return result.toString();
-    }
-}
-
-class Pair {
-    char letter;
-    int index;
-
-    public Pair(char letter, int index) {
-        this.letter = letter;
-        this.index = index;
     }
 }
