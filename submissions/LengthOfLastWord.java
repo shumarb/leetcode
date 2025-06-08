@@ -2,11 +2,17 @@
 
 class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
-        boolean isTest = false;
-        String[] words = s.split(" ");
-        if (isTest) {
-            System.out.println("s: " + s + "\nwords: " + Arrays.toString(words));
+        int count = 0;
+        int i = s.length() - 1;
+
+        while (i >= 0 && s.charAt(i) == ' ') {
+            i--;
         }
-        return words[words.length - 1].length();
+        while (i >= 0 && s.charAt(i) != ' ') {
+            count++;
+            i--;
+        }
+
+        return count;
     }
 }
