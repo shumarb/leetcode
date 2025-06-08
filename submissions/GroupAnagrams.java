@@ -8,8 +8,11 @@ class GroupAnagrams {
         Map<String, List<String>> map = new HashMap<>();
 
         for (String word: strs) {
-            String sortedWord = getSortedWord(word);
-            updateMap(map, sortedWord, word);
+            char[] letters = word.toCharArray();
+            Arrays.sort(letters);
+            String key = new String(letters);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(word);
         }
         if (isTest) {
             displayMap(map);
@@ -22,12 +25,6 @@ class GroupAnagrams {
         return result;
     }
 
-    private String getSortedWord(String word) {
-        char[] letters = word.toCharArray();
-        Arrays.sort(letters);
-        return Arrays.toString(letters);
-    }
-
     private void displayMap(Map<String, List<String>> map) {
         System.out.println("--------------------------------------------------------------------");
         System.out.println("map: ");
@@ -35,15 +32,5 @@ class GroupAnagrams {
             System.out.println(entry.getKey() + " ---> " + entry.getValue());
         }
         System.out.println("--------------------------------------------------------------------");
-    }
-
-    private void updateMap(Map<String, List<String>> map, String sortedWord, String word) {
-        if (!map.containsKey(sortedWord)) {
-            List<String> anagrams = new ArrayList<>();
-            anagrams.add(word);
-            map.put(sortedWord, anagrams);
-        } else {
-            map.get(sortedWord).add(word);
-        }
     }
 }

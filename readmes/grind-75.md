@@ -10,8 +10,8 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 Completed: 39/75.
 
 ## Submissions
-| #  | Question                                                                                                                                   | Submission                                                                                                            | Runtime | Rank   |
-|----|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| #  | Question                                                                                                                                   | Submission                                                                                                       | Runtime | Rank   |
+|----|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                                    | 2ms     | 98.81% |
 | 2  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)                          | 2ms     | 97.66% |
 | 3  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)                       | 0ms     | 100%   |
