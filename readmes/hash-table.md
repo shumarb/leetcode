@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 176/702.
+Completed: 177/702.
 
 ## Submissions
 ### Easy
@@ -59,6 +59,7 @@ Completed: 176/702.
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindValidPairOfAdjacentDigitsInString.java)                  | 2ms     | 88.14% |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWinnerOnATicTacToeGame.java)                             | 0ms     | 100%   |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsThatCanBeFormedByCharacters.java)                   | 5ms     | 87.08% |
+| [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                         | 7ms     | 96.27% |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifference.java)                                      | 1ms     | 99.40% |
 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifferenceOfTwoArrays.java)                           | 2ms     | 99.85% |
 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistinctDifferenceArray.java)                         | 5ms     | 93.20% |

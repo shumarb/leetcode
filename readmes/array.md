@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 334/1923.
+Completed: 335/1923.
 
 ## Submissions
 ### Easy
@@ -110,6 +110,7 @@ Completed: 334/1923.
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWinnerOnATicTacToeGame.java)                                | 0ms     | 100%   |
 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsContainingCharacter.java)                              | 1ms     | 100%   |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsThatCanBeFormedByCharacters.java)                      | 5ms     | 87.08% |
+| [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                            | 7ms     | 96.27% |
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfDigitGameCanBeWon.java)                                   | 0ms     | 100%   |
 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheArrayConcatenationValue.java)                            | 1ms     | 96.03% |
 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifferenceOfTwoArrays.java)                              | 2ms     | 99.85% |
