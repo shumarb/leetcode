@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/205.
+Completed: 20/205.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 19/205.
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumArray.java)                                | 7ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
+| [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)              | 2ms     | 66.79% |
 
 ### Medium
 | Question                                                                                                                    | Submission                                                                                               | Runtime | Rank   |

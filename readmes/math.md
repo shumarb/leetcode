@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 115/585.
+Completed: 116/585.
 
 ## Submissions
 ### Easy
@@ -100,6 +100,7 @@ Completed: 115/585.
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestNumberWithAllSetBits.java)                           | 1ms     | 30.35% |
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SqrtX.java)                                                  | 1ms     | 86%    |
 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubtractTheProductAndSumOfDigitsOfAnInteger.java)            | 0ms     | 100%   |
+| [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)                             | 2ms     | 66.79% |
 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDigitsInBaseK.java)                                     | 0ms     | 100%   |
 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumMultiples.java)                                           | 3ms     | 63.36% |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
