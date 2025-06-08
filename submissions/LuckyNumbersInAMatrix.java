@@ -3,9 +3,16 @@
 class LuckyNumbersInAMatrix {
     public List<Integer> luckyNumbers(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
-        Set<Integer> set = new HashSet<>();
         boolean isTest = false;
+        boolean[] isNumberChecked;
+        int largest = Integer.MIN_VALUE;
 
+        for (int[] row: matrix) {
+            for (int number: row) {
+                largest = Math.max(largest, number);
+            }
+        }
+        isNumberChecked = new boolean[largest + 1];
         if (isTest) {
             System.out.println("matrix:");
             for (int[] row: matrix) {
@@ -19,7 +26,7 @@ class LuckyNumbersInAMatrix {
             for (int number: entry) {
                 minimum = Math.min(minimum, number);
             }
-            set.add(minimum);
+            isNumberChecked[minimum] = true;
         }
 
         for (int i = 0; i < matrix[0].length; i++) {
@@ -27,7 +34,7 @@ class LuckyNumbersInAMatrix {
             for (int j = 0; j < matrix.length; j++) {
                 maximum = Math.max(maximum, matrix[j][i]);
             }
-            if (set.contains(maximum)) {
+            if (isNumberChecked[maximum]) {
                 result.add(maximum);
             }
         }
