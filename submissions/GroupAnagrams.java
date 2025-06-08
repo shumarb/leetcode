@@ -14,23 +14,22 @@ class GroupAnagrams {
             map.putIfAbsent(key, new ArrayList<>());
             map.get(key).add(word);
         }
-        if (isTest) {
-            displayMap(map);
-        }
-
         for (Map.Entry<String, List<String>> entry: map.entrySet()) {
             result.add(entry.getValue());
         }
+        if (isTest) {
+            System.out.println("--------------------------------------------------------------------");
+            System.out.println("map: ");
+            for (Map.Entry<String, List<String>> entry: map.entrySet()) {
+                System.out.println(entry.getKey() + " ---> " + entry.getValue());
+            }
+            System.out.println("--------------------------------------------------------------------");
+            System.out.println("result:");
+            for (List<String> entry: result) {
+                System.out.println(entry);
+            }
+        }
 
         return result;
-    }
-
-    private void displayMap(Map<String, List<String>> map) {
-        System.out.println("--------------------------------------------------------------------");
-        System.out.println("map: ");
-        for (Map.Entry<String, List<String>> entry: map.entrySet()) {
-            System.out.println(entry.getKey() + " ---> " + entry.getValue());
-        }
-        System.out.println("--------------------------------------------------------------------");
     }
 }
