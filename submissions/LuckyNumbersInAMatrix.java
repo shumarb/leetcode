@@ -2,45 +2,39 @@
 
 class LuckyNumbersInAMatrix {
     public List<Integer> luckyNumbers(int[][] matrix) {
-        List<Integer> luckyNumbers = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
         boolean isTest = false;
+
         if (isTest) {
-            display(matrix);
+            System.out.println("matrix:");
+            for (int[] row: matrix) {
+                System.out.println(Arrays.toString(row));
+            }
+            System.out.println("--------------------------------------------------------");
         }
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                int number = matrix[i][j];
-                if (number == findMinimumInRow(i, matrix) && number == findMaximumInColumn(j, matrix)) {
-                    luckyNumbers.add(number);
-                }
+        for (int[] entry: matrix) {
+            int minimum = entry[0];
+            for (int number: entry) {
+                minimum = Math.min(minimum, number);
+            }
+            set.add(minimum);
+        }
+
+        for (int i = 0; i < matrix[0].length; i++) {
+            int maximum = Integer.MIN_VALUE;
+            for (int j = 0; j < matrix.length; j++) {
+                maximum = Math.max(maximum, matrix[j][i]);
+            }
+            if (set.contains(maximum)) {
+                result.add(maximum);
             }
         }
-        return luckyNumbers;
-    }
-
-    private int findMaximumInColumn(int columnNumber, int[][] matrix) {
-        int maximum = Integer.MIN_VALUE;
-        for (int i = 0; i < matrix.length; i++) {
-            maximum = Math.max(maximum, matrix[i][columnNumber]);
+        if (isTest) {
+            System.out.println("result: " + result);
         }
-        return maximum;
-    }
 
-    private int findMinimumInRow(int rowNumber, int[][] matrix) {
-        int minimum = Integer.MAX_VALUE;
-        int[] row = matrix[rowNumber];
-        for (int element: row) {
-            minimum = Math.min(element, minimum);
-        }
-        return minimum;
-    }
-
-    private void display(int[][] matrix) {
-        System.out.println("matrix:");
-        for (int[] row: matrix) {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println("---------------------------------------------------------------");
+        return result;
     }
 }
