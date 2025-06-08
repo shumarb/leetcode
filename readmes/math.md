@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 116/585.
+Completed: 117/585.
 
 ## Submissions
 ### Easy
@@ -122,6 +122,7 @@ Completed: 116/585.
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)               | 18ms    | 15.32% |
 | [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EliminationGame.java)                                     | 1ms     | 100%   |
 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FactorialTrailingZeroes.java)                             | 0ms     | 100%   |
+| [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                   | 7ms     | 83.98% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 93.59% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                              | 30ms    | 63.52% |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                | 9ms     | 100%   |
