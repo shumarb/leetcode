@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/clear-digits/description/
 
-class ClearDigits class Solution {
+class ClearDigits {
     public String clearDigits(String s) {
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
