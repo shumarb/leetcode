@@ -11,6 +11,7 @@ class SumOfAllOddLengthSubarrays {
         if (isTest) {
             System.out.println("-------------------------------------------------");
             System.out.println("window size: 1");
+            System.out.println(" ** before | sum: " + sum);
         }
         for (int number: arr) {
             sum += number;
@@ -19,13 +20,14 @@ class SumOfAllOddLengthSubarrays {
             }
         }
         if (isTest) {
-            System.out.println(" ** sum: " + sum);
+            System.out.println(" ** after | sum: " + sum);
         }
 
         while (windowSize <= len) {
             if (isTest) {
                 System.out.println("-------------------------------------------------");
                 System.out.println("window size: " + windowSize);
+                System.out.println(" ** before | sum: " + sum);
             }
 
             int windowSum = 0;
@@ -44,6 +46,9 @@ class SumOfAllOddLengthSubarrays {
                     System.out.println(" * windowSum: " + windowSum);
                 }
                 sum += windowSum;
+            }
+            if (isTest) {
+                System.out.println(" ** after | sum: " + sum);
             }
 
             windowSize += 2;
