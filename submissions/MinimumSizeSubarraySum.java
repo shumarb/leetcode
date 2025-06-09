@@ -2,17 +2,17 @@
 
 class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
-        int sum = 0;
         int minSubArrayLen = Integer.MAX_VALUE;
         int left = 0;
+        int len = nums.length;
         int right = 0;
+        int runningSum = 0;
 
-        while (right < nums.length) {
-            sum += nums[right];
-            while (left < nums.length && sum >= target) {
+        while (right < len) {
+            runningSum += nums[right];
+            while (left < len && runningSum >= target) {
                 minSubArrayLen = Math.min(minSubArrayLen, right - left + 1);
-                sum -= nums[left];
-                left++;
+                runningSum -= nums[left++];
             }
             right++;
         }
