@@ -28,6 +28,6 @@ Completed: 11/40.
 ### Medium
 | Question                                                                                                                      | Submission                                                                                               | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java) | 16ms    | 87.21% |
+| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java) | 16ms    | 88.19% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)          | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)          | 0ms     | 100%   | 

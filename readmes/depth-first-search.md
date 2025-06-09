@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/317.
+Completed: 44/324.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                                            | Submission                                                                                                                   | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageOfLevelsInBinaryTree.java)                           | 2ms     | 94.44% |
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalancedBinaryTree.java)                                    | 0ms     | 100%   |
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeInorderTraversal.java)                            | 0ms     | 100%   |
@@ -47,9 +47,9 @@ Completed: 44/317.
 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UnivaluedBinaryTree.java)                                   | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                    | Submission                                                                                                           | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)        | 16ms    | 87.21% |
+| Question                                                                                                                                    | Submission                                                                                                      | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)        | 16ms    | 88.19% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                  | 1ms     | 71.44% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java)     | 162ms   | 95.96% | 
