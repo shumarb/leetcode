@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/75.
+Completed: 41/75.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 40/75.
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                  | 3ms     | 42.85% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                  | 0ms     | 100%   |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
+| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                    | 271ms   | 8.01%  |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                            | 7ms     | 97.71% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                   | 48ms    | 59.58% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |

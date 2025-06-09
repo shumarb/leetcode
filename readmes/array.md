@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 340/1923.
+Completed: 341/1923.
 
 ## Submissions
 ### Easy
@@ -317,6 +317,7 @@ Completed: 340/1923.
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                                 | 6ms     | 88.17% |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                            | 9ms     | 80.63% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                      | 291ms   | 48.57% |
+| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                              | 271ms   | 8.01%  |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)            | 4ms     | 99.46% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                      | 7ms     | 97.71% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                   | 10ms    | 90.87% |
