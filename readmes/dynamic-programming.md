@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/584.
+Completed: 13/588.
 
 ## Submissions
 ### Easy
-| Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 2ms     | 72.40% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)              | 2ms     | 95%    |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)           | 0ms     | 100%   |
@@ -24,11 +24,12 @@ Completed: 12/584.
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)       | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                        | Submission                                                                                              | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)    | 46ms    | 87.58% | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)    | 5ms     | 88.83% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                    | 3ms     | 42.85% |
+| [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)    | 9ms     | 80.63% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)     | 48ms    | 59.58% |
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberTwo.java)               | 2ms     | 98.25% | 
