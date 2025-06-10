@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 341/1923.
+Completed: 342/1930.
 
 ## Submissions
 ### Easy
@@ -146,6 +146,7 @@ Completed: 341/1923.
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastStoneWeight.java)                                           | 1ms     | 97.76% |
 | [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastVisitedIntegers.java)                                       | 1ms     | 100%   |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeftAndRightSumDifferences.java)                                | 2ms     | 98.18% |
+| [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)                | 1ms     | 92.54% |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LuckyNumbersInAMatrix.java)                                     | 3ms     | 46.62% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                                           | 2ms     | 99.80% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)                    | 0ms     | 100%   |

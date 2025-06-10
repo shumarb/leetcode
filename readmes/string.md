@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 174/792.
+Completed: 175/792.
 
 ## Submissions
 ### Easy
@@ -95,6 +95,7 @@ Completed: 174/792.
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)                                          | 1ms     | 64.40% |
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                                         | 37ms    | 17.29% |
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                            | 2ms     | 89.66% |
+| [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)                   | 1ms     | 92.54% |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeTheStringGreat.java)                                           | 3ms     | 62.40% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)               | 1ms     | 100%   |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthSubstringWithTwoOccurrences.java)                     | 38ms    | 5.28%  |
