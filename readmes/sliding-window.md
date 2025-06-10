@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/151.
+Completed: 19/152.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                               | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsOne.java)                              | 1ms     | 96.62% |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateTwo.java)                              | 18ms    | 89.16% |
 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                    | 7ms     | 96.27% |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                           | 1ms     | 40.75% |

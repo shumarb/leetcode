@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 342/1930.
+Completed: 343/1930.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                                      | Submission                                                                                                                       | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddToArrayFormOfInteger.java)                                   | 2ms     | 99.20% |
+| [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsOne.java)                                      | 1ms     | 96.62% |
 | [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AntOnTheBoundary.java)                                          | 0ms     | 100%   |
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppleRedistributionIntoBoxes.java)                              | 1ms     | 100%   |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToAnArray.java)                                  | 1ms     | 95.99% |
