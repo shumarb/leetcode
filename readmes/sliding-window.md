@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/152.
+Completed: 21/152.
 
 ## Submissions
 ### Easy
@@ -29,16 +29,17 @@ Completed: 20/152.
 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubstringsOfSizeThreeWithDistinctCharacters.java)       | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                   | Submission                                                                                                       | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                      | 4ms     | 96.68% |
-| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
-| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)         | 11ms    | 99.39% |
-| [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.55% |
-| [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)  | 4ms     | 99.46% |
-| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                    | 1ms     | 99.72% |
-| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                       | 6ms     | 86.31% |
-| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                  | 4ms     | 99.98% |
+| Question                                                                                                                                                      | Submission                                                                                                            | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                           | 4ms     | 96.68% |
+| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                       | 9ms     | 91.31% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)              | 11ms    | 99.39% |
+| [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)      | 6ms     | 70.55% |
+| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java) | 19ms    | 52.32% |
+| [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)       | 4ms     | 99.46% |
+| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                         | 1ms     | 99.72% |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                            | 6ms     | 86.31% |
+| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                       | 4ms     | 99.98% |
 
 ### Hard
 | Question                                                                                      | Submission                                                                                                       | Runtime | Rank   |
