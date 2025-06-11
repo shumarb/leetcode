@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 177/794.
+Completed: 179/794.
 
 ## Submissions
 ### Easy
@@ -148,6 +148,7 @@ Completed: 177/794.
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                                   | 1ms     | 99.66% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                                | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortingTheSentence.java)                                           | 0ms     | 100%   |
+| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                                | 0ms     | 100%   |
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringMatchingInAnArray.java)                                      | 4ms     | 89.02% |
 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrongPasswordCheckerTwo.java)                                     | 1ms     | 67.43% |
 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StudentAttendanceRecordOne.java)                                   | 0ms     | 100%   |
