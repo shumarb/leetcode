@@ -10,7 +10,7 @@ class MaximumNumberOfVowelsInASubstringOfGivenLength {
                 countVowels++;
             }
         }
-        maxVowels = Math.max(countVowels, maxVowels);
+        maxVowels = countVowels;
         for (int i = k; i < s.length(); i++) {
             if ("aeiou".indexOf(s.charAt(i - k)) != -1) {
                 countVowels--;
