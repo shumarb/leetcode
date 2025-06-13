@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 344/1930.
+Completed: 345/1930.
 
 ## Submissions
 ### Easy
@@ -314,6 +314,7 @@ Completed: 344/1930.
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                          | 3ms     | 98.86% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)                   | 11ms    | 65.35% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                        | 383ms   | 69.83% |
+| [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-subsequence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSubsequence.java)                       | 30ms    | 73.18% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                  | 10ms    | 45.32% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                | 130ms   | 63.04% |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                          | 11ms    | 93.10% |
