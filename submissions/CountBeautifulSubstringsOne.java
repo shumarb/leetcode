@@ -6,19 +6,11 @@ class CountBeautifulSubstringsOne {
         int len = s.length();
 
         for (int i = 0; i < len; i++) {
-            char current = s.charAt(i);
             int consonants = 0;
             int vowels = 0;
-
-            if (isVowel(current)) {
-                vowels++;
-            } else {
-                consonants++;
-            }
-
-            for (int j = i + 1; j < len; j++) {
-                char next = s.charAt(j);
-                if (isVowel(next)) {
+            for (int j = i; j < len; j++) {
+                char current = s.charAt(j);
+                if (isVowel(current)) {
                     vowels++;
                 } else {
                     consonants++;
@@ -27,7 +19,6 @@ class CountBeautifulSubstringsOne {
                     countBeautifulSubstrings++;
                 }
             }
-
         }
 
         return countBeautifulSubstrings;
