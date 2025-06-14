@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 349/1930.
+Completed: 350/1930.
 
 ## Submissions
 ### Easy
@@ -279,6 +279,7 @@ Completed: 349/1930.
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                        | 30ms    | 69.14% |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                           | 11ms    | 98.01% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                                          | 5ms     | 74.40% |
+| [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 24ms    | 39.10% |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                                        | 37ms    | 86.60% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java)             | 33ms    | 98.46% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                               | 5ms     | 69.71% |
