@@ -23,6 +23,15 @@ class CountCompleteSubarraysInAnArray {
             }
         }
 
+        // 2. Array comprises of elements of the same value.
+        int sumOfIndices = 1;
+        if (totalDistinct == 1) {
+            for (int i = 2; i <= len; i++) {
+                sumOfIndices += i;
+            }
+            return sumOfIndices;
+        }
+
         for (int i = 0; i < len; i++) {
             int countDistinct = 1;
             boolean[] isNumberCounted = new boolean[largest + 1];
