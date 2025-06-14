@@ -8,16 +8,16 @@ class NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold {
         for (int i = 0; i < k; i++) {
             runningSum += (double) arr[i];
         }
-        if ((runningSum / (double) k) >= (double) threshold) {
+        if (runningSum >= (double) (k * threshold)) {
             count++;
         }
 
         for (int i = k; i < arr.length; i++) {
-            double remove = (double) arr[i - k];
+            double remove = arr[i - k];
             runningSum -= remove;
-            double incoming = (double) arr[i];
+            double incoming = arr[i];
             runningSum += incoming;
-            if ((runningSum / (double) k) >= (double) threshold) {
+            if (runningSum >= (double) (k * threshold)) {
                 count++;
             }
         }
