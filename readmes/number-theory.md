@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/69.
+Completed: 11/72.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                    | Submission                                                                                                             | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Digits](https://leetcode.com/problems/add-digits/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddDigits.java)                                       | 0ms     | 100%   |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java) | 8ms     | 78.87% |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGreatestCommonDivisorOfArray.java)                | 0ms     | 100%   |
@@ -27,6 +27,7 @@ Completed: 10/69.
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                          | 2ms     | 98.93% |
 
 ### Medium
-| Question                                                                                                                              | Submission                                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                          | 94ms    | 82.87% |
+| Question                                                                                                           | Submission                                                                                         | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 170ms   | 15.22% |
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |

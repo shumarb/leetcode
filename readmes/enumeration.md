@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/115.
+Completed: 16/119.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 15/115.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                  | 7ms     | 17.93% |
 
 ### Medium
-| Question                                                                | Submission                                                                         | Runtime | Rank   |
-|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------|--------|
-| [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java) | 94ms    | 82.87% |
+| Question                                                                                                | Submission                                                                                         | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 170ms   | 15.22% |
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |

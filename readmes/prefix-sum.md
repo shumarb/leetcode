@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/205.
+Completed: 23/206.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 22/205.
 ### Medium
 | Question                                                                                                                    | Submission                                                                                               | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)       | 170ms   | 15.22% |
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)          | 5ms     | 88.83% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java) | 11ms    | 99.39% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)            | 1ms     | 99.72% |
