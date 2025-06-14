@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/152.
+Completed: 24/152.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 23/152.
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68% |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                        | 9ms     | 91.31% |
 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysOne.java)                                 | 2ms     | 62.24% |
+| [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 100%   |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                       | 6ms     | 70.55% |
 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java)                  | 18ms    | 57.41% |
