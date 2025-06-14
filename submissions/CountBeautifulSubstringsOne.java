@@ -9,8 +9,8 @@ class CountBeautifulSubstringsOne {
             int consonants = 0;
             int vowels = 0;
             for (int j = i; j < len; j++) {
-                char current = s.charAt(j);
-                if (isVowel(current)) {
+                char letter = s.charAt(j);
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
                     vowels++;
                 } else {
                     consonants++;
@@ -22,9 +22,5 @@ class CountBeautifulSubstringsOne {
         }
 
         return countBeautifulSubstrings;
-    }
-
-    private boolean isVowel(char letter) {
-        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
     }
 }
