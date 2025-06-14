@@ -29,5 +29,5 @@ Completed: 11/72.
 ### Medium
 | Question                                                                                                           | Submission                                                                                         | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 170ms   | 15.22% |
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 91ms    | 43.48% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |

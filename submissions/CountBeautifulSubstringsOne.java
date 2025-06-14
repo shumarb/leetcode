@@ -10,18 +10,18 @@ class CountBeautifulSubstringsOne {
             int consonants = 0;
             int vowels = 0;
 
-            if ("aeiou".indexOf(current) == -1) {
-                consonants++;
-            } else {
+            if (isVowel(current)) {
                 vowels++;
+            } else {
+                consonants++;
             }
 
             for (int j = i + 1; j < len; j++) {
                 char next = s.charAt(j);
-                if ("aeiou".indexOf(next) == -1) {
-                    consonants++;
-                } else {
+                if (isVowel(next)) {
                     vowels++;
+                } else {
+                    consonants++;
                 }
                 if (consonants == vowels && (consonants * vowels) % k == 0) {
                     countBeautifulSubstrings++;
@@ -31,5 +31,9 @@ class CountBeautifulSubstringsOne {
         }
 
         return countBeautifulSubstrings;
+    }
+
+    private boolean isVowel(char letter) {
+        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
     }
 }
