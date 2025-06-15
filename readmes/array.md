@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 352/1930.
+Completed: 353/1930.
 
 ## Submissions
 ### Easy
@@ -338,6 +338,7 @@ Completed: 352/1930.
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                                     | 16ms    | 92.23% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                                         | 46ms    | 82.48% |
 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java) | 2ms     | 99.85% |
+| [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                                     | 3ms     | 95.56% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                                       | 0ms     | 100%   |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                        | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                                | 2490ms  | 5.01%  |
