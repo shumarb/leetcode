@@ -29,7 +29,7 @@ class CountCompleteTreeNodes {
             return (int) Math.pow(2, leftHeight) - 1;
         }
 
-        // 2. Recursive count nodes for non-perfect tree. Worst-case is counting all nodes.
+        // 2. Recursively count nodes for non-perfect tree. Worst-case is counting all nodes.
         return 1 + countNodes(root.left) + countNodes(root.right);
     }
 
