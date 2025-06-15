@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/307.
+Completed: 40/307.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 39/307.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)                                    | 0ms     | 100%   |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                       | 1ms     | 99.29% |
+| [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                          | 0ms     | 100%   |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNegativeNumbersInASortedMatrix.java)             | 0ms     | 100%   |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSmallestLetterGreaterThanTarget.java)             | 0ms     | 100%   |

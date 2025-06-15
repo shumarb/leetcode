@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/242.
+Completed: 39/243.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 38/242.
 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryPrefixDivisibleBy5.java)                   | 3ms     | 98.17% |
 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfBitwiseOrHasTrailingZeros.java)           | 0ms     | 100%   |
 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComplementOfBase10Integer.java)                  | 0ms     | 100%   |
+| [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                     | 0ms     | 100%   |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsOfSimilarStrings.java)                 | 58ms    | 41.34% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfConsistentStrings.java)          | 6ms     | 86.92% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)                               | 2ms     | 95%    |
