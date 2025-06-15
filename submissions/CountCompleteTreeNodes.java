@@ -20,6 +20,31 @@ class CountCompleteTreeNodes {
         if (root == null) {
             return 0;
         }
+
+        int leftHeight = getHeight(root, "left");
+        int rightHeight = getHeight(root, "right");
+
+        // 1. Perfect tree (all levels filled) has 2^height - 1 nodes.
+        if (leftHeight == rightHeight) {
+            return (int) Math.pow(2, leftHeight) - 1;
+        }
+
+        // 2. Traverse from root to 1 level before leaves.
         return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+
+    private int getHeight(TreeNode current, String direction) {
+        int height = 0;
+
+        while (current != null) {
+            height++;
+            if (direction.equals("left")) {
+                current = current.left;
+            } else {
+                current = current.right;
+            }
+        }
+
+        return height;
     }
 }
