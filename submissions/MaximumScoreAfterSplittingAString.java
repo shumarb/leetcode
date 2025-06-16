@@ -5,41 +5,43 @@ class MaximumScoreAfterSplittingAString {
         boolean isTest = false;
         int len = s.length();
         int maxScore = 0;
-        int partition = 1;
+        int[] prefix = new int[len - 1];
+        int[] suffix = new int[len - 1];
 
-        while (partition != len) {
-            String left = s.substring(0, partition);
-            String right = s.substring(partition, len);
-            int countZeroesInLeft = count(left, '0');
-            int countOnesInRight = count(right, '1');
-            if (isTest) {
-                System.out.println("partition: " + partition);
-                System.out.println("left: " + left + ", right: " + right);
-                System.out.println("countZeroesInLeft: " + countZeroesInLeft + ", countOnesInRight: " + countOnesInRight);
+        if (s.charAt(0) == '0') {
+            prefix[0] = 1;
+        }
+        for (int i = 1; i < prefix.length; i++) {
+            if (s.charAt(i) == '0') {
+                prefix[i] = prefix[i - 1] + 1;
+            } else {
+                prefix[i] = prefix[i - 1];
             }
-            if (isTest) {
-                System.out.println("compare | maxScore: " + maxScore + ", sum of counts: " + (countZeroesInLeft + countOnesInRight));
-                System.out.print("before, maxScore: " + maxScore);
+        }
+        if (s.charAt(len - 1) == '1') {
+            suffix[suffix.length - 1] = 1;
+        }
+        for (int i = suffix.length - 2; i >= 0; i--) {
+            if (s.charAt(i + 1) == '1') {
+                suffix[i] = suffix[i + 1] + 1;
+            } else {
+                suffix[i] = suffix[i + 1];
             }
-            maxScore = Math.max(maxScore, countZeroesInLeft + countOnesInRight);
-            if (isTest) {
-                System.out.println(" | after, maxScore: " + maxScore);
-                System.out.println("----------------------------------------------------");
-            }
+        }
+        if (isTest) {
+            System.out.println("s: " + s);
+            System.out.println("---------------------------------------");
+            System.out.println("prefix: " + Arrays.toString(prefix));
+            System.out.println("suffix: " + Arrays.toString(suffix));
+        }
 
-            partition++;
+        for (int i = 0; i < len - 1; i++) {
+            maxScore = Math.max(maxScore, prefix[i] + suffix[i]);
+        }
+        if (isTest) {
+            System.out.println("maxScore: " + maxScore);
         }
 
         return maxScore;
-    }
-
-    private int count(String str, char c) {
-        int count = 0;
-        for (char letter: str.toCharArray()) {
-            if (letter == c) {
-                count++;
-            }
-        }
-        return count;
     }
 }
