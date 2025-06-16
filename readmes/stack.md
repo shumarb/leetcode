@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/171.
+Completed: 37/171.
 
 ## Submissions
 ### Easy
@@ -55,6 +55,7 @@ Completed: 36/171.
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                         | 87ms    | 32.57% |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                      | 4ms     | 12.39% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SimplifyPath.java)                                     | 5ms     | 51.87% |
+| [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 96.88% |
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                           | Runtime | Rank   |
