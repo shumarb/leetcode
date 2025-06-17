@@ -10,7 +10,7 @@ class LexicographicallySmallestStringAfterASwap {
             int current = s.charAt(i) - '0';
             int next = s.charAt(i + 1) - '0';
 
-            if (current % 2 == next % 2) {
+            if (current % 2 == next % 2 && s.charAt(i + 1) < s.charAt(i)) {
                 if (isTest) {
                     System.out.println("-------------------------------------------------------");
                     System.out.println("indices: " + i + ", " + (i + 1));
