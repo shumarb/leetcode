@@ -2,37 +2,22 @@
 
 class ExistenceOfASubstringInAStringAndItsReverse {
     public boolean isSubstringPresent(String s) {
-        String reverse;
+        String reverse = new StringBuilder(s).reverse().toString();
         boolean isTest = false;
-        char[] letters = s.toCharArray();
-        int left = 0;
         int len = s.length();
-        int right = len - 1;
 
-        while (left < right) {
-            char temp = letters[left];
-            letters[left++] = letters[right];
-            letters[right--] = temp;
-        }
-        reverse = new String(letters);
         if (isTest) {
             System.out.println("s: " + s + "\nreverse: " + reverse);
         }
 
-        for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < len; j++) {
-                StringBuilder check = new StringBuilder();
-                check.append(s.charAt(i));
-                check.append(s.charAt(j));
-                if (isTest) {
-                    System.out.println("------------------------------------------------------");
-                    System.out.println(" * check: " + check);
-                }
-
-                String checkStr = check.toString();
-                if (s.indexOf(checkStr) != -1 && reverse.indexOf(checkStr) != -1) {
-                    return true;
-                }
+        for (int i = 0; i < len - 1; i++) {
+            String toCheck = s.substring(i, i + 2);
+            if (isTest) {
+                System.out.println("----------------------------------");
+                System.out.println(" * toCheck: " + toCheck);
+            }
+            if (s.indexOf(toCheck) != -1 && reverse.indexOf(toCheck) != -1) {
+                return true;
             }
         }
 
