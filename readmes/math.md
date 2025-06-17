@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 122/588.
+Completed: 123/588.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 122/588.
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodPairs.java)                                      | 0ms     | 100%   |
 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStepsToReduceANumberToZero.java)                     | 0ms     | 100%   |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeNumber.java)                                       | 4ms     | 100%   |
+| [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PassThePillow.java)                                          | 0ms     | 100%   |
 | [Perfect Number](https://leetcode.com/problems/perfect-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PerfectNumber.java)                                          | 2ms     | 83.64% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                                                | 0ms     | 100%   |
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowerOfFour.java)                                            | 0ms     | 100%   |
