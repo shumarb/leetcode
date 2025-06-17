@@ -2,7 +2,6 @@
 
 class ExistenceOfASubstringInAStringAndItsReverse {
     public boolean isSubstringPresent(String s) {
-        Set<String> checked = new HashSet<>();
         String reverse;
         boolean isTest = false;
         char[] letters = s.toCharArray();
@@ -31,10 +30,9 @@ class ExistenceOfASubstringInAStringAndItsReverse {
                 }
 
                 String checkStr = check.toString();
-                if (!checked.contains(checkStr) && s.indexOf(checkStr) != -1 && reverse.indexOf(checkStr) != -1) {
+                if (s.indexOf(checkStr) != -1 && reverse.indexOf(checkStr) != -1) {
                     return true;
                 }
-                checked.add(checkStr);
             }
         }
 
