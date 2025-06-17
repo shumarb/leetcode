@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/lexicographically-smallest-palindrome/description/
 
-class Solution {
+class LexicographicallySmallestPalindrome {
     public String makeSmallestPalindrome(String s) {
         boolean isTest = false;
         char[] palindrome = s.toCharArray();
@@ -12,15 +12,7 @@ class Solution {
             System.out.println("before, palindrome: " + Arrays.toString(palindrome));
         }
         while (left < right) {
-            if (palindrome[left] != palindrome[right]) {
-                char leftC = palindrome[left];
-                char rightC = palindrome[right];
-                if (leftC < rightC) {
-                    palindrome[right] = leftC;
-                } else {
-                    palindrome[left] = rightC;
-                }
-            }
+            palindrome[left] = palindrome[right] = (char) Math.min(palindrome[left], palindrome[right]);
             left++;
             right--;
         }
