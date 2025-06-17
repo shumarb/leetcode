@@ -2,25 +2,32 @@
 
 class LexicographicallySmallestStringAfterASwap {
     public String getSmallestString(String s) {
-        boolean isTest = false;
         String result = s;
-        char[] numbers = s.toCharArray();
+        boolean isTest = false;
+        char[] digits = s.toCharArray();
 
         for (int i = 0; i < s.length() - 1; i++) {
-            char[] clone = numbers.clone();
-
             int current = s.charAt(i) - '0';
             int next = s.charAt(i + 1) - '0';
-            if (isSameParity(current, next)) {
-                char temp = clone[i];
-                clone[i] = clone[i + 1];
-                clone[i + 1] = temp;
+
+            if (current % 2 == next % 2) {
                 if (isTest) {
-                    System.out.println(" * clone: " + Arrays.toString(clone) + ", result: " + result);
+                    System.out.println("-------------------------------------------------------");
+                    System.out.println("indices: " + i + ", " + (i + 1));
+                    System.out.println(" * before swap, digits: " + Arrays.toString(digits));
                 }
-                String newStr = new String(clone);
-                if (newStr.compareTo(result) < 0) {
-                    result = newStr;
+                swap(digits, i, i + 1);
+                if (isTest) {
+                    System.out.println(" * after swap, digits: " + Arrays.toString(digits));
+                }
+                String newNumber = new String(digits);
+                if (newNumber.compareTo(result) < 0) {
+                    result = newNumber;
+                }
+
+                swap(digits, i, i + 1);
+                if (isTest) {
+                    System.out.println(" * restore digits | digits: " + Arrays.toString(digits));
                 }
             }
         }
@@ -28,7 +35,9 @@ class LexicographicallySmallestStringAfterASwap {
         return result;
     }
 
-    private boolean isSameParity(int first, int second) {
-        return first % 2 == second % 2;
+    private void swap(char[] digits, int i, int j) {
+        char temp = digits[i];
+        digits[i] = digits[j];
+        digits[j] = temp;
     }
 }
