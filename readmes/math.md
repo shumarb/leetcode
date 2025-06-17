@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 121/588.
+Completed: 122/588.
 
 ## Submissions
 ### Easy
@@ -58,6 +58,7 @@ Completed: 121/588.
 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNUniqueIntegersSumUpToZero.java)                         | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNumbersWithEvenNumberOfDigits.java)                      | 1ms     | 98.93% |
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfDigitGameCanBeWon.java)                                | 0ms     | 100%   |
+| [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheChildWhoHasTheBallAfterKSeconds.java)                 | 0ms     | 100%   |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                                | 1ms     | 40.75% |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthCharacterInStringGameOne.java)                     | 4ms     | 56.59% |
 | [Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKeyOfTheNumbers.java)                                 | 1ms     | 94.40% |
