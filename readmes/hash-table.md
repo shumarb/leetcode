@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 182/703.
+Completed: 183/703.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 182/703.
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestinationCity.java)                                        | 2ms     | 100%   |
 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandies.java)                                      | 31ms    | 55.24% |
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                              | 1ms     | 99.99% |
+| [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-revers/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExistenceOfASubstringInAStringAndItsReverse.java)            | 4ms     | 44.67% |
 | [Find All Numbers Disappeared In An Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllNumbersDisappearedInAnArray.java)                     | 3ms     | 99.85% |
 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCommonCharacters.java)                                   | 2ms     | 91.04% |
 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCommonElementsBetweenTwoArrays.java)                     | 1ms     | 100%   |
