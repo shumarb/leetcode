@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/217.
+Completed: 67/217.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 66/217.
 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoLinkedLists.java)                    | 1ms     | 99.90% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                                   | 1ms     | 93.37% |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java) | 6ms     | 61.28% |
+| [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestPalindrome.java)             | 6ms     | 74.78% |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)                                 | 0ms     | 100%   |
 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongPressedName.java)                                 | 1ms     | 82.56% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSortedArray.java)                                | 0ms     | 100%   |
