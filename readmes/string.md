@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 186/796.
+Completed: 187/796.
 
 ## Submissions
 ### Easy
@@ -112,6 +112,7 @@ Completed: 186/796.
 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumValueOfAStringInAnArray.java)                               | 0ms     | 100%   |
 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeStringsAlternately.java)                                      | 1ms     | 82.95% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeStringLength.java)                                         | 3ms     | 100%   |
+| [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumChangesToMakeAlternatingBinaryString.java)                  | 3ms     | 89.47% |
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)                 | 2ms     | 97.55% |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIndexSumOfTwoLists.java)                                    | 8ms     | 95.80% |
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToConvertString.java)                                  | 1ms     | 71.27% |
