@@ -6,14 +6,6 @@ class NumberOfValidWordsInASentence {
         boolean isTest = false;
         int countValid = 0;
 
-        if (sentence.length() == 1) {
-            char token = sentence.charAt(0);
-            if (Character.isLowerCase(token) || isPunctuation(token)) {
-                return 1;
-            } else {
-                return 0;
-            }
-        }
         if (isTest) {
             System.out.println("sentence: " + sentence + "\ntokens: " + Arrays.toString(tokens));
         }
