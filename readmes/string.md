@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 190/796.
+Completed: 191/796.
 
 ## Submissions
 ### Easy
@@ -69,6 +69,7 @@ Completed: 190/796.
 | [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMaximumNumberOfStringPairs.java)                               | 2ms     | 90.55% |
 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMostFrequentVowelAndConsonant.java)                            | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindResultantArraysAfterRemovingAnagrams.java)                     | 1ms     | 100%   |
+| [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSpecialSubstringOfLengthK.java)                                | 1ms     | 97.39% |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindValidPairOfAdjacentDigitsInString.java)                        | 2ms     | 88.14% |
 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsContainingCharacter.java)                                 | 1ms     | 100%   |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsThatCanBeFormedByCharacters.java)                         | 5ms     | 87.08% |
