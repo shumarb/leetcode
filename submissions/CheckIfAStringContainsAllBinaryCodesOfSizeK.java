@@ -2,7 +2,7 @@
 
 class CheckIfAStringContainsAllBinaryCodesOfSizeK {
     public boolean hasAllCodes(String s, int k) {
-        Set<String> checked = new HashSet<>();
+        Set<String> set = new HashSet<>();
         boolean isTest = false;
 
         for (int i = 0; i <= s.length() - k; i++) {
@@ -10,14 +10,12 @@ class CheckIfAStringContainsAllBinaryCodesOfSizeK {
             for (int j = i; j < i + k; j++) {
                 window.append(s.charAt(j));
             }
-            if (!checked.contains(window.toString())) {
-                if (isTest) {
-                    System.out.println("window: " + window.toString());
-                }
-            }
-            checked.add(window.toString());
+            set.add(window.toString());
+        }
+        if (isTest) {
+            System.out.println("set: " + set);
         }
 
-        return checked.size() == (int) Math.pow(2, k);
+        return set.size() == (int) Math.pow(2, k);
     }
 }
