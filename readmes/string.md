@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 192/796.
+Completed: 193/796.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 192/796.
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfVowelStringsInRange.java)                          | 1ms     | 100%   |
 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecryptStringFromAlphabetToIntegerMapping.java)                    | 1ms     | 79.11% |
 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefangingAnIPAddress.java)                                         | 0ms     | 100%   |
+| [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteCharactersToMakeFancyString.java)                            | 69ms    | 11.18% |
 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteColumnsToMakeSorted.java)                                    | 8ms     | 64.79% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestinationCity.java)                                              | 2ms     | 100%   |
 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCapital.java)                                                | 0ms     | 100%   |
