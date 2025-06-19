@@ -5,17 +5,16 @@ class GenerateTagForVideoCaption {
         String[] words = caption.trim().split("\\s+");
         StringBuilder result = new StringBuilder("#");
 
-        for (int i = 0; i < words.length && result.length() < 100; i++) {
-            String word = words[i];
-            if (word.isEmpty()) {
+        if (!words[0].isEmpty()) {
+            result.append(words[0].toLowerCase());
+        }
+        for (int i = 1; i < words.length && result.length() < 100; i++) {
+            if (words[i].isEmpty()) {
                 continue;
             }
-            if (i == 0) {
-                result.append(word.toLowerCase());
-            } else {
-                result.append(Character.toUpperCase(word.charAt(0)));
-                result.append(word.substring(1).toLowerCase());
-            }
+            String word = words[i];
+            result.append(Character.toUpperCase(word.charAt(0)));
+            result.append(word.substring(1).toLowerCase());
         }
 
         return result.substring(0, Math.min(100, result.length()));
