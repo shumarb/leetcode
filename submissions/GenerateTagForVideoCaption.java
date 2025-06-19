@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/generate-tag-for-video-caption/description/
 
-class Solution {
+class GenerateTagForVideoCaption {
     public String generateTag(String caption) {
         String[] words = caption.trim().split("\\s+");
         StringBuilder result = new StringBuilder("#");
@@ -18,6 +18,6 @@ class Solution {
             }
         }
 
-        return result.length() > 100 ? result.substring(0, 100) : result.toString();
+        return result.substring(0, Math.min(100, result.length()));
     }
 }
