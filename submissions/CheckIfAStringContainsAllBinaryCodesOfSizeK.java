@@ -6,11 +6,7 @@ class CheckIfAStringContainsAllBinaryCodesOfSizeK {
         boolean isTest = false;
 
         for (int i = 0; i <= s.length() - k; i++) {
-            StringBuilder window = new StringBuilder();
-            for (int j = i; j < i + k; j++) {
-                window.append(s.charAt(j));
-            }
-            set.add(window.toString());
+            set.add(s.substring(i, i + k));
         }
         if (isTest) {
             System.out.println("set: " + set);
