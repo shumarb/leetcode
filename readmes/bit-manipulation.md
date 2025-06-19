@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/243.
+Completed: 40/243.
 
 ## Submissions
 ### Easy
@@ -54,8 +54,9 @@ Completed: 39/243.
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XorOperationInAnArray.java)                      | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                               | Submission                                                                                            | Runtime | Rank   |
-|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)              | 4ms     | 5.52%  |
-| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)         | 4ms     | 88.75% |
-| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)               | 0ms     | 100%   |
+| Question                                                                                                                                                  | Submission                                                                                                         | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java) | 492ms   | 5.01%  |
+| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                           | 4ms     | 5.52%  |
+| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                      | 4ms     | 88.75% |
+| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                            | 0ms     | 100%   |
