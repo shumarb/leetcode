@@ -12,19 +12,10 @@ class DeleteCharactersToMakeFancyString {
         char[] letters = s.toCharArray();
 
         for (int i = 0; i <= s.length() - 3; i++) {
-            char[] window = new char[3];
-            int k = 0;
-            for (int j = i; j < i + 3; j++) {
-                window[k++] = s.charAt(j);
-            }
-            if (isTest) {
-                System.out.println(" * window: " + Arrays.toString(window));
-            }
-            if (window[0] == window[1] && window[0] == window[2]) {
+            if (letters[i] == letters[i + 1] && letters[i] == letters[i + 2]) {
                 letters[i] = 'X';
             }
         }
-
         for (char letter: letters) {
             if (letter != 'X') {
                 result.append(letter);
