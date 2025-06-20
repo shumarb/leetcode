@@ -4,8 +4,8 @@ class FindLongestSpecialSubstringThatOccursThriceOne {
     public int maximumLength(String s) {
         Map<String, Integer> map = new HashMap<>();
         boolean isTest = false;
-        int maximumLength = -1;
         int len = s.length();
+        int maximumLength = -1;
         int windowSize = 1;
 
         while (windowSize <= len) {
