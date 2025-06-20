@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/180.
+Completed: 60/180.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 59/180.
 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheArrayConcatenationValue.java)                   | 1ms     | 96.03% |
 | [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheChildWhoHasTheBallAfterKSeconds.java)           | 0ms     | 100%   |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthCharacterInStringGameOne.java)               | 4ms     | 56.59% |
+| [Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLosersOfTheCircularGame.java)                   | 1ms     | 100%   |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)                                         | 1ms     | 99.52% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                  | 0ms     | 100%   |
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java)                             | 1ms     | 100%   |

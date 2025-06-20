@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 354/1930.
+Completed: 355/1930.
 
 ## Submissions
 ### Easy
@@ -118,6 +118,7 @@ Completed: 354/1930.
 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistinctDifferenceArray.java)                            | 5ms     | 93.20% |
 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheHighestAltitude.java)                                    | 0ms     | 100%   |
 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLargestAlmostMissingInteger.java)                        | 1ms     | 100%   |
+| [Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLosersOfTheCircularGame.java)                            | 1ms     | 100%   |
 | [Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMaximumDivisibilityScore.java)                           | 175ms   | 95.38% |
 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMiddleIndexInArray.java)                                 | 0ms     | 100%   |
 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfGoodPairsOne.java)                               | 1ms     | 100%   |
