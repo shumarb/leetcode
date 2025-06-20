@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/152.
+Completed: 28/152.
 
 ## Submissions
 ### Easy
@@ -33,8 +33,9 @@ Completed: 27/152.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100%   |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 24ms    | 39.10% |
-| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68% |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                        | 9ms     | 91.31% |
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68% |
+| [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-iy/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)                  | 43ms    | 14.36% |
 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysOne.java)                                 | 1ms     | 100%   |
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 100%   |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |

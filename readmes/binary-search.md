@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/307.
+Completed: 41/308.
 
 ## Submissions
 ### Easy
@@ -40,11 +40,12 @@ Completed: 40/307.
 ## Medium
 | Question                                                                                                                                                       | Submission                                                                                                            | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                           | 4ms     | 96.68% |
-| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                         | 4ms     | 88.75% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems//find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java) | 0ms     | 100%   |
-| [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                | 0ms     | 100%   |
+| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                           | 4ms     | 96.68% |
+| [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-iy/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java) | 43ms    | 14.36% |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                | 0ms     | 100%   |
+| [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                | 0ms     | 100%   |
+| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                         | 4ms     | 88.75% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)              | 11ms    | 99.39% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                        | 344ms   | 44.26% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)              | 11ms    | 65.35% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 194/796.
+Completed: 195/796.
 
 ## Submissions
 ### Easy
@@ -191,6 +191,7 @@ Completed: 194/796.
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java)              | 162ms   | 95.96% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                          | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                          | 9ms     | 91.31% |
+| [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-iy/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)    | 43ms    | 14.36% |
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                 | 7ms     | 83.98% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                | 16ms    | 95.51% |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                         | 143ms   | 51.44% |
