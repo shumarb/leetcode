@@ -37,17 +37,14 @@ class FindLongestSpecialSubstringThatOccursThriceOne {
     }
 
     private boolean isSpecial(String window) {
-        boolean[] isPresent = new boolean[26];
-        int countDistinct = 0;
+        char letter = window.charAt(0);
+
         for (char c: window.toCharArray()) {
-            if (!isPresent[c - 'a']) {
-                countDistinct++;
-            }
-            isPresent[c - 'a'] = true;
-            if (countDistinct > 1) {
+            if (c != letter) {
                 return false;
             }
         }
+
         return true;
     }
 }
