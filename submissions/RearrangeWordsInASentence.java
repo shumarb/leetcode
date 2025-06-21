@@ -2,36 +2,27 @@
 
 class RearrangeWordsInASentence {
     public String arrangeWords(String text) {
-        PriorityQueue<Pair> minHeap = new PriorityQueue<>(
-                (a, b) -> Integer.compare(a.word.length(), b.word.length()) == 0
-                        ? Integer.compare(a.index, b.index)
-                        : Integer.compare(a.word.length(), b.word.length())
-        );
-        String[] words = text.split(" ");
+        List<String> words = new ArrayList<>();
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
 
-        for (int i = 0; i < words.length; i++) {
-            minHeap.offer(new Pair(words[i], i));
+        for (String word: text.split(" ")) {
+            words.add(word);
         }
+        Collections.sort(words, (a, b) -> Integer.compare(a.length(), b.length()));
         if (isTest) {
             System.out.println("text: " + text);
-            System.out.println("words: " + Arrays.toString(words));
-            System.out.println("----------------------------------------------");
-            display(minHeap);
+            System.out.println("sorted words: " + words);
             System.out.println("----------------------------------------------");
         }
 
-        Pair top = minHeap.poll();
-        char[] letters = top.word.toCharArray();
+        char[] letters = words.get(0).toCharArray();
         letters[0] = Character.toUpperCase(letters[0]);
         result.append(new String(letters) + " ");
-        while (minHeap.size() > 1) {
-            top = minHeap.poll();
-            result.append(top.word.toLowerCase() + " ");
+        for (int i = 1; i < words.size() - 1; i++) {
+            result.append(words.get(i).toLowerCase() + " ");
         }
-        top = minHeap.poll();
-        result.append(top.word.toLowerCase());
+        result.append(words.get(words.size() - 1).toLowerCase());
         if (isTest) {
             System.out.println("result: " + result.toString());
         }
