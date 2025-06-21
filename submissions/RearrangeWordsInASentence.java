@@ -26,21 +26,4 @@ class RearrangeWordsInASentence {
 
         return result.toString();
     }
-
-    private void display(PriorityQueue<Pair> minHeap) {
-        System.out.println("min heap:");
-        for (Pair e: minHeap) {
-            System.out.println(" * " + e.word + " -> " + e.index);
-        }
-    }
-}
-
-class Pair {
-    String word;
-    int index;
-
-    public Pair(String word, int index) {
-        this.word = word;
-        this.index = index;
-    }
 }
