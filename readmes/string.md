@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 196/796.
+Completed: 197/796.
 
 ## Submissions
 ### Easy
@@ -205,6 +205,7 @@ Completed: 196/796.
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                  | 1ms     | 51.13% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                               | 6ms     | 86.31% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                  | 5ms     | 84.98% |
+| [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                        | 31ms    | 55.56% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringTwo.java)            | 31ms    | 52.93% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                          | 87ms    | 32.57% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                 | 38ms    | 97.12% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 104/455.
+Completed: 105/455.
 
 ## Submissions
 ### Easy
@@ -108,6 +108,7 @@ Completed: 104/455.
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)              | 10ms    | 90.87% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                               | 5ms     | 84.98% |
+| [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                     | 31ms    | 55.56% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                       | 17ms    | 92.02% |
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java) | 34ms    | 70.37% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                             | 65ms    | 86.25% |
