@@ -2,27 +2,24 @@
 
 class RearrangeWordsInASentence {
     public String arrangeWords(String text) {
-        List<String> words = new ArrayList<>();
+        String[] words = text.split(" ");
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
 
-        for (String word: text.split(" ")) {
-            words.add(word);
-        }
-        Collections.sort(words, (a, b) -> Integer.compare(a.length(), b.length()));
+        Arrays.sort(words, (a, b) -> Integer.compare(a.length(), b.length()));
         if (isTest) {
             System.out.println("text: " + text);
-            System.out.println("sorted words: " + words);
+            System.out.println("sorted words: " + Arrays.toString(words));
             System.out.println("----------------------------------------------");
         }
 
-        char[] letters = words.get(0).toCharArray();
+        char[] letters = words[0].toCharArray();
         letters[0] = Character.toUpperCase(letters[0]);
         result.append(new String(letters) + " ");
-        for (int i = 1; i < words.size() - 1; i++) {
-            result.append(words.get(i).toLowerCase() + " ");
+        for (int i = 1; i < words.length - 1; i++) {
+            result.append(words[i].toLowerCase() + " ");
         }
-        result.append(words.get(words.size() - 1).toLowerCase());
+        result.append(words[words.length - 1].toLowerCase());
         if (isTest) {
             System.out.println("result: " + result.toString());
         }
