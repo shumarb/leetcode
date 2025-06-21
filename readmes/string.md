@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 195/796.
+Completed: 196/796.
 
 ## Submissions
 ### Easy
@@ -156,6 +156,7 @@ Completed: 195/796.
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                                  | 1ms     | 95.03% |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                       | 4ms     | 81.11% |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                                 | 1ms     | 98.82% |
+| [Shuffle String](https://leetcode.com/problems/shuffle-string/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleString.java)                                                | 0ms     | 100%   |
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                                   | 1ms     | 99.66% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                                | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortingTheSentence.java)                                           | 0ms     | 100%   |
