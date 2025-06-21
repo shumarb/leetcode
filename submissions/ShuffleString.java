@@ -7,8 +7,7 @@ class ShuffleString {
         char[] letters = new char[len];
 
         for (int i = 0; i < len; i++) {
-            int index = indices[i];
-            letters[index] = s.charAt(i);
+            letters[indices[i]] = s.charAt(i);
         }
         if (isTest) {
             System.out.println("s: " + s + "\nindices: " + Arrays.toString(indices));
