@@ -4,11 +4,10 @@ class DecodeTheMessage {
     public String decodeMessage(String key, String message) {
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
-        char[] map = new char[26];
         boolean[] checked = new boolean[26];
+        char[] map = new char[26];
         int i = 0;
 
-        Arrays.fill(map, 'X');
         for (char token: key.toCharArray()) {
             if (Character.isLowerCase(token) && !checked[token - 'a']) {
                 if (isTest) {
