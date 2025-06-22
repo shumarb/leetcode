@@ -2,7 +2,7 @@
 
 class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-        if (s.length() == 1) {
+        if (s.length() == 1 || isPalindrome(s)) {
             return s;
         }
 
