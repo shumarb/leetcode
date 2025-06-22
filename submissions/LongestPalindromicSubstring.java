@@ -6,14 +6,14 @@ class LongestPalindromicSubstring {
             return s;
         }
 
-        String longestPalindrome = "";
+        String longestPalindrome = Character.toString(s.charAt(0));
         boolean isTest = false;
         int len = s.length();
 
         for (int i = 0; i < len; i++) {
-            for (int j = i; j < len; j++) {
+            for (int j = i + 1; j < len; j++) {
                 String current = s.substring(i, j + 1);
-                if (isPalindrome(current) && current.length() > longestPalindrome.length()) {
+                if (current.length() > longestPalindrome.length() && isPalindrome(current)) {
                     if (isTest) {
                         System.out.println(" * compare | current: " + current + ", longestPalindrome: "  + longestPalindrome);
                     }
