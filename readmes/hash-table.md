@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 186/706.
+Completed: 187/706.
 
 ## Submissions
 ### Easy
@@ -157,6 +157,7 @@ Completed: 186/706.
 ### Medium
 | Question                                                                                                                                                  | Submission                                                                                                                 | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)          | 0ms     | 100%   |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                        | 1ms     | 100%   |
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java)         | 138ms   | 67.85% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                         | 51ms    | 81.88% |
