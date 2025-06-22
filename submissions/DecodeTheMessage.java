@@ -2,38 +2,47 @@
 
 class DecodeTheMessage {
     public String decodeMessage(String key, String message) {
-        Map<Character, Character> map = new HashMap<>();
-        Set<Character> set = new HashSet<>();
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
+        char[] map = new char[26];
+        boolean[] checked = new boolean[26];
         int i = 0;
 
+        Arrays.fill(map, 'X');
         for (char token: key.toCharArray()) {
-            if (Character.isLowerCase(token) && !set.contains(token)) {
-                set.add(token);
+            if (Character.isLowerCase(token) && !checked[token - 'a']) {
                 if (isTest) {
                     System.out.println(token + " -> " + (char) ('a' + i));
                 }
-                map.put(token, (char) ('a' + i));
-                i++;
+                checked[token - 'a'] = true;
+                map[i++] = token;
             }
         }
 
         for (char token: message.toCharArray()) {
             if (Character.isLowerCase(token)) {
-                result.append(map.get(token));
+                int index = getIndex(map, token);
+                result.append((char) ('a' + index));
             } else {
                 result.append(token);
             }
         }
         if (isTest) {
-            System.out.println("---------------------------------------------");
+            System.out.println("-------------------------------------------------------");
             System.out.println("key: " + key + "\nmessage: " + message);
-            System.out.println("---------------------------------------------");
-            System.out.println("set: " + set + "\nmap: " + map);
-            System.out.println("result: " + result.toString());
+            System.out.println("map: " + Arrays.toString(map));
         }
 
         return result.toString();
+    }
+
+    private int getIndex(char[] map, char letter) {
+        for (int i = 0; i < map.length; i++) {
+            if (map[i] == letter) {
+                return i;
+            }
+        }
+
+        return 'X'; // dummy value.
     }
 }
