@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/217.
+Completed: 69/219.
 
 ## Submissions
 ### Easy
@@ -74,6 +74,7 @@ Completed: 68/217.
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)            | 4ms     | 88.75% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)           | 344ms   | 44.26% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)       | 594ms   | 14.03% |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)             | 860ms   | 6.11%  |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)               | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedListTwo.java) | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)        | 0ms     | 100%   |

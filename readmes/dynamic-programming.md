@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/592.
+Completed: 19/595.
 
 ## Submissions
 ### Easy
@@ -36,5 +36,6 @@ Completed: 18/592.
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)      | 9ms     | 80.63% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)        | 1ms     | 90.84% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)       | 46ms    | 82.48% |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)         | 860ms   | 6.11%  |
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java)   | 36ms    | 82.14% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberTwo.java)                 | 2ms     | 98.25% | 
