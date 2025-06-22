@@ -2,14 +2,16 @@
 
 class DecodeTheMessage {
     public String decodeMessage(String key, String message) {
-        StringBuilder result = new StringBuilder();
         boolean isTest = false;
         boolean[] checked = new boolean[26];
+        char[] result = new char[message.length()];
         char[] map = new char[26];
         int i = 0;
 
         for (char token: key.toCharArray()) {
-            if (Character.isLowerCase(token) && !checked[token - 'a']) {
+            if (token == ' ') {
+                continue;
+            } else if (!checked[token - 'a']) {
                 if (isTest) {
                     System.out.println(token + " -> " + (char) ('a' + i));
                 }
@@ -18,12 +20,12 @@ class DecodeTheMessage {
             }
         }
 
-        for (char token: message.toCharArray()) {
+        for (int j = 0; j < message.length(); j++) {
+            char token = message.charAt(j);
             if (Character.isLowerCase(token)) {
-                int index = getIndex(map, token);
-                result.append((char) ('a' + index));
+                result[j] = (char) ('a' + getIndex(map, token));
             } else {
-                result.append(token);
+                result[j] = token;
             }
         }
         if (isTest) {
@@ -32,7 +34,7 @@ class DecodeTheMessage {
             System.out.println("map: " + Arrays.toString(map));
         }
 
-        return result.toString();
+        return new String(result);
     }
 
     private int getIndex(char[] map, char letter) {
