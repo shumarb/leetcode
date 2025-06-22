@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 199/796.
+Completed: 200/796.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 199/796.
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfConsistentStrings.java)                            | 6ms     | 86.92% |
 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersOne.java)                         | 1ms     | 100%   |
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfVowelStringsInRange.java)                          | 1ms     | 100%   |
+| [Decode the Message](https://leetcode.com/problems/decode-the-message/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecodeTheMessage.java)                                             | 7ms     | 67.84% |
 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecryptStringFromAlphabetToIntegerMapping.java)                    | 1ms     | 79.11% |
 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefangingAnIPAddress.java)                                         | 0ms     | 100%   |
 | [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteCharactersToMakeFancyString.java)                            | 28ms    | 86.02% |
