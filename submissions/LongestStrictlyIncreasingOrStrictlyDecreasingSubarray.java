@@ -5,29 +5,22 @@ class LongestStrictlyIncreasingOrStrictlyDecreasingSubarray {
         int currentDecreasing = 1;
         int currentIncreasing = 1;
         int len = nums.length;
-        int longestDecreasing = 0;
-        int longestIncreasing = 0;
+        int longest = 1;
 
         for (int i = 1; i < len; i++) {
             if (nums[i] > nums[i - 1]) {
                 currentIncreasing++;
-            } else {
-                longestIncreasing = Math.max(currentIncreasing, longestIncreasing);
+                currentDecreasing = 1;
+            } else if (nums[i] < nums[i - 1]) {
                 currentIncreasing = 1;
-            }
-        }
-        longestIncreasing = Math.max(currentIncreasing, longestIncreasing);
-
-        for (int i = 1; i < len; i++) {
-            if (nums[i] < nums[i - 1]) {
                 currentDecreasing++;
             } else {
-                longestDecreasing = Math.max(currentDecreasing, longestDecreasing);
                 currentDecreasing = 1;
+                currentIncreasing = 1;
             }
+            longest = Math.max(longest, Math.max(currentDecreasing, currentIncreasing));
         }
-        longestDecreasing = Math.max(currentDecreasing, longestDecreasing);
 
-        return Math.max(longestDecreasing, longestIncreasing);
+        return longest;
     }
 }
