@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 202/796.
+Completed: 203/796.
 
 ## Submissions
 ### Easy
@@ -139,6 +139,7 @@ Completed: 202/796.
 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeCharactersToMakeTargetString.java)                        | 0ms     | 100%   |
 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeSpacesBetweenWords.java)                                  | 2ms     | 75.99% |
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)                  | 2ms     | 94.26% |
+| [Reformat the String](https://leetcode.com/problems/reformat-the-string/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReformatTheString.java)                                            | 7ms     | 37.55% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)                          | 36ms    | 48.71% |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                              | 1ms     | 49.79% |
 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveTrailingZerosFromAString.java)                               | 1ms     | 100%   |
