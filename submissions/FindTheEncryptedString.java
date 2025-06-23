@@ -4,7 +4,7 @@ class FindTheEncryptedString {
     public String getEncryptedString(String s, int k) {
         boolean isTest = false;
         int len = s.length();
-        char[] result = new char[len];
+        char[] result = s.toCharArray();
 
         for (int i = 0; i < len; i++) {
             result[i] = s.charAt((i + k) % len);
