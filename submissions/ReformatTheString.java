@@ -2,46 +2,47 @@
 
 class ReformatTheString {
     public String reformat(String s) {
-        Stack<Character> digitsStack = new Stack<>();
-        Stack<Character> lettersStack = new Stack<>();
-        StringBuilder result = new StringBuilder();
+        List<Character> digits = new ArrayList<>();
+        List<Character> letters = new ArrayList<>();
+        char[] result;
         boolean isTest = false;
 
         for (char token: s.toCharArray()) {
             if (Character.isDigit(token)) {
-                digitsStack.push(token);
+                digits.add(token);
             } else {
-                lettersStack.push(token);
+                letters.add(token);
             }
         }
         if (isTest) {
-            System.out.println("s: " + s + "\ndigitsStack: " + digitsStack + "\nlettersStack: " + lettersStack);
+            System.out.println("s: " + s + "\ndigits: " + digits + "\nletters: " + letters);
         }
 
-        if (Math.abs(digitsStack.size() - lettersStack.size()) == 1 || Math.abs(digitsStack.size() - lettersStack.size()) == 0) {
-            if (digitsStack.size() > lettersStack.size()) {
-                while (!digitsStack.isEmpty() && !lettersStack.isEmpty()) {
-                    result.append(digitsStack.pop());
-                    result.append(lettersStack.pop());
-                }
-                result.append(digitsStack.pop());
+        if (Math.abs(digits.size() - letters.size()) > 1) {
+            return "";
+        }
+
+        List<Character> first = letters;
+        List<Character> second = digits;
+        if (digits.size() > letters.size()) {
+            first = digits;
+            second = letters;
+        }
+        result = new char[digits.size() + letters.size()];
+        int i = 0;
+        int j = 0;
+        int k = 0;
+        while (i < first.size() || j < second.size()) {
+            if (k % 2 == 0) {
+                result[k++] = first.get(i++);
             } else {
-                while (!digitsStack.isEmpty() && !lettersStack.isEmpty()) {
-                    result.append(lettersStack.pop());
-                    result.append(digitsStack.pop());
-                }
-                if (!digitsStack.isEmpty()) {
-                    result.append(digitsStack.pop());
-                }
-                if (!lettersStack.isEmpty()) {
-                    result.append(lettersStack.pop());
-                }
+                result[k++] = second.get(j++);
             }
         }
         if (isTest) {
-            System.out.println("result: " + result.toString());
+            System.out.println("result: " + Arrays.toString(result));
         }
 
-        return result.toString();
+        return new String(result);
     }
 }
