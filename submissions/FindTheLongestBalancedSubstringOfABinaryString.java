@@ -2,26 +2,25 @@
 
 class FindTheLongestBalancedSubstringOfABinaryString {
     public int findTheLongestBalancedSubstring(String s) {
-        char[] bits = s.toCharArray();
+        int i = 0;
         int len = s.length();
         int longest = 0;
-        int i = 0;
 
         while (i < len) {
-            if (bits[i] == '1') {
+            if (s.charAt(i) == '1') {
                 i++;
                 continue;
             }
 
             int countConsecutiveZeroes = 0;
-            while (i < len && bits[i] == '0') {
+            while (i < len && s.charAt(i) == '0') {
                 countConsecutiveZeroes++;
                 i++;
             }
 
             int countConsecutiveOnes = 0;
             int j = i;
-            while (j < len && bits[j] == '1') {
+            while (j < len && s.charAt(j) == '1') {
                 j++;
                 countConsecutiveOnes++;
             }
