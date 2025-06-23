@@ -4,10 +4,9 @@ class LongestStrictlyIncreasingOrStrictlyDecreasingSubarray {
     public int longestMonotonicSubarray(int[] nums) {
         int currentDecreasing = 1;
         int currentIncreasing = 1;
-        int len = nums.length;
         int longest = 1;
 
-        for (int i = 1; i < len; i++) {
+        for (int i = 1; i < nums.length; i++) {
             if (nums[i] > nums[i - 1]) {
                 currentIncreasing++;
                 currentDecreasing = 1;
