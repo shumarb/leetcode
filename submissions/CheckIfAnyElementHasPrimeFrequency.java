@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/
 
-class Solution {
+class CheckIfAnyElementHasPrimeFrequency {
     public boolean checkPrimeFrequency(int[] nums) {
         boolean isTest = false;
         int largest = 0;
@@ -31,7 +31,7 @@ class Solution {
     }
 
     private boolean isPrime(int number) {
-        for (int i = 2; i <= (int) Math.sqrt((double) number); i++) {
+        for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 return false;
             }
