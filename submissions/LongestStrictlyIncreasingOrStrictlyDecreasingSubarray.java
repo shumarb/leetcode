@@ -2,33 +2,31 @@
 
 class LongestStrictlyIncreasingOrStrictlyDecreasingSubarray {
     public int longestMonotonicSubarray(int[] nums) {
-        boolean isTest = false;
+        int currentDecreasing = 1;
+        int currentIncreasing = 1;
         int len = nums.length;
-        int longestDecreasing = 1;
-        int longestIncreasing = 1;
+        int longestDecreasing = 0;
+        int longestIncreasing = 0;
 
-        for (int i = 0; i < len; i++) {
-            int currentIncreasing = 1;
-            for (int j = i + 1; j < len; j++) {
-                if (nums[j] <= nums[j - 1]) {
-                    break;
-                } else {
-                    currentIncreasing++;
-                }
+        for (int i = 1; i < len; i++) {
+            if (nums[i] > nums[i - 1]) {
+                currentIncreasing++;
+            } else {
+                longestIncreasing = Math.max(currentIncreasing, longestIncreasing);
+                currentIncreasing = 1;
             }
-            longestIncreasing = Math.max(longestIncreasing, currentIncreasing);
         }
-        for (int i = 0; i < len; i++) {
-            int currentDecreasing = 1;
-            for (int j = i + 1; j < len; j++) {
-                if (nums[j] >= nums[j - 1]) {
-                    break;
-                } else {
-                    currentDecreasing++;
-                }
+        longestIncreasing = Math.max(currentIncreasing, longestIncreasing);
+
+        for (int i = 1; i < len; i++) {
+            if (nums[i] < nums[i - 1]) {
+                currentDecreasing++;
+            } else {
+                longestDecreasing = Math.max(currentDecreasing, longestDecreasing);
+                currentDecreasing = 1;
             }
-            longestDecreasing = Math.max(longestDecreasing, currentDecreasing);
         }
+        longestDecreasing = Math.max(currentDecreasing, longestDecreasing);
 
         return Math.max(longestDecreasing, longestIncreasing);
     }
