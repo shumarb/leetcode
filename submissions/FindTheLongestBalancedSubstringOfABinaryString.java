@@ -3,6 +3,7 @@
 class FindTheLongestBalancedSubstringOfABinaryString {
     public int findTheLongestBalancedSubstring(String s) {
         boolean isTest = false;
+        char[] bits = s.toCharArray();
         int len = s.length();
         int longest = 0;
 
@@ -11,9 +12,9 @@ class FindTheLongestBalancedSubstringOfABinaryString {
                 System.out.println("-----------------------------------");
             }
             StringBuilder current = new StringBuilder();
-            current.append(s.charAt(i));
+            current.append(bits[i]);
             for (int j = i + 1; j < len; j++) {
-                current.append(s.charAt(j));
+                current.append(bits[j]);
                 if (isTest) {
                     System.out.println(" * check: " + current.toString());
                 }
@@ -44,6 +45,6 @@ class FindTheLongestBalancedSubstringOfABinaryString {
             }
         }
 
-        return countOne > 0 && countZero > 0 && countOne == countZero;
+        return countOne == countZero;
     }
 }
