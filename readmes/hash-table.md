@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 188/706.
+Completed: 189/708.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 188/706.
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckWhetherTwoStringsAreAlmostEquivalent.java)              | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)       | 1ms     | 99.69% |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllTheIntegersInARangeAreCovered.java)                | 0ms     | 100%   |
+| [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)                     | 1ms     | 100%   |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayIsGood.java)                                     | 2ms     | 74.84% |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)             | 4ms     | 92.01% |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)      | 0ms     | 100%   |

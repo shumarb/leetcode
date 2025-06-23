@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 356/1933.
+Completed: 357/1943.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 356/1933.
 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTwoStringArraysAreEquivalent.java)                       | 0ms     | 100%   |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.java)           | 0ms     | 100%   |
 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllTheIntegersInARangeAreCovered.java)                   | 0ms     | 100%   |
+| [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)                        | 1ms     | 100%   |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayIsGood.java)                                        | 2ms     | 74.84% |
 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfBitwiseOrHasTrailingZeros.java)                          | 0ms     | 100%   |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)                | 4ms     | 92.01% |

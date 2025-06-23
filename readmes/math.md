@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 123/588.
+Completed: 124/591.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 123/588.
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsWithOddValuesInAMatrix.java)                            | 1ms     | 85.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)        | 8ms     | 78.87% |
 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfItIsAStraightLine.java)                               | 0ms     | 100%   |
+| [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)                     | 1ms     | 100%   |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTheNumberIsFascinating.java)                          | 0ms     | 100%   |
 | [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTwoChessboardSquaresHaveTheSameColour.java)           | 0ms     | 100%   |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBinaryNumberInALinkedListToInteger.java)              | 0ms     | 100%   |

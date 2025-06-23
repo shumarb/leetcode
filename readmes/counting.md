@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 67/164.
+Completed: 68/165.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 67/164.
 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestPokerHand.java)                                      | 0ms     | 100%   |
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckWhetherTwoStringsAreAlmostEquivalent.java)          | 0ms     | 100%   |
 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAllCharactersHaveEqualNumberOfOccurrences.java)   | 1ms     | 99.69% |
+| [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)                 | 1ms     | 100%   |
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)  | 0ms     | 100%   |
 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfOneStringSwapCanMakeStringsEqual.java)            | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                  | 6ms     | 89.98% |
