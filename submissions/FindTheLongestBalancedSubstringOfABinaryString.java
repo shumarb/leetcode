@@ -2,49 +2,36 @@
 
 class FindTheLongestBalancedSubstringOfABinaryString {
     public int findTheLongestBalancedSubstring(String s) {
-        boolean isTest = false;
         char[] bits = s.toCharArray();
         int len = s.length();
         int longest = 0;
+        int i = 0;
 
-        for (int i = 0; i < len; i++) {
-            if (isTest) {
-                System.out.println("-----------------------------------");
+        while (i < len) {
+            if (bits[i] == '1') {
+                i++;
+                continue;
             }
-            StringBuilder current = new StringBuilder();
-            current.append(bits[i]);
-            for (int j = i + 1; j < len; j++) {
-                current.append(bits[j]);
-                if (isTest) {
-                    System.out.println(" * check: " + current.toString());
-                }
-                if (isBalanced(current.toString())) {
-                    longest = Math.max(current.length(), longest);
-                    if (isTest) {
-                        System.out.println(" ** valid: " + current.toString() + ", after compare, longest: " + longest);
-                    }
-                }
+
+            int countConsecutiveZeroes = 0;
+            while (i < len && bits[i] == '0') {
+                countConsecutiveZeroes++;
+                i++;
             }
+
+            int countConsecutiveOnes = 0;
+            int j = i;
+            while (j < len && bits[j] == '1') {
+                j++;
+                countConsecutiveOnes++;
+            }
+
+            int validLength = Math.min(countConsecutiveOnes, countConsecutiveZeroes);
+            longest = Math.max(longest, validLength * 2);
+
+            i = j;
         }
 
         return longest;
-    }
-
-    private boolean isBalanced(String current) {
-        int countOne = 0;
-        int countZero = 0;
-        for (int i = 0; i < current.length(); i++) {
-            char c = current.charAt(i);
-            if (i + 1 < current.length() && c == '1' && current.charAt(i + 1) == '0') {
-                return false;
-            }
-            if (c == '0') {
-                countZero++;
-            } else {
-                countOne++;
-            }
-        }
-
-        return countOne == countZero;
     }
 }
