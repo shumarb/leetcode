@@ -24,9 +24,7 @@ class FindTheLongestBalancedSubstringOfABinaryString {
                 j++;
                 countConsecutiveOnes++;
             }
-
-            int validLength = Math.min(countConsecutiveOnes, countConsecutiveZeroes);
-            longest = Math.max(longest, validLength * 2);
+            longest = Math.max(longest, 2 * Math.min(countConsecutiveOnes, countConsecutiveZeroes));
 
             i = j;
         }
