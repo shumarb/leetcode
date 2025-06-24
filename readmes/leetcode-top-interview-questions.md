@@ -20,3 +20,8 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                     | 0ms     | 100%   |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                    | 1ms     | 99.93% |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                          | 2ms     | 98.93% |
+
+### String
+| Question                                                                                                       | Submission                                                                             | Runtime | Rank   |
+|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
+| [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)   | 0ms     | 100%   |
