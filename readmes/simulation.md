@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/182.
+Completed: 61/182.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 60/182.
 | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PassThePillow.java)                                    | 0ms     | 100%   |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
+| [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StoneRemovalGame.java)                                 | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDigitsOfStringAfterConvert.java)                  | 0ms     | 100%   |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                   | 3ms     | 83.20% |
