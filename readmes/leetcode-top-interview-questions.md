@@ -22,7 +22,8 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                          | 2ms     | 98.93% |
 
 ### Strings
-| Question                                                                      | Submission                                                                            | Runtime | Rank   |
-|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|--------|
-| [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java) | 0ms     | 100%   |
-| [Reverse String](https://leetcode.com/problems/reverse-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)  | 0ms     | 100%   |
+| Question                                                                                                                                            | Submission                                                                                                       | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheIndexOfTheFirstOccurrenceInAString.java) | 0ms     | 100%   |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                            | 0ms     | 100%   |
+| [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)                             | 0ms     | 100%   |
