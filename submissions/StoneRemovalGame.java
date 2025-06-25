@@ -2,24 +2,20 @@
 
 class StoneRemovalGame {
     public boolean canAliceWin(int n) {
-        List<Integer> list = new ArrayList<>();
         boolean isTest = false;
-        int countRemoval = 10;
-        list.add(n);
+        int count = 0;
+        int nCopy = n;
+        int removal = 10;
 
-        while (true) {
-            int remainder = list.get(list.size() - 1);
-            if (remainder - countRemoval < 0) {
-                break;
-            } else {
-                list.add(remainder - countRemoval);
-                countRemoval--;
-            }
+        while (nCopy - removal >= 0) {
+            nCopy -= removal;
+            removal--;
+            count++;
         }
         if (isTest) {
-            System.out.println("list: " + list);
+            System.out.println("n: " + n + "\ncount: " + count);
         }
 
-        return list.size() % 2 == 1 ? false : true;
+        return count % 2 == 0 ? false : true;
     }
 }
