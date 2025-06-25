@@ -30,7 +30,7 @@ Completed: 43/75.
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubtreeOfAnotherTree.java)      | 2ms     | 97.86% |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                    | 2ms     | 98.81% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)              | 1ms     | 99.65% |
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindrome.java)           | 2ms     | 99.08% |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindrome.java)           | 2ms     | 98.56% |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)          | 2ms     | 97.66% |
 
 ### Medium
