@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/75.
+Completed: 40/75.
 
 ## Submissions
 | #  | Question                                                                                                                                   | Submission                                                                                                       | Runtime | Rank   |
@@ -45,6 +45,7 @@ Completed: 39/75.
 | 51 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                | 0ms     | 100%   |
 | 55 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                              | 0ms     | 100%   |
 | 57 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                   | 1ms     | 71.42% |
+| 58 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)               | 594ms   | 14.03% |
 | 62 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)                         | 4ms     | 71.29% |
 | 64 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)                  | 0ms     | 100%   |
 | 65 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                         | 10ms    | 88.34% |
