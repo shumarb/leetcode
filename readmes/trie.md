@@ -14,14 +14,14 @@ Completed: 7/57.
 
 ## Submissions
 ### Easy
-| Question                                                                                                      | Submission                                                                                               | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java) | 2ms     | 99.94% |
-| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)          | 1ms     | 64.40% |
+| Question                                                                                                      | Submission                                                                                            | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java)   | 2ms     | 99.94% |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)            | 1ms     | 64%    |
 
 ### Medium
-| Question                                                                                                                            | Submission                                                                                                       | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                            | Submission                                                                                                  | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java) | 162ms   | 95.96% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)             | 46ms    | 87.58% | 
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                 | 33ms    | 85.89% | 

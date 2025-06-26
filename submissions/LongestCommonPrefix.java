@@ -1,43 +1,42 @@
 // Question: https://leetcode.com/problems/longest-common-prefix/description/
 
 class LongestCommonPrefix {
-    private boolean t = false;
-
     public String longestCommonPrefix(String[] strs) {
-        StringBuilder sb = new StringBuilder();
-        String shortest = findShortest(strs);
-        if (t) {
-            System.out.println("strs: " + Arrays.toString(strs));
-            System.out.println("shortest: " + shortest);
-        }
+        String shortest = getShortest(strs);
+        StringBuilder result = new StringBuilder();
+        boolean isTest = false;
+
         for (int i = 0; i < shortest.length(); i++) {
-            boolean result = update(shortest, i, strs);
-            if (!result) {
-                break;
+            char letter = shortest.charAt(i);
+            if (isCommonPrefix(i, letter, strs)) {
+                result.append(letter);
             } else {
-                sb.append(shortest.charAt(i));
+                break;
             }
         }
-        if (t) {
-            System.out.println("final result: " + sb.toString());
+        if (isTest) {
+            System.out.println("strs: " + Arrays.toString(strs));
+            System.out.println("shortest: " + shortest);
+            System.out.println("result: " + result.toString());
         }
-        return sb.toString();
+
+        return result.toString();
     }
 
-    private boolean update(String shortest, int i, String[] strs) {
-        for (String word: strs) {
-            if (word.charAt(i) != shortest.charAt(i)) {
+    private boolean isCommonPrefix(int i, char letter, String[] strs) {
+        for (String str: strs) {
+            if (str.charAt(i) != letter) {
                 return false;
             }
         }
         return true;
     }
 
-    private String findShortest(String[] strs) {
-        String shortest = strs[0];
-        for (String x: strs) {
-            if (x.length() < shortest.length()) {
-                shortest = x;
+    private String getShortest(String[] arr) {
+        String shortest = arr[0];
+        for (String s: arr) {
+            if (s.length() < shortest.length()) {
+                shortest = s;
             }
         }
         return shortest;
