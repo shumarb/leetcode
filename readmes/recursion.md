@@ -14,8 +14,8 @@ Completed: 16/47.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                        | Submission                                                                                                     | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                        | Submission                                                                                                | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                    | 0ms     | 100%   |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthCharacterInStringGameOne.java) | 4ms     | 56.59% |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)                | 0ms     | 100%   |

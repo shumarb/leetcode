@@ -31,3 +31,8 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)                             | 0ms     | 100%   |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)                              | 1ms     | 99.65% |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindrome.java)                           | 2ms     | 98.56% |
+
+## Linked List
+| Question                                                                                                                           | Submission                                                                                               | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)                 | 0ms     | 100%   |
