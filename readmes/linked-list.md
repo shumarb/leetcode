@@ -58,7 +58,7 @@ Completed: 38/81.
 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwappingNodesInALinkedList.java)                  | 2ms     | 53.34% |
 
 ### Hard
-| Question                                                                                        | Submission                                                                                       | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)    | 4ms     | 74%  |
+| Question                                                                                        | Submission                                                                                  | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)    | 4ms     | 74%    |
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java) | 1ms     | 30.85% |
