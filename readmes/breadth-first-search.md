@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/239.
+Completed: 33/245.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                                            | Submission                                                                                                                        | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                                            | Submission                                                                                                                   | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageOfLevelsInBinaryTree.java)                           | 2ms     | 94.44% |
 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CousinsInBinaryTree.java)                                   | 1ms     | 26.22% |
 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java) | 1ms     | 98.35% |
@@ -35,8 +35,8 @@ Completed: 32/239.
 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UnivaluedBinaryTree.java)                                   | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                    | Submission                                                                                                           | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                    | Submission                                                                                                      | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)            | 1ms     | 89.68% |
 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversalTwo.java)         | 1ms     | 93.85% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                  | 1ms     | 71.44% |
@@ -44,6 +44,7 @@ Completed: 32/239.
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                       | 4ms     | 99.25% |
 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenOddTree.java)                              | 17ms    | 23.05% |
+| [Find Eventual Safe States](https://leetcode.com/problems/ind-eventual-safe-states/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                   | 4ms     | 98.69% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)            | 2ms     | 80.79% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)               | 45ms    | 83.54% |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)             | 8ms     | 89.06% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/324.
+Completed: 45/328.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 44/324.
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java)     | 162ms   | 95.96% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                       | 4ms     | 99.25% |
+| [Find Eventual Safe States](https://leetcode.com/problems/ind-eventual-safe-states/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                   | 4ms     | 98.69% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)            | 2ms     | 80.79% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                 | 0ms     | 100%   |

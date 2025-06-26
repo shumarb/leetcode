@@ -10,17 +10,18 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/158.
+Completed: 6/167.
 
 ## Submissions
 ### Easy
-| Question                                                                                                | Submission                                                                                           | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                | Submission                                                                                      | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCenterOfStarGraph.java)    | 3ms     | 34.14% |
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfPathExistsInG-raph.java) | 53ms    | 88.29% |
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)         | 2ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                  | Submission                                                                                                         | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                  | Submission                                                                                                    | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Eventual Safe States](https://leetcode.com/problems/ind-eventual-safe-states/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                 | 4ms     | 98.69% |
 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfVerticesToReachAllNodes.java) | 8ms     | 99.23% |
