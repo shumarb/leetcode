@@ -11,51 +11,53 @@
  * }
  */
 class RemoveNthNodeFromEndOfList {
-    private boolean isTest = false;
-
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode current = head;
-        int total = displayAndGetTotalNodes(head);
+        boolean isTest = false;
+        int total = 0;
 
+        while (current != null) {
+            total++;
+            current = current.next;
+        }
         if (isTest) {
-            System.out.println("total: " + total + "\nn: " + n);
+            System.out.println("n: " + n + "\ntotal: " + total);
+            display("before, list: ", head);
+            System.out.println("---------------------------------------------");
         }
 
-        // 1. Removal of first element.
+        // 1. Edge case: Delete first node.
         if (n == total) {
             head = head.next;
-        } else {
-            int count = 0;
-            while (current != null) {
-                count++;
-                if (count == (total - n)) {
-                    current.next = current.next.next;
-                }
-                current = current.next;
-            }
+            return head;
         }
 
+        int count = 0;
+        current = head;
+        while (current != null) {
+            count++;
+            if (count == total - n) {
+                current.next = current.next.next;
+            }
+            current = current.next;
+        }
         if (isTest) {
-            total = displayAndGetTotalNodes(head);
+            display("after, list: ", head);
         }
 
         return head;
     }
 
-    private int displayAndGetTotalNodes(ListNode head) {
-        int total = 0;
+    private void display(String sentence, ListNode head) {
+        System.out.print(sentence);
         ListNode current = head;
         while (current != null) {
-            if (isTest) {
+            if (current.next == null) {
+                System.out.println(current.val);
+            } else {
                 System.out.print(current.val + " -> ");
             }
-            total++;
             current = current.next;
         }
-        if (isTest) {
-            System.out.println("null");
-        }
-
-        return total;
     }
 }

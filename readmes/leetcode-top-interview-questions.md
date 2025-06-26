@@ -4,6 +4,7 @@
 This folder contains my solutions to the [LeetCode Top Interview Questions (Easy Collection)](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) problem list,
 with entries sorted by:
 - Question topic.
+- Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
 
@@ -33,6 +34,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindrome.java)                           | 2ms     | 98.56% |
 
 ## Linked List
-| Question                                                                                                                           | Submission                                                                                               | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)                 | 0ms     | 100%   |
+| Question                                                                                                        | Submission                                                                                        | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java) | 0ms     | 100%   |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)          | 0ms     | 100%   |
