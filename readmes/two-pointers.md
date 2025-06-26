@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 69/219.
+Completed: 70/219.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 69/219.
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfStringIsAPrefixOfArray.java)                   | 1ms     | 87.61% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100%   |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
+| [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                   | 4ms     | 6.06%  |
 | [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllKDistantIndicesInAnArray.java)                 | 29ms    | 31.29% |
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIndicesWithIndexAndValueDifferenceOne.java)       | 1ms     | 99.01% |
