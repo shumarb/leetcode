@@ -28,8 +28,8 @@ Completed: 16/47.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)            | 7ms     | 17.93% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                            | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                  | Submission                                                                                       | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)             | 1ms     | 100%   |
 | [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EliminationGame.java)           | 1ms     | 100%   |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
