@@ -3,9 +3,9 @@
 class FindEventualSafeStates {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         List<Integer> result = new ArrayList<>();
+        boolean isTest = false;
         int len = graph.length;
         int[] safety = new int[len]; // 0: unvisted, 1: not confirmed; 2: safe.
-        boolean isTest = false;
 
         for (int i = 0; i < len; i++) {
             if (isSafe(i, graph, safety)) {
