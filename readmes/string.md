@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 204/797.
+Completed: 205/797.
 
 ## Submissions
 ### Easy
@@ -20,6 +20,7 @@ Completed: 204/797.
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddStrings.java)                                                   | 2ms     | 61.51% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                                       | 1ms     | 78.15% |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BaseballGame.java)                                                 | 2ms     | 96.48% |
+| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePaths.java)                                              | 2ms     | 79.95% |
 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuddyStrings.java)                                                 | 1ms     | 99.49% |
 | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CapitalizeTheTitle.java)                                           | 3ms     | 88.41% |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckedBalancedString.java)                                        | 1ms     | 99.21% |

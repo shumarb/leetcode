@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/177.
+Completed: 47/177.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 46/177.
 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageOfLevelsInBinaryTree.java)                           | 2ms     | 94.44% |
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalancedBinaryTree.java)                                    | 0ms     | 100%   |
 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeInorderTraversal.java)                            | 0ms     | 100%   |
+| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePaths.java)                                       | 2ms     | 79.95% |
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePreorderTraversal.java)                           | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePostorderTraversal.java)                          | 0ms     | 100%   |
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                                | 0ms     | 100%   |
