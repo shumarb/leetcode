@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/150.
+Completed: 63/150.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 62/150.
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                | 3ms     | 98.86% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                  | 0ms     | 100%   |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                | 30ms    | 73.18% |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)               | 594ms   | 14.03% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                    | 1ms     | 90.84% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                            | 7ms     | 97.71% |
