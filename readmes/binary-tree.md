@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/177.
+Completed: 48/177.
 
 ## Submissions
 ### Easy
@@ -65,5 +65,6 @@ Completed: 47/177.
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNode.java)    | 3ms     | 35.47% |
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNodeTwo.java) | 2ms     | 37.45% |
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)             | 0ms     | 100%   |
+| [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)           | 2ms     | 87.95% |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                     | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                 | 0ms     | 100%   |  
