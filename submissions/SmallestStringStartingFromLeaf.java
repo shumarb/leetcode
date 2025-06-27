@@ -38,14 +38,15 @@ class SmallestStringStartingFromLeaf {
 
         /**
          1.  String from root to leaf formed,
-         compare result with reverse of this string and up,
-         and update result accordingly.
+             compare result with reverse of this string and up,
+             and update result accordingly.
          */
         if (current.left == null && current.right == null) {
             String leafToRoot = rootToLeaf.reverse().toString();
 
-            // 2. Reverse path as it's currently from root to leaf when it should be leaf to root.
+            // 2. Reverse rootToLeaf because when creating leaftToRoot, rootToLeaf was reversed.
             rootToLeaf.reverse();
+
             if (isTest) {
                 System.out.println(" * rootToLeaf: " + rootToLeaf + " -> leafToRoot: " + leafToRoot);
                 System.out.println(" * before, result: " + result);
@@ -61,11 +62,10 @@ class SmallestStringStartingFromLeaf {
 
         /**
          3.  Leaf not reached, so continue traverse its left and right children (if any)
-         until leaf is reached, then backtrack set rootToLeaf to its state before the traversal.
+             until leaf is reached, then backtrack set rootToLeaf to its state before the traversal.
          */
         findSmallestFromLeaf(current.left, rootToLeaf);
         findSmallestFromLeaf(current.right, rootToLeaf);
         rootToLeaf.setLength(len);
-
     }
 }

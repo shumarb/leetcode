@@ -21,4 +21,4 @@ Completed: 2/108.
 ### Medium
 | Question                                                                                                            | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java) | 2ms     | 87.95% |
+| [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java) | 1ms     | 99.86% |
