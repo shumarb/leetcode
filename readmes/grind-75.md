@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/75.
+Completed: 41/75.
 
 ## Submissions
 | #  | Question                                                                                                                                   | Submission                                                                                                       | Runtime | Rank   |
@@ -41,6 +41,7 @@ Completed: 40/75.
 | 45 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                              | 92ms    | 78.28% |
 | 46 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                           | 2ms     | 99.80% |
 | 47 | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddBinary.java)                                 | 2ms     | 99.94% |
+| 48 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiameterOfBinaryTree.java)                      | 0ms     | 100%   |
 | 49 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MiddleOfTheLinkedList.java)                     | 0ms     | 100%   |
 | 51 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                | 0ms     | 100%   |
 | 55 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                              | 0ms     | 100%   |
