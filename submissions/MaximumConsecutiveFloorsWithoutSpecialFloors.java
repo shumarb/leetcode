@@ -23,6 +23,5 @@ class MaximumConsecutiveFloorsWithoutSpecialFloors {
 
         // 4. Check for number of consecutive non-special floors between the special floors.
         return Math.max(maxConsecutive, top - special[len - 1]);
-
     }
 }
