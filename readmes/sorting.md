@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 105/455.
+Completed: 106/455.
 
 ## Submissions
 ### Easy
@@ -101,6 +101,7 @@ Completed: 105/455.
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                     | 45ms    | 83.54% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)              | 11ms    | 65.35% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                             | 12ms    | 38.35% |
+| [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)   | 31ms    | 51.55% |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                     | 11ms    | 93.10% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                            | 6ms     | 88.17% |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                       | 9ms     | 80.63% |
