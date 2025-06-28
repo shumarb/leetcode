@@ -20,7 +20,7 @@ class SumOfRootToLeafBinaryNumber {
     private int sum = 0;
 
     public int sumRootToLeaf(TreeNode root) {
-        traverse(root, new StringBuilder());
+        traverse(root, 0);
         if (isTest) {
             System.out.println("------------------------------");
             System.out.println("sum: " + sum);
@@ -29,41 +29,20 @@ class SumOfRootToLeafBinaryNumber {
         return sum;
     }
 
-    private void traverse(TreeNode node, StringBuilder path) {
+    private void traverse(TreeNode node, int current) {
         if (node == null) {
             return;
         }
 
-        int len = path.length();
-        path.append(node.val);
-
+        current = current * 2 + node.val;
         if (node.left == null && node.right == null) {
-            int value = computeSum(path.toString());
             if (isTest) {
-                System.out.println(" * root-to-leaf path: " + path + " -> value: " + value);
+                System.out.println(" * current: " + current);
             }
-            sum += value;
-        } else {
-            traverse(node.left, path);
-            traverse(node.right, path);
+            sum += current;
         }
 
-        path.setLength(len);
-    }
-
-    private int computeSum(String binary) {
-        double power = 0;
-        double sum = 0;
-        int i = binary.length() - 1;
-
-        while (i >= 0) {
-            if (binary.charAt(i) == '1') {
-                sum += Math.pow(2.0, power);
-            }
-            i--;
-            power++;
-        }
-
-        return (int) sum;
+        traverse(node.left, current);
+        traverse(node.right, current);
     }
 }
