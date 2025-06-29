@@ -16,7 +16,6 @@
  * }
  */
 class PathSumThree {
-    private boolean isTest = false;
     private int count = 0;
 
     public int pathSum(TreeNode root, int targetSum) {
@@ -35,31 +34,22 @@ class PathSumThree {
             if (current.right != null) {
                 stack.push(current.right);
             }
-            findPath(current, (long) targetSum, new ArrayList<>());
-        }
-        if (isTest) {
-            System.out.println("-----------------------------------------");
-            System.out.println("count: " + count);
+            findPath(current, (long) targetSum);
         }
 
         return count;
     }
 
-    private void findPath(TreeNode node, long targetSum, List<Integer> path) {
+    private void findPath(TreeNode node, long targetSum) {
         if (node == null) {
             return;
         }
 
-        path.add(node.val);
         if ((long) node.val == targetSum) {
-            if (isTest) {
-                System.out.println(" * valid path: " + path);
-            }
             count++;
         }
 
-        findPath(node.left, (long) (targetSum - node.val), path);
-        findPath(node.right, (long) (targetSum - node.val), path);
-        path.remove(path.size() - 1);
+        findPath(node.left, targetSum - node.val);
+        findPath(node.right, targetSum - node.val);
     }
 }
