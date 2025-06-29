@@ -18,14 +18,11 @@ class FindAllLonelyNumbersInTheArray {
         }
 
         for (int number: nums) {
-            int left = number - 1;
-            int right = number + 1;
-
             if (numberFrequency[number] == 1) {
                 // 1. Edge case: number == 0.
-                if (number == 0 && numberFrequency[right] == 0) {
+                if (number == 0 && numberFrequency[number + 1] == 0) {
                     result.add(number);
-                } else if (number != 0 && numberFrequency[left] == 0 && numberFrequency[right] == 0) {
+                } else if (number != 0 && numberFrequency[number - 1] == 0 && numberFrequency[number + 1] == 0) {
                     result.add(number);
                 }
             }
