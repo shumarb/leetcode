@@ -21,5 +21,5 @@ Completed: 3/108.
 ### Medium
 | Question                                                                                                            | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)         | 3ms     | 31.38% |
+| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)         | 0ms     | 100%   |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java) | 1ms     | 99.86% |
