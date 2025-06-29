@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/206.
+Completed: 25/206.
 
 ## Submissions
 ### Easy
@@ -34,13 +34,14 @@ Completed: 24/206.
 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)              | 2ms     | 66.79% |
 
 ### Medium
-| Question                                                                                                                    | Submission                                                                                               | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)       | 51ms    | 81.88% |
-| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)          | 5ms     | 88.83% |
-| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java) | 11ms    | 99.39% |
-| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)            | 1ms     | 99.72% |
-| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)          | 2ms     | 89.32% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                  | 2490ms  | 5.01%  |
-| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)              | 21ms    | 99.89% |
-| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)          | 4ms     | 99.98% |
+| Question                                                                                                                        | Submission                                                                                                | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)        | 51ms    | 81.88% |
+| [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)           | 5ms     | 88.83% |
+| [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)  | 11ms    | 99.39% |
+| [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java) | 2ms     | 98.84% |
+| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)             | 1ms     | 99.72% |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)           | 2ms     | 89.32% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                   | 2490ms  | 5.01%  |
+| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)               | 21ms    | 99.89% |
+| [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)           | 4ms     | 99.98% |
