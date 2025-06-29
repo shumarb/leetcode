@@ -16,63 +16,52 @@
  * }
  */
 class PathSumTwo {
-    private List<List<Integer>> result;
+    private List<List<Integer>> result = new ArrayList<>();
     private boolean isTest = false;
-    private int targetSum;
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
-        boolean isTest = true;
         result = new ArrayList<>();
-        this.targetSum = targetSum;
 
         // 1. Edge case: 0 nodes in tree.
         if (root == null) {
             return result;
         }
 
-        traverse(root, new ArrayList<>());
+        findPath(root, targetSum, new ArrayList<>());
         if (isTest) {
+            System.out.println("----------------------------------");
             System.out.println("result: " + result);
         }
 
         return result;
     }
 
-    private void traverse(TreeNode current, List<Integer> list) {
-        if (current == null) {
+    private void findPath(TreeNode node, int targetSum, List<Integer> path) {
+        if (node == null) {
             return;
         }
 
-        list.add(current.val);
-        if (current.left == null && current.right == null) {
-            int sum = 0;
-            for (int number: list) {
-                sum += number;
-            }
-            if (sum == targetSum) {
-                List<Integer> toAdd = new ArrayList<>();
-                for (int number: list) {
-                    toAdd.add(number);
-                }
-                result.add(toAdd);
-            }
+        path.add(node.val);
+        if (node.left == null && node.right == null) {
             if (isTest) {
-                System.out.println("root to leaf path: " + list);
-                if (sum == targetSum) {
-                    System.out.println(" * valid: " + list);
-                }
-                System.out.println("---------------------------------------");
+                System.out.println("----------------------------------");
+                System.out.println("path: " + path);
             }
-
+            if (targetSum == node.val) {
+                if (isTest) {
+                    System.out.println(" *** valid *** ");
+                }
+                result.add(new ArrayList<>(path));
+            }
         } else {
-            traverse(current.left, list);
-            traverse(current.right, list);
+            findPath(node.left, targetSum - node.val, path);
+            findPath(node.right, targetSum - node.val, path);
         }
 
         /**
          1.  Backtrack by removing latest entry in current recursive call
              to restore state of list as per previous recursive call.
          */
-        list.remove(list.size() - 1);
+        path.remove(path.size() - 1);
     }
 }
