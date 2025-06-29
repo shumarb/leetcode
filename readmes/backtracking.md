@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/108.
+Completed: 3/108.
 
 ## Submissions
 ### Easy
@@ -21,4 +21,5 @@ Completed: 2/108.
 ### Medium
 | Question                                                                                                            | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)         | 3ms     | 31.38% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java) | 1ms     | 99.86% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 362/1943.
+Completed: 363/1943.
 
 ## Submissions
 ### Easy
@@ -308,6 +308,7 @@ Completed: 362/1943.
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                                 | 0ms     | 100%   |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                                 | 0ms     | 100%   |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                                  | 44ms    | 93.03% |
+| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                          | 3ms     | 31.38% |
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                               | 7ms     | 83.98% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                                          | 4ms     | 88.75% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                                          | 79ms    | 50.60% |
