@@ -20,8 +20,6 @@ class PathSumTwo {
     private boolean isTest = false;
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
-        result = new ArrayList<>();
-
         // 1. Edge case: 0 nodes in tree.
         if (root == null) {
             return result;
@@ -53,13 +51,14 @@ class PathSumTwo {
                 }
                 result.add(new ArrayList<>(path));
             }
+
         } else {
             findPath(node.left, targetSum - node.val, path);
             findPath(node.right, targetSum - node.val, path);
         }
 
         /**
-         1.  Backtrack by removing latest entry in current recursive call
+         2.  Backtrack by removing latest entry in current recursive call
              to restore state of list as per previous recursive call.
          */
         path.remove(path.size() - 1);
