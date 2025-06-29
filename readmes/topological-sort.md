@@ -16,4 +16,4 @@ Completed: 1/36.
 ### Medium
 | Question                                                                                          | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)         | 4ms     | 98.69% |
+| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)         | 3ms     | 99.90% |

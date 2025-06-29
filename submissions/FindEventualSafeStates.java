@@ -8,7 +8,7 @@ class FindEventualSafeStates {
         int[] safety = new int[len]; // 0: unvisted, 1: not confirmed; 2: safe.
 
         for (int i = 0; i < len; i++) {
-            if (isSafe(i, graph, safety)) {
+            if (safety[i] == 2 || safety[i] == 0 && isSafe(i, graph, safety)) {
                 result.add(i);
             }
         }
