@@ -65,4 +65,4 @@ Completed: 42/308.
 | Question                                                                                            | Submission                                                                                     | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)     | 0ms     | 100%   |
-| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 46ms    | 86.32% |
+| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 43ms    | 83.32% |
