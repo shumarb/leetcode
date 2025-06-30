@@ -93,5 +93,5 @@ Completed: 71/219.
 ### Hard
 | Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 8ms     | 37.63% |
+| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 7ms     | 81.55% |
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                | 92ms    | 78.28% |

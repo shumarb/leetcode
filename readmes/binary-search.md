@@ -64,6 +64,6 @@ Completed: 43/308.
 ### Hard
 | Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 8ms     | 37.63% |
+| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 7ms     | 81.55% |
 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)         | 0ms     | 100%   |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)     | 43ms    | 83.32% |
