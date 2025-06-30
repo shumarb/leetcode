@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 191/708.
+Completed: 192/708.
 
 ## Submissions
 ### Easy
@@ -208,6 +208,7 @@ Completed: 191/708.
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                   | 6ms     | 98%    | 
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
+| [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                         | 14ms    | 45.41% |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                     | Runtime | Rank   |

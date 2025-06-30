@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 207/797.
+Completed: 208/797.
 
 ## Submissions
 ### Easy
@@ -228,3 +228,4 @@ Completed: 207/797.
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                         | 8ms     | 87.71% |
 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsInAString.java)                               | 74ms    | 27.49% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                 | 6ms     | 98%    | 
+| [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                       | 14ms    | 45.41% |
