@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 193/708.
+Completed: 194/708.
 
 ## Submissions
 ### Easy
@@ -126,6 +126,7 @@ Completed: 193/708.
 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEquivalentDominoPairs.java)                          | 3ms     | 82.93% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodPairs.java)                                      | 0ms     | 100%   |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfUnequalTripletsInArray.java)                         | 5ms     | 85.76% |
+| [Path Crossing](https://leetcode.com/problems/path-crossing/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathCrossing.java)                                           | 5ms     | 68.83% |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationDifferenceBetweenTwoStrings.java)                 | 1ms     | 100%   |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)                            | 2ms     | 74.65% |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
