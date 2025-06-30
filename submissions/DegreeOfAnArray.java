@@ -35,7 +35,6 @@ class DegreeOfAnArray {
             System.out.println("degree: " + degree);
         }
 
-
         for (int number: nums) {
             if (frequency[number] == degree) {
                 result = Math.min(result, lastIndex[number] - firstIndex[number] + 1);
