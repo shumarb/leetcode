@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 70/219.
+Completed: 71/219.
 
 ## Submissions
 ### Easy
@@ -91,6 +91,7 @@ Completed: 70/219.
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)       | 2ms     | 92.54% |
 
 ### Hard
-| Question                                                                                                | Submission                                                                          | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java) | 92ms    | 78.28% |
+| Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
+| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 8ms     | 37.63% |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                | 92ms    | 78.28% |
