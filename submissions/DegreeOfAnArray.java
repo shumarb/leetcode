@@ -2,32 +2,47 @@
 
 class DegreeOfAnArray {
     public int findShortestSubArray(int[] nums) {
-        Map<Integer, Integer> count = new HashMap<>();
-        Map<Integer, Integer> firstIndex = new HashMap<>();
-        Map<Integer, Integer> lastIndex = new HashMap<>();
         boolean isTest = false;
         int degree = 0;
+        int largest = 0;
+        int len = nums.length;
+        int result = Integer.MAX_VALUE;
+        int[] firstIndex;
+        int[] frequency;
+        int[] lastIndex;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int number: nums) {
+            largest = Math.max(largest, number);
+        }
+        firstIndex = new int[largest + 1];
+        frequency = new int[largest + 1];
+        lastIndex = new int[largest + 1];
+        Arrays.fill(firstIndex, -1);
+        Arrays.fill(lastIndex, -1);
+        for (int i = 0; i < len; i++) {
             int number = nums[i];
-            count.put(number, 1 + count.getOrDefault(number, 0));
-            firstIndex.putIfAbsent(number, i);
-            lastIndex.put(number, i);
-            degree = Math.max(degree, count.get(number));
+            if (firstIndex[number] == -1) {
+                firstIndex[number] = i;
+            }
+            lastIndex[number] = i;
+            degree = Math.max(degree, ++frequency[number]);
         }
         if (isTest) {
             System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("count: " + count + "\nfirstIndex: " + firstIndex);
-            System.out.println("lastIndex: " + lastIndex);
+            System.out.println("firstIndex: " + Arrays.toString(firstIndex));
+            System.out.println("lastIndex:  " + Arrays.toString(lastIndex));
+            System.out.println("frequency:  " + Arrays.toString(frequency));
+            System.out.println("degree: " + degree);
         }
 
-        int result = Integer.MAX_VALUE;
-        for (int number: count.keySet()) {
-            if (count.get(number) == degree) {
-                result = Math.min(result, lastIndex.get(number) - firstIndex.get(number) + 1);
+
+        for (int number: nums) {
+            if (frequency[number] == degree) {
+                result = Math.min(result, lastIndex[number] - firstIndex[number] + 1);
             }
         }
         if (isTest) {
+            System.out.println("-----------------------------------------------");
             System.out.println("result: " + result);
         }
 
