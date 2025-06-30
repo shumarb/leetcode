@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/308.
+Completed: 42/308.
 
 ## Submissions
 ### Easy
@@ -62,6 +62,7 @@ Completed: 41/308.
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                    | 2ms     | 92.54% |
 
 ### Hard
-| Question                                                                                    | Submission                                                                                 | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------|--------|
-| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java) | 0ms     | 100%   |
+| Question                                                                                            | Submission                                                                                     | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
+| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)     | 0ms     | 100%   |
+| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 46ms    | 86.32% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/455.
+Completed: 107/457.
 
 ## Submissions
 ### Easy
@@ -127,6 +127,7 @@ Completed: 106/455.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                              | 6ms     | 98%    | 
 
 ### Hard
-| Question                                                                                                | Submission                                                                          | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java) | 92ms    | 78.28% |
+| Question                                                                                                | Submission                                                                                     | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)            | 92ms    | 78.28% |
+| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 46ms    | 86.32% |
