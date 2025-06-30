@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 367/1943.
+Completed: 368/1943.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 367/1943.
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfVowelStringsInRange.java)                       | 1ms     | 100%   |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                             | 0ms     | 100%   |
 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                             | 4ms     | 6.06%  |
+| [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DegreeOfAnArray.java)                                           | 30ms    | 28.32% |
 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteColumnsToMakeSorted.java)                                 | 8ms     | 64.79% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                              | 4ms     | 91.17% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashMap.java)                                                 | 32ms    | 39.02% |
