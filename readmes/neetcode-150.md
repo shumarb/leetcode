@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/150.
+Completed: 65/150.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 64/150.
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)              | 0ms     | 100%   |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)         | 10ms    | 88.34% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)              | 2ms     | 95%    |
+| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiameterOfBinaryTree.java)      | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HappyNumber.java)               | 0ms     | 100%   |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvertBinaryTree.java)          | 0ms     | 100%   |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargest.java)                | 21ms    | 54.99% |
