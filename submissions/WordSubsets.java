@@ -50,7 +50,7 @@ class WordSubsets {
 
     private boolean isUniversal(int[] word2Frequency, int[] word1Frequency) {
         for (int i = 0; i < 26; i++) {
-            if (word2Frequency[i] > 0 && word1Frequency[i] < word2Frequency[i]) {
+            if (word1Frequency[i] < word2Frequency[i]) {
                 return false;
             }
         }
