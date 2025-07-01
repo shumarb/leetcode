@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/150.
+Completed: 64/150.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 63/150.
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                    | 4ms     | 88.06% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                             | 7ms     | 65.30% |
+| [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                           | 63ms    | 27.26% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                      | 33ms    | 85.89% | 
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                            | 2ms     | 36.52% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                  | 3ms     | 42.85% |
