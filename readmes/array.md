@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 368/1943.
+Completed: 369/1943.
 
 ## Submissions
 ### Easy
@@ -297,6 +297,7 @@ Completed: 368/1943.
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                                     | 5ms     | 91.76% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                                 | 15ms    | 83.05% |
+| [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                          | 227ms   | 25.39% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)                          | 7ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                                              | 4ms     | 99.25% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                                          | 12ms    | 88.41% |
