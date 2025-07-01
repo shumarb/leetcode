@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 195/708.
+Completed: 196/708.
 
 ## Submissions
 ### Easy
@@ -185,6 +185,7 @@ Completed: 195/708.
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                           | 143ms   | 51.44% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                        | 153ms   | 42.29% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                       | 7ms     | 65.30% |
+| [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                     | 63ms    | 27.26% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 93.59% |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)    | 102ms   | 86.78% |

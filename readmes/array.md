@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 369/1943.
+Completed: 370/1943.
 
 ## Submissions
 ### Easy
@@ -320,6 +320,7 @@ Completed: 369/1943.
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                    | 153ms   | 42.29% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 7ms     | 65.30% |
+| [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                                 | 63ms    | 27.26% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                   | 25ms    | 93.59% |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                                  | 2ms     | 36.52% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                                        | 3ms     | 42.85% |
