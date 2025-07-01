@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 209/797.
+Completed: 210/800.
 
 ## Submissions
 ### Easy
@@ -157,6 +157,7 @@ Completed: 209/797.
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseVowelsOfAString.java)                                       | 4ms     | 50.91% |
 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAStringThree.java)                                   | 4ms     | 86.63% |
 | [Rings and Rods](https://leetcode.com/problems/rings-and-rods/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RingsAndRods.java)                                                 | 0ms     | 100%   |
+| [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                                          | 5ms     | 54.67% |
 | [Rotate String](https://leetcode.com/problems/rotate-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateString.java)                                                 | 0ms     | 100%   |
 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreOfAString.java)                                               | 1ms     | 99.49% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                                  | 1ms     | 95.03% |
