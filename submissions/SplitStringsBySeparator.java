@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/split-strings-by-separator/description/
 
-class Solution {
+class SplitStringsBySeparator {
     public List<String> splitWordsBySeparator(List<String> words, char separator) {
         List<String> result = new ArrayList<>();
         boolean isTest = false;
@@ -20,16 +20,16 @@ class Solution {
                         result.add(toAdd.toString());
                     }
                     if (isTest) {
-                        System.out.println(" *** toAdd: " + toAdd.toString());
+                        System.out.println(" * toAdd: " + toAdd.toString());
                     }
-                    toAdd = new StringBuilder();
+                    toAdd.setLength(0);
                 }
             }
             if (toAdd.length() > 0 && toAdd.toString().indexOf(separator) == -1) {
                 result.add(toAdd.toString());
             }
             if (isTest) {
-                System.out.println(" *** toAdd: " + toAdd.toString());
+                System.out.println(" * toAdd: " + toAdd.toString());
             }
             toAdd = new StringBuilder();
         }
