@@ -37,14 +37,12 @@ class GenerateBinaryStringsWithoutAdjacentZeros {
         if (current.length() == n) {
             result.add(current.toString());
         } else {
-            if (current.length() > 0) {
-                last = current.charAt(current.length() - 1);
-                if (last == '0') {
-                    helper('1', current);
-                } else {
-                    helper('0', current);
-                    helper('1', current);
-                }
+            last = current.charAt(current.length() - 1);
+            if (last == '0') {
+                helper('1', current);
+            } else {
+                helper('0', current);
+                helper('1', current);
             }
         }
 
