@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 211/800.
+Completed: 212/800.
 
 ## Submissions
 ### Easy
@@ -206,6 +206,7 @@ Completed: 211/800.
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                 | 7ms     | 83.98% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                | 16ms    | 95.51% |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                         | 143ms   | 51.44% |
+| [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)         | 2ms     | 89.94% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                              | 33ms    | 85.89% | 
 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-longest-alphabetical-continuous-substring/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestAlphabeticalContinuousSubstring.java) | 11ms    | 80.20% |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)  | 102ms   | 86.78% |
