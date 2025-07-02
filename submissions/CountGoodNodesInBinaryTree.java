@@ -16,36 +16,12 @@
  * }
  */
 class CountGoodNodesInBinaryTree {
-    private List<List<Integer>> paths = new ArrayList<>();
+    private boolean isTest = false;
+    private int count = 0;
 
     public int goodNodes(TreeNode root) {
-        boolean isTest = false;
-        int count = 0;
-
         dfs(root, new ArrayList<>());
-        for (List<Integer> path: paths) {
-            boolean isValid = true;
-            int maximum = path.get(path.size() - 1);
-            for (int i = path.size() - 2; i >= 0; i--) {
-                if (path.get(i) > maximum) {
-                    isValid = false;
-                    break;
-                }
-            }
-            if (isValid) {
-                if (isTest) {
-                    System.out.println(" * valid path: " + path);
-                }
-                count++;
-            }
-        }
         if (isTest) {
-            System.out.println("-----------------------------------------");
-            System.out.println("paths:");
-            for (List<Integer> path: paths) {
-                System.out.println(" * " + path);
-            }
-            System.out.println("-----------------------------------------");
             System.out.println("count: " + count);
         }
 
@@ -58,7 +34,13 @@ class CountGoodNodesInBinaryTree {
         }
 
         path.add(node.val);
-        paths.add(new ArrayList<>(path));
+        if (isValid(path)) {
+            if (isTest) {
+                System.out.println(" * valid last node in path: " + path);
+                System.out.println("-------------------------------------");
+            }
+            count++;
+        }
 
         if (node.left != null) {
             dfs(node.left, path);
@@ -66,6 +48,16 @@ class CountGoodNodesInBinaryTree {
         if (node.right != null) {
             dfs(node.right, path);
         }
+
         path.removeLast();
+    }
+
+    private boolean isValid(List<Integer> path) {
+        for (int i = path.size() - 2; i >= 0; i--) {
+            if (path.get(i) > path.get(path.size() - 1)) {
+                return false;
+            }
+        }
+        return true;
     }
 }
