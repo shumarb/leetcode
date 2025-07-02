@@ -21,7 +21,7 @@ Completed: 5/108.
 ### Medium
 | Question                                                                                                            | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)     | 2ms     | 71.50% |
+| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)     | 1ms     | 100%   |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)         | 0ms     | 100%   |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                     | 1ms     | 99.84% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java) | 1ms     | 99.86% |

@@ -1,43 +1,46 @@
 // Question: https://leetcode.com/problems/all-paths-from-source-to-target/description/
 
 class AllPathsFromSourceToTarget {
-    private List<List<Integer>> pathsFromSourceToTarget = new ArrayList<>();
+    private List<List<Integer>> pathsFromSourceToTarget;
 
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         boolean isTest = false;
+        pathsFromSourceToTarget = new ArrayList<>();
 
-        dfs(0, graph, new ArrayList<>());
+        dfs(0, new ArrayList<>(), new boolean[graph.length], graph);
         if (isTest) {
             System.out.println("graph:");
-            for (int[] row: graph) {
-                System.out.println(Arrays.toString(row));
+            for (int i = 0; i < graph.length; i++) {
+                System.out.println(i + " -> neighbours: " + Arrays.toString(graph[i]));
             }
-            System.out.println("------------------------------------");
-            System.out.println("result:");
+            System.out.println("-------------------------------------------------------");
+            System.out.println("pathsFromSourceToTarget:");
             for (List<Integer> path: pathsFromSourceToTarget) {
                 System.out.println(path);
             }
-            System.out.println("------------------------------------");
         }
 
         return pathsFromSourceToTarget;
     }
 
-    private void dfs(int current, int[][] graph, List<Integer> path) {
-        // 1. Add current vertex to existing path.
+    private void dfs(int current, List<Integer> path, boolean[] isVisited, int[][] graph) {
+        // 1. Add current to path and mark it as visited.
         path.add(current);
 
-        // 2. If current vertex is destination, add path to result.
+        // 2. Add path to pathsFromSourceToTarget if current == target.
         if (current == graph.length - 1) {
             pathsFromSourceToTarget.add(new ArrayList<>(path));
         } else {
-            // 3. If current vertex is not destination, execute dfs on its neighbours
+            // 3. Execute dfs on unvisited neighbours of current vertex.
             for (int neighbour: graph[current]) {
-                dfs(neighbour, graph, path);
+                if (!isVisited[neighbour]) {
+                    dfs(neighbour, path, isVisited, graph);
+                }
             }
         }
 
         // 4. Backtrack.
-        path.remove(path.size() - 1);
+        isVisited[current] = false;
+        path.removeLast();
     }
 }
