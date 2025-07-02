@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/245.
+Completed: 34/245.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 33/245.
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                      | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)               | 2ms     | 71.50% |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)            | 1ms     | 89.68% |
 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversalTwo.java)         | 1ms     | 93.85% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                  | 1ms     | 71.44% |

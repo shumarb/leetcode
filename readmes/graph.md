@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/167.
+Completed: 7/169.
 
 ## Submissions
 ### Easy
@@ -23,5 +23,6 @@ Completed: 6/167.
 ### Medium
 | Question                                                                                                                                  | Submission                                                                                                    | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)             | 2ms     | 71.50% |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                 | 3ms     | 99.90% |
 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfVerticesToReachAllNodes.java) | 8ms     | 99.23% |
