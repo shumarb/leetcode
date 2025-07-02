@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 372/1943.
+Completed: 373/1947.
 
 ## Submissions
 ### Easy
@@ -253,6 +253,7 @@ Completed: 372/1943.
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                             | 4ms     | 97.69% |
 | [Special Array I](https://leetcode.com/problems/special-array-i/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayOne.java)                                           | 0ms     | 100%   |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialPositionsInABinaryMatrix.java)                           | 2ms     | 83.84% |
+| [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitStringsBySeparator.java)                                   | 6ms     | 84.62% |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                             | 0ms     | 100%   |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SquaresOfASortedArray.java)                                     | 1ms     | 100%   |
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringMatchingInAnArray.java)                                   | 4ms     | 89.02% |
