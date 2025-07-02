@@ -7,7 +7,7 @@ class AllPathsFromSourceToTarget {
         boolean isTest = false;
         pathsFromSourceToTarget = new ArrayList<>();
 
-        dfs(0, new ArrayList<>(), new boolean[graph.length], graph);
+        dfs(0, graph.length - 1, new ArrayList<>(), new boolean[graph.length], graph);
         if (isTest) {
             System.out.println("graph:");
             for (int i = 0; i < graph.length; i++) {
@@ -23,18 +23,18 @@ class AllPathsFromSourceToTarget {
         return pathsFromSourceToTarget;
     }
 
-    private void dfs(int current, List<Integer> path, boolean[] isVisited, int[][] graph) {
+    private void dfs(int current, int destination, List<Integer> path, boolean[] isVisited, int[][] graph) {
         // 1. Add current to path and mark it as visited.
         path.add(current);
 
-        // 2. Add path to pathsFromSourceToTarget if current == target.
-        if (current == graph.length - 1) {
+        // 2. Add path to pathsFromSourceToTarget if destination is reached.
+        if (current == destination) {
             pathsFromSourceToTarget.add(new ArrayList<>(path));
         } else {
             // 3. Execute dfs on unvisited neighbours of current vertex.
             for (int neighbour: graph[current]) {
                 if (!isVisited[neighbour]) {
-                    dfs(neighbour, path, isVisited, graph);
+                    dfs(neighbour, destination, path, isVisited, graph);
                 }
             }
         }
