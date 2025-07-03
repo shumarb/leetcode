@@ -17,47 +17,35 @@
  */
 class CountGoodNodesInBinaryTree {
     private boolean isTest = false;
-    private int count = 0;
+    private int totalGoodNodes = 0;
 
     public int goodNodes(TreeNode root) {
-        dfs(root, new ArrayList<>());
+        dfs(root, Integer.MIN_VALUE);
         if (isTest) {
-            System.out.println("count: " + count);
+            System.out.println("-----------------------------------------------");
+            System.out.println("totalGoodNodes: " + totalGoodNodes);
         }
 
-        return count;
+        return totalGoodNodes;
     }
 
-    private void dfs(TreeNode node, List<Integer> path) {
+    private void dfs(TreeNode node, int maximumSoFar) {
         if (node == null) {
             return;
         }
 
-        path.add(node.val);
-        if (isValid(path)) {
+        if (isTest) {
+            System.out.println("-----------------------------------------------");
+            System.out.println("node: " + node.val + ", maximumSoFar: " + maximumSoFar);
+        }
+        if (maximumSoFar <= node.val) {
             if (isTest) {
-                System.out.println(" * valid last node in path: " + path);
-                System.out.println("-------------------------------------");
+                System.out.println(" * good");
             }
-            count++;
+            totalGoodNodes++;
         }
 
-        if (node.left != null) {
-            dfs(node.left, path);
-        }
-        if (node.right != null) {
-            dfs(node.right, path);
-        }
-
-        path.removeLast();
-    }
-
-    private boolean isValid(List<Integer> path) {
-        for (int i = path.size() - 2; i >= 0; i--) {
-            if (path.get(i) > path.get(path.size() - 1)) {
-                return false;
-            }
-        }
-        return true;
+        dfs(node.left, Math.max(node.val, maximumSoFar));
+        dfs(node.right, Math.max(node.val, maximumSoFar));
     }
 }
