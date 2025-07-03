@@ -28,7 +28,7 @@ class WordDictionary {
     private boolean search(String word, int index, TrieNode node) {
         /**
          2.  Reached end of word, hence all letters in word exists in trie,
-             so check if word exists in trie.
+         so check if word exists in trie.
          */
         if (index == word.length()) {
             return node.getIsEnd();
@@ -39,7 +39,7 @@ class WordDictionary {
 
         /**
          3.  Search if at least 1 word from all possible words
-             after replacing '.' with a letter in trie exists.
+         after replacing '.' with a letter in trie exists.
          */
         if (letter == '.') {
             for (TrieNode child: children) {
@@ -57,10 +57,7 @@ class WordDictionary {
             return false;
 
         } else {
-            if (children[letter - 'a'] == null) {
-                return false;
-            }
-            return search(word, index + 1, children[letter - 'a']);
+            return children[letter - 'a'] != null && search(word, index + 1, children[letter - 'a']);
         }
     }
 }
