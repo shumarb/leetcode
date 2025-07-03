@@ -30,10 +30,6 @@ class CountGoodNodesInBinaryTree {
     }
 
     private void dfs(TreeNode node, int maximumSoFar) {
-        if (node == null) {
-            return;
-        }
-
         if (isTest) {
             System.out.println("-----------------------------------------------");
             System.out.println("node: " + node.val + ", maximumSoFar: " + maximumSoFar);
@@ -45,7 +41,11 @@ class CountGoodNodesInBinaryTree {
             totalGoodNodes++;
         }
 
-        dfs(node.left, Math.max(node.val, maximumSoFar));
-        dfs(node.right, Math.max(node.val, maximumSoFar));
+        if (node.left != null) {
+            dfs(node.left, Math.max(node.val, maximumSoFar));
+        }
+        if (node.right != null) {
+            dfs(node.right, Math.max(node.val, maximumSoFar));
+        }
     }
 }
