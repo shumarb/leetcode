@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/183.
+Completed: 65/183.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 64/183.
 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOperationsToObtainZero.java)                      | 1ms     | 90.10% |
 | [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTestedDevicesAfterTestOperations.java)            | 0ms     | 100%   |
 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfMatchesInTournament.java)                       | 0ms     | 100%   |
+| [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateTargetArrayInTheGivenOrder.java)                 | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineTheWinnerOfABowlingGame.java)                 | 1ms     | 100%   |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)               | 1ms     | 100%   |
