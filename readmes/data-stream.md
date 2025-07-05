@@ -22,7 +22,7 @@ Completed: 5/21.
 ### Medium
 | Question                                                                                                    | Submission                                                                                  | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 20ms    | 5.18%  |
+| [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 19ms    | 5.18%  |
 
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
