@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 378/1947.
+Completed: 379/1947.
 
 ## Submissions
 ### Easy
@@ -273,6 +273,7 @@ Completed: 378/1947.
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                           | 1ms     | 100%   |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThirdMaximumNumber.java)                                        | 1ms     | 97.13% |
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeConsecutiveOdds..java)                                     | 0ms     | 100%   |
+| [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToeplitzMatrix.java)                                            | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                                    | 1ms     | 100%   |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                           | 0ms     | 100%   |
 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TruncateSentence.java)                                          | 1ms     | 79.33% |

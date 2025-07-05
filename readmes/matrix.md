@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/256.
+Completed: 26/260.
 
 ## Submissions
 ### Easy
@@ -33,15 +33,16 @@ Completed: 25/256.
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RowWithMaximumOnes.java)                               | 5ms     | 27.61% |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialPositionsInABinaryMatrix.java)                  | 2ms     | 83.84% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                         | 2ms     | 76.03% |
+| [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToeplitzMatrix.java)                                   | 0ms     | 100%   |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                      | Submission                                                                                                    | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)            | 12ms    | 88.41% |
-| [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java) | 11ms    | 65.35% |
-| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                   | 1ms     | 73.86% |
-| [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)    | 2ms     | 94.15% |
-| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                      | 0ms     | 100%   |
-| [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                      | 13ms    | 99.35% |
+| Question                                                                                                                      | Submission                                                                                                 | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)              | 12ms    | 88.41% |
+| [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)   | 11ms    | 65.35% |
+| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                     | 1ms     | 73.86% |
+| [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)      | 2ms     | 94.15% |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                        | 0ms     | 100%   |
+| [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                        | 13ms    | 99.35% |
