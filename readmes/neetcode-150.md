@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/150.
+Completed: 67/150.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 66/150.
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)             | 1ms     | 89.68% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                   | 1ms     | 71.42% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
+| [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                | 1ms     | 100%   |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                         | 77ms    | 31.05% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java)      | 162ms   | 94.15% | 
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)           | 0ms     | 100%   |
