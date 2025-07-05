@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 377/1947.
+Completed: 378/1947.
 
 ## Submissions
 ### Easy
@@ -301,6 +301,7 @@ Completed: 377/1947.
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
+| [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 20ms    | 5.18%  |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                                     | 5ms     | 91.76% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                                 | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                          | 215ms   | 39.47% |
