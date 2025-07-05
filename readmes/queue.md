@@ -16,7 +16,7 @@ Completed: 5/50.
 ### Easy
 | Question                                                                                                            | Submission                                                                                           | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)          | 19ms    | 5.18%  |
+| [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)          | 8ms     | 34.76% |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java) | 5ms     | 94.83% |
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementQueueUsingStacks.java)     | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementStackUsingQueues.java)     | 0ms     | 100%   |

@@ -1,66 +1,60 @@
 // Question: https://leetcode.com/problems/design-front-middle-back-queue/description/
 
 class FrontMiddleBackQueue {
-    private List<Integer> queue;
+    private LinkedList<Integer> queue;
     private boolean isTest;
 
     public FrontMiddleBackQueue() {
+        queue = new LinkedList<>();
         isTest = false;
-        queue = new ArrayList<>();
     }
 
     public void pushFront(int val) {
         if (isTest) {
-            display("push front. val: " + val + "\nbefore: ");
+            display("push front.\n * before: ");
         }
-        queue.add(0, val);
+        queue.offerFirst(val);
         if (isTest) {
-            display("after: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println("-----------------------------------------------");
         }
     }
 
     public void pushMiddle(int val) {
         if (isTest) {
-            display("push middle. val: " + val + "\nbefore: ");
+            display("push middle.\n * before: ");
         }
         queue.add(queue.size() / 2, val);
         if (isTest) {
-            display("after: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println("-----------------------------------------------");
         }
     }
 
     public void pushBack(int val) {
         if (isTest) {
-            display("push back. val: " + val + "\nbefore: ");
+            display("push back.\n * before: ");
         }
-        queue.add(val);
+        queue.offerLast(val);
         if (isTest) {
-            display("after: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println("-----------------------------------------------");
         }
     }
 
     public int popFront() {
         if (isTest) {
-            display("pop front. \nbefore: ");
+            display("pop front.\n * before: ");
         }
-
-        if (queue.isEmpty()) {
+        if (queue.size() == 0) {
             return -1;
         }
 
-        List<Integer> updated = new ArrayList<>();
-        int element = queue.get(0);
-        for (int i = 1; i < queue.size(); i++) {
-            updated.add(queue.get(i));
-        }
-        queue = updated;
-
+        int element = queue.pollFirst();
         if (isTest) {
-            display("after: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println(" * element to return: " + element);
+            System.out.println("-----------------------------------------------");
         }
 
         return element;
@@ -68,14 +62,12 @@ class FrontMiddleBackQueue {
 
     public int popMiddle() {
         if (isTest) {
-            display("pop middle. \nbefore: ");
+            display("pop middle.\n * before: ");
         }
-
-        if (queue.isEmpty()) {
+        if (queue.size() == 0) {
             return -1;
         }
 
-        List<Integer> updated = new ArrayList<>();
         int element;
         int middleIndex;
         if (queue.size() % 2 == 0) {
@@ -83,19 +75,12 @@ class FrontMiddleBackQueue {
         } else {
             middleIndex = queue.size() / 2;
         }
-        element = queue.get(middleIndex);
+        element = queue.remove(middleIndex);
 
-        for (int i = 0; i < queue.size(); i++) {
-            if (i == middleIndex) {
-                continue;
-            }
-            updated.add(queue.get(i));
-        }
-
-        queue = updated;
         if (isTest) {
-            display("element to return: " + element + "\nafter: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println(" * element to return: " + element);
+            System.out.println("-----------------------------------------------");
         }
 
         return element;
@@ -103,23 +88,17 @@ class FrontMiddleBackQueue {
 
     public int popBack() {
         if (isTest) {
-            display("before: ");
+            display("pop back.\n * before: ");
         }
-
         if (queue.size() == 0) {
             return -1;
         }
 
-        int element = queue.get(queue.size() - 1);
-        List<Integer> updated = new ArrayList<>();
-        for (int i = 0; i < queue.size() - 1; i++) {
-            updated.add(queue.get(i));
-        }
-
-        queue = updated;
+        int element = queue.pollLast();
         if (isTest) {
-            display("element to return: " + element + "\nafter: ");
-            System.out.println("--------------------------------");
+            display(" * after: ");
+            System.out.println(" * element to return: " + element);
+            System.out.println("-----------------------------------------------");
         }
 
         return element;
