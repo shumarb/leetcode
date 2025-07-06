@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/328.
+Completed: 55/328.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 54/328.
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                 | 0ms     | 100%   |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)  | 5ms     | 100%   |
+| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)        | 11ms    | 9.72%  |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)             | 8ms     | 89.06% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                        | 1ms     | 88.40% |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                               | 1ms     | 99.84% |
