@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 85/169.
+Completed: 86/169.
 
 ## Submissions
 | #   | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
@@ -39,6 +39,7 @@ Completed: 85/169.
 | 33  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 | 36  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
 | 39  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                            | 7ms     | 97.71% |
+| 40  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)         | 11ms    | 9.72%  |
 | 45  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                              | 92ms    | 78.28% |
 | 46  | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                           | 2ms     | 99.80% |
 | 47  | [Add Binary](https://leetcode.com/problems/add-binary/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddBinary.java)                                 | 2ms     | 99.94% |
