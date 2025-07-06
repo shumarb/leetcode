@@ -10,66 +10,19 @@
  * }
  */
 class LowestCommonAncestorOfABinaryTree {
-    private List<TreeNode> pPath;
-    private List<TreeNode> qPath;
-    private Set<TreeNode> ancestors;
-    private TreeNode p;
-
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        boolean isTest = false;
-        ancestors = new HashSet<>();
-        pPath = new ArrayList<>();
-        qPath = new ArrayList<>();
-        this.p = p;
-
-        findPath(root, p, pPath);
-        findPath(root, q, qPath);
-        if (isTest) {
-            display("p path: ", pPath);
-            display("q path: ", qPath);
+        if (root == null || root == p || root == q) {
+            return root;
         }
 
-        for (int i = qPath.size() - 1; i >= 0; i--) {
-            TreeNode current = qPath.get(i);
-            if (ancestors.contains(current)) {
-                return current;
-            }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if (left == null) {
+            return right;
+        } else if (right == null) {
+            return left;
         }
 
-        return null;
-    }
-
-    private void findPath(TreeNode current, TreeNode target, List<TreeNode> path) {
-        if (current == null) {
-            return;
-        }
-
-        path.add(current);
-        if (target == p) {
-            ancestors.add(current);
-        }
-        if (current == target) {
-            return;
-        }
-
-        findPath(current.left, target, path);
-        if (path.get(path.size() - 1) != target) {
-            findPath(current.right, target, path);
-        }
-
-        if (path.get(path.size() - 1) != target) {
-            if (target == p) {
-                ancestors.remove(current);
-            }
-            path.removeLast();
-        }
-    }
-
-    private void display(String sentence, List<TreeNode> path) {
-        System.out.print(sentence);
-        for (int i = 0; i < path.size() - 1; i++) {
-            System.out.print(path.get(i).val + " -> ");
-        }
-        System.out.println(path.get(path.size() - 1).val);
+        return root;
     }
 }
