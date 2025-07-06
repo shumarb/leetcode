@@ -20,7 +20,7 @@ class EvaluateBooleanBinaryTree {
         if (root == null) {
             return false;
 
-        } else if (root.val == 0 || root.val == 1) {
+        } else if (root.val <= 1) {
             return root.val == 1;
 
         } else if (root.val == 2) {
