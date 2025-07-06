@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/252.
+Completed: 61/252.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 60/252.
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                                | 0ms     | 100%   |
 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CousinsInBinaryTree.java)                                   | 1ms     | 26.22% |
 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiameterOfBinaryTree.java)                                  | 0ms     | 100%   |
+| [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvaluateBooleanBinaryTree.java)                             | 0ms     | 100%   |
 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindModeInBinarySearchTree.java)                            | 6ms     | 43.24% |
 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java) | 1ms     | 98.35% |
 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingOrderSearchTree.java)                             | 0ms     | 100%   |
