@@ -12,11 +12,15 @@
 class LowestCommonAncestorOfABinaryTree {
     private List<TreeNode> pPath;
     private List<TreeNode> qPath;
+    private Set<TreeNode> ancestors;
+    private TreeNode p;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         boolean isTest = false;
+        ancestors = new HashSet<>();
         pPath = new ArrayList<>();
         qPath = new ArrayList<>();
+        this.p = p;
 
         findPath(root, p, pPath);
         findPath(root, q, qPath);
@@ -25,10 +29,6 @@ class LowestCommonAncestorOfABinaryTree {
             display("q path: ", qPath);
         }
 
-        Set<TreeNode> ancestors = new HashSet<>();
-        for (TreeNode node: pPath) {
-            ancestors.add(node);
-        }
         for (int i = qPath.size() - 1; i >= 0; i--) {
             TreeNode current = qPath.get(i);
             if (ancestors.contains(current)) {
@@ -45,6 +45,9 @@ class LowestCommonAncestorOfABinaryTree {
         }
 
         path.add(current);
+        if (target == p) {
+            ancestors.add(current);
+        }
         if (current == target) {
             return;
         }
@@ -55,6 +58,9 @@ class LowestCommonAncestorOfABinaryTree {
         }
 
         if (path.get(path.size() - 1) != target) {
+            if (target == p) {
+                ancestors.remove(current);
+            }
             path.removeLast();
         }
     }
