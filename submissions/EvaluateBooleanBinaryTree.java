@@ -19,12 +19,14 @@ class EvaluateBooleanBinaryTree {
     public boolean evaluateTree(TreeNode root) {
         if (root == null) {
             return false;
+
         } else if (root.val == 0 || root.val == 1) {
             return root.val == 1;
+
         } else if (root.val == 2) {
             return evaluateTree(root.left) || evaluateTree(root.right);
-        } else {
-            return evaluateTree(root.left) && evaluateTree(root.right);
         }
+
+        return evaluateTree(root.left) && evaluateTree(root.right);
     }
 }
