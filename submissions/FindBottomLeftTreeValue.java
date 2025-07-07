@@ -28,6 +28,7 @@ class FindBottomLeftTreeValue {
         if (isTest) {
             System.out.println("list: " + list);
         }
+
         return list.get(list.size() - 1);
     }
 
@@ -37,13 +38,13 @@ class FindBottomLeftTreeValue {
         }
         if (isTest) {
             System.out.println("node: " + node.val + ", level: " + level);
-            System.out.println(" * before: , list: " + list);
+            System.out.println(" * before, list: " + list);
         }
         if (list.size() == level) {
             list.add(node.val);
         }
         if (isTest) {
-            System.out.println(" * after: , list: " + list);
+            System.out.println(" * after,  list: " + list);
             System.out.println("-------------------------------------");
         }
 
