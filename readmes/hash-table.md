@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 196/708.
+Completed: 197/709.
 
 ## Submissions
 ### Easy
@@ -199,6 +199,7 @@ Completed: 196/708.
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                 | 6ms     | 86.31% |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)                                     | 58ms    | 99.02% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                    | 5ms     | 84.98% |
+| [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                      | 47ms    | 87.43% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                            | 17ms    | 92.02% |
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZeroSumConsecutiveNodesFromLinkedList.java)         | 2ms     | 91.55% |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                            | 13ms    | 98.85% |
