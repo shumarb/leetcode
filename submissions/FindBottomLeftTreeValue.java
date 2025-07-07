@@ -16,50 +16,38 @@
  * }
  */
 class FindBottomLeftTreeValue {
+    // 1. List of left-most node at i-th level.
+    private List<Integer> list;
+    private boolean isTest;
+
     public int findBottomLeftValue(TreeNode root) {
-        // 1. Edge case: Tree has 1 node.
-        if (root.left == null && root.right == null) {
-            return root.val;
-        }
+        isTest = false;
+        list = new ArrayList<>();
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        boolean isTest = false;
-        int level = 1;
-        int result = 0;
-
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            if (isTest) {
-                display(" * level: " + level + ", queue: ", queue);
-            }
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                if (i == 0) {
-                    result = current.val;
-                }
-                if (current.left != null) {
-                    queue.offer(current.left);
-                }
-                if (current.right != null) {
-                    queue.offer(current.right);
-                }
-            }
-            level++;
-        }
+        helper(root, 0);
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("list: " + list);
         }
-
-        return result;
+        return list.get(list.size() - 1);
     }
 
-    private void display(String sentence, Queue<TreeNode> queue) {
-        System.out.print(sentence);
-        for (TreeNode node: queue) {
-            System.out.print(node.val + " ");
+    private void helper(TreeNode node, int level) {
+        if (node == null) {
+            return;
         }
-        System.out.println();
-        System.out.println("-----------------------------------------");
+        if (isTest) {
+            System.out.println("node: " + node.val + ", level: " + level);
+            System.out.println(" * before: , list: " + list);
+        }
+        if (list.size() == level) {
+            list.add(node.val);
+        }
+        if (isTest) {
+            System.out.println(" * after: , list: " + list);
+            System.out.println("-------------------------------------");
+        }
+
+        helper(node.left, level + 1);
+        helper(node.right, level + 1);
     }
 }
