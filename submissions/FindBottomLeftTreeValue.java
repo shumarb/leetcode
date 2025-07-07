@@ -17,6 +17,11 @@
  */
 class FindBottomLeftTreeValue {
     public int findBottomLeftValue(TreeNode root) {
+        // 1. Edge case: Tree has 1 node.
+        if (root.left == null && root.right == null) {
+            return root.val;
+        }
+
         Queue<TreeNode> queue = new LinkedList<>();
         boolean isTest = false;
         int level = 1;
@@ -24,13 +29,13 @@ class FindBottomLeftTreeValue {
 
         queue.offer(root);
         while (!queue.isEmpty()) {
-            List<TreeNode> list = new ArrayList<>();
             int size = queue.size();
-
+            if (isTest) {
+                display(" * level: " + level + ", queue: ", queue);
+            }
             for (int i = 0; i < size; i++) {
                 TreeNode current = queue.poll();
-                list.add(current);
-                if (list.size() == 1) {
+                if (i == 0) {
                     result = current.val;
                 }
                 if (current.left != null) {
@@ -40,10 +45,6 @@ class FindBottomLeftTreeValue {
                     queue.offer(current.right);
                 }
             }
-            if (isTest) {
-                display("level: " + level + ", list: ", list);
-            }
-
             level++;
         }
         if (isTest) {
@@ -53,15 +54,12 @@ class FindBottomLeftTreeValue {
         return result;
     }
 
-    private void display(String sentence, List<TreeNode> list) {
+    private void display(String sentence, Queue<TreeNode> queue) {
         System.out.print(sentence);
-        for (int i = 0; i < list.size(); i++) {
-            if (i == list.size() - 1) {
-                System.out.println(list.get(i).val);
-            } else {
-                System.out.print(list.get(i).val + " ");
-            }
+        for (TreeNode node: queue) {
+            System.out.print(node.val + " ");
         }
+        System.out.println();
         System.out.println("-----------------------------------------");
     }
 }
