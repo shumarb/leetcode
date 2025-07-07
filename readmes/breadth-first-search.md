@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 35/245.
+Completed: 36/245.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 35/245.
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                       | 4ms     | 99.25% |
 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenOddTree.java)                              | 17ms    | 23.05% |
+| [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                  | 4ms     | 14.12% |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                   | 3ms     | 99.90% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)            | 2ms     | 80.79% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)               | 45ms    | 83.54% |

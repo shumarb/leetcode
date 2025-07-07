@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 58/328.
+Completed: 59/328.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 58/328.
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java)     | 162ms   | 94.15% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                       | 4ms     | 99.25% |
+| [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                  | 4ms     | 14.12% |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                   | 3ms     | 99.90% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)            | 2ms     | 80.79% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
