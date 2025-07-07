@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/177.
+Completed: 60/177.
 
 ## Submissions
 ### Easy
@@ -71,6 +71,7 @@ Completed: 59/177.
 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)        | 6ms     | 100%   |
 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenNodeAndAncestor.java)  | 0ms     | 100%   |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)             | 8ms     | 89.06% |
+| [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostFrequentSubtreeSum.java)                   | 3ms     | 98.36% |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                               | 1ms     | 99.84% |
 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumThree.java)                             | 19ms    | 28.31% |
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNode.java)    | 3ms     | 35.47% |

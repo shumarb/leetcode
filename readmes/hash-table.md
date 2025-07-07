@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 197/709.
+Completed: 198/709.
 
 ## Submissions
 ### Easy
@@ -196,6 +196,7 @@ Completed: 197/709.
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                 | 12ms    | 39.22% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)            | 4ms     | 99.46% |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                     | 16ms    | 96.94% |
+| [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostFrequentSubtreeSum.java)                              | 3ms     | 98.36% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                 | 6ms     | 86.31% |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)                                     | 58ms    | 99.02% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                    | 5ms     | 84.98% |
