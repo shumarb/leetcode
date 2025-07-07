@@ -19,29 +19,24 @@ class MaximumDifferenceBetweenNodeAndAncestor {
     private int maxAncestorDiff = 0;
 
     public int maxAncestorDiff(TreeNode root) {
-        boolean isTest = false;
-        helper(root, new ArrayList<>());
+        helper(root, root.val, root.val);
         return maxAncestorDiff;
     }
 
-    private void helper(TreeNode node, ArrayList<Integer> path) {
+    private void helper(TreeNode node, int currentMaximum, int currentMinimum) {
         if (node == null) {
             return;
         }
 
-        path.add(node.val);
-        if (node.left == null && node.right == null) {
-            int maximum = Integer.MIN_VALUE;
-            int minimum = Integer.MAX_VALUE;
-            for (int value: path) {
-                maximum = Math.max(maximum, value);
-                minimum = Math.min(minimum, value);
-            }
-            maxAncestorDiff = Math.max(maxAncestorDiff, maximum - minimum);
-        }
+        int nodeValue = node.val;
+        int difference1 = Math.abs(nodeValue - currentMinimum);
+        int difference2 = Math.abs(nodeValue - currentMaximum);
+        maxAncestorDiff = Math.max(maxAncestorDiff, Math.max(difference1, difference2));
 
-        helper(node.left, path);
-        helper(node.right, path);
-        path.removeLast();
+        currentMaximum = Math.max(currentMaximum, nodeValue);
+        currentMinimum = Math.min(currentMinimum, nodeValue);
+
+        helper(node.left, currentMaximum, currentMinimum);
+        helper(node.right, currentMaximum, currentMinimum);
     }
 }
