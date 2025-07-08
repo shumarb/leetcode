@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 198/709.
+Completed: 199/712.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 198/709.
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSpecialQuadruplets.java)                                | 12ms    | 86.95% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfConsistentStrings.java)                      | 6ms     | 86.92% |
 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersOne.java)                   | 1ms     | 100%   |
+| [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                    | 20ms    | 49.03% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                      | 9ms     | 99.19% |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateTwo.java)                                   | 18ms    | 89.16% |
 | [Decode the Message](https://leetcode.com/problems/decode-the-message/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecodeTheMessage.java)                                       | 4ms     | 93.90% |

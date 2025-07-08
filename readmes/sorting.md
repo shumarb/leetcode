@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 110/457.
+Completed: 111/460.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 110/457.
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                         | 9ms     | 99.19% |
 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithStrictlySmallerAndGreaterElements.java)        | 0ms     | 100%   |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)                        | 1ms     | 100%   |
+| [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                       | 20ms    | 49.03% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                              | 4ms     | 91.17% |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindResultantArraysAfterRemovingAnagrams.java)                  | 1ms     | 100%   |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubsequenceOfLengthKWithTheLargestSum.java)                 | 8ms     | 62.37% |
