@@ -21,12 +21,10 @@ class MostFrequentSubtreeSum {
     private int maxFrequency;
 
     public int[] findFrequentTreeSum(TreeNode root) {
-        boolean isTest = false;
-        int i = 0;
-        int[] result;
         map = new HashMap<>();
-        countMaxFrequency = 0;
-        maxFrequency = 0;
+        boolean isTest = false;
+        int[] result;
+        int i = 0;
 
         helper(root);
         result = new int[countMaxFrequency];
@@ -36,9 +34,8 @@ class MostFrequentSubtreeSum {
             }
         }
         if (isTest) {
-            System.out.println("map: " + map);
-            System.out.println("countMaxFrequency: " + countMaxFrequency + "\nmaxFrequency: " + maxFrequency);
-            System.out.println("result: " + Arrays.toString(result));
+            System.out.println("map: " + map + "\nmaxFrequency: " + maxFrequency);
+            System.out.println("countMaxFrequency: " + countMaxFrequency + "\nresult: " + Arrays.toString(result));
         }
 
         return result;
@@ -52,13 +49,13 @@ class MostFrequentSubtreeSum {
         int left = helper(node.left);
         int right = helper(node.right);
         int subtreeSum = node.val + left + right;
-
         map.put(subtreeSum, 1 + map.getOrDefault(subtreeSum, 0));
-        int value = map.get(subtreeSum);
-        if (value > maxFrequency) {
-            maxFrequency = value;
+
+        int currentFrequency = map.get(subtreeSum);
+        if (currentFrequency > maxFrequency) {
+            maxFrequency = currentFrequency;
             countMaxFrequency = 1;
-        } else if (value == maxFrequency) {
+        } else if (currentFrequency == maxFrequency) {
             countMaxFrequency++;
         }
 
