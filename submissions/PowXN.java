@@ -20,6 +20,7 @@ class PowXN {
         }
 
         double half = helper(x, n / 2);
+
         return n % 2 == 0 ? half * half : x * half * half;
     }
 }
