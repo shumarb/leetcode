@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/75.
+Completed: 43/75.
 
 ## Submissions
 | #  | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
