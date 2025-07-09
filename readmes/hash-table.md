@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 199/712.
+Completed: 200/712.
 
 ## Submissions
 ### Easy
@@ -214,6 +214,7 @@ Completed: 199/712.
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                  | 24ms    | 75.04% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                   | 6ms     | 98%    | 
+| [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)      | 151ms   | 32.77% | 
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                         | 14ms    | 45.41% |
 
