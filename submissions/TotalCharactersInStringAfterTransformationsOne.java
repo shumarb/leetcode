@@ -21,19 +21,18 @@ class TotalCharactersInStringAfterTransformationsOne {
                 System.out.println("t: " + t);
                 System.out.println(" * before, frequency: " + Arrays.toString(frequency));
             }
+
             int[] newFrequency = new int[26];
-            for (int i = 0; i < 26; i++) {
+            for (int i = 0; i < 25; i++) {
                 if (frequency[i] == 0) {
                     continue;
                 }
-                if (i < 25) {
-                    newFrequency[i + 1] = (newFrequency[i + 1] + frequency[i]) % DENOMINATOR;
-                } else {
-                    newFrequency[0] = (newFrequency[0] + frequency[25]) % DENOMINATOR;
-                    newFrequency[1] = (newFrequency[1] + frequency[25]) % DENOMINATOR;
-                }
+                newFrequency[i + 1] = (newFrequency[i + 1] + frequency[i]) % DENOMINATOR;
             }
+            newFrequency[0] = (newFrequency[0] + frequency[25]) % DENOMINATOR;
+            newFrequency[1] = (newFrequency[1] + frequency[25]) % DENOMINATOR;
             frequency = newFrequency;
+
             if (isTest) {
                 System.out.println(" * after, frequency:  " + Arrays.toString(frequency));
             }
