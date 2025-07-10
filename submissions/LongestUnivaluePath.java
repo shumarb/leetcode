@@ -32,6 +32,7 @@ class LongestUnivaluePath {
     private int helper(TreeNode node) {
         int left = 0;
         int right = 0;
+
         if (node.left != null) {
             left = helper(node.left);
         }
