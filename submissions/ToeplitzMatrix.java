@@ -1,6 +1,4 @@
-// Question: https://leetcode.com/problems/toeplitz-matrix/description/
-
-class ToeplitzMatrix {
+class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int totalRows = matrix.length;
         int totalColumns = matrix[0].length;
@@ -28,6 +26,7 @@ class ToeplitzMatrix {
                 currentColumn++;
             }
         }
+
         return true;
     }
 }
