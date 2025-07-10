@@ -16,39 +16,34 @@
  * }
  */
 class FindBottomLeftTreeValue {
-    // 1. List of left-most node at i-th level.
-    private List<Integer> list;
-    private boolean isTest;
+    private int maximumDepth;
+    private int result;
 
     public int findBottomLeftValue(TreeNode root) {
-        isTest = false;
-        list = new ArrayList<>();
+        boolean isTest = false;
+        maximumDepth = -1;
+        result = -1;
 
         helper(root, 0);
         if (isTest) {
-            System.out.println("list: " + list);
+            System.out.println("maximum depth: " + maximumDepth + "\nresult: " + result);
         }
 
-        return list.get(list.size() - 1);
+        return result;
     }
 
-    private void helper(TreeNode node, int level) {
-        if (node == null) {
-            return;
-        }
-        if (isTest) {
-            System.out.println("node: " + node.val + ", level: " + level);
-            System.out.println(" * before, list: " + list);
-        }
-        if (list.size() == level) {
-            list.add(node.val);
-        }
-        if (isTest) {
-            System.out.println(" * after,  list: " + list);
-            System.out.println("-------------------------------------");
+    private void helper(TreeNode node, int currentDepth) {
+        if (currentDepth > maximumDepth) {
+            maximumDepth = currentDepth;
+            result = node.val;
         }
 
-        helper(node.left, level + 1);
-        helper(node.right, level + 1);
+        if (node.left != null) {
+            helper(node.left, currentDepth + 1);
+        }
+
+        if (node.right != null) {
+            helper(node.right, currentDepth + 1);
+        }
     }
 }
