@@ -10,14 +10,14 @@ class CountVowelSubstringsOfAString {
             return countVowelSubstrings;
         }
         for (int i = 0; i < len; i++) {
-            if (!vowels.contains(word.charAt(i))) {
+            if (!isVowel(word.charAt(i))) {
                 continue;
             }
 
             Set<Character> seen = new HashSet<>();
             for (int j = i; j < len; j++) {
                 char c = word.charAt(j);
-                if (!vowels.contains(c)) {
+                if (!isVowel(c)) {
                     break;
                 }
                 seen.add(c);
@@ -28,5 +28,9 @@ class CountVowelSubstringsOfAString {
         }
 
         return countVowelSubstrings;
+    }
+
+    private boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }
