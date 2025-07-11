@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/308.
+Completed: 44/311.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 43/308.
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                      | 0ms     | 100%   |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                           | 21ms    | 99.89% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                        | 38ms    | 36.75% |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                                | 0ms     | 100%   |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                     | 0ms     | 100%   |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArrayTwo.java)                  | 0ms     | 100%   |
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                    | 0ms     | 100%   |
