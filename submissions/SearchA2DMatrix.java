@@ -9,8 +9,11 @@ class SearchA2DMatrix {
         if (target < matrix[0][0]) {
             return false;
 
-        // 2. Edge case: target is either first element of first row of matrix.
-        } else if (target == matrix[0][0]) {
+        /**
+            2.  Edge case: target is either first element of first row of matrix,
+                or last element of last row of matrix.
+         */
+        } else if (target == matrix[0][0] || target == matrix[matrix.length - 1][matrix[0].length - 1]) {
             return true;
         }
 
