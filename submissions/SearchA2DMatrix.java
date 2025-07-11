@@ -2,6 +2,18 @@
 
 class SearchA2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
+        /**
+         1.  Edge case: Target smaller than first element of first row,
+             hence it is not in matrix.
+         */
+        if (target < matrix[0][0]) {
+            return false;
+
+        // 2. Edge case: target is either first element of first row of matrix.
+        } else if (target == matrix[0][0]) {
+            return true;
+        }
+
         boolean isTest = false;
         int first = 0;
         int last = matrix.length - 1;
@@ -35,24 +47,6 @@ class SearchA2DMatrix {
             System.out.println("targetArray: " + Arrays.toString(targetArray));
         }
 
-        return targetArray == null ? false : isTargetFound(targetArray, target);
-    }
-
-    private boolean isTargetFound(int[] arr, int target) {
-        int left = 0;
-        int right = arr.length - 1;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] == target) {
-                return true;
-            } else if (arr[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-
-        return false;
+        return targetArray == null ? false : Arrays.binarySearch(targetArray, target) >= 0;
     }
 }
