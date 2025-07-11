@@ -39,7 +39,6 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java) | 0ms     | 100%   |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)          | 0ms     | 100%   |
 
-
 ## Trees
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
