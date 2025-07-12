@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/150.
+Completed: 69/150.
 
 ## Submissions
 ### Easy
@@ -77,6 +77,7 @@ Completed: 68/150.
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)                | 0ms     | 100%   |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                               | 4ms     | 12.39% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                            | 0ms     | 100%   |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                           | 0ms     | 100%   |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                           | 1ms     | 73.86% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                              | 0ms     | 100%   |
