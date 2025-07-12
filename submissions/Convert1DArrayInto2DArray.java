@@ -8,7 +8,7 @@ class Convert1DArrayInto2DArray {
 
         boolean isTest = false;
         int k = 0;
-        int[][] result = new int[m][n];
+        int[][] result = new int[m][];
         for (int i = 0; i < m; i++) {
             result[i] = Arrays.copyOfRange(original, i * n, i * n + n);
         }
