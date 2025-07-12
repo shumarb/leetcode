@@ -2,29 +2,41 @@
 
 class ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] mat, int r, int c) {
-        int totalColumns = mat[0].length;
-        int totalRows = mat.length;
+        int matColumns = mat[0].length;
+        int matRows = mat.length;
 
-        if (totalRows * totalColumns != r * c) {
+        if (matRows * matColumns != r * c) {
             return mat;
         }
 
+        boolean isTest = false;
         int[][] result = new int[r][c];
-        int[] numbers = new int[totalRows * totalColumns];
-        int k = 0;
+        int column = 0;
+        int row = 0;
 
-        for (int[] row: mat) {
-            for (int element: row) {
-                numbers[k++] = element;
+        for (int i = 0; i < matRows; i++) {
+            for (int j = 0; j < matColumns; j++) {
+                if (column == c) {
+                    column = 0;
+                    row++;
+                }
+                result[row][column] = mat[i][j];
+                column++;
             }
         }
-        k = 0;
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                result[i][j] = numbers[k++];
-            }
+        if (isTest) {
+            display("mat:", mat);
+            display("result:", result);
         }
 
         return result;
+    }
+
+    private void display(String sentence, int[][] matrix) {
+        System.out.println(sentence);
+        for (int[] row: matrix) {
+            System.out.println(" * " + Arrays.toString(row));
+        }
+        System.out.println("-----------------------------------------------");
     }
 }
