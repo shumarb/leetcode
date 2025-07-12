@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 383/1952.
+Completed: 384/1952.
 
 ## Submissions
 ### Easy
@@ -378,6 +378,7 @@ Completed: 383/1952.
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                     | 0ms     | 100%   |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                         | 38ms    | 36.75% |
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                                                 | 0ms     | 100%   |
+| [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                                              | 7ms     | 20.78% |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                                      | 0ms     | 100%   |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArrayTwo.java)                                   | 0ms     | 100%   |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                      | 49ms    | 78.74% |
