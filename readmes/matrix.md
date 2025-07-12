@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/261.
+Completed: 29/261.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 28/261.
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)       | 4ms     | 92.01% |
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)       | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfMatrixIsXMatrix.java)                           | 0ms     | 100%   |
+| [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                        | 4ms     | 61.42% |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNegativeNumbersInASortedMatrix.java)              | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingAndRepeatedValues.java)                     | 1ms     | 100%   |
