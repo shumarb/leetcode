@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/183.
+Completed: 67/183.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 66/183.
 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java)                 | 2ms     | 79.90% |
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterRemovingSubstrings.java)       | 5ms     | 56.70% |
 | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PassThePillow.java)                                    | 0ms     | 100%   |
+| [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 1ms     | 64.80% |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
