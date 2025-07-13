@@ -2,6 +2,7 @@
 
 class SortTheMatrixDiagonally {
     public int[][] diagonalSort(int[][] mat) {
+        List<Integer> elements = new ArrayList<>();
         boolean isTest = false;
         int column;
         int row;
@@ -13,23 +14,23 @@ class SortTheMatrixDiagonally {
         }
 
         for (int i = 0; i < totalRows; i++) {
-            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+            elements.clear();
             column = 0;
             row = i;
             while (row < totalRows && column < totalColumns) {
-                minHeap.add(mat[row++][column++]);
+                elements.add(mat[row++][column++]);
             }
-            mat = update(i, minHeap, mat, "first");
+            mat = update(i, elements, mat, "first");
         }
 
         for (int i = 1; i < totalColumns; i++) {
-            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+            elements.clear();
             row = 0;
             column = i;
             while (row < totalRows && column < totalColumns) {
-                minHeap.add(mat[row++][column++]);
+                elements.add(mat[row++][column++]);
             }
-            mat = update(i, minHeap, mat, "second");
+            mat = update(i, elements, mat, "second");
         }
 
         if (isTest) {
@@ -39,16 +40,28 @@ class SortTheMatrixDiagonally {
         return mat;
     }
 
-    private int[][] update(int i, PriorityQueue<Integer> minHeap, int[][] mat, String diagonalType) {
+    private int[][] update(int i, List<Integer> elements, int[][] mat, String diagonalType) {
+        int[] frequency;
         int column = 0;
+        int largest = 0;
         int row = i;
+
+        for (int number: elements) {
+            largest = Math.max(largest, number);
+        }
+        frequency = new int[largest + 1];
+        for (int number: elements) {
+            frequency[number]++;
+        }
 
         if (diagonalType.equals("second")) {
             column = i;
             row = 0;
         }
-        while (row < mat.length && column < mat[0].length) {
-            mat[row++][column++] = minHeap.poll();
+        for (int j = 0; j <= largest; j++) {
+            while (frequency[j]-- > 0) {
+                mat[row++][column++] = j;
+            }
         }
 
         return mat;
