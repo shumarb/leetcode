@@ -3,6 +3,8 @@
 class SortTheMatrixDiagonally {
     public int[][] diagonalSort(int[][] mat) {
         boolean isTest = false;
+        int column;
+        int row;
         int totalColumns = mat[0].length;
         int totalRows = mat.length;
 
@@ -11,25 +13,23 @@ class SortTheMatrixDiagonally {
         }
 
         for (int i = 0; i < totalRows; i++) {
-            List<Integer> elements = new ArrayList<>();
-            int row = i;
-            int column = 0;
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+            column = 0;
+            row = i;
             while (row < totalRows && column < totalColumns) {
-                elements.add(mat[row++][column++]);
+                minHeap.add(mat[row++][column++]);
             }
-            Collections.sort(elements);
-            mat = update(i, elements, mat, "first");
+            mat = update(i, minHeap, mat, "first");
         }
 
         for (int i = 1; i < totalColumns; i++) {
-            List<Integer> elements = new ArrayList<>();
-            int row = 0;
-            int column = i;
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+            row = 0;
+            column = i;
             while (row < totalRows && column < totalColumns) {
-                elements.add(mat[row++][column++]);
+                minHeap.add(mat[row++][column++]);
             }
-            Collections.sort(elements);
-            mat = update(i, elements, mat, "second");
+            mat = update(i, minHeap, mat, "second");
         }
 
         if (isTest) {
@@ -39,22 +39,17 @@ class SortTheMatrixDiagonally {
         return mat;
     }
 
-    private int[][] update(int i, List<Integer> elements, int[][] mat, String diagonalType) {
-        int k = 0;
-        int row = i;
+    private int[][] update(int i, PriorityQueue<Integer> minHeap, int[][] mat, String diagonalType) {
         int column = 0;
+        int row = i;
 
-        if (diagonalType.equals("first")) {
-            while (row < mat.length && column < mat[0].length) {
-                mat[row++][column++] = elements.get(k++);
-            }
-
-        } else {
-            row = 0;
+        if (diagonalType.equals("second")) {
             column = i;
-            while (row < mat.length && column < mat[0].length) {
-                mat[row++][column++] = elements.get(k++);
-            }
+            row = 0;
+
+        }
+        while (row < mat.length && column < mat[0].length) {
+            mat[row++][column++] = minHeap.poll();
         }
 
         return mat;
