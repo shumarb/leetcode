@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 32/261.
+Completed: 33/261.
 
 ## Submissions
 ### Easy
@@ -48,6 +48,7 @@ Completed: 32/261.
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                   | 0ms     | 100%   |
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                | 5ms     | 99.37% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                   | 1ms     | 73.86% |
+| [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortMatrixByDiagonals.java)             | 2433ms  | 6.29%  |
 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)           | 3ms     | 93.25% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)    | 2ms     | 94.15% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                      | 0ms     | 100%   |

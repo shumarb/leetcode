@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 389/1952.
+Completed: 390/1952.
 
 ## Submissions
 ### Easy
@@ -389,6 +389,7 @@ Completed: 389/1952.
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                                 | 1ms     | 73.86% |
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                                     | 0ms     | 100%   |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                                      | 0ms     | 100%   |
+| [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortMatrixByDiagonals.java)                                           | 2433ms  | 6.29%  |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                                     | 41ms    | 26.79% |
 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                                         | 3ms     | 93.25% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                                  | 2ms     | 94.15% |
