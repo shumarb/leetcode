@@ -46,7 +46,6 @@ class SortTheMatrixDiagonally {
         if (diagonalType.equals("second")) {
             column = i;
             row = 0;
-
         }
         while (row < mat.length && column < mat[0].length) {
             mat[row++][column++] = minHeap.poll();
