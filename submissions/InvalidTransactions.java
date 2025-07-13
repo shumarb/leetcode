@@ -20,6 +20,7 @@ class InvalidTransactions {
                 if (t1[0].equals(t2[0]) && !t1[3].equals(t2[3]) && Math.abs(Integer.parseInt(t1[1]) - Integer.parseInt(t2[1])) <= 60) {
                     isInvalid[i] = true;
                     isInvalid[j] = true;
+                    break;
                 }
             }
         }
