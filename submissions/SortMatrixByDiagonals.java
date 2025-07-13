@@ -2,7 +2,6 @@
 
 class SortMatrixByDiagonals {
     public int[][] sortMatrix(int[][] grid) {
-        List<Integer> elements = new ArrayList<>();
         boolean isTest = false;
         int totalColumns = grid[0].length;
         int totalRows = grid.length;
@@ -12,25 +11,25 @@ class SortMatrixByDiagonals {
         }
 
         for (int i = 0; i < totalRows; i++) {
-            elements.clear();
+            PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
             int column = 0;
             int row = i;
 
             while (row < totalRows && column < totalColumns) {
-                elements.add(grid[row++][column++]);
+                maxHeap.offer(grid[row++][column++]);
             }
-            grid = update("non-increasing", i, elements, grid);
+            grid = update("non-increasing", i, maxHeap, grid);
         }
 
         for (int i = 1; i < totalColumns; i++) {
-            elements.clear();
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
             int column = i;
             int row = 0;
 
             while (row < totalRows && column < totalColumns) {
-                elements.add(grid[row++][column++]);
+                minHeap.offer(grid[row++][column++]);
             }
-            grid = update("non-decreasing", i, elements, grid);
+            grid = update("non-decreasing", i, minHeap, grid);
         }
 
         if (isTest) {
@@ -40,29 +39,20 @@ class SortMatrixByDiagonals {
         return grid;
     }
 
-    private int[][] update(String diagonalType, int i, List<Integer> elements, int[][] grid) {
-        int[] frequency = new int[200001];
+    private int[][] update(String diagonalType, int i, PriorityQueue<Integer> heap, int[][] grid) {
         int column = 0;
         int row = i;
 
-        for (int number: elements) {
-            frequency[number + 100000]++;
-        }
-
         if (diagonalType.equals("non-increasing")) {
-            for (int j = frequency.length - 1; j >= 0; j--) {
-                while (frequency[j]-- > 0) {
-                    grid[row++][column++] = j - 100000;
-                }
+            while (row < grid.length && column < grid[0].length) {
+                grid[row++][column++] = heap.poll();
             }
 
         } else {
             column = i;
             row = 0;
-            for (int j = 0; j < frequency.length; j++) {
-                while (frequency[j]-- > 0) {
-                    grid[row++][column++] = j - 100000;
-                }
+            while (row < grid.length && column < grid[0].length) {
+                grid[row++][column++] = heap.poll();
             }
         }
 
