@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 203/712.
+Completed: 204/712.
 
 ## Submissions
 ### Easy
@@ -190,6 +190,7 @@ Completed: 203/712.
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                     | 63ms    | 27.26% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 93.59% |
+| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                 | 925ms   | 5.13%  |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)    | 102ms   | 86.78% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                        | 383ms   | 69.83% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                          | 30ms    | 73.18% |

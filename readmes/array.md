@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 386/1952.
+Completed: 387/1952.
 
 ## Submissions
 ### Easy
@@ -336,6 +336,7 @@ Completed: 386/1952.
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                                 | 63ms    | 27.26% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                   | 25ms    | 93.59% |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                                  | 2ms     | 36.52% |
+| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                             | 925ms   | 5.13%  |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                                        | 3ms     | 42.85% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                                          | 30ms    | 63.52% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                                         | 344ms   | 44.26% |
