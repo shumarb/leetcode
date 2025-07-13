@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 67/183.
+Completed: 68/183.
 
 ## Submissions
 ### Easy
@@ -78,6 +78,7 @@ Completed: 67/183.
 | Question                                                                                                                                                            | Submission                                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                             | 11ms    | 98.01% |
+| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                  | 7ms     | 25.66% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                            | 12ms    | 88.41% |
 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThreeConsecutiveIntegersThatSumToAGivenNumber.java) | 0ms     | 100%   |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                          | 5ms     | 83.64% |
