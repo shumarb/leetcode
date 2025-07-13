@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 387/1952.
+Completed: 389/1952.
 
 ## Submissions
 ### Easy
@@ -390,6 +390,7 @@ Completed: 387/1952.
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                                     | 0ms     | 100%   |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                                      | 0ms     | 100%   |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                                     | 41ms    | 26.79% |
+| [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                                         | 7ms     | 66.26% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                                  | 2ms     | 94.15% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                                    | 0ms     | 100%   |
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                                      | 1ms     | 99%    |

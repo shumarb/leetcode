@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 112/460.
+Completed: 113/460.
 
 ## Submissions
 ### Easy
@@ -125,6 +125,7 @@ Completed: 112/460.
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                       | 9ms     | 94.52% |
 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsInAString.java)                            | 74ms    | 27.49% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                    | 5ms     | 97.68% |
+| [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                        | 7ms     | 66.26% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                 | 2ms     | 94.15% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                   | 13ms    | 99.35% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                           | 6ms     | 99.18% |
