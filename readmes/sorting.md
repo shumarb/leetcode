@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 114/460.
+Completed: 115/460.
 
 ## Submissions
 ### Easy
@@ -89,6 +89,7 @@ Completed: 114/460.
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)              | 16ms    | 88.19% |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                       | 37ms    | 86.60% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                               | 4ms     | 22.05% |
+| [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                            | 16ms    | 99.60% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)         | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)         | 7ms     | 100%   |

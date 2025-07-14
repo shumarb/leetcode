@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 390/1952.
+Completed: 391/1952.
 
 ## Submissions
 ### Easy
@@ -309,6 +309,7 @@ Completed: 390/1952.
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 8ms     | 34.76% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                                     | 5ms     | 91.76% |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                                | 7ms     | 25.66% |
+| [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                                             | 16ms    | 99.60% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                                 | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                          | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)                          | 7ms     | 100%   |
