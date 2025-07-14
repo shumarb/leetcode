@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/601.
+Completed: 23/601.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                  | Submission                                                                                                        | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java)                  | 2ms     | 72.40% |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)                             | 0ms     | 100%   |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)                               | 2ms     | 95%    |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                            | 0ms     | 100%   |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                              | 1ms     | 93.37% |
