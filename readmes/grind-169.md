@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 88/169.
+Completed: 89/169.
 
 ## Submissions
 | #   | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 88/169.
 | 62  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)                         | 4ms     | 71.29% |
 | 64  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)                  | 0ms     | 100%   |
 | 65  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                         | 10ms    | 88.34% |
+| 66  | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                               | 0ms     | 100%   |
 | 68  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                    | 5ms     | 74.40% |
 | 71  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                  | 9ms     | 91.31% |
 | 75  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                  | 0ms     | 100%   |

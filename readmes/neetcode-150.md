@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 69/150.
+Completed: 70/150.
 
 ## Submissions
 ### Easy
@@ -84,6 +84,7 @@ Completed: 69/150.
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                          | 0ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                      | 6ms     | 99.18% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)               | 2ms     | 92.54% |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                               | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 
 ### Hard

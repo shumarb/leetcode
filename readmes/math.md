@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 130/596.
+Completed: 131/596.
 
 ## Submissions
 ### Easy
@@ -148,6 +148,7 @@ Completed: 130/596.
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                    | 0ms     | 100%   |
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)      | 141ms   | 42.47% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberTwo.java)                                       | 2ms     | 98.25% | 
+| [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                         | 0ms     | 100%   |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                                  | Runtime | Rank   |

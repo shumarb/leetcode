@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/75.
+Completed: 46/75.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 45/75.
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                              | 0ms     | 100%   |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                          | 0ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                      | 14ms    | 57.29% |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                               | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 
 ### Hard

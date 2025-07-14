@@ -10,10 +10,15 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/51.
+Completed: 2/55.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                    | Submission                                                                                                                  | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                    | Submission                                                                                                             | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java) | 8ms     | 78.87% |
+
+### Medium
+| Question                                                                | Submission                                                                                                                 | Runtime | Rank |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|------|
+| [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                         | 0ms     | 100% |
