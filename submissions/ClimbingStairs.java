@@ -14,7 +14,7 @@ class ClimbingStairs {
 
         /**
              2.  1 way to get to step 0 (current step),
-             and 1 way to reach step 1 from step 0 (climb 1 step).
+                 and 1 way to reach step 1 from step 0 (climb 1 step).
          */
         list.add(1);
         list.add(1);
