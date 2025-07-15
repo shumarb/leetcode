@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 393/1952.
+Completed: 394/1952.
 
 ## Submissions
 ### Easy
@@ -287,6 +287,7 @@ Completed: 393/1952.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                                   | 7ms     | 17.93% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueMorseCodeWords.java)                                      | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueNumberOfOccurrences.java)                                 | 2ms     | 97.94% |
+| [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                            | 0ms     | 100%   |
 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidMountainArray.java)                                        | 2ms     | 71.67% |
 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerifyingAnAlienDictionary.java)                                | 0ms     | 100%   |
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                                    | 2ms     | 98.93% |
