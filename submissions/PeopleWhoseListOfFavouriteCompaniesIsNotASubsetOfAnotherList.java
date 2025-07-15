@@ -17,22 +17,16 @@ class PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList {
         }
 
         for (int i = 0; i < len; i++) {
-            List<String> companies = favoriteCompanies.get(i);
-            Set<String> set = new HashSet<>();
-            for (String company: companies) {
-                set.add(company);
-            }
+            Set<String> set = new HashSet<>(favoriteCompanies.get(i));
             map.put(i, set);
         }
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < len; j++) {
-                if (i == j) {
+                if (i == j || isSubset[i] || isSubset[j]) {
                     continue;
                 }
-                Set<String> current = map.get(i);
-                Set<String> check = map.get(j);
-                if (check.containsAll(current)) {
-                    isSubset[i] = true;
+                if (map.get(i).containsAll(map.get(j))) {
+                    isSubset[j] = true;
                 }
             }
         }
