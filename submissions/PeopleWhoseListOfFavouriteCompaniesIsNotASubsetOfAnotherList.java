@@ -3,7 +3,7 @@
 class PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList {
     public List<Integer> peopleIndexes(List<List<String>> favoriteCompanies) {
         List<Integer> result = new ArrayList<>();
-        Map<Integer, Set<String>> map = new HashMap<>();
+        List<Set<String>> map = new ArrayList<>();
         boolean[] isSubset = new boolean[favoriteCompanies.size()];
         boolean isTest = false;
         int len = favoriteCompanies.size();
@@ -18,7 +18,7 @@ class PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList {
 
         for (int i = 0; i < len; i++) {
             Set<String> set = new HashSet<>(favoriteCompanies.get(i));
-            map.put(i, set);
+            map.add(set);
         }
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < len; j++) {
@@ -39,8 +39,8 @@ class PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList {
         }
         if (isTest) {
             System.out.println("map:");
-            for (Map.Entry<Integer, Set<String>> e: map.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
+            for (int i = 0; i < map.size(); i++) {
+                System.out.println(" * " + i + " -> " + map.get(i));
             }
             System.out.println("------------------------------------------");
             System.out.println("isSubset: " + Arrays.toString(isSubset));
