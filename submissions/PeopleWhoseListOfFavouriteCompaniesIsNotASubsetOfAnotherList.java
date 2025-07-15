@@ -25,7 +25,9 @@ class PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList {
                 if (i == j || isSubset[i] || isSubset[j]) {
                     continue;
                 }
-                if (map.get(i).containsAll(map.get(j))) {
+                Set<String> current = map.get(i);
+                Set<String> check = map.get(j);
+                if (current.size() >= check.size() && current.containsAll(check)) {
                     isSubset[j] = true;
                 }
             }
