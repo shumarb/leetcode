@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/75.
+Completed: 48/75.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 47/75.
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)   | 5ms     | 100%   |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                    | 1ms     | 90.84% |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                           | 1ms     | 99.51% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                            | 7ms     | 97.71% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                   | 46ms    | 82.48% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                     | 860ms   | 6.11%  |

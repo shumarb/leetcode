@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 394/1952.
+Completed: 395/1952.
 
 ## Submissions
 ### Easy
@@ -355,6 +355,7 @@ Completed: 394/1952.
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                              | 2ms     | 98.84% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                                  | 291ms   | 48.57% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                                          | 1ms     | 90.84% |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                                 | 1ms     | 99.51% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 4ms     | 99.46% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                                  | 7ms     | 97.71% |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                                 | 16ms    | 96.94% |
