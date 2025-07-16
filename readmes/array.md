@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 396/1952.
+Completed: 397/1952.
 
 ## Submissions
 ### Easy
@@ -404,6 +404,7 @@ Completed: 396/1952.
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                              | 24ms    | 75.04% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                                    | 13ms    | 99.35% |
 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfEvenNumbersAfterQueries.java)                                    | 4ms     | 99.66% |
+| [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfMatrixAfterQueries.java)                                         | 3ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                            | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                               | 6ms     | 98%    | 
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                                     | 2ms     | 92.54% |

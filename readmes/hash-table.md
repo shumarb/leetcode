@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 205/713.
+Completed: 206/713.
 
 ## Submissions
 ### Easy
@@ -217,6 +217,7 @@ Completed: 205/713.
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                          | 16ms    | 33.15% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                                    | 8ms     | 87.71% |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                           | 24ms    | 75.04% |
+| [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfMatrixAfterQueries.java)                                      | 3ms     | 100%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                         | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                            | 6ms     | 98%    | 
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)               | 141ms   | 42.47% | 
