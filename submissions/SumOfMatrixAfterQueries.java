@@ -2,32 +2,30 @@
 
 class SumOfMatrixAfterQueries {
     public long matrixSumQueries(int n, int[][] queries) {
-        boolean[] isRowSeen = new boolean[n];
         boolean[] isColumnSeen = new boolean[n];
-        int remainingUnaffectedRows = n;
-        int remainingUnaffectedColumns = n;
+        boolean[] isRowSeen = new boolean[n];
+        int remainingColumns = n;
+        int remainingRows = n;
         long sum = 0;
 
         for (int i = queries.length - 1; i >= 0; i--) {
-            int[] query = queries[i];
-            int type = query[0];
-            int index = query[1];
-            int val = query[2];
+            int type = queries[i][0];
+            int index = queries[i][1];
+            int val = queries[i][2];
 
             if (type == 0) {
                 if (!isRowSeen[index]) {
-                    sum += val * remainingUnaffectedColumns;
+                    remainingRows--;
+                    sum += val * remainingColumns;
                     isRowSeen[index] = true;
-                    remainingUnaffectedRows--;
                 }
             } else {
-                if (!isColumnSeen[index]) {
-                    sum += val * remainingUnaffectedRows;
+                if(!isColumnSeen[index]) {
+                    remainingColumns--;
+                    sum += val * remainingRows;
                     isColumnSeen[index] = true;
-                    remainingUnaffectedColumns--;
                 }
             }
-
         }
 
         return sum;
