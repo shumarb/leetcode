@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 397/1952.
+Completed: 398/1952.
 
 ## Submissions
 ### Easy
@@ -87,6 +87,7 @@ Completed: 397/1952.
 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineIfTwoEventsHaveConflict.java)                          | 0ms     | 100%   |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineTheWinnerOfABowlingGame.java)                          | 1ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)           | 2ms     | 98.35% |
+| [Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistanceBetweenBusStops.java)                                   | 0ms     | 100%   |
 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandies.java)                                         | 31ms    | 55.24% |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)                        | 1ms     | 100%   |
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                                 | 1ms     | 99.99% |
