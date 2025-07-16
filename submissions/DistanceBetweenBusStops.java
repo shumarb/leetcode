@@ -3,7 +3,6 @@
 class DistanceBetweenBusStops {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         boolean isTest = false;
-        int antiClockwiseDistance = 0;
         int clockwiseDistance = 0;
         int n = distance.length;
         int totalDistance = 0;
@@ -26,16 +25,14 @@ class DistanceBetweenBusStops {
                 clockwiseDistance += distance[i];
             }
         }
-        antiClockwiseDistance = totalDistance - clockwiseDistance;
-
         if (isTest) {
             System.out.println("distance: " + Arrays.toString(distance));
             System.out.println("start: " + start + "\ndestination: " + destination);
             System.out.println("------------------------------------------------------------");
-            System.out.println("antiClockwiseDistance: " + antiClockwiseDistance + "\nclockwiseDistance: " + clockwiseDistance);
-            System.out.println("result: " + Math.min(antiClockwiseDistance, clockwiseDistance));
+            System.out.println("antiClockwiseDistance: " + (totalDistance - clockwiseDistance) + "\nclockwiseDistance: " + clockwiseDistance);
+            System.out.println("result: " + Math.min((totalDistance - clockwiseDistance), clockwiseDistance));
         }
 
-        return Math.min(antiClockwiseDistance, clockwiseDistance);
+        return Math.min((totalDistance - clockwiseDistance), clockwiseDistance);
     }
 }
