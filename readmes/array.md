@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 398/1952.
+Completed: 399/1952.
 
 ## Submissions
 ### Easy
@@ -246,6 +246,7 @@ Completed: 398/1952.
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                                | 5ms     | 74.92% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                               | 2ms     | 95.73% |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                    | 4ms     | 81.11% |
+| [Shortest Distance Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToTargetStringInACircularArray.java)            | 0ms     | 100%   |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                              | 1ms     | 98.82% |
 | [Shuffle String](https://leetcode.com/problems/shuffle-string/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleString.java)                                             | 0ms     | 100%   |
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SignOfTheProductOfAnArray.java)                                 | 0ms     | 100%   |

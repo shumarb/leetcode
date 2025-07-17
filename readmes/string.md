@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 220/807.
+Completed: 221/807.
 
 ## Submissions
 ### Easy
@@ -164,6 +164,7 @@ Completed: 220/807.
 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreOfAString.java)                                               | 1ms     | 99.49% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                                  | 1ms     | 95.03% |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                       | 4ms     | 81.11% |
+| [Shortest Distance Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToTargetStringInACircularArray.java)               | 0ms     | 100%   |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                                 | 1ms     | 98.82% |
 | [Shuffle String](https://leetcode.com/problems/shuffle-string/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleString.java)                                                | 0ms     | 100%   |
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                                   | 1ms     | 99.66% |
