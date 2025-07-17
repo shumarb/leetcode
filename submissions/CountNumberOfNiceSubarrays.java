@@ -2,26 +2,26 @@
 
 class CountNumberOfNiceSubarrays {
     public int numberOfSubarrays(int[] nums, int k) {
-        int count = 0;
+        int countOdd = 0;
+        int countValidSubarrays = 0;
         int left = 0;
-        int oddCount = 0;
-        int total = 0;
+        int totalValidSubArrays = 0;
 
         for (int right = 0; right < nums.length; right++) {
             if (nums[right] % 2 == 1) {
-                oddCount++;
-                count = 0;
+                countOdd++;
+                countValidSubarrays = 0;
             }
-            while (oddCount == k) {
+            while (countOdd == k) {
                 if (nums[left] % 2 == 1) {
-                    oddCount--;
+                    countOdd--;
                 }
                 left++;
-                count++;
+                countValidSubarrays++;
             }
-            total += count;
+            totalValidSubArrays += countValidSubarrays;
         }
 
-        return total;
+        return totalValidSubArrays;
     }
 }
