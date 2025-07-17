@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 221/807.
+Completed: 222/807.
 
 ## Submissions
 ### Easy
@@ -136,6 +136,7 @@ Completed: 221/807.
 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/strings-that-appear-as-substrings-in-word/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStringsThatAppearAsSubstringsInWord.java)                  | 0ms     | 100%   |
 | [Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfValidWordsInASentence.java)                                | 8ms     | 76.44% |
 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OccurrencesAfterBigram.java)                                       | 0ms     | 100%   |
+| [Odd String Difference](https://leetcode.com/problems/odd-string-difference/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OddStringDifference.java)                                          | 2ms     | 59.44% |
 | [Path Crossing](https://leetcode.com/problems/path-crossing/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathCrossing.java)                                                 | 1ms     | 99.70% |
 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PercentageOfLetterInString.java)                                   | 0ms     | 100%   |
 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationDifferenceBetweenTwoStrings.java)                       | 1ms     | 100%   |
