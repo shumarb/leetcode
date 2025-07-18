@@ -7,9 +7,10 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsOne {
         int len = word.length();
 
         for (int i = 0; i < len; i++) {
+            StringBuilder current = new StringBuilder();
             for (int j = i; j < len; j++) {
-                String current = word.substring(i, j + 1);
-                if (current.length() >= 5 && isValid(current, k)) {
+                current.append(word.charAt(j));
+                if (current.length() >= 5 && isValid(current.toString(), k)) {
                     if (isTest) {
                         System.out.println(" * valid: " + current.toString());
                     }
@@ -24,7 +25,6 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsOne {
     private boolean isValid(String word, int k) {
         int[] frequency = new int[26];
         int countConsonants = 0;
-
         for (char c: word.toCharArray()) {
             frequency[c - 'a']++;
             if (!isVowel(c)) {
@@ -32,15 +32,20 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsOne {
             }
         }
 
-        if (countConsonants != k || frequency['a' - 'a'] == 0 || frequency['e' - 'a'] == 0 ||
+        if (countConsonants != k) {
+            return false;
+        }
+
+        if (frequency['a' - 'a'] == 0 || frequency['e' - 'a'] == 0 ||
                 frequency['i' - 'a'] == 0 || frequency['o' - 'a'] == 0 || frequency['u' - 'a'] == 0) {
             return false;
+
         }
 
         return true;
     }
 
     private boolean isVowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+        return "aeiou".indexOf(c) >= 0;
     }
 }
