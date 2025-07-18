@@ -9,17 +9,15 @@ class SubarraysDistinctElementSumOfSquaresOne {
         if (isTest) {
             System.out.println("nums: " + nums);
         }
-        for (int windowSize = 1; windowSize <= n; windowSize++) {
-            if (isTest) {
-                System.out.println("-----------------------------");
-                System.out.println("window size: " + windowSize);
-            }
-            for (int i = 0; i <= n - windowSize; i++) {
-                List<Integer> subList = nums.subList(i, i + windowSize);
-                int countDistinct = countDistinct(subList);
-                if (isTest) {
-                    System.out.println(" * subList: " + subList + " -> countDistinct: " + countDistinct);
+        for (int i = 0; i < n; i++) {
+            boolean[] isPresent = new boolean[101];
+            int countDistinct = 0;
+            for (int j = i; j < n; j++) {
+                int element = nums.get(j);
+                if (!isPresent[element]) {
+                    countDistinct++;
                 }
+                isPresent[element] = true;
                 sumCounts += (countDistinct * countDistinct);
             }
         }
