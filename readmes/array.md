@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 401/1952.
+Completed: 402/1952.
 
 ## Submissions
 ### Easy
@@ -268,6 +268,7 @@ Completed: 401/1952.
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                             | 0ms     | 100%   |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SquaresOfASortedArray.java)                                     | 1ms     | 100%   |
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringMatchingInAnArray.java)                                   | 4ms     | 89.02% |
+| [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysDistinctElementSumOfSquaresOne.java)                   | 145ms   | 6.01%  |
 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SummaryRanges.java)                                             | 5ms     | 80.55% |
 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)                                | 2ms     | 66.79% |
 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfGoodNumbers.java)                                          | 1ms     | 100%   |

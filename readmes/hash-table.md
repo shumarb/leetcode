@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 208/713.
+Completed: 209/713.
 
 ## Submissions
 ### Easy
@@ -146,6 +146,7 @@ Completed: 208/713.
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByIncreasingFrequency.java)                         | 4ms     | 98.04% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                          | 4ms     | 97.69% |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                          | 0ms     | 100%   |
+| [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysDistinctElementSumOfSquaresOne.java)                | 145ms   | 6.01%  |
 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubstringsOfSizeThreeWithDistinctCharacters.java)            | 0ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
