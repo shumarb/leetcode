@@ -32,10 +32,21 @@ class SubarraysDistinctElementSumOfSquaresOne {
     }
 
     private int countDistinct(List<Integer> list) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isPresent;
+        int countDistinct = 0;
+        int maximum = 0;
+
         for (int number: list) {
-            set.add(number);
+            maximum = Math.max(maximum, number);
         }
-        return set.size();
+        isPresent = new boolean[maximum + 1];
+        for (int number: list) {
+            if (!isPresent[number]) {
+                isPresent[number] = true;
+                countDistinct++;
+            }
+        }
+
+        return countDistinct;
     }
 }
