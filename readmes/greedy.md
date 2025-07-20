@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/419.
+Completed: 45/423.
 
 ## Submissions
 ### Easy
@@ -64,3 +64,4 @@ Completed: 44/419.
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                         | 17ms    | 92.02% |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                   | 335ms   | 88.82% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 96.88% |
+| [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                            | 1ms     | 58.36% |
