@@ -72,4 +72,4 @@ Completed: 48/75.
 | Question                                                                                                | Submission                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)      | 92ms    | 78.28% |
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 71.29% |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 74%    |
