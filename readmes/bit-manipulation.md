@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/243.
+Completed: 43/247.
 
 ## Submissions
 ### Easy
@@ -61,4 +61,5 @@ Completed: 42/243.
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                           | 4ms     | 5.52%  |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                      | 4ms     | 88.75% |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)   | 2ms     | 90.13% |
+| [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                     | 1ms     | 50.06% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                            | 0ms     | 100%   |

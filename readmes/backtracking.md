@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/108.
+Completed: 7/108.
 
 ## Submissions
 ### Easy
@@ -26,3 +26,4 @@ Completed: 6/108.
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java) | 2ms     | 90.13% |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                                | 1ms     | 99.84% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)            | 1ms     | 99.86% |
+| [Subsets](https://leetcode.com/problems/subsets/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                   | 1ms     | 50.06% |

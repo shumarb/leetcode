@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 402/1952.
+Completed: 403/1952.
 
 ## Submissions
 ### Easy
@@ -407,6 +407,7 @@ Completed: 402/1952.
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                                      | 1ms     | 99%    |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98% |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                              | 24ms    | 75.04% |
+| [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                         | 1ms     | 50.06% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                                    | 13ms    | 99.35% |
 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfEvenNumbersAfterQueries.java)                                    | 4ms     | 99.66% |
 | [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfMatrixAfterQueries.java)                                         | 3ms     | 100%   |
