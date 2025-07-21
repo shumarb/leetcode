@@ -44,7 +44,7 @@ Completed: 74/150.
 
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-------9-----------------------------------------------------------------------------------------------------------|---------|--------|
+|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                  | 30ms    | 69.14% |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                             | 1ms     | 100%   |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)             | 1ms     | 89.68% |
