@@ -16,7 +16,7 @@ Completed: 8/108.
 ### Easy
 | Question                                                                                                            | Submission                                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePaths.java)                | 1ms     | 98.67% |
+| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePaths.java)                | 1ms     | 98.42% |
 
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |

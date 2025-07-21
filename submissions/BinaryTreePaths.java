@@ -16,37 +16,41 @@
  * }
  */
 class BinaryTreePaths {
+    private List<String> binaryTreePaths;
+
     public List<String> binaryTreePaths(TreeNode root) {
-        List<String> result = new ArrayList<>();
+        binaryTreePaths = new ArrayList<>();
         boolean isTest = false;
 
-        findBinaryTreePaths(root, new StringBuilder(), result);
+        helper(root, new StringBuilder());
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("binaryTreePaths: " + binaryTreePaths);
         }
 
-        return result;
+        return binaryTreePaths;
     }
 
-    private void findBinaryTreePaths(TreeNode current, StringBuilder path, List<String> result) {
-        if (current == null) {
+    private void helper(TreeNode node, StringBuilder path) {
+        if (node == null) {
             return;
         }
 
-        // 1. Store length of path before further checks for backtracking.
-        int len = path.length();
-        path.append(current.val);
-
-        // 2. Leaf reached, so a binary path is found.
-        if (current.left == null && current.right == null) {
-            result.add(path.toString());
-        } else {
-            path.append("->");
-            findBinaryTreePaths(current.left, path, result);
-            findBinaryTreePaths(current.right, path, result);
+        path.append(node.val);
+        if (node.left == null && node.right == null) {
+            binaryTreePaths.add(path.toString());
+            return;
         }
 
-        // 3. Backtrack by setting path as it's value before recently-added vertex.
-        path.setLength(len);
+        path.append("->");
+        if (node.left != null) {
+            int len = path.length();
+            helper(node.left, path);
+            path.setLength(len);
+        }
+        if (node.right != null) {
+            int len = path.length();
+            helper(node.right, path);
+            path.setLength(len);
+        }
     }
 }
