@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/150.
+Completed: 74/150.
 
 ## Submissions
 ### Easy
@@ -44,7 +44,7 @@ Completed: 73/150.
 
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
+|---------------------------------------------------------------------------------------------------------------------------------------------|-------9-----------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                  | 30ms    | 69.14% |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                             | 1ms     | 100%   |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)             | 1ms     | 89.68% |
@@ -63,6 +63,7 @@ Completed: 73/150.
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                    | 30ms    | 63.52% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                | 3ms     | 98.86% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                  | 0ms     | 100%   |
+| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)          | 0ms     | 100%   |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                | 30ms    | 73.18% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)               | 594ms   | 14.03% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java) | 6ms     | 70.02% |
