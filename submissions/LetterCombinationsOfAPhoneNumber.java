@@ -2,73 +2,54 @@
 
 class LetterCombinationsOfAPhoneNumber {
     private List<String> result;
-    private Map<Integer, char[]> map;
+    private String[] map;
     private String digits;
 
     public List<String> letterCombinations(String digits) {
-        // 1. Edge case: Empty string.
-        if (digits.length() == 0) {
+        if (digits.isEmpty()) {
             return new ArrayList<>();
         }
 
-        map = new HashMap<>();
+        boolean isTest = false;
+        map = new String[10];
         result = new ArrayList<>();
         this.digits = digits;
-        boolean isTest = false;
 
         populate();
         dfs(new StringBuilder(), 0);
         if (isTest) {
             System.out.println("map:");
-            for (Map.Entry<Integer, char[]> e: map.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + Arrays.toString(e.getValue()));
+            for (int i = 2; i < map.length; i++) {
+                System.out.println(" * " + i + " -> " + Arrays.toString(map[i].toCharArray()));
             }
-            System.out.println("------------------------------------------\nresult: " + result);
+            System.out.println("-------------------------------\nresult:" + result);
         }
 
         return result;
     }
 
     private void dfs(StringBuilder path, int currentIndex) {
-        /**
-            1. Formed valid letter combination where each letter is from corresponding number.
-         */
-        if (currentIndex == digits.length()) {
+        if (path.length() == digits.length()) {
             result.add(path.toString());
+            return;
+        }
 
-        } else {
-            int digit = Character.getNumericValue(digits.charAt(currentIndex));
-            for (char letter: map.get(digit)) {
-                /**
-                 2.  Letter combination not formed,
-                     so add current letter of current digit to path,
-                     explore until valid letter combination formed,
-                     then backtrack to create another valid letter combination.
-                 */
-                path.append(letter);
-                dfs(path, currentIndex + 1);
-                path.deleteCharAt(path.length() - 1);
-            }
+        int digit = Character.getNumericValue(digits.charAt(currentIndex));
+        for (char letter: map[digit].toCharArray()) {
+            path.append(letter);
+            dfs(path, currentIndex + 1);
+            path.deleteCharAt(path.length() - 1);
         }
     }
 
     private void populate() {
-        char letter = 'a';
-        int number = 2;
-
-        while (number < 10) {
-            char[] letters;
-
-            if (number == 7 || number == 9) {
-                letters = new char[4];
-            } else {
-                letters = new char[3];
-            }
-            for (int i = 0; i < letters.length; i++) {
-                letters[i] = letter++;
-            }
-
-            map.put(number++, letters);
-        }
+        map[2] = "abc";
+        map[3] = "def";
+        map[4] = "ghi";
+        map[5] = "jkl";
+        map[6] = "mno";
+        map[7] = "pqrs";
+        map[8] = "tuv";
+        map[9] = "wxyz";
     }
 }
