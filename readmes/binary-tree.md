@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/177.
+Completed: 62/177.
 
 ## Submissions
 ### Easy
@@ -65,6 +65,7 @@ Completed: 61/177.
 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                  | 0ms     | 100%   |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)            | 2ms     | 80.79% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)            | 1ms     | 18.41% |
+| [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertIntoABinarySearchTree.java)              | 0ms     | 100%   |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)               | 45ms    | 83.54% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                 | 0ms     | 100%   |
 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnivaluePath.java)                      | 2ms     | 95.73% |
