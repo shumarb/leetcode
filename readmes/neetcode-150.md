@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/150.
+Completed: 75/150.
 
 ## Submissions
 ### Easy
@@ -75,6 +75,7 @@ Completed: 74/150.
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                   | 46ms    | 82.48% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                     | 860ms   | 6.11%  |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                       | 6ms     | 86.31% |
+| [Permutations](https://leetcode.com/problems/permutations/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                              | 2ms     | 36.84% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                     | 0ms     | 100%   |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                  | 2ms     | 89.32% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)                | 0ms     | 100%   |

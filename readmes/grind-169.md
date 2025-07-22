@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 93/169.
+Completed: 94/169.
 
 ## Submissions
 | #   | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 93/169.
 | 32  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)                         | 0ms     | 100%   |
 | 33  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                  | 0ms     | 100%   | 
 | 36  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                | 0ms     | 100%   |
+| 38  | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                              | 2ms     | 36.84% |
 | 39  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                            | 7ms     | 97.71% |
 | 40  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)         | 6ms     | 100%   |
 | 45  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                              | 92ms    | 78.28% |
