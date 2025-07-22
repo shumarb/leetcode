@@ -16,25 +16,17 @@
  * }
  */
 class SearchInABinarySearchTree {
-    private TreeNode result = null;
-
     public TreeNode searchBST(TreeNode root, int val) {
-        traverse(root, val);
-        return result;
-    }
+        if (root.val == val) {
+            return root;
 
-    private void traverse(TreeNode node, int val) {
-        if (node == null) {
-            return;
+        } else if (val < root.val && root.left != null) {
+            return searchBST(root.left, val);
+
+        } else if (val > root.val && root.right != null) {
+            return searchBST(root.right, val);
         }
-        if (node.val == val) {
-            result = node;
-            return;
-        }
-        if (val < node.val) {
-            traverse(node.left, val);
-        } else {
-            traverse(node.right, val);
-        }
+
+        return null;
     }
 }
