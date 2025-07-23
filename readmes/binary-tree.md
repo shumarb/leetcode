@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/177.
+Completed: 63/177.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 62/177.
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePreorderTraversal.java)                           | 0ms     | 100%   |
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePostorderTraversal.java)                          | 0ms     | 100%   |
 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeTilt.java)                                        | 0ms     | 100%   |
+| [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java)                  | 0ms     | 100%   |
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                                | 0ms     | 100%   |
 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CousinsInBinaryTree.java)                                   | 1ms     | 26.22% |
 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiameterOfBinaryTree.java)                                  | 0ms     | 100%   |
