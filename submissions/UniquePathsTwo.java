@@ -43,12 +43,11 @@ class UniquePathsTwo {
          */
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                if (obstacleGrid[i][j] == 1) {
-                    continue;
+                if (obstacleGrid[i][j] != 1) {
+                    int countDown = (obstacleGrid[i - 1][j] == 1) ? 0 : dp[i - 1][j];
+                    int countRight = (obstacleGrid[i][j - 1] == 1) ? 0 : dp[i][j - 1];
+                    dp[i][j] = countDown + countRight;
                 }
-                int countDown = (obstacleGrid[i - 1][j] == 1) ? 0 : dp[i - 1][j];
-                int countRight = (obstacleGrid[i][j - 1] == 1) ? 0 : dp[i][j - 1];
-                dp[i][j] = countDown + countRight;
             }
         }
         if (isTest) {
