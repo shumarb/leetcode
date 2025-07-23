@@ -7,15 +7,18 @@ class UniquePathsTwo {
         int n = obstacleGrid[0].length;
         int[][] dp = new int[m][n];
 
-        // 1. Impossible to reach bottom-right corner if it is an obstacle.
-        if (obstacleGrid[m - 1][n - 1] == 1) {
+        /**
+         1.  Edge cases: Impossible to reach bottom right
+            if either top-left or bottom-right corners are an obstacle.
+         */
+        if (obstacleGrid[0][0] == 1 || obstacleGrid[m - 1][n - 1] == 1) {
             return 0;
         }
 
         /**
-         2.  Update first row and first column to determine number of ways to reach each cell.
-             If a cell is an obstacle, stop traversing
-             as it is impossible to reach cells beyond an obstacle cell.
+         2.  Traversal for first row and first column
+             is either moving down only or moving right only respectively,
+             and stops when an obstacle is found.
          */
         for (int i = 0; i < m; i++) {
             if (obstacleGrid[i][0] == 1) {
@@ -31,24 +34,21 @@ class UniquePathsTwo {
                 dp[0][i] = 1;
             }
         }
+
+        /**
+         3.  For each cell dp[i][j], number of ways to reach it from top-left corner
+             is the sum of total number of steps to get there by moving right (dp[i][j - 1])
+             and the total number of steps to get there by moving down (dp[i - 1][j]).
+             If cell is an obstacle, skip it.
+         */
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                /**
-                 3.  Current cell's value is 0 if it is obstacle
-                     because it is a cell to avoid.
-                 */
                 if (obstacleGrid[i][j] == 1) {
                     continue;
                 }
-
-                /**
-                 4.  Obtain number of down and left steps needed to reach current cell.
-                     If cell above current cell is an obstacle, number of down steps to reach current cell is 0.
-                     If cell left of current cell is an obstacle, number of right steps to reach current cell is 0.
-                 */
-                int countDownSteps = (obstacleGrid[i - 1][j] == 1) ? 0 : dp[i - 1][j];
-                int countLeftSteps = (obstacleGrid[i][j - 1] == 1) ? 0 : dp[i][j - 1];
-                dp[i][j] = countDownSteps + countLeftSteps;
+                int countDown = (obstacleGrid[i - 1][j] == 1) ? 0 : dp[i - 1][j];
+                int countRight = (obstacleGrid[i][j - 1] == 1) ? 0 : dp[i][j - 1];
+                dp[i][j] = countDown + countRight;
             }
         }
         if (isTest) {
@@ -65,6 +65,6 @@ class UniquePathsTwo {
         for (int[] row: grid) {
             System.out.println(Arrays.toString(row));
         }
-        System.out.println("------------------------------------------------");
+        System.out.println("--------------------------------");
     }
 }
