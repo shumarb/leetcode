@@ -25,33 +25,27 @@
  *     }
  * }
  */
-class Solution {
-    public TreeNode sortedListToBST(ListNode head) {
-        if (head == null) {
+class ConvertSortedListToBinarySearchTree {
+    private TreeNode insert(ListNode head, ListNode tail) {
+        if (head == tail) {
             return null;
         }
 
-        List<ListNode> list = new ArrayList<>();
-        ListNode current = head;
-
-        while (current != null) {
-            list.add(current);
-            current = current.next;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != tail && fast.next != tail) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        return insert(list, 0, list.size() - 1);
-    }
-
-    private TreeNode insert(List<ListNode> list, int left, int right) {
-        if (left > right) {
-            return null;
-        }
-
-        int mid = left + (right - left) / 2;
-        TreeNode root = new TreeNode(list.get(mid).val);
-        root.left = insert(list, left, mid - 1);
-        root.right = insert(list, mid + 1, right);
+        TreeNode root = new TreeNode(slow.val);
+        root.left = insert(head, slow);
+        root.right = insert(slow.next, tail);
 
         return root;
+    }
+
+    public TreeNode sortedListToBST(ListNode head) {
+        return head == null ? null : insert(head, null);
     }
 }
