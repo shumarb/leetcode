@@ -3,14 +3,16 @@
 class Combinations {
     private List<List<Integer>> result;
     private int n;
+    private int k;
 
     public List<List<Integer>> combine(int n, int k) {
         boolean isTest = false;
         result = new ArrayList<>();
+        this.k = k;
         this.n = n;
 
         for (int i = 1; i <= n; i++) {
-            helper(i, new ArrayList<>(), new boolean[n + 1], k);
+            helper(i, new ArrayList<>(), new boolean[n + 1]);
         }
         if (isTest) {
             System.out.println("n: " + n + "\nk: " + k);
@@ -23,7 +25,7 @@ class Combinations {
         return result;
     }
 
-    private void helper(int i, List<Integer> path, boolean[] isVisited, int k) {
+    private void helper(int i, List<Integer> path, boolean[] isVisited) {
         path.add(i);
         isVisited[i] = true;
 
@@ -39,7 +41,7 @@ class Combinations {
                      until a valid path is found, then backtrack to explore
                      remaining unvisited numbers.
                  */
-                helper(j, path, isVisited, k);
+                helper(j, path, isVisited);
                 path.removeLast();
                 isVisited[j] = false;
             }
