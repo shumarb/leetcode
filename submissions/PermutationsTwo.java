@@ -2,27 +2,48 @@
 
 class PermutationsTwo {
     private List<List<Integer>> result;
+    private int len;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
+        boolean isTest = false;
         Arrays.sort(nums);
-        dfs(0, new ArrayList<>(), nums);
+        len = nums.length;
+        result = new ArrayList<>();
+
+        dfs(new ArrayList<>(), nums, new boolean[len]);
+        if (isTest) {
+            System.out.println("sorted nums: " + Arrays.toString(nums));
+            System.out.println("---------------------------\nresult:");
+            for (List<Integer> list: result) {
+                System.out.println(list);
+            }
+        }
 
         return result;
     }
 
-    private void dfs(int currentIndex, List<Integer> path, int[] nums) {
-        if (path.size() == nums.length) {
+    private void dfs(List<Integer> path, int[] nums, boolean[] isIndexUsed) {
+        if (path.size() == len) {
             result.add(new ArrayList<>(path));
             return;
         }
 
-        path.add(nums[currentIndex]);
-        for (int i = 0; i < nums.length; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) {
+        for (int i = 0; i < len; i++) {
+            // 1. Skip used indices to ensure no checking of duplicate paths.
+            if (isIndexUsed[i]) {
                 continue;
             }
+
+            // 2. Skip duplicate elements.
+            if (i > 0 && !isIndexUsed[i - 1] && nums[i - 1] == nums[i]) {
+                continue;
+            }
+
+            // 3. Explore path and backtrack.
+            isIndexUsed[i] = true;
             path.add(nums[i]);
-            dfs(i, path, nums);
+            dfs(path, nums, isIndexUsed);
+            isIndexUsed[i] = false;
             path.removeLast();
         }
     }
