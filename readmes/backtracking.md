@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/108.
+Completed: 13/108.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 12/108.
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)          | 0ms     | 100%   |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                                | 1ms     | 99.84% |
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                              | 1ms     | 92.71% |
+| [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                           | 85ms    | 12.07% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)            | 1ms     | 99.86% |
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                   | 0ms     | 100%   |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                | 1ms     | 99.93% |

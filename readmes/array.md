@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 406/1952.
+Completed: 407/1959.
 
 ## Submissions
 ### Easy
@@ -380,6 +380,7 @@ Completed: 406/1952.
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                                       | 0ms     | 100%   |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java)    | 279ms   | 66.51% |
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                                    | 1ms     | 92.71% |
+| [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                                 | 85ms    | 12.07% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                        | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                                | 2490ms  | 5.01%  |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                            | 21ms    | 99.89% |
