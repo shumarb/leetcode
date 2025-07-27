@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 134/597.
+Completed: 135/603.
 
 ## Submissions
 ### Easy
@@ -154,7 +154,8 @@ Completed: 134/597.
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                         | 0ms     | 100%   |
 
 ### Hard
-| Question                                                                                                                                      | Submission                                                                                                  | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)                 | 31ms    | 84.09% |
-| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)              | 43ms    | 83.32% |
+| Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)               | 31ms    | 84.09% |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationSequence.java)                | 638ms   | 12.54% |
+| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)            | 43ms    | 83.32% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/49.
+Completed: 18/49.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 17/49.
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)          | 0ms     | 100%   |
 
 ### Hard
-| Question                                                                                        | Submission                                                                                         | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java)        | 1ms     | 30.85% |
+| Question                                                                                        | Submission                                                                                  | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationSequence.java)  | 638ms   | 12.54% |
+| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java) | 1ms     | 30.85% |
