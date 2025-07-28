@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 407/1959.
+Completed: 408/1959.
 
 ## Submissions
 ### Easy
@@ -271,6 +271,7 @@ Completed: 407/1959.
 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringMatchingInAnArray.java)                                   | 4ms     | 89.02% |
 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysDistinctElementSumOfSquaresOne.java)                   | 3ms     | 98.91% |
 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)                                | 2ms     | 66.79% |
+| [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllSubsetXorTotals.java)                                   | 6ms     | 17.81% |
 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfGoodNumbers.java)                                          | 1ms     | 100%   |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquaresOfSpecialElements.java)                             | 1ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfUniqueElements.java)                                       | 0ms     | 100%   |

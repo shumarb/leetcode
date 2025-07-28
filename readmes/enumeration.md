@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/119.
+Completed: 18/122.
 
 ## Submissions
 ### Easy
@@ -28,6 +28,7 @@ Completed: 17/119.
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                 | 17ms    | 33.88% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCommonFactors.java)                      | 1ms     | 44.28% |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestDivisibleDigitProductOne.java)           | 1ms     | 65.70% |
+| [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllSubsetXorTotals.java)                    | 6ms     | 17.81% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquaresOfSpecialElements.java)              | 1ms     | 100%   |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeDivisors.java)                              | 1ms     | 61.86% |
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                    | 7ms     | 17.93% |

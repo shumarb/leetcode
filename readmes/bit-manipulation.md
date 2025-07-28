@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/247.
+Completed: 46/247.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 45/247.
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                               | 1ms     | 99.93% |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestNumberWithAllSetBits.java)               | 1ms     | 30.35% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)             | 7ms     | 74.98% |
+| [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllSubsetXorTotals.java)                    | 6ms     | 17.81% |
 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfValuesAtIndicesWithKSetBits.java)           | 1ms     | 100%   |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoOutOfThree.java)                              | 1ms     | 100%   |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XorOperationInAnArray.java)                      | 0ms     | 100%   |
