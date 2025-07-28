@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 211/713.
+Completed: 212/717.
 
 ## Submissions
 ### Easy
@@ -105,6 +105,7 @@ Completed: 211/713.
 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfBallsInABox.java)                             | 13ms    | 97.88% |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfPairsInArray.java)                            | 0ms     | 100%   |
 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfWordsYouCanType.java)                         | 1ms     | 108%   |
+| [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)                                | 135ms   | 5.10%  |
 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                                      | 3ms     | 98.07% |
 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwo2DArraysBySummingValues.java)                        | 1ms     | 84.70% |
 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeStringLength.java)                                   | 3ms     | 100%   |

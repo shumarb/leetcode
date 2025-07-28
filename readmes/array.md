@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 408/1959.
+Completed: 409/1959.
 
 ## Submissions
 ### Easy
@@ -179,6 +179,7 @@ Completed: 408/1959.
 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductDifferenceBetweenTwoPairs.java)                   | 2ms     | 98.79% |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeNumbers.java)                              | 2ms     | 99.10% |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfTwoElementsInAnArray.java)                      | 0ms     | 100%   |
+| [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)                                   | 135ms   | 5.10%  |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithExactlyKElements.java)                            | 1ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumUnitsOnATruck.java)                                      | 8ms     | 95.90% |
 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumValueOfAStringInAnArray.java)                            | 0ms     | 100%   |

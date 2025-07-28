@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 34/153.
+Completed: 35/153.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 34/153.
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                              | 37ms    | 17.29% |
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAverageSubarrayOne.java)                         | 5ms     | 51.11% |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthSubstringWithTwoOccurrences.java)          | 38ms    | 5.28%  |
+| [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)                           | 135ms   | 5.10%  |
 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDifferenceBetweenHighestAndLowestOfKScores.java) | 5ms     | 97.12% |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)                        | 6ms     | 26.50% |
 | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRecolorsToGetKConsecutiveBlackBlocks.java)       | 0ms     | 100%   |
