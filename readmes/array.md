@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 410/1959.
+Completed: 411/1959.
 
 ## Submissions
 ### Easy
@@ -287,6 +287,7 @@ Completed: 410/1959.
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeConsecutiveOdds..java)                                     | 0ms     | 100%   |
 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToeplitzMatrix.java)                                            | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                                    | 1ms     | 100%   |
+| [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                          | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                           | 0ms     | 100%   |
 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TruncateSentence.java)                                          | 1ms     | 79.33% |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoFurthestHousesWithDifferentColors.java)                      | 2ms     | 50.45% |
