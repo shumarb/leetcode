@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 411/1959.
+Completed: 412/1959.
 
 ## Submissions
 ### Easy
@@ -404,6 +404,7 @@ Completed: 411/1959.
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArrayTwo.java)                                   | 0ms     | 100%   |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                      | 49ms    | 78.74% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                                 | 1ms     | 73.86% |
+| [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                            | 105ms   | 21.06% |
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                                     | 0ms     | 100%   |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                                      | 0ms     | 100%   |
 | [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortMatrixByDiagonals.java)                                           | 5ms     | 58.74% |

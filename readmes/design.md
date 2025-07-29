@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/128.
+Completed: 20/128.
 
 ## Submissions
 ### Easy
@@ -43,3 +43,4 @@ Completed: 19/128.
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 92ms    | 78.28% |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java) | 31ms    | 84.09% |
+| [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                 | 105ms   | 21.06% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 212/717.
+Completed: 213/717.
 
 ## Submissions
 ### Easy
@@ -220,6 +220,7 @@ Completed: 212/717.
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                   | 49ms    | 78.74% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                              | 1ms     | 73.86% |
+| [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                         | 105ms   | 21.06% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                          | 16ms    | 33.15% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                                    | 8ms     | 87.71% |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                           | 24ms    | 75.04% |
