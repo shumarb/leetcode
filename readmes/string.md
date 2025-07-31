@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 226/807.
+Completed: 227/807.
 
 ## Submissions
 ### Easy
@@ -237,6 +237,7 @@ Completed: 226/807.
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                      | 38ms    | 36.75% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                   | 49ms    | 78.74% |
+| [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                                   | 11ms    | 32.96% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SimplifyPath.java)                                                 | 5ms     | 51.87% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                               | 1ms     | 99.86% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)                      | 2ms     | 96.88% |
