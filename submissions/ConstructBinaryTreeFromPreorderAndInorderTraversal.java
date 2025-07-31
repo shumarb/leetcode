@@ -16,19 +16,19 @@
  * }
  */
 class ConstructBinaryTreeFromPreorderAndInorderTraversal {
-    private Map<Integer, Integer> inOrderIndexMap;
+    private Map<Integer, Integer> map;
     private int[] inOrder;
     private int[] preOrder;
     private int preOrderIndex;
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        inOrderIndexMap = new HashMap<>();
+        map = new HashMap<>();
+        inOrder = inorder;
+        preOrder = preorder;
         preOrderIndex = 0;
-        this.preOrder = preorder;
-        this.inOrder = inorder;
 
         for (int i = 0; i < inorder.length; i++) {
-            inOrderIndexMap.put(inorder[i], i);
+            map.put(inorder[i], i);
         }
 
         return buildTree(0, inorder.length - 1);
@@ -40,9 +40,8 @@ class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         }
 
         int rootValue = preOrder[preOrderIndex++];
+        int inOrderIndex = map.get(rootValue);
         TreeNode root = new TreeNode(rootValue);
-
-        int inOrderIndex = inOrderIndexMap.get(rootValue);
         root.left = buildTree(left, inOrderIndex - 1);
         root.right = buildTree(inOrderIndex + 1, right);
 
