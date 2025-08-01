@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 227/807.
+Completed: 228/807.
 
 ## Submissions
 ### Easy
@@ -247,3 +247,8 @@ Completed: 227/807.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                            | 6ms     | 98%    | 
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)               | 141ms   | 42.47% | 
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                  | 14ms    | 45.41% |
+
+### Hard
+| Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |

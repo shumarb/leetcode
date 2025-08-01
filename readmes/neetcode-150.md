@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/150.
+Completed: 78/150.
 
 ## Submissions
 ### Easy
@@ -95,9 +95,10 @@ Completed: 77/150.
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                           | 0ms     | 100%   | 
 
 ### Hard
-| Question                                                                                                | Submission                                                                                  | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 92ms    | 78.28% |
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)    | 4ms     | 71.29% |
-| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java) | 1ms     | 30.85% |
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 7ms     | 99.46% |
+| Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                      | 92ms    | 78.28% |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)                 | 4ms     | 71.29% |
+| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java)              | 1ms     | 30.85% |
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)              | 7ms     | 99.46% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/245.
+Completed: 39/247.
 
 ## Submissions
 ### Easy
@@ -58,3 +58,8 @@ Completed: 38/245.
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)           | 47ms    | 87.43% |
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)             | 0ms     | 100%   |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)               | 10ms    | 39.11% |
+
+### Hard
+| Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |

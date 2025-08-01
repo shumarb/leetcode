@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 21/128.
+Completed: 22/128.
 
 ## Submissions
 ### Easy
@@ -37,11 +37,12 @@ Completed: 21/128.
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                             | 4ms     | 97.18% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                     | 2490ms  | 5.01%  |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)           | 10ms    | 39.11% |
+| [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                 | 95ms    | 96.22% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                  | 16ms    | 33.15% |
 
 ### Hard
-| Question                                                                                                                                      | Submission                                                                                  | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 92ms    | 78.28% |
-| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java) | 31ms    | 84.09% |
-| [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                 | 95ms    | 96.22% |
+| Question                                                                                                                                      | Submission                                                                                               | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                      | 92ms    | 78.28% |
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)              | 31ms    | 84.09% |
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |

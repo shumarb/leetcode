@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/329.
+Completed: 64/330.
 
 ## Submissions
 ### Easy
@@ -83,3 +83,8 @@ Completed: 63/329.
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)           | 1ms     | 99.86% |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                     | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                 | 0ms     | 100%   | 
+
+### Hard
+| Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |
