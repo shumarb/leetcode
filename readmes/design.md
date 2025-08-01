@@ -36,7 +36,7 @@ Completed: 21/128.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                        | 25ms    | 93.59% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                             | 4ms     | 97.18% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                     | 2490ms  | 5.01%  |
-| [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)           | 11ms    | 32.96% |
+| [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)           | 10ms    | 39.11% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                  | 16ms    | 33.15% |
 
 ### Hard
