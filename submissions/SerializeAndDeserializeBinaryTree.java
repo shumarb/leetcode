@@ -49,7 +49,11 @@ public class SerializeAndDeserializeBinaryTree {
             return null;
         }
 
-        Queue<String> queue = new LinkedList<>(Arrays.asList(data.split(" ")));
+        String[] tokens = data.split(" ");
+        Queue<String> queue = new LinkedList<>();
+        for (String token: tokens) {
+            queue.offer(token);
+        }
         if (isTest) {
             System.out.println("----------------------\nqueue: " + queue);
         }

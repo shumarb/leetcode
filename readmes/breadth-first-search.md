@@ -62,4 +62,4 @@ Completed: 39/247.
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 18ms    | 36.43% |
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
