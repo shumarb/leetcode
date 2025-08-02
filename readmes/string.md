@@ -3,7 +3,7 @@
 ## Overview
 This folder contains my solutions to the LeetCode [String](https://leetcode.com/problem-list/string/) problem list,
 with entries sorted by:
-- Difficulty: [Easy](#easy), [Medium](#medium).
+- Difficulty: [Easy](#easy), [Medium](#medium), [Hard](#hard).
 - Question title.
 
 All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) repository.
