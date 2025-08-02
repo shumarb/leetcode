@@ -17,25 +17,22 @@
  */
 class CheckCompletenessOfABinaryTree {
     public boolean isCompleteTree(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        boolean isNullFoundEarlier = false;
+        return isCompleteTree(root, 0, countNodes(root));
+    }
 
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            TreeNode current = queue.poll();
-
-            if (current == null) {
-                isNullFoundEarlier = true;
-                continue;
-
-            } else if (current != null && isNullFoundEarlier) {
-                return false;
-            }
-
-            queue.offer(current.left);
-            queue.offer(current.right);
+    private boolean isCompleteTree(TreeNode node, int index, int n) {
+        if (node == null) {
+            return true;
         }
 
-        return true;
+        if (index >= n) {
+            return false;
+        }
+
+        return isCompleteTree(node.left, 2 * index + 1, n) && isCompleteTree(node.right, 2 * index + 2, n);
+    }
+
+    private int countNodes(TreeNode root) {
+        return (root == null) ? 0 : (1 + countNodes(root.left) + countNodes(root.right));
     }
 }
