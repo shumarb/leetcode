@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/252.
+Completed: 74/252.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 73/252.
 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversalTwo.java)                   | 1ms     | 93.85% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.44% |
 | [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeZigZagLevelOrderTraversal.java)                | 1ms     | 69.75% |
+| [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckCompletenessOfABinaryTree.java)                     | 2ms     | 4.72%  |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                         | 1ms     | 100%   |
