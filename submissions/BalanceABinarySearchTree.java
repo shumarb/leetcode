@@ -16,50 +16,41 @@
  * }
  */
 class BalanceABinarySearchTree {
-    private TreeNode[] nodes;
-    private int i = 0;
-
     public TreeNode balanceBST(TreeNode root) {
+        List<TreeNode> nodes = new ArrayList<>();
         boolean isTest = false;
-        int count = count(root);
 
-        nodes = new TreeNode[count];
-        preOrder(root);
+        inOrder(root, nodes);
         if (isTest) {
-            System.out.println("count: " + count);
-            System.out.print("-------------------\nnodes: ");
+            System.out.println("nodes (in-order traversal): ");
             for (TreeNode node: nodes) {
                 System.out.print(node.val + " ");
             }
         }
 
-        return build(0, nodes.length - 1);
+        return build(nodes, 0, nodes.size() - 1);
     }
 
-    private TreeNode build(int left, int right) {
+    private TreeNode build(List<TreeNode> nodes, int left, int right) {
         if (left > right) {
             return null;
         }
 
         int mid = left + (right - left) / 2;
-        TreeNode root = nodes[mid];
-        root.left = build(left, mid - 1);
-        root.right = build(mid + 1, right);
+        TreeNode root = nodes.get(mid);
+        root.left = build(nodes, left, mid - 1);
+        root.right = build(nodes, mid + 1, right);
 
         return root;
     }
 
-    private void preOrder(TreeNode node) {
+    private void inOrder(TreeNode node, List<TreeNode> nodes) {
         if (node == null) {
             return;
         }
 
-        preOrder(node.left);
-        nodes[i++] = node;
-        preOrder(node.right);
-    }
-
-    private int count(TreeNode node) {
-        return node == null ? 0 : 1 + count(node.left) + count(node.right);
+        inOrder(node.left, nodes);
+        nodes.add(node);
+        inOrder(node.right, nodes);
     }
 }
