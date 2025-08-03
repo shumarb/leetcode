@@ -16,10 +16,11 @@
  * }
  */
 class ConstructBinarySearchTreeFromPreorderTraversal {
-    private Map<Integer, Integer> inorderIndexMap;
+    private int[] inorderIndexMap;
     private int[] inorder;
     private int[] preorder;
     private int i;
+    private int largest;
 
     public TreeNode bstFromPreorder(int[] preorder) {
         // 1. Edge case: 1 element in tree.
@@ -29,20 +30,41 @@ class ConstructBinarySearchTreeFromPreorderTraversal {
 
         boolean isTest = false;
         i = 0;
-        inorder = preorder.clone();
-        inorderIndexMap = new HashMap<>();
+        inorder = sort(preorder.clone());
+        inorderIndexMap = new int[largest + 1];
         this.preorder = preorder;
 
-        Arrays.sort(inorder);
         for (int i = 0; i < inorder.length; i++) {
-            inorderIndexMap.put(inorder[i], i);
+            inorderIndexMap[inorder[i]] = i;
         }
         if (isTest) {
             System.out.println("preorder: " + Arrays.toString(preorder));
-            System.out.println("inorder:  " + Arrays.toString(inorder) + "\ninorderIndexMap: " + inorderIndexMap);
+            System.out.println("inorder:  " + Arrays.toString(inorder) + "\ninorderIndexMap: " + Arrays.toString(inorderIndexMap));
         }
 
         return build(0, preorder.length - 1);
+    }
+
+    private int[] sort(int[] arr) {
+        int[] frequency;
+        int j = 0;
+        largest = arr[0];
+
+        for (int number: arr) {
+            largest = Math.max(largest, number);
+        }
+        frequency = new int[largest + 1];
+        for (int number: arr) {
+            frequency[number]++;
+        }
+
+        for (int i = 0; i <= largest; i++) {
+            while (frequency[i]-- > 0) {
+                arr[j++] = i;
+            }
+        }
+
+        return arr;
     }
 
     private TreeNode build(int left, int right) {
@@ -52,7 +74,7 @@ class ConstructBinarySearchTreeFromPreorderTraversal {
 
         int rootValue = preorder[i++];
         TreeNode root = new TreeNode(rootValue);
-        int rootInorderIndex = inorderIndexMap.get(rootValue);
+        int rootInorderIndex = inorderIndexMap[rootValue];
         root.left = build(left, rootInorderIndex - 1);
         root.right = build(rootInorderIndex + 1, right);
 
