@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/128.
+Completed: 23/128.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 22/128.
 ### Medium
 | Question                                                                                                                            | Submission                                                                                                  | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)             | 16ms    | 99.65% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignAddAndSearchWordsDataStructure.java) | 162ms   | 94.15% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                 | 8ms     | 34.76% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                          | 5ms     | 91.76% |

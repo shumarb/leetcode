@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/252.
+Completed: 76/252.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 75/252.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)                  | 16ms    | 88.19% |
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                           | 2ms     | 95.99% |
+| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)                           | 16ms    | 99.65% |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 89.68% |
 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversalTwo.java)                   | 1ms     | 93.85% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.44% |
