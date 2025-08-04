@@ -16,21 +16,17 @@
  * }
  */
 class RangeSumOfBST {
-    private int sum = 0;
-
     public int rangeSumBST(TreeNode root, int low, int high) {
-        inOrderTraversal(root, low, high);
-        return sum;
-    }
+        if (root == null) {
+            return 0;
 
-    private void inOrderTraversal(TreeNode node, int low, int high) {
-        if (node == null) {
-            return;
+        } else if (root.val < low) {
+            return rangeSumBST(root.right, low, high);
+
+        } else if (root.val > high) {
+            return rangeSumBST(root.left, low, high);
         }
-        inOrderTraversal(node.left, low, high);
-        if (node.val >= low && node.val <= high) {
-            sum += node.val;
-        }
-        inOrderTraversal(node.right, low, high);
+
+        return root.val + rangeSumBST(root.left, low, high) + rangeSumBST(root.right, low, high);
     }
 }
