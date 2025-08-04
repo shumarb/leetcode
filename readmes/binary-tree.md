@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/177.
+Completed: 72/177.
 
 ## Submissions
 ### Easy
@@ -68,6 +68,7 @@ Completed: 71/177.
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                         | 1ms     | 100%   |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                   | 1ms     | 100%   |
+| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodeInABST.java)                                   | 1ms     | 1.41%  |
 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenOddTree.java)                                        | 17ms    | 23.05% |
 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                            | 0ms     | 100%   |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)                      | 2ms     | 80.79% |
