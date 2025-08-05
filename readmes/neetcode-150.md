@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/150.
+Completed: 79/150.
 
 ## Submissions
 ### Easy
@@ -74,6 +74,7 @@ Completed: 78/150.
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                     | 7ms     | 97.71% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                                           | 4ms     | 97.18% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                            | 46ms    | 82.48% |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                             | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                              | 860ms   | 6.11%  |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                | 6ms     | 86.31% |
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                       | 1ms     | 92.71% |
