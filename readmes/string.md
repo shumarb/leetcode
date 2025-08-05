@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 228/807.
+Completed: 229/807.
 
 ## Submissions
 ### Easy
@@ -225,6 +225,7 @@ Completed: 228/807.
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                             | 1ms     | 51.13% |
 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)                  | 6ms     | 98.87% |
 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagramTwo.java)               | 11ms    | 96.36% |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                                       | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                                        | 860ms   | 6.11%  |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java) | 279ms   | 66.51% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                          | 6ms     | 86.31% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/602.
+Completed: 27/604.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 26/602.
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                 | 3ms     | 71.06% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48% |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)           | 2ms     | 98.50% |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                         | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                          | 860ms   | 6.11%  |
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java)                    | 36ms    | 82.14% |
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java) | 141ms   | 42.47% | 
