@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 414/1961.
+Completed: 415/1961.
 
 ## Submissions
 ### Easy
@@ -360,6 +360,7 @@ Completed: 414/1961.
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 30ms    | 73.18% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                            | 130ms   | 63.04% |
+| [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 4ms     | 15.82% |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41% |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                                      | 11ms    | 93.10% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                                             | 6ms     | 88.17% |
