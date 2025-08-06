@@ -2,6 +2,11 @@
 
 class RemoveDuplicateLetters {
     public String removeDuplicateLetters(String s) {
+        // 1. Edge case: String comprises of 1 character.
+        if (s.length() == 1) {
+            return s;
+        }
+
         Stack<Character> stack = new Stack<>();
         boolean isTest = false;
         boolean[] isLetterInStack = new boolean[26];
