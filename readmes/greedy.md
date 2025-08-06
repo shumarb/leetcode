@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/424.
+Completed: 47/424.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 46/424.
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                  | 172ms   | 82.34% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                          | 46ms    | 82.48% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                         | 17ms    | 92.02% |
+| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                           | 2ms     | 94.48% |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                   | 335ms   | 88.82% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 96.88% |
 | [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                            | 0ms     | 100%   |

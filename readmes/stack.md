@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/171.
+Completed: 40/171.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 39/171.
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterElementTwo.java)                            | 9ms     | 94.03% |
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                      | 16ms    | 92.23% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringTwo.java)           | 31ms    | 52.93% |
+| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                           | 2ms     | 94.48% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java)                        | 7ms     | 73.29% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                         | 87ms    | 32.57% |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                      | 4ms     | 12.39% |
