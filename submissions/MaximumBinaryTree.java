@@ -24,24 +24,33 @@ class MaximumBinaryTree {
             return null;
         }
 
-        int rootValue = getMaximum(left, right);
-        int rootIndex = map[rootValue];
+        int maximum = nums[left];
+        int maximumIndex = left;
 
-        TreeNode root = new TreeNode(rootValue);
-        root.left = constructMaximumBinaryTree(left, rootIndex - 1);
-        root.right = constructMaximumBinaryTree(rootIndex + 1, right);
+        for (int i = left + 1; i <= right; i++) {
+            if (nums[i] > maximum) {
+                maximum = nums[i];
+                maximumIndex = i;
+            }
+        }
+
+        TreeNode root = new TreeNode(nums[maximumIndex]);
+        root.left = constructMaximumBinaryTree(left, maximumIndex - 1);
+        root.right = constructMaximumBinaryTree(maximumIndex + 1, right);
 
         return root;
     }
 
-    private int getMaximum(int left, int right) {
-        int largest = -1;
+    private void populate() {
+        int largest = nums[0];
 
-        for (int i = left; i <= right; i++) {
+        for (int i = 1; i < nums.length; i++) {
             largest = Math.max(largest, nums[i]);
         }
-
-        return largest;
+        map = new int[largest + 1];
+        for (int i = 0; i < nums.length; i++) {
+            map[nums[i]] = i;
+        }
     }
 
     public TreeNode constructMaximumBinaryTree(int[] nums) {
@@ -50,21 +59,8 @@ class MaximumBinaryTree {
             return new TreeNode(nums[0]);
         }
 
-        boolean isTest = false;
-        int largest = -1;
         this.nums = nums;
-
-        for (int number: nums) {
-            largest = Math.max(largest, number);
-        }
-        map = new int[largest + 1];
-        Arrays.fill(map, -1);
-        for (int i = 0; i < nums.length; i++) {
-            map[nums[i]] = i;
-        }
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\nmap:  " + Arrays.toString(map));
-        }
+        populate();
 
         return constructMaximumBinaryTree(0, nums.length - 1);
     }
