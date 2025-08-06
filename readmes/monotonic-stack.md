@@ -28,7 +28,7 @@ Completed: 10/68.
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                    | 16ms    | 92.23% |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                         | 2ms     | 94.48% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java)                      | 7ms     | 73.29% |
-| [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)        | 2ms     | 96.88% |
+| [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)        | 2ms     | 98.61% |
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                           | Runtime | Rank   |

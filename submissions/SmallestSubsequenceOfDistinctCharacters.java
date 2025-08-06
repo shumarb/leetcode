@@ -2,31 +2,46 @@
 
 class SmallestSubsequenceOfDistinctCharacters {
     public String smallestSubsequence(String s) {
-        StringBuilder stack = new StringBuilder();
-        boolean[] inStack = new boolean[26];
-        int[] lastIndex = new int[26];
+        // 1. Edge case: String has only 1 character.
+        if (s.length() == 1) {
+            return s;
+        }
+
+        Stack<Character> stack = new Stack<>();
+        boolean[] isLetterInStack = new boolean[26];
+        boolean isTest = false;
+        char[] result;
+        int[] frequency = new int[26];
+
+        for (char letter: s.toCharArray()) {
+            frequency[letter - 'a']++;
+        }
 
         for (int i = 0; i < s.length(); i++) {
-            lastIndex[s.charAt(i) - 'a'] = i;
-        }
-        for (int i = 0; i < s.length(); i++) {
             char letter = s.charAt(i);
-            int index = letter - 'a';
-            if (inStack[index]) {
+            if (isLetterInStack[letter - 'a']) {
+                frequency[letter - 'a']--;
                 continue;
             }
 
-            while (stack.length() > 0
-                    && letter < stack.charAt(stack.length() - 1)
-                    && lastIndex[stack.charAt(stack.length() - 1) - 'a'] > i) {
-                inStack[stack.charAt(stack.length() - 1) - 'a'] = false;
-                stack.deleteCharAt(stack.length() - 1);
+            while (!stack.isEmpty() && stack.peek() > letter && frequency[stack.peek() - 'a'] > 0) {
+                isLetterInStack[stack.pop() - 'a'] = false;
             }
 
-            stack.append(letter);
-            inStack[index] = true;
+            stack.push(letter);
+            frequency[letter - 'a']--;
+            isLetterInStack[letter - 'a'] = true;
+        }
+        if (isTest) {
+            System.out.println("s: " + stack + "\nstack: " + stack);
         }
 
-        return stack.toString();
+        result = new char[stack.size()];
+        int i = stack.size() - 1;
+        while (!stack.isEmpty()) {
+            result[i--] = stack.pop();
+        }
+
+        return new String(result);
     }
 }
