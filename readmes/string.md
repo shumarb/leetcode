@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 229/807.
+Completed: 231/807.
 
 ## Submissions
 ### Easy
@@ -214,6 +214,7 @@ Completed: 229/807.
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)                    | 2ms     | 90.13% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                         | 33ms    | 85.89% | 
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                          | 77ms    | 16.45% |
+| [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                                     | 10ms    | 81.08% |
 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-longest-alphabetical-continuous-substring/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestAlphabeticalContinuousSubstring.java)            | 11ms    | 80.20% |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                        | 3ms     | 47.09% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
