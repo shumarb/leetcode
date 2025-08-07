@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 136/603.
+Completed: 137/604.
 
 ## Submissions
 ### Easy
@@ -123,6 +123,7 @@ Completed: 136/603.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                                       | 1ms     | 100%   |
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                    | 3ms     | 39.24% |
+| [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                      | 0ms     | 100%   |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberIsASumOfPowersOfThree.java)                  | 0ms     | 100%   |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                         | 51ms    | 81.88% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |

@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/48.
+Completed: 18/48.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 17/48.
 | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                           | 2ms     | 95.99% |
+| [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                     | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                 | 16ms    | 95.51% |
