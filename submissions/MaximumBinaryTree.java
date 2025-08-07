@@ -36,11 +36,6 @@ class MaximumBinaryTree {
     }
 
     public TreeNode constructMaximumBinaryTree(int[] nums) {
-        // 1. Edge case: Construct tree with 1 element.
-        if (nums.length == 1) {
-            return new TreeNode(nums[0]);
-        }
-
-        return constructMaximumBinaryTree(nums, 0, nums.length - 1);
+        return nums.length == 1 ? new TreeNode(nums[0]) : constructMaximumBinaryTree(nums, 0, nums.length - 1);
     }
 }
