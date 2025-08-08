@@ -36,6 +36,6 @@ class ConstructBinarySearchTreeFromPreorderTraversal {
         rootIndex = 0;
         this.preorder = preorder;
 
-        return bstFromPreorder(Integer.MIN_VALUE, Integer.MAX_VALUE);
+        return bstFromPreorder(1, 1000);
     }
 }
