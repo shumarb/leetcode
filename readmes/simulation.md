@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 70/186.
+Completed: 71/186.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 70/186.
 | [Add Strings](https://leetcode.com/problems/add-strings/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddStrings.java)                                       | 2ms     | 61.51% |
 | [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AntOnTheBoundary.java)                                 | 0ms     | 100%   |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToAnArray.java)                         | 1ms     | 95.99% |
+| [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AvailableCapturesForRook.java)                         | 0ms     | 100%   |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BaseballGame.java)                                     | 2ms     | 96.48% |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateAmountPaidInTaxes.java)                       | 0ms     | 100%   |

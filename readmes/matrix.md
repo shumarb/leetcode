@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 35/261.
+Completed: 36/262.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                              | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AvailableCapturesForRook.java)                         | 0ms     | 100%   |
 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)       | 4ms     | 92.01% |
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)       | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfMatrixIsXMatrix.java)                           | 0ms     | 100%   |
