@@ -7,19 +7,23 @@ class MakeTwoArraysEqualByReversingSubarrays {
             return true;
         }
 
-        int[] arrFrequency = new int[1001];
-        int[] targetFrequency = new int[1001];
+        int[] frequency = new int[1001];
 
         /**
             2. Both arrays can be made equal if both have same elements.
          */
         for (int number: arr) {
-            arrFrequency[number]++;
+            frequency[number]++;
         }
         for (int number: target) {
-            targetFrequency[number]++;
+            frequency[number]--;
+        }
+        for (int i = 1; i <= 1000; i++) {
+            if (frequency[i] != 0) {
+                return false;
+            }
         }
 
-        return Arrays.equals(arrFrequency, targetFrequency);
+        return true;
     }
 }
