@@ -2,20 +2,23 @@
 
 class LongestContinuousIncreasingSubsequence {
     public int findLengthOfLCIS(int[] nums) {
-        int i = 0;
-        int len = nums.length;
-        int longest = 0;
-
-        while (i < len) {
-            int current = 1;
-            int j = i + 1;
-            while (j < len && nums[j] > nums[j - 1]) {
-                j++;
-            }
-            longest = Math.max(longest, j - 1 - i + 1);
-            i = j;
+        // 1. Edge case: nums has 1 element.
+        if (nums.length == 1) {
+            return 1;
         }
 
-        return longest;
+        int currentLength = 1;
+        int maximumLength = 1;
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
+                currentLength++;
+            } else {
+                maximumLength = Math.max(currentLength, maximumLength);
+                currentLength = 1;
+            }
+        }
+
+        return Math.max(currentLength, maximumLength);
     }
 }
