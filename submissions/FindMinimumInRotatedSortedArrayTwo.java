@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/
 
-class FindMinimumInRotatedSortedArrayTw {
+class FindMinimumInRotatedSortedArrayTwo {
     public int findMin(int[] nums) {
         // 1. Edge case: nums contains 1 element.
         if (nums.length == 1) {
@@ -10,18 +10,22 @@ class FindMinimumInRotatedSortedArrayTw {
         int left = 0;
         int right = nums.length - 1;
 
-        // 4 5 6 0 1 2 3
         while (left <= right) {
             int mid = left + (right - left) / 2;
+
+            // 1. Minimum is in range [mid + 1, right].
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
-            } else if (nums[mid] < nums[right]) {
+            // 2. Minimum is in range [left, mid].
+            } else if (nums[mid] < nums[left]) {
                 right = mid;
+
+           /**
+                3.  Duplicate detected.
+                    Unsure on which range contains minimium,
+                    so reduce right by 1 to reduce search range.
+            */
             } else {
-                /**
-                 1.  All elements from [right + 1, nums.length - 1] are the same,
-                     so exclude all elements after right + 1 by setting mid as right.
-                 */
                 right--;
             }
         }
