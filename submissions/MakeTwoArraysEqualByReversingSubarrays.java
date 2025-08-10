@@ -2,24 +2,18 @@
 
 class MakeTwoArraysEqualByReversingSubarrays {
     public boolean canBeEqual(int[] target, int[] arr) {
-        // 1. Edge case: Both are equal.
-        if (Arrays.equals(target, arr)) {
-            return true;
-        }
-
         int[] frequency = new int[1001];
+        int len = target.length;
 
         /**
-            2. Both arrays can be made equal if both have same elements.
+            1. Both arrays can be made equal if both have same elements.
          */
-        for (int number: arr) {
-            frequency[number]++;
+        for (int i = 0; i < len; i++) {
+            frequency[target[i]]++;
+            frequency[arr[i]]--;
         }
-        for (int number: target) {
-            frequency[number]--;
-        }
-        for (int i = 1; i <= 1000; i++) {
-            if (frequency[i] != 0) {
+        for (int count: frequency) {
+            if (count != 0) {
                 return false;
             }
         }
