@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 421/1961.
+Completed: 422/1961.
 
 ## Submissions
 ### Easy
@@ -436,12 +436,13 @@ Completed: 421/1961.
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                     | 14ms    | 45.41% |
 
 ### Hard
-| Question                                                                                                                                      | Submission                                                                                           | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)   | 7ms     | 81.55% |
-| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)           | 0ms     | 100%   |
-| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)          | 1ms     | 100%   |
-| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)          | 31ms    | 84.09% |
-| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |
-| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)       | 43ms    | 83.32% |
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)          | 7ms     | 99.46% |
+| Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)        | 7ms     | 81.55% |
+| [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArrayTwo.java) | 0ms     | 100%   |
+| [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)                | 0ms     | 100%   |
+| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)               | 1ms     | 100%   |
+| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)               | 31ms    | 84.09% |
+| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java)      | 63ms    | 34.82% |
+| [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)            | 43ms    | 83.32% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)               | 7ms     | 99.46% |
