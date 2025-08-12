@@ -13,15 +13,26 @@
  */
 public class LinkedListCycleTwo {
     public ListNode detectCycle(ListNode head) {
-        ListNode current = head;
-        Set<ListNode> set = new HashSet<>();
+        ListNode fast = head;
+        ListNode slow = head;
 
-        while (current != null) {
-            if (current.next != null && set.contains(current.next)) {
-                return current.next;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            /**
+             1.  Cycle exists when fast and slow pointers meet,
+                 but the node where they meet may not be the start of the cycle,
+                 hence the use of start pointer to find start of cycle.
+             */
+            if (fast == slow) {
+                ListNode start = head;
+                while (start != slow) {
+                    slow = slow.next;
+                    start = start.next;
+                }
+                return start;
             }
-            set.add(current);
-            current = current.next;
         }
 
         return null;
