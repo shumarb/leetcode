@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/177.
+Completed: 74/177.
 
 ## Submissions
 ### Easy
@@ -87,6 +87,7 @@ Completed: 73/177.
 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumThree.java)                                       | 19ms    | 28.31% |
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNode.java)              | 3ms     | 35.47% |
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNodeTwo.java)           | 2ms     | 37.45% |
+| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RecoverBinarySearchTree.java)                            | 1ms     | 100%   | 
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)                       | 0ms     | 100%   |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                         | 10ms    | 39.11% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                     | 1ms     | 99.86% |
