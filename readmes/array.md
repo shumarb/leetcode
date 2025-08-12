@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 422/1961.
+Completed: 424/1961.
 
 ## Submissions
 ### Easy
@@ -169,6 +169,7 @@ Completed: 422/1961.
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                                           | 12ms    | 38.35% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)                    | 0ms     | 100%   |
 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeTwoArraysEqualByReversingSubarray.java)                     | 1ms     | 99.44% |
+| [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                               | 0ms     | 100%   |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixDiagonalSum.java)                                         | 0ms     | 100%   |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnes.java)                                        | 2ms     | 93.86% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxPairSumInAnArray.java)                                       | 3ms     | 93.95% |
