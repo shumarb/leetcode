@@ -27,5 +27,5 @@ Completed: 5/21.
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)          | 92ms    | 78.28% |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)          | 99ms    | 63.65% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)      | 2490ms  | 5.01%  |
