@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 217/719.
+Completed: 218/719.
 
 ## Submissions
 ### Easy
@@ -201,6 +201,7 @@ Completed: 217/719.
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                                     | 10ms    | 80.47% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)             | 102ms   | 86.78% |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                           | 4ms     | 8.75%  |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                 | 383ms   | 69.83% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                   | 30ms    | 73.18% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                    | 6ms     | 70.55% |

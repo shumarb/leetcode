@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/81.
+Completed: 41/81.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 40/81.
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)       | 18ms    | 15.32% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)               | 1ms     | 18.41% |
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertionSortList.java)                           | 28ms    | 8.25%  |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                          | 4ms     | 8.75%  |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                        | 9ms     | 100%   |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                    | 5ms     | 83.64% |
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                 | 16ms    | 92.23% |
