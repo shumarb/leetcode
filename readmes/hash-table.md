@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 218/719.
+Completed: 219/719.
 
 ## Submissions
 ### Easy
@@ -199,6 +199,7 @@ Completed: 218/719.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                | 25ms    | 93.59% |
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                          | 77ms    | 16.45% |
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                                     | 10ms    | 80.47% |
+| [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                    | 51ms    | 55.43% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)             | 102ms   | 86.78% |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                           | 0ms     | 100%   |

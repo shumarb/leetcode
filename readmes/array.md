@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 424/1961.
+Completed: 425/1961.
 
 ## Submissions
 ### Easy
@@ -362,6 +362,7 @@ Completed: 424/1961.
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                                         | 344ms   | 44.26% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                                      | 3ms     | 98.86% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)                               | 11ms    | 65.35% |
+| [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                       | 51ms    | 55.43% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 30ms    | 73.18% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
