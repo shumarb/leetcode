@@ -9,19 +9,18 @@ class RemoveDigitFromNumberToMaximizeResult {
 
         for (int i = 0; i < number.length(); i++) {
             if (number.charAt(i) == digit) {
-                digitIndices.add(i);
+                String newNumber = number.substring(0, i) + number.substring(i + 1, number.length());
+                if (isTest) {
+                    System.out.println("newNumber: " + newNumber + "\n * before, result: " + result);
+                }
+                if (newNumber.compareTo(result) > 0) {
+                    result = newNumber;
+                }
+                if (isTest) {
+                    System.out.println(" * after, result: " + result);
+                    System.out.println("-----------------------------------------------------");
+                }
             }
-        }
-        for (int index: digitIndices) {
-            String firstPart = number.substring(0, index);
-            String secondPart = number.substring(index + 1, number.length());
-            newNumbers.add(firstPart + secondPart);
-        }
-        Collections.sort(newNumbers);
-        result = newNumbers.get(newNumbers.size() - 1);
-        if (isTest) {
-            System.out.println("digitIndices: " + digitIndices);
-            System.out.println("newNumbers: " + newNumbers + "\nresult: " + result);
         }
 
         return result;
