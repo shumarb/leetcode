@@ -4,8 +4,8 @@ class LeastNumberOfUniqueIntegersAfterKRemoval {
     public int findLeastNumOfUniqueInts(int[] arr, int k) {
         List<Pair> list = new ArrayList<>();
         boolean isTest = false;
-        int current;
         int count = 1;
+        int current;
         int total = 0;
 
         Arrays.sort(arr);
@@ -21,28 +21,20 @@ class LeastNumberOfUniqueIntegersAfterKRemoval {
         }
         list.add(new Pair(current, count));
         list.sort((a, b) -> Integer.compare(a.count, b.count));
-        if (isTest) {
-            System.out.println("before, list: ");
-            for (Pair e: list) {
-                System.out.println(" * number: " + e.number + " -> count: " + e.count);
-            }
-        }
+        total = list.size();
+
         for (Pair e: list) {
             if (k >= e.count) {
                 k -= e.count;
-                e.number = -1;
-            }
-        }
-        for (Pair e: list) {
-            if (e.number != -1) {
-                total++;
+                total--;
             }
         }
         if (isTest) {
-            System.out.println("-------------------------------------\nafter, list: ");
+            System.out.println("list (sorted in ascending number of count): ");
             for (Pair e: list) {
                 System.out.println(" * number: " + e.number + " -> count: " + e.count);
             }
+            System.out.println("----------------------------------------------\ntotal: " + total);
         }
 
         return total;
