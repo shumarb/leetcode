@@ -2,8 +2,6 @@
 
 class RemoveDigitFromNumberToMaximizeResult {
     public String removeDigit(String number, char digit) {
-        List<Integer> digitIndices = new ArrayList<>();
-        List<String> newNumbers = new ArrayList<>();
         String result = "";
         boolean isTest = false;
 
