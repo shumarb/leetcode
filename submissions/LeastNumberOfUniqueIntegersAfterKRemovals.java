@@ -3,16 +3,23 @@
 class LeastNumberOfUniqueIntegersAfterKRemoval {
     public int findLeastNumOfUniqueInts(int[] arr, int k) {
         List<Pair> list = new ArrayList<>();
-        Map<Integer, Integer> map = new HashMap<>();
         boolean isTest = false;
-        int count = 0;
+        int current;
+        int count = 1;
+        int total = 0;
 
-        for (int number: arr) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+        Arrays.sort(arr);
+        current = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] == current) {
+                count++;
+            } else {
+                list.add(new Pair(current, count));
+                current = arr[i];
+                count = 1;
+            }
         }
-        for (Map.Entry<Integer, Integer> e: map.entrySet()) {
-            list.add(new Pair(e.getKey(), e.getValue()));
-        }
+        list.add(new Pair(current, count));
         list.sort((a, b) -> Integer.compare(a.count, b.count));
         if (isTest) {
             System.out.println("before, list: ");
@@ -28,7 +35,7 @@ class LeastNumberOfUniqueIntegersAfterKRemoval {
         }
         for (Pair e: list) {
             if (e.number != -1) {
-                count++;
+                total++;
             }
         }
         if (isTest) {
@@ -38,7 +45,7 @@ class LeastNumberOfUniqueIntegersAfterKRemoval {
             }
         }
 
-        return count;
+        return total;
     }
 }
 
