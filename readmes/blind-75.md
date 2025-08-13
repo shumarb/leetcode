@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/75.
+Completed: 51/75.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 50/75.
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)       | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)             | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)             | 0ms     | 100%   |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)               | 3ms     | 8.15%  |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)         | 0ms     | 100%   |
 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SameTree.java)                  | 0ms     | 100%   |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubtreeOfAnotherTree.java)      | 2ms     | 97.86% |

@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/169.
+Completed: 98/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -101,6 +101,7 @@ Completed: 97/169.
 | 151 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)                               | 7ms     | 99.46% |
 | 152 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeNumber.java)                                   | 4ms     | 100%   |
 | 153 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java)               | 0ms     | 100%   |
+| 154 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)                                        | 3ms     | 8.15%  |
 | 155 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubtreeOfAnotherTree.java)                               | 2ms     | 97.86% |
 | 156 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SquaresOfASortedArray.java)                              | 1ms     | 100%   |
 | 158 | [Rotate List](https://leetcode.com/problems/rotate-list/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateList.java)                                         | 0ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/247.
+Completed: 50/247.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 49/247.
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowerOfFour.java)                                | 0ms     | 100%   |
 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowerOfTwo.java)                                 | 0ms     | 100%   |
 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrimeNumberOfSetBitsInBinaryRepresentation.java) | 66ms    | 10.43% |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)                                | 3ms     | 8.15%  |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                | 2ms     | 95.73% |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                               | 1ms     | 99.93% |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestNumberWithAllSetBits.java)               | 1ms     | 30.35% |
