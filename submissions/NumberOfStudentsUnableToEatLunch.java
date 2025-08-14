@@ -2,33 +2,33 @@
 
 class NumberOfStudentsUnableToEatLunch {
     public int countStudents(int[] students, int[] sandwiches) {
-        int student0 = 0;
-        int student1 = 0;
+        int countStudent0 = 0;
+        int countStudent1 = 0;
 
         for (int student: students) {
             if (student == 0) {
-                student0++;
+                countStudent0++;
             } else {
-                student1++;
+                countStudent1++;
             }
         }
         for (int sandwich: sandwiches) {
             if (sandwich == 0) {
-                if (student0 == 0) {
+                if (countStudent0 == 0) {
                     break;
                 } else {
-                    student0--;
+                    countStudent0--;
                 }
 
             } else {
-                if (student1 == 0) {
+                if (countStudent1 == 0) {
                     break;
                 } else {
-                    student1--;
+                    countStudent1--;
                 }
             }
         }
 
-        return student0 + student1;
+        return countStudent0 + countStudent1;
     }
 }
