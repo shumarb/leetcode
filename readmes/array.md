@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 432/1973.
+Completed: 433/1973.
 
 ## Submissions
 ### Easy
@@ -250,6 +250,7 @@ Completed: 432/1973.
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeSortArray.java)                                         | 0ms     | 100%   |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedArray.java)                           | 0ms     | 100%   |
 | [Remove Element](https://leetcode.com/problems/remove-element/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveElement.java)                                             | 0ms     | 100%   |
+| [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)          | 76ms    | 5.17%  |
 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsWithGreatestElementOnRightSide.java)             | 3ms     | 58.23% |
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                          | 0ms     | 100%   |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RichestCustomerWealth.java)                                     | 0ms     | 100%   |
