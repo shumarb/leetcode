@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 434/1973.
+Completed: 435/1973.
 
 ## Submissions
 ### Easy
@@ -95,6 +95,7 @@ Completed: 434/1973.
 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandies.java)                                         | 31ms    | 55.24% |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)                        | 1ms     | 100%   |
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                                 | 1ms     | 99.99% |
+| [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DuplicateZeros.java)                                            | 3ms     | 44.61% |
 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ElementAppearingMoreThan25PercentInSortedArray.java)            | 0ms     | 100%   |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalArrayStateAfterKMultiplicationOperationsOne.java)          | 4ms     | 17.42% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalPricesWithASpecialDiscountInAShop.java)                    | 2ms     | 65.61% |
