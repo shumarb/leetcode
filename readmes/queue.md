@@ -21,7 +21,7 @@ Completed: 7/50.
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementQueueUsingStacks.java)        | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementStackUsingQueues.java)        | 0ms     | 100%   |
 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java) | 0ms     | 100%   |
-| [Time Need to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)             | 11ms    | 12.22% |
+| [Time Need to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)             | 9ms     | 29.03% |
 
 ### Hard
 | Question                                                                                            | Submission                                                                                  | Runtime | Rank   |

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/time-needed-to-buy-tickets/description/
 
-class Solution {
+class TimeNeedToBuyTickets {
     private Queue<Person> queue;
 
     public int timeRequiredToBuy(int[] tickets, int k) {
@@ -23,11 +23,11 @@ class Solution {
             Person top = queue.poll();
             top.decrementCountTicket();
             count++;
-            if (top.countTicket > 0) {
-                queue.offer(top);
-            }
             if (top.countTicket == 0 && top.isCheck == true) {
                 break;
+            }
+            if (top.countTicket > 0) {
+                queue.offer(top);
             }
             if (isTest) {
                 display();
