@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 431/1973.
+Completed: 432/1973.
 
 ## Submissions
 ### Easy
@@ -294,6 +294,7 @@ Completed: 431/1973.
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                           | 1ms     | 100%   |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThirdMaximumNumber.java)                                        | 1ms     | 97.13% |
 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeConsecutiveOdds..java)                                     | 0ms     | 100%   |
+| [Time Need to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                                      | 11ms    | 12.22% |
 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToeplitzMatrix.java)                                            | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                                    | 1ms     | 100%   |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                          | 1ms     | 96.44% |

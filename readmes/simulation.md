@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/186.
+Completed: 73/186.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 72/186.
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDigitsOfStringAfterConvert.java)                  | 0ms     | 100%   |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                   | 3ms     | 83.20% |
+| [Time Need to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                             | 11ms    | 12.22% |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                 | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
