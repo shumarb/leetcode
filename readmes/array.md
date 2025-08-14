@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 433/1973.
+Completed: 434/1973.
 
 ## Submissions
 ### Easy
@@ -263,6 +263,7 @@ Completed: 433/1973.
 | [Shortest Distance Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToTargetStringInACircularArray.java)            | 0ms     | 100%   |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                              | 1ms     | 98.82% |
 | [Shuffle String](https://leetcode.com/problems/shuffle-string/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleString.java)                                             | 0ms     | 100%   |
+| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleTheArray.java)                                           | 0ms     | 100%   |
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SignOfTheProductOfAnArray.java)                                 | 0ms     | 100%   |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                                              | 1ms     | 99.93% |
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                                | 1ms     | 99.66% |
