@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/171.
+Completed: 42/172.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 40/171.
 | [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreePostOrderTraversal.java)                 | 0ms     | 100%   |
 | [N-Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreePreOrderTraversal.java)                  | 0ms     | 100%   |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterElementOne.java)                      | 3ms     | 92.50% |
+| [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java)           | 2ms     | 36.08% |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)                       | 4ms     | 83.80% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)        | 36ms    | 48.71% |
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord..java)                       | 1ms     | 52.92% |

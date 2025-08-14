@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 429/1961.
+Completed: 430/1973.
 
 ## Submissions
 ### Easy
@@ -237,6 +237,7 @@ Completed: 429/1961.
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSeniorCitizens.java)                                    | 0ms     | 100%   |
 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/strings-that-appear-as-substrings-in-word/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStringsThatAppearAsSubstringsInWord.java)               | 0ms     | 100%   |
 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsDoingHomeworkAtAGivenTime.java)                 | 0ms     | 100%   |
+| [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java)                          | 2ms     | 36.08% |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfUnequalTripletsInArray.java)                            | 5ms     | 85.76% |
 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OddStringDifference.java)                                       | 2ms     | 59.44% |
 | [Partition Array Into Three Equal Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayIntoThreePartsWithEqualSum.java)                  | 1ms     | 100%   |
