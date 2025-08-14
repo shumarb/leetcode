@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 436/1973.
+Completed: 437/1973.
 
 ## Submissions
 ### Easy
@@ -31,7 +31,8 @@ Completed: 436/1973.
 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryPrefixDivisibleBy5.java)                                  | 3ms     | 98.17% |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)                                              | 0ms     | 100%   |
 | [Build Array from Permutation](https://leetcode.com/problems/baseball-game/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildArrayFromPermutation.java)                                 | 1ms     | 99.07% |
-| [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java.java)                         | 1ms     | 100%   |
+| [Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/ButtonWithLongestPushTime.java)                     | 0ms     | 100%   |
+| [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                              | 1ms     | 100%   |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateAmountPaidInTaxes.java)                                | 0ms     | 100%   |
 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanMakeArithmeticProgressionFromSequence.java.java) | 2ms     | 98.24% |
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java.java)                          | 1ms     | 97.29% |
