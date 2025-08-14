@@ -21,7 +21,7 @@ class TimeNeedToBuyTickets {
 
         while (!queue.isEmpty()) {
             Person top = queue.poll();
-            top.decrementCountTicket();
+            top.countTicket--;
             count++;
             if (top.countTicket == 0 && top.isCheck == true) {
                 break;
@@ -57,9 +57,5 @@ class Person {
     public Person(boolean isCheck, int countTicket) {
         this.isCheck = isCheck;
         this.countTicket = countTicket;
-    }
-
-    public void decrementCountTicket() {
-        countTicket--;
     }
 }
