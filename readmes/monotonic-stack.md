@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/68.
+Completed: 12/69.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 11/68.
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                         | 2ms     | 94.48% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java)                      | 7ms     | 73.29% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)        | 2ms     | 98.61% |
+| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSubarrayRanges.java)                            | 16ms    | 80.24% |
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                           | Runtime | Rank   |
