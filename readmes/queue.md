@@ -20,7 +20,7 @@ Completed: 6/50.
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)    | 5ms     | 94.83% |
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementQueueUsingStacks.java)        | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementStackUsingQueues.java)        | 0ms     | 100%   |
-| [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java) | 2ms     | 36.08% |
+| [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java) | 0ms     | 100%   |
 
 ### Hard
 | Question                                                                                            | Submission                                                                                  | Runtime | Rank   |
