@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/186.
+Completed: 74/186.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 73/186.
 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AvailableCapturesForRook.java)                         | 0ms     | 100%   |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BaseballGame.java)                                     | 2ms     | 96.48% |
+| [Build Array from Permutation](https://leetcode.com/problems/baseball-game/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildArrayFromPermutation.java)                        | 1ms     | 99.07% |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateAmountPaidInTaxes.java)                       | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsWithOddValuesInAMatrix.java)                      | 1ms     | 85.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
