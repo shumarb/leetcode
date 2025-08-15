@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/123.
+Completed: 21/123.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 20/123.
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Finding3DigitEvenNumber.java)                    | 3ms     | 94.61% |
 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FormSmallestNumberFromTwoDigitArrays.java)       | 1ms     | 85.14% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GreatestEnglishLetterInUpperAndLowerCase.java)   | 4ms     | 72.30% |
+| [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestAlternatingSubarray.java)                 | 27ms    | 4.25%  |
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                | 0ms     | 100%   |
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                 | 17ms    | 33.88% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCommonFactors.java)                      | 1ms     | 44.28% |
