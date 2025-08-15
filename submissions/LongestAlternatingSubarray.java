@@ -3,45 +3,26 @@
 class LongestAlternatingSubarray {
     public int alternatingSubarray(int[] nums) {
         boolean isTest = false;
-        int longest = 0;
+        int longestLength = -1;
+        int n = nums.length;
 
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i; j < nums.length; j++) {
-                int[] subarray = Arrays.copyOfRange(nums, i, j + 1);
-                if (isTest) {
-                    System.out.println("subarray: " + Arrays.toString(subarray));
+        for (int start = 0; start < n - 1; start++) {
+            if (nums[start + 1] - nums[start] != 1) {
+                continue;
+            }
+
+            int currentLength = 2;
+            for (int i = start + 2; i < n; i++) {
+                if (nums[i] == nums[i - 2]) {
+                    currentLength++;
+                } else {
+                    break;
                 }
-                if (subarray.length >= 2 && isValid(subarray) && subarray.length > longest) {
-                    if (isTest) {
-                        System.out.println(" * valid: " + Arrays.toString(subarray));
-                    }
-                    longest = subarray.length;
-                }
             }
+
+            longestLength = Math.max(currentLength, longestLength);
         }
 
-        return longest == 0 ? -1 : longest;
-    }
-
-    private boolean isValid(int[] arr) {
-        int first = arr[0];
-        int second = arr[1];
-
-        if (second - first != 1) {
-            return false;
-        }
-
-        for (int i = 0; i < arr.length; i += 2) {
-            if (arr[i] != first) {
-                return false;
-            }
-        }
-        for (int i = 1; i < arr.length; i += 2) {
-            if (arr[i] != second) {
-                return false;
-            }
-        }
-
-        return true;
+        return longestLength;
     }
 }
