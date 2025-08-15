@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/108.
+Completed: 17/109.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 16/108.
 | Question                                                                                                                                    | Submission                                                                                                       | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)                | 1ms     | 100%   |
+| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                      | 39ms    | 69.34% |
 | [Combinations](https://leetcode.com/problems/combinations/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Combinations.java)                              | 17ms    | 86.97% |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                    | 0ms     | 100%   |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java) | 2ms     | 90.13% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/247.
+Completed: 51/247.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 50/247.
 ### Medium
 | Question                                                                                                                                                  | Submission                                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                        | 39ms    | 69.34% |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)  | 0ms     | 100%   |
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java) | 138ms   | 67.85% |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                           | 4ms     | 5.52%  |
