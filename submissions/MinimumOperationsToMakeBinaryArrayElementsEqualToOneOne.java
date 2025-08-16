@@ -37,16 +37,16 @@ class MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne {
                 minOperations++;
             }
         }
-
-        for (int bit: nums) {
-            if (bit == 1) {
-                countOnes++;
-            }
-        }
         if (isTest) {
             System.out.println("after, nums:  " + Arrays.toString(nums));
         }
 
-        return countOnes == len ? minOperations : -1;
+        for (int bit: nums) {
+            if (bit == 0) {
+                return -1;
+            }
+        }
+
+        return minOperations;
     }
 }
