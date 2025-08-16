@@ -1,61 +1,22 @@
 // Question: https://leetcode.com/problems/time-needed-to-buy-tickets/description/
 
 class TimeNeedToBuyTickets {
-    private Queue<Person> queue;
-
     public int timeRequiredToBuy(int[] tickets, int k) {
-        boolean isTest = false;
-        int count = 0;
-        queue = new LinkedList<>();
+        int timeRequiredToBuy = 0;
 
-        for (int i = 0; i < tickets.length; i++) {
-            if (i == k) {
-                queue.offer(new Person(true, tickets[i]));
-            } else {
-                queue.offer(new Person(false, tickets[i]));
+        while (tickets[k] > 0) {
+            for (int i = 0; i < tickets.length; i++) {
+                if (tickets[i] > 0) {
+                    tickets[i]--;
+                    timeRequiredToBuy++;
+                }
+
+                if (tickets[k] == 0) {
+                    break;
+                }
             }
         }
-        if (isTest) {
-            display();
-        }
 
-        while (!queue.isEmpty()) {
-            Person top = queue.poll();
-            top.countTicket--;
-            count++;
-            if (top.countTicket == 0 && top.isCheck == true) {
-                break;
-            }
-            if (top.countTicket > 0) {
-                queue.offer(top);
-            }
-            if (isTest) {
-                display();
-            }
-        }
-        if (isTest) {
-            display();
-            System.out.println("count: " + count);
-        }
-
-        return count;
-    }
-
-    private void display() {
-        System.out.println("queue:");
-        for (Person e: queue) {
-            System.out.println(" * (" + e.isCheck + ", " + e.countTicket + ")");
-        }
-        System.out.println("------------------------------------");
-    }
-}
-
-class Person {
-    boolean isCheck;
-    int countTicket = 0;
-
-    public Person(boolean isCheck, int countTicket) {
-        this.isCheck = isCheck;
-        this.countTicket = countTicket;
+        return timeRequiredToBuy;
     }
 }
