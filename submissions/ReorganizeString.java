@@ -39,7 +39,7 @@ class ReorganizeString {
         while (!maxHeap.isEmpty()) {
             char letter = maxHeap.poll();
             if (frequency[letter - 'a'] > 1) {
-                break;
+                return "";
             }
             result.append(letter);
         }
@@ -47,7 +47,6 @@ class ReorganizeString {
             System.out.println("after, frequency: " + Arrays.toString(frequency) + "\nmaxHeap: " + maxHeap + "\nresult: " + result);
         }
 
-        return result.length() == s.length() ? result.toString() : "";
+        return result.toString();
     }
-
 }
