@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 232/807.
+Completed: 233/808.
 
 ## Submissions
 ### Easy
@@ -236,6 +236,7 @@ Completed: 232/807.
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringTwo.java)                       | 31ms    | 52.93% |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                                       | 2ms     | 94.48% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                                     | 87ms    | 32.57% |
+| [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                             | 3ms     | 65.08% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                            | 38ms    | 97.12% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAString.java)                                        | 6ms     | 86.18% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
