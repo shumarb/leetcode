@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 440/1973.
+Completed: 44`0`/1973.
 
 ## Submissions
 ### Easy
@@ -305,6 +305,7 @@ Completed: 440/1973.
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                                 | 1ms     | 100%   |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                       | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                        | 0ms     | 100%   |
+| [Trionic Array I](https://leetcode.com/problems/trionic-array-i/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrionicArrayOne.java)                                        | 0ms     | 100%   |
 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TruncateSentence.java)                                       | 1ms     | 79.33% |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoFurthestHousesWithDifferentColors.java)                   | 2ms     | 50.45% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoOutOfThree.java)                                          | 1ms     | 100%   |
