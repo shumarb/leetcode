@@ -4,7 +4,8 @@ class MinimumSubsequenceInNonIncreasingOrder {
     public List<Integer> minSubsequence(int[] nums) {
         List<Integer> result = new ArrayList<>();
         boolean isTest = false;
-        int[] frequency = new int[101];int largest = nums[0];
+        int[] frequency = new int[101];
+        int largest = nums[0];
         int total = 0;
         int totalComplement = 0;
 
