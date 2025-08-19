@@ -13,21 +13,24 @@
  */
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
-        // 1. No elements to check
+        // 1. Empty list.
         if (head == null) {
             return false;
         }
 
         ListNode slow = head;
         ListNode fast = head;
+
         while (fast != null) {
-            // 2. currently at tail (last element)
+            // 2. No cycle.
             if (fast.next == null) {
                 return false;
             }
 
-            // 3. Adjust and check if both point to same element
-            // if yes, a cycle is detected
+            /**
+             3.  Update slow and fast pointers,
+                 and if both refer to the same node, a cycle exists.
+             */
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) {
@@ -35,7 +38,6 @@ public class LinkedListCycle {
             }
         }
 
-        // 4. Traversed all elements of linked list
         return false;
     }
 }
