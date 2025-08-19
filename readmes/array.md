@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 442/1976.
+Completed: 443/1976.
 
 ## Submissions
 ### Easy
@@ -453,6 +453,7 @@ Completed: 442/1976.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                               | 6ms     | 98%    | 
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                                     | 2ms     | 92.54% |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                                  | 0ms     | 100%   |
+| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                                   | 4ms     | 96.45% |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                     | 14ms    | 45.41% |
 
 ### Hard

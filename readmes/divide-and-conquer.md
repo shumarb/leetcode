@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/50.
+Completed: 20/53.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 19/50.
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                           | 9ms     | 94.52% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                        | 5ms     | 97.68% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                               | 6ms     | 99.18% |
+| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                      | 4ms     | 96.45% |
 
 ### Hard
 | Question                                                                                | Submission                                                                               | Runtime | Rank |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/430.
+Completed: 56/430.
 
 ## Submissions
 ### Easy
@@ -75,3 +75,4 @@ Completed: 55/430.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                 | 3ms     | 65.10% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 98.61% |
 | [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                            | 0ms     | 100%   |
+| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                    | 4ms     | 96.45% |
