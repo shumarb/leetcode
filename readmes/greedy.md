@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/430.
+Completed: 55/430.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 54/430.
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfMovesToSeatEveryone.java)               | 1ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeTheArrayIncreasing.java)        | 3ms     | 87.17% |
+| [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)           | 3ms     | 95.97% |
 | [Partition Array Into Three Equal Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayIntoThreePartsWithEqualSum.java)         | 1ms     | 100%   |
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)            | 2ms     | 72.81% |
 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                    | 0ms     | 100%   |
