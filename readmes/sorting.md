@@ -137,7 +137,7 @@ Completed: 121/467.
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                   | 13ms    | 99.35% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                           | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                              | 6ms     | 98%    | 
-| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                  | 4ms     | 96.45% |
+| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                  | 3ms     | 96.79% |
 
 ### Hard
 | Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |
