@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 444/1976.
+Completed: 445/1976.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 444/1976.
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppleRedistributionIntoBoxes.java)                           | 1ms     | 100%   |
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToAnArray.java)                               | 1ms     | 95.99% |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrayPartition.java)                                         | 12ms    | 97.33% |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                          | 11ms    | 35.51% |
 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AvailableCapturesForRook.java)                               | 0ms     | 100%   |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)       | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)       | 0ms     | 100%   |

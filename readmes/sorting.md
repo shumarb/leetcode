@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 121/467.
+Completed: 122/467.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 121/467.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppleRedistributionIntoBoxes.java)                         | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrayPartition.java)                                       | 12ms    | 97.33% |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                        | 11ms    | 35.51% |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)     | 0ms     | 100%   |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                         | 1ms     | 100%   |
 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanMakeArithmeticProgressionFromSequence.java) | 2ms     | 98.24% |

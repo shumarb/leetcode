@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/223.
+Completed: 74/223.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                             | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToAnArray.java)                        | 1ms     | 95.99% |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                   | 11ms    | 35.51% |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                          | 1ms     | 78.15% |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                       | 1ms     | 99.29% |
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfStringIsAPrefixOfArray.java)                   | 1ms     | 87.61% |

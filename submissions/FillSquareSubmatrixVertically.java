@@ -4,8 +4,8 @@ class FillSquareSubmatrixVertically {
     private boolean isTest = false;
 
     private void update(int[][] grid, int x, int y, int k) {
-        int top = x;
         int bottom = x + k - 1;
+        int top = x;
         if (isTest) {
             System.out.println("x: " + x + ", y: " + y + ", top: " + top + ", bottom: " + bottom);
             System.out.println("---------------------------------------------------------");
@@ -13,10 +13,8 @@ class FillSquareSubmatrixVertically {
 
         while (top < bottom) {
             int temp = grid[top][y];
-            grid[top][y] = grid[bottom][y];
-            grid[bottom][y] = temp;
-            top++;
-            bottom--;
+            grid[top++][y] = grid[bottom][y];
+            grid[bottom--][y] = temp;
         }
     }
 

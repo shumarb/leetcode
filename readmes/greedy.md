@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/430.
+Completed: 57/430.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 56/430.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppleRedistributionIntoBoxes.java)                     | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrayPartition.java)                                   | 12ms    | 97.33% |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                    | 11ms    | 35.51% |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                     | 1ms     | 100%   |
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java)                      | 1ms     | 97.29% |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
