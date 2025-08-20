@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 443/1976.
+Completed: 444/1976.
 
 ## Submissions
 ### Easy
@@ -99,6 +99,7 @@ Completed: 443/1976.
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                              | 1ms     | 99.99% |
 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DuplicateZeros.java)                                         | 3ms     | 44.61% |
 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ElementAppearingMoreThan25PercentInSortedArray.java)         | 0ms     | 100%   |
+| [Fill Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FillSquareSubmatrixVertically.java)                          | 1ms     | 58.12% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalArrayStateAfterKMultiplicationOperationsOne.java)       | 4ms     | 17.42% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalPricesWithASpecialDiscountInAShop.java)                 | 2ms     | 65.61% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindValueOfVariableAfterPerformingOperations.java)           | 1ms     | 74.56% |
