@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 220/721.
+Completed: 221/721.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 220/721.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestPokerHand.java)                                          | 0ms     | 100%   |
 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuddyStrings.java)                                           | 1ms     | 99.49% |
+| [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckArrayFormationThroughConcatenation.java)                | 1ms     | 91.92% |
 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckDistancesBetweenSameLetters.java)                       | 1ms     | 90.31% |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                              | 1ms     | 99.29% |
 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckWhetherTwoStringsAreAlmostEquivalent.java)              | 0ms     | 100%   |
