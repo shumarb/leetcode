@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 58/430.
+Completed: 59/430.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 58/430.
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumOddBinaryNumber.java)                           | 1ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithExactlyKElements.java)                   | 1ms     | 100%   |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumUnitsOnATruck.java)                             | 8ms     | 95.90% |
+| [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                    | 3ms     | 11.87% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCostOfBuyingCandiesWithDiscount.java)           | 2ms     | 98.80% |
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)     | 2ms     | 97.55% |
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToConvertString.java)                      | 1ms     | 71.27% |

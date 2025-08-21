@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 446/1976.
+Completed: 447/1976.
 
 ## Submissions
 ### Easy
@@ -204,6 +204,7 @@ Completed: 446/1976.
 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwo2DArraysBySummingValues.java)                        | 1ms     | 84.70% |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinMaxGame.java)                                             | 1ms     | 64.62% |
 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifference.java)                              | 17ms    | 91.38% |
+| [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                          | 3ms     | 11.87% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageOfSmallestAndLargestElements.java)             | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCommonValue.java)                                     | 2ms     | 86.22% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCostOfBuyingCandiesWithDiscount.java)                 | 2ms     | 98.80% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 123/467.
+Completed: 124/467.
 
 ## Submissions
 ### Easy
@@ -56,6 +56,7 @@ Completed: 123/467.
 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                                    | 3ms     | 98.07% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSortedArray.java)                                     | 0ms     | 100%   |
 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifference.java)                            | 17ms    | 91.38% |
+| [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                        | 3ms     | 11.87% |
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageOfSmallestAndLargestElements.java)           | 2ms     | 97.31% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCostOfBuyingCandiesWithDiscount.java)               | 2ms     | 98.80% |
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)         | 2ms     | 97.55% |
