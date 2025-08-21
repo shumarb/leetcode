@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 445/1976.
+Completed: 446/1976.
 
 ## Submissions
 ### Easy
@@ -388,6 +388,7 @@ Completed: 445/1976.
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                                      | 11ms    | 93.10% |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                                             | 6ms     | 88.17% |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                                        | 9ms     | 80.63% |
+| [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)                            | 26ms    | 61.51% |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                              | 2ms     | 98.84% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                                  | 291ms   | 48.57% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                                          | 1ms     | 90.84% |
