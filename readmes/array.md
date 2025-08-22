@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 448/1976.
+Completed: 449/1976.
 
 ## Submissions
 ### Easy
@@ -145,6 +145,7 @@ Completed: 448/1976.
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePeaks.java)                                           | 1ms     | 100%   |
 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheSumOfEncryptedIntegers.java)                          | 1ms     | 100%   |
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)                                       | 2ms     | 100%   |
+| [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWidthOfColumnsOfAGrid.java)                           | 6ms     | 56.53% |
 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheXOROfNumbersWhichAppearTwice.java)                    | 1ms     | 98.52% |
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Finding3DigitEvenNumber.java)                                | 3ms     | 94.61% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                        | 0ms     | 100%   |
