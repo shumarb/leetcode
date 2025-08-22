@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 449/1976.
+Completed: 450/1976.
 
 ## Submissions
 ### Easy
@@ -299,6 +299,7 @@ Completed: 449/1976.
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquaresOfSpecialElements.java)                          | 1ms     | 100%   |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfValuesAtIndicesWithKSetBits.java)                       | 1ms     | 100%   |
+| [Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfVariableLengthSubarrays.java)                           | 2ms     | 5.14%  |
 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SummaryRanges.java)                                          | 5ms     | 80.55% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                            | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                         | 3ms     | 83.20% |
