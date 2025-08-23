@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/168.
+Completed: 75/168.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 74/168.
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)                      | 5ms     | 94.83% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfMultipleArrays.java)                       | 2ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthDistinctStringInAnArray.java)                         | 6ms     | 86.06% |
+| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestHarmoniousSubsequence.java)                       | 19ms    | 19.75% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                                    | 2ms     | 99.80% |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCountOfPositiveIntegerAndNegativeInteger.java)    | 0ms     | 100%   |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)     | 1ms     | 100%   |

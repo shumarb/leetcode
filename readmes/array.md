@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 450/1976.
+Completed: 451/1976.
 
 ## Submissions
 ### Easy
@@ -172,6 +172,7 @@ Completed: 450/1976.
 | [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestAlternatingSubarray.java)                             | 1ms     | 100%   |
 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousIncreasingSubsequence.java)                 | 1ms     | 99.68% |
 | [Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestEvenOddSubarrayWithThreshold.java)                    | 4ms     | 98.16% |
+| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestHarmoniousSubsequence.java)                           | 19ms    | 19.75% |
 | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java)  | 1ms     | 90.29% |
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)             | 1ms     | 92.54% |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LuckyNumbersInAMatrix.java)                                  | 3ms     | 46.62% |

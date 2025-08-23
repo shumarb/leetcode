@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/154.
+Completed: 37/155.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 36/154.
 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                    | 7ms     | 96.27% |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                           | 1ms     | 40.75% |
 | [Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestEvenOddSubarrayWithThreshold.java)               | 4ms     | 98.16% |
+| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestHarmoniousSubsequence.java)                      | 19ms    | 19.75% |
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                              | 37ms    | 17.29% |
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAverageSubarrayOne.java)                         | 5ms     | 51.11% |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthSubstringWithTwoOccurrences.java)          | 38ms    | 5.28%  |
