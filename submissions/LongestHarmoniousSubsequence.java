@@ -9,7 +9,7 @@ class LongestHarmoniousSubsequence {
         for (int number: nums) {
             map.put(number, 1 + map.getOrDefault(number, 0));
         }
-        for (int number: nums) {
+        for (int number: map.keySet()) {
             int current = number;
             int next = current + 1;
             if (map.containsKey(next)) {
