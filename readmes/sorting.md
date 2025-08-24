@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 125/467.
+Completed: 126/467.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 125/467.
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)                   | 1ms     | 100%   |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                  | 20ms    | 49.03% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
+| [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                        | 8ms     | 98.40% |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindResultantArraysAfterRemovingAnagrams.java)             | 1ms     | 100%   |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubsequenceOfLengthKWithTheLargestSum.java)            | 8ms     | 62.37% |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTargetIndicesAfterSortingArray.java)                   | 0ms     | 100%   |
