@@ -12,7 +12,7 @@ class LongestHarmoniousSubsequence {
         for (int number: nums) {
             int current = number;
             int next = current + 1;
-            if (map.containsKey(next) && map.containsKey(current)) {
+            if (map.containsKey(next)) {
                 if (isTest) {
                     System.out.println("current: " + current + " -> frequency: " + map.get(current));
                     System.out.println("next: " + next + " -> frequency: " + map.get(next));
