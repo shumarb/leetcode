@@ -2,7 +2,7 @@
 
 class FairCandySwap {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
-        Set<Integer> bobSet = new HashSet<>();
+        boolean[] isBobCandyPresent = new boolean[100001];
         boolean isTest = false;
         int[] result = new int[2];
         int totalAlice = 0;
@@ -13,22 +13,23 @@ class FairCandySwap {
             totalAlice += candy;
         }
         for (int candy: bobSizes) {
-            bobSet.add(candy);
+            isBobCandyPresent[candy] = true;
             totalBob += candy;
         }
         totalComplement = (totalBob - totalAlice) / 2;
 
         for (int candy: aliceSizes) {
-            if (bobSet.contains(candy + totalComplement)) {
+            int toFind = candy + totalComplement;
+            if (toFind >= 1 && toFind <= 100000 && isBobCandyPresent[toFind]) {
                 result[0] = candy;
                 result[1] = candy + totalComplement;
                 break;
             }
         }
         if (isTest) {
+            System.out.println("aliceSizes: " + Arrays.toString(aliceSizes) + "\nbobSizes: " + Arrays.toString(bobSizes));
             System.out.println("totalAlice: " + totalAlice + "\ntotalBob: " + totalBob);
-            System.out.println("totalComplement: " + totalComplement + "\nbobSet: " + bobSet);
-            System.out.println("result: " + Arrays.toString(result));
+            System.out.println("totalComplement: " + totalComplement + "\nresult: " + Arrays.toString(result));
         }
 
         return result;
