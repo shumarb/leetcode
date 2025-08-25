@@ -35,14 +35,3 @@ class MatrixCellsInDistanceOrder {
         System.out.println("-------------------------------------");
     }
 }
-
-class Pair {
-    int[] arr = new int[2];
-    int value = 0;
-
-    public Pair(int row, int column, int rCenter, int cCenter) {
-        arr[0] = row;
-        arr[1] = column;
-        value = Math.abs(row - rCenter) + Math.abs(column - cCenter);
-    }
-}
