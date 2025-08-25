@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 39/263.
+Completed: 40/263.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 39/263.
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                  | 0ms     | 100%   |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LuckyNumbersInAMatrix.java)                            | 3ms     | 46.62% |
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                      | 0ms     | 100%   |
+| [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixCellsInDistanceOrder.java)                       | 15ms    | 35.80% |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixDiagonalSum.java)                                | 0ms     | 100%   |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ModifyTheMatrix.java)                                  | 1ms     | 100%   |
