@@ -8,7 +8,8 @@ class MatrixCellsInDistanceOrder {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                result[k++] = new int[] {i, j};
+                result[k][0] = i;
+                result[k++][1] = j;
             }
         }
 
