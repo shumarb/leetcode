@@ -63,5 +63,5 @@ Completed: 41/248.
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                         | 53ms    | 73.42% |
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                         | 49ms    | 79.54% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |

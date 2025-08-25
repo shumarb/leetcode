@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/169.
+Completed: 99/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -93,6 +93,7 @@ Completed: 98/169.
 | 134 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumThree.java)                                       | 19ms    | 28.31% |
 | 135 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                              | 0ms     | 100%   |
 | 136 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                                    | 0ms     | 100%   |
+| 140 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                                          | 49ms    | 79.54% |
 | 141 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SymmetricTree.java)                                      | 0ms     | 100%   |
 | 142 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                      | 1ms     | 36.78% |
 | 145 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                                     | 0ms     | 100%   |

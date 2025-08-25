@@ -32,9 +32,9 @@ class BusRoutes {
             return -1;
         }
 
-        Set<Integer> seenBuses = new HashSet<>();
-        Set<Integer> seenStops = new HashSet<>();
         Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> seenStops = new HashSet<>();
+        boolean[] isBusSeen = new boolean[routes.length];
         int level = 0;
 
         /**
@@ -42,17 +42,16 @@ class BusRoutes {
 
          While the queue of stops is non-empty,
          1. For each stop at the current level:
-         1. Mark it as visited.
-         2. For each bus passing through the stop:
-         1. If the bus has not been marked as used, mark it as use.
-         2. For each bus on this route:
-         1. If it is target, return current level (number of buses used).
-         2. If it has not been visited, add it to the queue.
+             1. Mark it as visited.
+             2. For each bus passing through the stop:
+                 1. If the bus has not been marked as used, mark it as use.
+                 2. For each bus on this route:
+                     1. If it is target, return current level (number of buses used).
+                     2. If it has not been visited, add it to the queue.
 
          Return -1 is the target is not encountered whist traversing the queue.
          */
         queue.add(source);
-        seenStops.add(source);
         while (!queue.isEmpty()) {
             level++;
             int size = queue.size();
@@ -65,12 +64,12 @@ class BusRoutes {
                 seenStops.add(currentStop);
 
                 for (int bus: map.get(currentStop)) {
-                    if (seenBuses.add(bus)) {
+                    if (!isBusSeen[bus]) {
+                        isBusSeen[bus] = true;
                         for (int stop: routes[bus]) {
                             if (stop == target) {
                                 return level;
-                            }
-                            if (seenStops.add(stop)) {
+                            } else if (seenStops.add(stop)) {
                                 queue.offer(stop);
                             }
                         }
@@ -78,6 +77,7 @@ class BusRoutes {
                 }
             }
         }
+
         return -1;
     }
 }
