@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/247.
+Completed: 41/248.
 
 ## Submissions
 ### Easy
@@ -63,4 +63,5 @@ Completed: 40/247.
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                         | 53ms    | 73.42% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 223/721.
+Completed: 224/721.
 
 ## Submissions
 ### Easy
@@ -244,6 +244,7 @@ Completed: 223/721.
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                     | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)               | 53ms    | 73.42% |
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)    | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)    | 31ms    | 84.09% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 43ms    | 83.32% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 453/1976.
+Completed: 454/1976.
 
 ## Submissions
 ### Easy
@@ -469,6 +469,7 @@ Completed: 453/1976.
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                          | 53ms    | 73.42% |
 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)        | 7ms     | 81.55% |
 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArrayTwo.java) | 0ms     | 100%   |
 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)                | 0ms     | 100%   |
