@@ -2,19 +2,14 @@
 
 class MinMaxGame {
     public int minMaxGame(int[] nums) {
-        while (nums.length > 1) {
-            int n = nums.length;
-            int[] newNums = new int[n / 2];
+        int n = nums.length;
+        while (n > 1) {
             for (int i = 0; i < n / 2; i++) {
                 int first = nums[2 * i];
                 int second = nums[2 * i + 1];
-                if (i % 2 == 0) {
-                    newNums[i] = Math.min(first, second);
-                } else {
-                    newNums[i] = Math.max(first, second);
-                }
+                nums[i] = (i % 2 == 0) ? Math.min(first, second) : Math.max(first, second);
             }
-            nums = newNums;
+            n /= 2;
         }
 
         return nums[0];
