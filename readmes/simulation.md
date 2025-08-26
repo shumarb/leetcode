@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/187.
+Completed: 76/187.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 75/187.
 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateTargetArrayInTheGivenOrder.java)                 | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineTheWinnerOfABowlingGame.java)                 | 1ms     | 100%   |
+| [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesToPeople.java)                        | 2ms     | 72.62% |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)               | 1ms     | 100%   |
 | [Divide a String Into Groups of Size K](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideAStringIntoGroupsOfSizeK.java)                   | 0ms     | 100%   |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FaultyKeyboard.java)                                   | 3ms     | 98.26% |
