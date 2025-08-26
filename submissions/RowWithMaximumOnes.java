@@ -2,8 +2,8 @@
 
 class RowWithMaximumOnes {
     public int[] rowAndMaximumOnes(int[][] mat) {
-        int maximum = 0;
         int index = 0;
+        int maximum = 0;
 
         for (int i = 0; i < mat.length; i++) {
             int[] row = mat[i];
@@ -16,11 +16,8 @@ class RowWithMaximumOnes {
             }
 
             if (current > maximum) {
+                index = i;
                 maximum = current;
-                index = i;
-
-            } else if (current == maximum && i < index) {
-                index = i;
             }
         }
 
