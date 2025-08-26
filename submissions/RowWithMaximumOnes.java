@@ -2,29 +2,28 @@
 
 class RowWithMaximumOnes {
     public int[] rowAndMaximumOnes(int[][] mat) {
+        int maximum = 0;
         int index = 0;
-        int maximumCount = 0;
-        boolean isTest = false;
+
         for (int i = 0; i < mat.length; i++) {
-            if (isTest) {
-                System.out.println("row: " + Arrays.toString(mat[i]));
+            int[] row = mat[i];
+            int current = 0;
+
+            for (int number: row) {
+                if (number == 1) {
+                    current++;
+                }
             }
-            int currentCount = countOnes(mat[i]);
-            if (currentCount > maximumCount) {
-                maximumCount = currentCount;
+
+            if (current > maximum) {
+                maximum = current;
+                index = i;
+
+            } else if (current == maximum && i < index) {
                 index = i;
             }
         }
-        return new int[] {index, maximumCount};
-    }
 
-    private int countOnes(int[] arr) {
-        int count = 0;
-        for (int element: arr) {
-            if (element == 1) {
-                count++;
-            }
-        }
-        return count;
+        return new int[] {index, maximum};
     }
 }
