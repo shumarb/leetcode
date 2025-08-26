@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 233/808.
+Completed: 234/808.
 
 ## Submissions
 ### Easy
@@ -170,6 +170,7 @@ Completed: 233/808.
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                                 | 1ms     | 98.82% |
 | [Shuffle String](https://leetcode.com/problems/shuffle-string/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleString.java)                                                | 0ms     | 100%   |
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                                   | 1ms     | 99.66% |
+| [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SnakeInMatrix.java)                                                | 2ms     | 91.68% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                                | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortingTheSentence.java)                                           | 0ms     | 100%   |
 | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitStringsBySeparator.java)                                      | 6ms     | 84.62% |

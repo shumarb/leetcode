@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/186.
+Completed: 75/187.
 
 ## Submissions
 ### Easy
@@ -70,6 +70,7 @@ Completed: 74/186.
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
+| [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SnakeInMatrix.java)                                    | 2ms     | 91.68% |
 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StoneRemovalGame.java)                                 | 0ms     | 100%   |
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDigitsOfStringAfterConvert.java)                  | 0ms     | 100%   |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
