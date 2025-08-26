@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/187.
+Completed: 77/187.
 
 ## Submissions
 ### Easy
@@ -88,6 +88,7 @@ Completed: 76/187.
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                  | 7ms     | 25.66% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                            | 12ms    | 88.41% |
 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThreeConsecutiveIntegersThatSumToAGivenNumber.java) | 0ms     | 100%   |
+| [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                        | 48ms    | 29.56% |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                          | 5ms     | 83.64% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)        | 144ms   | 74.64% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                          | 87ms    | 32.57% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 139/607.
+Completed: 140/607.
 
 ## Submissions
 ### Easy
@@ -136,6 +136,7 @@ Completed: 139/607.
 | [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EliminationGame.java)                                     | 1ms     | 100%   |
 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FactorialTrailingZeroes.java)                             | 0ms     | 100%   |
 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThreeConsecutiveIntegersThatSumToAGivenNumber.java)   | 0ms     | 100%   |
+| [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                          | 48ms    | 29.56% |
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                   | 7ms     | 83.98% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 98.76% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                              | 30ms    | 63.52% |
