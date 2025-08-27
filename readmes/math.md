@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 140/607.
+Completed: 141/607.
 
 ## Submissions
 ### Easy
@@ -147,6 +147,7 @@ Completed: 140/607.
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                    | 2490ms  | 5.01%  |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)                                     | 58ms    | 99.02% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                | 21ms    | 99.89% |
+| [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReconstructOriginalDigitsFromEnglish.java)                | 5ms     | 36.90% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                                      | 0ms     | 100%   |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                         | 0ms     | 100%   |
 | [Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueOfTheRearrangedNumber.java)                  | 0ms     | 100%   |
