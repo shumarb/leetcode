@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 234/808.
+Completed: 235/808.
 
 ## Submissions
 ### Easy
@@ -36,6 +36,7 @@ Completed: 234/808.
 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberHasEqualDigitCountAndEqualDigitValue.java)            | 0ms     | 100%   |
 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumbersAreAscendingInASentence.java)                        | 0ms     | 100%   |
 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfOneStringSwapCanMakeStringsEqual.java)                      | 0ms     | 100%   |
+| [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfStringsCanBeMadeEqualWithOperationsOne.java)                | 1ms     | 99.28% |
 | [Check if Two Chessboard Squares Have the Same Colour](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTwoChessboardSquaresHaveTheSameColour.java)                 | 0ms     | 100%   |
 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfWordEqualsSummationOfTwoWords.java)                         | 0ms     | 100%   |
 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringIsAnAcronymOfWords.java)                             | 1ms     | 100%   |
