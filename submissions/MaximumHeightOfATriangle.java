@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-height-of-a-triangle/description/
 
-class MaximumHeightOfATriangle {
+class MaximumHeightOfATriangle class Solution {
     public int maxHeightOfTriangle(int red, int blue) {
         return Math.max(getMaximumHeight(red, blue), getMaximumHeight(blue, red));
     }
@@ -28,6 +28,7 @@ class MaximumHeightOfATriangle {
 
             k++;
         }
+
         return maxHeight;
     }
 }
