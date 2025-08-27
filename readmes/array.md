@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 456/1976.
+Completed: 457/1976.
 
 ## Submissions
 ### Easy
@@ -191,6 +191,7 @@ Completed: 456/1976.
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCountOfPositiveIntegerAndNegativeInteger.java)        | 0ms     | 100%   |
 | [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdjacentElementsInACircularArray.java)                       | 1ms     | 99.43% |
 | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenIncreasingElements.java)             | 0ms     | 100%   |
+| [Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumHeightOfATriangle.java)                               | 1ms     | 84.03% |
 | [Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOperationsWithTheSameScoreOne.java)           | 0ms     | 100%   |
 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfPairsInArray.java)                            | 0ms     | 100%   |
 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfWordsFoundInSentences.java)                   | 3ms     | 83.48% |
