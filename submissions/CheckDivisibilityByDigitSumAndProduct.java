@@ -6,7 +6,6 @@ class CheckDivisibiltyByDigitSumAndProduct {
         int product = 1;
         int sum = 0;
 
-        int nCopy = n;
         while (nCopy != 0) {
             int digit = nCopy % 10;
             product *= digit;
