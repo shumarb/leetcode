@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 141/607.
+Completed: 142/607.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 141/607.
 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateMoneyInLeetcodeBank.java)                           | 3ms     | 5.77%  |
 | [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CategorizeBoxAccordingToCriteria.java)                       | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsWithOddValuesInAMatrix.java)                            | 1ms     | 85.31% |
+| [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckDivisibilityByDigitSumAndProduct.java)                  | 0ms     | 100%   |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)        | 8ms     | 78.87% |
 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfItIsAStraightLine.java)                               | 0ms     | 100%   |
 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)                     | 1ms     | 100%   |
