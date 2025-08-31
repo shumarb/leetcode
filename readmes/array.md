@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 457/1976.
+Completed: 458/1976.
 
 ## Submissions
 ### Easy
@@ -322,6 +322,7 @@ Completed: 457/1976.
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoFurthestHousesWithDifferentColors.java)                   | 2ms     | 50.45% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoOutOfThree.java)                                          | 1ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                                                 | 2ms     | 98.93% |
+| [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                         | 1ms     | 39.67% |
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                                | 7ms     | 17.93% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
