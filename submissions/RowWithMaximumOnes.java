@@ -2,25 +2,19 @@
 
 class RowWithMaximumOnes {
     public int[] rowAndMaximumOnes(int[][] mat) {
-        int index = 0;
-        int maximum = 0;
+        int[] result = new int[2];
 
         for (int i = 0; i < mat.length; i++) {
-            int[] row = mat[i];
-            int current = 0;
-
-            for (int number: row) {
-                if (number == 1) {
-                    current++;
-                }
+            int sum = 0;
+            for (int element: mat[i]) {
+                sum += element;
             }
-
-            if (current > maximum) {
-                index = i;
-                maximum = current;
+            if (sum > result[1]) {
+                result[0] = i;
+                result[1] = sum;
             }
         }
 
-        return new int[] {index, maximum};
+        return result;
     }
 }
