@@ -2,28 +2,24 @@
 
 class DistributeCandiesToPeople {
     public int[] distributeCandies(int candies, int num_people) {
-        boolean isTest = false;
         int[] result = new int[num_people];
+        int candy = 1;
+        int i = 0;
 
-        for (int give = 1, i = 0; candies > 0; give++, i++) {
-            if (i >= num_people) {
-                i = 0;
-            }
-            if (isTest) {
-                System.out.println("i: " + i + "\nbefore: " + Arrays.toString(result) + ", candies: " + candies);
-            }
-
-            result[i] += Math.min(give, candies);
-            candies -= give;
-
-            if (isTest) {
-                System.out.println("after: " + Arrays.toString(result) + ", candies: " + candies);
-                System.out.println("------------------------------------------");
-            }
+        /**
+         1.  While there are sufficient amount of candy,
+             give it to i-th person and update i and remaining candies.
+         */
+        while (candies >= candy) {
+            result[i % num_people] += candy;
+            candies -= candy;
+            candy++;
+            i++;
         }
-        if (isTest) {
-            System.out.println("final result: " + Arrays.toString(result) + ", candies: " + candies);
-            System.out.println("------------------------------------------");
+
+        // 2. Edge case: If candies > 0, give it all i-th person.
+        if (candies > 0) {
+            result[i % num_people] += candies;
         }
 
         return result;
