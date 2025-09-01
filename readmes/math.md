@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 143/607.
+Completed: 144/607.
 
 ## Submissions
 ### Easy
@@ -119,6 +119,7 @@ Completed: 143/607.
 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumber.java)                                             | 0ms     | 100%   |
 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                         | 0ms     | 100%   |
 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPerfectSquare.java)                                     | 0ms     | 100%   |
+| [Water Bottles](https://leetcode.com/problems/water-bottles/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterBottles.java)                                           | 0ms     | 100%   |
 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XorOperationInAnArray.java)                                  | 0ms     | 100%   |
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                                 | 2ms     | 98.93% |
 
