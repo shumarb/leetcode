@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/430.
+Completed: 60/430.
 
 ## Submissions
 ### Easy
@@ -79,3 +79,8 @@ Completed: 59/430.
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 98.61% |
 | [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                            | 0ms     | 100%   |
 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                    | 3ms     | 96.79% |
+
+### Hard
+| Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                              | 54ms    | 55.24% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 458/1976.
+Completed: 459/1976.
 
 ## Submissions
 ### Easy
@@ -479,6 +479,7 @@ Completed: 458/1976.
 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)                | 0ms     | 100%   |
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)               | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)               | 31ms    | 84.09% |
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                     | 54ms    | 55.24% |
 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java)      | 63ms    | 34.82% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)            | 43ms    | 83.32% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)               | 7ms     | 99.46% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 128/467.
+Completed: 129/467.
 
 ## Submissions
 ### Easy
@@ -151,4 +151,5 @@ Completed: 128/467.
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java) | 7ms     | 81.55% |
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                | 99ms    | 63.65% |
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)              | 54ms    | 55.24% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)     | 46ms    | 86.32% |

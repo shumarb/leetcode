@@ -10,10 +10,15 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/63.
+Completed: 2/66.
 
 ## Submissions
 ### Easy
-| Question                                                                                    | Submission                                                                                       | Runtime | Rank |
-|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|------|
+| Question                                                                                    | Submission                                                                                  | Runtime | Rank |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|------|
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java) | 1ms     | 100% |
+
+### Hard
+| Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
+|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                              | 54ms    | 55.24% |
