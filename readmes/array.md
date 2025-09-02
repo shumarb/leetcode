@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 459/1976.
+Completed: 460/1976.
 
 ## Submissions
 ### Easy
@@ -308,6 +308,7 @@ Completed: 459/1976.
 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SummaryRanges.java)                                          | 5ms     | 80.55% |
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                            | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                         | 3ms     | 83.20% |
+| [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheEmployeeThatWorkedOnTheLongestTask.java)                  | 1ms     | 100%   |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                               | 2ms     | 76.03% |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThirdMaximumNumber.java)                                     | 1ms     | 97.13% |
