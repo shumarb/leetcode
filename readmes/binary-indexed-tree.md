@@ -16,4 +16,4 @@ Completed: 1/44.
 ### Hard
 | Question                                                                        | Submission                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                  | 54ms    | 55.24% |
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                  | 51ms    | 84.31% |
