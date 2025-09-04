@@ -8,14 +8,19 @@ class CountSubstringsThatSatisfyKConstraintsOne {
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
                 String substring = s.substring(i, j + 1);
+                if (substring.isEmpty()) {
+                    continue;
+                }
                 if (isTest) {
                     System.out.println("substring: " + substring);
                 }
-                if (substring.length() > 0 && isValid(substring, k)) {
+                if (isValid(substring, k)) {
                     if (isTest) {
                         System.out.println(" * valid: " + substring);
                     }
                     count++;
+                } else {
+                    break;
                 }
             }
             if (isTest) {
