@@ -3,25 +3,21 @@
 class TheEmployeeThatWorkedOnTheLongestTask {
     public int hardestWorker(int n, int[][] logs) {
         boolean isTest = false;
-        int[] map = new int[logs.length];
-        map[0] = logs[0][1];
-        int longest = map[0];
-        int longestId = 0;
+        int logWithLongestTask = 0;
+        int longestTask = logs[0][1];
 
         for (int i = 1; i < logs.length; i++) {
-            map[i] = logs[i][1] - logs[i - 1][1];
-            if (map[i] > longest) {
-                longest = map[i];
-                longestId = i;
-            } else if (map[i] == longest && logs[i][0] < logs[longestId][0]) {
-                longestId = i;
+            int currentTask = logs[i][1] - logs[i - 1][1];
+            if (currentTask > longestTask || currentTask == longestTask && logs[i][0] < logs[logWithLongestTask][0]) {
+                logWithLongestTask = i;
+                longestTask = currentTask;
             }
         }
         if (isTest) {
-            System.out.println("map: " + Arrays.toString(map) + "\nlongestId: " + longestId);
-            System.out.println("longest: " + longest + "\nresult: " + logs[longestId][0]);
+            System.out.println("logWithLongestTask: " + logWithLongestTask);
+            System.out.println("longestTask: " + longestTask + "\nemployee id: " + logs[logWithLongestTask][0]);
         }
 
-        return logs[longestId][0];
+        return logs[logWithLongestTask][0];
     }
 }
