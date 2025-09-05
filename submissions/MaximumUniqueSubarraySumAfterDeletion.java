@@ -1,21 +1,21 @@
 // Question: https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/description/
 
-class Solution {
+class MaximumUniqueSubarraySumAfterDeletion {
     public int maxSum(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isNumberPresent = new boolean[101];
         boolean isTest = false;
         int largest = Integer.MIN_VALUE;
         int maximumPositiveSum = 0;
 
         for (int number: nums) {
-            if (number > 0 && !set.contains(number)) {
+            if (number > 0 && !isNumberPresent[number]) {
                 maximumPositiveSum += number;
-                set.add(number);
+                isNumberPresent[number] = true;
             }
             largest = Math.max(largest, number);
         }
         if (isTest) {
-            System.out.println("set: " + set + "\nlargest: " + largest + "\nmaximumPositiveSum: " + maximumPositiveSum);
+            System.out.println("largest: " + largest + "\nmaximumPositiveSum: " + maximumPositiveSum);
         }
 
         return largest < 0 ? largest : maximumPositiveSum;
