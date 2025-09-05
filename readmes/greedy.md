@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/430.
+Completed: 61/430.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 60/430.
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Maximum69Number.java)                                  | 0ms     | 100%   |
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumOddBinaryNumber.java)                           | 1ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithExactlyKElements.java)                   | 1ms     | 100%   |
+| [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumUniqueSubarraySumAfterDeletion.java)            | 2ms     | 71.63% |
 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumUnitsOnATruck.java)                             | 8ms     | 95.90% |
 | [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                    | 3ms     | 11.87% |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCostOfBuyingCandiesWithDiscount.java)           | 2ms     | 98.80% |
