@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 463/1976.
+Completed: 464/1976.
 
 ## Submissions
 ### Easy
@@ -274,6 +274,7 @@ Completed: 463/1976.
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInsertPosition.java)                                   | 0ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                             | 5ms     | 74.92% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                            | 2ms     | 95.73% |
+| [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Shift2dGrid.java)                                            | 12ms    | 8.53%  |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                 | 4ms     | 81.11% |
 | [Shortest Distance Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToTargetStringInACircularArray.java)         | 0ms     | 100%   |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                           | 1ms     | 98.82% |

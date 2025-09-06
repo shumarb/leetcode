@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/263.
+Completed: 41/263.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 40/263.
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 0ms     | 100%   |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RichestCustomerWealth.java)                            | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RowWithMaximumOnes.java)                               | 1ms     | 100%   |
+| [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Shift2dGrid.java)                                      | 12ms    | 8.53%  |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialPositionsInABinaryMatrix.java)                  | 2ms     | 83.84% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                         | 2ms     | 76.03% |
 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToeplitzMatrix.java)                                   | 0ms     | 100%   |
