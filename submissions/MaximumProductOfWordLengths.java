@@ -9,11 +9,11 @@ class MaximumProductOfWordLengths {
             for (int j = i + 1; j < words.length; j++) {
                 String first = words[i];
                 String second = words[j];
-                if (isValid(first, second)) {
+                if (first.length() * second.length() > maximumProduct && isValid(first, second)) {
                     if (isTest) {
                         System.out.println(" * valid: " + first + ", " + second);
                     }
-                    maximumProduct = Math.max(maximumProduct, first.length() * second.length());
+                    maximumProduct = first.length() * second.length();
                 }
             }
         }
