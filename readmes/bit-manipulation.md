@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 53/247.
+Completed: 54/247.
 
 ## Submissions
 ### Easy
@@ -68,6 +68,7 @@ Completed: 53/247.
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                                  | 4ms     | 88.75% |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)               | 2ms     | 90.13% |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                   | 3ms     | 47.09% |
+| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                             | 2111ms  | 5.06%  |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                               | 9ms     | 60.28% |
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                 | 0ms     | 100%   |
