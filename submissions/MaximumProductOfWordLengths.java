@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-product-of-word-lengths/description/
 
-class MaximumProductOfWordLengths {
+class MaximumProductOfWordLengths class Solution {
     public int maxProduct(String[] words) {
         boolean isTest = false;
         int maximumProduct = 0;
@@ -22,13 +22,13 @@ class MaximumProductOfWordLengths {
     }
 
     private boolean isValid(String first, String second) {
-        int[] frequency = new int[26];
+        boolean[] isLetterPresent = new boolean[26];
 
         for (char letter: first.toCharArray()) {
-            frequency[letter - 'a']++;
+            isLetterPresent[letter - 'a'] = true;
         }
         for (char letter: second.toCharArray()) {
-            if (frequency[letter - 'a'] > 0) {
+            if (isLetterPresent[letter - 'a']) {
                 return false;
             }
         }
