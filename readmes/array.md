@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 465/1976.
+Completed: 466/1976.
 
 ## Submissions
 ### Easy
@@ -257,6 +257,7 @@ Completed: 465/1976.
 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OddStringDifference.java)                                    | 2ms     | 59.44% |
 | [Partition Array Into Three Equal Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayIntoThreePartsWithEqualSum.java)               | 1ms     | 100%   |
 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                                        | 1ms     | 86.51% |
+| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangleTwo.java)                                     | 1ms     | 66.61% |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                                                | 0ms     | 100%   |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)                            | 2ms     | 74.65% |
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrimeInDiagonal.java)                                        | 10ms    | 26.91% |
