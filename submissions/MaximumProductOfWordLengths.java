@@ -2,7 +2,6 @@
 
 class MaximumProductOfWordLengths {
     public int maxProduct(String[] words) {
-        boolean isTest = false;
         int maximumProduct = 0;
 
         for (int i = 0; i < words.length - 1; i++) {
@@ -12,9 +11,6 @@ class MaximumProductOfWordLengths {
                 int currentProduct = first.length() * second.length();
 
                 if (currentProduct > maximumProduct && isValid(first, second)) {
-                    if (isTest) {
-                        System.out.println(" * valid: " + first + ", " + second);
-                    }
                     maximumProduct = currentProduct;
                 }
             }
