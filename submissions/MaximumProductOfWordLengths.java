@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-product-of-word-lengths/description/
 
-class MaximumProductOfWordLengths class Solution {
+class MaximumProductOfWordLengths {
     public int maxProduct(String[] words) {
         boolean isTest = false;
         int maximumProduct = 0;
