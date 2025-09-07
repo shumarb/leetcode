@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 144/607.
+Completed: 145/607.
 
 ## Submissions
 ### Easy
@@ -51,6 +51,7 @@ Completed: 144/607.
 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheDigitsThatDivideANumber.java)                        | 0ms     | 100%   |
 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineColorOfAChessboardSquare.java)                      | 0ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)        | 2ms     | 98.35% |
+| [Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesAmongChildrenOne.java)                      | 18ms    | 8%     |
 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesToPeople.java)                              | 1ms     | 97.73% |
 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivisibleAndNonDivisibleSumsDifference.java)                 | 0ms     | 100%   |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                                        | 0ms     | 100%   |
