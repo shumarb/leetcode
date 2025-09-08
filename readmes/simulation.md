@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 79/187.
+Completed: 80/187.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 79/187.
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BaseballGame.java)                                     | 2ms     | 96.48% |
 | [Build Array from Permutation](https://leetcode.com/problems/baseball-game/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildArrayFromPermutation.java)                        | 1ms     | 99.07% |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateAmountPaidInTaxes.java)                       | 0ms     | 100%   |
+| [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateDigitSumOfAString.java)                       | 1ms     | 92.62% |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsWithOddValuesInAMatrix.java)                      | 1ms     | 85.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClearDigits.java)                                      | 1ms     | 100%   |
