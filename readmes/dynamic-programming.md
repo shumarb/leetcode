@@ -24,7 +24,7 @@ Completed: 30/607.
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java) | 1ms     | 92.54% |
 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumRepeatingSubstring.java)                  | 0ms     | 100%   |
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)                        | 0ms     | 100%   |
-| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                            | 1ms     | 86.51% |
+| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                            | 0ms     | 100%   |
 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangleTwo.java)                         | 1ms     | 66.61% |
 
 ### Medium
