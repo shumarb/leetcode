@@ -5,8 +5,6 @@ class PascalsTriangleTwo {
     private int rowIndex;
 
     public List<Integer> getRow(int rowIndex) {
-        List<Integer> currentRow = new ArrayList<>();
-        currentRow.add(1);
         isTest = false;
         this.rowIndex = rowIndex;
 
@@ -15,7 +13,7 @@ class PascalsTriangleTwo {
             System.out.println("------------------------------------------");
         }
 
-        return helper(currentRow, 0);
+        return helper(List.of(1), 0);
     }
 
     private List<Integer> helper(List<Integer> currentRow, int currentIndex) {
@@ -25,11 +23,6 @@ class PascalsTriangleTwo {
 
         if (rowIndex == currentIndex) {
             return currentRow;
-        }
-
-        if (rowIndex < 2) {
-            currentRow.add(1);
-            return helper(currentRow, currentIndex + 1);
         }
 
         List<Integer> newRow = new ArrayList<>();
