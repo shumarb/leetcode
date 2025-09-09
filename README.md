@@ -1,4 +1,4 @@
-g# LeetCode
+# LeetCode
 
 ## Overview
 This repository contains my [LeetCode](https://leetcode.com/shumarb/) submissions,
