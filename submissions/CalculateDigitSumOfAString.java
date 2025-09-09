@@ -17,12 +17,15 @@ class CalculateDigitSumOfAString {
             StringBuilder newS = new StringBuilder();
             for (int i = 0; i < s.length(); i += k) {
                 StringBuilder current = new StringBuilder();
-                for (int j = i; j < Math.min(i + k, s.length()); j++) {
+                int upperBound = Math.min(i + k, s.length());
+
+                for (int j = i; j < upperBound; j++) {
                     current.append(s.charAt(j));
                 }
                 if (isTest) {
                     System.out.println(" * i: " + i + " -> current: " + current.toString());
                 }
+
                 newS = update(newS, current.toString());
             }
 
@@ -39,8 +42,8 @@ class CalculateDigitSumOfAString {
     private StringBuilder update(StringBuilder newS, String current) {
         int sum = 0;
 
-        for (char c: current.toCharArray()) {
-            sum += Character.getNumericValue(c);
+        for (char digit: current.toCharArray()) {
+            sum += digit - '0';
         }
         newS.append(sum);
 
