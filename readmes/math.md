@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 145/607.
+Completed: 146/607.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 145/607.
 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingDigitSum.java)                                    | 0ms     | 100%   |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)       | 0ms     | 100%   |
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Base7.java)                                                  | 1ms     | 70.47% |
+| [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateDelayedArrivalTime.java)                            | 0ms     | 100%   |
 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateMoneyInLeetcodeBank.java)                           | 3ms     | 5.77%  |
 | [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CategorizeBoxAccordingToCriteria.java)                       | 0ms     | 100%   |
 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsWithOddValuesInAMatrix.java)                            | 1ms     | 85.31% |
