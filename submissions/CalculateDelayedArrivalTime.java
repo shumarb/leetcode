@@ -2,17 +2,6 @@
 
 class CalculateDelayedArrivalTime {
     public int findDelayedArrivalTime(int arrivalTime, int delayedTime) {
-        while (delayedTime > 0) {
-            arrivalTime++;
-            if (arrivalTime == 24) {
-                arrivalTime = 0;
-            }
-            delayedTime--;
-        }
-        if (arrivalTime == 24) {
-            arrivalTime = 0;
-        }
-
-        return arrivalTime;
+        return (arrivalTime + delayedTime) % 24;
     }
 }
