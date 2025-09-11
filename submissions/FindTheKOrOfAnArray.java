@@ -1,9 +1,8 @@
 // Question: https://leetcode.com/problems/find-the-k-or-of-an-array/description/
 
 class FindTheKOrOfAnArray {
-    private boolean isTest = false;
-
     public int findKOr(int[] nums, int k) {
+        boolean isTest = false;
         int[][] binary;
         int longest = 0;
         int power = 0;
@@ -45,15 +44,12 @@ class FindTheKOrOfAnArray {
 
     private int[] formsBinary(int number, int longest) {
         int[] result = new int[longest];
-        int numberCopy = number;
         int i = longest - 1;
+        int numberCopy = number;
 
         while (i >= 0) {
             result[i--] = number % 2;
             number /= 2;
-        }
-        if (isTest) {
-            System.out.println("number: " + numberCopy + " -> binary: " + Arrays.toString(result));
         }
 
         return result;
