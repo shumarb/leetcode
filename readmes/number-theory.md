@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/74.
+Completed: 13/80.
 
 ## Submissions
 ### Easy
@@ -28,7 +28,8 @@ Completed: 12/74.
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                          | 2ms     | 98.93% |
 
 ### Medium
-| Question                                                                                                           | Submission                                                                                         | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 51ms    | 81.88% |
-| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |
+| Question                                                                                                | Submission                                                                                         | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 51ms    | 81.88% |
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |
+| [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)      | 94ms    | 99.75% |

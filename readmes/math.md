@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 146/607.
+Completed: 147/607.
 
 ## Submissions
 ### Easy
@@ -146,6 +146,7 @@ Completed: 146/607.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 98.76% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                              | 30ms    | 63.52% |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                | 9ms     | 100%   |
+| [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                              | 94ms    | 99.75% |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                | 2ms     | 98.50% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                         | 3ms     | 95.56% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                               | 0ms     | 100%   |
