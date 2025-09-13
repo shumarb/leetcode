@@ -32,4 +32,4 @@ Completed: 13/80.
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |
-| [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)      | 1ms     | 99.75% |
+| [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)      | 0ms     | 100%   |
