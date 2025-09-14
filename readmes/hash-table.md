@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 226/721.
+Completed: 227/721.
 
 ## Submissions
 ### Easy
@@ -173,6 +173,7 @@ Completed: 226/721.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                   | 0ms     | 100%   |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                                 | 1ms     | 100%   |
+| [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                    | 3ms     | 81.12% |
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java)                  | 138ms   | 67.85% |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)           | 1ms     | 95.87% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                                  | 51ms    | 81.88% |
