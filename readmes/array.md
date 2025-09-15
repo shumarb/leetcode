@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 470/1976.
+Completed: 471/1976.
 
 ## Submissions
 ### Easy
@@ -164,6 +164,7 @@ Completed: 470/1976.
 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KidsWithTheGreatestNumberOfCandies.java)                     | 1ms     | 87.73% |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthDistinctStringInAnArray.java)                             | 6ms     | 86.06% |
 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthMissingPositiveNumber.java)                               | 2ms     | 11.57% |
+| [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestLocalValuesInAMatrix.java)                            | 3ms     | 59.40% |
 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAtLeastTwiceOfOthers.java)                      | 0ms     | 100%   |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java)        | 6ms     | 61.28% |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestTriangleArea.java)                                    | 4ms     | 99.15% |

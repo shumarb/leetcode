@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/263.
+Completed: 42/263.
 
 ## Submissions
 ### Easy
@@ -28,6 +28,7 @@ Completed: 41/263.
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWinnerOnATicTacToeGame.java)                       | 0ms     | 100%   |
 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWidthOfColumnsOfAGrid.java)                     | 2ms     | 97.87% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                  | 0ms     | 100%   |
+| [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestLocalValuesInAMatrix.java)                      | 3ms     | 59.40% |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LuckyNumbersInAMatrix.java)                            | 3ms     | 46.62% |
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                      | 0ms     | 100%   |
 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixCellsInDistanceOrder.java)                       | 13ms    | 66.60% |
