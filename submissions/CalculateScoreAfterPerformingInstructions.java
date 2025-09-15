@@ -10,7 +10,7 @@ class CalculateScoreAfterPerformingInstructions {
         while (i >= 0 && i < n && !isIndexVisited[i]) {
             isIndexVisited[i] = true;
 
-            if (instructions[i].equals("add")) {
+            if (instructions[i].charAt(0) == 'a') {
                 score += values[i++];
 
             } else {
