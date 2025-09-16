@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 82/187.
+Completed: 83/187.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 82/187.
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeepMultiplyingFoundValuesByTwo.java)                  | 0ms     | 100%   |
 | [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastVisitedIntegers.java)                              | 1ms     | 100%   |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
+| [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixSimilarityAfterCyclicShifts.java)                | 1ms     | 97.69% |
 | [Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOperationsWithTheSameScoreOne.java)     | 0ms     | 100%   |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinMaxGame.java)                                       | 1ms     | 64.55% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberGame.java)                                | 3ms     | 41.37% |

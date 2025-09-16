@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 148/607.
+Completed: 149/607.
 
 ## Submissions
 ### Easy
@@ -79,6 +79,7 @@ Completed: 148/607.
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                      | 1ms     | 99.64% |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestTriangleArea.java)                                    | 4ms     | 99.15% |
 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixCellsInDistanceOrder.java)                             | 13ms    | 66.60% |
+| [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixSimilarityAfterCyclicShifts.java)                      | 1ms     | 97.69% |
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Maximum69Number.java)                                        | 0ms     | 100%   |
 | [Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumContainersOnAShip.java)                               | 0ms     | 100%   |
 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfBallsInABox.java)                             | 13ms    | 97.88% |

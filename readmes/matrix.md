@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/263.
+Completed: 43/263.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 42/263.
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                      | 0ms     | 100%   |
 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixCellsInDistanceOrder.java)                       | 13ms    | 66.60% |
 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixDiagonalSum.java)                                | 0ms     | 100%   |
+| [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixSimilarityAfterCyclicShifts.java)                | 1ms     | 97.69% |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ModifyTheMatrix.java)                                  | 1ms     | 100%   |
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrimeInDiagonal.java)                                  | 10ms    | 26.91% |
