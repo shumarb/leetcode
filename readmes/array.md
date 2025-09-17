@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 473/1976.
+Completed: 474/1976.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 473/1976.
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OrderedStream.java)                                          | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestinationCity.java)                                        | 2ms     | 100%   |
 | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)             | 0ms     | 100%   |
+| [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineWhetherMatrixCanBeObtainedByRotation.java)          | 0ms     | 100%   |
 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineIfTwoEventsHaveConflict.java)                       | 0ms     | 100%   |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineTheWinnerOfABowlingGame.java)                       | 1ms     | 100%   |
 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)        | 2ms     | 98.35% |
