@@ -2,12 +2,10 @@
 
 class JumpGame {
     public boolean canJump(int[] nums) {
+        int len = nums.length;
         int maximumIndex = 0;
-        for (int i = 0; i < nums.length; i++) {
-            /**
-                 1.  Current index can't be reached
-                     and current index is not last element.
-             */
+
+        for (int i = 0; i < len; i++) {
             if (i > maximumIndex) {
                 return false;
             }
