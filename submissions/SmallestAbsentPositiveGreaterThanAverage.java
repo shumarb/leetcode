@@ -2,23 +2,24 @@
 
 class SmallestAbsentPositiveGreaterThanAverage {
     public int smallestAbsent(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isPresent = new boolean[102];
         boolean isTest = false;
         int average = 0;
-        int smallest = 1;
+        int smallest;
 
         for (int number: nums) {
             if (number > 0) {
-                set.add(number);
+                isPresent[number] = true;
             }
             average += number;
         }
         average /= nums.length;
         smallest = Math.max(average, 0) + 1;
         if (isTest) {
-            System.out.println("set: " + set + "\naverage: " + average + "\ninitial smallest: " + smallest);
+            System.out.println("\naverage: " + average + "\ninitial smallest: " + smallest);
         }
-        while (set.contains(smallest)) {
+
+        while (isPresent[smallest]) {
             smallest++;
         }
         if (isTest) {
