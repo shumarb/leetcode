@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 149/607.
+Completed: 150/607.
 
 ## Submissions
 ### Easy
@@ -150,6 +150,7 @@ Completed: 149/607.
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                | 9ms     | 100%   |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                              | 0ms     | 100%   |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                | 2ms     | 98.50% |
+| [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsWithOnly1s.java)                        | 4ms     | 88.42% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                         | 3ms     | 95.56% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                               | 0ms     | 100%   |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                    | 2490ms  | 5.01%  |
