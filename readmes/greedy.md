@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/430.
+Completed: 62/430.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 61/430.
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)           | 2ms     | 98.90% |
 | [Partition Array Into Three Equal Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayIntoThreePartsWithEqualSum.java)         | 1ms     | 100%   |
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)            | 2ms     | 72.81% |
+| [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitWithMinimumSum.java)                              | 0ms     | 100%   |
 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                    | 0ms     | 100%   |
 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoFurthestHousesWithDifferentColors.java)             | 2ms     | 50.45% |
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindromeTwo.java)                               | 4ms     | 99.71% |

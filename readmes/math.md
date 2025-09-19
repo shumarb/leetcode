@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 150/607.
+Completed: 151/607.
 
 ## Submissions
 ### Easy
@@ -109,6 +109,7 @@ Completed: 150/607.
 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestEvenMultiple.java)                                   | 0ms     | 100%   |
 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestIndexWithDigitSumEqualToIndex.java)                  | 1ms     | 99.99% |
 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestNumberWithAllSetBits.java)                           | 1ms     | 30.35% |
+| [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitWithMinimumSum.java)                                    | 0ms     | 100%   |
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SqrtX.java)                                                  | 1ms     | 86%    |
 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StoneRemovalGame.java)                                       | 0ms     | 100%   |
 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubtractTheProductAndSumOfDigitsOfAnInteger.java)            | 0ms     | 100%   |
