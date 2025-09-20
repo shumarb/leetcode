@@ -17,22 +17,20 @@ class SplitWithMinimumSum {
             System.out.println("num: " + num + "\nfrequency: " + Arrays.toString(frequency));
         }
         for (int i = 0; i <= 9; i++) {
-            while (frequency[i] > 0) {
+            while (frequency[i]-- > 0) {
                 if (isNum1) {
                     num1 *= 10;
                     num1 += i;
-                    frequency[i]--;
                     isNum1 = false;
                 } else {
                     num2 *= 10;
                     num2 += i;
-                    frequency[i]--;
                     isNum1 = true;
                 }
             }
         }
         if (isTest) {
-            System.out.println("num1: " + num1 + "\nnum2: " + num2 + "\nsum: " + (num1 + num2));
+            System.out.println("num1: " + num1 + "\nnum2: " + num2 + "\nminimum sum: " + (num1 + num2));
         }
 
         return num1 + num2;
