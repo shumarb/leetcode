@@ -2,29 +2,22 @@
 
 class AlternatingDigitSum {
     public int alternateDigitSum(int n) {
-        Stack<Integer> digits = new Stack<> ();
-        int sum = 0;
         int count = 0;
-        boolean t = false;
+        int nCopy = n;
+        int sum = 0;
 
-        while (n > 0) {
-            digits.push(n % 10);
+        while (nCopy > 0) {
+            count++;
+            nCopy /= 10;
+        }
+        for (int i = count; i >= 0; i--) {
+            int digit = n % 10;
+            if (i % 2 == 1) {
+                sum += digit;
+            } else {
+                sum -= digit;
+            }
             n /= 10;
-        }
-        if (t) {
-            System.out.println("digits: " + digits);
-        }
-
-        while (!digits.isEmpty()) {
-            int digit = digits.pop();
-            count += 1;
-            if (t) {
-                System.out.println("digit: " + digit + " | count: " + count);
-            }
-            if (count % 2 == 0) {
-                digit *= -1;
-            }
-            sum += digit;
         }
 
         return sum;
