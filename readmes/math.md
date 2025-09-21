@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 152/607.
+Completed: 153/607.
 
 ## Submissions
 ### Easy
@@ -77,6 +77,7 @@ Completed: 152/607.
 | [Harshad Number](https://leetcode.com/problems/harshad-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HarshadNumber.java)                                          | 0ms     | 100%   |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                                | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                      | 1ms     | 99.64% |
+| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                               | 38ms    | 6.78%  |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestTriangleArea.java)                                    | 4ms     | 99.15% |
 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixCellsInDistanceOrder.java)                             | 13ms    | 66.60% |
 | [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixSimilarityAfterCyclicShifts.java)                      | 1ms     | 97.69% |

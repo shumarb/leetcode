@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/430.
+Completed: 64/430.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 63/430.
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java)                      | 1ms     | 97.29% |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                | 1ms     | 99.64% |
+| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                         | 38ms    | 6.78%  |
 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LemonadeChange.java)                                   | 2ms     | 93.83% |
 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestPalindrome.java)              | 5ms     | 100%   |
 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestStringAfterASwap.java)        | 2ms     | 32.43% |

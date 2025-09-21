@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 475/1976.
+Completed: 476/1976.
 
 ## Submissions
 ### Easy
@@ -167,6 +167,7 @@ Completed: 475/1976.
 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthMissingPositiveNumber.java)                               | 2ms     | 11.57% |
 | [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestLocalValuesInAMatrix.java)                            | 2ms     | 100%   |
 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAtLeastTwiceOfOthers.java)                      | 0ms     | 100%   |
+| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                               | 38ms    | 6.78%  |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java)        | 6ms     | 61.28% |
 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestTriangleArea.java)                                    | 4ms     | 99.15% |
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastStoneWeight.java)                                        | 1ms     | 97.76% |
