@@ -9,14 +9,11 @@ class NumberOfSubstringsWithOnly1s {
         for (char c: s.toCharArray()) {
             if (c == '1') {
                 current++;
+                total = (total + current) % modulo;
             } else {
-                total += (current * (current + 1)) / 2;
-                total %= modulo;
                 current = 0;
             }
         }
-        total += (current * (current + 1)) / 2;
-        total %= modulo;
 
         return (int) total;
     }
