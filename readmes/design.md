@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/128.
+Completed: 24/128.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 23/128.
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                         | 153ms   | 42.29% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                 | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                        | 25ms    | 98.76% |
+| [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                               | 10ms    | 97.30% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                             | 4ms     | 97.18% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                     | 2490ms  | 5.01%  |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)           | 10ms    | 39.11% |
