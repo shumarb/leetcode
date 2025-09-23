@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 132/467.
+Completed: 133/467.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 132/467.
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubsequenceOfLengthKWithTheLargestSum.java)            | 8ms     | 62.37% |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTargetIndicesAfterSortingArray.java)                   | 0ms     | 100%   |
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifference.java)                                    | 1ms     | 99.40% |
+| [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistanceValueBetweenTwoArrays.java)                 | 4ms     | 59.73% |
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Finding3DigitEvenNumber.java)                              | 3ms     | 94.61% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                        | 7ms     | 65.30% |
 | [Height Checker](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HeightChecker.java)                                        | 2ms     | 88.86% |

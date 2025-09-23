@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/223.
+Completed: 76/223.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 75/223.
 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstPalindromicStringInTheArray.java)            | 1ms     | 100%   |
 | [Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIndicesWithIndexAndValueDifferenceOne.java)       | 1ms     | 99.01% |
 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheArrayConcatenationValue.java)                  | 1ms     | 96.03% |
+| [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistanceValueBetweenTwoArrays.java)            | 4ms     | 59.73% |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheIndexOfTheFirstOccurrenceInAString.java)       | 0ms     | 100%   |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                 | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HappyNumber.java)                                     | 0ms     | 100%   |

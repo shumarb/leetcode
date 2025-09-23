@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/317.
+Completed: 49/317.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 48/317.
 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                   | 3ms     | 99.76% |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSmallestLetterGreaterThanTarget.java)             | 0ms     | 100%   |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTargetIndicesAfterSortingArray.java)              | 0ms     | 100%   |
+| [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistanceValueBetweenTwoArrays.java)            | 4ms     | 59.73% |
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)                                 | 24ms    | 98.13% |
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java)                            | 1ms     | 100%   |
 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GuessNumberHigherOrLower.java)                        | 0ms     | 100%   |

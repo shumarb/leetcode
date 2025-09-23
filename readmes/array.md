@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 476/1976.
+Completed: 477/1976.
 
 ## Submissions
 ### Easy
@@ -135,6 +135,7 @@ Completed: 476/1976.
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfDigitGameCanBeWon.java)                                | 0ms     | 100%   |
 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheArrayConcatenationValue.java)                         | 1ms     | 96.03% |
 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifferenceOfTwoArrays.java)                           | 2ms     | 99.85% |
+| [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistanceValueBetweenTwoArrays.java)                   | 4ms     | 59.73% |
 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDistinctDifferenceArray.java)                         | 5ms     | 93.20% |
 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheHighestAltitude.java)                                 | 0ms     | 100%   |
 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheIntegerAddedToArrayOne.java)                          | 0ms     | 100%   |
