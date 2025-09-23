@@ -21,6 +21,6 @@ Completed: 4/88.
 ### Medium
 | Question                                                                                                          | Submission                                                                                            | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)     | 30ms    | 73.18% |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)     | 15ms    | 99.53% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)              | 1ms     | 88.40% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java) | 47ms    | 87.43% |

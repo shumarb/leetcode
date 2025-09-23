@@ -2,41 +2,27 @@
 
 class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        int len = nums.length;
-        int longestConsecutive = 0;
-
-        // 1. Edge case: number of elements <= 1.
-        if (len <= 1) {
-            return len;
+        // 1. Empty array.
+        if (nums.length == 0) {
+            return 0;
         }
 
-        /**
-         2.  Populate set with elements,
-             and iterate set by checking for a number that is the start of a sequence.
-             While its increment is in the set, increase length of current sequence,
-             else compare length of longest consecutive elements with length of current sequence.
-             and update former accordingly.
+        int current = 1;
+        int longest = 1;
 
-             Iterate set to avoid redundant iterations.
-             Example: [1 2 3 4 5] --> sequence: 1 2 3 4 5
-             Iterating over set ensures only 1 2 3 4 5 check, but iteration over array
-             results in 1 2 3 4 5, 2 3 4 5, ... being checked, which are unnecessary.
-         */
-        for (int number: nums) {
-            set.add(number);
-        }
-        for (int number: set) {
-            if (!set.contains(number - 1)) {
-                int currentConsecutive = 1;
-                while (set.contains(number + 1)) {
-                    currentConsecutive++;
-                    number++;
-                }
-                longestConsecutive = Math.max(currentConsecutive, longestConsecutive);
+        Arrays.sort(nums);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) {
+                continue;
+            }
+            if (nums[i] - nums[i - 1] == 1) {
+                current++;
+            } else {
+                longest = Math.max(current, longest);
+                current = 1;
             }
         }
 
-        return longestConsecutive;
+        return Math.max(current, longest);
     }
 }
