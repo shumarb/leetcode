@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/223.
+Completed: 77/224.
 
 ## Submissions
 ### Easy
@@ -75,6 +75,7 @@ Completed: 76/223.
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                | 11ms    | 98.01% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)               | 5ms     | 74.40% |
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteTheMiddleNodeOfALinkedList.java)     | 3ms     | 99.75% |
+| [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)   | 6ms     | 96.02% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                 | 4ms     | 96.68% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)               | 4ms     | 88.75% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)              | 344ms   | 44.26% |
