@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/434.
+Completed: 66/434.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 65/434.
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                  | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)           | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)           | 7ms     | 100%   |
+| [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                | 56ms    | 86.73% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                | 11ms    | 99.39% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                  | 63ms    | 27.26% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                         | 2ms     | 84.17% |

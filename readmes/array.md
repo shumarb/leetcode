@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 479/1986.
+Completed: 480/1986.
 
 ## Submissions
 ### Easy
@@ -382,6 +382,7 @@ Completed: 479/1986.
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                                        | 5ms     | 88.83% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68% |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                                 | 0ms     | 100%   |
+| [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                               | 56ms    | 86.73% |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                                 | 0ms     | 100%   |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                                  | 44ms    | 93.03% |
 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                                      | 48ms    | 29.56% |

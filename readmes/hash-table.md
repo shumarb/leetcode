@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 229/723.
+Completed: 230/723.
 
 ## Submissions
 ### Easy
@@ -195,6 +195,7 @@ Completed: 229/723.
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                                   | 5ms     | 94.05% |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                               | 12ms    | 99.88% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)               | 35ms    | 27.51% |
+| [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                            | 56ms    | 86.73% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                               | 44ms    | 93.03% |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                       | 0ms     | 100%   |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                                    | 143ms   | 51.44% |
