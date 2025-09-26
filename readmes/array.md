@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 480/1986.
+Completed: 481/1986.
 
 ## Submissions
 ### Easy
@@ -192,6 +192,7 @@ Completed: 480/1986.
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnes.java)                                     | 2ms     | 93.86% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxPairSumInAnArray.java)                                    | 3ms     | 93.95% |
 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfArrayAfterKNegations.java)                      | 1ms     | 100%   |
+| [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfAtMostKDistinctElements.java)                         | 7ms     | 69.64% |
 | [Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAreaOfLongestDiagonalRectangle.java)                  | 1ms     | 91.72% |
 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/description)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAscendingSubarraySum.java)                            | 0ms     | 100%   |
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAverageSubarrayOne.java)                              | 5ms     | 51.11% |

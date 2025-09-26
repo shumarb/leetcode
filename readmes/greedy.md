@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/434.
+Completed: 67/434.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 66/434.
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)       | 1ms     | 92.54% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfArrayAfterKNegations.java)                | 1ms     | 100%   |
+| [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfAtMostKDistinctElements.java)             | 7ms     | 69.64% |
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Maximum69Number.java)                                  | 0ms     | 100%   |
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumOddBinaryNumber.java)                           | 1ms     | 100%   |
 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithExactlyKElements.java)                   | 1ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 230/723.
+Completed: 231/723.
 
 ## Submissions
 ### Easy
@@ -103,6 +103,7 @@ Completed: 230/723.
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)                 | 0ms     | 100%   |
 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeTwoArraysEqualByReversingSubarray.java)                  | 1ms     | 99.44% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxPairSumInAnArray.java)                                    | 3ms     | 93.95% |
+| [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfAtMostKDistinctElements.java)                   | 7ms     | 69.64% |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)         | 1ms     | 100%   |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthSubstringWithTwoOccurrences.java)               | 38ms    | 5.28%  |
 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfBalloons.java)                                | 2ms     | 92.98% |
