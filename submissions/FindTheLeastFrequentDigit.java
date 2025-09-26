@@ -4,7 +4,7 @@ class FindTheLeastFrequentDigit {
     public int getLeastFrequentDigit(int n) {
         boolean isTest = false;
         int[] frequency = new int[10];
-        int maximumFrequency = Integer.MAX_VALUE;
+        int minimumFrequency = Integer.MAX_VALUE;
         int nCopy = n;
         int smallest = -1;
 
@@ -13,17 +13,15 @@ class FindTheLeastFrequentDigit {
             nCopy /= 10;
         }
         for (int i = 0; i <= 9; i++) {
-            if (frequency[i] == 0) {
-                continue;
-            }
-            if (frequency[i] < maximumFrequency) {
-                maximumFrequency = frequency[i];
+            int count = frequency[i];
+            if (count > 0 && count < minimumFrequency) {
+                minimumFrequency = count;
                 smallest = i;
             }
         }
         if (isTest) {
             System.out.println("n: " + n + "\nfrequency: " + Arrays.toString(frequency));
-            System.out.println("maximumFrequency: " + maximumFrequency + "\nsmallest: " + smallest);
+            System.out.println("minimumFrequency: " + minimumFrequency + "\nsmallest: " + smallest);
         }
 
         return smallest;
