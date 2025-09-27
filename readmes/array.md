@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 482/2010.
+Completed: 483/2010.
 
 ## Submissions
 ### Easy
@@ -232,6 +232,7 @@ Completed: 482/2010.
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfMovesToSeatEveryone.java)                     | 1ms     | 100%   |
 | [Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java) | 1ms     | 95.72% |
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToCollectElements.java)                     | 1ms     | 99.04% |
+| [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java)                       | 8ms     | 1.17%  |
 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueOne.java)             | 0ms     | 100%   |
 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-perations-to-make-array-sum-divisible-by-k/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeArraySumDivisibleByK.java)            | 1ms     | 92.04% |
 | [Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeArrayValuesEqualToK.java)             | 1ms     | 100%   |
