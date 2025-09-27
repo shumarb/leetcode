@@ -14,9 +14,9 @@ Completed: 2/20.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                | Submission                                                                                              | Runtime | Rank  |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|-------|
-| [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java) | 8ms     | 1.17% |
+| Question                                                                                                                | Submission                                                                                              | Runtime | Rank |
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|------|
+| [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java) | 0ms     | 100% |
 
 ### Medium
 | Question                                                                                                                | Submission                                                                                              | Runtime | Rank  |
