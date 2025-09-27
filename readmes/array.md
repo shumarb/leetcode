@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 481/1986.
+Completed: 482/2010.
 
 ## Submissions
 ### Easy
@@ -278,6 +278,7 @@ Completed: 481/1986.
 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveOneElementToMakeTheArrayStrictlyIncreasing.java)       | 76ms    | 5.17%  |
 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsWithGreatestElementOnRightSide.java)          | 3ms     | 58.23% |
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                       | 0ms     | 100%   |
+| [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RestoreFinishingOrder.java)                                  | 3ms     | 26.01% |
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RichestCustomerWealth.java)                                  | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RowWithMaximumOnes.java)                                     | 1ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                                    | 0ms     | 100%   |

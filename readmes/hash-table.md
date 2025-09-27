@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 231/723.
+Completed: 232/734.
 
 ## Submissions
 ### Easy
@@ -145,6 +145,7 @@ Completed: 231/723.
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)            | 2ms     | 94.26% |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeSortArray.java)                                      | 0ms     | 100%   |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                        | 1ms     | 49.79% |
+| [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RestoreFinishingOrder.java)                                  | 3ms     | 26.01% |
 | [Rings and Rods](https://leetcode.com/problems/rings-and-rods/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RingsAndRods.java)                                           | 0ms     | 100%   |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                            | 0ms     | 100%   |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                            | 2ms     | 95.73% |
