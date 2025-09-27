@@ -3,9 +3,9 @@
 class DividePlayersIntoTeamsOfEqualSkill {
     public long dividePlayers(int[] skill) {
         boolean isTest = false;
+        int chemistry;
         int left = 0;
         int right = skill.length - 1;
-        long chemistry;
         long sumChemistry = 0;
 
         skill = sort(skill);
@@ -16,8 +16,8 @@ class DividePlayersIntoTeamsOfEqualSkill {
         }
 
         while (left < right) {
-            long leftPlayer = (long) skill[left++];
-            long rightPlayer = (long) skill[right--];
+            int leftPlayer = skill[left++];
+            int rightPlayer = skill[right--];
             if (isTest) {
                 System.out.println(" * leftPlayer: " + leftPlayer + "\n * rightPlayer: " + rightPlayer);
                 System.out.println(" ** team chemistry: " + (leftPlayer + rightPlayer));
