@@ -9,7 +9,6 @@ class KDiffPairsInAnArra {
         for (int e: nums) {
             map.put(e, 1 + map.getOrDefault(e, 0));
         }
-
         for (int key: map.keySet()) {
             if (k == 0) {
                 // 1. Count elements appearing more than once.
