@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/187.
+Completed: 85/190.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 84/187.
 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AvailableCapturesForRook.java)                         | 0ms     | 100%   |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                           | 1ms     | 78.15% |
 | [Baseball Game](https://leetcode.com/problems/baseball-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BaseballGame.java)                                     | 2ms     | 96.48% |
+| [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/bitwise-or-of-even-numbers-in-an-array.java)           | 0ms     | 100%   |
 | [Build Array from Permutation](https://leetcode.com/problems/baseball-game/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildArrayFromPermutation.java)                        | 1ms     | 99.07% |
 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateAmountPaidInTaxes.java)                       | 0ms     | 100%   |
 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateDigitSumOfAString.java)                       | 1ms     | 92.62% |

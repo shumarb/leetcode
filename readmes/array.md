@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 483/2010.
+Completed: 484/2010.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 483/2010.
 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestPokerHand.java)                                          | 0ms     | 100%   |
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java)                              | 2ms     | 72.40% |
 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryPrefixDivisibleBy5.java)                               | 3ms     | 98.17% |
+| [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/bitwise-or-of-even-numbers-in-an-array.java)                 | 0ms     | 100%   |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)                                           | 0ms     | 100%   |
 | [Build Array from Permutation](https://leetcode.com/problems/baseball-game/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildArrayFromPermutation.java)                              | 1ms     | 99.07% |
 | [Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/ButtonWithLongestPushTime.java)                  | 0ms     | 100%   |

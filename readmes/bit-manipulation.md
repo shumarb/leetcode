@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/257.
+Completed: 57/257.
 
 ## Submissions
 ### Easy
@@ -20,6 +20,7 @@ Completed: 56/257.
 | [Binary Gap](https://leetcode.com/problems/binary-gap/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryGap.java)                                  | 1ms     | 40.09% |
 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryNumberWithAlternatingBits.java)            | 0ms     | 100%   |
 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryPrefixDivisibleBy5.java)                   | 3ms     | 98.17% |
+| [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/bitwise-or-of-even-numbers-in-an-array.java)     | 0ms     | 100%   |
 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfBitwiseOrHasTrailingZeros.java)           | 0ms     | 100%   |
 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComplementOfBase10Integer.java)                  | 0ms     | 100%   |
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                     | 0ms     | 100%   |
