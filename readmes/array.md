@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 484/2010.
+Completed: 485/2010.
 
 ## Submissions
 ### Easy
@@ -129,6 +129,7 @@ Completed: 484/2010.
 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubarraysWithEqualSum.java)                              | 1ms     | 99.86% |
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubsequenceOfLengthKWithTheLargestSum.java)              | 8ms     | 62.37% |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTargetIndicesAfterSortingArray.java)                     | 0ms     | 100%   |
+| [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLeastFrequentDigit.java)                              | 1ms     | 97.93% |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWinnerOnATicTacToeGame.java)                             | 0ms     | 100%   |
 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsContainingCharacter.java)                           | 1ms     | 100%   |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsThatCanBeFormedByCharacters.java)                   | 5ms     | 87.08% |

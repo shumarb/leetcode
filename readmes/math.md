@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 154/618.
+Completed: 155/618.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 154/618.
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNUniqueIntegersSumUpToZero.java)                         | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNumbersWithEvenNumberOfDigits.java)                      | 1ms     | 98.93% |
+| [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLeastFrequentDigit.java)                              | 1ms     | 97.93% |
 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfDigitGameCanBeWon.java)                                | 0ms     | 100%   |
 | [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheChildWhoHasTheBallAfterKSeconds.java)                 | 0ms     | 100%   |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                                | 1ms     | 40.75% |

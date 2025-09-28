@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/168.
+Completed: 76/174.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 75/168.
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                          | 1ms     | 99.99% |
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLuckyIntegerInAnArray.java)                          | 1ms     | 100%   |
 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMostFrequentVowelAndConsonant.java)                  | 1ms     | 100%   |
+| [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLeastFrequentDigit.java)                          | 1ms     | 97.93% |
 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindValidPairOfAdjacentDigitsInString.java)              | 2ms     | 88.14% |
 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWordsThatCanBeFormedByCharacters.java)               | 5ms     | 87.08% |
 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfWinningPlayers.java)                      | 1ms     | 100%   |
