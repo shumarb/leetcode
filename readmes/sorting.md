@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 136/469.
+Completed: 137/473.
 
 ## Submissions
 ### Easy
@@ -116,6 +116,7 @@ Completed: 136/469.
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertionSortList.java)                              | 28ms    | 8.25%  |
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                            | 77ms    | 16.45% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                         | 30ms    | 63.52% |
+| [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                            | 11ms    | 59.51% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                        | 344ms   | 44.26% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                     | 3ms     | 98.86% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                     | 45ms    | 83.54% |

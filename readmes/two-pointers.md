@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/224.
+Completed: 78/226.
 
 ## Submissions
 ### Easy
@@ -78,6 +78,7 @@ Completed: 77/224.
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)   | 5ms     | 96.36% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                 | 4ms     | 96.68% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)               | 4ms     | 88.75% |
+| [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                  | 11ms    | 59.51% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)              | 344ms   | 44.26% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)          | 594ms   | 14.03% |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                   | 0ms     | 100%   |

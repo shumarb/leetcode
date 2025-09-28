@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 233/734.
+Completed: 234/734.
 
 ## Submissions
 ### Easy
@@ -208,6 +208,7 @@ Completed: 233/734.
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                         | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                | 25ms    | 98.76% |
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                          | 77ms    | 16.45% |
+| [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                                          | 11ms    | 59.51% |
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                                     | 10ms    | 80.47% |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                    | 38ms    | 93.18% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
