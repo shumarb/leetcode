@@ -18,6 +18,7 @@ class KDiffPairsInAnArra {
                     }
                     count++;
                 }
+
             } else {
                 if (map.containsKey(key + k)) {
                     if (isTest) {
@@ -31,6 +32,7 @@ class KDiffPairsInAnArra {
             System.out.println("------------------------------------------");
             System.out.println("map: " + map + "\ncount: " + count);
         }
+
         return count;
     }
 }
