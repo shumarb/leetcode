@@ -2,42 +2,35 @@
 
 class ReformatPhoneNumber {
     public String reformatNumber(String number) {
-        Queue<Character> digits = new LinkedList<>();
+        String digits;
+        StringBuilder digitsSb = new StringBuilder();
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
+        int i = 0;
+        int n;
 
         for (char c: number.toCharArray()) {
             if (Character.isDigit(c)) {
-                digits.offer(c);
+                digitsSb.append(c);
             }
         }
         if (isTest) {
-            System.out.println("before, digits: " + digits);
+            System.out.println("digitsSb: " + digitsSb);
         }
 
-        while (digits.size() > 4) {
-            for (int i = 0; i < 3; i++) {
-                result.append(digits.poll());
-            }
-            result.append('-');
+        digits = digitsSb.toString();
+        n = digits.length();
+        while (n - i > 4) {
+            result.append(digits, i, i + 3).append('-');
+            i += 3;
         }
-
-        if (digits.size() <= 3) {
-            while (!digits.isEmpty()) {
-                result.append(digits.poll());
-            }
+        if (n - i == 4) {
+            result.append(digits, i, i + 2).append('-').append(digits, i + 2, i + 4);
         } else {
-            for (int i = 0; i < 2; i++) {
-                result.append(digits.poll());
-            }
-            result.append('-');
-            for (int i = 0; i < 2; i++) {
-                result.append(digits.poll());
-            }
+            result.append(digits, i, n);
         }
         if (isTest) {
-            System.out.println("after, digits: " + digits);
-            System.out.println("---------------------------------------\nresult: " + result.toString());
+            System.out.println("--------------------------------\nresult: " + result.toString());
         }
 
         return result.toString();
