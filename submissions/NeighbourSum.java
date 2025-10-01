@@ -1,48 +1,52 @@
 // Question: https://leetcode.com/problems/design-neighbor-sum-service/description/
 
 class NeighborSum {
-    private Map<Integer, int[]> map;
     private boolean isTest;
     private int[][] grid;
+    private int[] xCoordinate;
+    private int[] yCoordinate;
 
     public NeighborSum(int[][] grid) {
         isTest = false;
-        map = new HashMap<>();
         this.grid = grid;
-        populateMap();
+        populate();
     }
 
-    private void populateMap() {
+    private void populate() {
+        int largest = Integer.MIN_VALUE;
         int n = grid.length;
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                map.put(grid[i][j], new int[] {i, j});
+                largest = Math.max(largest, grid[i][j]);
+            }
+        }
+        xCoordinate = new int[largest + 1];
+        yCoordinate = new int[largest + 1];
+        Arrays.fill(xCoordinate, -1);
+        Arrays.fill(yCoordinate, -1);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int element = grid[i][j];
+                xCoordinate[element] = i;
+                yCoordinate[element] = j;
             }
         }
         if (isTest) {
-            System.out.println("map:");
-            for (Map.Entry<Integer, int[]> e: map.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + Arrays.toString(e.getValue()));
-            }
+            System.out.println("xCoordinate: " + Arrays.toString(xCoordinate));
+            System.out.println("yCoordinate: " + Arrays.toString(yCoordinate));
         }
     }
 
     public int adjacentSum(int value) {
-        if (!map.containsKey(value)) {
+        if (xCoordinate[value] == -1 || yCoordinate[value] == -1) {
             return 0;
         }
 
-        int[] coordinate = map.get(value);
         int n = grid.length;
-        int c = coordinate[1];
-        int r = coordinate[0];
+        int c = yCoordinate[value];
+        int r = xCoordinate[value];
         int sum = 0;
-
-        if (isTest) {
-            System.out.println("-----------------------------------------------------\nadjacentSum:");
-            System.out.println(" * value: " + value + " -> coordinate: " + Arrays.toString(coordinate));
-        }
 
         if (r - 1 >= 0) {
             sum += grid[r - 1][c];
@@ -64,20 +68,14 @@ class NeighborSum {
     }
 
     public int diagonalSum(int value) {
-        if (!map.containsKey(value)) {
+        if (xCoordinate[value] == -1 || yCoordinate[value] == -1) {
             return 0;
         }
 
-        int[] coordinate = map.get(value);
         int n = grid.length;
-        int c = coordinate[1];
-        int r = coordinate[0];
+        int c = yCoordinate[value];
+        int r = xCoordinate[value];
         int sum = 0;
-
-        if (isTest) {
-            System.out.println("-----------------------------------------------------\ndiagonalSum:");
-            System.out.println(" * value: " + value + " -> coordinate: " + Arrays.toString(coordinate));
-        }
 
         if (r - 1 >= 0 && c - 1 >= 0) {
             sum += grid[r - 1][c - 1];
