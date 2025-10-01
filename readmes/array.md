@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 488/2010.
+Completed: 489/2010.
 
 ## Submissions
 ### Easy
@@ -91,6 +91,7 @@ Completed: 488/2010.
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                           | 4ms     | 91.17% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashMap.java)                                              | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashSet.java)                                              | 12ms    | 97.83% |
+| [Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignNeighbourSumService.java)                              | 18ms    | 41.53% |
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OrderedStream.java)                                          | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestinationCity.java)                                        | 2ms     | 100%   |
 | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)             | 0ms     | 100%   |

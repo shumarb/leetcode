@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/263.
+Completed: 45/265.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 44/263.
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                        | 2ms     | 100%   |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNegativeNumbersInASortedMatrix.java)              | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
+| [Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignNeighbourSumService.java)                        | 18ms    | 41.53% |
 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineWhetherMatrixCanBeObtainedByRotation.java)    | 0ms     | 100%   |
 | [Fill Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FillSquareSubmatrixVertically.java)                    | 1ms     | 58.12% |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingAndRepeatedValues.java)                     | 1ms     | 100%   |

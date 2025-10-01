@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 85/190.
+Completed: 86/190.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 85/190.
 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfMatchesInTournament.java)                       | 0ms     | 100%   |
 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateTargetArrayInTheGivenOrder.java)                 | 0ms     | 100%   |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                     | 4ms     | 91.17% |
+| [Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignNeighbourSumService.java)                        | 18ms    | 41.53% |
 | [Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineTheWinnerOfABowlingGame.java)                 | 1ms     | 100%   |
 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesToPeople.java)                        | 1ms     | 97.73% |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)               | 1ms     | 100%   |

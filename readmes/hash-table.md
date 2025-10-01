@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 235/734.
+Completed: 236/734.
 
 ## Submissions
 ### Easy
@@ -48,6 +48,7 @@ Completed: 235/734.
 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DegreeOfAnArray.java)                                        | 5ms     | 95.49% |
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashMap.java)                                              | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashSet.java)                                              | 12ms    | 97.83% |
+| [Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignNeighbourSumService.java)                              | 18ms    | 41.53% |
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OrderedStream.java)                                          | 76ms    | 99.56% |
 | [Destination City](https://leetcode.com/problems/destination-city/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestinationCity.java)                                        | 2ms     | 100%   |
 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandies.java)                                      | 31ms    | 55.24% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 24/128.
+Completed: 25/128.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 24/128.
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashMap.java)                 | 32ms    | 39.02% |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyHashSet.java)                 | 12ms    | 97.83% |
+| [Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DesignNeighbourSumService.java) | 18ms    | 41.53% |
 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OrderedStream.java)             | 76ms    | 99.56% |
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementQueueUsingStacks.java) | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementStackUsingQueues.java) | 0ms     | 100%   |
