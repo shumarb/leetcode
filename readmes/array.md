@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 487/2010.
+Completed: 488/2010.
 
 ## Submissions
 ### Easy
@@ -299,6 +299,7 @@ Completed: 487/2010.
 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SignOfTheProductOfAnArray.java)                              | 0ms     | 100%   |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                                           | 1ms     | 99.93% |
 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlowestKey.java)                                             | 1ms     | 99.66% |
+| [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestAbsentPositiveGreaterThanAverage.java)               | 2ms     | 100%   |
 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestIndexWithDigitSumEqualToIndex.java)                  | 1ms     | 99.99% |
 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestIndexWithEqualValue.java)                            | 0ms     | 100%   |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)   | 1ms     | 92.66% |

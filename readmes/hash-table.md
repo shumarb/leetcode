@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 234/734.
+Completed: 235/734.
 
 ## Submissions
 ### Easy
@@ -151,6 +151,7 @@ Completed: 234/734.
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                            | 0ms     | 100%   |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                            | 2ms     | 95.73% |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                 | 4ms     | 81.11% |
+| [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestAbsentPositiveGreaterThanAverage.java)               | 2ms     | 100%   |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)   | 1ms     | 92.66% |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByIncreasingFrequency.java)                         | 4ms     | 98.04% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                          | 4ms     | 97.69% |
