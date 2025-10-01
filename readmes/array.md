@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 489/2010.
+Completed: 490/2010.
 
 ## Submissions
 ### Easy
@@ -104,6 +104,7 @@ Completed: 489/2010.
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeElementsIntoTwoArraysOne.java)                     | 1ms     | 100%   |
 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoEqualPairs.java)                              | 1ms     | 99.99% |
 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DuplicateZeros.java)                                         | 3ms     | 44.61% |
+| [Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestTimeToFinishOneTask.java)                            | 0ms     | 100%   |
 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ElementAppearingMoreThan25PercentInSortedArray.java)         | 0ms     | 100%   |
 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                          | 3ms     | 99.76% |
 | [Fill Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FillSquareSubmatrixVertically.java)                          | 1ms     | 58.12% |
