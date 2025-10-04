@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 490/2010.
+Completed: 491/2010.
 
 ## Submissions
 ### Easy
@@ -275,6 +275,7 @@ Completed: 490/2010.
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                                                | 0ms     | 100%   |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)                            | 2ms     | 74.65% |
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrimeInDiagonal.java)                                        | 10ms    | 26.91% |
+| [Range Addition II](https://leetcode.com/problems/range-addition-ii/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeAdditionTw.java)                                        | 0ms     | 100%   |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumArray.java)                                               | 7ms     | 100%   |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTransformOfAnArray.java)                                 | 25ms    | 86.01% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeRanks.java)                                          | 9ms     | 61.66% |
