@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 491/2010.
+Completed: 492/2010.
 
 ## Submissions
 ### Easy
@@ -376,6 +376,7 @@ Completed: 491/2010.
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 8ms     | 34.76% |
+| [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                     | 369ms   | 5.52%  |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                                     | 5ms     | 91.76% |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                                | 7ms     | 25.66% |
 | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                                             | 16ms    | 99.60% |
