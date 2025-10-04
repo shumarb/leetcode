@@ -69,7 +69,7 @@ class FoodRatings {
             System.out.println("-------------------------------------------------");
         }
 
-        return !cuisineFood.containsKey(cuisine) ? null : cuisineFood.get(cuisine).first();
+        return cuisineFood.containsKey(cuisine) ? cuisineFood.get(cuisine).first() : null;
     }
 }
 

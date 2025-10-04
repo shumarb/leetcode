@@ -23,7 +23,7 @@ Completed: 5/71.
 ### Medium
 | Question                                                                                                                   | Submission                                                                                                                | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                        | 369ms   | 5.52%  |
+| [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                        | 364ms   | 5.78%  |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                | 16ms    | 33.15% |
 
 ### Hard
