@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 492/2010.
+Completed: 493/2010.
 
 ## Submissions
 ### Easy
@@ -375,6 +375,7 @@ Completed: 492/2010.
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 94ms    | 82.87% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
+| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                                                 | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 8ms     | 34.76% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                     | 337ms   | 7.16%  |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                                     | 5ms     | 91.76% |

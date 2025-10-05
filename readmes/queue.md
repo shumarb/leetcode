@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 8/50.
+Completed: 9/50.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 8/50.
 ### Medium
 | Question                                                                                                                                                                      | Submission                                                                                                                     | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                                         | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                    | 8ms     | 34.76% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 

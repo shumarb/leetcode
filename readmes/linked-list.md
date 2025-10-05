@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/81.
+Completed: 42/81.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 41/81.
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)         | 0ms     | 100%   |
 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodeInALinkedList.java)                     | 0ms     | 100%   |
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteTheMiddleNodeOfALinkedList.java)            | 3ms     | 99.75% |
+| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                             | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                        | 8ms     | 34.76% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyLinkedList.java)                                | 6ms     | 99.03% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)     | 4ms     | 95.87% |
