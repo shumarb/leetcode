@@ -5,12 +5,18 @@ class GoalParserInterpretation {
         StringBuilder result = new StringBuilder();
         int n = command.length();
 
-        for (int i = 0; i < n; i++) {
-            char c = command.charAt(i);
-            if (Character.isLetter(c)) {
-                result.append(c);
-            } else if (i + 1 < n && c == '(' && command.charAt(i + 1) == ')') {
+        for (int i = 0; i < n; ) {
+            if (command.charAt(i) == 'G') {
+                result.append('G');
+                i++;
+            } else if (command.startsWith("()", i)) {
                 result.append('o');
+                i += 2;
+            } else if (command.startsWith("(al)", i)) {
+                result.append("al");
+                i += 4;
+            } else {
+                i++;
             }
         }
 
