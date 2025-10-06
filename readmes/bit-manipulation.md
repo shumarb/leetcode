@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/257.
+Completed: 58/257.
 
 ## Submissions
 ### Easy
@@ -69,6 +69,7 @@ Completed: 57/257.
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java)             | 138ms   | 67.85% |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                                       | 4ms     | 5.52%  |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                                  | 4ms     | 88.75% |
+| [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                     | 6ms     | 23.59% |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)               | 2ms     | 90.13% |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                   | 3ms     | 47.09% |
 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                             | 242ms   | 19.79% |

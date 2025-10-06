@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 494/2010.
+Completed: 495/2010.
 
 ## Submissions
 ### Easy
@@ -407,6 +407,7 @@ Completed: 494/2010.
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                                    | 196ms   | 78.19% |
 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysOne.java)                                 | 1ms     | 100%   |
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 100%   |
+| [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                             | 6ms     | 23.59% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                    | 153ms   | 42.29% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 7ms     | 65.30% |

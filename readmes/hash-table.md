@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 237/734.
+Completed: 238/734.
 
 ## Submissions
 ### Easy
@@ -205,6 +205,7 @@ Completed: 237/734.
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                               | 44ms    | 93.03% |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                       | 0ms     | 100%   |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                                    | 143ms   | 51.44% |
+| [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                          | 6ms     | 23.59% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                 | 153ms   | 42.29% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 7ms     | 65.30% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                              | 63ms    | 27.26% |
