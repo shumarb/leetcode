@@ -2,32 +2,44 @@
 
 class CountVowelSubstringsOfAString {
     public int countVowelSubstrings(String word) {
-        Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
-        int countVowelSubstrings = 0;
-        int len = word.length();
-
-        if (len < 5) {
-            return countVowelSubstrings;
+        if (word.length() < 5) {
+            return 0;
         }
-        for (int i = 0; i < len; i++) {
+
+        boolean[] isVowel = new boolean[26];
+        int n = word.length();
+        int result = 0;
+
+        isVowel['a' - 'a'] = true;
+        isVowel['e' - 'a'] = true;
+        isVowel['i' - 'a'] = true;
+        isVowel['o' - 'a'] = true;
+        isVowel['u' - 'a'] = true;
+
+        for (int i = 0; i < n; i++) {
             if (!isVowel(word.charAt(i))) {
                 continue;
             }
 
-            Set<Character> seen = new HashSet<>();
-            for (int j = i; j < len; j++) {
+            boolean[] isSeen = new boolean[26];
+            int countSeen = 0;
+            for (int j = i; j < n; j++) {
                 char c = word.charAt(j);
                 if (!isVowel(c)) {
                     break;
                 }
-                seen.add(c);
-                if (seen.size() == 5) {
-                    countVowelSubstrings++;
+
+                if (!isSeen[c - 'a']) {
+                    countSeen++;
+                }
+                isSeen[c - 'a'] = true;
+                if (countSeen == 5) {
+                    result++;
                 }
             }
         }
 
-        return countVowelSubstrings;
+        return result;
     }
 
     private boolean isVowel(char c) {
