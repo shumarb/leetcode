@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 247/813.
+Completed: 248/816.
 
 ## Submissions
 ### Easy
@@ -136,6 +136,7 @@ Completed: 247/813.
 | [Most Common Word](https://leetcode.com/problems/most-common-word/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostCommonWord.java)                                               | 17ms    | 43.61% |
 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfChangingKeys.java)                                         | 1ms     | 100%   |
 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDifferentIntegersInAString.java)                           | 3ms     | 78.75% |
+| [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfLinesToWriteString.java)                                   | 1ms     | 35.61% |
 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSegmentsInAString.java)                                    | 1ms     | 44.98% |
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSeniorCitizens.java)                                       | 0ms     | 100%   |
 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/strings-that-appear-as-substrings-in-word/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStringsThatAppearAsSubstringsInWord.java)                  | 0ms     | 100%   |

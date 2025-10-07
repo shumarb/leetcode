@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 495/2010.
+Completed: 496/2015.
 
 ## Submissions
 ### Easy
@@ -263,6 +263,7 @@ Completed: 495/2010.
 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEmployeesWhoMetTheTarget.java)                       | 0ms     | 100%   |
 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEquivalentDominoPairs.java)                          | 3ms     | 82.93% |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodPairs.java)                                      | 0ms     | 100%   |
+| [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfLinesToWriteString.java)                             | 1ms     | 35.61% |
 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSeniorCitizens.java)                                 | 0ms     | 100%   |
 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/strings-that-appear-as-substrings-in-word/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStringsThatAppearAsSubstringsInWord.java)            | 0ms     | 100%   |
 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsDoingHomeworkAtAGivenTime.java)              | 0ms     | 100%   |
