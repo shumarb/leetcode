@@ -40,8 +40,7 @@ class FrequencyTracker {
             display("before");
         }
         if (numbers[number] > 0) {
-            int previous = numbers[number];
-            numbers[number]--;
+            int previous = numbers[number]--;
             frequencies[previous]--;
             frequencies[previous - 1]++;
         }
