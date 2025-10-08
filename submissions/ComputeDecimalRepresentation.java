@@ -2,28 +2,32 @@
 
 class ComputeDecimalRepresentation {
     public int[] decimalRepresentation(int n) {
-        List<Integer> list = new ArrayList<>();
         boolean isTest = false;
-        int power = 0;
         int[] result;
+        int count = 0;
+        int i;
+        int nCopy = n;
+        int power = 0;
 
+        while (nCopy > 0) {
+            if (nCopy % 10 > 0) {
+                count++;
+            }
+            nCopy /= 10;
+        }
+
+        result = new int[count];
+        i = count - 1;
         while (n > 0) {
             int digit = n % 10;
-            int number = digit * (int) Math.pow(10.0, power++);
-            if (isTest) {
-                System.out.println("digit: " + digit + " -> number: " + number);
-            }
-            if (number > 0) {
-                list.add(0, number);
+            int number = (int) Math.pow(10, power++) * digit;
+            if (i >= 0 && number != 0) {
+                result[i--] = number;
             }
             n /= 10;
         }
-        result = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
-        }
         if (isTest) {
-            System.out.println("list: " + list + "\nresult: " + Arrays.toString(result));
+            System.out.println("count: " + count + "\nresult: " + Arrays.toString(result));
         }
 
         return result;
