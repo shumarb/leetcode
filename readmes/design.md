@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/128.
+Completed: 31/128.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 30/128.
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                               | 10ms    | 97.30% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                             | 4ms     | 97.18% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                     | 2490ms  | 5.01%  |
+| [Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeatReservationManager.java)               | 91ms    | 35.34% |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)           | 10ms    | 39.11% |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                 | 95ms    | 96.22% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                  | 16ms    | 33.15% |

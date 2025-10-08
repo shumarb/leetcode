@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/202.
+Completed: 44/202.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 43/202.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                 | 3ms     | 65.10% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                               | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                          | 38ms    | 36.75% |
+| [Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeatReservationManager.java)                           | 91ms    | 35.34% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                              | 16ms    | 33.15% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                        | 8ms     | 87.71% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                      | 5ms     | 97.68% |
