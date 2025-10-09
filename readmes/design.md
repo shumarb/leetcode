@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/128.
+Completed: 32/128.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 31/128.
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                      | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                 | 8ms     | 34.76% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                          | 337ms   | 7.16%  |
+| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                     | 71ms    | 86.07% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                          | 5ms     | 91.76% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyLinkedList.java)                         | 6ms     | 99.03% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                         | 153ms   | 42.29% |

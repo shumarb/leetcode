@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 239/739.
+Completed: 240/739.
 
 ## Submissions
 ### Easy
@@ -191,6 +191,7 @@ Completed: 239/739.
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                      | 4ms     | 95.87% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
+| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                             | 71ms    | 86.07% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                              | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                       | 215ms   | 39.47% |
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)                           | 5ms     | 96.36% |

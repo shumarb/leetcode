@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/202.
+Completed: 45/202.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 44/202.
 | Question                                                                                                                                                  | Submission                                                                                                              | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                      | 337ms   | 7.16%  |
+| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                 | 71ms    | 86.07% |
 | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                              | 16ms    | 99.60% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                  | 15ms    | 83.05% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                             | 4ms     | 96.68% |

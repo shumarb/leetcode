@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/71.
+Completed: 7/76.
 
 ## Submissions
 ### Easy
@@ -21,10 +21,11 @@ Completed: 5/71.
 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90% |
 
 ### Medium
-| Question                                                                                                                   | Submission                                                                                                                | Runtime | Rank   |
-|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                        | 337ms   | 7.16%  |
-| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                | 16ms    | 33.15% |
+| Question                                                                                                              | Submission                                                                                                             | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                     | 337ms   | 7.16%  |
+| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                | 71ms    | 86.07% |
+| [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                             | 16ms    | 33.15% |
 
 ### Hard
 | Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
