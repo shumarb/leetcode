@@ -25,6 +25,7 @@ class NumberContainers {
         }
         value.offer(index);
         numberToIndices.put(number, value);
+
         if (isTest) {
             display("\nafter");
         }
@@ -39,18 +40,12 @@ class NumberContainers {
         if (!numberToIndices.containsKey(number)) {
             return -1;
         }
-
         PriorityQueue<Integer> value = numberToIndices.get(number);
         while (!value.isEmpty() && indexToNumber.get(value.peek()) != number) {
             value.poll();
         }
-        if (value.isEmpty()) {
-            numberToIndices.remove(number);
-            return -1;
-        }
 
-        return value.peek();
-
+        return value.isEmpty() ? -1 : value.peek();
     }
 
     private void display(String s) {

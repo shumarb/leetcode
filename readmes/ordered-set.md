@@ -24,7 +24,7 @@ Completed: 7/76.
 | Question                                                                                                              | Submission                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                     | 337ms   | 7.16%  |
-| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                | 71ms    | 86.07% |
+| [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                | 70ms    | 90.71% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                             | 16ms    | 33.15% |
 
 ### Hard
