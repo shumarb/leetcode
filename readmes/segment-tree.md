@@ -10,13 +10,18 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/66.
+Completed: 3/67.
 
 ## Submissions
 ### Easy
 | Question                                                                                    | Submission                                                                                  | Runtime | Rank |
 |---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|------|
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java) | 1ms     | 100% |
+
+### Medium
+| Question                                                                            | Submission                                                                                | Runtime | Rank   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
+| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)         | 63ms    | 35.44% |
 
 ### Hard
 | Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |

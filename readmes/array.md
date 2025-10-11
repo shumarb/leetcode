@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 497/2015.
+Completed: 498/2015.
 
 ## Submissions
 ### Easy
@@ -451,6 +451,7 @@ Completed: 497/2015.
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                                  | 3ms     | 71.06% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                          | 1ms     | 99.72% |
 | [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsTwo.java)                                 | 2ms     | 100%   |
+| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                                                      | 63ms    | 35.44% |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterElementTwo.java)                                           | 9ms     | 94.03% |
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                                     | 16ms    | 92.23% |
 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingArray.java)                                              | 0ms     | 100%   |
