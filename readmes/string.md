@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 250/816.
+Completed: 251/816.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 250/816.
 | [Generate Tag for Video Caption](https://leetcode.com/problems/generate-tag-for-video-caption/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateTagForVideoCaption.java)                                   | 9ms     | 62.01% |
 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateAStringWithCharactersThatHaveOddCounts.java)               | 1ms     | 83.40% |
 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GoalParserInterpreation.java)                                      | 0ms     | 100%   |
+| [Goat Latin](https://leetcode.com/problems/goat-latin/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GoatLatin.java)                                                    | 2ms     | 77.44% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 7ms     | 65.30% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GreatestEnglishLetterInUpperAndLowerCase.java)                     | 4ms     | 72.30% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                                                | 1ms     | 93.37% |
