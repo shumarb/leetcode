@@ -7,20 +7,16 @@ class GoatLatin {
         boolean isTest = false;
 
         if (isTest) {
-            System.out.println("before, tokens: " + Arrays.toString(tokens));
-        }
-
-        for (int i = 0; i < tokens.length; i++) {
-            tokens[i] = update(tokens[i], i);
+            System.out.println("tokens: " + Arrays.toString(tokens));
         }
         for (int i = 0; i < tokens.length; i++) {
-            result.append(tokens[i]);
+            result.append(update(tokens[i], i));
             if (i != tokens.length - 1) {
                 result.append(" ");
             }
         }
         if (isTest) {
-            System.out.println("after, tokens: " + Arrays.toString(tokens) + "\nresult: " + result.toString());
+            System.out.println("result: " + result.toString());
         }
 
         return result.toString();
