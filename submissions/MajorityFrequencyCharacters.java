@@ -5,15 +5,13 @@ class MajorityFrequencyCharacters {
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
         int[] count = new int[26];
-        int[] countFrequency;
-        int largestCount = 0;
+        int[] countFrequency = new int[s.length() + 1];
         int largestFrequency = 0;
-        int largestFrequencyElement = -1;
+        int largestFrequencyElement = 0;
 
         for (char c: s.toCharArray()) {
-            largestCount = Math.max(largestCount, ++count[c - 'a']);
+            count[c - 'a']++;
         }
-        countFrequency = new int[largestCount + 1];
         for (int e: count) {
             if (e == 0) {
                 continue;
@@ -35,7 +33,7 @@ class MajorityFrequencyCharacters {
             }
         }
         if (isTest) {
-            System.out.println("count: " + Arrays.toString(count) + "\nlargestCount: " + largestCount);
+            System.out.println("count: " + Arrays.toString(count));
             System.out.println("countFrequency: " + Arrays.toString(countFrequency));
             System.out.println("largestFrequencyElement: " + largestFrequencyElement + " -> largestFrequency: " + largestFrequency);
             System.out.println("-------------------------------------------------------------------\nresult: " + result.toString());
