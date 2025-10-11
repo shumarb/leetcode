@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/226.
+Completed: 79/227.
 
 ## Submissions
 ### Easy
@@ -84,6 +84,7 @@ Completed: 78/226.
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                   | 0ms     | 100%   |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java) | 26ms    | 61.51% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                | 860ms   | 6.11%  |
+| [Partition List](https://leetcode.com/problems/partition-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionList.java)                        | 1ms     | 4.56%  |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                  | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedListTwo.java)    | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)           | 0ms     | 100%   |
