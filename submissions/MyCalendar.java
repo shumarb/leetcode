@@ -1,43 +1,37 @@
 // Question: https://leetcode.com/problems/my-calendar-i/description/
 
 class MyCalendar {
-    private List<int[]> bookings;
+    private TreeMap<Integer, Integer> tree;
     private boolean isTest;
 
     public MyCalendar() {
-        bookings = new ArrayList<>();
         isTest = false;
+        tree = new TreeMap<>();
     }
 
     public boolean book(int startTime, int endTime) {
         if (isTest) {
-            System.out.println(" * insert: " + startTime + ", " + endTime);
-            display("\nbefore: ");
+            System.out.println("---------------------------------------------------------");
+            System.out.println("book: (" + startTime + ", " + endTime + ")");
+            System.out.println("\n ** before, tree: " + tree);
         }
 
-        for (int[] booking: bookings) {
-            if (Math.max(booking[0], startTime) < Math.min(booking[1], endTime)) {
-                if (isTest) {
-                    System.out.println(" * skipped\n-----------------------------------------------");
-                }
-                return false;
+        // 1. Retrieve the greatest start time smaller than endTime.
+        Integer largestStartTime = tree.lowerKey(endTime);
+
+        // 2. Overlap occurs when startTime starts before the booking whose startTime is largestStartTime ends.
+        if (largestStartTime != null && startTime < tree.get(largestStartTime)) {
+            if (isTest) {
+                System.out.println("\n *** skipped");
             }
+            return false;
         }
-        bookings.add(new int[] {startTime, endTime});
-
+        tree.put(startTime, endTime);
         if (isTest) {
-            display("\nafter: ");
-            System.out.println("-----------------------------------------------");
+            System.out.println("\n ** after, tree: " + tree);
         }
 
         return true;
-    }
-
-    private void display(String s) {
-        System.out.println(s);
-        for (int[] e: bookings) {
-            System.out.println(Arrays.toString(e));
-        }
     }
 }
 

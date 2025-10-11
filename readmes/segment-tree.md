@@ -21,7 +21,7 @@ Completed: 3/67.
 ### Medium
 | Question                                                                            | Submission                                                                                | Runtime | Rank   |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
-| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)         | 63ms    | 35.44% |
+| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)         | 19ms    | 83.88% |
 
 ### Hard
 | Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
