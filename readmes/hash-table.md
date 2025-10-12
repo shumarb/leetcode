@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 241/739.
+Completed: 242/739.
 
 ## Submissions
 ### Easy
@@ -167,6 +167,7 @@ Completed: 241/739.
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumFourInputIsABST.java)                                  | 1ms     | 96.19% |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UncommonWordsFromTwoSentences.java)                          | 3ms     | 50.44% |
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                                | 7ms     | 17.93% |
+| [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueEmailAddresses.java)                                   | 8ms     | 88.53% |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueMorseCodeWords.java)                                   | 1ms     | 100%   |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueNumberOfOccurrences.java)                              | 2ms     | 97.94% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)                                           | 1ms     | 99.65% |
