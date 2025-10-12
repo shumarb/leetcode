@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/unique-email-addresses/description/
 
-class Solution {
+class UniqueEmailAddresses {
     private boolean isTest;
 
     public int numUniqueEmails(String[] emails) {
@@ -25,21 +25,18 @@ class Solution {
 
     private String update(String email) {
         StringBuilder result = new StringBuilder();
-        String[] tokens = email.split("@");
+        int atIndex = email.indexOf('@');
 
-        for (char c: tokens[0].toCharArray()) {
-            if (c == '.') {
-                continue;
-
-            } else if (c == '+') {
+        for (int i = 0; i < atIndex; i++) {
+            char c = email.charAt(i);
+            if (c == '+') {
                 break;
 
-            } else {
+            } else if (Character.isLetter(c)) {
                 result.append(c);
             }
         }
-        result.append("@");
-        result.append(tokens[1]);
+        result.append(email.substring(atIndex, email.length()));
         if (isTest) {
             System.out.println(" * " + email + " -> " + result.toString());
         }
