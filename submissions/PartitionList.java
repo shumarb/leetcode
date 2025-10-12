@@ -12,37 +12,44 @@
  */
 class PartitionList {
     public ListNode partition(ListNode head, int x) {
-        // 1. Edge cases: 0 or 1 nodes in list.
+        // 1. Edge cases: List contains 0 or 1 nodes.
         if (head == null || head.next == null) {
             return head;
         }
 
-        List<ListNode> list = new ArrayList<>();
-        ListNode current = head;
+        /**
+         1.  Create 2 sublists: all elements < x, and all elements >= x.
+             Use 2 pointers for each sublist, one to reference the start of each sublist,
+             and one used to populate the sublists.
+         */
+        ListNode left = new ListNode(-1);
+        ListNode leftCurrent = left;
+        ListNode right = new ListNode(-1);
+        ListNode rightCurrent = right;
         boolean isTest = false;
 
         if (isTest) {
             display("before: ", head);
         }
-        while (current != null) {
-            if (current.val < x) {
-                list.add(current);
+        while (head != null) {
+            if (head.val < x) {
+                leftCurrent.next = head;
+                leftCurrent = leftCurrent.next;
+            } else {
+                rightCurrent.next = head;
+                rightCurrent = rightCurrent.next;
             }
-            current = current.next;
-        }
-        current = head;
-        while (current != null) {
-            if (current.val >= x) {
-                list.add(current);
-            }
-            current = current.next;
+            head = head.next;
         }
 
-        head = list.get(0);
-        list.get(list.size() - 1).next = null;
-        for (int i = 0; i < list.size() - 1; i++) {
-            list.get(i).next = list.get(i + 1);
-        }
+        /**
+         2.  Set head as first element < x,
+             set next of last element < x as first element >= x,
+             and next set the last element >= x as null.
+         */
+        leftCurrent.next = right.next;
+        rightCurrent.next = null;
+        head = left.next;
         if (isTest) {
             display("after:  ", head);
         }
