@@ -18,14 +18,15 @@ class ShuffleAnArray {
             return nums;
         }
 
-        Random random = new Random();
-        int[] result = nums.clone();
+        List<Integer> list = new ArrayList<>();
+        int[] result = new int[n];
 
-        for (int i = n - 1; i >= 0; i--) {
-            int j = random.nextInt(i + 1);
-            int temp = result[i];
-            result[i] = result[j];
-            result[j] = temp;
+        for (int number: nums) {
+            list.add(number);
+        }
+        Collections.shuffle(list);
+        for (int i = 0; i < n; i++) {
+            result[i] = list.get(i);
         }
 
         return result;
