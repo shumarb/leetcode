@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/12.
+Completed: 7/12.
 
 ## Submissions
 ### Medium
@@ -20,6 +20,7 @@ Completed: 6/12.
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java) | 9ms     | 100%   |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)      | 58ms    | 99.02% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java) | 21ms    | 99.89% |
+| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)       | 53ms    | 55.37% |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                      | Runtime | Rank   |
