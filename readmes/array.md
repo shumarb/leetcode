@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 501/2015.
+Completed: 502/2015.
 
 ## Submissions
 ### Easy
@@ -472,6 +472,7 @@ Completed: 501/2015.
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                            | 21ms    | 99.89% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                                | 5ms     | 84.98% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                                  | 47ms    | 87.43% |
+| [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                                    | 5ms     | 31.80% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                                        | 17ms    | 92.02% |
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java)                  | 34ms    | 70.37% |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                                  | 335ms   | 88.82% |
