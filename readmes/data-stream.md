@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/21.
+Completed: 6/21.
 
 ## Submissions
 ### Easy
@@ -23,9 +23,10 @@ Completed: 5/21.
 | Question                                                                                                    | Submission                                                                                  | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 8ms     | 34.76% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 2490ms  | 5.01%  |
+| [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)           | 109ms   | 52.64% |
 
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)          | 99ms    | 63.65% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)      | 2490ms  | 5.01%  |

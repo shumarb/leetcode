@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 8/76.
+Completed: 9/76.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 8/76.
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)    | 70ms    | 90.71% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)          | 19ms    | 83.88% |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java) | 16ms    | 33.15% |
+| [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)          | 109ms   | 52.64% |
 
 ### Hard
 | Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
