@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 79/227.
+Completed: 80/227.
 
 ## Submissions
 ### Easy
@@ -84,6 +84,7 @@ Completed: 79/227.
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                   | 0ms     | 100%   |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java) | 26ms    | 61.51% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                | 860ms   | 6.11%  |
+| [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)  | 5ms     | 75.52% |
 | [Partition List](https://leetcode.com/problems/partition-list/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionList.java)                        | 0ms     | 100%   |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                  | 6ms     | 86.31% |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedListTwo.java)    | 0ms     | 100%   |
