@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 503/2024.
+Completed: 504/2024.
 
 ## Submissions
 ### Easy
@@ -56,6 +56,7 @@ Completed: 503/2024.
 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfEveryRowAndColumnContainsAllNumbers.java)             | 4ms     | 92.01% |
 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfMatrixIsXMatrix.java)                                 | 0ms     | 100%   |
 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringIsAnAcronymOfWords.java)                       | 1ms     | 100%   |
+| [Compute Alternating Sum](https://leetcode.com/problems/computing-alternating-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeAlternatingSum.java)                                  | 1ms     | 94.44% |
 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeDecimalRepresentation.java)                           | 1ms     | 100%   |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenationOfArrays.java)                                  | 1ms     | 96.28% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                      | 9ms     | 99.19% |
