@@ -1,24 +1,32 @@
 // Question: https://leetcode.com/problems/product-of-the-last-k-numbers/description/
 
 class ProductOfNumbers {
-    private List<Integer> list;
+    private List<Integer> prefixProducts;
 
     public ProductOfNumbers() {
-        list = new ArrayList<>();
+        prefixProducts = new ArrayList<>();
+        prefixProducts.add(1);
     }
 
     public void add(int num) {
-        list.add(num);
+        if (num == 0) {
+            prefixProducts.clear();
+            prefixProducts.add(1);
+        } else {
+            int lastProduct = prefixProducts.get(prefixProducts.size() - 1);
+            prefixProducts.add(lastProduct * num);
+        }
     }
 
     public int getProduct(int k) {
-        int product = 1;
-        int i = list.size() - 1;
-        while (k > 0) {
-            product *= list.get(i--);
-            k--;
+        int n = prefixProducts.size();
+
+        // 1. 0 is within last k elements, so product of k elements is 0.
+        if (k >= n) {
+            return 0;
         }
-        return product;
+
+        return prefixProducts.get(n - 1) / prefixProducts.get(n - 1 - k);
     }
 }
 
