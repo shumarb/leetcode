@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/176.
+Completed: 79/179.
 
 ## Submissions
 ### Easy
@@ -68,6 +68,7 @@ Completed: 78/176.
 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                      | 0ms     | 100%   |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                      | 0ms     | 100%   |
 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubstringsOfSizeThreeWithDistinctCharacters.java)        | 0ms     | 100%   |
+| [Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfElementsWithFrequencyDivisibleByK.java)             | 1ms     | 99.96% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfUniqueElements.java)                                | 0ms     | 100%   |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                             | 1ms     | 100%   |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UncommonWordsFromTwoSentences.java)                      | 3ms     | 50.44% |
