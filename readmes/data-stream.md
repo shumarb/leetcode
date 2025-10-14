@@ -23,7 +23,7 @@ Completed: 6/21.
 | Question                                                                                                    | Submission                                                                                  | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 8ms     | 34.76% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 20ms    | 28.23% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 16ms    | 99.89% |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)           | 109ms   | 52.64% |
 
 ### Hard
