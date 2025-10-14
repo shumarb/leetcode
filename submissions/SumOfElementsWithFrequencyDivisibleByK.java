@@ -2,19 +2,22 @@
 
 class SumOfElementsWithFrequencyDivisibleByK {
     public int sumDivisibleByK(int[] nums, int k) {
-        int[] frequency = new int[101];
+        int[] frequency;
+        int largest = 1;
         int sum = 0;
 
         for (int number: nums) {
+            largest = Math.max(largest, number);
+        }
+        frequency = new int[largest + 1];
+        for (int number: nums) {
             frequency[number]++;
         }
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= largest; i++) {
             int count = frequency[i];
-            if (count == 0 || count % k != 0) {
-                continue;
+            if (count > 0 && count % k == 0) {
+                sum += (i * count);
             }
-
-            sum += (i * count);
         }
 
         return sum;
