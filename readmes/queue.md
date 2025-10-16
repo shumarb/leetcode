@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/50.
+Completed: 11/50.
 
 ## Submissions
 ### Easy
@@ -28,6 +28,7 @@ Completed: 10/50.
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)                                         | 5ms     | 26.13% |
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                                         | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                    | 8ms     | 34.76% |
+| [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                              | 26ms    | 68.56% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 
 ### Hard

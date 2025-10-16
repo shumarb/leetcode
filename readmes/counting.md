@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 79/179.
+Completed: 80/179.
 
 ## Submissions
 ### Easy
@@ -82,6 +82,7 @@ Completed: 79/179.
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                   | 5ms     | 69.71% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                     | 15ms    | 83.05% |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                      | 12ms    | 99.88% |
+| [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                          | 26ms    | 68.56% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)      | 35ms    | 27.51% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                      | 44ms    | 93.03% |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                           | 143ms   | 51.44% |
