@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 252/816.
+Completed: 253/822.
 
 ## Submissions
 ### Easy
@@ -213,6 +213,7 @@ Completed: 252/816.
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                    | 1ms     | 100%   |
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java)                  | 138ms   | 67.85% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                                  | 51ms    | 81.88% |
+| [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                   | 39ms    | 31.92% |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsOne.java)       | 985ms   | 5.17%  |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersTwo.java)                         | 35ms    | 49.81% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05% |
