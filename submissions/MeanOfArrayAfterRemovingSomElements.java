@@ -2,42 +2,37 @@
 
 class MeanOfArrayAfterRemovingSomElements {
     public double trimMean(int[] arr) {
-        int len = arr.length;
-        int k = (int) (0.05 * (double) len);
-        boolean isTest = false;
-        if (isTest) {
-            System.out.println("arr: " + Arrays.toString(arr) + ", len: " + len + ", k: " + k);
+        double average = 0;
+        int n = arr.length;
+        int countRemovals = (int) (0.05 * n);
+
+        arr = sort(arr);
+        for (int i = countRemovals; i < n - countRemovals; i++) {
+            average += arr[i];
         }
 
-        PriorityQueue<Double> minHeap = new PriorityQueue<>();
-        PriorityQueue<Double> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-        double sum = 0;
+        return average / (double) (n - countRemovals * 2.0);
+    }
+
+    private int[] sort(int[] arr) {
+        int[] frequency;
+        int j = 0;
+        int largest = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            largest = Math.max(arr[i], largest);
+        }
+        frequency = new int[largest + 1];
+
         for (int number: arr) {
-            double value = number;
-            sum += value;
-            minHeap.offer(value);
-            if (minHeap.size() > k) {
-                minHeap.poll();
-            }
-            maxHeap.offer(value);
-            if (maxHeap.size() > k) {
-                maxHeap.poll();
-            }
+            frequency[number]++;
         }
-        if (isTest) {
-            System.out.println("minHeap: " + minHeap + ", maxHeap: " + maxHeap + ", sum: " + sum);
+        for (int i = 0; i <= largest; i++) {
+            while (frequency[i]-- > 0) {
+                arr[j++] = i;
+            }
         }
 
-        double denominator = (double) (len - minHeap.size() - maxHeap.size());
-        while (!minHeap.isEmpty()) {
-            sum -= minHeap.poll();
-        }
-        while (!maxHeap.isEmpty()) {
-            sum -= maxHeap.poll();
-        }
-        if (isTest) {
-            System.out.println("updated sum: " + sum + ", denominator: " + denominator);
-        }
-        return sum / denominator;
+        return arr;
     }
 }
