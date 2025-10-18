@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/202.
+Completed: 47/203.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 46/202.
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java) | 102ms   | 86.78% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)             | 130ms   | 63.04% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                   | 291ms   | 48.57% |
+| [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                    | 247ms   | 25.52% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberGame.java)                                | 3ms     | 41.37% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)       | 144ms   | 74.64% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                  | 172ms   | 82.34% |

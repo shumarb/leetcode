@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 137/473.
+Completed: 138/478.
 
 ## Submissions
 ### Easy
@@ -128,6 +128,7 @@ Completed: 137/473.
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                            | 6ms     | 88.17% |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                       | 9ms     | 80.63% |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)           | 26ms    | 61.51% |
+| [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                  | 247ms   | 25.52% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                 | 7ms     | 97.71% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)              | 10ms    | 90.87% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48% |
