@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 246/744.
+Completed: 247/744.
 
 ## Submissions
 ### Easy
@@ -246,6 +246,7 @@ Completed: 246/744.
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                                     | 17ms    | 92.02% |
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZeroSumConsecutiveNodesFromLinkedList.java)                  | 2ms     | 91.55% |
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                             | 3ms     | 65.10% |
+| [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                         | 22ms    | 38.85% |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                     | 13ms    | 98.85% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                            | 38ms    | 97.12% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
