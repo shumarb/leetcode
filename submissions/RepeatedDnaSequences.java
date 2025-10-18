@@ -6,7 +6,6 @@ class RepeatedDnaSequences {
         Map<String, Integer> map = new HashMap<>();
         boolean isTest = false;
 
-        for (int i = 0; i <= s.length() - 10; i++) {
             String substring = s.substring(i, i + 10);
             map.put(substring, 1 + map.getOrDefault(substring, 0));
         }
