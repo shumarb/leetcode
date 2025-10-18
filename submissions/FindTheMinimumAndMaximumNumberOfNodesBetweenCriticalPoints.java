@@ -12,49 +12,30 @@
  */
 class FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        List<Integer> list = new ArrayList<>();
-        List<Integer> indices = new ArrayList<>();
-        ListNode current = head;
-        boolean isTest = false;
-        int[] result = new int[2];
+        ListNode left = head;
+        ListNode middle = head.next;
+        ListNode right = head.next.next;
+        int count = 0;
+        int first = -1;
+        int last = -1;
+        int minimum = Integer.MAX_VALUE;
 
-        result[0] = Integer.MAX_VALUE;
-        result[1] = Integer.MIN_VALUE;
-        while (current != null) {
-            list.add(current.val);
-            current = current.next;
-        }
-        if (isTest) {
-            System.out.println("list: " + list);
-        }
-
-        if (list.size() < 3) {
-            return new int[] {-1, -1};
-        }
-        for (int i = 1; i < list.size() - 1; i++) {
-            int previous = list.get(i - 1);
-            int present = list.get(i);
-            int next = list.get(i + 1);
-            if (present > previous && present > next) {
-                indices.add(i);
+        while (right != null) {
+            if ((middle.val > left.val && middle.val > right.val) || (middle.val < left.val && middle.val < right.val)) {
+                if (first == -1) {
+                    first = count;
+                } else {
+                    minimum = Math.min(minimum, count - last);
+                }
+                last = count;
             }
-            if (present < previous && present < next) {
-                indices.add(i);
-            }
+
+            left = left.next;
+            middle = middle.next;
+            right = right.next;
+            count++;
         }
 
-        if (indices.isEmpty()) {
-            return new int[] {-1, -1};
-        }
-        Collections.sort(indices);
-        result[1] = indices.get(indices.size() - 1) - indices.get(0);
-        for (int i = 1; i < indices.size(); i++) {
-            result[0] = Math.min(result[0], indices.get(i) - indices.get(i - 1));
-        }
-        if (isTest) {
-            System.out.println("indices: " + indices + "\nresult: " + Arrays.toString(result));
-        }
-
-        return result[0] == Integer.MAX_VALUE || result[1] == Integer.MIN_VALUE ? new int[] {-1, -1} : result;
+        return first == last ? new int[] {-1, -1} : new int[] {minimum, last - first};
     }
 }
