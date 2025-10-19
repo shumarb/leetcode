@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 505/2024.
+Completed: 506/2024.
 
 ## Submissions
 ### Easy
@@ -430,6 +430,7 @@ Completed: 505/2024.
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 31ms    | 56.92% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
+| [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                               | 72ms    | 19.25% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                            | 130ms   | 63.04% |
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 1ms     | 100%   |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41% |
