@@ -15,19 +15,13 @@ class MaxSumOfAPairWithEqualSumOfDigits {
                 digitSum += numberCopy % 10;
                 numberCopy /= 10;
             }
-
-            if (!map.containsKey(digitSum)) {
-                maxHeap = new PriorityQueue<>();
-                maxHeap.offer(number);
-            } else {
-                maxHeap = map.get(digitSum);
-                maxHeap.offer(number);
-                if (maxHeap.size() > 2) {
-                    maxHeap.poll();
-                }
-                map.remove(digitSum);
+            map.computeIfAbsent(digitSum, k -> new PriorityQueue<>(Collections.reverseOrder())).offer(number);
+        }
+        if (isTest) {
+            System.out.println("map:");
+            for (Map.Entry<Integer, PriorityQueue<Integer>> e: map.entrySet()) {
+                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
             }
-            map.put(digitSum, maxHeap);
         }
 
         for (Map.Entry<Integer, PriorityQueue<Integer>> e: map.entrySet()) {
@@ -36,16 +30,12 @@ class MaxSumOfAPairWithEqualSumOfDigits {
             }
             PriorityQueue<Integer> minHeap = e.getValue();
             int sum = 0;
-            while (!minHeap.isEmpty()) {
+            for (int i = 0; i < 2; i++) {
                 sum += minHeap.poll();
             }
             maximumSum = Math.max(maximumSum, sum);
         }
         if (isTest) {
-            System.out.println("map:");
-            for (Map.Entry<Integer, PriorityQueue<Integer>> e: map.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
-            }
             System.out.println("---------------------------------\nmaximumSum: " + maximumSum);
         }
 
