@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 254/822.
+Completed: 255/822.
 
 ## Submissions
 ### Easy
@@ -70,6 +70,7 @@ Completed: 254/822.
 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineIfTwoEventsHaveConflict.java)                             | 0ms     | 100%   |
 | [Divide a String Into Groups of Size K](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideAStringIntoGroupsOfSizeK.java)                               | 0ms     | 100%   |
 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-revers/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExistenceOfASubstringInAStringAndItsReverse.java)                  | 1ms     | 100%   |
+| [Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualScoreSubstrings.java)                                         | 1ms     | 100%   |
 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FaultyKeyboard.java)                                               | 3ms     | 98.26% |
 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindValueOfVariableAfterPerformingOperations.java)                 | 1ms     | 74.56% |
 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCommonCharacters.java)                                         | 2ms     | 91.04% |
