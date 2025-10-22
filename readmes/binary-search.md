@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/319.
+Completed: 52/321.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 51/319.
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArrays.java)                         | 1ms     | 98.80% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArraysTwo.java)                      | 1ms     | 98.51% |
 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthMissingPositiveNumber.java)                        | 2ms     | 11.57% |
+| [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubsequenceWithLimitedSum.java)                | 7ms     | 22.61% |
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCountOfPositiveIntegerAndNegativeInteger.java) | 0ms     | 100%   |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCommonValue.java)                              | 2ms     | 86.22% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                   | 0ms     | 100%   |

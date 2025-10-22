@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 139/478.
+Completed: 140/478.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 139/478.
 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                             | 38ms    | 6.78%  |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |
 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestHarmoniousSubsequence.java)                         | 16ms    | 56.21% |
+| [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubsequenceWithLimitedSum.java)                     | 7ms     | 22.61% |
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                                      | 2ms     | 99.80% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)               | 0ms     | 100%   |
 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeTwoArraysEqualByReversingSubarray.java)                | 1ms     | 99.44% |

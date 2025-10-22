@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/220.
+Completed: 31/222.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 30/220.
 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMiddleIndexInArray.java)               | 0ms     | 100%   |
 | [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePivotInteger.java)                     | 1ms     | 70.60% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeftAndRightSumDifferences.java)              | 2ms     | 98.18% |
+| [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubsequenceWithLimitedSum.java)        | 7ms     | 22.61% |
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPopulationYear.java)                   | 2ms     | 26.45% |
 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumScoreAfterSplittingAString.java)       | 2ms     | 38.65% |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)              | 6ms     | 26.50% |
