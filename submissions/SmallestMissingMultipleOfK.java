@@ -2,14 +2,14 @@
 
 class SmallestMissingMultipleOfK {
     public int missingMultiple(int[] nums, int k) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isPresent = new boolean[101];
         boolean isTest = false;
         int key = k;
 
         for (int number: nums) {
-            set.add(number);
+            isPresent[number] = true;
         }
-        while (set.contains(key)) {
+        while (key <= 100 && isPresent[key]) {
             if (isTest) {
                 System.out.println(" * key: " + key);
             }
