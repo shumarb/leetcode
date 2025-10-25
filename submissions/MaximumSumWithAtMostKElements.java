@@ -9,17 +9,8 @@ class MaximumSumWithAtMostKElements {
         long result = 0;
 
         for (int i = 0; i < m; i++) {
-            grid[i] = sort(grid[i]);
-        }
-        if (isTest) {
-            System.out.println("grid:");
-            for (int[] e: grid) {
-                System.out.println(Arrays.toString(e));
-            }
-            System.out.println("---------------------------------------");
-        }
-        for (int i = 0; i < m; i++) {
             int limit = limits[i];
+            grid[i] = sort(grid[i]);
             for (int j = n - 1; j >= 0 && limit > 0; j--) {
                 result += grid[i][j];
                 minHeap.offer(grid[i][j]);
