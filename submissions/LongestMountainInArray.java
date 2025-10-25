@@ -9,10 +9,10 @@ class LongestMountainInArray {
         int[] suffix = new int[n];
 
         /**
-         1.  If every element is the peak of mountain array,
+         1.  If every element is the peak of mountain,
              count the number of valid elements to its left and right.
              Start from 1st and penultimate elements for respective arrays
-             because first and last elements are never the peak of a mountain array.
+             because first and last elements are never the peak of a mountain.
          */
         for (int i = 1; i < n; i++) {
             prefix[i] = arr[i] > arr[i - 1] ? 1 + prefix[i - 1] : 0;
@@ -22,9 +22,9 @@ class LongestMountainInArray {
         }
 
         /**
-         2.  If each element is a the peak of mountain array,
+         2.  If each element is a the peak of a mountain,
              the number of valid elements to its left and right are each > 0,
-             so count the number of elements included in this mountain array
+             so count the number of elements included in this mountain
              (+ 1 to include current element which is the peak).
          */
         for (int i = 1; i < n - 1; i++) {
