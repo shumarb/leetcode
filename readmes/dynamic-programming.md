@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/607.
+Completed: 31/622.
 
 ## Submissions
 ### Easy
@@ -36,6 +36,7 @@ Completed: 30/607.
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                       | 2ms     | 84.17% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                   | 383ms   | 69.83% |
+| [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                         | 3ms     | 67.21% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                    | 594ms   | 14.03% |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                       | 9ms     | 80.63% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                         | 1ms     | 90.84% |

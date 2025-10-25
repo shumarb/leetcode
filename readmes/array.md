@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 508/2028.
+Completed: 509/2028.
 
 ## Submissions
 ### Easy
@@ -431,6 +431,7 @@ Completed: 508/2028.
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                       | 38ms    | 93.18% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 31ms    | 56.92% |
+| [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                                          | 3ms     | 67.21% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                               | 54ms    | 36.20% |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                            | 130ms   | 63.04% |

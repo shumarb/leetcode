@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 81/227.
+Completed: 82/227.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 81/227.
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)               | 4ms     | 88.75% |
 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                  | 11ms    | 59.51% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)              | 344ms   | 44.26% |
+| [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)               | 3ms     | 67.21% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)          | 594ms   | 14.03% |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                   | 0ms     | 100%   |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java) | 26ms    | 61.51% |
