@@ -1,42 +1,40 @@
-// Question:
+// Question: https://leetcode.com/problems/longest-palindromic-substring/description/
 
 class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-        if (s.length() == 1 || isPalindrome(s)) {
+        String longest = "";
+        String result = s;
+        int n = s.length();
+
+        if (n == 1) {
             return s;
         }
 
-        String longestPalindrome = Character.toString(s.charAt(0));
-        boolean isTest = false;
-        int len = s.length();
+        for (int i = 0; i < n; i++) {
+            /**
+             1.  Check for odd-length (i-th letter is the middle letter)
+             & even-length palindrome (i-th & (i + 1)-th letters are the same and form middle letters).
+             */
+            String odd = getPalindrome(s, i, i);
+            String even = getPalindrome(s, i, i + 1);
+            String current = odd.length() > even.length() ? odd : even;
 
-        for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < len; j++) {
-                String current = s.substring(i, j + 1);
-                if (current.length() > longestPalindrome.length() && isPalindrome(current)) {
-                    if (isTest) {
-                        System.out.println(" * compare | current: " + current + ", longestPalindrome: "  + longestPalindrome);
-                    }
-                    longestPalindrome = current;
-                }
+            if (current.length() > longest.length()) {
+                longest = current;
             }
         }
-        if (isTest) {
-            System.out.println("----------------------------------------------------");
-            System.out.println("longestPalindrome: " + longestPalindrome);
-        }
 
-        return longestPalindrome;
+        return longest;
     }
 
-    private boolean isPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
-        while (left < right) {
-            if (s.charAt(left++) != s.charAt(right--)) {
-                return false;
-            }
+    private String getPalindrome(String s, int left, int right) {
+        int n = s.length();
+
+        while (left >= 0 && right < n && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
         }
-        return true;
+
+        return s.substring(left + 1, right);
     }
 }
