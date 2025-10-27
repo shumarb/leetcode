@@ -10,12 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/10.
+Completed: 8/11.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                                                | Submission                                                                                                               | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                                                | Submission                                                                                                          | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrayPartition.java)                               | 12ms    | 97.33% |
 | [Height Checker](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HeightChecker.java)                                | 2ms     | 88.86% |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HowManyNumbersAreSmallerThanTheCurrentNumber.java) | 5ms     | 83.20% |
@@ -23,7 +23,8 @@ Completed: 7/10.
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeSortArray.java)                            | 0ms     | 100%   |
 
 ### Medium
-| Question                                                                                    | Submission                                                                                      | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java) | 6ms     | 88.17% |
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)         | 5ms     | 97.68% |
+| Question                                                                                                                | Submission                                                                                                 | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                 | 6ms     | 88.17% |
+| [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPalindromicRearrangementOne.java) | 44ms    | 34.62% |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                         | 5ms     | 97.68% |
