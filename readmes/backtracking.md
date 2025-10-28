@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/109.
+Completed: 18/110.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 17/109.
 | [Combinations](https://leetcode.com/problems/combinations/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Combinations.java)                              | 17ms    | 86.97% |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                    | 0ms     | 100%   |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java) | 2ms     | 90.13% |
+| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                       | 8ms     | 6.12%  |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                     | 3ms     | 47.09% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)          | 0ms     | 100%   |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                 | 9ms     | 60.28% |
