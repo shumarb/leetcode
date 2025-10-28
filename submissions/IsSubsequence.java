@@ -2,18 +2,17 @@
 
 class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
-        boolean isTest = false;
-        StringBuilder sb = new StringBuilder();
         int i = 0;
-        for (char letter: t.toCharArray()) {
-            if (i < s.length() && letter == s.charAt(i)) {
-                sb.append(letter);
+        int j = 0;
+        int n = s.length();
+
+        while (i < n && j < t.length()) {
+            if (s.charAt(i) == t.charAt(j)) {
                 i++;
             }
+            j++;
         }
-        if (isTest) {
-            System.out.println("sb: " + sb.toString());
-        }
-        return sb.toString().equals(s);
+
+        return i == n;
     }
 }
