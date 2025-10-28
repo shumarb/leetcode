@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 141/478.
+Completed: 142/478.
 
 ## Submissions
 ### Easy
@@ -134,6 +134,7 @@ Completed: 141/478.
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                 | 7ms     | 97.71% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)              | 10ms    | 90.87% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48% |
+| [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                   | 55ms    | 74.33% |
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                | 1ms     | 99.88% |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                               | 5ms     | 84.98% |
 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                     | 22ms    | 87.96% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/622.
+Completed: 32/622.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 31/622.
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                | 1ms     | 99.51% |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                 | 3ms     | 71.06% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48% |
+| [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                   | 55ms    | 74.33% |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)           | 2ms     | 98.50% |
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                         | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                          | 860ms   | 6.11%  |

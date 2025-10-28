@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 52/321.
+Completed: 53/321.
 
 ## Submissions
 ### Easy
@@ -56,6 +56,7 @@ Completed: 52/321.
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                   | 383ms   | 69.83% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                         | 1ms     | 99.72% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                                     | 19ms    | 83.88% |
+| [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                   | 55ms    | 74.33% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                      | 0ms     | 100%   |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                           | 21ms    | 99.89% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                        | 38ms    | 36.75% |
