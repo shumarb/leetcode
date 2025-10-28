@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/169.
+Completed: 100/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -82,6 +82,7 @@ Completed: 99/169.
 | 111 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)                                | 1ms     | 64%    |
 | 113 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                           | 2ms     | 84.17% |
 | 114 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                                      | 1ms     | 100%   |
+| 115 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                                | 0ms     | 100%   |
 | 116 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                           | 9ms     | 94.52% |
 | 119 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                 | 24ms    | 75.04% |
 | 121 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                               | 21ms    | 99.89% |
