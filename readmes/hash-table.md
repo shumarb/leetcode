@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 249/749.
+Completed: 250/749.
 
 ## Submissions
 ### Easy
@@ -216,6 +216,7 @@ Completed: 249/749.
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                 | 153ms   | 42.29% |
 | [Frequency Tracker](https://leetcode.com/problems/frequency-tracker/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyTracker.java)                                             | 44ms    | 49.19% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 7ms     | 65.30% |
+| [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                  | 8ms     | 51.20% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                              | 63ms    | 27.26% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                         | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                | 25ms    | 98.76% |
