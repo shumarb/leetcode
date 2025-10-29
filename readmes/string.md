@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 258/823.
+Completed: 259/823.
 
 ## Submissions
 ### Easy
@@ -262,6 +262,7 @@ Completed: 258/823.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                             | 3ms     | 65.10% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                         | 19ms    | 54.02% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                            | 38ms    | 97.12% |
+| [Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ResultingStringAfterAdjacentRemovals.java)                         | 303ms   | 44.10% |
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAString.java)                                        | 6ms     | 86.18% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                      | 38ms    | 36.75% |

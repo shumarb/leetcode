@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/195.
+Completed: 92/195.
 
 ## Submissions
 ### Easy
@@ -107,6 +107,7 @@ Completed: 91/195.
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                      | 3ms     | 100%   |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                          | 87ms    | 32.57% |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                          | 13ms    | 98.85% |
+| [Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ResultingStringAfterAdjacentRemovals.java)              | 303ms   | 44.10% |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                              | 95ms    | 96.22% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                      | 0ms     | 100%   |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                      | 13ms    | 99.35% |
