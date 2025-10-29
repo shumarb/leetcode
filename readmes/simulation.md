@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 90/192.
+Completed: 91/195.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 90/192.
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterRemovingSubstrings.java)       | 5ms     | 56.70% |
 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java)                 | 0ms     | 100%   |
 | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PassThePillow.java)                                    | 0ms     | 100%   |
+| [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZerosInDecimalRepresentation.java)               | 2ms     | 56.92% |
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 0ms     | 100%   |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
