@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 92/195.
+Completed: 93/195.
 
 ## Submissions
 ### Easy
@@ -94,6 +94,7 @@ Completed: 92/195.
 | Question                                                                                                                                                            | Submission                                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                             | 11ms    | 98.01% |
+| [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                   | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)         | 1ms     | 100%   |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                  | 7ms     | 25.66% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                            | 12ms    | 88.41% |

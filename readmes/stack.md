@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/174.
+Completed: 45/174.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 44/174.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                 | 3ms     | 39.24% |
 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)                         | 16ms    | 99.65% |
+| [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                  | 0ms     | 100%   |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)   | 0ms     | 100%   |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                | 77ms    | 31.05% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                      | 5ms     | 91.76% |
