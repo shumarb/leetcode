@@ -2,40 +2,24 @@
 
 class ResultingStringAfterAdjacentRemovals {
     public String resultingString(String s) {
-        // 1. Edge case: s has 1 character.
-        if (s.length() == 1) {
-            return s;
-        }
-
-        Stack<Character> stack = new Stack<>();
         StringBuilder result = new StringBuilder();
-        boolean isTest = false;
 
-        for (int i = 0; i < s.length(); i++) {
-            char incoming = s.charAt(i);
+        for (char c: s.toCharArray()) {
+            if (result.length() > 0) {
+                char top = result.charAt(result.length() - 1);
+                int absoluteDifference = Math.abs(top - c);
 
-            if (stack.isEmpty()) {
-                stack.push(incoming);
-            } else {
-                char top = stack.peek();
-                int absoluteDifference = Math.abs(top - incoming);
                 if (absoluteDifference == 1 || absoluteDifference == 25) {
-                    stack.pop();
-                } else {
-                    stack.push(incoming);
+                    /**
+                     1.  If adjacent pair (incoming + last character of result),
+                         remove last character of result and skip appending c.
+                     */
+                    result.deleteCharAt(result.length() - 1);
+                    continue;
                 }
             }
-        }
-        if (isTest) {
-            System.out.println("stack: " + stack);
-        }
 
-        while (!stack.isEmpty()) {
-            result.append(stack.pop());
-        }
-        result = result.reverse();
-        if (isTest) {
-            System.out.println("result: " + result.toString());
+            result.append(c);
         }
 
         return result.toString();
