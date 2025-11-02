@@ -25,15 +25,16 @@ class CombinationSum {
 
     private void helper(List<Integer> list, int sum, int i) {
         if (isTest) {
-            System.out.println("--------------------------------------------\nlist: " + list + ", sum: " + sum);
+            System.out.println("--------------------------------------------");
+            System.out.println(" * list: " + list + " -> sum: " + sum);
         }
 
         if (sum > target) {
             return;
-
-        } else if (sum == target) {
+        }
+        if (sum == target) {
             if (isTest) {
-                System.out.println(" * add: " + list);
+                System.out.println(" ** add: " + list);
             }
             result.add(new ArrayList<>(list));
             return;
