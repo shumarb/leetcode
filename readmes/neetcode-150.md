@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 81/150.
+Completed: 82/150.
 
 ## Submissions
 ### Easy
@@ -50,6 +50,7 @@ Completed: 81/150.
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                                      | 1ms     | 100%   |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 89.68% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.42% |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                             | 5ms     | 74.40% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                         | 1ms     | 100%   |

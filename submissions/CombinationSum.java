@@ -29,9 +29,6 @@ class CombinationSum {
             System.out.println(" * list: " + list + " -> sum: " + sum);
         }
 
-        if (sum > target) {
-            return;
-        }
         if (sum == target) {
             if (isTest) {
                 System.out.println(" ** add: " + list);
@@ -41,9 +38,12 @@ class CombinationSum {
         }
 
         for (int j = i; j < candidates.length; j++) {
-            list.add(candidates[j]);
-            helper(list, sum + candidates[j], j);
-            list.removeLast();
+            int current = candidates[j];
+            if (sum + current <= target) {
+                list.add(current);
+                helper(list, sum + current, j);
+                list.removeLast();
+            }
         }
     }
 }

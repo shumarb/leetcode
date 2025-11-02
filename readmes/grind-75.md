@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/75.
+Completed: 52/75.
 
 ## Submissions
 | #  | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -40,6 +40,7 @@ Completed: 51/75.
 | 32 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)                                  | 0ms     | 100%   |
 | 33 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                           | 0ms     | 100%   | 
 | 36 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                         | 0ms     | 100%   |
+| 37 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
 | 38 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                       | 1ms     | 92.71% |
 | 39 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                     | 7ms     | 97.71% |
 | 40 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)                  | 6ms     | 100%   |
