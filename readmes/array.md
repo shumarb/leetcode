@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 514/2034.
+Completed: 515/2034.
 
 ## Submissions
 ### Easy
@@ -377,6 +377,7 @@ Completed: 514/2034.
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)                  | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)              | 1ms     | 95.87% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                                          | 5ms     | 74.40% |
+| [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                                       | 5ms     | 5.74%  |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 24ms    | 39.10% |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                                        | 37ms    | 86.60% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java)             | 33ms    | 98.46% |

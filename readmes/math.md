@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 159/626.
+Completed: 160/626.
 
 ## Submissions
 ### Easy
@@ -141,9 +141,10 @@ Completed: 159/626.
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                    | 3ms     | 39.24% |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                      | 0ms     | 100%   |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberIsASumOfPowersOfThree.java)                  | 0ms     | 100%   |
+| [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                           | 5ms     | 5.74%  |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                         | 51ms    | 81.88% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
-| [Count Number of Nice Subarrays](https://leetcode.com/problems/count-beautiful-number-of-nice-subarrays/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                          | 7ms     | 95.59% |
+| [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                          | 7ms     | 95.59% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                         | 94ms    | 82.87% |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                                   | 4ms     | 5.52%  |
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)               | 18ms    | 15.32% |
