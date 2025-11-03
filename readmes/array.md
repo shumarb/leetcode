@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 515/2034.
+Completed: 516/2034.
 
 ## Submissions
 ### Easy
@@ -420,6 +420,7 @@ Completed: 515/2034.
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 100%   |
 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                             | 3ms     | 60.99% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                    | 153ms   | 42.29% |
+| [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)                               | 143ms   | 6.94%  |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 7ms     | 65.30% |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                     | 8ms     | 51.20% |
