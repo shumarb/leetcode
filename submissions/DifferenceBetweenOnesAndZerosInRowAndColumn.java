@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/
 
-class DifferenceBetweenOnesAndZerosInRowAndColumn class Solution {
+class DifferenceBetweenOnesAndZerosInRowAndColumn {
     public int[][] onesMinusZeros(int[][] grid) {
         boolean isTest = false;
         int m = grid.length;
@@ -19,9 +19,7 @@ class DifferenceBetweenOnesAndZerosInRowAndColumn class Solution {
         }
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                int zeroCol = m - onesCol[j];
-                int zeroRow = n - onesRow[i];
-                result[i][j] = onesCol[j] + onesRow[i] - zeroCol - zeroRow;
+                result[i][j] = onesCol[j] + onesRow[i] - (m - onesCol[j]) - (n - onesRow[i]);
             }
         }
         if (isTest) {
