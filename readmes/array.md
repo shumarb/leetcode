@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 517/2034.
+Completed: 518/2036.
 
 ## Submissions
 ### Easy
@@ -125,6 +125,7 @@ Completed: 517/2034.
 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLuckyIntegerInAnArray.java)                              | 1ms     | 100%   |
 | [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMaximumNumberOfStringPairs.java)                         | 2ms     | 90.55% |
 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumOperationsToMakeAllElementsDivisibleByThree.java) | 0ms     | 100%   |
+| [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingElements.java)                                    | 1ms     | 100%   |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingAndRepeatedValues.java)                           | 1ms     | 100%   |
 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNUniqueIntegersSumUpToZero.java)                         | 0ms     | 100%   |
 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindNumbersWithEvenNumberOfDigits.java)                      | 1ms     | 98.93% |
