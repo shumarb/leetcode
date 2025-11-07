@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 94/195.
+Completed: 95/195.
 
 ## Submissions
 ### Easy
@@ -77,6 +77,7 @@ Completed: 94/195.
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 0ms     | 100%   |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
+| [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SemiOrderedPermutation.java)                           | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Shift2dGrid.java)                                      | 12ms    | 8.53%  |
 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SnakeInMatrix.java)                                    | 2ms     | 91.68% |

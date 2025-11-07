@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 518/2036.
+Completed: 519/2036.
 
 ## Submissions
 ### Easy
@@ -295,6 +295,7 @@ Completed: 518/2036.
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RowWithMaximumOnes.java)                                     | 1ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                                    | 0ms     | 100%   |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInsertPosition.java)                                   | 0ms     | 100%   |
+| [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SemiOrderedPermutation.java)                                 | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                             | 5ms     | 74.92% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                            | 2ms     | 95.73% |
 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Shift2dGrid.java)                                            | 12ms    | 8.53%  |
