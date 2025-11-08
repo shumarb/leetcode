@@ -1,11 +1,14 @@
 // Question: https://leetcode.com/problems/semi-ordered-permutation/description/
 
-class SemiOrderedPermutation {
+class SemiOrderedPermutation class Solution {
+    private int[] nums;
+
     public int semiOrderedPermutation(int[] nums) {
         boolean isTest = false;
         int count = 0;
         int index = 0;
         int n = nums.length;
+        this.nums = nums;
 
         for (int i = 0; i < n; i++) {
             if (nums[i] == 1) {
@@ -14,10 +17,9 @@ class SemiOrderedPermutation {
             }
         }
         while (nums[0] != 1) {
-            int temp = nums[index];
-            nums[index] = nums[index - 1];
-            nums[index-- - 1] = temp;
+            swap(index, index - 1);
             count++;
+            index--;
         }
         if (isTest) {
             System.out.println("solved first: " + Arrays.toString(nums) + " -> count: " + count);
@@ -30,9 +32,7 @@ class SemiOrderedPermutation {
             }
         }
         while (nums[n - 1] != n) {
-            int temp = nums[index];
-            nums[index] = nums[index + 1];
-            nums[index + 1] = temp;
+            swap(index, index + 1);
             count++;
             index++;
         }
@@ -41,5 +41,11 @@ class SemiOrderedPermutation {
         }
 
         return count;
+    }
+
+    private void swap(int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
