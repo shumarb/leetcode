@@ -1,39 +1,31 @@
 // Question: https://leetcode.com/problems/palindromic-substrings/description/
 
 class PalindromicSubstrings {
-    public int countSubstrings(String s) {
-        boolean isTest = false;
-        int countTotalSubstrings = 0;
+    private String s;
+    private int n;
+    private int result;
 
-        for (int i = 0; i < s.length(); i++) {
-            StringBuilder current = new StringBuilder();
-            current.append(s.charAt(i));
-            if (isTest) {
-                System.out.println(" ** palindrome: " + current.toString());
-            }
-            countTotalSubstrings++;
-            for (int j = i + 1; j < s.length(); j++) {
-                current.append(s.charAt(j));
-                if (isPalindrome(current.toString())) {
-                    if (isTest) {
-                        System.out.println(" ** palindrome: " + current.toString());
-                    }
-                    countTotalSubstrings++;
-                }
-            }
+    public int countSubstrings(String s) {
+        n = s.length();
+        result = 0;
+        this.s = s;
+
+        for (int i = 0; i < n; i++) {
+            // 1. Count palindromes where i-th character is center of odd-length palindrome.
+            countPalindromes(i, i);
+
+            // 2. Count palindromes where i-th & (i + 1)-th characters are center of even-length palindrome.
+            countPalindromes(i, i + 1);
         }
 
-        return countTotalSubstrings;
+        return result;
     }
 
-    private boolean isPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
-        while (left < right) {
-            if (s.charAt(left++) != s.charAt(right--)) {
-                return false;
-            }
+    private void countPalindromes(int i, int j) {
+        while (i >= 0 && j < n && s.charAt(i) == s.charAt(j)) {
+            result++;
+            i--;
+            j++;
         }
-        return true;
     }
 }
