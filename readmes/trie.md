@@ -18,7 +18,7 @@ Completed: 10/59.
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java) | 2ms     | 99.94% |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)          | 1ms     | 64%    |
-| [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)      | 135ms   | 5.10%  |
+| [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)      | 2ms     | 97.49% |
 
 ### Medium
 | Question                                                                                                                            | Submission                                                                                                  | Runtime | Rank   |
