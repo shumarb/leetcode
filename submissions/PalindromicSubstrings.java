@@ -11,10 +11,10 @@ class PalindromicSubstrings {
         this.s = s;
 
         for (int i = 0; i < n; i++) {
-            // 1. Count palindromes where i-th character is center of odd-length palindrome.
+            // 1. Count palindromes where i-th character is center of initial odd-length palindrome.
             countPalindromes(i, i);
 
-            // 2. Count palindromes where i-th & (i + 1)-th characters are center of even-length palindrome.
+            // 2. Count palindromes where i-th & (i + 1)-th characters are center of initial even-length palindrome.
             countPalindromes(i, i + 1);
         }
 

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 254/751.
+Completed: 255/751.
 
 ## Submissions
 ### Easy
@@ -87,6 +87,7 @@ Completed: 254/751.
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GreatestEnglishLetterInUpperAndLowerCase.java)               | 4ms     | 72.30% |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HappyNumber.java)                                            | 0ms     | 100%   |
 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HowManyNumbersAreSmallerThanTheCurrentNumber.java)           | 5ms     | 83.20% |
+| [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingDecreasingString.java)                             | 3ms     | 55.84% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfMultipleArrays.java)                           | 2ms     | 100%   |
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArrays.java)                                | 1ms     | 98.80% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArraysTwo.java)                             | 1ms     | 98.51% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 80/179.
+Completed: 81/180.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 80/179.
 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfWinningPlayers.java)                      | 1ms     | 100%   |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstLetterToAppearTwice.java)                           | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)                      | 5ms     | 94.83% |
+| [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingDecreasingString.java)                         | 3ms     | 55.84% |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfMultipleArrays.java)                       | 2ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthDistinctStringInAnArray.java)                         | 6ms     | 86.06% |
 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestHarmoniousSubsequence.java)                       | 16ms    | 56.21% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 261/825.
+Completed: 262/825.
 
 ## Submissions
 ### Easy
@@ -96,6 +96,7 @@ Completed: 261/825.
 | [Goat Latin](https://leetcode.com/problems/goat-latin/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GoatLatin.java)                                                    | 1ms     | 99.87% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 7ms     | 65.30% |
 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GreatestEnglishLetterInUpperAndLowerCase.java)                     | 4ms     | 72.30% |
+| [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingDecreasingString.java)                                   | 3ms     | 55.84% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                                                | 1ms     | 92.35% |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsomorphicStrings.java)                                            | 13ms    | 52.01% |
 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JewelsAndStones.java)                                              | 1ms     | 60.50% |
