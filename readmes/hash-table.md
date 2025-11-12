@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 255/751.
+Completed: 256/751.
 
 ## Submissions
 ### Easy
@@ -245,6 +245,7 @@ Completed: 255/751.
 | [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostFrequentSubtreeSum.java)                                       | 3ms     | 98.36% |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                                    | 9ms     | 60.28% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                                 | 55ms    | 74.33% |
+| [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                   | 2ms     | 96.88% |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java) | 279ms   | 66.51% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                          | 6ms     | 86.31% |
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)                                              | 58ms    | 99.02% |

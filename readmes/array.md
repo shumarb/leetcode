@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 521/2036.
+Completed: 522/2036.
 
 ## Submissions
 ### Easy
@@ -480,6 +480,7 @@ Completed: 521/2036.
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                            | 2ms     | 98.50% |
 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java) | 2ms     | 99.85% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                                     | 3ms     | 95.56% |
+| [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                      | 2ms     | 96.88% |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                             | 5ms     | 75.52% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                                       | 0ms     | 100%   |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java)    | 279ms   | 66.51% |
