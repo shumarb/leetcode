@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 82/227.
+Completed: 83/230.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 82/227.
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                       | 1ms     | 99.29% |
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfStringIsAPrefixOfArray.java)                   | 1ms     | 87.61% |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100%   |
+| [Count Binary Strings](https://leetcode.com/problems/count-binary-strings/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBinaryStrings.java)                              | 10ms    | 88.39% |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                   | 4ms     | 6.06%  |
 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DuplicateZeros.java)                                  | 3ms     | 44.61% |
