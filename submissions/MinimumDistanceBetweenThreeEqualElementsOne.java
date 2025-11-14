@@ -2,20 +2,31 @@
 
 class MinimumDistanceBetweenThreeEqualElementsOne {
     public int minimumDistance(int[] nums) {
-        int n = nums.length;
+        List<Integer>[] map;
+        int largest = Integer.MIN_VALUE;
         int result = Integer.MAX_VALUE;
 
-        for (int i = 0; i < n - 2; i++) {
-            for (int j = i + 1; j < n - 1; j++) {
-                if (nums[i] != nums[j]) {
-                    continue;
-                }
-                for (int k = j + 1; k < n; k++) {
-                    if (nums[k] == nums[i]) {
-                        int current = Math.abs(j - i) + Math.abs(j - k) + Math.abs(k - i);
-                        result = Math.min(current, result);
-                    }
-                }
+        for (int e: nums) {
+            largest = Math.max(e, largest);
+        }
+        map = new List[largest + 1];
+        for (int i = 1; i <= largest; i++) {
+            map[i] = new ArrayList<>();
+        }
+
+        for (int c = 0; c < nums.length; c++) {
+            int key = nums[c];
+            map[key].add(c);
+
+            if (map[key].size() >= 3) {
+                List<Integer> value = map[key];
+                int n = value.size();
+                int i = value.get(n - 3);
+                int j = value.get(n - 2);
+                int k = value.get(n - 1);
+                int absoluteDifferenceSum = 2 * (Math.max(i, Math.max(j, k)) - Math.min(i, Math.min(j, k)));
+
+                result = Math.min(absoluteDifferenceSum, result);
             }
         }
 
