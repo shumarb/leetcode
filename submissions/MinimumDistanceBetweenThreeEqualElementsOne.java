@@ -11,7 +11,7 @@ class MinimumDistanceBetweenThreeEqualElementsOne {
                     continue;
                 }
                 for (int k = j + 1; k < n; k++) {
-                    if (nums[i] == nums[j] && nums[j] == nums[k] && nums[k] == nums[i]) {
+                    if (nums[k] == nums[i]) {
                         int current = Math.abs(j - i) + Math.abs(j - k) + Math.abs(k - i);
                         result = Math.min(current, result);
                     }
