@@ -24,7 +24,7 @@ class MinimumDistanceBetweenThreeEqualElementsTwo {
                 int i = value.get(n - 3);
                 int j = value.get(n - 2);
                 int k = value.get(n - 1);
-                int absoluteDifferenceSum = Math.abs(i - j) + Math.abs(j - k) + Math.abs(k - i);
+                int absoluteDifferenceSum = 2 * (Math.max(i, Math.max(j, k)) - Math.min(i, Math.min(j, k)));
 
                 result = Math.min(absoluteDifferenceSum, result);
             }
