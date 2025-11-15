@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 162/629.
+Completed: 163/629.
 
 ## Submissions
 ### Easy
@@ -174,6 +174,7 @@ Completed: 162/629.
 | [Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueOfTheRearrangedNumber.java)                  | 0ms     | 100%   |
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                          | 1ms     | 99%    |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java)                           | 0ms     | 100%   |
+| [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAbsoluteDifferencesInASortedArray.java)              | 5ms     | 44.72% |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquareNumbers.java)                                  | 3ms     | 93.35% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                    | 0ms     | 100%   |
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)      | 141ms   | 42.47% |

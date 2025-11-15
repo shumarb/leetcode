@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/222.
+Completed: 32/226.
 
 ## Submissions
 ### Easy
@@ -51,3 +51,4 @@ Completed: 31/222.
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                        | 16ms    | 99.89% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                    | 21ms    | 99.89% |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                | 4ms     | 99.98% |
+| [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAbsoluteDifferencesInASortedArray.java)                  | 5ms     | 44.72% |
