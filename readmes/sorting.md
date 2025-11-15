@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 144/482.
+Completed: 145/482.
 
 ## Submissions
 ### Easy
@@ -135,6 +135,7 @@ Completed: 144/482.
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                   | 245ms   | 26.60% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                  | 7ms     | 97.71% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)               | 10ms    | 90.87% |
+| [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)             | 11ms    | 12.02% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                         | 46ms    | 82.48% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                    | 55ms    | 74.33% |
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                 | 1ms     | 99.88% |
