@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 526/2044.
+Completed: 527/2044.
 
 ## Submissions
 ### Easy
@@ -238,6 +238,7 @@ Completed: 526/2044.
 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDistanceToTheTargetElement.java)                      | 0ms     | 100%   |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIndexSumOfTwoLists.java)                              | 8ms     | 95.80% |
+| [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsThree.java)                  | 1ms     | 98.80% |
 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberGame.java)                                      | 3ms     | 41.37% |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfMovesToSeatEveryone.java)                     | 1ms     | 100%   |
 | [Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java) | 1ms     | 95.72% |
