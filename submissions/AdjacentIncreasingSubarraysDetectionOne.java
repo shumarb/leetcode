@@ -13,6 +13,10 @@ class AdjacentIncreasingSubarraysDetectionOne {
             for (int j = i; j < (i + k); j++) {
                 l1[a++] = nums.get(j);
             }
+            if (!isValid(l1)) {
+                continue;
+            }
+
             for (int c = i + k; c < (i + 2 * k); c++) {
                 l2[b++] = nums.get(c);
             }
@@ -20,7 +24,7 @@ class AdjacentIncreasingSubarraysDetectionOne {
                 System.out.println("--------------------------------\nl1: " + Arrays.toString(l1) + "\nl2: " + Arrays.toString(l2));
             }
 
-            if (isValid(l1) && isValid(l2)) {
+            if (isValid(l2)) {
                 return true;
             }
         }
