@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 528/2044.
+Completed: 529/2044.
 
 ## Submissions
 ### Easy
@@ -378,6 +378,7 @@ Completed: 528/2044.
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                       | 1ms     | 100%   |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                                | 2ms     | 99.45% |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                                  | 1ms     | 99.89% |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSumTwo.java)                                               | 2ms     | 99.59% |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java)                 | 810ms   | 7.09%  |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)                  | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)              | 1ms     | 95.87% |
