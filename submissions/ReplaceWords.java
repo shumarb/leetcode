@@ -12,19 +12,27 @@ class ReplaceWords {
         Collections.sort(dictionary);
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
+            boolean isFound = false;
+
             for (String e: dictionary) {
                 if (word.startsWith(e)) {
-                    words[i] = e;
+                    result.append(e);
+                    isFound = true;
+                    if (i != words.length - 1) {
+                        result.append(" ");
+                    }
                     break;
                 }
             }
+            if (!isFound) {
+                result.append(word);
+                if (i != words.length - 1) {
+                    result.append(" ");
+                }
+            }
         }
-        for (int i = 0; i < words.length - 1; i++) {
-            result.append(words[i] + " ");
-        }
-        result.append(words[words.length - 1]);
         if (isTest) {
-            System.out.println("after, words:  " + Arrays.toString(words));
+            System.out.println("after, words:  " + Arrays.toString(words) + "\nresult: " + result.toString());
         }
 
         return result.toString();
