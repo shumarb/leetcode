@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 530/2044.
+Completed: 531/2044.
 
 ## Submissions
 ### Easy
@@ -505,6 +505,7 @@ Completed: 530/2044.
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                                  | 335ms   | 88.82% |
 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingMinimumAndMaximumFromArray.java)                              | 2ms     | 100%   |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                        | 13ms    | 98.85% |
+| [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                                                    | 47ms    | 42.93% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                               | 38ms    | 97.12% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                              | 65ms    | 86.25% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                     | 0ms     | 100%   |

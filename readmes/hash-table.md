@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 259/756.
+Completed: 260/756.
 
 ## Submissions
 ### Easy
@@ -260,6 +260,7 @@ Completed: 259/756.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                             | 3ms     | 65.10% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                         | 19ms    | 54.02% |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                     | 13ms    | 98.85% |
+| [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                                                 | 47ms    | 42.93% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                            | 38ms    | 97.12% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                   | 49ms    | 78.74% |

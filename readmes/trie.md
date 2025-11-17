@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/59.
+Completed: 11/59.
 
 ## Submissions
 ### Easy
@@ -28,5 +28,6 @@ Completed: 10/59.
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                 | 33ms    | 85.89% | 
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                               | 10ms    | 97.30% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)         | 55ms    | 74.33% |
+| [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                         | 47ms    | 42.93% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)              | 38ms    | 36.75% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                    | 6ms     | 98%    | 
