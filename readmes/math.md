@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 164/629.
+Completed: 165/629.
 
 ## Submissions
 ### Easy
@@ -157,6 +157,7 @@ Completed: 164/629.
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                   | 7ms     | 83.98% |
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                        | 196ms   | 78.19% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 98.76% |
+| [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java)            | 2ms     | 57.29% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                              | 30ms    | 63.52% |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                | 9ms     | 100%   |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                              | 0ms     | 100%   |

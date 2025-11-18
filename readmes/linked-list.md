@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/81.
+Completed: 47/82.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 46/81.
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)                      | 18ms    | 15.32% |
 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints.java) | 4ms     | 100%   |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)                              | 1ms     | 18.41% |
+| [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java)                   | 2ms     | 57.29% |
 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertionSortList.java)                                          | 28ms    | 8.25%  |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                         | 0ms     | 100%   |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                       | 9ms     | 100%   |
