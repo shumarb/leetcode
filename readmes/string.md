@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 265/826.
+Completed: 266/826.
 
 ## Submissions
 ### Easy
@@ -162,6 +162,7 @@ Completed: 265/826.
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)                          | 36ms    | 48.71% |
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)                        | 2ms     | 72.81% |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                              | 1ms     | 49.79% |
+| [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveOutermostParentheses.java)                                   | 4ms     | 57.35% |
 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveTrailingZerosFromAString.java)                               | 1ms     | 100%   |
 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedSubstringPattern.java)                                     | 74ms    | 56.66% |
 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters.java) | 1ms     | 100%   |

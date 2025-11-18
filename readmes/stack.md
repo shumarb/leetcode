@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/174.
+Completed: 46/174.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 45/174.
 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java)           | 0ms     | 100%   |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)                       | 4ms     | 83.80% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)        | 36ms    | 48.71% |
+| [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveOutermostParentheses.java)                 | 4ms     | 57.35% |
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord..java)                       | 1ms     | 52.92% |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)                           | 2ms     | 97.66% |
 
