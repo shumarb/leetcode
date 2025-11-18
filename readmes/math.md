@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 163/629.
+Completed: 164/629.
 
 ## Submissions
 ### Easy
@@ -76,6 +76,7 @@ Completed: 163/629.
 | [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinningPlayerInCoinGame.java)                         | 0ms     | 100%   |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)                                               | 1ms     | 99.52% |
 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GcdOfOddAndEvenSums.java)                                    | 0ms     | 100%   |
+| [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GreatestCommonDivisorOfStrings.java)                         | 0ms     | 100%   |
 | [Happy Number](https://leetcode.com/problems/happy-number/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HappyNumber.java)                                            | 0ms     | 100%   |
 | [Harshad Number](https://leetcode.com/problems/harshad-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HarshadNumber.java)                                          | 0ms     | 100%   |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                                | 1ms     | 89.54% |
