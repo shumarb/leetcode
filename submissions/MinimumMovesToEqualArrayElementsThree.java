@@ -13,8 +13,11 @@ class MinimumMovesToEqualArrayElementsThree {
         for (int i = 1; i < nums.length; i++) {
             largest = Math.max(largest, nums[i]);
         }
-        for (int i = 0; i < nums.length; i++) {
-            result += (largest - nums[i]);
+        for (int element: nums) {
+            if (element == largest) {
+                continue;
+            }
+            result += (largest - element);
         }
 
         return result;
