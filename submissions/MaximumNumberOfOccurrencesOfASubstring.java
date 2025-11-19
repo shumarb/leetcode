@@ -16,15 +16,20 @@ class MaximumNumberOfOccurrencesOfASubstring {
             for (int i = 0; i <= n - windowSize; i++) {
                 String substring = s.substring(i, i + windowSize);
                 boolean[] isPresent = new boolean[26];
+                boolean isValid = true;
                 int countDistinctLetters = 0;
 
                 for (char c: substring.toCharArray()) {
                     if (!isPresent[c - 'a']) {
                         isPresent[c - 'a'] = true;
                         countDistinctLetters++;
+                        if (countDistinctLetters > maxLetters) {
+                            isValid = false;
+                            break;
+                        }
                     }
                 }
-                if (countDistinctLetters <= maxLetters) {
+                if (isValid) {
                     if (isTest) {
                         System.out.println("i: " + i + " -> valid substring: " + substring);
                     }
