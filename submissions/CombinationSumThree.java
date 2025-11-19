@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/combination-sum-iii/description/
 
-class Solution {
+class CombinationSumThree {
     private List<List<Integer>> result;
     private boolean isTest;
     private int[] numbers;
@@ -48,7 +48,7 @@ class Solution {
 
         for (int j = i; j < numbers.length; j++) {
             int current = numbers[j];
-            if (sum + current <= n) {
+            if (list.size() < k && sum + current <= n) {
                 list.add(current);
                 helper(list, j + 1, sum + current);
                 list.removeLast();
