@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/158.
+Completed: 43/158.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 42/158.
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                              | 19ms    | 77.61% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                       | 6ms     | 70.55% |
 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java)                  | 13ms    | 73.89% |
+| [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOccurrencesOfASubstring.java)                          | 614ms   | 5.12%  |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                              | 2ms     | 98.84% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 4ms     | 99.46% |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                                 | 16ms    | 96.94% |

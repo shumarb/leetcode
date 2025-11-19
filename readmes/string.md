@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 266/826.
+Completed: 267/826.
 
 ## Submissions
 ### Easy
@@ -246,6 +246,7 @@ Completed: 266/826.
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                    | 6ms     | 70.55% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30% |
+| [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOccurrencesOfASubstring.java)                       | 614ms   | 5.12%  |
 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java)               | 13ms    | 73.89% |
 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                                  | 242ms   | 19.79% |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                             | 1ms     | 51.13% |
