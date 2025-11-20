@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 267/826.
+Completed: 268/828.
 
 ## Submissions
 ### Easy
@@ -157,6 +157,7 @@ Completed: 267/826.
 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeCharactersToMakeTargetString.java)                        | 0ms     | 100%   |
 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeSpacesBetweenWords.java)                                  | 2ms     | 75.99% |
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)                  | 2ms     | 94.26% |
+| [Reformat Date](https://leetcode.com/problems/reformat-date/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReformatPhoneDate.java)                                            | 1ms     | 97.59% |
 | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReformatPhoneNumber.java)                                          | 1ms     | 100%   |
 | [Reformat the String](https://leetcode.com/problems/reformat-the-string/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReformatTheString.java)                                            | 4ms     | 76.42% |
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)                          | 36ms    | 48.71% |
