@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/158.
+Completed: 44/157.
 
 ## Submissions
 ### Easy
@@ -59,6 +59,7 @@ Completed: 43/158.
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java)         | 7ms     | 57.49% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                          | 1ms     | 99.72% |
 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java) | 2ms     | 99.85% |
+| [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsContainingAllThreeCharacters.java)                  | 15ms    | 42.72% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                             | 6ms     | 86.31% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                            | 19ms    | 54.02% |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98% |
