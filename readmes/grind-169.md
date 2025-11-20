@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/169.
+Completed: 102/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -44,6 +44,7 @@ Completed: 101/169.
 | 38  | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                       | 1ms     | 92.71% |
 | 39  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                     | 7ms     | 97.71% |
 | 40  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)                  | 6ms     | 100%   |
+| 42  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)                             | 160ms   | 7.31%  |
 | 43  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java)                  | 17ms    | 39.28% |
 | 45  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                                       | 99ms    | 63.65% |
 | 46  | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                                    | 2ms     | 99.80% |

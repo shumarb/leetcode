@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 83/150.
+Completed: 84/150.
 
 ## Submissions
 ### Easy
@@ -104,6 +104,7 @@ Completed: 83/150.
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                      | 99ms    | 63.65% |
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)                 | 4ms     | 71.29% |
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)            | 160ms   | 7.31%  |
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java)              | 1ms     | 30.85% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)              | 7ms     | 99.46% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/157.
+Completed: 45/157.
 
 ## Submissions
 ### Easy
@@ -65,6 +65,7 @@ Completed: 44/157.
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98% |
 
 ### Hard
-| Question                                                                                      | Submission                                                                                                       | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)                      | 7ms     | 99.46% |
+| Question                                                                                        | Submission                                                                                    | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java) | 160ms   | 7.31%  |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)   | 7ms     | 99.46% |
