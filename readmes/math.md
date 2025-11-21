@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 165/629.
+Completed: 166/631.
 
 ## Submissions
 ### Easy
@@ -146,6 +146,7 @@ Completed: 165/629.
 | [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                           | 3ms     | 95.26% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                         | 51ms    | 81.88% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
+| [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfHomogenousSubstrings.java)                   | 12ms    | 30.24% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                          | 7ms     | 95.59% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                         | 94ms    | 82.87% |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                                   | 4ms     | 5.52%  |
