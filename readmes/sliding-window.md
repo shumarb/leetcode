@@ -67,5 +67,5 @@ Completed: 45/157.
 ### Hard
 | Question                                                                                        | Submission                                                                                    | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
-| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java) | 156ms   | 7.48%  |
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java) | 14ms    | 70.35% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)   | 7ms     | 99.46% |
