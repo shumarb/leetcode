@@ -2,25 +2,27 @@
 
 class MinimumPositiveSumSubarray {
     public int minimumSumSubarray(List<Integer> nums, int l, int r) {
-        int minimumSumSubarray = Integer.MAX_VALUE;
-        int len = nums.size();
+        int result = Integer.MAX_VALUE;
 
-        for (int i = 0; i < len; i++) {
-            int currentSubarraySum = nums.get(i);
-            int size = 1;
-            if (currentSubarraySum > 0 && size >= l && size <= r) {
-                minimumSumSubarray = Math.min(minimumSumSubarray, currentSubarraySum);
+        for (int windowSize = l; windowSize <= r; windowSize++) {
+            int sum = 0;
+
+            for (int i = 0; i < windowSize; i++) {
+                sum += nums.get(i);
+            }
+            if (sum > 0) {
+                result = Math.min(result, sum);
             }
 
-            for (int j = i + 1; j < len; j++) {
-                currentSubarraySum += nums.get(j);
-                size++;
-                if (currentSubarraySum > 0 && size >= l && size <= r) {
-                    minimumSumSubarray = Math.min(minimumSumSubarray, currentSubarraySum);
+            for (int i = windowSize; i < nums.size(); i++) {
+                sum -= nums.get(i - windowSize);
+                sum += nums.get(i);
+                if (sum > 0) {
+                    result = Math.min(result, sum);
                 }
             }
         }
 
-        return minimumSumSubarray == Integer.MAX_VALUE ? -1 : minimumSumSubarray;
+        return result == Integer.MAX_VALUE ? -1 : result;
     }
 }
