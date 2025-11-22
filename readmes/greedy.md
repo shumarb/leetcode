@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 70/438.
+Completed: 71/444.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 70/438.
 | [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubsequenceWithLimitedSum.java)                 | 7ms     | 22.61% |
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)       | 1ms     | 92.54% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
+| [Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeExpressionOfThreeElements.java)                | 1ms     | 99.82% |
 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfArrayAfterKNegations.java)                | 1ms     | 100%   |
 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfAtMostKDistinctElements.java)             | 7ms     | 69.64% |
 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Maximum69Number.java)                                  | 0ms     | 100%   |

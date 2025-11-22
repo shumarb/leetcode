@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 532/2044.
+Completed: 533/2046.
 
 ## Submissions
 ### Easy
@@ -201,6 +201,7 @@ Completed: 532/2044.
 | [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MatrixSimilarityAfterCyclicShifts.java)                      | 1ms     | 97.69% |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnes.java)                                     | 2ms     | 93.86% |
 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxPairSumInAnArray.java)                                    | 3ms     | 93.95% |
+| [Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeExpressionOfThreeElements.java)                      | 1ms     | 99.82% |
 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfArrayAfterKNegations.java)                      | 1ms     | 100%   |
 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeSumOfAtMostKDistinctElements.java)                   | 7ms     | 69.64% |
 | [Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAreaOfLongestDiagonalRectangle.java)                  | 1ms     | 91.72% |
