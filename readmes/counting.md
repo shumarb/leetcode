@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 83/181.
+Completed: 84/182.
 
 ## Submissions
 ### Easy
@@ -101,6 +101,7 @@ Completed: 83/181.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                    | 3ms     | 65.10% |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                          | 49ms    | 78.74% |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                           | 8ms     | 87.71% |
+| [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfBeautyOfAllSubstrings.java)                          | 1153ms  | 5.02%  |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                   | 6ms     | 98%    | 
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)      | 141ms   | 42.47% | 
