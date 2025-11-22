@@ -11,11 +11,12 @@ class CountNumberOfHomogenousSubstrings {
                 count++;
 
             } else {
-                result += ((count * (count + 1) / 2) % modulo);
+                result += count * (count + 1) / 2;
                 count = 1;
             }
         }
-        result += ((count * (count + 1) / 2) % modulo);
+        result += count * (count + 1) / 2;
+        result %= modulo;
 
         return (int) result;
     }
