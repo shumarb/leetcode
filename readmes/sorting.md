@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 146/484.
+Completed: 147/484.
 
 ## Submissions
 ### Easy
@@ -110,6 +110,7 @@ Completed: 146/484.
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)          | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)          | 7ms     | 100%   |
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)              | 5ms     | 96.36% |
+| [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                      | 5ms     | 94.05% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                            | 4ms     | 96.68% |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)               | 56ms    | 86.73% |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                  | 44ms    | 93.03% |
