@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 53/75.
+Completed: 54/75.
 
 ## Submissions
 | #  | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -52,6 +52,7 @@ Completed: 53/75.
 | 48 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiameterOfBinaryTree.java)                               | 0ms     | 100%   |
 | 49 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MiddleOfTheLinkedList.java)                              | 0ms     | 100%   |
 | 51 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                         | 0ms     | 100%   |
+| 52 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                          | 1ms     | 99.36% |
 | 55 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                       | 0ms     | 100%   |
 | 56 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                            | 0ms     | 100%   |
 | 57 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.42% |

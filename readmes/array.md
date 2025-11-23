@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 533/2046.
+Completed: 534/2046.
 
 ## Submissions
 ### Easy
@@ -542,6 +542,7 @@ Completed: 533/2046.
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                                     | 2ms     | 92.54% |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                                  | 0ms     | 100%   |
 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                                   | 3ms     | 96.79% |
+| [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                                       | 1ms     | 99.36% |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                     | 14ms    | 45.41% |
 
 ### Hard
