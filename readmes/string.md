@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 272/828.
+Completed: 273/828.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 272/828.
 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuddyStrings.java)                                                 | 1ms     | 99.49% |
 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateDigitSumOfAString.java)                                   | 1ms     | 92.62% |
 | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CapitalizeTheTitle.java)                                           | 3ms     | 88.41% |
+| [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CellsInARangeOnAnExcelSheet.java)                                  | 1ms     | 100%   |
 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckedBalancedString.java)                                        | 1ms     | 99.21% |
 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckDistancesBetweenSameLetters.java)                             | 1ms     | 90.31% |
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)              | 8ms     | 78.87% |

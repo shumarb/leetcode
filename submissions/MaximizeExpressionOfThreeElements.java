@@ -14,9 +14,9 @@ class MaximizeExpressionOfThreeElements {
             } else if (e >= secondLargest) {
                 secondLargest = e;
             }
-        }
-        for (int e: nums) {
-            smallest = Math.min(e, smallest);
+            if (e < smallest) {
+                smallest = e;
+            }
         }
         if (isTest) {
             System.out.println("largest: " + largest + "\nsecondLargest: " + secondLargest + "\nsmallest: " + smallest);
