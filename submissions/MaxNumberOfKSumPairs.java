@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/
 
-class MaxSumOfKPairs {
+class MaxNumberOfKSumPairs {
     public int maxOperations(int[] nums, int k) {
         boolean isTest = false;
         int left = 0;
