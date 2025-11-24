@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/182.
+Completed: 85/182.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 84/182.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                        | 1ms     | 100%   |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                    | 2ms     | 99.45% |
+| [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                             | 32ms    | 85.07% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java) | 33ms    | 98.46% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                   | 3ms     | 100%   |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                     | 15ms    | 83.05% |
