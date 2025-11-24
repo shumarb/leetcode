@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 83/230.
+Completed: 84/230.
 
 ## Submissions
 ### Easy
@@ -84,6 +84,7 @@ Completed: 83/230.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)               | 2ms     | 99.72% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)          | 18ms    | 51.89% |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                   | 0ms     | 100%   |
+| [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfKPairs.java)                       | 25ms    | 41.12% |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java) | 26ms    | 61.51% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                | 5ms     | 96.54% |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)  | 5ms     | 75.52% |
