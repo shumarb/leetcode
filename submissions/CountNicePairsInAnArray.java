@@ -15,6 +15,7 @@ class CountNicePairsInAnArray {
         if (isTest) {
             System.out.println("map: " + map + "\nresult: " + result);
         }
+
         return result;
     }
 
