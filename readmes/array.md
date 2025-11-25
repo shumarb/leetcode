@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 536/2046.
+Completed: 537/2046.
 
 ## Submissions
 ### Easy
@@ -490,6 +490,7 @@ Completed: 536/2046.
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                                    | 55ms    | 74.33% |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                            | 2ms     | 98.50% |
 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java) | 2ms     | 99.85% |
+| [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithBoundedMaximum.java)                             | 3ms     | 99.79% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                                     | 3ms     | 95.56% |
 | [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                      | 2ms     | 96.88% |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                             | 5ms     | 75.52% |
