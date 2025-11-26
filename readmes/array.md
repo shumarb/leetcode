@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 537/2046.
+Completed: 538/2046.
 
 ## Submissions
 ### Easy
@@ -417,6 +417,7 @@ Completed: 537/2046.
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                                        | 5ms     | 88.83% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68% |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                                 | 0ms     | 100%   |
+| [Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOccurrencesOfAnElementInAnArray.java)                             | 25ms    | 7.64%  |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                               | 56ms    | 86.73% |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                                 | 0ms     | 100%   |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                                  | 44ms    | 93.03% |
