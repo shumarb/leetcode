@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 167/631.
+Completed: 168/638.
 
 ## Submissions
 ### Easy
@@ -91,6 +91,7 @@ Completed: 167/631.
 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumOddBinaryNumber.java)                                 | 1ms     | 100%   |
 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeNumbers.java)                           | 2ms     | 99.10% |
 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfTwoDigits.java)                              | 1ms     | 95.36% |
+| [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarrayWithEqualProducts.java)                       | 59ms    | 5.02%  |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsThree.java)                  | 1ms     | 98.80% |
 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-perations-to-make-array-sum-divisible-by-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeArraySumDivisibleByK.java)            | 1ms     | 92.04% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 15/85.
+Completed: 16/85.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 15/85.
 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAnyElementHasPrimeFrequency.java)              | 0ms     | 100%   |
 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGreatestCommonDivisorOfArray.java)                | 0ms     | 100%   |
 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GcdOfOddAndEvenSums.java)                             | 0ms     | 100%   |
+| [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarrayWithEqualProducts.java)                | 59ms    | 5.02%  |
 | [Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfBeautifulPairs.java)                          | 18ms    | 52.42% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCommonFactors.java)                           | 1ms     | 44.28% |
 | [Prime in Diagonal](https://leetcode.com/problems/prime-in-diagonal/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrimeInDiagonal.java)                                 | 10ms    | 26.91% |
