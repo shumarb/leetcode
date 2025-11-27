@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 168/638.
+Completed: 169/638.
 
 ## Submissions
 ### Easy
@@ -94,6 +94,7 @@ Completed: 168/638.
 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarrayWithEqualProducts.java)                       | 4ms     | 16.89% |
 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumElementAfterReplacementWithDigitSum.java)             | 1ms     | 100%   |
 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsThree.java)                  | 1ms     | 98.80% |
+| [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfFlipsToReverseBinaryString.java)              | 2ms     | 66.33% |
 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-perations-to-make-array-sum-divisible-by-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeArraySumDivisibleByK.java)            | 1ms     | 92.04% |
 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfFourDigitNumberAfterSplittingDigits.java)        | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                          | 1ms     | 36.78% |

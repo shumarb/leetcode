@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/261.
+Completed: 60/261.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 59/261.
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                       | 37ms    | 17.29% |
 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrongPairXorOne.java)                    | 2ms     | 97.49% |
 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumBitFlipsToConvertNumber.java)             | 0ms     | 100%   |
+| [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfFlipsToReverseBinaryString.java)  | 2ms     | 66.33% |
 | [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToCollectElements.java)         | 1ms     | 99.04% |
 | [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java)           | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                              | 0ms     | 100%   |
