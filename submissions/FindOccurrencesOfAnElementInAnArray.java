@@ -2,29 +2,30 @@
 
 class FindOccurrencesOfAnElementInAnArray {
     public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        List<Integer> list = new ArrayList<>();
         boolean isTest = false;
         int[] result = new int[queries.length];
 
         Arrays.fill(result, -1);
         for (int i = 0; i < nums.length; i++) {
-            int key = nums[i];
-            map.computeIfAbsent(key, value -> new ArrayList<>()).add(i);
+            if (nums[i] == x) {
+                list.add(i);
+            }
         }
 
         // 1. Edge case: x is absent in nums.
-        if (!map.containsKey(x)) {
+        if (list.isEmpty()) {
             return result;
         }
 
-        List<Integer> value = map.get(x);
         for (int i = 0; i < queries.length; i++) {
-            if (queries[i] <= value.size()) {
-                result[i] = value.get(queries[i] - 1);
+            int query = queries[i];
+            if (query <= list.size()) {
+                result[i] = list.get(query - 1);
             }
         }
         if (isTest) {
-            System.out.println("map: " + map + "\nresult: " + Arrays.toString(result));
+            System.out.println("list: " + list + "\nresult: " + Arrays.toString(result));
         }
 
         return result;
