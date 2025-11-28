@@ -4,23 +4,19 @@ class MinimumNumberOfFlipsToReverseBinaryString {
     public int minimumFlips(int n) {
         boolean isTest = false;
         char[] nBits = Integer.toBinaryString(n).toCharArray();
-        char[] nBitsReverse = nBits.clone();
         int left = 0;
         int result = 0;
-        int right = nBitsReverse.length - 1;
+        int right = nBits.length - 1;
 
         while (left < right) {
-            char temp = nBitsReverse[left];
-            nBitsReverse[left++] = nBitsReverse[right];
-            nBitsReverse[right--] = temp;
-        }
-        for (int i = 0; i < nBits.length; i++) {
-            if (nBits[i] != nBitsReverse[i]) {
-                result++;
+            if (nBits[left] != nBits[right]) {
+                result += 2;
             }
+            left++;
+            right--;
         }
         if (isTest) {
-            System.out.println("nBits: " + Arrays.toString(nBits) + "\nnBitsReverse: " + Arrays.toString(nBitsReverse) + "\nresult: " + result);
+            System.out.println("nBits: " + Arrays.toString(nBits) + "\nresult: " + result);
         }
 
         return result;
