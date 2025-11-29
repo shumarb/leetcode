@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 539/2049.
+Completed: 540/2049.
 
 ## Submissions
 ### Easy
@@ -229,6 +229,7 @@ Completed: 539/2049.
 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                                      | 3ms     | 98.07% |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSortedArray.java)                                       | 0ms     | 100%   |
 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwo2DArraysBySummingValues.java)                        | 1ms     | 84.70% |
+| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinCostClimbingStairs.java)                                  | 1ms     | 37%    |
 | [Min Max Game](https://leetcode.com/problems/min-max-game/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinMaxGame.java)                                             | 1ms     | 64.55% |
 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifference.java)                              | 17ms    | 91.38% |
 | [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                          | 3ms     | 11.87% |
