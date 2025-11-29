@@ -9,11 +9,9 @@ class MinimumNumberOfFlipsToReverseBinaryString {
         int right = nBits.length - 1;
 
         while (left < right) {
-            if (nBits[left] != nBits[right]) {
+            if (nBits[left++] != nBits[right--]) {
                 result += 2;
             }
-            left++;
-            right--;
         }
         if (isTest) {
             System.out.println("nBits: " + Arrays.toString(nBits) + "\nresult: " + result);
