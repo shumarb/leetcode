@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 85/150.
+Completed: 86/150.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 85/150.
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)           | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)  | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)       | 0ms     | 100%   |
+| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinCostClimbingStairs.java)     | 1ms     | 37%    |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)             | 0ms     | 100%   |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)             | 0ms     | 100%   |
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                   | 0ms     | 100%   |
