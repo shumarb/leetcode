@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 540/2049.
+Completed: 541/2049.
 
 ## Submissions
 ### Easy
@@ -85,6 +85,7 @@ Completed: 540/2049.
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfVowelStringsInRange.java)                    | 1ms     | 100%   |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                          | 0ms     | 100%   |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                    | 20ms    | 49.03% |
+| [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CrawlerLogFolder.java)                                       | 2ms     | 35.39% |
 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateTargetArrayInTheGivenOrder.java)                       | 0ms     | 100%   |
 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecodeXoredArray.java)                                       | 1ms     | 99.27% |
 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecompressRunLengthEncodedList.java)                         | 0ms     | 100%   |

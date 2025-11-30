@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/174.
+Completed: 47/176.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 46/174.
 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePostorderTraversal.java)               | 0ms     | 100%   |
 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreePreorderTraversal.java)                | 0ms     | 100%   |
 | [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClearDigits.java)                                | 1ms     | 100%   |
+| [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CrawlerLogFolder.java)                           | 2ms     | 35.39% |
 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalPricesWithASpecialDiscountInAShop.java)     | 2ms     | 65.61% |
 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementQueueUsingStacks.java)                  | 0ms     | 100%   |
 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ImplementStackUsingQueues.java)                  | 0ms     | 100%   |
