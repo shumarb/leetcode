@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/157.
+Completed: 47/157.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 46/157.
 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsContainingAllThreeCharacters.java)                  | 15ms    | 42.72% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                             | 6ms     | 86.31% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                            | 19ms    | 54.02% |
+| [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingSubarrayBeauty.java)                                           | 42ms    | 35.29% |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98% |
 
 ### Hard
