@@ -1,23 +1,18 @@
 // Question: https://leetcode.com/problems/sliding-subarray-beauty/description/
 
-class SlidingSubarrayBeauty {
+class SlidingSubarrayBeauty class Solution {
     public int[] getSubarrayBeauty(int[] nums, int k, int x) {
         boolean isTest = false;
+        int j = 0;
         int n = nums.length;
         int[] count = new int[101];
         int[] result = new int[n - k + 1];
-        int j = 0;
 
         for (int i = 0; i < k; i++) {
             count[nums[i] + 50]++;
         }
         result[j++] = compute(count, x);
         for (int i = k; i < n; i++) {
-            if (isTest) {
-                System.out.println("--------------------------------------------------------");
-                System.out.println("j: " + j + "\n * remove @ index: " + (i - k) + " -> element: " + nums[i - k]);
-                System.out.println(" * add @ index: " + i + " -> element: " + nums[i]);
-            }
             count[nums[i - k] + 50]--;
             count[nums[i] + 50]++;
             result[j++] = compute(count, x);
