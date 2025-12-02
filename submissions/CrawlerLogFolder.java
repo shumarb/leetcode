@@ -2,32 +2,22 @@
 
 class CrawlerLogFolder {
     public int minOperations(String[] logs) {
-        Stack<String> stack = new Stack<>();
-        boolean isTest = false;
+        int count = 0;
 
         for (String log: logs) {
-            if (isTest) {
-                System.out.println("log: " + log + "\n * before, stack: " + stack);
-            }
-
-            // 1. Edge case: Stay at current folder, or currently at main folder and log is "../".
-            if (log.equals("./") || stack.isEmpty() && log.equals("../")) {
+            if (log.equals("./")) {
                 continue;
-            }
-            if (!stack.isEmpty() && log.equals("../")) {
-                stack.pop();
+
+            } else if (log.equals("../")) {
+                if (count > 0) {
+                    count--;
+                }
+
             } else {
-                stack.push(log);
+                count++;
             }
-            if (isTest) {
-                System.out.println(" * after, stack: " + stack);
-                System.out.println("------------------------------------------------------------------------");
-            }
-        }
-        if (isTest) {
-            System.out.println("------------------------------------------------------------------------\nfinal stack: " + stack);
         }
 
-        return stack.size();
+        return count;
     }
 }
