@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/45.
+Completed: 12/45.
 
 ## Submissions
 ### Easy
@@ -24,9 +24,9 @@ Completed: 11/45.
 | [Customers Placing The Largest Number Of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/) | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/customers_placing_the_largest_number_of_orders.sql) | 799ms   | 87.57% |
 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description/)                                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/duplicate_emails.sql)                               | 865ms   | 11.83% |
 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)        | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/employees_earning_more_than_their_managers.sql)     | 1429ms  | 10.98% |
-| [Employee Bonus](https://leetcode.com/problems/employee-bonus/description/)                                                                | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/employee_bonus.sql)                                 | 1659ms  | 64.38% |
 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/)                                                          | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/not_boring_movies.sql)                              | 495ms   | 47.80% |
 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)                              | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/recyclable_and_low_fat_products.sql)                | 501ms   | 52.32% |
+| [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/description/)                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/the_latest_login_in_2020.sql)                       | 695ms   | 17.09% |
 
 ### Medium
 | Question                                                                      | Submission                                                                                 | Runtime | Rank   |
