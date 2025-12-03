@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 269/758.
+Completed: 270/758.
 
 ## Submissions
 ### Easy
@@ -193,6 +193,7 @@ Completed: 269/758.
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                                  | 51ms    | 81.88% |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                              | 24ms    | 39.10% |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                                      | 31ms    | 92.75% |
+| [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfBadPairs.java)                                        | 46ms    | 15.94% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-largest-group/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java)          | 33ms    | 98.46% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                   | 7ms     | 95.59% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                            | 3ms     | 100%   |
