@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 544/2049.
+Completed: 545/2049.
 
 ## Submissions
 ### Easy
@@ -256,6 +256,7 @@ Completed: 544/2049.
 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeTheArrayIncreasing.java)              | 3ms     | 87.17% |
 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java)                       | 2ms     | 79.90% |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)                             | 3ms     | 74.01% |
+| [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRightShiftsToSortTheArray.java)                       | 1ms     | 100%   |
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)                 | 2ms     | 98.90% |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsOne.java)                        | 1ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                          | 0ms     | 100%   |
