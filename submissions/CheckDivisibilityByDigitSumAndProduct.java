@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/description/
 
-class CheckDivisibiltyByDigitSumAndProduct {
+class CheckDivisibilityByDigitSumAndProduct {
     public boolean checkDivisibility(int n) {
         boolean isTest = false;
         int product = 1;

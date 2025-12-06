@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/k-diff-pairs-in-an-array/description/
 
-class KDiffPairsInAnArra {
+class KDiffPairsInAnArray {
     public int findPairs(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         boolean isTest = false;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/count-number-of-bad-pairs/description/
 
-class CountNumberOfBadPair {
+class CountNumberOfBadPairs {
     public long countBadPairs(int[] nums) {
         Map<Long, Long> map = new HashMap<>();
         boolean isTest = false;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/defuse-the-bomb/description/
 
-class Solution {
+class DefuseTheBomb {
     public int[] decrypt(int[] code, int k) {
         boolean isTest = false;
         int n = code.length;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/
 
-class Solution {
+class MinimumAmountOfTimeToFillCups {
     public int fillCups(int[] amount) {
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
         boolean isTest = false;

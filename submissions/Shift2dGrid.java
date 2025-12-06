@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/shift-2d-grid/description/
 
-class Solution {
+class Shift2dGrid {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
         List<List<Integer>> result = new ArrayList<>();
         boolean isTest = false;

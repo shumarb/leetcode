@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/path-crossing/description/
 
-class Solution {
+class PathCrossing {
     public boolean isPathCrossing(String path) {
         Set<String> set = new HashSet<>();
         boolean isPathCrossed = false;

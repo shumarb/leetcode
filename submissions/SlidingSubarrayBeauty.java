@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/sliding-subarray-beauty/description/
 
-class SlidingSubarrayBeauty class Solution {
+class SlidingSubarrayBeauty {
     public int[] getSubarrayBeauty(int[] nums, int k, int x) {
         boolean isTest = false;
         int j = 0;

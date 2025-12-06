@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/
 
-class Solution {
+class FindKthSmallestPairDistance {
     public int smallestDistancePair(int[] nums, int k) {
         boolean isTest = false;
         int n = nums.length;

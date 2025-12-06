@@ -1,4 +1,4 @@
-class Solution {
+class ToeplitzMatrix {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int totalRows = matrix.length;
         int totalColumns = matrix[0].length;

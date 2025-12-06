@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/description/
 
-class Solution {
+class MinimumRightShiftsToSortTheArray {
     public int minimumRightShifts(List<Integer> nums) {
         boolean isTest = false;
         int n = nums.size();

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/water-bottles/description/
 
-class Solution {
+class WaterBottles {
     public int numWaterBottles(int numBottles, int numExchange) {
         boolean isTest = false;
         int total = numBottles;
