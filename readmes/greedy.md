@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/444.
+Completed: 72/446.
 
 ## Submissions
 ### Easy
@@ -87,6 +87,7 @@ Completed: 71/444.
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                   | 335ms   | 88.82% |
 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingMinimumAndMaximumFromArray.java)               | 2ms     | 100%   |
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                 | 3ms     | 65.10% |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                  | 1ms     | 91.16% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 98.61% |
 | [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                            | 0ms     | 100%   |
 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                    | 3ms     | 96.79% |

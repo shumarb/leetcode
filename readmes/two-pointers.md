@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 86/230.
+Completed: 87/232.
 
 ## Submissions
 ### Easy
@@ -99,6 +99,7 @@ Completed: 86/230.
 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAString.java)                | 6ms     | 86.18% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                          | 0ms     | 100%   |
 | [Reorder List](https://leetcode.com/problems/rotate-list/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateList.java)                           | 0ms     | 100%   |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)      | 1ms     | 91.16% |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                           | 0ms     | 100%   |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                             | 9ms     | 94.52% |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java)            | 0ms     | 100%   |

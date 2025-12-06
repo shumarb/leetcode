@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/176.
+Completed: 48/176.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 47/176.
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                         | 30ms    | 87.41% |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                      | 4ms     | 12.39% |
 | [Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ResultingStringAfterAdjacentRemovals.java)             | 81ms    | 93.01% |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                  | 1ms     | 91.16% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SimplifyPath.java)                                     | 5ms     | 51.87% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)          | 2ms     | 98.61% |
 | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSubarrayRanges.java)                              | 16ms    | 80.24% |

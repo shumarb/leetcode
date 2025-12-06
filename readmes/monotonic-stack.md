@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/69.
+Completed: 13/70.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 12/69.
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                    | 16ms    | 92.23% |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                         | 2ms     | 94.48% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java)                      | 7ms     | 73.29% |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                | 1ms     | 91.16% |
 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubsequenceOfDistinctCharacters.java)        | 2ms     | 98.61% |
 | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSubarrayRanges.java)                            | 16ms    | 80.24% |
 

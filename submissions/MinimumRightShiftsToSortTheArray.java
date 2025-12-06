@@ -3,8 +3,8 @@
 class Solution {
     public int minimumRightShifts(List<Integer> nums) {
         boolean isTest = false;
-        int peakIndex = -1;
         int n = nums.size();
+        int peakIndex = -1;
 
         for (int i = 0; i < n; i++) {
             int current = nums.get(i);

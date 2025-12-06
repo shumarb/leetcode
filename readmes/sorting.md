@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 148/484.
+Completed: 149/487.
 
 ## Submissions
 ### Easy
@@ -149,6 +149,7 @@ Completed: 148/484.
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                | 3ms     | 65.10% |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                              | 65ms    | 86.25% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                         | 38ms    | 36.75% |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                 | 1ms     | 91.16% |
 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPalindromicRearrangementOne.java)             | 43ms    | 36.19% |
 | [Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueOfTheRearrangedNumber.java)              | 0ms     | 100%   |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                       | 8ms     | 87.71% |

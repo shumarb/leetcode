@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 545/2049.
+Completed: 546/2053.
 
 ## Submissions
 ### Easy
@@ -528,6 +528,7 @@ Completed: 545/2049.
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArrayTwo.java)                                   | 0ms     | 100%   |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                      | 49ms    | 78.74% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                                 | 1ms     | 73.86% |
+| [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                                 | 1ms     | 91.16% |
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)                                                  | 51ms    | 80.62% |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                            | 95ms    | 96.22% |
 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleElementInASortedArray.java)                                     | 0ms     | 100%   |
