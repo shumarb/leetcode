@@ -2,21 +2,34 @@
 
 class CountSquareSumTriples {
     public int countTriples(int n) {
+        boolean[] map = new boolean[n * n + 1];
+        boolean isTest = false;
         int count = 0;
+
+        for (int i = 1; i <= n; i++) {
+            map[i * i] = true;
+        }
+        if (isTest) {
+            System.out.println("map: " + Arrays.toString(map));
+            System.out.println("-----------------------------------------");
+        }
         for (int a = 1; a <= n; a++) {
-            for (int b = a; b <= n; b++) {
-                for (int c = b; c <= n; c++) {
-                    if (((a * a) + (b * b)) == (c * c)) {
-                        count++;
+            for (int b = 1; b <= n; b++) {
+                if ((a * a + b * b) < map.length && map[a * a + b * b]) {
+                    if (isTest) {
+                        int first = a * a;
+                        int second = b * b;
+                        int third = first + second;
+                        System.out.println(" * found | first: " + first + ", second: " + second + ", third: " + third);
                     }
+                    count++;
                 }
             }
         }
+        if (isTest) {
+            System.out.println("-----------------------------------------\ncount: " + count);
+        }
 
-        /**
-         1.  Double count by 2 to count b ^ 2 + a ^ 2 == c ^ 2,
-             because calculation above only considers a ^ 2 + b ^ 2 == c ^ 2.
-         */
-        return count * 2;
+        return count;
     }
 }
