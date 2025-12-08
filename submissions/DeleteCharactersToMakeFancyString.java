@@ -2,28 +2,29 @@
 
 class DeleteCharactersToMakeFancyString {
     public String makeFancyString(String s) {
-        // 1. Edge case: s length is < 3.
+        // 1. Edge case: s has < 3 characters, so answer is itself.
         if (s.length() < 3) {
             return s;
         }
 
         StringBuilder result = new StringBuilder();
         boolean isTest = false;
-        char[] letters = s.toCharArray();
+        char last = s.charAt(0);
+        int count = 1;
 
-        for (int i = 0; i <= s.length() - 3; i++) {
-            if (letters[i] == letters[i + 1] && letters[i] == letters[i + 2]) {
-                letters[i] = 'X';
+        result.append(last);
+        for (int i = 1; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c != last) {
+                result.append(c);
+                count = 1;
+            } else {
+                if (count + 1 != 3) {
+                    result.append(c);
+                    count++;
+                }
             }
-        }
-        for (char letter: letters) {
-            if (letter != 'X') {
-                result.append(letter);
-            }
-        }
-        if (isTest) {
-            System.out.println("s: " + s + "\nletters: " + Arrays.toString(letters));
-            System.out.println("result: " + result.toString());
+            last = c;
         }
 
         return result.toString();
