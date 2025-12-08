@@ -14,7 +14,7 @@ class CountSquareSumTriples {
             System.out.println("-----------------------------------------");
         }
         for (int a = 1; a <= n; a++) {
-            for (int b = 1; b <= n; b++) {
+            for (int b = a; b <= n; b++) {
                 if ((a * a + b * b) < map.length && map[a * a + b * b]) {
                     if (isTest) {
                         int first = a * a;
@@ -22,7 +22,13 @@ class CountSquareSumTriples {
                         int third = first + second;
                         System.out.println(" * found | first: " + first + ", second: " + second + ", third: " + third);
                     }
-                    count++;
+                    /**
+                     1.  Count double because a & b can be swapped to form c^2.
+                         Example: 36 + 64 == 100 also means 64 + 36 == 100.
+                         Hence, 1 triple is 6^2 + 8^2 == 5^2, and 8^2 + 6^2 == 5^2.
+                         Hence, 2 triples are formed when 1 is formed.
+                     */
+                    count += 2;
                 }
             }
         }
