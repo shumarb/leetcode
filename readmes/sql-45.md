@@ -26,7 +26,7 @@ Completed: 13/45.
 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)        | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/employees_earning_more_than_their_managers.sql)     | 1429ms  | 10.98% |
 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/)                                                          | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/not_boring_movies.sql)                              | 495ms   | 47.80% |
 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)                              | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/recyclable_and_low_fat_products.sql)                | 501ms   | 52.32% |
-| [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/description/)                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/swap_sex_of_employees.sql)                          | 224ms   | 77.24% |
+| [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/description/)                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/swap_sex_of_employees.sql)                          | 218ms   | 88.25% |
 | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/description/)                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/the_latest_login_in_2020.sql)                       | 695ms   | 17.09% |
 
 ### Medium

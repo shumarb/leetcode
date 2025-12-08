@@ -30,7 +30,7 @@ Completed: 17/310.
 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/description/)                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/product_sales_analysis_1.sql)                       | 1896ms  | 83.84% |
 | [Project Employees I](https://leetcode.com/problems/project-employees-i/)                                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/project_employees_1.sql)                            | 1032ms  | 62.20% |
 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)                              | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/recyclable_and_low_fat_products.sql)                | 501ms   | 52.32% |
-| [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/description/)                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/swap_sex_of_employees.sql)                          | 224ms   | 77.24% |
+| [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/description/)                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/swap_sex_of_employees.sql)                          | 218ms   | 88.25% |
 | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/description/)                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/the_latest_login_in_2020.sql)                       | 695ms   | 17.09% |
 
 ### Medium

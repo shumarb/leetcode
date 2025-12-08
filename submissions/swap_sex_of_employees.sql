@@ -1,8 +1,8 @@
 -- Question: https://leetcode.com/problems/swap-sex-of-employees/description/
 
-UPDATE Salary
+UPDATE SALARY
 SET sex =
     CASE
         WHEN sex = 'm' THEN 'f'
-        WHEN sex = 'f' THEN 'm'
+        ELSE 'm'
 END;
