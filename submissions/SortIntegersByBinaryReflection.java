@@ -2,24 +2,26 @@
 
 class SortIntegersByBinaryReflection {
     public int[] sortByReflection(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        Map<Integer, Integer> map = new HashMap<>();
+        int[][] map = new int[nums.length][2];
         boolean isTest = false;
 
-        for (int e: nums) {
-            list.add(e);
-            map.put(e, getBinaryReflection(e));
+        for (int i = 0; i < nums.length; i++) {
+            map[i][0] = nums[i];
+            map[i][1] = getBinaryReflection(nums[i]);
         }
-        list.sort(
-                (a, b) -> Integer.compare(map.get(a), map.get(b)) == 0
-                        ? Integer.compare(a, b)
-                        : Integer.compare(map.get(a), map.get(b))
+        Arrays.sort(map,
+                (a, b) -> Integer.compare(a[1], b[1]) == 0
+                        ? Integer.compare(a[0], b[0])
+                        : Integer.compare(a[1], b[1])
         );
         if (isTest) {
-            System.out.println("before, nums: " + Arrays.toString(nums) + "\nmap: " + map);
+            System.out.println("before, nums: " + Arrays.toString(nums) + "\nmap:");
+            for (int[] e: map) {
+                System.out.println(Arrays.toString(e));
+            }
         }
-        for (int i = 0; i < list.size(); i++) {
-            nums[i] = list.get(i);
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = map[i][0];
         }
         if (isTest) {
             System.out.println("------------------------------------\nafter, nums: " + Arrays.toString(nums));
