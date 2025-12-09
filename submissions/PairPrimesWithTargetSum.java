@@ -21,15 +21,13 @@ class PairPrimesWithTargetSum {
             int complement = n - i;
             if (isPrime[i] && isPrime[complement] && !isCounted[i] && !isCounted[complement]) {
                 List<Integer> pair = new ArrayList<>();
-                pair.add(i);
-                pair.add(complement);
+                pair.add(Math.min(i, complement));
+                pair.add(Math.max(i, complement));
                 isCounted[i] = true;
                 isCounted[complement] = true;
-                Collections.sort(pair);
                 result.add(pair);
             }
         }
-        Collections.sort(result, (a, b) -> Integer.compare(a.get(0), b.get(0)));
         if (isTest) {
             System.out.println("isPrime:    " + Arrays.toString(isPrime));
             System.out.println("--------------------------------------------------------\nresult: ");
