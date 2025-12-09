@@ -3,7 +3,6 @@
 class PairPrimesWithTargetSum {
     public List<List<Integer>> findPrimePairs(int n) {
         List<List<Integer>> result = new ArrayList<>();
-        boolean[] isCounted = new boolean[n + 1];
         boolean[] isPrime = new boolean[n + 1];
         boolean isTest = false;
 
@@ -15,14 +14,12 @@ class PairPrimesWithTargetSum {
                 }
             }
         }
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n / 2; i++) {
             int complement = n - i;
-            if (isPrime[i] && isPrime[complement] && !isCounted[i] && !isCounted[complement]) {
+            if (isPrime[i] && isPrime[complement]) {
                 List<Integer> pair = new ArrayList<>();
                 pair.add(Math.min(i, complement));
                 pair.add(Math.max(i, complement));
-                isCounted[i] = true;
-                isCounted[complement] = true;
                 result.add(pair);
             }
         }
