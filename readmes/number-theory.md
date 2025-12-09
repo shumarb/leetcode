@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/85.
+Completed: 17/87.
 
 ## Submissions
 ### Easy
@@ -36,3 +36,4 @@ Completed: 16/85.
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                              | 94ms    | 82.87% |
 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java) | 2ms     | 57.29% |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                   | 0ms     | 100%   |
+| [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                  | 459ms   | 25.89% |

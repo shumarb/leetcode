@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 546/2053.
+Completed: 547/2061.
 
 ## Submissions
 ### Easy
@@ -506,6 +506,7 @@ Completed: 546/2053.
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                                    | 1ms     | 92.71% |
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                                 | 1ms     | 99.88% |
 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrintWordsVertically.java)                                            | 0ms     | 100%   |
+| [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                                         | 459ms   | 25.89% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                        | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                                | 16ms    | 99.89% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                            | 21ms    | 99.89% |
