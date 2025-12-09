@@ -11,6 +11,8 @@ class NumberOfSubarraysWithGcdEqualToK {
                 gcd = gcd(gcd, nums[j]);
                 if (gcd == k) {
                     result++;
+                } else if (gcd < k) {
+                    break;
                 }
             }
         }
