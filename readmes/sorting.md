@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 149/487.
+Completed: 150/489.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 149/487.
 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByParityTwo.java)                                 | 2ms     | 99.96% |
 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByIncreasingFrequency.java)                       | 4ms     | 98.04% |
 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortEvenAndOddIndicesIndependently.java)                   | 4ms     | 52.74% |
+| [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByBinaryReflection.java)                       | 20ms    | 47.63% |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)                       | 7ms     | 74.98% |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                        | 4ms     | 97.69% |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortingTheSentence.java)                                   | 0ms     | 100%   |
