@@ -27,7 +27,7 @@ class RestoreTheArrayFromAdjacentPairs {
         }
         result = new int[map.size()];
         stack.push(source);
-        while (j < result.length && !stack.isEmpty()) {
+        while (!stack.isEmpty()) {
             int size = stack.size();
             for (int i = 0; i < size; i++) {
                 int top = stack.pop();
