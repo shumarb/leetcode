@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/75.
+Completed: 55/75.
 
 ## Submissions
 ### Easy
@@ -41,6 +41,7 @@ Completed: 54/75.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                           | 30ms    | 69.14% |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 89.68% |
+| [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                     | 24ms    | 31.86% |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                             | 5ms     | 74.40% |

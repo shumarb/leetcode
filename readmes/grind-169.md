@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 103/169.
+Completed: 104/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -33,6 +33,7 @@ Completed: 103/169.
 | 21  | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                           | 30ms    | 69.14% |
 | 22  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 89.68% |
 | 26  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                               | 33ms    | 85.89% | 
+| 27  | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                     | 24ms    | 31.86% |
 | 28  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                           | 2ms     | 89.32% |
 | 29  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)                                     | 0ms     | 100%   |
 | 30  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindrome.java)                                  | 2ms     | 89.66% |

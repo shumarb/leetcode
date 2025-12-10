@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/630.
+Completed: 37/631.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 36/630.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                               | 0ms     | 100%   |
 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                           | 39ms    | 69.34% |
+| [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                     | 24ms    | 31.86% |
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                       | 46ms    | 87.58% | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83% |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                            | 0ms     | 100%   |
