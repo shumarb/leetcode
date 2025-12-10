@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 550/2061.
+Completed: 551/2061.
 
 ## Submissions
 ### Easy
@@ -523,6 +523,7 @@ Completed: 550/2061.
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                        | 13ms    | 98.85% |
 | [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                                                    | 46ms    | 44.44% |
 | [Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReportSpamMessage.java)                                               | 38ms    | 97.12% |
+| [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RestoreTheArrayFromAdjacentPairs.java)                  | 129ms   | 42.54% | 
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                              | 65ms    | 86.25% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                     | 0ms     | 100%   |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                         | 38ms    | 36.75% |
