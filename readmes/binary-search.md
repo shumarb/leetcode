@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/325.
+Completed: 56/329.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                    | Submission                                                                                                             | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Arranging Coins](https://leetcode.com/problems/arranging-coins/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrangingCoins.java)                                  | 59ms    | 9.79%  |
 | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearch.java)                                    | 0ms     | 100%   |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                       | 1ms     | 99.29% |
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                          | 0ms     | 100%   |

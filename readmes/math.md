@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 175/642.
+Completed: 176/642.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 175/642.
 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoIntegers.java)                                         | 0ms     | 100%   |
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddToArrayFormOfInteger.java)                                | 2ms     | 99.20% |
 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingDigitSum.java)                                    | 0ms     | 100%   |
+| [Arranging Coins](https://leetcode.com/problems/arranging-coins/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrangingCoins.java)                                  | 59ms    | 9.79%  |
 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)       | 0ms     | 100%   |
 | [Base 7](https://leetcode.com/problems/base-7/description/)                                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Base7.java)                                                  | 1ms     | 70.47% |
 | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateDelayedArrivalTime.java)                            | 0ms     | 100%   |
