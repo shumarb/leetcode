@@ -5,30 +5,21 @@ class ArrangingCoins {
         List<Integer> list = new ArrayList<>();
         boolean isTest = false;
         int nCopy = n;
-        int numCoins = 1;
+        int totalCoins = 1;
+        int completeRows = 0;
         int result = 0;
 
-        while (nCopy > 0) {
+        while (nCopy - completeRows > 0) {
             if (isTest) {
-                System.out.println("before:\n * nCopy: " + nCopy + "\n * numCoins: " + numCoins + "\n * list: " + list);
+                System.out.println(" * nCopy: " + nCopy + ", totalCoins: " + totalCoins + ", completeRows: " + completeRows);
             }
-            if (numCoins > nCopy) {
-                if (isTest) {
-                    System.out.println("-------------------------------------------------");
-                }
-                break;
-            }
-            list.add(numCoins);
-            nCopy -= numCoins++;
-            if (isTest) {
-                System.out.println("\nafter:\n * nCopy: " + nCopy + "\n * list: " + list);
-                System.out.println("-------------------------------------------------");
-            }
+            nCopy -= totalCoins++;
+            completeRows++;
         }
         if (isTest) {
-            System.out.println("n: " + n + "\nnCopy: " + nCopy + "\nlist: " + list + ", result: " + list.size());
+            System.out.println("--------------------------------------------------------\nn: " + n + "\ncompleteRows: " + completeRows);
         }
 
-        return list.size(); // exclude 0;
+        return completeRows;
     }
 }
