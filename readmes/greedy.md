@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/446.
+Completed: 73/447.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 72/446.
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)           | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)           | 7ms     | 100%   |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                | 56ms    | 86.73% |
+| [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java)                   | 2ms     | 58.72% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                | 11ms    | 99.39% |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)      | 8ms     | 51.20% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                  | 63ms    | 27.26% |
