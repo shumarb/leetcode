@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/67.
+Completed: 4/73.
 
 ## Submissions
 ### Easy
@@ -19,9 +19,10 @@ Completed: 3/67.
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java) | 1ms     | 100% |
 
 ### Medium
-| Question                                                                            | Submission                                                                                | Runtime | Rank   |
-|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
-| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)         | 19ms    | 83.88% |
+| Question                                                                                            | Submission                                                                                                  | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.84% |
+| [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                           | 19ms    | 83.88% |
 
 ### Hard
 | Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |

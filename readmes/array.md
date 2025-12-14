@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 554/2061.
+Completed: 555/2061.
 
 ## Submissions
 ### Easy
@@ -403,6 +403,7 @@ Completed: 554/2061.
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                      | 7ms     | 95.59% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                               | 3ms     | 100%   |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 94ms    | 82.87% |
+| [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.84% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)                                                 | 5ms     | 26.13% |
