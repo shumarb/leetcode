@@ -14,14 +14,11 @@ class FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK {
             int n = list.size();
             fibonacci = list.get(n - 2) + list.get(n - 1);
         }
-        for (int i = list.size() - 1; i >= 0; i--) {
+        for (int i = list.size() - 1; k > 0 && i >= 0; i--) {
             int current = list.get(i);
             if (current <= k) {
                 k -= current;
                 count++;
-            }
-            if (k == 0) {
-                break;
             }
         }
         if (isTest) {
