@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/230.
+Completed: 34/230.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 33/230.
 ### Medium
 | Question                                                                                                                                                                      | Submission                                                                                                                     | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)           | 24ms    | 67.47% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                             | 51ms    | 81.88% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                              | 7ms     | 95.59% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.84% |

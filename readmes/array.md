@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 556/2061.
+Completed: 557/2061.
 
 ## Submissions
 ### Easy
@@ -393,6 +393,7 @@ Completed: 556/2061.
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java)                 | 810ms   | 7.09%  |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)                  | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)              | 1ms     | 95.87% |
+| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)           | 24ms    | 67.47% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                                          | 5ms     | 74.40% |
 | [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                                       | 3ms     | 95.26% |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 24ms    | 39.10% |

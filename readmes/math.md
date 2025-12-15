@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 177/642.
+Completed: 178/642.
 
 ## Submissions
 ### Easy
@@ -147,6 +147,7 @@ Completed: 177/642.
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                    | 3ms     | 39.24% |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                      | 0ms     | 100%   |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberIsASumOfPowersOfThree.java)                  | 0ms     | 100%   |
+| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)           | 24ms    | 67.47% |
 | [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                           | 3ms     | 95.26% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                         | 51ms    | 81.88% |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                             | 31ms    | 92.75% |
