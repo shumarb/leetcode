@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/129.
+Completed: 37/129.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 36/129.
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)       | 16ms    | 99.65% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                 | 162ms   | 94.15% |
+| [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)       | 69ms    | 15.58% |
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)                | 5ms     | 26.13% |
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)           | 8ms     | 34.76% |

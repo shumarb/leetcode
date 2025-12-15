@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 555/2061.
+Completed: 556/2061.
 
 ## Submissions
 ### Easy
@@ -406,6 +406,7 @@ Completed: 555/2061.
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.84% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87% |
+| [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)       | 69ms    | 15.58% |
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)                                                 | 5ms     | 26.13% |
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                                                 | 4ms     | 100%   |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 8ms     | 34.76% |

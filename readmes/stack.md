@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/176.
+Completed: 50/176.
 
 ## Submissions
 ### Easy
@@ -48,6 +48,7 @@ Completed: 49/176.
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                  | 0ms     | 100%   |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)   | 0ms     | 100%   |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                | 77ms    | 26.55% |
+| [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)       | 69ms    | 15.58% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                                      | 5ms     | 91.76% |
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)            | 18ms    | 15.32% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)                    | 1ms     | 18.41% |
