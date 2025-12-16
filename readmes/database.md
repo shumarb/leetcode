@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/310.
+Completed: 18/310.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 17/310.
 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/description/)                                                                | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/employee_bonus.sql)                                 | 1659ms  | 64.38% |
 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)        | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/employees_earning_more_than_their_managers.sql)     | 1429ms  | 10.98% |
 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/)                                                          | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/not_boring_movies.sql)                              | 495ms   | 47.80% |
+| [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/description/)                                          | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/patients_with_a_condition.sql)                              | 386ms   | 29.66% |
 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/description/)                                            | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/product_sales_analysis_1.sql)                       | 1896ms  | 83.84% |
 | [Project Employees I](https://leetcode.com/problems/project-employees-i/)                                                                  | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/project_employees_1.sql)                            | 1032ms  | 62.20% |
 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)                              | [SQL](https://github.com/shumarb/leetcode/blob/main/submissions/recyclable_and_low_fat_products.sql)                | 501ms   | 52.32% |
