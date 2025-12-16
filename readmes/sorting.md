@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 150/489.
+Completed: 151/489.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 150/489.
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArrays.java)                              | 1ms     | 98.80% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArraysTwo.java)                           | 1ms     | 98.51% |
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions//KeepMultiplyingFoundValuesByTwo.java)                     | 0ms     | 100%   |
+| [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAfterDigitSwapsByParity.java)                    | 0ms     | 100%   |
 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAtLeastTwiceOfOthers.java)                    | 0ms     | 100%   |
 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                             | 38ms    | 6.78%  |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |

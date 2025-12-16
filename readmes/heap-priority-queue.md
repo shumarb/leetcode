@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/203.
+Completed: 49/203.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 48/203.
 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSubsequenceOfLengthKWithTheLargestSum.java)        | 8ms     | 62.37% |
 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                   | 7ms     | 96.27% |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargest.java)                                       | 21ms    | 53.45% |
+| [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAfterDigitSwapsByParity.java)                    | 0ms     | 100%   |
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastStoneWeight.java)                                  | 1ms     | 97.76% |
 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayZeroBySubtractingEqualAmounts.java)           | 0ms     | 100%   |
 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfTwoElementsInAnArray.java)             | 0ms     | 100%   |
