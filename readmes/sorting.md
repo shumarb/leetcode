@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 151/489.
+Completed: 152/489.
 
 ## Submissions
 ### Easy
@@ -43,7 +43,7 @@ Completed: 151/489.
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArrays.java)                              | 1ms     | 98.80% |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArraysTwo.java)                           | 1ms     | 98.51% |
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions//KeepMultiplyingFoundValuesByTwo.java)                     | 0ms     | 100%   |
-| [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAfterDigitSwapsByParity.java)                    | 0ms     | 100%   |
+| [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAfterDigitSwapsByParity.java)                 | 0ms     | 100%   |
 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestNumberAtLeastTwiceOfOthers.java)                    | 0ms     | 100%   |
 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                             | 38ms    | 6.78%  |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java)      | 6ms     | 61.28% |
@@ -139,6 +139,7 @@ Completed: 151/489.
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)            | 26ms    | 61.51% |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                   | 245ms   | 26.60% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                  | 7ms     | 97.71% |
+| [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                   | 12ms    | 96.61% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)               | 10ms    | 90.87% |
 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)             | 11ms    | 12.02% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                         | 46ms    | 82.48% |
