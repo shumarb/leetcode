@@ -31,9 +31,9 @@ class LargestNumberAfterDigitSwapsByParity {
 
     private int[] getDigits(int n) {
         int[] digits;
-        int nCopy = n;
         int j;
         int len = 0;
+        int nCopy = n;
 
         while (nCopy != 0) {
             len++;
