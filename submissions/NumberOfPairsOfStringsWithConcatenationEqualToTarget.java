@@ -2,34 +2,38 @@
 
 class NumberOfPairsOfStringsWithConcatenationEqualToTarget {
     public int numOfPairs(String[] nums, String target) {
+        Map<String, Integer> map = new HashMap<>();
         boolean isTest = false;
-        int n = nums.length;
         int result = 0;
 
-        for (int i = 0; i < n; i++) {
-            StringBuilder current = new StringBuilder();
-            current.append(nums[i]);
-            int len = current.length();
+        for (String e: nums) {
+            map.put(e, 1 + map.getOrDefault(e, 0));
+        }
+        if (isTest) {
+            System.out.println("map: " + map);
+            System.out.println("-------------------------------------------");
+        }
+
+        for (String prefix: nums) {
+            if (!target.startsWith(prefix)) {
+                continue;
+            }
+            String suffix = target.substring(prefix.length());
             if (isTest) {
-                System.out.println("---------------------------\ni: " + i + "\ncurrent: " + current);
+                System.out.println("prefix: " + prefix + " -> suffix: " + suffix);
+                System.out.println("-------------------------------------------");
             }
-            for (int j = 0; j < n; j++) {
-                if (j == i) {
-                    continue;
-                }
-                String incoming = nums[j];
-                if (isTest) {
-                    System.out.print(" * j: " + j + " | incoming: " + incoming + " | before, current: " + current);
-                }
-                current.append(nums[j]);
-                if (isTest) {
-                    System.out.println(" | after, current: " + current);
-                }
-                if (current.toString().equals(target)) {
-                    result++;
-                }
-                current.setLength(len);
+
+            if (!map.containsKey(suffix)) {
+                continue;
             }
+
+            // 1. If prefix == suffix, get count - 1 to prevent counting of self-pairs.
+            int count = prefix.equals(suffix) ? map.get(suffix) - 1 : map.get(suffix);
+            result += count;
+        }
+        if (isTest) {
+            System.out.println("result: " + result);
         }
 
         return result;
