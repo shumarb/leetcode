@@ -15,17 +15,17 @@ class NumberOfPairsOfStringsWithConcatenationEqualToTarget {
         }
 
         for (String prefix: nums) {
-            if (!target.startsWith(prefix)) {
+            if (prefix.length() > target.length() || !target.startsWith(prefix)) {
                 continue;
             }
+
             String suffix = target.substring(prefix.length());
+            if (!map.containsKey(suffix)) {
+                continue;
+            }
             if (isTest) {
                 System.out.println("prefix: " + prefix + " -> suffix: " + suffix);
                 System.out.println("-------------------------------------------");
-            }
-
-            if (!map.containsKey(suffix)) {
-                continue;
             }
 
             // 1. If prefix == suffix, get count - 1 to prevent counting of self-pairs.
