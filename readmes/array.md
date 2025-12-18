@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 559/2061.
+Completed: 560/2061.
 
 ## Submissions
 ### Easy
@@ -486,6 +486,7 @@ Completed: 559/2061.
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 4ms     | 99.46% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                                  | 7ms     | 97.71% |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                                   | 12ms    | 96.61% |
+| [Minimum Absolute Difference Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                 | 49ms    | 86.40% |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                                 | 16ms    | 96.94% |
 | [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDistanceBetweenThreeEqualElementsTwo.java)                     | 58ms    | 93.75% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                               | 10ms    | 90.87% |
