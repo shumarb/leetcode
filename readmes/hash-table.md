@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 275/762.
+Completed: 276/762.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 275/762.
 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfOneStringSwapCanMakeStringsEqual.java)                | 0ms     | 100%   |
 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTheNumberIsFascinating.java)                          | 0ms     | 100%   |
 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfTheSentenceIsPangram.java)                            | 0ms     | 100%   |
+| [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDistinctNumbersOnBoard.java)                    | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                      | 6ms     | 89.98% |
 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithMaximumFrequency.java)                      | 0ms     | 100%   |
 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountLargestGroup.java)                                      | 3ms     | 96.75% |

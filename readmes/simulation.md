@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/195.
+Completed: 98/195.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 97/195.
 | [Compute Alternating Sum](https://leetcode.com/problems/computing-alternating-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeAlternatingSum.java)                            | 1ms     | 94.44% |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenationOfArrays.java)                            | 1ms     | 96.28% |
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                        | 2ms     | 100%   |
+| [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDistinctNumbersOnBoard.java)                    | 0ms     | 100%   |
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIntegersWithEvenDigitSum.java)                    | 1ms     | 86.87% |
 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOperationsToObtainZero.java)                      | 1ms     | 90.10% |
 | [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTestedDevicesAfterTestOperations.java)            | 0ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 560/2061.
+Completed: 561/2061.
 
 ## Submissions
 ### Easy
@@ -65,6 +65,7 @@ Completed: 560/2061.
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                              | 2ms     | 100%   |
 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java)                   | 0ms     | 100%   |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                      | 6ms     | 89.98% |
+| [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDistinctNumbersOnBoard.java)                    | 0ms     | 100%   |
 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithMaximumFrequency.java)                      | 0ms     | 100%   |
 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithStrictlySmallerAndGreaterElements.java)     | 0ms     | 100%   |
 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountEqualAndDivisiblePairsInAnArray.java)                   | 3ms     | 99.52% |
