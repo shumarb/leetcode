@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/233.
+Completed: 90/234.
 
 ## Submissions
 ### Easy
@@ -75,6 +75,7 @@ Completed: 89/233.
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                             | 30ms    | 69.14% |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                | 11ms    | 98.01% |
+| [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                    | 6ms     | 98.19% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)               | 5ms     | 74.40% |
 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteTheMiddleNodeOfALinkedList.java)     | 3ms     | 99.75% |
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)   | 5ms     | 96.36% |

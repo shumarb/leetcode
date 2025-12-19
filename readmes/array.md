@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 561/2061.
+Completed: 562/2061.
 
 ## Submissions
 ### Easy
@@ -382,6 +382,7 @@ Completed: 561/2061.
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100%   |
 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                                            | 39ms    | 69.34% |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                                  | 0ms     | 100%   |
+| [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                    | 6ms     | 98.19% |
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                                 | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                       | 1ms     | 100%   |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                                | 2ms     | 99.45% |
