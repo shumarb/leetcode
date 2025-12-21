@@ -27,8 +27,8 @@ class BalancedBinaryTree {
         }
 
         /**
-         2.  Recursively ibtain height of left subtree.
-         If it is unbalaned, entire tree is unbalanced.
+         2.  Recursively obtain height of left subtree.
+             If it is unbalanced, entire tree is unbalanced.
          */
         int leftSubtreeHeight = helper(node.left);
         if (leftSubtreeHeight == -1) {
@@ -37,7 +37,7 @@ class BalancedBinaryTree {
 
         /**
          3.  Recursively obtain height of left subtree.
-         If it is unbalaned, entire tree is unbalanced.
+             If it is unbalanced, entire tree is unbalanced.
          */
         int rightSubtreeHeight = helper(node.right);
         if (rightSubtreeHeight == -1) {
@@ -46,14 +46,14 @@ class BalancedBinaryTree {
 
         /**
          4.  Check if subtree with its root being current node is unbalanced.
-         If it is unbalanced, entire tree is unbalanced
+             If it is unbalanced, entire tree is unbalanced
          */
         if (Math.abs(rightSubtreeHeight - leftSubtreeHeight) > 1) {
             return -1;
         }
 
         /**
-         Current tree is balanced, so return its height.
+            5. Current tree is balanced, so return its height.
          */
         return 1 + Math.max(leftSubtreeHeight, rightSubtreeHeight);
     }
