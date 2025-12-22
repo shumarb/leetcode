@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/195.
+Completed: 99/195.
 
 ## Submissions
 ### Easy
@@ -98,6 +98,7 @@ Completed: 98/195.
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                             | 11ms    | 98.01% |
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                   | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)         | 1ms     | 100%   |
+| [Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnhappyFriends.java)                                                     | 2ms     | 95.12% |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                  | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)       | 9ms     | 78.44% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                            | 12ms    | 88.41% |
