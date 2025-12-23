@@ -18,10 +18,6 @@ class LinkedListComponents {
         int largest = 0;
         int result = 0;
 
-        while (current != null) {
-            largest = Math.max(largest, current.val);
-            current = current.next;
-        }
         for (int e: nums) {
             largest = Math.max(e, largest);
         }
@@ -45,8 +41,8 @@ class LinkedListComponents {
                 System.out.println("------------------------------------------------------\ncurrent: " + current.val);
             }
 
-            if (isPresentInNums[current.val]) {
-                while (current != null && isPresentInNums[current.val]) {
+            if (current.val <= largest && isPresentInNums[current.val]) {
+                while (current != null && current.val <= largest && isPresentInNums[current.val]) {
                     current = current.next;
                 }
                 result++;
