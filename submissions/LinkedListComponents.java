@@ -46,14 +46,8 @@ class LinkedListComponents {
             }
 
             if (isPresentInNums[current.val]) {
-                List<Integer> component = new ArrayList<>();
-
                 while (current != null && isPresentInNums[current.val]) {
-                    component.add(current.val);
                     current = current.next;
-                }
-                if (isTest) {
-                    System.out.println(" * component: " + component);
                 }
                 result++;
 
