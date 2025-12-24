@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/73.
+Completed: 5/73.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 4/73.
 | Question                                                                                            | Submission                                                                                                  | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.84% |
+| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 157ms   | 93.88% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                           | 19ms    | 83.88% |
 
 ### Hard

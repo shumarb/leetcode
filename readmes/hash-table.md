@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 277/762.
+Completed: 278/762.
 
 ## Submissions
 ### Easy
@@ -241,6 +241,7 @@ Completed: 277/762.
 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListComponents.java)                                         | 1ms     | 100%   |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                           | 0ms     | 100%   |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                 | 383ms   | 69.83% |
+| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 157ms   | 93.88% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                   | 31ms    | 56.92% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                    | 6ms     | 70.55% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                           | 12ms    | 38.35% |
