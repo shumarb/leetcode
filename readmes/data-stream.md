@@ -25,7 +25,7 @@ Completed: 8/22.
 | [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)       | 69ms    | 15.58% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 8ms     | 34.76% |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)           | 26ms    | 68.56% |
-| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 16ms    | 99.89% |
+| [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 16ms    | 100%   |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)           | 109ms   | 52.64% |
 
 ### Hard
