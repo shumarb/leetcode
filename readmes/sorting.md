@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 153/489.
+Completed: 154/492.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                              | Submission                                                                                                                  | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Absolute Difference Between Maximum and Minimum K Elements](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AbsoluteDifferenceBetweenMaximumAndMinimumKElements.java)  | 1ms     | 100%   |
 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppleRedistributionIntoBoxes.java)                         | 1ms     | 100%   |
 | [Array Partition](https://leetcode.com/problems/array-partition/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArrayPartition.java)                                       | 12ms    | 97.33% |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                        | 11ms    | 35.51% |

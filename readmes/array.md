@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 566/2069.
+Completed: 567/2069.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                                        | Submission                                                                                                                    | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Absolute Difference Between Maximum and Minimum K Elements](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AbsoluteDifferenceBetweenMaximumAndMinimumKElements.java)  | 1ms     | 100%   |
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddToArrayFormOfInteger.java)                                | 2ms     | 99.20% |
 | [Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdjacentIncreasingSubarraysDetectionOne.java)                | 2ms     | 38.87% |
 | [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsOne.java)                                   | 1ms     | 97.05% |
