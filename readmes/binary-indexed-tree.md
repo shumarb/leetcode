@@ -14,9 +14,9 @@ Completed: 2/43.
 
 ## Submissions
 ### Medium
-| Question                                                                        | Submission                                                                                             | Runtime | Rank   |
-|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java) | 1288ms  | 12.58% |
+| Question                                                                            | Submission                                                                                | Runtime | Rank   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------|--------|
+| [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java) | 15ms    | 87.60% |
 
 ### Hard
 | Question                                                                        | Submission                                                                                             | Runtime | Rank   |
