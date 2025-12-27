@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 567/2069.
+Completed: 568/2069.
 
 ## Submissions
 ### Easy
@@ -405,6 +405,7 @@ Completed: 567/2069.
 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfBadPairs.java)                                           | 45ms    | 23.08% |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java)             | 33ms    | 98.46% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                      | 7ms     | 95.59% |
+| [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java) | 1288ms  | 12.58% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                               | 3ms     | 100%   |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 94ms    | 82.87% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                            | 34ms    | 79.84% |

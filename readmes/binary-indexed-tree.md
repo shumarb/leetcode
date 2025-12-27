@@ -10,9 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/44.
+Completed: 2/43.
 
 ## Submissions
+### Medium
+| Question                                                                        | Submission                                                                                             | Runtime | Rank   |
+|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java) | 1288ms  | 12.58% |
+
 ### Hard
 | Question                                                                        | Submission                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
