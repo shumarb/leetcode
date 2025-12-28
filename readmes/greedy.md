@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 75/447.
+Completed: 76/451.
 
 ## Submissions
 ### Easy
@@ -84,6 +84,7 @@ Completed: 75/447.
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                  | 1ms     | 51.13% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                 | 10ms    | 90.87% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                   | 172ms   | 82.34% |
+| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)               | 11ms    | 24.39% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                           | 46ms    | 82.48% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                          | 17ms    | 92.02% |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                            | 2ms     | 94.48% |
