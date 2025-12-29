@@ -3,27 +3,28 @@
 class FindValidPairOfAdjacentDigitsInString {
     public String findValidPair(String s) {
         StringBuilder validPair = new StringBuilder();
-        int[] digitFrequency = new int[10];
         boolean isTest = false;
+        int[] digitFrequency = new int[10];
 
         for (int i = 0; i < s.length(); i++) {
-            digitFrequency[Character.getNumericValue(s.charAt(i))]++;
+            digitFrequency[s.charAt(i) - '0']++;
         }
         if (isTest) {
             System.out.println("s: " + s);
             System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
+            System.out.println("--------------------------------------------------");
         }
 
         for (int i = 0; i < s.length() - 1; i++) {
-            int firstDigit = Character.getNumericValue(s.charAt(i));
-            int secondDigit = Character.getNumericValue(s.charAt(i + 1));
+            int firstDigit = s.charAt(i) - '0';
+            int secondDigit = s.charAt(i + 1) - '0';
             if (firstDigit != secondDigit) {
                 if (isTest) {
                     System.out.println("first digit: " + firstDigit + ", secondDigit: " + secondDigit);
                 }
                 if (digitFrequency[firstDigit] == firstDigit && digitFrequency[secondDigit] == secondDigit) {
-                    validPair.append(s.charAt(i));
-                    validPair.append(s.charAt(i + 1));
+                    validPair.append(firstDigit);
+                    validPair.append(secondDigit);
                     break;
                 }
             }
