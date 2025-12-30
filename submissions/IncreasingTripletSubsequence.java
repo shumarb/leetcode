@@ -2,6 +2,11 @@
 
 class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
+        // 1. Edge case: Less than 3 elements.
+        if (nums.length < 3) {
+            return false;
+        }
+
         boolean isTest = false;
         long smallest = Long.MAX_VALUE;
         long secondSmallest = Long.MAX_VALUE;
