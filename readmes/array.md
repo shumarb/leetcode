@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 570/2069.
+Completed: 571/2069.
 
 ## Submissions
 ### Easy
@@ -456,6 +456,7 @@ Completed: 570/2069.
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 7ms     | 65.30% |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                     | 8ms     | 51.20% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                                 | 63ms    | 27.26% |
+| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingTripletSubsequence.java)                          | 2ms     | 98.72% |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                                   | 25ms    | 98.76% |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                                  | 2ms     | 31.53% |
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                             | 77ms    | 16.45% |
