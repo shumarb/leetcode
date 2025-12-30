@@ -21,12 +21,10 @@ class LengthOfLongestFibonacciSubsequence {
                     first = second;
                     second = arr[nextIndex];
                 }
-                if (current >= 3) {
-                    result = Math.max(current, result);
-                }
+                result = Math.max(current, result);
             }
         }
 
-        return result;
+        return result >= 3 ? result : 0;
     }
 }
