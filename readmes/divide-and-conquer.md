@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/60.
+Completed: 23/60.
 
 ## Submissions
 ### Easy
@@ -28,6 +28,7 @@ Completed: 22/60.
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                     | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
+| [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java) | 43ms    | 53.25% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.83% |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 157ms   | 93.88% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                 | 16ms    | 95.51% |

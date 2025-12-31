@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/329.
+Completed: 57/329.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 56/329.
 | Question                                                                                                                                                       | Submission                                                                                                             | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java) | 810ms   | 7.09%  |
+| [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java) | 43ms    | 53.25% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems//find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)  | 0ms     | 100%   |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                            | 4ms     | 96.68% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)  | 35ms    | 27.51% |
