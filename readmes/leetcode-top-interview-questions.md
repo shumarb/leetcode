@@ -45,6 +45,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java) | 0ms     | 100%   |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 94.55% |
 
 ## Sorting and Searching
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
