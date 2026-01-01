@@ -8,17 +8,21 @@ class KDivisibleElementsSubarrays {
         int result = 0;
 
         for (int i = 0; i < n; i++) {
+            int count = 0;
             for (int j = i; j < n; j++) {
-                int[] sub = Arrays.copyOfRange(nums, i, j + 1);
-                String key = Arrays.toString(sub);
-                if (!set.contains(key)) {
-                    set.add(key);
-                    if (isValid(sub, p, k)) {
-                        if (isTest) {
-                            System.out.println(" * valid: " + key);
-                        }
-                        result++;
+                if (nums[j] % p == 0) {
+                    count++;
+                }
+                if (count > k) {
+                    break;
+                }
+
+                String key = Arrays.toString(Arrays.copyOfRange(nums, i, j + 1));
+                if (set.add(key)) {
+                    if (isTest) {
+                        System.out.println(" * valid: " + key);
                     }
+                    result++;
                 }
             }
         }
@@ -27,17 +31,5 @@ class KDivisibleElementsSubarrays {
         }
 
         return result;
-    }
-
-    private boolean isValid(int[] arr, int p, int k) {
-        for (int e: arr) {
-            if (e % p == 0) {
-                if (--k < 0) {
-                    return false;
-                }
-            }
-        }
-
-        return true;
     }
 }
