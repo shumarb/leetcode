@@ -51,3 +51,8 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)                                              | 24ms    | 98.13% |
+
+## Others
+| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)                                                | 0ms     | 100%   |
