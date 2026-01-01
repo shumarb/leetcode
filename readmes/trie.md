@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 12/59.
+Completed: 13/60.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 12/59.
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                 | 162ms   | 94.15% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)       | 46ms    | 87.58% | 
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                           | 33ms    | 85.89% | 
+| [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 1249ms  | 5.31%  |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                         | 10ms    | 97.30% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)   | 55ms    | 74.33% |
 | [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                   | 46ms    | 44.44% |

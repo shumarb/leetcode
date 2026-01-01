@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/131.
+Completed: 28/132.
 
 ## Submissions
 ### Easy
@@ -46,4 +46,5 @@ Completed: 27/131.
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |
+| [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 1249ms  | 5.31%  |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)      | 2ms     | 99.72% |
