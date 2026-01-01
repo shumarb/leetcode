@@ -50,6 +50,9 @@ class FourDivisors {
                 if (e / i != i) {
                     divisors.add(e / i);
                 }
+                if (divisors.size() > 4) {
+                    return new ArrayList<>();
+                }
             }
         }
 
