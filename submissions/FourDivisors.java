@@ -24,7 +24,7 @@ class FourDivisors {
                 sum.put(e, total);
             }
         }
-        if (sum.isEmpty() || map.isEmpty()) {
+        if (map.isEmpty()) {
             return 0;
         }
 
