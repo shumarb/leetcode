@@ -5,10 +5,11 @@ class KDivisibleElementsSubarrays {
         Set<String> set = new HashSet<>();
         boolean isTest = false;
         int n = nums.length;
-        int result = 0;
 
         for (int i = 0; i < n; i++) {
+            StringBuilder sub = new StringBuilder();
             int count = 0;
+
             for (int j = i; j < n; j++) {
                 if (nums[j] % p == 0) {
                     count++;
@@ -16,20 +17,19 @@ class KDivisibleElementsSubarrays {
                 if (count > k) {
                     break;
                 }
-
-                String key = Arrays.toString(Arrays.copyOfRange(nums, i, j + 1));
-                if (set.add(key)) {
+                sub.append(nums[j]);
+                sub.append(" ");
+                if (set.add(sub.toString())) {
                     if (isTest) {
-                        System.out.println(" * valid: " + key);
+                        System.out.println(" * valid: " + sub.toString());
                     }
-                    result++;
                 }
             }
         }
         if (isTest) {
-            System.out.println("--------------------------------------------\nset: " + set + "\nresult: " + result);
+            System.out.println("--------------------------------------------\nset: " + set + "\nresult: " + set.size());
         }
 
-        return result;
+        return set.size();
     }
 }
