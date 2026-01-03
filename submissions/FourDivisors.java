@@ -2,60 +2,54 @@
 
 class FourDivisors {
     public int sumFourDivisors(int[] nums) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        Map<Integer, Integer> sum = new HashMap<>();
         boolean isTest = false;
+        int[] map;
+        int largest = 0;
         int result = 0;
 
         for (int e: nums) {
-            if (map.containsKey(e)) {
-                continue;
-            }
-            List<Integer> divisors = getDivisors(e);
-            if (isTest) {
-                System.out.println("e: " + e + " -> divisors: " + divisors);
-            }
-            if (divisors.size() == 4) {
-                int total = 0;
-                for (int value: divisors) {
-                    total += value;
-                }
-                map.put(e, divisors);
-                sum.put(e, total);
-            }
+            largest = Math.max(e, largest);
         }
-        if (map.isEmpty()) {
-            return 0;
-        }
+        map = new int[largest + 1];
 
         for (int e: nums) {
-            result += sum.getOrDefault(e, 0);
+            if (map[e] > 0) {
+                result += map[e];
+                continue;
+            }
+
+            List<Integer> divisors = new ArrayList<>();
+            divisors.add(1);
+            divisors.add(e);
+
+            for (int i = 2; i <= Math.sqrt(e); i++) {
+                if (e % i == 0) {
+                    divisors.add(i);
+                    if (e / i != i) {
+                        divisors.add(e / i);
+                    }
+                    if (divisors.size() > 4) {
+                        break;
+                    }
+                }
+            }
+            if (divisors.size() == 4) {
+                if (isTest) {
+                    System.out.println(" * valid: " + e + " -> divisors: " + divisors);
+                }
+                int sum = 0;
+                for (int number: divisors) {
+                    result += number;
+                    sum += number;
+                }
+                map[e] = sum;
+            }
         }
         if (isTest) {
-            System.out.println("------------------------------------");
-            System.out.println("map: " + map + "\nsum: " + sum + "\nresult: " + result);
+            System.out.println("----------------------------------------------------");
+            System.out.println("map: " + Arrays.toString(map) + "\nresult: " + result);
         }
 
         return result;
-    }
-
-    private List<Integer> getDivisors(int e) {
-        List<Integer> divisors = new ArrayList<>();
-        divisors.add(1);
-        divisors.add(e);
-
-        for (int i = 2; i <= Math.sqrt(e); i++) {
-            if (e % i == 0) {
-                divisors.add(i);
-                if (e / i != i) {
-                    divisors.add(e / i);
-                }
-                if (divisors.size() > 4) {
-                    return new ArrayList<>();
-                }
-            }
-        }
-
-        return divisors;
     }
 }
