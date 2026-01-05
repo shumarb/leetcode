@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 88/150.
+Completed: 89/150.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 88/150.
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                   | 0ms     | 100%   |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                         | 31ms    | 56.92% |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                        | 18ms    | 51.89% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)          | 6ms     | 70.02% |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)            | 5ms     | 100%   |

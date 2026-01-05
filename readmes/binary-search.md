@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/329.
+Completed: 58/329.
 
 ## Submissions
 ### Easy
@@ -57,6 +57,7 @@ Completed: 57/329.
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                         | 344ms   | 44.26% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)               | 11ms    | 65.35% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                    | 383ms   | 69.83% |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87% |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                 | 24ms    | 66.86% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                          | 1ms     | 99.72% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                                      | 19ms    | 83.88% |

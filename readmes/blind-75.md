@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/75.
+Completed: 56/75.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 55/75.
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                     | 2ms     | 36.52% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                           | 2ms     | 84.17% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87% |
 | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-subsequence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSubsequence.java)                      | 31ms    | 56.92% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                        | 18ms    | 51.89% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)          | 6ms     | 70.02% |
