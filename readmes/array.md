@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 575/2069.
+Completed: 576/2075.
 
 ## Submissions
 ### Easy
@@ -469,6 +469,7 @@ Completed: 575/2069.
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                                         | 344ms   | 44.26% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                                      | 3ms     | 98.86% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)                               | 11ms    | 65.35% |
+| [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)      | 190ms   | 57.17% |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                       | 38ms    | 93.18% |
 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestFibonacciSubsequence.java)                       | 196ms   | 35.02% |
 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListComponents.java)                                         | 1ms     | 100%   |

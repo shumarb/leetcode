@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 183/644.
+Completed: 184/647.
 
 ## Submissions
 ### Easy
@@ -173,6 +173,7 @@ Completed: 183/644.
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                                       | 25ms    | 98.76% |
 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java)            | 2ms     | 57.29% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                              | 30ms    | 63.52% |
+| [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)      | 190ms   | 57.17% |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                | 9ms     | 100%   |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                              | 0ms     | 100%   |
 | [Minimum Absolute Difference Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                 | 48ms    | 92.88% |
