@@ -17,20 +17,20 @@
  */
 class MaximumLevelSumOfABinaryTree {
     public int maxLevelSum(TreeNode root) {
-        int maximumLevelSum = Integer.MIN_VALUE;
-        int smallestLevelOfMaximumSum = Integer.MAX_VALUE;
-        int level = 0;
-        boolean isTest = true;
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
+        boolean isTest = false;
+        int level = 1;
+        int maximumSum = Integer.MIN_VALUE;
+        int smallestLevel = Integer.MAX_VALUE;
 
+        queue.offer(root);
         while (!queue.isEmpty()) {
-            level++;
             int size = queue.size();
-            int currentLevelSum = 0;
+            int sum = 0;
+
             for (int i = 0; i < size; i++) {
                 TreeNode current = queue.poll();
-                currentLevelSum += current.val;
+                sum += current.val;
                 if (current.left != null) {
                     queue.offer(current.left);
                 }
@@ -38,14 +38,23 @@ class MaximumLevelSumOfABinaryTree {
                     queue.offer(current.right);
                 }
             }
-            if (currentLevelSum > maximumLevelSum) {
-                maximumLevelSum = currentLevelSum;
-                smallestLevelOfMaximumSum = level;
-            } else if (currentLevelSum == maximumLevelSum && level < smallestLevelOfMaximumSum) {
-                smallestLevelOfMaximumSum = level;
+
+            if (isTest) {
+                System.out.println("level " + level + " -> " + sum );
+                System.out.println(" * before, maximumSum: " + maximumSum + ", smallestLevel: " + smallestLevel);
             }
+            if (sum > maximumSum) {
+                maximumSum = sum;
+                smallestLevel = level;
+            }
+            if (isTest) {
+                System.out.println(" * after, maximumSum: " + maximumSum + ", smallestLevel: " + smallestLevel);
+                System.out.println("-------------------------------------------------------------------------");
+            }
+
+            level++;
         }
 
-        return smallestLevelOfMaximumSum;
+        return smallestLevel;
     }
 }
