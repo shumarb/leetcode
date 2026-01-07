@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/451.
+Completed: 78/454.
 
 ## Submissions
 ### Easy
@@ -58,6 +58,7 @@ Completed: 77/451.
 ### Medium
 | Question                                                                                                                                                              | Submission                                                                                                               | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddMinimumNumberOfRungs.java)                                         | 1ms     | 100%   |
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                          | 2ms     | 95.99% |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                    | 6ms     | 98.19% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                            | 5ms     | 74.40% |
