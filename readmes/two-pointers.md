@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 90/234.
+Completed: 92/238.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 90/234.
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord..java)                            | 1ms     | 52.92% |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)                                   | 0ms     | 100%   |
 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseStringTwo.java)                                | 1ms     | 80.89% |
+| [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseStringPrefix.java)                                          | 1ms     | 99.94% |
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseVowelsOfAString.java)                          | 4ms     | 50.91% |
 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAStringThree.java)                      | 4ms     | 86.63% |
 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceToACharacter.java)                    | 1ms     | 98.82% |
