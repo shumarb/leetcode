@@ -70,6 +70,6 @@ Completed: 49/203.
 ### Hard
 | Question                                                                                                | Submission                                                                                  | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 99ms    | 63.65% |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)         | 99ms    | 98.92% |
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java)    | 4ms     | 79.14% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 7ms     | 99.46% |

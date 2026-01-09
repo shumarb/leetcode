@@ -31,4 +31,4 @@ Completed: 8/22.
 ### Hard
 | Question                                                                                                  | Submission                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------|--------|
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)          | 99ms    | 63.65% |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)          | 99ms    | 98.92% |
