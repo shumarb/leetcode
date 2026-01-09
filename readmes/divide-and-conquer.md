@@ -45,4 +45,4 @@ Completed: 23/60.
 ### Hard
 | Question                                                                                | Submission                                                                               | Runtime | Rank |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|------|
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 74%  |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 79.14% |
