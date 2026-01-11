@@ -2,20 +2,32 @@
 
 class HowManyNumbersAreSmallerThanTheCurrentNumber {
     public int[] smallerNumbersThanCurrent(int[] nums) {
-        int[] ans = Arrays.copyOf(nums, nums.length);
-        Arrays.sort(nums);
-        Map<Integer, Integer> map = new HashMap<> ();
-        for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            if (!map.containsKey(num)) {
-                map.put(num, i);
+        boolean isTest = false;
+        int largest = 0;
+        int n = nums.length;
+        int[] count;
+        int[] result = new int[n];
+
+        for (int e: nums) {
+            largest = Math.max(e, largest);
+        }
+        count = new int[largest + 1];
+        for (int e: nums) {
+            count[e]++;
+        }
+        for (int i = 1; i <= largest; i++) {
+            count[i] += count[i - 1];
+        }
+        for (int i = 0; i < n; i++) {
+            int key = nums[i];
+            if (key > 0) {
+                result[i] = count[key - 1];
             }
         }
-        for (int i = 0; i < ans.length; i++) {
-            int num = ans[i];
-            ans[i] = map.get(num);
+        if (isTest) {
+            System.out.println("count: " + Arrays.toString(count) + "\nresult: " + Arrays.toString(result));
         }
-        return ans;
-    }
 
+        return result;
+    }
 }
