@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/266.
+Completed: 49/268.
 
 ## Submissions
 ### Easy
@@ -58,6 +58,7 @@ Completed: 48/266.
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)           | 4ms     | 94.20% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)           | 11ms    | 65.35% |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)               | 245ms   | 26.60% |
+| [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                      | 22ms    | 37.32% |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                              | 3ms     | 71.06% |
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                             | 0ms     | 100%   |
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                          | 5ms     | 99.37% |
