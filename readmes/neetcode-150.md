@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/150.
+Completed: 90/150.
 
 ## Submissions
 ### Easy
@@ -51,6 +51,7 @@ Completed: 89/150.
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                                      | 1ms     | 100%   |
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 94.55% |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.42% |
+| [Clone Graphs](https://leetcode.com/problems/clone-graphs/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java) | 24ms    | 95.39% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                     | 24ms    | 31.86% |
 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChangeTwo.java)                                  | 7ms     | 71.94% |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
