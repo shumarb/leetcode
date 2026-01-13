@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 283/841.
+Completed: 284/841.
 
 ## Submissions
 ### Easy
@@ -123,6 +123,7 @@ Completed: 283/841.
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java)                   | 1ms     | 92.54% |
 | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityFrequencyCharacters.java)                                  | 1ms     | 100%   |
 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeTheStringGreat.java)                                           | 3ms     | 62.40% |
+| [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeThreeStringsEqual.java)                                           | 2ms     | 17.78%  |
 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenEvenAndOddFrequencyOne.java)               | 1ms     | 100%   |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthSubstringWithTwoOccurrences.java)                     | 38ms    | 5.28%  |
 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNestingDepthOfTheParentheses.java)                          | 0ms     | 100%   |
