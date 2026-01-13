@@ -2,43 +2,21 @@
 
 class MakeThreeStringsEqual {
     public int findMinimumOperations(String s1, String s2, String s3) {
-        StringBuilder prefix = new StringBuilder();
-        String shortestWord = s1;
-        boolean isTest = false;
-        int result = 0;
+        int count = 0;
+        int i1 = 0;
+        int i2 = 0;
+        int i3 = 0;
+        int n1 = s1.length();
+        int n2 = s2.length();
+        int n3 = s3.length();
 
-        if (s2.length() < shortestWord.length()) {
-            shortestWord = s2;
-        }
-        if (s3.length() < shortestWord.length()) {
-            shortestWord = s3;
-        }
-        for (int i = 0; i < shortestWord.length(); i++) {
-            char first = s1.charAt(i);
-            char second = s2.charAt(i);
-            char third = s3.charAt(i);
-            if (first == second && first == third) {
-                prefix.append(first);
-            } else {
-                break;
-            }
-        }
-        if (isTest) {
-            System.out.println("shortestWord: " + shortestWord);
-            System.out.println("prefix: " + prefix.toString());
+        while (i1 < n1 && i2 < n2 && i3 < n3 && s1.charAt(i1) == s2.charAt(i2) && s2.charAt(i2) == s3.charAt(i3)) {
+            i1++;
+            i2++;
+            i3++;
+            count++;
         }
 
-        if (prefix.isEmpty()) {
-            return -1;
-        }
-
-        result += (s1.length() - prefix.length());
-        result += (s2.length() - prefix.length());
-        result += (s3.length() - prefix.length());
-        if (isTest) {
-            System.out.println("result: " + result);
-        }
-
-        return result;
+        return count == 0 ? -1 : (n1 - i1) + (n2 - i2) + (n3 - i3);
     }
 }
