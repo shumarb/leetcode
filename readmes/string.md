@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 284/841.
+Completed: 285/841.
 
 ## Submissions
 ### Easy
@@ -235,6 +235,7 @@ Completed: 284/841.
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                               | 162ms   | 94.15% | 
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
+| [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvaluateTheBracketPairsOfAString.java)                                        | 46ms    | 28.74%  | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                                     | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                     | 9ms     | 91.31% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)               | 35ms    | 27.51% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 282/767.
+Completed: 283/767.
 
 ## Submissions
 ### Easy
@@ -213,6 +213,7 @@ Completed: 282/767.
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)                           | 5ms     | 96.36% |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                                           | 4ms     | 99.25% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                                       | 12ms    | 88.41% |
+| [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvaluateTheBracketPairsOfAString.java)                                        | 46ms    | 28.74%  | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                                     | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                     | 9ms     | 91.31% |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                                   | 5ms     | 94.05% |
