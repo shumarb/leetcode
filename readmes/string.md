@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 285/841.
+Completed: 286/843.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 285/841.
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsOfSimilarStrings.java)                                   | 58ms    | 41.34% |
 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java)                                 | 2ms     | 99.94% |
 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixesOfAGivenString.java)                                  | 0ms     | 100%   |
+| [Count Residue Prefixes](https://leetcode.com/problems/count-residue-prefixes/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountResiduePrefixes.java)                                 | 1ms     | 99.96% |
 | [Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsThatSatisfyKConstraintsOne.java)                    | 2ms     | 52.78% |
 | [Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelSubstringsOfAString.java)                                | 6ms     | 69.73% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfConsistentStrings.java)                            | 6ms     | 86.92% |
