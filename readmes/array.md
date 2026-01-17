@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 581/2078.
+Completed: 582/2078.
 
 ## Submissions
 ### Easy
@@ -387,6 +387,7 @@ Completed: 581/2078.
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                               | 6ms     | 98.19% |
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                                 | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                       | 1ms     | 100%   |
+| [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CapacityToShipPackagesWithinDDays.java) | 12ms   | 30.22% |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                                | 2ms     | 99.45% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                                      | 24ms    | 31.86% |
 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChangeTwo.java)                                                   | 7ms     | 71.94% |
