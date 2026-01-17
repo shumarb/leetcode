@@ -2,8 +2,6 @@
 
 class MinimumNumberOfOperationsToHaveDistinctElements {
     public int minOperations(int[] nums) {
-        boolean[] isPresent;
-        boolean isTest = false;
         int[] count;
         int countDistinct = 0;
         int i = 0;
@@ -14,22 +12,16 @@ class MinimumNumberOfOperationsToHaveDistinctElements {
         for (int e: nums) {
             largest = Math.max(e, largest);
         }
-        isPresent = new boolean[largest + 1];
         count = new int[largest + 1];
         for (int e: nums) {
-            if (!isPresent[e]) {
-                isPresent[e] = true;
+            if (count[e]++ == 0) {
                 countDistinct++;
             }
-            count[e]++;
         }
-        if (isTest) {
-            System.out.println("countDistinct: " + countDistinct);
-        }
-
         if (countDistinct == n) {
             return result;
         }
+
         while (n - i >= 3) {
             for (int j = 0; j < 3; j++) {
                 int top = nums[i++];
@@ -43,6 +35,6 @@ class MinimumNumberOfOperationsToHaveDistinctElements {
             }
         }
 
-        return countDistinct == n ? result : result + 1;
+        return countDistinct == n ? result : ++result;
     }
 }
