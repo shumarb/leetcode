@@ -3,13 +3,13 @@
 class CapacityToShipPackagesWithinDDays {
     public int shipWithinDays(int[] weights, int days) {
         boolean isTest = false;
+        int high = 0;
         int leastWeightCapacity = 0;
         int low = Integer.MIN_VALUE;
-        int high = 0;
 
         for (int weight: weights) {
-            low = Math.max(low, weight);
             high += weight;
+            low = Math.max(low, weight);
         }
         if (isTest) {
             System.out.println("low: " + low + ", high: " + high);
