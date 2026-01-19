@@ -16,7 +16,7 @@ class NumberOfCenteredSubarrays {
             int current = nums[i];
             int sum = current;
 
-            set.add(nums[i]);
+            set.add(current);
             result++;
             if (isTest) {
                 System.out.println(" * counted subarray: [" + current + "] | sum: " + sum);
