@@ -52,6 +52,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)                                              | 24ms    | 98.13% |
 
+## Math
+| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
+|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
+| [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)                                                     | 1ms     | 99.69% |
+
 ## Others
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
