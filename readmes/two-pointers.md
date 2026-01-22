@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 94/238.
+Completed: 95/238.
 
 ## Submissions
 ### Easy
@@ -98,6 +98,7 @@ Completed: 94/238.
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                         | 5ms     | 75.52% |
 | [Partition List](https://leetcode.com/problems/partition-list/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionList.java)                                               | 0ms     | 100%   |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                         | 6ms     | 86.31% |
+| [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                            | 19ms    | 83.97% |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                                | 3ms     | 100%   |
 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedListTwo.java)                           | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)                                  | 0ms     | 100%   |
