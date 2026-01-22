@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 184/647.
+Completed: 185/649.
 
 ## Submissions
 ### Easy
@@ -182,6 +182,7 @@ Completed: 184/647.
 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithGcdEqualToK.java)                    | 5ms     | 91.72% |
 | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithLcmEqualToK.java)                    | 14ms    | 61.11% |
 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsWithOnly1s.java)                        | 4ms     | 88.42% |
+| [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java) | 49ms    | 48.21% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                         | 3ms     | 95.56% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                               | 0ms     | 100%   |
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                             | 132ms   | 74.11% |

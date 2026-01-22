@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 583/2078.
+Completed: 584/2078.
 
 ## Submissions
 ### Easy
@@ -533,6 +533,7 @@ Completed: 583/2078.
 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithGcdEqualToK.java)                                | 5ms     | 91.72% |
 | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithLcmEqualToK.java)                                | 14ms    | 61.11% |
 | [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithBoundedMaximum.java)                             | 3ms     | 99.79% |
+| [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java) | 49ms    | 48.21% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                                     | 3ms     | 95.56% |
 | [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                      | 2ms     | 96.88% |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                             | 5ms     | 75.52% |
