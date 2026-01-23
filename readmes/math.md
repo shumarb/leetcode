@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 185/649.
+Completed: 186/649.
 
 ## Submissions
 ### Easy
@@ -184,6 +184,7 @@ Completed: 185/649.
 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsWithOnly1s.java)                        | 4ms     | 88.42% |
 | [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java) | 49ms    | 48.21% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                         | 3ms     | 95.56% |
+| [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PerfectSquares.java)                        | 150ms   | 13.80% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                               | 0ms     | 100%   |
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                             | 132ms   | 74.11% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                    | 16ms    | 100%   |
