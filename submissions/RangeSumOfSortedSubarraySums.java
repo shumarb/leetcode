@@ -1,11 +1,11 @@
 // Question: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/
 
-class RangeSumOfSortedSubarraySums {
+class RangeSumOfSortedSubarraySums class Solution {
     public int rangeSum(int[] nums, int n, int left, int right) {
         boolean isTest = false;
         int[] updated = new int[n * (n + 1) / 2];
-        long[] prefix = new long[n * (n + 1) / 2];
         int k = 0;
+        long[] prefix = new long[n * (n + 1) / 2];
 
         for (int i = 0; i < n; i++) {
             int sum = 0;
