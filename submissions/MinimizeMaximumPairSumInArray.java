@@ -4,29 +4,19 @@ class MinimizeMaximumPairSumInArray {
     public int minPairSum(int[] nums) {
         boolean isTest = false;
         int left = 0;
-        int result = Integer.MIN_VALUE;
+        int minPairSum = 0;
         int right = nums.length - 1;
 
         nums = sort(nums);
         if (isTest) {
             System.out.println("sorted nums: " + Arrays.toString(nums));
         }
+
         while (left < right) {
-            int sum = nums[left] + nums[right];
-            if (isTest) {
-                System.out.println("--------------------------\nleft: " + left + " -> e: " + nums[left]);
-                System.out.println("right: " + right + " -> e: " + nums[right]);
-                System.out.println("sum: " + sum + " | result: " + result);
-            }
-            result = Math.max(sum, result);
-            left++;
-            right--;
-        }
-        if (isTest) {
-            System.out.println("--------------------------\nresult: " + result);
+            minPairSum = Math.max(minPairSum, nums[left++] + nums[right--]);
         }
 
-        return result;
+        return minPairSum;
     }
 
     private int[] sort(int[] nums) {
