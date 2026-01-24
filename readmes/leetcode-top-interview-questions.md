@@ -53,9 +53,10 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)                                              | 24ms    | 98.13% |
 
 ## Design
-| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                                                        | 5ms     | 83.54% |
+| Question                                                                                                | Submission                                                                              | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
+| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)   | 53ms    | 34.10% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)         | 5ms     | 83.54% |
 
 ## Math
 | Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |

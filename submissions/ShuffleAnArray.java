@@ -14,22 +14,23 @@ class ShuffleAnArray {
     }
 
     public int[] shuffle() {
-        if (nums.length == 1) {
+        if (n == 1) {
             return nums;
         }
 
         List<Integer> list = new ArrayList<>();
-        int[] result = new int[n];
+        int n = nums.length;
+        int[] shuffle = new int[n];
 
-        for (int number: nums) {
-            list.add(number);
+        for (int e: nums) {
+            list.add(e);
         }
         Collections.shuffle(list);
         for (int i = 0; i < n; i++) {
-            result[i] = list.get(i);
+            shuffle[i] = list.get(i);
         }
 
-        return result;
+        return shuffle;
     }
 }
 
