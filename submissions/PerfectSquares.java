@@ -18,6 +18,7 @@ class PerfectSquares {
         }
 
         queue.offer(0);
+        isChecked[0] = true;
         while (!queue.isEmpty()) {
             int size = queue.size();
 
@@ -34,7 +35,7 @@ class PerfectSquares {
                         }
                         return level + 1;
 
-                    } else if (sum < n) {
+                    } else if (sum < n && !isChecked[sum]) {
                         isChecked[sum] = true;
                         queue.offer(sum);
                     }
