@@ -11,6 +11,9 @@ class MinimumDifferenceBetweenHighestAndLowestOfKScores {
         }
 
         boolean isTest = false;
+        int minimumDifference = Integer.MAX_VALUE;
+        int n = nums.length;
+
         Arrays.sort(nums);
         if (isTest) {
             System.out.println("sorted nums: " + Arrays.toString(nums) + "\nk: " + k);
@@ -21,21 +24,20 @@ class MinimumDifferenceBetweenHighestAndLowestOfKScores {
          2.  Window size comprises of the entire array,
              hence return difference between its maximum and minimum element.
          */
-        if (k == nums.length) {
-            return nums[nums.length - 1] - nums[0];
+        if (k == n) {
+            return nums[n - 1] - nums[0];
         }
 
-        int minimumDifference = Integer.MAX_VALUE;
-        for (int i = 0; i <= nums.length - k; i++) {
-            int largestInCurrentWindow = nums[i + k - 1];
-            int smallestInCurrentWindow = nums[i];
-            int currentDifference = largestInCurrentWindow - smallestInCurrentWindow;
+        for (int i = 0; i <= n - k; i++) {
+            int largestInWindow = nums[i + k - 1];
+            int smallestInWindow = nums[i];
+            int currentDifference = largestInWindow - smallestInWindow;
             if (isTest) {
                 System.out.println(" * indices: " + i + ", " + (i + k - 1));
-                System.out.println(" * elements: " + smallestInCurrentWindow + ", " + largestInCurrentWindow);
+                System.out.println(" * elements: " + smallestInWindow + ", " + largestInWindow);
                 System.out.println(" * current difference: " + currentDifference + ", minimum difference: " + minimumDifference);
             }
-            minimumDifference = Math.min(minimumDifference, currentDifference);
+            minimumDifference = Math.min(currentDifference, minimumDifference);
             if (isTest) {
                 System.out.println(" ** after comparison, minimum difference: " + minimumDifference);
                 System.out.println("-------------------------------------------------------------------------------");
