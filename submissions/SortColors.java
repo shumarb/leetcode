@@ -2,36 +2,37 @@
 
 class SortColors {
     public void sortColors(int[] nums) {
-        int countZero = 0;
-        int countOne = 0;
         boolean isTest = false;
+        int countOne = 0;
+        int countZero = 0;
+        int n = nums.length;
 
-        for (int element: nums) {
-            if (element == 0) {
+        if (isTest) {
+            System.out.println("before, nums: " + Arrays.toString(nums));
+        }
+        for (int colour: nums) {
+            if (colour == 0) {
                 countZero++;
-            }
-            if (element == 1) {
+            } else if (colour == 1) {
                 countOne++;
             }
         }
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("countZero: " + countZero + " | countOne: " + countOne + " | countTwo: " + (nums.length - countZero - countOne));
-        }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (countZero != 0) {
+        for (int i = 0; i < n; i++) {
+            if (countZero > 0) {
                 nums[i] = 0;
                 countZero--;
-            } else if (countOne != 0) {
+
+            } else if (countOne > 0) {
                 nums[i] = 1;
                 countOne--;
+
             } else {
                 nums[i] = 2;
             }
         }
         if (isTest) {
-            System.out.println("final nums: " + Arrays.toString(nums));
+            System.out.println("after, nums:  " + Arrays.toString(nums));
         }
     }
 }
