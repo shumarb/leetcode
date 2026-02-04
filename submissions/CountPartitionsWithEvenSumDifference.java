@@ -14,18 +14,17 @@ class CountPartitionsWithEvenSumDifference {
 
         /**
          1.  Traverse from start to penultimate element
-         to ensure there are 2 partitions checked:
-         [0, i] & and [i + 1...n - 1].
+             to ensure there are 2 partitions checked:
+             [0, i] & and [i + 1...n - 1].
          */
         for (int i = 0; i < len - 1; i++) {
             leftSum += nums[i];
-            int rightSum = total - leftSum;
-            if ((leftSum - rightSum) % 2 == 0) {
+            if ((leftSum - (total - leftSum)) % 2 == 0) {
                 countPartitions++;
             }
             if (isTest) {
-                System.out.println("i: " + i + "\n * leftSum: " + leftSum + " | rightSum: " + rightSum);
-                System.out.println(" * difference: " + (leftSum - rightSum) + "\n * countPartitions: " + countPartitions);
+                System.out.println("i: " + i + "\n * leftSum: " + leftSum + " | rightSum: " + (total - leftSum));
+                System.out.println(" * difference: " + (leftSum - (total - leftSum)) + "\n * countPartitions: " + countPartitions);
                 System.out.println("--------------------------------------------------------------------------------------");
             }
         }
