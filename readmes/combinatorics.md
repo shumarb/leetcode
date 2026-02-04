@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 6/56.
+Completed: 7/58.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 6/56.
 ### Medium
 | Question                                                                                                              | Submission                                                                                                          | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSortedVowelStrings.java)                                     | 266ms   | 6.63%  |
 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                   | 48ms    | 29.56% |
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                 | 196ms   | 78.19% |
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                  | 0ms     | 100%   |

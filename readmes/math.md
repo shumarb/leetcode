@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 187/649.
+Completed: 188/649.
 
 ## Submissions
 ### Easy
@@ -160,6 +160,7 @@ Completed: 187/649.
 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfHomogenousSubstrings.java)                           | 11ms    | 55.99% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                  | 7ms     | 95.59% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                 | 94ms    | 82.87% |
+| [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSortedVowelStrings.java)                                     | 266ms   | 6.63%  |
 | [Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsStartingAndEndingWithGivenCharacter.java)          | 1ms     | 100%   |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                                           | 4ms     | 5.52%  |
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)                       | 18ms    | 15.32% |
