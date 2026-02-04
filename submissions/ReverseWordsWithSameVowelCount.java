@@ -4,20 +4,13 @@ class ReverseWordsWithSameVowelCount {
     public String reverseWords(String s) {
         String[] sTokens = s.split(" ");
         boolean isTest = false;
-        int vowelCount = getVowelCount(sTokens[0]);
+        int vowelCount = getVowelCount(sTokens[0].toCharArray());
 
         if (isTest) {
             System.out.println("vowelCount: " + vowelCount + "\nbefore, sTokens: " + Arrays.toString(sTokens));
-            System.out.println("-----------------------------------------------");
         }
         for (int i = 1; i < sTokens.length; i++) {
-            String current = sTokens[i];
-            if (getVowelCount(current) == vowelCount) {
-                if (isTest) {
-                    System.out.println(" * reverse: " + current);
-                }
-                sTokens[i] = reverse(current);
-            }
+            sTokens[i] = getCorrectWord(sTokens[i].toCharArray(), vowelCount);
         }
         if (isTest) {
             System.out.println("-----------------------------------------------");
@@ -27,29 +20,27 @@ class ReverseWordsWithSameVowelCount {
         return String.join(" ", sTokens);
     }
 
-    private String reverse(String current) {
-        StringBuilder updated = new StringBuilder();
-        char[] letters = current.toCharArray();
+    private String getCorrectWord(char[] letters, int vowelCount) {
+        int count = getVowelCount(letters);
         int left = 0;
         int right = letters.length - 1;
 
-        while (left < right) {
-            char temp = letters[left];
-            letters[left++] = letters[right];
-            letters[right--] = temp;
-        }
-        for (char letter: letters) {
-            updated.append(letter);
+        if (count == vowelCount) {
+            while (left < right) {
+                char temp = letters[left];
+                letters[left++] = letters[right];
+                letters[right--] = temp;
+            }
         }
 
-        return updated.toString();
+        return new String(letters);
     }
 
-    private int getVowelCount(String word) {
+    private int getVowelCount(char[] letters) {
         int vowelCount = 0;
 
-        for (char c: word.toCharArray()) {
-            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+        for (char letter: letters) {
+            if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
                 vowelCount++;
             }
         }
