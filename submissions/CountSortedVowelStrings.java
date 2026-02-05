@@ -8,12 +8,7 @@ class CountSortedVowelStrings {
 
     public int countVowelStrings(int n) {
         isTest = false;
-        letters = new char[5];
-        letters[0] = 'a';
-        letters[1] = 'e';
-        letters[2] = 'i';
-        letters[3] = 'o';
-        letters[4] = 'u';
+        letters = new char[] {'a', 'e', 'i', 'o', 'u'};
         this.n = n;
 
         explore(new StringBuilder(), 0);
