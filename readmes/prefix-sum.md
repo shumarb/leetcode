@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 37/232.
+Completed: 38/237.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 37/232.
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                              | 157ms   | 93.88% |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                      | 2ms     | 98.84% |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                                 | 3ms     | 96.09% |
+| [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageDifference.java) | 7ms     | 20%    |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                  | 1ms     | 99.72% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                | 2ms     | 89.32% |
