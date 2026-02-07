@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/201.
+Completed: 102/201.
 
 ## Submissions
 ### Easy
@@ -90,6 +90,7 @@ Completed: 101/201.
 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                             | 0ms     | 100%   |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                 | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100%   |
+| [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VowelConsonantScore.java)                                          | 1ms     | 99.82% |
 | [Water Bottles](https://leetcode.com/problems/water-bottles/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterBottles.java)                                     | 0ms     | 100%   |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
 
