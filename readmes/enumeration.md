@@ -10,13 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 29/135.
+Completed: 30/140.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                              | Submission                                                                                                        | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodTriplets.java)                          | 10ms    | 79.74% |
+| [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountMonobitIntegers.java)                 | 22ms     | 8.07%  |
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSpecialQuadruplets.java)                    | 12ms    | 86.95% |
 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSquareSumTriples.java)                      | 4ms     | 96.87% |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSymmetricIntegers.java)                     | 44ms    | 25.05% |
