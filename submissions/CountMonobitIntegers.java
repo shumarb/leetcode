@@ -7,36 +7,31 @@ class CountMonobitIntegers {
         }
 
         boolean isTest = false;
-        int result = 2;
+        int count = 1; // count 0.
+        int current = 0;
+        int power = 0;
 
-        for (int i = 3; i <= n; i++) {
-            String bits = Integer.toBinaryString(i);
-            if (isTest) {
-                System.out.println(" * " + i + " -> bits: " + bits);
-            }
+        if (isTest) {
+            System.out.println(" * valid: 0");
+        }
+        while (true) {
+            current += (int) Math.pow(2, power);
 
-            boolean isValid = true;
-            for (int j = 1; j < bits.length(); j++) {
-                if (bits.charAt(j) != bits.charAt(j - 1)) {
-                    isValid = false;
-                    break;
-                }
-            }
-
-            if (isValid) {
-                if (isTest) {
-                    System.out.println(" ** valid: " + i);
-                }
-                result++;
+            if (current > n) {
+                break;
             }
             if (isTest) {
-                System.out.println("--------------------------");
+                System.out.println(" * valid: " + current);
             }
+
+            count++;
+            power++;
         }
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("-------------------------------");
+            System.out.println("final current: " + current + "\ncount: " + count);
         }
 
-        return result;
+        return count;
     }
 }
