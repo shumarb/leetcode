@@ -10,14 +10,14 @@ class CountMonobitIntegers {
         int result = 2;
 
         for (int i = 3; i <= n; i++) {
-            char[] bits = Integer.toBinaryString(i).toCharArray();
+            String bits = Integer.toBinaryString(i);
             if (isTest) {
-                System.out.println(" * " + i + " -> bits: " + Arrays.toString(bits));
+                System.out.println(" * " + i + " -> bits: " + bits);
             }
 
             boolean isValid = true;
-            for (int j = 1; j < bits.length; j++) {
-                if (bits[j] != bits[j - 1]) {
+            for (int j = 1; j < bits.length(); j++) {
+                if (bits.charAt(j) != bits.charAt(j - 1)) {
                     isValid = false;
                     break;
                 }
