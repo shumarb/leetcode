@@ -23,7 +23,7 @@ Completed: 6/74.
 |-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java) | 15ms    | 87.60% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.83% |
-| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 157ms   | 93.88% |
+| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 146ms   | 93.80% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                           | 19ms    | 83.88% |
 
 ### Hard

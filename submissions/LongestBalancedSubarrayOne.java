@@ -21,12 +21,15 @@ class LongestBalancedSubarrayOne {
 
             for (int j = i; j < n; j++) {
                 int e = nums[j];
-                if (!isCounted[e] && e % 2 == 0) {
-                    countDistinctEven++;
-                } else if (!isCounted[e] && e % 2 == 1) {
-                    countDistinctOdd++;
+                if (!isCounted[e]) {
+                    if (e % 2 == 0) {
+                        countDistinctEven++;
+                    } else {
+                        countDistinctOdd++;
+                    }
+                    isCounted[e] = true;
                 }
-                isCounted[e] = true;
+
                 if (countDistinctEven == countDistinctOdd) {
                     if (isTest) {
                         System.out.println(" * valid: " + Arrays.toString(Arrays.copyOfRange(nums, i, j + 1)));
