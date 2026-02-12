@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/634.
+Completed: 47/637.
 
 ## Submissions
 ### Easy
@@ -51,6 +51,7 @@ Completed: 46/634.
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                       | 9ms     | 80.63% |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                | 24ms    | 66.86% |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                         | 1ms     | 90.84% |
+| [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                                 | 5ms     | 37.59% |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                | 1ms     | 99.51% |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                 | 3ms     | 71.06% |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                  | 11ms    | 24.39% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/273.
+Completed: 63/273.
 
 ## Submissions
 ### Easy
@@ -76,6 +76,7 @@ Completed: 62/273.
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                   | 3ms     | 47.09% |
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java)                       | 11ms    | 60.59% |
 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                             | 242ms   | 19.79% |
+| [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                                 | 5ms     | 37.59% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                               | 9ms     | 60.28% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                    | 19ms    | 54.02% |
