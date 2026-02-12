@@ -8,13 +8,12 @@ class FindNearestPointThatHasTheSameXOrYCoordinate {
         int smallestManhattanDistance = Integer.MAX_VALUE;
 
         for (int i = 0; i < points.length; i++) {
-            int[] point = points[i];
-            int xPoint = point[0];
-            int yPoint = point[1];
+            int xPoint = points[i][0];
+            int yPoint = points[i][1];
             if (xPoint == x || yPoint == y) {
                 int manhattanDistance = Math.abs(xPoint - x) + Math.abs(yPoint - y);
                 if (isTest) {
-                    System.out.println(" * valid: " + Arrays.toString(point) + " -> manhattanDistance: " + manhattanDistance);
+                    System.out.println(" * valid: " + Arrays.toString(points[i]) + " -> manhattanDistance: " + manhattanDistance);
                 }
 
                 if (manhattanDistance < smallestManhattanDistance) {
