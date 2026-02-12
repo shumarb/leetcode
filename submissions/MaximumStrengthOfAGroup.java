@@ -26,7 +26,7 @@ class MaximumStrengthOfAGroup {
             System.out.println("countPositives: " + countPositives + "\nminHeap: " + minHeap);
         }
 
-        // 1. Edge case: 0 positive numbers and <= 1 negative numbers, so answer is 0.
+        // 2. Edge case: 0 positive numbers and <= 1 negative numbers, so answer is 0.
         if (countPositives == 0 && minHeap.size() <= 1) {
             return 0;
         }
