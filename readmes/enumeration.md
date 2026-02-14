@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/140.
+Completed: 32/140.
 
 ## Submissions
 ### Easy
@@ -43,11 +43,12 @@ Completed: 31/140.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                    | 7ms     | 17.93% |
 
 ### Medium
-| Question                                                                                                    | Submission                                                                                         | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
-| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java) | 51ms    | 81.88% |
-| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                 | 94ms    | 82.87% |
-| [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09% |
-| [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)      | 2ms     | 99.72% |
-| [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                                 | 5ms     | 37.59% |
-| [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                 | 95ms    | 58.65% |
+| Question                                                                                                                                      | Submission                                                                                                         | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                 | 51ms    | 81.88% |
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                 | 94ms    | 82.87% |
+| [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09% |
+| [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestStringAfterReverse.java) | 179ms   | 29.73% |
+| [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                      | 2ms     | 99.72% |
+| [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                     | 5ms     | 37.59% |
+| [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65% |

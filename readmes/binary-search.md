@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/331.
+Completed: 62/333.
 
 ## Submissions
 ### Easy
@@ -57,6 +57,7 @@ Completed: 61/331.
 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                             | 11ms    | 59.51% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                         | 344ms   | 44.26% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)               | 11ms    | 65.35% |
+| [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestStringAfterReverse.java) | 179ms   | 29.73% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                    | 383ms   | 69.83% |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87% |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                   | 36ms    | 95.20% |
