@@ -25,25 +25,22 @@ class LexicographicallySmallestStringAfterReverse {
     }
 
     private String reverse(char[] letters, String type, int size) {
-        if (type.equals("reverseFirst")) {
-            int i = 0;
-            int j = size - 1;
+        int i;
+        int j;
 
-            while (i < j) {
-                char temp = letters[i];
-                letters[i++] = letters[j];
-                letters[j--] = temp;
-            }
+        if (type.equals("reverseFirst")) {
+            i = 0;
+            j = size - 1;
 
         } else {
-            int i = letters.length - size;
-            int j = letters.length - 1;
+            i = letters.length - size;
+            j = letters.length - 1;
+        }
 
-            while (i < j) {
-                char temp = letters[i];
-                letters[i++] = letters[j];
-                letters[j--] = temp;
-            }
+        while (i < j) {
+            char temp = letters[i];
+            letters[i++] = letters[j];
+            letters[j--] = temp;
         }
 
         return new String(letters);

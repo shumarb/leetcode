@@ -2,44 +2,45 @@
 
 class FindFirstAndLastPositionOfElementInSortedArray {
     public int[] searchRange(int[] nums, int target) {
-        int[] ans = new int[2];
-        ans[0] = findIndex(nums, target, "start");
-        ans[1] = findIndex(nums, target, "end");
-        return ans;
+        int end = findIndex(nums, target, "end");
+        int start = findIndex(nums, target, "start");
+
+        return new int[] {start, end};
     }
 
-    private int findIndex(int[] n, int t, String s) {
+    private int findIndex(int[] arr, int key, String type) {
         int index = -1;
-        int low = 0;
-        int high = n.length - 1;
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            if (n[mid] < t) {
-                low = mid + 1;
-            } else if (n[mid] > t) {
-                high = mid - 1;
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] < key) {
+                left = mid + 1;
+
+            } else if (arr[mid] > key) {
+                right = mid - 1;
+
             } else {
-                if (s.equals("start")) {
-                    /**
-                     current element == target
-                     hence take note of it's index,
-                     but this may not be left-most
-                     hence reduce search range to [1, mid - 1]
-                     */
-                    index = mid;
-                    high = mid - 1;
+                index = mid;
+
+                /**
+                 1.  First instance of key may be before current element,
+                     so check all elements in index range [left, mid - 1].
+                 */
+                if (type.equals("start")) {
+                    right = mid - 1;
+
                 } else {
                     /**
-                     current element == target
-                     hence take note of it's index,
-                     but this may not be right-most
-                     hence reduce search range to [mid + 1, nums.length - 1]
+                     2.  Last instance of key may be after current element,
+                         so check all elements in index range [mid + 1, right].
                      */
-                    index = mid;
-                    low = mid + 1;
+                    left = mid + 1;
                 }
             }
         }
+
         return index;
     }
 }
