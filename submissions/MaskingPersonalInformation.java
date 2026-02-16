@@ -26,7 +26,6 @@ class MaskingPersonalInformation {
                 result.append(c);
             }
         }
-
         if (isTest) {
             System.out.println("before, email address: " + s + "\n * index of @: " + index);
             System.out.println("after, email address: " + result.toString());
@@ -36,21 +35,22 @@ class MaskingPersonalInformation {
     }
 
     private String maskPhoneNumber(String s) {
-        int n = s.length();
         StringBuilder digits = new StringBuilder();
         StringBuilder localNumber;
+        String firstPart;
         String lastFour;
         String lastTen;
-        String firstPart;
+        int n;
 
         for (char c: s.toCharArray()) {
             if (Character.isDigit(c)) {
                 digits.append(c);
             }
         }
-        firstPart = digits.substring(0, digits.length() - 10);
-        lastFour = digits.substring(digits.length() - 4, digits.length());
-        lastTen = digits.substring(digits.length() - 10, digits.length());
+        n = digits.length();
+        firstPart = digits.substring(0, n - 10);
+        lastFour = digits.substring(n - 4, n);
+        lastTen = digits.substring(n - 10, n);
 
         if (firstPart.length() == 0) {
             result.append("***-***-");
@@ -62,10 +62,9 @@ class MaskingPersonalInformation {
             result.append("+***-***-***-");
         }
         result.append(lastFour);
-
         if (isTest) {
-            System.out.println("before, phone number: " + s + "\n * firstPart: " + firstPart);
-            System.out.println(" * digits: " + digits + "\n * lastFour: " + lastFour + "\n * lastTen: " + lastTen);
+            System.out.println("before, phone number: " + s + "\n * digits: " + digits);
+            System.out.println(" * firstPart: " + firstPart + "\n * lastFour: " + lastFour + "\n * lastTen: " + lastTen);
             System.out.println("after, phone number: " + result.toString());
         }
 
