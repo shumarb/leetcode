@@ -15,7 +15,6 @@ class OptimalPartitionOfString {
         for (char c: s.toCharArray()) {
             if (!isUsed[c - 'a']) {
                 partition.append(c);
-                isUsed[c - 'a'] = true;
 
             } else {
                 if (isTest) {
@@ -25,14 +24,18 @@ class OptimalPartitionOfString {
                 partition = new StringBuilder();
                 partition.append(c);
                 Arrays.fill(isUsed, false);
-                isUsed[c - 'a'] = true;
             }
+
+            isUsed[c - 'a'] = true;
         }
         if (partition.length() > 0) {
             result++;
+            if (isTest) {
+                System.out.println(" * partition: " + partition);
+            }
         }
         if (isTest) {
-            System.out.println(" * after loop, partition: " + partition + "\nresult: " + result);
+            System.out.println("-----------------------------------\nresult: " + result);
         }
 
         return result;
