@@ -19,7 +19,7 @@ Completed: 23/60.
 | [Majority Element](https://leetcode.com/problems/majority-element/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElement.java)                      | 2ms     | 99.80% |
 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestNiceSubstring.java)                 | 37ms    | 17.29% |
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)                        | 0ms     | 100%   |
-| [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)                          | 2ms     | 10.28% |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)                          | 3ms     | 10.46% |
 
 ### Medium
 | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
