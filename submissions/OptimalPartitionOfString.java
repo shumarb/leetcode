@@ -23,7 +23,7 @@ class OptimalPartitionOfString {
                 result++;
                 partition = new StringBuilder();
                 partition.append(c);
-                Arrays.fill(isUsed, false);
+                isUsed = new boolean[26];
             }
 
             isUsed[c - 'a'] = true;
