@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 291/850.
+Completed: 292/851.
 
 ## Submissions
 ### Easy
@@ -269,6 +269,7 @@ Completed: 291/850.
 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)                  | 6ms     | 98.87% |
 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagramTwo.java)               | 11ms    | 96.36% |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                                | 11ms    | 24.39% |
+| [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodWaysToSplitAString.java)         | 16ms    | 47.21% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                                 | 55ms    | 74.33% |
 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)         | 3ms     | 91.55% |
 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsContainingAllThreeCharacters.java)               | 15ms    | 42.72% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/273.
+Completed: 64/274.
 
 ## Submissions
 ### Easy
@@ -79,6 +79,7 @@ Completed: 63/273.
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                                 | 5ms     | 37.59% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                               | 9ms     | 60.28% |
+| [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodWaysToSplitAString.java)         | 16ms    | 47.21% |
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RepeatedDnaSequences.java)                                    | 19ms    | 54.02% |
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                 | 0ms     | 100%   |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                              | 1ms     | 99.93% |
