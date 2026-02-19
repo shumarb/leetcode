@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 290/787.
+Completed: 291/787.
 
 ## Submissions
 ### Easy
@@ -314,3 +314,4 @@ Completed: 290/787.
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)    | 31ms    | 84.09% |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)  | 14ms    | 70.35% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java) | 43ms    | 83.32% |
+| [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |

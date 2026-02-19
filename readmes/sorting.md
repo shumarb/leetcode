@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 158/502.
+Completed: 159/505.
 
 ## Submissions
 ### Easy
@@ -182,3 +182,4 @@ Completed: 158/502.
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MedianFinder.java)                | 99ms    | 98.92% |
 | [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)              | 51ms    | 84.31% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)     | 46ms    | 86.32% |
+| [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |
