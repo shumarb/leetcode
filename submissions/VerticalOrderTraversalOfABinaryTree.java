@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class VerticalOrderTraversalOfABinaryTree {
+class Solution {
     private Map<Integer, List<int[]>> map;
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
@@ -48,11 +48,14 @@ class VerticalOrderTraversalOfABinaryTree {
          */
         for (Map.Entry<Integer, List<int[]>> e: map.entrySet()) {
             List<int[]> value = e.getValue();
-            value.sort(
-                    (a, b) -> Integer.compare(a[0], b[0]) == 0
-                            ? Integer.compare(a[1], b[1])
-                            : Integer.compare(a[0], b[0])
-            );
+            if (value.size() > 1) {
+                value.sort(
+                        (a, b) -> Integer.compare(a[0], b[0]) == 0
+                                ? Integer.compare(a[1], b[1])
+                                : Integer.compare(a[0], b[0])
+                );
+            }
+
             List<Integer> incoming = new ArrayList<>();
             for (int[] entry: value) {
                 incoming.add(entry[1]);
