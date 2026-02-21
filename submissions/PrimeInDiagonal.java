@@ -3,7 +3,7 @@
 class PrimeInDiagonal {
     public int diagonalPrime(int[][] nums) {
         boolean isTest = false;
-        int diagonalPrime = -1;
+        int diagonalPrime = 0;
         int len = nums.length;
 
         for (int i = 0; i < len; i++) {
@@ -16,15 +16,13 @@ class PrimeInDiagonal {
         int row = 0;
         int column = len - 1;
         while (row < len && column >= 0) {
-            int number = nums[row][column];
+            int number = nums[row++][column--];
             if (number >= 2 && isPrime(number)) {
                 diagonalPrime = Math.max(diagonalPrime, number);
             }
-            row++;
-            column--;
         }
 
-        return diagonalPrime == -1 ? 0 : diagonalPrime;
+        return diagonalPrime;
     }
 
     private boolean isPrime(int number) {
@@ -33,6 +31,7 @@ class PrimeInDiagonal {
                 return false;
             }
         }
+
         return true;
     }
 }
