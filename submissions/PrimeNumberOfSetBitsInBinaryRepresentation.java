@@ -2,42 +2,25 @@
 
 class PrimeNumberOfSetBitsInBinaryRepresentation {
     public int countPrimeSetBits(int left, int right) {
-        int totalPrimeNumberSetBits = 0;
+        boolean[] isPrime = new boolean[] {
+                false, false, true, true, false, true,
+                false, true, false, false, false, true,
+                false, true, false, false, false, true,
+                false, true
+        };
+        boolean isTest = false;
+        int result = 0;
 
         for (int i = left; i <= right; i++) {
-            int numOfOneBits = getNumberOfOneBits(i);
-            if (isPrime(numOfOneBits)) {
-                totalPrimeNumberSetBits++;
+            int setBits = Integer.bitCount(i);
+            if (isPrime[setBits]) {
+                if (isTest) {
+                    System.out.println(" * valid: " + i + " -> " + setBits);
+                }
+                result++;
             }
         }
 
-        return totalPrimeNumberSetBits;
-    }
-
-    private boolean isPrime(int numberOfOneBits) {
-        if (numberOfOneBits == 1) {
-            return false;
-        }
-
-        for (int i = 2; i <= Math.sqrt(numberOfOneBits); i++) {
-            if (numberOfOneBits % i == 0) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    private int getNumberOfOneBits(int number) {
-        int numberOfOneBits = 0;
-
-        while (number != 0) {
-            if (number % 2 == 1) {
-                numberOfOneBits++;
-            }
-            number /= 2;
-        }
-
-        return numberOfOneBits;
+        return result;
     }
 }
