@@ -4,19 +4,15 @@ class PrimeInDiagonal {
     public int diagonalPrime(int[][] nums) {
         boolean isTest = false;
         int diagonalPrime = 0;
-        int len = nums.length;
+        int n = nums.length;
 
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < n; i++) {
             int number = nums[i][i];
             // 1. Numbers 0 and 1 are no-prime so skip it.
             if (number >= 2 && isPrime(number)) {
                 diagonalPrime = Math.max(diagonalPrime, number);
             }
-        }
-        int row = 0;
-        int column = len - 1;
-        while (row < len && column >= 0) {
-            int number = nums[row++][column--];
+            number = nums[i][n - i - 1];
             if (number >= 2 && isPrime(number)) {
                 diagonalPrime = Math.max(diagonalPrime, number);
             }

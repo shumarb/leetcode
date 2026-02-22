@@ -2,31 +2,21 @@
 
 class BinaryGap {
     public int binaryGap(int n) {
-        // 1. No maximum gap for numbers whose binary representation is of length 2.
-        if (n <= 2) {
-            return 0;
-        }
-
-        String nBinary = Integer.toBinaryString(n);
         boolean isTest = false;
-        int lastOnePosition = -1;
-        int maximumGap = 0;
+        char[] bits = Integer.toBinaryString(n).toCharArray();
+        int lastIndex = 0;
+        int result = 0;
 
-        if (isTest) {
-            System.out.println("n: " + n + "\nnBinary: " + nBinary);
-        }
-
-        for (int i = 0; i < nBinary.length(); i++) {
-            if (nBinary.charAt(i) == '1') {
-                if (lastOnePosition == -1) {
-                    lastOnePosition = i;
-                } else {
-                    maximumGap = Math.max(maximumGap, i - lastOnePosition);
-                    lastOnePosition = i;
-                }
+        for (int i = 0; i < bits.length; i++) {
+            if (bits[i] == '1') {
+                result = Math.max(result, i - lastIndex);
+                lastIndex = i;
             }
         }
+        if (isTest) {
+            System.out.println("bits: " + Arrays.toString(bits) + "\nresult: " + result);
+        }
 
-        return maximumGap;
+        return result;
     }
 }
