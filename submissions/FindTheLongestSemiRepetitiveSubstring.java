@@ -12,7 +12,7 @@ class FindTheLongestSemiRepetitiveSubstring {
             }
             for (int j = i; j < n; j++) {
                 String sub = s.substring(i, j + 1);
-                if (isSemiRepetitiveSubstring(sub)) {
+                if (sub.length() > result && isSemiRepetitiveSubstring(sub)) {
                     if (isTest) {
                         System.out.println(" * valid: " + sub);
                     }
