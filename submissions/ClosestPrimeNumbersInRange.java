@@ -8,23 +8,27 @@ class ClosestPrimeNumbersInRange {
 
         if (isTest) {
             System.out.println("primes: " + primes);
+            System.out.println("-------------------------------------------");
         }
         if (primes.size() > 1) {
-            result[0] = primes.get(0);
-            result[1] = primes.get(1);
-            for (int i = 1; i < primes.size() - 1; i++) {
-                int first = primes.get(i);
-                int second = primes.get(i + 1);
+            int maximumDifference = Integer.MAX_VALUE;
+            for (int i = 1; i < primes.size(); i++) {
+                int first = primes.get(i - 1);
+                int second = primes.get(i);
+                int currentDifference = second - first;
+
                 if (isTest) {
-                    System.out.println(" * pair: [" + first + ", " + second + "]");
+                    System.out.println(" * [" + first + ", " + second + "] -> difference: " + currentDifference);
                 }
-                if ((second - first) < (result[1] - result[0]))  {
+                if (currentDifference < maximumDifference) {
                     result[0] = first;
                     result[1] = second;
+                    maximumDifference = currentDifference;
                 }
             }
         }
         if (isTest) {
+            System.out.println("-------------------------------------------");
             System.out.println("result: " + Arrays.toString(result));
         }
 
