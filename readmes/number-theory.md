@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/87.
+Completed: 21/88.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 20/87.
 ### Medium
 | Question                                                                                                                                    | Submission                                                                                                      | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestPrimeNumbersInRange.java)               | 102ms   | 42.96% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)              | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                              | 94ms    | 82.87% |
 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java) | 2ms     | 57.29% |
