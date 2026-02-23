@@ -6,6 +6,10 @@ class ClosestPrimeNumbersInRange {
         boolean isTest = false;
         int[] result = new int[] {-1, -1};
 
+        if (right <= 2) {
+            return result;
+        }
+
         if (isTest) {
             System.out.println("primes: " + primes);
             System.out.println("-------------------------------------------");
