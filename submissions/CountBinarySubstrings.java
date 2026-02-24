@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/count-binary-substrings/description/
 
-class CountBinaryStrings {
+class CountBinarySubstrings {
     public int countBinarySubstrings(String s) {
         char[] bits = s.toCharArray();
         int currentConsecutive = 1;
