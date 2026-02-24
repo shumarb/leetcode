@@ -2,18 +2,38 @@
 
 class ClosestPrimeNumbersInRange {
     public int[] closestPrimes(int left, int right) {
-        List<Integer> primes = getPrimes(left, right);
-        boolean isTest = false;
         int[] result = new int[] {-1, -1};
 
+        // 1. Edge case: Insufficient primes to check for adjacent pairs.
         if (right <= 2) {
             return result;
         }
 
+        List<Integer> primes = new ArrayList<>();
+        boolean[] isPrime = new boolean[right + 1];
+        boolean isTest = false;
+
+        Arrays.fill(isPrime, true);
+        isPrime[0] = false;
+        isPrime[1] = false;
+        for (int i = 2; i * i <= right; i++) {
+            if (isPrime[i]) {
+                for (int j = i * i; j <= right; j += i) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+
+        for (int i = left; i <= right; i++) {
+            if (isPrime[i]) {
+                primes.add(i);
+            }
+        }
         if (isTest) {
             System.out.println("primes: " + primes);
             System.out.println("-------------------------------------------");
         }
+
         if (primes.size() > 1) {
             int maximumDifference = Integer.MAX_VALUE;
             for (int i = 1; i < primes.size(); i++) {
@@ -37,29 +57,5 @@ class ClosestPrimeNumbersInRange {
         }
 
         return result;
-    }
-
-    private List<Integer> getPrimes(int left, int right) {
-        List<Integer> primes = new ArrayList<>();
-        boolean[] isPrime = new boolean[right + 1];
-
-        Arrays.fill(isPrime, true);
-        isPrime[0] = false;
-        isPrime[1] = false;
-
-        for (int i = 2; i * i <= right; i++) {
-            if (isPrime[i]) {
-                for (int j = i * i; j <= right; j += i) {
-                    isPrime[j] = false;
-                }
-            }
-        }
-        for (int i = left; i <= right; i++) {
-            if (isPrime[i]) {
-                primes.add(i);
-            }
-        }
-
-        return primes;
     }
 }
