@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class SumOfRootToLeafBinaryNumbers {
     private boolean isTest;
     private int sum;
 
