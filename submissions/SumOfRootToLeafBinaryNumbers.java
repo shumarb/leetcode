@@ -15,15 +15,17 @@
  *     }
  * }
  */
-class SumOfRootToLeafBinaryNumber {
-    private boolean isTest = false;
-    private int sum = 0;
+class Solution {
+    private boolean isTest;
+    private int sum;
 
     public int sumRootToLeaf(TreeNode root) {
+        isTest = false;
+        sum = 0;
+
         traverse(root, 0);
         if (isTest) {
-            System.out.println("------------------------------");
-            System.out.println("sum: " + sum);
+            System.out.println("------------------------------\nsum: " + sum);
         }
 
         return sum;
@@ -40,9 +42,14 @@ class SumOfRootToLeafBinaryNumber {
                 System.out.println(" * current: " + current);
             }
             sum += current;
+            return;
         }
 
-        traverse(node.left, current);
-        traverse(node.right, current);
+        if (node.left != null) {
+            traverse(node.left, current);
+        }
+        if (node.right != null) {
+            traverse(node.right, current);
+        }
     }
 }
