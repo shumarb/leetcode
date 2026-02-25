@@ -4,7 +4,6 @@ class CountDominantIndices {
     public int dominantIndices(int[] nums) {
         boolean isTest = false;
         double sum = 0;
-        double count = 0;
         int n = nums.length;
         int result = 0;
 
@@ -18,10 +17,8 @@ class CountDominantIndices {
         }
         for (int i = 0; i < n - 1; i++) {
             double current = nums[i];
-            double average = sum / (n - count);
-            count++;
             sum -= current;
-
+            double average = sum / (n - (i + 1));
             if (isTest) {
                 System.out.println("i: " + i + "\n * current: " + current + "\n * average from indices [" + (i + 1) + ", " + (n - 1) + "]: " + average);
             }
