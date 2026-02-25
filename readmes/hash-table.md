@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 291/787.
+Completed: 292/794.
 
 ## Submissions
 ### Easy
@@ -169,6 +169,7 @@ Completed: 291/787.
 | [Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfElementsWithFrequencyDivisibleByK.java)                 | 1ms     | 99.96% |
 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfUniqueElements.java)                                    | 0ms     | 100%   |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
+| [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                       | 2ms     | 99.98% |
 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoOutOfThree.java)                                          | 1ms     | 100%   |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                                                 | 2ms     | 98.93% |
 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumFourInputIsABST.java)                                  | 1ms     | 96.19% |
