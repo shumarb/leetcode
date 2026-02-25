@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/179.
+Completed: 9/181.
 
 ## Submissions
 ### Easy
@@ -21,11 +21,11 @@ Completed: 9/179.
 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)        | 2ms     | 100%   |
 
 ### Medium
-| Question                                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)        | 1ms     | 100%   |
-| [Clone Graphs](https://leetcode.com/problems/clone-graphs/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java) | 24ms    | 95.39% |
-| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)            | 3ms     | 99.90% |
+| Question                                                                                                                                  | Submission                                                                                                    | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)             | 1ms     | 100%   |
+| [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                             | 24ms    | 96.59% |
+| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                 | 3ms     | 99.90% |
 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfVerticesToReachAllNodes.java) | 8ms     | 99.23% |
-| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                                          | 1ms     | 88.40% |
-| [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)    | 47ms    | 87.43% |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                      | 1ms     | 88.40% |
+| [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)         | 47ms    | 87.43% |

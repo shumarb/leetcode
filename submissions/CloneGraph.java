@@ -20,7 +20,7 @@ class Node {
 }
 */
 
-class Solution {
+class CloneGraph {
     public Node cloneGraph(Node node) {
         if (node == null) {
             return node;
