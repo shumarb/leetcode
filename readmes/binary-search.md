@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/333.
+Completed: 63/332.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 62/333.
 | Question                                                                                                                                                       | Submission                                                                                                             | Runtime | Rank   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CapacityToShipPackagesWithinDDays.java) | 11ms    | 69.45% |
+| [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)              | 64ms    | 80.61% |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java) | 810ms   | 7.09%  |
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java) | 43ms    | 53.25% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)  | 0ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/336.
+Completed: 72/336.
 
 ## Submissions
 ### Easy
@@ -57,11 +57,12 @@ Completed: 71/336.
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)        | 16ms    | 88.19% |
 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)               | 1ms     | 100%   |
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                 | 2ms     | 95.99% |
-| [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeToGreaterSumTree.java)                   | 0ms     | 100%   |
+| [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeToGreaterSumTree.java)         | 0ms     | 100%   |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                  | 1ms     | 71.44% |
-| [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                            | 1ms     | 17.79% |
+| [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                  | 1ms     | 17.79% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)               | 1ms     | 100%   |
-| [Clone Graphs](https://leetcode.com/problems/clone-graphs/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java) | 24ms    | 95.39% |
+| [Clone Graphs](https://leetcode.com/problems/clone-graphs/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                               | 24ms    | 95.39% |
+| [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)    | 64ms    | 80.61% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                         | 1ms     | 100%   |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                           | 162ms   | 94.15% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                       | 4ms     | 99.25% |

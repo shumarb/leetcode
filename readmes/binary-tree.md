@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/178.
+Completed: 78/178.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 77/178.
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                            | 1ms     | 71.44% |
 | [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeZigZagLevelOrderTraversal.java)                | 1ms     | 69.75% |
 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckCompletenessOfABinaryTree.java)                     | 0ms     | 100%   |
+| [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)              | 64ms    | 80.61% |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)     | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                            | 1ms     | 17.79% |
