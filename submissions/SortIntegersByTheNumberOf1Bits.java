@@ -2,41 +2,27 @@
 
 class SortIntegersByTheNumberOf1Bits {
     public int[] sortByBits(int[] arr) {
+        Integer[] values = new Integer[arr.length];
         boolean isTest = false;
-        Integer[] integerArr = new Integer[arr.length];
+        int n = arr.length;
 
-        /**
-         1.  Create new array Integer wrapper objects,
-         where each element is order as per arr
-         as comparator works on objects and not primitive types.
-         */
-        int i = 0;
-        for (int number: arr) {
-            integerArr[i++] = number;
+        for (int i = 0; i < n; i++) {
+            values[i] = arr[i];
         }
         if (isTest) {
-            System.out.println("integerArr: " + Arrays.toString(integerArr));
+            System.out.println("before, arr: " + Arrays.toString(arr));
         }
 
-        Arrays.sort(integerArr, (a, b) -> {
-            int numBitsA = Integer.bitCount(a);
-            int numBitsB = Integer.bitCount(b);
-            if (numBitsA != numBitsB) {
-                return numBitsA - numBitsB;
-            } else {
-                return a - b;
-            }
-        });
-        if (isTest) {
-            System.out.println("integerArr: " + Arrays.toString(integerArr));
-        }
-
-        i = 0;
-        for (int number: integerArr) {
-            arr[i++] = number;
+        Arrays.sort(values,
+                (a, b) -> Integer.compare(Integer.bitCount(a), Integer.bitCount(b)) == 0
+                        ? Integer.compare(a, b)
+                        : Integer.compare(Integer.bitCount(a), Integer.bitCount(b))
+        );
+        for (int i = 0; i < n; i++) {
+            arr[i] = values[i];
         }
         if (isTest) {
-            System.out.println("arr: " + Arrays.toString(arr));
+            System.out.println("after, arr:  " + Arrays.toString(arr));
         }
 
         return arr;

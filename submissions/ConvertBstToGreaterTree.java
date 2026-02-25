@@ -17,16 +17,14 @@
  */
 class ConvertBstToGreaterTree {
     private List<TreeNode> inOrder;
-    private int totalNodes;
 
     public TreeNode convertBST(TreeNode root) {
         boolean isTest = false;
         inOrder = new ArrayList<>();
-        totalNodes = 0;
 
         inOrderTraversal(root);
         if (isTest) {
-            display("totalNodes: " + totalNodes + "\nbefore, in-order: ");
+            display("before, in-order: ");
         }
         for (int i = inOrder.size() - 2; i >= 0; i--) {
             inOrder.get(i).val += inOrder.get(i + 1).val;
