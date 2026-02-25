@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 593/2114.
+Completed: 594/2114.
 
 ## Submissions
 ### Easy
@@ -376,6 +376,7 @@ Completed: 593/2114.
 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                         | 0ms     | 100%   |
 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidMountainArray.java)                                     | 2ms     | 71.67% |
 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerifyingAnAlienDictionary.java)                             | 0ms     | 100%   |
+| [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WeightedWordMapping.java)                              | 2ms     | 97.44% |
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                                 | 2ms     | 97.02% |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                            | 1ms     | 100%   |
 

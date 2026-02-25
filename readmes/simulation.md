@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 103/206.
+Completed: 104/206.
 
 ## Submissions
 ### Easy
@@ -77,7 +77,7 @@ Completed: 103/206.
 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZerosInDecimalRepresentation.java)               | 1ms     | 98.59% |
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 0ms     | 100%   |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
-| [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString..java)                                         | 4ms     | 32.75% |
+| [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString..java)    | 4ms     | 32.75% |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
 | [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SemiOrderedPermutation.java)                           | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 5ms     | 74.92% |
@@ -88,11 +88,12 @@ Completed: 103/206.
 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TakeGiftsFromTheRichestPile.java)                      | 6ms     | 52.37% |
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                   | 3ms     | 83.20% |
 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                             | 0ms     | 100%   |
-| [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                       | 2ms     | 99.98% |
+| [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                 | 2ms     | 99.98% |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                 | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100%   |
-| [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VowelConsonantScore.java)                                          | 1ms     | 99.82% |
+| [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VowelConsonantScore.java)                              | 1ms     | 99.82% |
 | [Water Bottles](https://leetcode.com/problems/water-bottles/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterBottles.java)                                     | 0ms     | 100%   |
+| [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WeightedWordMapping.java)                              | 2ms     | 97.44% |
 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagGridTraversalWithSkip.java)                      | 1ms     | 100%   |
 
 ### Medium

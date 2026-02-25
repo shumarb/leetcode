@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 293/851.
+Completed: 294/858.
 
 ## Submissions
 ### Easy
@@ -217,6 +217,7 @@ Completed: 293/851.
 | [Valid Word](https://leetcode.com/problems/valid-word/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidWord.java)                                                    | 1ms     | 99.05% |
 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerifyingAnAlienDictionary.java)                                   | 0ms     | 100%   |
 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VowelConsonantScore.java)                                          | 1ms     | 99.82% |
+| [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WeightedWordMapping.java)                              | 2ms     | 97.44% |
 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordPattern.java)                                                  | 1ms     | 82.52% |
 
 ### Medium
