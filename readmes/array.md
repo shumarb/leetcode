@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 594/2114.
+Completed: 595/2114.
 
 ## Submissions
 ### Easy
@@ -587,6 +587,7 @@ Completed: 594/2114.
 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                                         | 2ms     | 96.51% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                                  | 2ms     | 94.15% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                                    | 0ms     | 100%   |
+| [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitArrayByPrimeIndices.java)                 | 4ms     | 100%   |
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                                      | 1ms     | 99%    |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98% |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                              | 24ms    | 75.04% |
