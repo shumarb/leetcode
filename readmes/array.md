@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 595/2114.
+Completed: 596/2114.
 
 ## Submissions
 ### Easy
@@ -512,6 +512,7 @@ Completed: 595/2114.
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                                   | 245ms   | 26.60% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 4ms     | 99.46% |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                                         | 3ms     | 96.09% |
+| [Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeAdjacentEqualElements.java)                              | 1279ms  | 8.45%  |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                                  | 7ms     | 97.71% |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                                   | 11ms    | 96.62% |
 | [Minimum Absolute Difference Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                       | 48ms    | 92.88% |
