@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 22/90.
+Completed: 23/90.
 
 ## Submissions
 ### Easy
@@ -42,3 +42,4 @@ Completed: 22/90.
 | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithLcmEqualToK.java)         | 14ms    | 61.11% |
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                  | 132ms   | 74.11% |
 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitArrayByPrimeIndices.java)                 | 4ms     | 100%   |
+| [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfLargestPrimeSubstrings.java)              | 25ms    | 17.98% |

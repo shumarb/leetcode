@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 160/509.
+Completed: 161/509.
 
 ## Submissions
 ### Easy
@@ -172,6 +172,7 @@ Completed: 160/509.
 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                         | 2ms     | 96.51% |
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                  | 2ms     | 94.15% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                    | 13ms    | 99.35% |
+| [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfLargestPrimeSubstrings.java)              | 25ms    | 17.98% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                            | 6ms     | 99.18% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                               | 6ms     | 98%    | 
 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                   | 3ms     | 96.79% |
