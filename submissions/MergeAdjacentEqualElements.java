@@ -2,7 +2,6 @@
 
 class MergeAdjacentEqualElements {
     public List<Long> mergeAdjacent(int[] nums) {
-        List<Long> result;
         Stack<Long> stack = new Stack<>();
         boolean isTest = false;
 
@@ -16,9 +15,9 @@ class MergeAdjacentEqualElements {
             } else {
                 /**
                  1.  incoming == top-element, and sum == incoming + top-element.
-                 Possible that sum == top-element of stack (if non-empty),
-                 so use while loop to increment sum by top-element, then remove top-element.
-                 until stack is empty or top-element != sum.
+                     Possible that sum == top-element of stack (if non-empty),
+                     so use while loop to increment sum by top-element, then remove top-element.
+                     until stack is empty or top-element != sum.
                  */
                 long sum = incoming + stack.pop();
                 while (!stack.isEmpty() && stack.peek() == sum) {
@@ -33,11 +32,10 @@ class MergeAdjacentEqualElements {
             }
         }
 
-        result = new ArrayList<>(stack);
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("stack: " + stack);
         }
 
-        return result;
+        return new ArrayList<>(stack);
     }
 }
