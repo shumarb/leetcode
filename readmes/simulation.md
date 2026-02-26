@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 104/206.
+Completed: 105/206.
 
 ## Submissions
 ### Easy
@@ -113,6 +113,7 @@ Completed: 104/206.
 | [Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinnerOfAnArrayGame.java)                        | 0ms     | 100%   |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                          | 5ms     | 83.64% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)        | 144ms   | 74.64% |
+| [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStepsToReduceANumberInBinaryRepresentationToOne.java) | 7ms     | 14.75%  |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)               | 5ms     | 75.52% |
 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrintWordsVertically.java)                              | 1ms     | 80.69% |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                      | 3ms     | 100%   |
