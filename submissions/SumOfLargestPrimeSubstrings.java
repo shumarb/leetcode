@@ -11,7 +11,7 @@ class SumOfLargestPrimeSubstrings {
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
                 long value = Long.parseLong(s.substring(i, j + 1));
-                if (value > 1 && isPrime(value) && !set.contains(value)) {
+                if (value > 1 && !set.contains(value) && isPrime(value)) {
                     if (isTest) {
                         System.out.println(" * unique prime: " + value);
                     }
