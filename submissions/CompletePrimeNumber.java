@@ -1,25 +1,24 @@
 // Question: https://leetcode.com/problems/complete-prime-number/description/
 
 class CompletePrimeNumber {
-    private boolean isTest;
-
     public boolean completePrime(int num) {
-        isTest = false;
-        int[] digits = getDigits(num);
-        int number = 0;
+        String value = Integer.toString(num);
+        boolean isTest = false;
+        int n = value.length();
+        int prefix = 0;
+        int suffix = 0;
 
         if (isTest) {
-            System.out.println("num: " + num + "\ndigits: " + Arrays.toString(digits) + "\n------------------------\nprefix:");
+            System.out.println("value: " + value + "\n---------------------------------------\nprefix:");
         }
-        for (int i = 0; i < digits.length; i++) {
-            number *= 10;
-            number += digits[i];
+        for (int i = 0; i < n; i++) {
+            prefix = Integer.parseInt(value.substring(0, i + 1));
             if (isTest) {
-                System.out.print(" * number: " + number);
+                System.out.print(" * prefix: " + prefix);
             }
-            if (!isPrime(number)) {
+            if (!isPrime(prefix)) {
                 if (isTest) {
-                    System.out.println(" ==> not prime");
+                    System.out.println(" -> not prime");
                 }
                 return false;
             }
@@ -29,23 +28,16 @@ class CompletePrimeNumber {
         }
 
         if (isTest) {
-            System.out.println("------------------------\nsuffix:");
+            System.out.println("---------------------------------------\nsuffix:");
         }
-
-        StringBuilder sb = new StringBuilder();
-        for (int d: digits) {
-            sb.append(d);
-        }
-        String value = sb.toString();
-        int len = value.length();
-        for (int i = len - 1; i >= 0; i--) {
-            number = Integer.parseInt(value.substring(i, len));
+        for (int i = n - 1; i >= 0; i--) {
+            suffix = Integer.parseInt(value.substring(i, n));
             if (isTest) {
-                System.out.print(" * number: " + number);
+                System.out.print(" * suffix: " + suffix);
             }
-            if (!isPrime(number)) {
+            if (!isPrime(suffix)) {
                 if (isTest) {
-                    System.out.println(" ==> not prime");
+                    System.out.println(" -> not prime");
                 }
                 return false;
             }
@@ -57,53 +49,21 @@ class CompletePrimeNumber {
         return true;
     }
 
-    private int reverse(int n) {
-        if (isTest) {
-            System.out.println(" ** to reverse: " + n);
-        }
-        int number = 0;
-
-        while (n > 0) {
-            number *= 10;
-            number += (n % 10);
-            n /= 10;
-        }
-
-        return number;
-    }
-
     private boolean isPrime(int n) {
         if (n <= 1) {
             return false;
+
+        } else if (n == 2) {
+            return true;
         }
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+
+        int limit = (int) Math.sqrt(n);
+        for (int i = 2; i <= limit; i++) {
             if (n % i == 0) {
                 return false;
             }
         }
 
         return true;
-    }
-
-    private int[] getDigits(int n) {
-        int[] digits;
-        int i;
-        int nCopy = n;
-        int size = 0;
-
-        while (nCopy > 0) {
-            size++;
-            nCopy /= 10;
-        }
-
-        digits = new int[size];
-        i = size - 1;
-        nCopy = n;
-        while (i >= 0 && nCopy > 0) {
-            digits[i--] = nCopy % 10;
-            nCopy /= 10;
-        }
-
-        return digits;
     }
 }
