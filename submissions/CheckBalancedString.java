@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/check-balanced-string/description/
 
-class CheckedBalancedString {
+class CheckBalancedString {
     public boolean isBalanced(String num) {
         int sumEven = 0;
         int sum = 0;
