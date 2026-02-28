@@ -2,33 +2,52 @@
 
 class SumOfLargestPrimeSubstrings {
     public long sumOfLargestPrimes(String s) {
-        PriorityQueue<Long> minHeap = new PriorityQueue<>();
         Set<Long> set = new HashSet<>();
         boolean isTest = false;
         int n = s.length();
-        long result = 0;
+        long largest = 0l;
+        long result = 0l;
+        long secondLargest = 0l;
+        long thirdLargest = 0l;
 
         for (int i = 0; i < n; i++) {
+            long value = 0;
             for (int j = i; j < n; j++) {
-                long value = Long.parseLong(s.substring(i, j + 1));
+                value = value * 10 + s.charAt(j) - '0';
                 if (value > 1 && !set.contains(value) && isPrime(value)) {
                     if (isTest) {
                         System.out.println(" * unique prime: " + value);
                     }
                     set.add(value);
-                    minHeap.offer(value);
-                    if (minHeap.size() > 3) {
-                        minHeap.poll();
+
+                    if (value > largest) {
+                        thirdLargest = secondLargest;
+                        secondLargest = largest;
+                        largest = value;
+
+                    } else if (value > secondLargest) {
+                        thirdLargest = secondLargest;
+                        secondLargest = value;
+
+                    } else if (value > thirdLargest) {
+                        thirdLargest = value;
                     }
                 }
             }
         }
 
-        if (isTest) {
-            System.out.println("----------------------------------\nminHeap: " + minHeap);
+        if (largest > 1l) {
+            result += largest;
         }
-        while (!minHeap.isEmpty()) {
-            result += minHeap.poll();
+        if (secondLargest > 1l) {
+            result += secondLargest;
+        }
+        if (thirdLargest > 1l) {
+            result += thirdLargest;
+        }
+        if (isTest) {
+            System.out.println("----------------------------------\nlargest: " + largest);
+            System.out.println("secondLargest: " + secondLargest + "\nthirdLargest: " + thirdLargest);
         }
 
         return result;
