@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 33/142.
+Completed: 34/142.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 33/142.
 ### Medium
 | Question                                                                                                                                      | Submission                                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompletePrimeNumber.java)                                         | 2ms     | 92.50% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                 | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                 | 94ms    | 82.87% |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09% |
