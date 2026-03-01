@@ -31,7 +31,7 @@ class CompletePrimeNumber {
             System.out.println("---------------------------------------\nsuffix:");
         }
         for (int i = n - 1; i >= 0; i--) {
-            suffix = Integer.parseInt(value.substring(i, n));
+            suffix = Integer.parseInt(value.substring(i));
             if (isTest) {
                 System.out.print(" * suffix: " + suffix);
             }
