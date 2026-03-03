@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 297/858.
+Completed: 298/858.
 
 ## Submissions
 ### Easy
@@ -243,6 +243,7 @@ Completed: 297/858.
 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvaluateTheBracketPairsOfAString.java)                             | 39ms    | 51.16% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                                     | 46ms    | 87.58% | 
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                     | 9ms     | 91.31% |
+| [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthBitInNBinaryString.java) | 343ms   | 5.05%  |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)               | 35ms    | 27.51% |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                       | 0ms     | 100%   |
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                            | 7ms     | 83.98% |

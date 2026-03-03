@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/49.
+Completed: 19/51.
 
 ## Submissions
 ### Easy
@@ -28,14 +28,15 @@ Completed: 18/49.
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)            | 7ms     | 17.93% |
 
 ### Medium
-| Question                                                                                                  | Submission                                                                                       | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)             | 1ms     | 100%   |
-| [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EliminationGame.java)           | 1ms     | 100%   |
-| [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                     | 0ms     | 100%   |
-| [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
-| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)               | 4ms     | 12.39% |
-| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)          | 0ms     | 100%   |
+| Question                                                                                                            | Submission                                                                                       | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)             | 1ms     | 100%   |
+| [Elimination Game](https://leetcode.com/problems/elimination-game/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EliminationGame.java)           | 1ms     | 100%   |
+| [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthBitInNBinaryString.java) | 343ms   | 5.05%  |
+| [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                     | 0ms     | 100%   |
+| [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java) | 7ms     | 73.29% |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)               | 4ms     | 12.39% |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)          | 0ms     | 100%   |
 
 ### Hard
 | Question                                                                                        | Submission                                                                                  | Runtime | Rank   |
