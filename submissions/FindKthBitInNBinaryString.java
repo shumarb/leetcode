@@ -21,7 +21,7 @@ class FindKthBitInNBinaryString {
             }
         }
         if (isTest) {
-            System.out.println("final result: " + result);
+            System.out.println("final result: " + result + "\n * k: " + k + "\n * kth-bit: " + result.charAt(k - 1));
         }
 
         return result.charAt(k - 1);
@@ -29,19 +29,16 @@ class FindKthBitInNBinaryString {
 
     private String getReverseAndInvert(StringBuilder part) {
         StringBuilder result = new StringBuilder();
-        for (char c: part.toString().toCharArray()) {
-            result.append(c);
-        }
-        for (int i = 0; i < result.length(); i++) {
-            char c = result.charAt(i);
+
+        for (int i = 0; i < part.length(); i++) {
+            char c = part.charAt(i);
             if (c == '1') {
-                result.setCharAt(i, '0');
+                result.append('0');
             } else {
-                result.setCharAt(i, '1');
+                result.append('1');
             }
         }
-        result = result.reverse();
 
-        return result.toString();
+        return result.reverse().toString();
     }
 }
