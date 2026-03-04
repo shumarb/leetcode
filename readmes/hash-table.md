@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 294/794.
+Completed: 295/794.
 
 ## Submissions
 ### Easy
@@ -212,6 +212,7 @@ Completed: 294/794.
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                             | 70ms    | 90.71% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                              | 15ms    | 83.05% |
+| [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistinctPrimeFactorsOfProductOfArray.java)                            | 129ms   | 8.71%  |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                       | 215ms   | 39.47% |
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)                           | 5ms     | 96.36% |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                                           | 4ms     | 99.25% |
