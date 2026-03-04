@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/90.
+Completed: 26/90.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 25/90.
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)              | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                              | 94ms    | 82.87% |
 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistinctPrimeFactorsOfProductOfArray.java)                            | 127ms   | 9.06%  |
+| [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                                      | 40ms    | 97.87% |
 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java) | 2ms     | 57.29% |
 | [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)      | 190ms   | 57.17% |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                   | 0ms     | 100%   |
