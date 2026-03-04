@@ -6,20 +6,22 @@ class ValidPerfectSquare {
             return true;
         }
 
-        long low = 1;
-        long high = (long) num / 2;
-        long numLong = num;
+        long left = 1;
+        long right = num / 2;
+        while (left <= right) {
+            long mid = left + (right - left) / 2;
 
-        while (low <= high) {
-            long mid = low + (high - low) / 2;
-            if (mid * mid == numLong) {
+            if (mid * mid == num) {
                 return true;
-            } else if (mid * mid < numLong) {
-                low = mid + 1;
+
+            } else if (mid * mid < num) {
+                left = mid + 1;
+
             } else {
-                high = mid - 1;
+                right = mid - 1;
             }
         }
+
         return false;
     }
 }
