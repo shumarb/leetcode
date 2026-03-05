@@ -14,15 +14,14 @@ class ClosestDivisors {
     }
 
     private int[] getPair(int key) {
-        int[] result = new int[2];
+        int limit = (int) Math.sqrt(key);
 
-        for (int i = 1; i <= Math.sqrt(key); i++) {
+        for (int i = limit; i >= 1; i--) {
             if (key % i == 0) {
-                result[0] = i;
-                result[1] = key / i;
+                return new int[] {i, key / i};
             }
         }
 
-        return result;
+        return new int[] {1, key};
     }
 }
