@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/60.
+Completed: 24/63.
 
 ## Submissions
 ### Easy
@@ -28,9 +28,9 @@ Completed: 23/60.
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                     | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
-| [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java) | 43ms    | 53.25% |
-| [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.83% |
-| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                          | 146ms   | 93.80% |
+| [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)             | 43ms    | 53.25% |
+| [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)               | 34ms    | 79.83% |
+| [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                         | 146ms   | 93.80% |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                 | 16ms    | 95.51% |
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                  | 1ms     | 100%   |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                    | 1ms     | 99.51% |
@@ -39,10 +39,11 @@ Completed: 23/60.
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                                 | 5ms     | 99.37% |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                           | 9ms     | 94.52% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                        | 5ms     | 97.68% |
+| [Super Pow](https://leetcode.com/problems/super-pow/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SuperPow.java)                                           | 35ms    | 5.10%  |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                               | 6ms     | 99.18% |
 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WiggleSortTwo.java)                                      | 3ms     | 96.79% |
 
 ### Hard
-| Question                                                                                | Submission                                                                               | Runtime | Rank |
-|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|------|
+| Question                                                                                | Submission                                                                               | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeKSortedLists.java) | 4ms     | 79.14% |
