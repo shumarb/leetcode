@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 298/858.
+Completed: 299/858.
 
 ## Submissions
 ### Easy
@@ -316,6 +316,7 @@ Completed: 298/858.
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)               | 141ms   | 42.47% | 
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                                    | 1ms     | 99.36% |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                  | 14ms    | 45.41% |
+| [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagConversion.java)                                             | 7ms     | 24.81% |
 
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
