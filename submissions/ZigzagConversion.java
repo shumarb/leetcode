@@ -8,15 +8,14 @@ class ZigzagConversion {
             return s;
         }
 
-        List<List<Character>> list = new ArrayList<>();
+        StringBuilder[] entries = new StringBuilder[numRows];
         StringBuilder result = new StringBuilder();
         boolean isAscending = true;
         boolean isTest = false;
         int index = 0;
 
-        for (int i = 0; i < numRows; i++) {
-            List<Character> newRow = new ArrayList<>();
-            list.add(newRow);
+        for (int i = 0; i < entries.length; i++) {
+            entries[i] = new StringBuilder();
         }
         for (char c: s.toCharArray()) {
             if (index == 0) {
@@ -25,25 +24,23 @@ class ZigzagConversion {
                 isAscending = false;
             }
             if (isTest) {
-                System.out.println(" * c: " + c + " -> list number: " + index);
+                System.out.println(" * c: " + c + " -> entry number: " + index);
             }
 
-            list.get(index).add(c);
+            entries[index].append(c);
             if (isAscending) {
                 index++;
             } else {
                 index--;
             }
         }
-        for (List<Character> row: list) {
-            for (char c: row) {
-                result.append(c);
-            }
+        for (StringBuilder current: entries) {
+            result.append(current);
         }
         if (isTest) {
-            System.out.println("-------------------------------------------------------\nlist:");
-            for (int i = 0; i < list.size(); i++) {
-                System.out.println(" * " + i + " -> " + list.get(i));
+            System.out.println("-------------------------------------------------------\nentries:");
+            for (int i = 0; i < numRows; i++) {
+                System.out.println(" * " + i + ": " + entries[i]);
             }
             System.out.println("-------------------------------------------------------\nresult: " + result);
         }
