@@ -2,27 +2,30 @@
 
 class CheckIfBinaryStringHasAtMostOneSegmentOfOnes {
     public boolean checkOnesSegment(String s) {
-        boolean isTest = false;
-        int countOnesSegment = 0;
-        int currentLength = 0;
+        int countOneSegments = 0;
+        int i = 0;
+        int n = s.length();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '1') {
-                currentLength++;
-            } else {
-                if (currentLength > 0 && ++countOnesSegment > 1) {
-                    return false;
-                }
-                currentLength = 0;
+        // 1. Find last index of 1 segment of 1's if any.
+        while (i < n && s.charAt(i) == '1') {
+            i++;
+        }
+
+        // 2. No 1's or entire string is 1's.
+        if (i == 0 || i == n) {
+            return true;
+        }
+
+        // 3. String has at least 1 segment of 1's
+        // so if next 1 is encountered, a new segment of 1's is formed,
+        // hence the string has > 1 segment of 1's.
+        countOneSegments++;
+        for (int j = i; j < n; j++) {
+            if (s.charAt(j) == '1') {
+                return false;
             }
         }
-        if (currentLength > 0) {
-            countOnesSegment++;
-        }
-        if (isTest) {
-            System.out.println("s: " + s + "\ncountOnesSegment: " + countOnesSegment);
-        }
 
-        return countOnesSegment == 1;
+        return true;
     }
 }
