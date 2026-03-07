@@ -4,7 +4,7 @@ class ZigzagConversion {
     public String convert(String s, int numRows) {
         // 1. Edge case: Only 1 row required, so all characters are in the same row.
         // Hence, the final result is the original string.
-        if (numRows == 1) {
+        if (s.length() == 1 || numRows == 1) {
             return s;
         }
 
