@@ -3,14 +3,10 @@
 class FindUniqueBinaryString {
     public String findDifferentBinaryString(String[] nums) {
         StringBuilder result = new StringBuilder();
-        boolean isTest = false;
+        int n = nums[0].length();
 
-        for (int i = 0; i < nums.length; i++) {
-            result.append(nums[i].charAt(i) == '0' ? '1' : '0');
-        }
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("result: " + result.toString());
+        for (int i = 0; i < n; i++) {
+            result.append(nums[i].charAt(i) == '1' ? '0' : '1');
         }
 
         return result.toString();
