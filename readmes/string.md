@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 299/858.
+Completed: 300/858.
 
 ## Submissions
 ### Easy
@@ -262,6 +262,7 @@ Completed: 299/858.
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                                  | 18ms    | 51.89% |
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                           | 19ms    | 77.61% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                    | 6ms     | 70.55% |
+| [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)      | 82ms    | 5.10%  | 
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30% |
 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaskingPersonalInformation.java)                                   | 0ms     | 100%   |
