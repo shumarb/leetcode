@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 195/654.
+Completed: 196/654.
 
 ## Submissions
 ### Easy
@@ -200,6 +200,7 @@ Completed: 195/654.
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                                              | 0ms     | 100%   |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                 | 0ms     | 100%   |
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)                                              | 53ms    | 34.10% |
+| [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueAfterReplacingWithSumOfPrimeFactors.java) | 35ms    | 5.10%  |
 | [Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueOfTheRearrangedNumber.java)                          | 0ms     | 100%   |
 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitArrayByPrimeIndices.java)                                    | 4ms     | 100%   |
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                                  | 1ms     | 99%    |
