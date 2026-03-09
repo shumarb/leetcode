@@ -6,42 +6,35 @@ class LongestWordInDictionary {
         String result = "";
         boolean isTest = false;
 
-        for (String word: words) {
-            set.add(word);
-        }
+        Arrays.sort(words);
+        set.add("");
         if (isTest) {
-            System.out.println("set: " + set);
+            System.out.println("sorted words: " + Arrays.toString(words));
         }
 
         for (String word: words) {
+            String prefix = word.substring(0, word.length() - 1);
             if (isTest) {
                 System.out.println("-----------------------------------------");
-                System.out.println("word: " + word);
-            }
-            boolean isAllPrefixesInSet = true;
-            for (int i = 0; i < word.length() - 1; i++) {
-                String prefix = word.substring(0, i + 1);
-                if (isTest) {
-                    System.out.println(" * prefix: " + prefix);
-                }
-                if (!set.contains(prefix)) {
-                    isAllPrefixesInSet = false;
-                    break;
-                }
+                System.out.println("word: " + word + " -> prefix: " + prefix);
             }
 
-            if (isAllPrefixesInSet) {
-                System.out.println(" ** valid: " + word);
-                if (result.isEmpty()) {
+            if (set.contains(prefix)) {
+                set.add(word);
+                if (isTest) {
+                    System.out.println(" * valid: " + word + "\n ** before, result: " + result);
+                }
+                if (word.length() > result.length()) {
                     result = word;
-                } else if (word.length() > result.length() || (word.length() == result.length() && word.compareTo(result) < 0)) {
-                    result = word;
+                }
+                if (isTest) {
+                    System.out.println(" ** after, result: " + result);
                 }
             }
         }
         if (isTest) {
             System.out.println("-----------------------------------------");
-            System.out.println("result: " + result);
+            System.out.println("final result: " + result);
         }
 
         return result;
