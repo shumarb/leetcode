@@ -19,8 +19,8 @@ class CreateBinaryTreeFromDescriptions {
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer, TreeNode> map = new HashMap<>();
         TreeNode root = null;
+        boolean[] isChild;
         boolean isTest = false;
-        boolean[] isChild = new boolean[100001];
         int largest = 0;
 
         for (int[] row: descriptions) {
