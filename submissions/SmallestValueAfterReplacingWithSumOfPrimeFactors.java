@@ -2,32 +2,15 @@
 
 class SmallestValueAfterReplacingWithSumOfPrimeFactors {
     public int smallestValue(int n) {
-        boolean[] isPrime = new boolean[n + 1];
         boolean isTest = false;
         int result = n;
 
-        Arrays.fill(isPrime, true);
-        isPrime[0] = false;
-        isPrime[1] = false;
-
-        for (int i = 2; i * i <= n; i++) {
-            if (isPrime[i]) {
-                for (int j = i + i; j <= n; j += i) {
-                    isPrime[j] = false;
-                }
-            }
-        }
-        if (isTest) {
-            System.out.println("isPrime: " + Arrays.toString(isPrime));
-            System.out.println("-------------------------------------------------");
-        }
-
-        while (!isPrime[n]) {
+        while (n > 1 && !isPrime(n)) {
             if (isTest) {
                 System.out.println(" * before, n: " + n);
             }
 
-            int sumOfPrimes = getSumOfPrimes(isPrime, n);
+            int sumOfPrimes = getSumOfPrimes(n);
             if (n == sumOfPrimes) {
                 break;
             }
@@ -46,14 +29,28 @@ class SmallestValueAfterReplacingWithSumOfPrimeFactors {
         return result;
     }
 
-    private int getSumOfPrimes(boolean[] isPrime, int n) {
+    private boolean isPrime(int n) {
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private int getSumOfPrimes(int n) {
+        int current = n;
         int result = 0;
 
-        for (int i = 2; i < isPrime.length; i++) {
-            while (n > 1 && n % i == 0) {
+        for (int i = 2; i * i <= n; i++) {
+            while (current % i == 0) {
                 result += i;
-                n /= i;
+                current /= i;
             }
+        }
+        if (current > 1) {
+            result += current;
         }
 
         return result;
