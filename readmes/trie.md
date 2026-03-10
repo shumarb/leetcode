@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/61.
+Completed: 15/61.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 14/61.
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)      | 17ms    | 52.51% | 
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                       | 10ms    | 97.30% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java) | 55ms    | 74.33% |
+| [Partition String](https://leetcode.com/problems/partition-string/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionString.java)                                              | 161ms   | 81.86% |
 | [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                 | 46ms    | 44.44% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)      | 38ms    | 36.75% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)            | 6ms     | 98%    | 
