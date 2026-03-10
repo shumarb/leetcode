@@ -6,14 +6,12 @@ class BestPokerHand {
         int[] suitFrequency = new int[4];
 
         for (char suit: suits) {
-            suitFrequency[suit - 'a']++;
-            if (suitFrequency[suit - 'a'] == 5) {
+            if (++suitFrequency[suit - 'a'] == 5) {
                 return "Flush";
             }
         }
         for (int rank: ranks) {
-            rankFrequency[rank]++;
-            if (rankFrequency[rank] == 3) {
+            if (++rankFrequency[rank] == 3) {
                 return "Three of a Kind";
             }
         }
