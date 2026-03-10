@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 297/794.
+Completed: 298/794.
 
 ## Submissions
 ### Easy
@@ -207,6 +207,7 @@ Completed: 297/794.
 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                   | 39ms    | 31.92% |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsOne.java)       | 8ms     | 61.03% |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersTwo.java)                         | 35ms    | 49.81% |
+| [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                   | 70ms    | 42.20% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                      | 4ms     | 95.87% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
