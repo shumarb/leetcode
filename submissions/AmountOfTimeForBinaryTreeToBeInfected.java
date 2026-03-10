@@ -68,21 +68,15 @@ class AmountOfTimeForBinaryTreeToBeInfected {
         }
 
         largest = Math.max(largest, node.val);
-        if (!graph.containsKey(node.val)) {
-            graph.put(node.val, new ArrayList<>());
-        }
+        graph.putIfAbsent(node.val, new ArrayList<>());
 
         if (node.left != null) {
-            if (!graph.containsKey(node.left.val)) {
-                graph.put(node.left.val, new ArrayList<>());
-            }
+            graph.putIfAbsent(node.left.val, new ArrayList<>());
             graph.get(node.val).add(node.left.val);
             graph.get(node.left.val).add(node.val);
         }
         if (node.right != null) {
-            if (!graph.containsKey(node.right.val)) {
-                graph.put(node.right.val, new ArrayList<>());
-            }
+            graph.putIfAbsent(node.right.val, new ArrayList<>());
             graph.get(node.val).add(node.right.val);
             graph.get(node.right.val).add(node.val);
         }
