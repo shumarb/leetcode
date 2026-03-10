@@ -18,9 +18,15 @@
 class CreateBinaryTreeFromDescriptions {
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer, TreeNode> map = new HashMap<>();
-        Set<Integer> nonRoots = new HashSet<>();
         TreeNode root = null;
         boolean isTest = false;
+        boolean[] isChild = new boolean[100001];
+        int largest = 0;
+
+        for (int[] row: descriptions) {
+            largest = Math.max(largest, Math.max(row[0], row[1]));
+        }
+        isChild = new boolean[largest + 1];
 
         for (int[] row: descriptions) {
             int child = row[1];
@@ -40,7 +46,7 @@ class CreateBinaryTreeFromDescriptions {
 
             map.put(child, childNode);
             map.put(parent, parentNode);
-            nonRoots.add(child);
+            isChild[child] = true;
         }
         if (isTest) {
             System.out.println("---------------------------------------\nmap:");
@@ -59,17 +65,16 @@ class CreateBinaryTreeFromDescriptions {
                     System.out.println(" | right: null ");
                 }
             }
-            System.out.println("---------------------------------------\nnonRoots: " + nonRoots);
         }
 
-        for (int key: map.keySet()) {
-            if (!nonRoots.contains(key)) {
-                root = map.get(key);
+        for (int[] row: descriptions) {
+            if (!isChild[row[0]]) {
+                root = map.get(row[0]);
                 break;
             }
         }
         if (isTest) {
-            System.out.println("root: " + root.val);
+            System.out.println("---------------------------------------\nisChild: " + Arrays.toString(isChild) + "\nroot: " + root.val);
         }
 
         return root;
