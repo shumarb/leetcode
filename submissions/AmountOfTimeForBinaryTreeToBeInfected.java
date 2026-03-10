@@ -37,9 +37,9 @@ class AmountOfTimeForBinaryTreeToBeInfected {
 
         isVisited = new boolean[largest + 1];
         queue.offer(start);
-
         while (!queue.isEmpty()) {
             int size = queue.size();
+            ++level;
             if (isTest) {
                 System.out.println("---------------------------------\nlevel: " + level + " -> queue: " + queue);
             }
@@ -54,7 +54,6 @@ class AmountOfTimeForBinaryTreeToBeInfected {
                     }
                 }
             }
-            level++;
         }
         if (isTest) {
             System.out.println("---------------------------------\nisVisited: " + Arrays.toString(isVisited) + "\nlevel: " + level);
