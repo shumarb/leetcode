@@ -2,7 +2,6 @@
 
 class ValidateBinaryTreeNodes {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
-        Map<Integer, List<Integer>> graph = new HashMap<>();
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[n];
         boolean isTest = false;
@@ -14,57 +13,42 @@ class ValidateBinaryTreeNodes {
         // 1. Update a node's in-degree. If its value exceeds 1, a cycle is detected.
         for (int i = 0; i < n; i++) {
             if (leftChild[i] != -1) {
-                int child = leftChild[i];
-                int parent = i;
-                graph.putIfAbsent(child, new ArrayList<>());
-                graph.putIfAbsent(parent, new ArrayList<>());
-                graph.get(parent).add(child);
-                if (++inDegree[child] > 1) {
+                if (++inDegree[leftChild[i]] > 1) {
                     return false;
                 }
             }
-        }
-        for (int i = 0; i < n; i++) {
             if (rightChild[i] != -1) {
-                int child = rightChild[i];
-                int parent = i;
-                graph.putIfAbsent(child, new ArrayList<>());
-                graph.putIfAbsent(parent, new ArrayList<>());
-                graph.get(parent).add(child);
-                if (++inDegree[child] > 1) {
+                if (++inDegree[rightChild[i]] > 1) {
                     return false;
                 }
             }
         }
 
+        /**
+         2. Find root. Return false if no root or more than 1 root exists.
+         */
         for (int i = 0; i < n; i++) {
             if (inDegree[i] == 0) {
-                // 2. More than 1 root detected, hence invalid binary tree.
                 if (root != -1) {
                     return false;
                 }
                 root = i;
             }
         }
-        // 3. No root, hence invalid binary tree.
         if (root == -1) {
             return false;
         }
 
-        // 4. Important step because root (if available) was no added in first 2 for loops.
-        graph.putIfAbsent(root, new ArrayList<>());
         if (isTest) {
             System.out.println("inDegree: " + Arrays.toString(inDegree) + "\nroot: " + root);
-            System.out.println("--------------------------------------------\ngraph:");
-            for (Map.Entry<Integer, List<Integer>> e: graph.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
-            }
             System.out.println("--------------------------------------------");
         }
 
-        // 4. Execute BFS on root.
-        // If a node encountered has been visited, cycle detected.
-        // After BFS, if not all nodes visited, invalid binary tree.
+        /**
+         3.  Execute BFS on root.
+         If a node encountered has been visited, cycle detected.
+         After BFS executed, valid binary tree is found only if all nodes are visited exactly once.
+         */
         queue.offer(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
@@ -81,11 +65,20 @@ class ValidateBinaryTreeNodes {
 
                 ++totalVisitedNodes;
                 isVisited[current] = true;
-                for (int neighbour: graph.get(current)) {
-                    if (isVisited[neighbour]) {
+                int child;
+                if (leftChild[current] != -1) {
+                    child = leftChild[current];
+                    if (isVisited[child]) {
                         return false;
                     }
-                    queue.offer(neighbour);
+                    queue.offer(child);
+                }
+                if (rightChild[current] != -1) {
+                    child = rightChild[current];
+                    if (isVisited[child]) {
+                        return false;
+                    }
+                    queue.offer(child);
                 }
             }
         }
