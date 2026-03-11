@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 299/794.
+Completed: 300/797.
 
 ## Submissions
 ### Easy
@@ -186,6 +186,7 @@ Completed: 299/794.
 ### Medium
 | Question                                                                                                                                                                                        | Submission                                                                                                                          | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllNodesDistanceKInBinaryTree.java)                      | 15ms    | 10.58% |
 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AmountOfTimeForBinaryTreeToBeInfected.java)                        | 97ms    | 52.34% |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                   | 0ms     | 100%   |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                                 | 1ms     | 100%   |
