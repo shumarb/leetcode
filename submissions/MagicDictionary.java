@@ -29,11 +29,10 @@ class MagicDictionary {
             int countDifferentLettersAtIndex = 0;
 
             for (int i = 0; i < first.length; i++) {
-                if (first[i] != second[i]) {
-                    countDifferentLettersAtIndex++;
+                if (first[i] != second[i] && ++countDifferentLettersAtIndex > 1) {
+                    break;
                 }
             }
-
             if (countDifferentLettersAtIndex == 1) {
                 return true;
             }
