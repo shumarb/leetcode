@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 301/858.
+Completed: 302/862.
 
 ## Submissions
 ### Easy
@@ -252,6 +252,7 @@ Completed: 301/858.
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                                    | 143ms   | 51.44% |
 | [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateBinaryStringsWithoutAdjacentZeros.java)                    | 2ms     | 90.13% |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                                          | 0ms     | 100%   |
+| [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)                                              | 29ms    | 53.83% | 
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                                         | 33ms    | 85.89% | 
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                          | 77ms    | 16.45% |
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                                     | 10ms    | 80.47% |

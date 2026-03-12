@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 37/129.
+Completed: 38/133.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 37/129.
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                     | 26ms    | 68.56% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                   | 153ms   | 42.29% |
 | [Frequency Tracker](https://leetcode.com/problems/frequency-tracker/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyTracker.java)               | 44ms    | 49.19% |
+| [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)                                              | 29ms    | 53.83% | 
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                           | 33ms    | 85.89% | 
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedSet.java)                  | 25ms    | 98.76% |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                         | 10ms    | 97.30% |
