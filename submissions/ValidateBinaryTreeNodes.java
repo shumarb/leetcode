@@ -8,7 +8,6 @@ class ValidateBinaryTreeNodes {
         int[] inDegree = new int[n];
         int level = -1;
         int root = -1;
-        int totalVisitedNodes = 0;
 
         // 1. Update a node's in-degree. If its value exceeds 1, a cycle is detected.
         for (int i = 0; i < n; i++) {
@@ -63,7 +62,6 @@ class ValidateBinaryTreeNodes {
                     return false;
                 }
 
-                ++totalVisitedNodes;
                 isVisited[current] = true;
                 int child;
                 if (leftChild[current] != -1) {
@@ -83,10 +81,14 @@ class ValidateBinaryTreeNodes {
             }
         }
         if (isTest) {
-            System.out.println("--------------------------------------------");
-            System.out.println("isVisited: " + Arrays.toString(isVisited) + "\ntotalVisitedNodes: " + totalVisitedNodes);
+            System.out.println("--------------------------------------------\nisVisited: " + Arrays.toString(isVisited));
+        }
+        for (int i = 0; i < n; i++) {
+            if (!isVisited[i]) {
+                return false;
+            }
         }
 
-        return totalVisitedNodes == n;
+        return true;
     }
 }
