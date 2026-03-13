@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 601/2119.
+Completed: 603/2119.
 
 ## Submissions
 ### Easy
@@ -495,6 +495,7 @@ Completed: 601/2119.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                                          | 2ms     | 99.72% |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                    | 36ms    | 95.20% |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                         | 17ms    | 52.51% | 
+| [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)                          | 16ms    | 81.38% | 
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxNumberOfKSumPairs.java)                                            | 24ms    | 45.50% |
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                               | 54ms    | 36.20% |
