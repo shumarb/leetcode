@@ -1,3 +1,5 @@
+// Question: https://leetcode.com/problems/trim-trailing-vowels/description/
+
 class TrimTrailingWords {
     public String trimTrailingVowels(String s) {
         boolean isTest = false;

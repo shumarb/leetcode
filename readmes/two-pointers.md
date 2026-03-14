@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/244.
+Completed: 100/244.
 
 ## Submissions
 ### Easy
@@ -77,6 +77,7 @@ Completed: 99/244.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                    | 30ms    | 84.37% |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                       | 11ms    | 98.01% |
+| [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                            | 76ms    | 25.33% |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                           | 6ms     | 98.19% |
 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareVersionNumbers.java)                                       | 0ms     | 100%   |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                                      | 5ms     | 74.40% |
