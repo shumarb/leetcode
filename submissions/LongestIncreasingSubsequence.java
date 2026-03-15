@@ -1,6 +1,6 @@
 // Question:
 
-class LongestIncreasingSubsequenc {
+class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         boolean isTest = true;
         int n = nums.length;

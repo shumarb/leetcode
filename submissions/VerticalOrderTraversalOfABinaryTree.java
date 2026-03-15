@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class VerticalOrderTraversalOfABinaryTree {
     private Map<Integer, List<int[]>> map;
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {

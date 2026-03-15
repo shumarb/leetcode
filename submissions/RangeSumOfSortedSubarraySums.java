@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/
 
-class RangeSumOfSortedSubarraySums class Solution {
+class RangeSumOfSortedSubarraySums {
     public int rangeSum(int[] nums, int n, int left, int right) {
         boolean isTest = false;
         int[] updated = new int[n * (n + 1) / 2];
