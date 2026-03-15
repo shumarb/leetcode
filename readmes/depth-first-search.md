@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/337.
+Completed: 77/338.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 76/337.
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)               | 10ms    | 39.11% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)           | 1ms     | 99.86% |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                     | 0ms     | 100%   |
+| [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)           | 128ms   | 11.37% |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                 | 0ms     | 100%   | 
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                  | 6ms     | 68.02% | 
 
