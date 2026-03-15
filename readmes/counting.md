@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/196.
+Completed: 92/198.
 
 ## Submissions
 ### Easy
@@ -65,6 +65,7 @@ Completed: 91/196.
 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeCharactersToMakeTargetString.java)              | 0ms     | 100%   |
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)        | 2ms     | 94.26% |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                    | 1ms     | 49.79% |
+| [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPairWithDifferentFrequencies.java)                   | 1ms     | 100%   |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)                     | 8ms     | 61.40% |
 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                      | 0ms     | 100%   |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                      | 0ms     | 100%   |
