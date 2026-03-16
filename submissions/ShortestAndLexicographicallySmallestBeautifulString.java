@@ -4,37 +4,34 @@ class ShortestAndLexicographicallySmallestBeautifulString {
     public String shortestBeautifulSubstring(String s, int k) {
         String result = "";
         boolean isTest = false;
+        int countOnes = 0;
+        int left = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                String sub = s.substring(i, j + 1);
-                if (isValid(sub, k)) {
-                    if (isTest) {
-                        System.out.println(" * valid: " + sub);
-                    }
+        for (int right = 0; right < s.length(); right++) {
+            char c = s.charAt(right);
+            if (c == '1') {
+                countOnes++;
+            }
 
-                    if (result.isEmpty() || sub.length() < result.length() || (sub.length() == result.length() && sub.compareTo(result) < 0)) {
-                        result = sub;
-                    }
+            while (countOnes == k) {
+                String current = s.substring(left, right + 1);
+                if (isTest) {
+                    System.out.println(" * valid: " + current);
+                }
+
+                if (result.isEmpty() || current.length() < result.length() || (current.length() == result.length() && current.compareTo(result) < 0)) {
+                    result = current;
+                }
+
+                if (s.charAt(left++) == '1') {
+                    countOnes--;
                 }
             }
         }
         if (isTest) {
-            System.out.println("---------------------------------\nresult: " + result);
+            System.out.println("-------------------------------------\nresult: " + result);
         }
 
         return result;
-    }
-
-    private boolean isValid(String s, int k) {
-        int countOnes = 0;
-
-        for (char c: s.toCharArray()) {
-            if (c == '1' && ++countOnes > k) {
-                return false;
-            }
-        }
-
-        return countOnes == k;
     }
 }
