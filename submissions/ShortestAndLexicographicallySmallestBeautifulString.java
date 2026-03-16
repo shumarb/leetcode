@@ -14,13 +14,14 @@ class ShortestAndLexicographicallySmallestBeautifulString {
             }
 
             while (countOnes == k) {
-                String current = s.substring(left, right + 1);
+                int len = right - left + 1;
+
                 if (isTest) {
-                    System.out.println(" * valid: " + current);
+                    System.out.println(" * valid: " + s.substring(left, right + 1));
                 }
 
-                if (result.isEmpty() || current.length() < result.length() || (current.length() == result.length() && current.compareTo(result) < 0)) {
-                    result = current;
+                if (result.isEmpty() || len < result.length() || (len == result.length() && s.substring(left, right + 1).compareTo(result) < 0)) {
+                    result = s.substring(left, right + 1);
                 }
 
                 if (s.charAt(left++) == '1') {
