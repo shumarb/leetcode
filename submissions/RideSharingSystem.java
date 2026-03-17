@@ -3,10 +3,12 @@
 class RideSharingSystem {
     private Queue<Integer> drivers;
     private Queue<Integer> riders;
+    private boolean[] isRiderAvailable;
     private boolean isTest;
 
     public RideSharingSystem() {
         drivers = new LinkedList<>();
+        isRiderAvailable = new boolean[1001];
         isTest = false;
         riders = new LinkedList<>();
     }
@@ -22,6 +24,7 @@ class RideSharingSystem {
             display("\nbefore: ");
         }
         riders.add(riderId);
+        isRiderAvailable[riderId] = true;
         if (isTest) {
             display("\nafter: ");
             System.out.println("---------------------------------------");
@@ -47,7 +50,12 @@ class RideSharingSystem {
             System.out.println("---------------------------------------");
         }
 
-        return riders.isEmpty() || drivers.isEmpty() ? new int[] {-1, -1} : new int[] {drivers.poll(), riders.poll()};
+        if (riders.isEmpty() || drivers.isEmpty()) {
+            return new int[] {-1, -1};
+        }
+
+        isRiderAvailable[riders.peek()] = false;
+        return new int[] {drivers.poll(), riders.poll()};
     }
 
     public void cancelRider(int riderId) {
@@ -56,16 +64,20 @@ class RideSharingSystem {
             display("\nbefore: ");
         }
 
-        Queue<Integer> temp = new LinkedList<>();
-        while (!riders.isEmpty()) {
-            int current = riders.poll();
-            if (current != riderId) {
-                temp.offer(current);
+        if (isRiderAvailable[riderId]) {
+            isRiderAvailable[riderId] = false;
+            Queue<Integer> temp = new LinkedList<>();
+            while (!riders.isEmpty()) {
+                int current = riders.poll();
+                if (current != riderId) {
+                    temp.offer(current);
+                }
+            }
+            while (!temp.isEmpty()) {
+                riders.offer(temp.poll());
             }
         }
-        while (!temp.isEmpty()) {
-            riders.offer(temp.poll());
-        }
+
         if (isTest) {
             display("\nafter: ");
             System.out.println("---------------------------------------");
