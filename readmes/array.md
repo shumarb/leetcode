@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 605/2121.
+Completed: 606/2121.
 
 ## Submissions
 ### Easy
@@ -535,6 +535,7 @@ Completed: 605/2121.
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                                 | 172ms   | 82.34% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java)         | 7ms     | 57.49% |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                                  | 3ms     | 71.06% |
+| [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRoundsToCompleteAllTasks.java)                                 | 33ms    | 31.15% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                          | 1ms     | 99.72% |
 | [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsTwo.java)                                 | 2ms     | 100%   |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                                   | 11ms    | 24.39% |
