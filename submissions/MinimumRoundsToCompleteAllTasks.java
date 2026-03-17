@@ -15,12 +15,6 @@ class MinimumRoundsToCompleteAllTasks {
         }
 
         for (Map.Entry<Integer, Integer> e: map.entrySet()) {
-            if (e.getValue() < 2) {
-                return -1;
-            }
-        }
-
-        for (Map.Entry<Integer, Integer> e: map.entrySet()) {
             int difficulty = e.getKey();
             int value = e.getValue();
 
