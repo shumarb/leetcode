@@ -66,16 +66,7 @@ class RideSharingSystem {
 
         if (isRiderAvailable[riderId]) {
             isRiderAvailable[riderId] = false;
-            Queue<Integer> temp = new LinkedList<>();
-            while (!riders.isEmpty()) {
-                int current = riders.poll();
-                if (current != riderId) {
-                    temp.offer(current);
-                }
-            }
-            while (!temp.isEmpty()) {
-                riders.offer(temp.poll());
-            }
+            riders.remove(riderId);
         }
 
         if (isTest) {
