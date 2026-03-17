@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 8/22.
+Completed: 9/24.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 8/22.
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
 | [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)       | 69ms    | 15.58% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java) | 8ms     | 34.76% |
+| [Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RideSharingSystem.java)    | 69ms    | 5.05%  |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)           | 26ms    | 68.56% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)     | 16ms    | 100%   |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)           | 109ms   | 52.64% |
