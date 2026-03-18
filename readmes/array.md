@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 607/2121.
+Completed: 608/2127.
 
 ## Submissions
 ### Easy
@@ -167,6 +167,7 @@ Completed: 607/2121.
 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWidthOfColumnsOfAGrid.java)                           | 2ms     | 97.87% |
 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheXOROfNumbersWhichAppearTwice.java)                    | 1ms     | 98.52% |
 | [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Finding3DigitEvenNumber.java)                                | 3ms     | 94.61% |
+| [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueEvenElement.java)                                 | 1ms     | 99.30% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                        | 0ms     | 100%   |
 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FormSmallestNumberFromTwoDigitArrays.java)                   | 1ms     | 85.14% |
 | [Fruits into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsTwo.java)                                   | 1ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 94/198.
+Completed: 95/201.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 94/198.
 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNumberOfWinningPlayers.java)                      | 1ms     | 100%   |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstLetterToAppearTwice.java)                           | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)                      | 5ms     | 94.83% |
+| [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueEvenElement.java)                             | 1ms     | 99.30% |
 | [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingDecreasingString.java)                         | 2ms     | 100%   |
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfMultipleArrays.java)                       | 2ms     | 100%   |
 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthDistinctStringInAnArray.java)                         | 6ms     | 86.06% |
@@ -65,7 +66,7 @@ Completed: 94/198.
 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeCharactersToMakeTargetString.java)              | 0ms     | 100%   |
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)        | 2ms     | 94.26% |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                    | 1ms     | 49.79% |
-| [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPairWithDifferentFrequencies.java)                   | 1ms     | 100%   |
+| [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPairWithDifferentFrequencies.java)               | 1ms     | 100%   |
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)                     | 8ms     | 61.40% |
 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitAStringInBalancedStrings.java)                      | 0ms     | 100%   |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                      | 0ms     | 100%   |
