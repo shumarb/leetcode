@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 34/142.
+Completed: 35/143.
 
 ## Submissions
 ### Easy
@@ -46,11 +46,12 @@ Completed: 34/142.
 ### Medium
 | Question                                                                                                                                      | Submission                                                                                                         | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompletePrimeNumber.java)                                         | 2ms     | 92.81% |
+| [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompletePrimeNumber.java)                         | 2ms     | 92.81% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                 | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                 | 94ms    | 82.87% |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09% |
 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestStringAfterReverse.java) | 103ms   | 81.76% |
+| [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubstringOne.java)                 | 2777ms  | 5%     |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                      | 2ms     | 99.72% |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                     | 5ms     | 37.59% |
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65% |
