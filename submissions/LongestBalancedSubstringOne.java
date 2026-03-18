@@ -8,12 +8,11 @@ class LongestBalancedSubstringOne {
 
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
-                String sub = s.substring(i, j + 1);
-                if (sub.length() > result && isBalanced(sub)) {
+                if ((j - i + 1) > result && isBalanced(s.substring(i, j + 1))) {
                     if (isTest) {
-                        System.out.println(" * valid: " + sub);
+                        System.out.println(" * valid: " + s.substring(i, j + 1));
                     }
-                    result = sub.length();
+                    result = j - i + 1;
                 }
             }
         }
