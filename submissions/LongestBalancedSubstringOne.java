@@ -7,39 +7,28 @@ class LongestBalancedSubstringOne {
         int result = 0;
 
         for (int i = 0; i < n; i++) {
+            int[] count = new int[26];
+            int countDistinctLetters = 0;
+            int maximumCount = 0;
+
             for (int j = i; j < n; j++) {
-                if ((j - i + 1) > result && isBalanced(s.substring(i, j + 1))) {
+                char c = s.charAt(j);
+                if (++count[c - 'a'] == 1) {
+                    ++countDistinctLetters;
+                }
+
+                maximumCount = Math.max(count[c - 'a'], maximumCount);
+
+                int len = j - i + 1;
+                if (countDistinctLetters * maximumCount == len) {
                     if (isTest) {
                         System.out.println(" * valid: " + s.substring(i, j + 1));
                     }
-                    result = j - i + 1;
+                    result = Math.max(len, result);
                 }
             }
         }
 
         return result;
-    }
-
-    private boolean isBalanced(String s) {
-        int[] count = new int[26];
-        int value = 0;
-
-        for (char c: s.toCharArray()) {
-            count[c - 'a']++;
-        }
-
-        for (int i = 0; i < count.length; i++) {
-            if (count[i] > 0) {
-                value = count[i];
-                break;
-            }
-        }
-        for (int i = 0; i < count.length; i++) {
-            if (count[i] > 0 && count[i] != value) {
-                return false;
-            }
-        }
-
-        return true;
     }
 }
