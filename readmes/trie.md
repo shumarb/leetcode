@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/61.
+Completed: 17/61.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 16/61.
 |-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|--------|
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)               | 162ms   | 94.15% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)     | 46ms    | 87.58% | 
+| [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLengthOfTheLongestCommonPrefix.java)                           | 102ms   | 38.67% |
 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)              | 27ms    | 58.30% | 
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                         | 33ms    | 85.89% | 
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)  | 190ms   | 59.09% |
