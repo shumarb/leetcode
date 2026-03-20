@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 609/2127.
+Completed: 610/2127.
 
 ## Submissions
 ### Easy
@@ -527,6 +527,7 @@ Completed: 609/2127.
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                                  | 7ms     | 97.71% |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                                   | 11ms    | 96.62% |
 | [Minimum Absolute Difference Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                       | 48ms    | 92.88% |
+| [Minimum Absolute Difference in Sliding Window Matrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifferenceInSlidingWindowMatrix.java)                  | 37ms    | 23.40% |
 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageDifference.java)                                        | 7ms     | 20%    |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                                 | 16ms    | 96.94% |
 | [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDistanceBetweenThreeEqualElementsTwo.java)                     | 58ms    | 93.75% |
