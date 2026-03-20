@@ -1,7 +1,7 @@
 // Question: https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/
 
 class CountUnreachablePairsOfNodesInAnUndirectedGraph {
-    private Map<Integer, List<Integer>> graph;
+    private List<List<Integer>> graph;
     private boolean[] isVisited;
 
     public long countPairs(int n, int[][] edges) {
@@ -9,11 +9,11 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
         boolean isTest = false;
         long remaining = n;
         long result = 0;
-        graph = new HashMap<>();
+        graph = new ArrayList<>();
         isVisited = new boolean[n];
 
         for (int i = 0; i < n; i++) {
-            graph.put(i, new ArrayList<>());
+            graph.add(new ArrayList<>());
         }
         for (int[] edge: edges) {
             int first = edge[0];
@@ -23,8 +23,8 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
         }
         if (isTest) {
             System.out.println("graph:");
-            for (Map.Entry<Integer, List<Integer>> e: graph.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
+            for (int i = 0; i < graph.size(); i++) {
+                System.out.println(" * " + i + " -> " + graph.get(i));
             }
         }
 
