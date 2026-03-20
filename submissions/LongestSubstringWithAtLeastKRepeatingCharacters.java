@@ -12,7 +12,7 @@ class LongestSubstringWithAtLeastKRepeatingCharacters {
                 window[s.charAt(j) - 'a']++;
 
                 int len = j - i + 1;
-                if (len > result && isValid(window, k)) {
+                if (len >= k && len > result && isValid(window, k)) {
                     if (isTest) {
                         System.out.println(" * valid: " + s.substring(i, j + 1));
                     }
