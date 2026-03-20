@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/
 
-class FindTheLengthOfTheLongestCommonPrefix  {
+class FindTheLengthOfTheLongestCommonPrefix {
     public int longestCommonPrefix(int[] arr1, int[] arr2) {
         Set<Integer> prefix1 = getPrefixes(arr1);
         Set<Integer> prefix2 = getPrefixes(arr2);
@@ -34,7 +34,7 @@ class FindTheLengthOfTheLongestCommonPrefix  {
     private Set<Integer> getPrefixes(int[] arr) {
         Set<Integer> result = new HashSet<>();
         for (int e: arr) {
-            while (e > 0) {
+            while (!result.contains(e) && e > 0) {
                 result.add(e);
                 e /= 10;
             }
