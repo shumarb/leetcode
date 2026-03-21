@@ -1,7 +1,7 @@
 // Question: https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/
 
 class CountUnreachablePairsOfNodesInAnUndirectedGraph {
-    private List<List<Integer>> graph;
+    private List<Integer>[] graph;
     private boolean[] isVisited;
 
     public long countPairs(int n, int[][] edges) {
@@ -9,23 +9,22 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
         boolean isTest = false;
         long remaining = n;
         long result = 0;
-        graph = new ArrayList<>();
+        graph = new ArrayList[n];
         isVisited = new boolean[n];
 
         for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+            graph[i] = new ArrayList<>();
         }
         for (int[] edge: edges) {
-            int first = edge[0];
-            int second = edge[1];
-            graph.get(first).add(second);
-            graph.get(second).add(first);
+            graph[edge[0]].add(edge[1]);
+            graph[edge[1]].add(edge[0]);
         }
         if (isTest) {
             System.out.println("graph:");
-            for (int i = 0; i < graph.size(); i++) {
-                System.out.println(" * " + i + " -> " + graph.get(i));
+            for (int i = 0; i < graph.length; i++) {
+                System.out.println(" * " + i + " -> " + graph[i]);
             }
+            System.out.println("----------------------------------------------------");
         }
 
         /**
@@ -34,26 +33,24 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
          */
         for (int i = 0; i < n; i++) {
             if (!isVisited[i]) {
-                nodeComponentSizes.add(bfs(i));
-            }
-        }
-        if (isTest) {
-            System.out.println("--------------------------\nnodeComponentSizes: ");
-            for (int i = 0; i < nodeComponentSizes.size(); i++) {
-                System.out.println(" * node " + i + " -> " + nodeComponentSizes.get(i));
+                int componentSize = bfs(i);
+                nodeComponentSizes.add(componentSize);
+                if (isTest) {
+                    System.out.println(" * source: " + i + " | component size: " + componentSize);
+                }
             }
         }
 
-        /*
-            2.  Remaining tracks number of nodes left a node is not connected to.
-                Multiply remaining with size to count number of unconnected pairs.
-        */
+        /**
+         2.  Remaining tracks number of nodes left a node is not connected to.
+         Multiply remaining with size to count number of unconnected pairs.
+         */
         for (int size: nodeComponentSizes) {
             remaining -= size;
             result += (remaining * size);
         }
         if (isTest) {
-            System.out.println("--------------------------\nresult: " + result);
+            System.out.println("----------------------------------------------------\nresult: " + result);
         }
 
         return result;
@@ -70,7 +67,7 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
             int top = queue.poll();
             size++;
 
-            for (int neighbour: graph.get(top)) {
+            for (int neighbour: graph[top]) {
                 if (!isVisited[neighbour]) {
                     isVisited[neighbour] = true;
                     queue.offer(neighbour);
