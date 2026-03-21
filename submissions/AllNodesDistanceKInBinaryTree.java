@@ -13,8 +13,8 @@ class AllNodesDistanceKInBinaryTree {
     private int largest;
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+        List<Integer>[] graph = new ArrayList[501];
         List<Integer> result = new ArrayList<>();
-        Map<Integer, List<Integer>> graph = new HashMap<>();
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited;
         boolean isTest = false;
@@ -24,14 +24,14 @@ class AllNodesDistanceKInBinaryTree {
         dfs(graph, root);
         if (isTest) {
             System.out.println("graph:");
-            for (Map.Entry<Integer, List<Integer>> e: graph.entrySet()) {
-                System.out.println(" * " + e.getKey() + " -> " + e.getValue());
+            for (int i = 0; i <= largest; i++) {
+                System.out.println(" * " + i + " -> " + graph[i]);
             }
             System.out.println("-------------------------------------------------------------------------------");
         }
 
-        isVisited = new boolean[largest + 1];
         queue.offer(target.val);
+        isVisited = new boolean[largest +1];
         while (!queue.isEmpty()) {
             int size = queue.size();
             ++level;
@@ -41,17 +41,13 @@ class AllNodesDistanceKInBinaryTree {
             }
 
             if (level == k) {
-                while (!queue.isEmpty()) {
-                    result.add(queue.poll());
-                }
-                break;
+                return new ArrayList<>(queue);
             }
             for (int i = 0; i < size; i++) {
                 int top = queue.poll();
                 isVisited[top] = true;
 
-                List<Integer> neighbours = graph.get(top);
-                for (int neighbour: neighbours) {
+                for (int neighbour: graph[top]) {
                     if (!isVisited[neighbour]) {
                         queue.offer(neighbour);
                     }
@@ -59,28 +55,41 @@ class AllNodesDistanceKInBinaryTree {
             }
         }
         if (isTest) {
-            System.out.println("largest: " + largest + "\nisVisited: " + Arrays.toString(isVisited) + "\nresult: " + result);
+            System.out.println("largest: " + largest);
+            System.out.print("isVisited: [");
+            for (int i = 0; i < isVisited.length - 1; i++) {
+                System.out.print(isVisited[i] + ", ");
+            }
+            System.out.println(isVisited[largest] + "]\nresult: " + result);
         }
 
         return result;
     }
 
-    private void dfs(Map<Integer, List<Integer>> graph, TreeNode node) {
+    private void dfs(List<Integer>[] graph, TreeNode node) {
         if (node == null) {
             return;
         }
 
         largest = Math.max(largest, node.val);
-        graph.putIfAbsent(node.val, new ArrayList<>());
-        if (node.left != null) {
-            graph.putIfAbsent(node.left.val, new ArrayList<>());
-            graph.get(node.val).add(node.left.val);
-            graph.get(node.left.val).add(node.val);
+        if (graph[node.val] == null) {
+            graph[node.val] = new ArrayList<>();
         }
+
+        if (node.left != null) {
+            if (graph[node.left.val] == null) {
+                graph[node.left.val] = new ArrayList<>();
+            }
+            graph[node.left.val].add(node.val);
+            graph[node.val].add(node.left.val);
+        }
+
         if (node.right != null) {
-            graph.putIfAbsent(node.right.val, new ArrayList<>());
-            graph.get(node.val).add(node.right.val);
-            graph.get(node.right.val).add(node.val);
+            if (graph[node.right.val] == null) {
+                graph[node.right.val] = new ArrayList<>();
+            }
+            graph[node.right.val].add(node.val);
+            graph[node.val].add(node.right.val);
         }
 
         if (node.left != null) {
