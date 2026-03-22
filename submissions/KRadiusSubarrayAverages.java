@@ -2,39 +2,27 @@
 
 class KRadiusSubarrayAverages {
     public int[] getAverages(int[] nums, int k) {
-        boolean isTest = false;
+        int left = 0;
         int n = nums.length;
+        int right = 2 * k + 1;
         int windowSize = 2 * k + 1;
         int[] result = new int[n];
-        long runningSum = 0;
+        long sum = 0;
 
         Arrays.fill(result, -1);
-        if (2 * k + 1 > n) {
+        if (windowSize > n) {
             return result;
         }
 
         for (int i = 0; i < windowSize; i++) {
-            runningSum += nums[i];
+            sum += nums[i];
         }
-        result[k] = (int) (runningSum / windowSize);
+        result[k] = (int) (sum / windowSize);
 
-        for (int i = k + 1; i < n - k; i++) {
-            int remove = nums[i - k - 1];
-            int incoming = nums[i + k];
-            if (isTest) {
-                System.out.println("i: " + i + "\n * before, runningSum: " + runningSum + "\n * remove: " + remove + " @ index: " + (i - k));
-                System.out.println(" * incoming: " + incoming + " @ index: " + (i + k));
-            }
-            runningSum -= remove;
-            runningSum += incoming;
-            result[i] = (int) (runningSum / windowSize);
-            if (isTest) {
-                System.out.println("* after, runningSum: " + runningSum);
-                System.out.println("----------------------------------------------------------------");
-            }
-        }
-        if (isTest) {
-            System.out.println("runningSum: " + runningSum + "\nresult: " + Arrays.toString(result));
+        for (int centerIndex = k + 1; centerIndex < n - k; centerIndex++) {
+            sum -= nums[centerIndex - k - 1];
+            sum += nums[centerIndex + k];
+            result[centerIndex] = (int) (sum / windowSize);
         }
 
         return result;
