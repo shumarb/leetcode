@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 611/2127.
+Completed: 612/2127.
 
 ## Submissions
 ### Easy
@@ -484,6 +484,7 @@ Completed: 611/2127.
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                                        | 2ms     | 84.17% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                                          | 30ms    | 64.77% |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                                     | 190ms   | 59.09% |
+| [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KRadiusSubarrayAverages.java)                                         | 7ms     | 25.15% |
 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                                             | 11ms    | 59.51% |
 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestPrimeFaction.java)                                         | 344ms   | 44.26% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                                      | 3ms     | 98.86% |

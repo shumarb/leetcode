@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 52/164.
+Completed: 53/164.
 
 ## Submissions
 ### Easy
@@ -51,6 +51,7 @@ Completed: 52/164.
 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysOne.java)                                 | 1ms     | 100%   |
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 100%   |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39% |
+| [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KRadiusSubarrayAverages.java)                                         | 7ms     | 25.15% |
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                              | 19ms    | 77.61% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                       | 6ms     | 70.55% |
 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithAtLeastKRepeatingCharacters.java)                 | 233ms   | 16.21% |
