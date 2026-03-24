@@ -52,6 +52,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java) | 24ms    | 98.13% |
 
+## Dynamic Programming
+| Question                                                                        | Submission                                                                             | Runtime | Rank   |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java) | 1ms     | 99.92% |
+
 ## Design
 | Question                                                                        | Submission                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|--------|
