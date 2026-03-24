@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 82/178.
+Completed: 83/178.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 82/178.
 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                            | 1ms     | 17.79% |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100%   |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                         | 1ms     | 100%   |
+| [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNodesEqualToAverageOfSubtree.java)                  | 1ms     | 60.70% |
 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                   | 40ms    | 95.74% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                   | 1ms     | 100%   |
 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodeInABST.java)                                   | 0ms     | 100%   |
