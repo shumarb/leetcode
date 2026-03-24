@@ -3,7 +3,7 @@
 class RemoveAllOccurrencesOfASubstring {
     public String removeOccurrences(String s, String part) {
         // 1. Edge case: impossible to form part from s.
-        if (s.length() < part.length()) {
+        if (s.length() < part.length() || !s.contains(part)) {
             return s;
         }
 
