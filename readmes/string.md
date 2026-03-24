@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 309/863.
+Completed: 310/863.
 
 ## Submissions
 ### Easy
@@ -297,6 +297,7 @@ Completed: 309/863.
 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                                   | 22ms    | 87.96% |
 | [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReconstructOriginalDigitsFromEnglish.java)                         | 4ms     | 78.33% |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringTwo.java)                       | 31ms    | 52.93% |
+| [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllOccurrencesOfASubstring.java)                             | 80ms    | 6.62%  |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                                       | 2ms     | 94.48% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                                     | 30ms    | 87.41% |
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                             | 3ms     | 65.10% |
