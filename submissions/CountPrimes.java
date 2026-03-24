@@ -2,36 +2,39 @@
 
 class CountPrimes {
     public int countPrimes(int n) {
-        boolean[] isP = new boolean[n + 1];
+        if (n <= 2) {
+            return 0;
+        }
+
+        boolean[] isPrime = new boolean[n];
         boolean isTest = false;
-        int c = 0;
-        Arrays.fill(isP, true);
+        int result = 0;
 
-        // 0 and 1 are not prime numbers
-        if (n > 0) {
-            isP[0] = false;
-            isP[1] = false;
-        }
-        if (isTest) {
-            System.out.println(Arrays.toString(isP));
-        }
-
-        for (int i = 2; i * i <= n; i++) {
-            if (isP[i]) {
-                for (int j = i * i; j <= n; j += i) {
-                    isP[j] = false;
+        Arrays.fill(isPrime, true);
+        isPrime[0] = false;
+        isPrime[1] = false;
+        for (int i = 2; i * i < n; i++) {
+            if (isPrime[i]) {
+                for (int j = i * i; j < n; j += i) {
+                    isPrime[j] = false;
                 }
             }
         }
-        if (isTest) {
-            System.out.println(Arrays.toString(isP));
-        }
-        for (int i = 0; i < n; i++) {
-            if (isP[i]) {
-                c++;
+        for (int i = 2; i < n; i++) {
+            if (isPrime[i]) {
+                result++;
             }
         }
-        return c;
-    }
+        if (isTest) {
+            System.out.print("prime numbers: ");
+            for (int i = 2; i < n; i++) {
+                if (isPrime[i]) {
+                    System.out.print(i + " ");
+                }
+            }
+            System.out.println("\n-----------------------------\nresult: " + result);
+        }
 
+        return result;
+    }
 }

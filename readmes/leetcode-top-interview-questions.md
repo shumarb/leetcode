@@ -37,33 +37,34 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 ## Linked List
 | Question                                                                                                        | Submission                                                                                        | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)            | 0ms     | 100%   |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java) | 0ms     | 100%   |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)          | 0ms     | 100%   |
-| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)            | 0ms     | 100%   |
 
 ## Trees
-| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java) | 0ms     | 100%   |
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)                      | 1ms     | 94.55% |
+| Question                                                                                                          | Submission                                                                                           | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java) | 1ms     | 94.55% |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)      | 0ms     | 100%   |
 
 ## Sorting and Searching
-| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)                                              | 24ms    | 98.13% |
+| Question                                                                          | Submission                                                                             | Runtime | Rank   |
+|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
+| [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java) | 24ms    | 98.13% |
 
 ## Design
-| Question                                                                                                | Submission                                                                              | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
-| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)   | 53ms    | 34.10% |
-| [Min Stack](https://leetcode.com/problems/min-stack/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)         | 5ms     | 83.54% |
+| Question                                                                        | Submission                                                                            | Runtime | Rank   |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|--------|
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)       | 5ms     | 83.54% |
+| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java) | 53ms    | 34.10% |
 
 ## Math
-| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)                                                     | 1ms     | 99.69% |
+| Question                                                                | Submission                                                                         | Runtime | Rank   |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------|--------|
+| [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java) | 93ms    | 85.91% |
+| [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)    | 1ms     | 99.69% |
 
 ## Others
-| Question                                                                                                     | Submission                                                                                      | Runtime | Rank   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
-| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)                                                | 0ms     | 100%   |
+| Question                                                                        | Submission                                                                           | Runtime | Rank   |
+|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------|--------|
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java) | 0ms     | 100%   |
