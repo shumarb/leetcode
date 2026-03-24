@@ -42,10 +42,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)          | 0ms     | 100%   |
 
 ### Trees
-| Question                                                                                                          | Submission                                                                                           | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java) | 1ms     | 94.55% |
-| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)      | 0ms     | 100%   |
+| Question                                                                                                                            | Submission                                                                                                  | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)        | 1ms     | 94.55% |
+| [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java) | 0ms     | 100%   |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)             | 0ms     | 100%   |
 
 ### Sorting and Searching
 | Question                                                                          | Submission                                                                             | Runtime | Rank   |
@@ -64,10 +65,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java) | 53ms    | 34.10% |
 
 ### Math
-| Question                                                                | Submission                                                                         | Runtime | Rank   |
-|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------|--------|
-| [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java) | 93ms    | 85.91% |
-| [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)    | 1ms     | 99.69% |
+| Question                                                                    | Submission                                                                          | Runtime | Rank   |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------|--------|
+| [Count Primes](https://leetcode.com/problems/count-primes/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)  | 93ms    | 85.91% |
+| [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)     | 1ms     | 99.69% |
+| [Power of Three](https://leetcode.com/problems/power-of-three/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowerOfThree.java) | 7ms     | 99.92% |
 
 ### Others
 | Question                                                                        | Submission                                                                           | Runtime | Rank   |
