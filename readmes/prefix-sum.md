@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/237.
+Completed: 41/239.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 40/237.
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                             | 51ms    | 81.88% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                              | 7ms     | 95.59% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                    | 34ms    | 79.83% |
+| [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelStringsInRanges.java)                               | 4ms     | 98.17% |
 | [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                                | 5ms     | 47.55% |
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                                | 5ms     | 88.83% |
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                            | 196ms   | 78.19% |
