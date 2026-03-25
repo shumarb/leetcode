@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/271.
+Completed: 52/271.
 
 ## Submissions
 ### Easy
@@ -55,6 +55,7 @@ Completed: 51/271.
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                               | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)    | 9ms     | 78.44% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                         | 12ms    | 88.41% |
+| [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                       | 5ms     | 47.55% |
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)              | 4ms     | 94.20% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)              | 11ms    | 65.35% |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                  | 245ms   | 26.60% |

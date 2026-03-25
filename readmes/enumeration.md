@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 35/143.
+Completed: 36/143.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 35/143.
 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompletePrimeNumber.java)                         | 2ms     | 92.81% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                 | 51ms    | 81.88% |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                 | 93ms    | 85.91% |
+| [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                    | 5ms     | 47.55% |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09% |
 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestStringAfterReverse.java) | 103ms   | 81.76% |
 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubstringOne.java)                 | 32ms    | 92.97% |
