@@ -15,13 +15,7 @@ class CountVowelStringsInRanges {
         for (int i = 0; i < queries.length; i++) {
             int left = queries[i][0];
             int right = queries[i][1];
-
-            if (left == right) {
-                result[i] = isValid(words[left]) ? 1 : 0;
-
-            } else {
-                result[i] = left == 0 ? prefix[right] : prefix[right] - prefix[left - 1];
-            }
+            result[i] = left == 0 ? prefix[right] : prefix[right] - prefix[left - 1];
         }
         if (isTest) {
             System.out.println("prefix: " + Arrays.toString(prefix) + "\nresult: " + Arrays.toString(result));
