@@ -3,14 +3,17 @@
 class CountVowelStringsInRanges {
     public int[] vowelStrings(String[] words, int[][] queries) {
         boolean isTest = false;
+        int countVowelStrings = 0;
         int m = words.length;
         int n = queries.length;
         int[] prefix = new int[m];
         int[] result = new int[n];
 
-        prefix[0] = isValid(words[0]) ? 1 : 0;
-        for (int i = 1; i < m; i++) {
-            prefix[i] = isValid(words[i]) ? 1 + prefix[i - 1] : prefix[i - 1];
+        for (int i = 0; i < m; i++) {
+            if (isVowelString(words[i])) {
+                countVowelStrings++;
+            }
+            prefix[i] = countVowelStrings;
         }
         for (int i = 0; i < queries.length; i++) {
             int left = queries[i][0];
@@ -24,7 +27,7 @@ class CountVowelStringsInRanges {
         return result;
     }
 
-    private boolean isValid(String word) {
+    private boolean isVowelString(String word) {
         return isVowel(word.charAt(0)) && isVowel(word.charAt(word.length() - 1));
     }
 

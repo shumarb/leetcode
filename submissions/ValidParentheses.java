@@ -6,26 +6,25 @@ class ValidParentheses {
             return false;
         }
 
-        Stack<Character> stack = new Stack<> ();
+        Stack<Character> stack = new Stack<>();
+
         for (char c: s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
-            } 
 
-            if (c == ')') {
-                if (stack.isEmpty() || stack.pop() != '(') {
+            } else {
+                if (stack.isEmpty()) {
                     return false;
                 }
-            }
 
-            if (c == ']') {
-                if (stack.isEmpty() || stack.pop() != '[') {
+                char top = stack.pop();
+                if (c == ')' && top != '(') {
                     return false;
-                }
-            }
 
-            if (c == '}') {
-                if (stack.isEmpty() || stack.pop() != '{') {
+                } else if (c == '}' && top != '{') {
+                    return false;
+
+                } else if (c == ']' && top != '[') {
                     return false;
                 }
             }
@@ -33,6 +32,4 @@ class ValidParentheses {
 
         return stack.isEmpty();
     }
-
 }
-

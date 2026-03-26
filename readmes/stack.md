@@ -38,7 +38,7 @@ Completed: 52/178.
 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInString.java)        | 36ms    | 48.71% |
 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveOutermostParentheses.java)                 | 4ms     | 57.35% |
 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord..java)                       | 1ms     | 52.92% |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)                           | 2ms     | 97.66% |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)                           | 3ms     | 87.37% |
 
 ### Medium
 | Question                                                                                                                                                  | Submission                                                                                                              | Runtime | Rank   |

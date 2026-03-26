@@ -25,7 +25,7 @@ Completed: 49/645.
 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumRepeatingSubstring.java)                  | 0ms     | 100%   |
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinCostClimbingStairs.java)                      | 0ms     | 100%   |
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)                        | 0ms     | 100%   |
-| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                            | 0ms     | 100%   |
+| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                            | 1ms     | 95.20% |
 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangleTwo.java)                         | 1ms     | 66.61% |
 
 ### Medium
