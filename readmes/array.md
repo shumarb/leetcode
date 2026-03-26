@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 615/2132.
+Completed: 616/2132.
 
 ## Submissions
 ### Easy
@@ -266,6 +266,7 @@ Completed: 615/2132.
 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRightShiftsToSortTheArray.java)                       | 1ms     | 100%   |
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)                 | 2ms     | 98.90% |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsOne.java)                        | 1ms     | 100%   |
+| [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumValueToGetPositiveStepByStepSum.java)                 | 3ms     | 2.73%  |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                          | 0ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ModifyTheMatrix.java)                                        | 1ms     | 100%   |
 | [Monotonic Stack](https://leetcode.com/problems/monotonic-stack/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MonotonicStack.java)                                         | 1ms     | 98.82% |

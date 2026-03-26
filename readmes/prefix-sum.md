@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/239.
+Completed: 42/239.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 41/239.
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPopulationYear.java)                   | 2ms     | 26.45% |
 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumScoreAfterSplittingAString.java)       | 2ms     | 38.65% |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)              | 3ms     | 74.01% |
+| [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumValueToGetPositiveStepByStepSum.java)  | 3ms     | 2.73%  |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)             | 2ms     | 74.65% |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumArray.java)                                | 7ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
