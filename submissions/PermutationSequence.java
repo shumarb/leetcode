@@ -3,15 +3,16 @@
 class PermutationSequence {
     private String result;
     private boolean isStop;
+    private boolean isTest;
     private int[] digits;
     private int count;
     private int k;
 
     public String getPermutation(int n, int k) {
-        boolean isTest = false;
         count = 0;
         digits = new int[n];
         isStop = false;
+        isTest = false;
         result = "";
         this.k = k;
 
@@ -22,6 +23,7 @@ class PermutationSequence {
             dfs(i, new StringBuilder(), new boolean[n]);
         }
         if (isTest) {
+            System.out.println("----------------------------");
             System.out.println("n: " + n + ", k: " + k + "\ndigits: " + Arrays.toString(digits));
             System.out.println("----------------------------\nresult: " + result);
         }
@@ -34,8 +36,10 @@ class PermutationSequence {
         path.append(digits[i]);
 
         if (path.length() == isVisited.length) {
-            count++;
-            if (count == k) {
+            if (isTest) {
+                System.out.println(" * " + path);
+            }
+            if (++count == k) {
                 result = path.toString();
                 isStop = true;
             }
@@ -48,6 +52,9 @@ class PermutationSequence {
                 dfs(j, path, isVisited);
                 isVisited[j] = false;
                 path.setLength(originalLength);
+                if (isStop) {
+                    return;
+                }
             }
         }
     }

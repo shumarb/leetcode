@@ -41,5 +41,5 @@ Completed: 19/51.
 ### Hard
 | Question                                                                                        | Submission                                                                                  | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationSequence.java)  | 511ms   | 14.28% |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationSequence.java)  | 504ms   | 8.96%  |
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java) | 1ms     | 30.85% |
