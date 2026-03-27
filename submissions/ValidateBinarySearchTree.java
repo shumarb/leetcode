@@ -16,28 +16,35 @@
  * }
  */
 class ValidateBinarySearchTree {
-    private long previous = Long.MIN_VALUE;
-    private boolean result = true;
+    private boolean result;
+    private long last;
 
     public boolean isValidBST(TreeNode root) {
-        inOrderTraversal(root);
+        last = Long.MIN_VALUE;
+        result = true;
+
+        inOrder(root);
+
         return result;
     }
 
-    private void inOrderTraversal(TreeNode node) {
+    private void inOrder(TreeNode node) {
         if (node == null) {
             return;
         }
-        inOrderTraversal(node.left);
-        if (previous == Long.MIN_VALUE) {
-            previous = (long) node.val;
-        } else {
-            if ((long) node.val <= previous) {
-                result = false;
-                return;
-            }
-            previous = (long) node.val;
+
+        if (node.left != null) {
+            inOrder(node.left);
         }
-        inOrderTraversal(node.right);
+
+        if (last != Long.MIN_VALUE && node.val <= last) {
+            result = false;
+            return;
+        }
+        last = node.val;
+
+        if (node.right != null) {
+            inOrder(node.right);
+        }
     }
 }

@@ -38,6 +38,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | Question                                                                                                        | Submission                                                                                        | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)            | 0ms     | 100%   |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)        | 0ms     | 100%   |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)       | 4ms     | 70.03% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java) | 0ms     | 100%   |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)          | 0ms     | 100%   |
@@ -49,6 +50,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java) | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)             | 0ms     | 100%   |
 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SymmetricTree.java)                        | 0ms     | 100%   |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)             | 2ms     | 98.25% | 
 
 ### Sorting and Searching
 | Question                                                                          | Submission                                                                             | Runtime | Rank   |

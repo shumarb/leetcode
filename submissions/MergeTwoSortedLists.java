@@ -12,18 +12,14 @@
  */
 class MergeTwoSortedLists  {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        // 1. No nodes in both nodes
-        if (list1 == null && list2 == null) {
-            return null;
-        }
-        ListNode head = new ListNode(-1);
-        ListNode current = head;
+        ListNode result = new ListNode(-1);
+        ListNode current = result;
+        boolean isTest = false;
 
-        /**
-         2.  Both lists are have at least 1 node,
-         so check its corresponding elements to identify smaller element
-         and add it to combined list
-         */
+        if (isTest) {
+            display("list1: ", list1);
+            display("list2: ", list2);
+        }
         while (list1 != null && list2 != null) {
             if (list1.val <= list2.val) {
                 current.next = list1;
@@ -35,20 +31,31 @@ class MergeTwoSortedLists  {
             current = current.next;
         }
 
-        /**
-         3.  If both lists are of different lengths,
-         while loop above iterates the entirety of shorter list but not the other list
-         so set current node's next to the start node of remaining nodes of the other list 
-         that has not been traversed fully.
-         */
-        if (list1 != null) {
+        while (list1 != null) {
             current.next = list1;
+            list1 = list1.next;
+            current = current.next;
         }
-        if (list2 != null) {
+        while (list2 != null) {
             current.next = list2;
+            list2 = list2.next;
+            current = current.next;
+        }
+        if (isTest) {
+            display("result: ", result.next);
         }
 
-        return head.next;
+        return result.next;
     }
 
+    private void display(String s, ListNode head) {
+        ListNode current = head;
+
+        System.out.print(s);
+        while (current != null) {
+            System.out.print(current.val + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
 }
