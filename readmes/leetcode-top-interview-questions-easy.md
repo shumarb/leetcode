@@ -57,6 +57,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 ### Dynamic Programming
 | Question                                                                        | Submission                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)  | 0ms     | 100%   |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java) | 1ms     | 99.92% |
 
 ### Design
