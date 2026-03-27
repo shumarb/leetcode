@@ -1,4 +1,4 @@
-# Leetcode Top Interview Questions (Easy Collection)
+# LeetCode Top Interview Questions (Easy Collection)
 
 ## Overview
 This folder contains my solutions to the [LeetCode Top Interview Questions (Easy Collection)](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) problem list,
