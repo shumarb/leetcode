@@ -53,9 +53,10 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)             | 2ms     | 98.25% | 
 
 ### Sorting and Searching
-| Question                                                                          | Submission                                                                             | Runtime | Rank   |
-|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
-| [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java) | 24ms    | 98.13% |
+| Question                                                                            | Submission                                                                              | Runtime | Rank   |
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
+| [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java)  | 24ms    | 98.13% |
+| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSortedArray.java) | 0ms     | 100%   |
 
 ### Dynamic Programming
 | Question                                                                                                      | Submission                                                                                       | Runtime | Rank   |
