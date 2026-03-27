@@ -16,7 +16,7 @@ Completed: 57/75.
 ### Easy
 | Question                                                                                                      | Submission                                                                                       | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
-| [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 2ms     | 72.40% |
+| [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 1ms     | 99.88% |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)            | 0ms     | 100%   |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)         | 10ms    | 88.34% |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)              | 2ms     | 95%    |

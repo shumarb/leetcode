@@ -5,7 +5,7 @@ class ClimbingStairs {
         boolean isTest = false;
         int[] count = new int[n + 1];
 
-        // 1. 1 way to climb 0 ste
+        // 1. 1 way to climb 0 steps.
         count[0] = 1;
 
         for (int i = 1; i <= n; i++) {

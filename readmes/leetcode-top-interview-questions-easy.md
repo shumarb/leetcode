@@ -48,6 +48,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeLevelOrderTraversal.java)        | 1ms     | 94.55% |
 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java) | 0ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)             | 0ms     | 100%   |
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SymmetricTree.java)                        | 0ms     | 100%   |
 
 ### Sorting and Searching
 | Question                                                                          | Submission                                                                             | Runtime | Rank   |
@@ -55,10 +56,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstBadVersion.java) | 24ms    | 98.13% |
 
 ### Dynamic Programming
-| Question                                                                        | Submission                                                                             | Runtime | Rank   |
-|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------|--------|
-| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)  | 0ms     | 100%   |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java) | 1ms     | 99.92% |
+| Question                                                                                                      | Submission                                                                                       | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 1ms     | 99.88% |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)            | 0ms     | 100%   |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)           | 1ms     | 99.92% |
 
 ### Design
 | Question                                                                        | Submission                                                                            | Runtime | Rank   |
