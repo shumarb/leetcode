@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/house-robber/description/
 
-class HouseRobber class Solution {
+class HouseRobber {
     public int rob(int[] nums) {
         boolean isTest = false;
         int n = nums.length;
