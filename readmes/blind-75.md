@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/75.
+Completed: 58/75.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 57/75.
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                     | 162ms   | 94.15% | 
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                    | 0ms     | 100%   |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                      | 7ms     | 65.30% |
+| [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                        | 0ms     | 100%   |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                               | 33ms    | 85.89% | 
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                     | 2ms     | 36.52% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                           | 2ms     | 84.17% |

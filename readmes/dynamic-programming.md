@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/645.
+Completed: 50/646.
 
 ## Submissions
 ### Easy
@@ -41,6 +41,7 @@ Completed: 49/645.
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                       | 46ms    | 87.58% | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83% |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                            | 0ms     | 100%   |
+| [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                    | 0ms     | 100%   |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                       | 2ms     | 84.17% |
 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestFibonacciSubsequence.java)            | 196ms   | 35.02% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                   | 383ms   | 69.83% |

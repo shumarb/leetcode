@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 108/169.
+Completed: 109/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -69,6 +69,7 @@ Completed: 108/169.
 | 71  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                           | 9ms     | 91.31% |
 | 75  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |
 | 76  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                  | 77ms    | 26.55% |
+| 77  | [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                        | 0ms     | 100%   |
 | 80  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                             | 1ms     | 78.15% |
 | 84  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                      | 7ms     | 65.30% |
 | 85  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                             | 1ms     | 90.84% |
