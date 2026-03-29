@@ -10,10 +10,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/36.
+Completed: 2/40.
 
 ## Submissions
 ### Medium
-| Question                                                                                          | Submission                                                                                            | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)         | 3ms     | 99.90% |
+| Question                                                                                                                                              | Submission                                                                                                        | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllAncestorsOfANodeInADirectedAcyclicGraph.java) | 1920ms  | 5.17%  |
+| [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                     | 3ms     | 99.90% |
