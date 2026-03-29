@@ -1,38 +1,62 @@
 // Question: https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
 
-class AllAncestorsOfANodeInADirectedAcyclicGraph class Solution {
+class AllAncestorsOfANodeInADirectedAcyclicGraph {
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
+        Queue<Integer> queue = new LinkedList<>();
         List<List<Integer>> result = new ArrayList<>();
-        boolean[][] isAncestor = new boolean[n][n];
+        List<Integer>[] graph = new ArrayList[n];
+        Set<Integer>[] ancestors = new HashSet[n];
         boolean isTest = false;
+        int[] inDegree = new int[n];
 
+        for (int i = 0; i < graph.length; i++) {
+            graph[i] = new ArrayList<>();
+            ancestors[i] = new HashSet<>();
+        }
         for (int[] edge: edges) {
-            isAncestor[edge[1]][edge[0]] = true;
+            int destination = edge[1];
+            int source = edge[0];
+            graph[source].add(destination);
+            inDegree[destination]++;
         }
         if (isTest) {
-            System.out.println("isAncestor:");
-            for (int i = 0; i < isAncestor.length; i++) {
-                System.out.println(" * " + i + ": " + Arrays.toString(isAncestor[i]));
+            System.out.println("inDegree: " + Arrays.toString(inDegree) + "\n-------------------------------------\ngraph:");
+            for (int i = 0; i < graph.length; i++) {
+                System.out.println(" * " + i + ": " + graph[i]);
             }
         }
 
-        for (int source = 0; source < isAncestor.length; source++) {
-            Queue<Integer> queue = new LinkedList<>();
-            for (int j = 0; j < isAncestor.length; j++) {
-                if (isAncestor[source][j]) {
-                    queue.offer(j);
+        for (int i = 0; i < inDegree.length; i++) {
+            if (inDegree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+        while (!queue.isEmpty()) {
+            int current = queue.poll();
+            for (int neighbour: graph[current]) {
+                ancestors[neighbour].add(current);
+                ancestors[neighbour].addAll(ancestors[current]);
+                if (--inDegree[neighbour] == 0) {
+                    queue.offer(neighbour);
                 }
             }
+        }
+        if (isTest) {
+            System.out.println("-------------------------------------\nancestors:");
+            for (int i = 0; i < ancestors.length; i++) {
+                System.out.println(" * " + i + ": " + ancestors[i]);
+            }
+        }
 
-            if (queue.isEmpty()) {
+        for (int i = 0; i < ancestors.length; i++) {
+            if (ancestors[i].isEmpty()) {
                 result.add(new ArrayList<>());
             } else {
-                List<Integer> ancestors = getAncestors(isAncestor, queue);
-                result.add(ancestors);
+                result.add(getSortedAncestors(ancestors[i], ancestors.length));
             }
         }
         if (isTest) {
-            System.out.println("-----------------------------------------------\nresult:");
+            System.out.println("-------------------------------------\nresult:");
             for (int i = 0; i < result.size(); i++) {
                 System.out.println(" * " + i + ": " + result.get(i));
             }
@@ -41,25 +65,15 @@ class AllAncestorsOfANodeInADirectedAcyclicGraph class Solution {
         return result;
     }
 
-    private List<Integer> getAncestors(boolean[][] isAncestor, Queue<Integer> queue) {
+    private List<Integer> getSortedAncestors(Set<Integer> ancestors, int n) {
         List<Integer> result = new ArrayList<>();
-        boolean[] isVisited = new boolean[isAncestor.length];
+        boolean[] isPresent = new boolean[n];
 
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int current = queue.poll();
-                isVisited[current] = true;
-
-                for (int j = 0; j < isAncestor.length; j++) {
-                    if (isAncestor[current][j] && !isVisited[j]) {
-                        queue.offer(j);
-                    }
-                }
-            }
+        for (int ancestor: ancestors) {
+            isPresent[ancestor] = true;
         }
-        for (int i = 0; i < isVisited.length; i++) {
-            if (isVisited[i]) {
+        for (int i = 0; i < n; i++) {
+            if (isPresent[i]) {
                 result.add(i);
             }
         }
