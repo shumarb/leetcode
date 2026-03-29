@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
 
-class AllAncestorsOfANodeInADirectedAcyclicGraph {
+class AllAncestorsOfANodeInADirectedAcyclicGraph class Solution {
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
         List<List<Integer>> result = new ArrayList<>();
         boolean[][] isAncestor = new boolean[n][n];
@@ -43,23 +43,23 @@ class AllAncestorsOfANodeInADirectedAcyclicGraph {
 
     private List<Integer> getAncestors(boolean[][] isAncestor, Queue<Integer> queue) {
         List<Integer> result = new ArrayList<>();
-        boolean[] isCounted = new boolean[isAncestor.length];
+        boolean[] isVisited = new boolean[isAncestor.length];
+
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 int current = queue.poll();
-                isCounted[current] = true;
+                isVisited[current] = true;
 
                 for (int j = 0; j < isAncestor.length; j++) {
-                    if (isAncestor[current][j] && !isCounted[j]) {
+                    if (isAncestor[current][j] && !isVisited[j]) {
                         queue.offer(j);
                     }
                 }
             }
         }
-
-        for (int i = 0; i < isCounted.length; i++) {
-            if (isCounted[i]) {
+        for (int i = 0; i < isVisited.length; i++) {
+            if (isVisited[i]) {
                 result.add(i);
             }
         }
