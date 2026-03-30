@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/course-schedule/description/
 
-class Solution {
+class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer>[] graph = new ArrayList[numCourses];
         Queue<Integer> queue = new LinkedList<>();
@@ -37,9 +37,9 @@ class Solution {
                 System.out.println(" * completed: " + source);
             }
 
-            for (int neighbour: graph[source]) {
-                if (--inDegree[neighbour] == 0) {
-                    queue.offer(neighbour);
+            for (int destination: graph[source]) {
+                if (--inDegree[destination] == 0) {
+                    queue.offer(destination);
                 }
             }
         }
