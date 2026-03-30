@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/180.
+Completed: 15/180.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 14/180.
 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)                      | 1ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
+| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 5ms     | 82.49% |
 | [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                                      | 24ms    | 96.59% |
 | [Find Champion II](https://leetcode.com/problems/find-champion-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindChampionTwo.java)                                 | 1ms     | 100%   |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90% |
