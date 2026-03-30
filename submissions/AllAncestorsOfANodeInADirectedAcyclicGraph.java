@@ -2,9 +2,9 @@
 
 class AllAncestorsOfANodeInADirectedAcyclicGraph {
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
-        Queue<Integer> queue = new LinkedList<>();
         List<List<Integer>> result = new ArrayList<>();
         List<Integer>[] graph = new ArrayList[n];
+        Queue<Integer> queue = new LinkedList<>();
         Set<Integer>[] ancestors = new HashSet[n];
         boolean isTest = false;
         int[] inDegree = new int[n];
