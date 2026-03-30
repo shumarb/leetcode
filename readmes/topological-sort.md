@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/40.
+Completed: 3/40.
 
 ## Submissions
 ### Medium
 | Question                                                                                                                                              | Submission                                                                                                        | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllAncestorsOfANodeInADirectedAcyclicGraph.java) | 86ms    | 45.87% |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                             | 6ms     | 74.22% |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                     | 3ms     | 99.90% |

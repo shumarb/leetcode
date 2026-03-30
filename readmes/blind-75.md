@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 58/75.
+Completed: 59/75.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 58/75.
 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                             | 5ms     | 74.40% |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                     | 6ms     | 74.22% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                     | 162ms   | 94.15% | 
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                    | 0ms     | 100%   |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                      | 7ms     | 65.30% |

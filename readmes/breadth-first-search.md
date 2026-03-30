@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/255.
+Completed: 52/255.
 
 ## Submissions
 ### Easy
@@ -50,6 +50,7 @@ Completed: 51/255.
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                      | 24ms    | 31.86% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                      | 1ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 55.24% |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                | 1ms     | 100%   |
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                              | 4ms     | 99.25% |
 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenOddTree.java)                                     | 17ms    | 23.05% |
