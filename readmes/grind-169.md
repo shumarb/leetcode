@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 109/169.
+Completed: 111/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -80,6 +80,7 @@ Completed: 109/169.
 | 91  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                  | 6ms     | 99.38% | 
 | 94  | [Counting Bits](https://leetcode.com/problems/counting-bits/description)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)                                       | 2ms     | 95%    |
 | 95  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                       | 38ms    | 64.87% |
+| 97  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                                               | 5ms     | 82.49% |
 | 98  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)                                   | 0ms     | 100%   |
 | 99  | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                                         | 1ms     | 99.84% |
 | 100 | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-subsequence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSubsequence.java)                      | 31ms    | 56.92% |
