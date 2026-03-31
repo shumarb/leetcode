@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/course-schedule-ii/description/
 
-class Solution {
+class CourseScheduleTwo {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<Integer>[] graph = new ArrayList[numCourses];
         Queue<Integer> queue = new LinkedList<>();
@@ -19,12 +19,10 @@ class Solution {
             inDegree[destination]++;
         }
         if (isTest) {
-            System.out.println("inDegree: " + Arrays.toString(inDegree));
-            System.out.println("------------------------------\ngraph:");
+            System.out.println("inDegree: " + Arrays.toString(inDegree) + "\n---------------------------------\ngraph:");
             for (int i = 0; i < graph.length; i++) {
                 System.out.println(" * " + i + ": " + graph[i]);
             }
-            System.out.println("------------------------------");
         }
 
         for (int i = 0; i < inDegree.length; i++) {
@@ -36,17 +34,14 @@ class Solution {
             int source = queue.poll();
             result[index++] = source;
 
-            if (isTest) {
-                System.out.println(" * completed: " + source);
-            }
-            for (int neighbour: graph[source]) {
-                if (--inDegree[neighbour] == 0) {
-                    queue.offer(neighbour);
+            for (int destination: graph[source]) {
+                if (--inDegree[destination] == 0) {
+                    queue.offer(destination);
                 }
             }
         }
         if (isTest) {
-            System.out.println("------------------------------\nresult: " + Arrays.toString(result) + "\nindex: " + index);
+            System.out.println("---------------------------------\nresult: " + Arrays.toString(result) + "\nindex: " + index);
         }
 
         return index == numCourses ? result : new int[0];
