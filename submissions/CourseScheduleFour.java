@@ -5,12 +5,11 @@ class CourseScheduleFour {
         List<Boolean> result = new ArrayList<>();
         List<Integer>[] graph = new ArrayList[numCourses];
         Queue<Integer> queue = new LinkedList<>();
-        Set<Integer>[] ancestors = new HashSet[numCourses];
+        boolean[][] isAncestor = new boolean[numCourses][numCourses];
         boolean isTest = false;
         int[] inDegree = new int[numCourses];
 
         for (int i = 0; i < numCourses; i++) {
-            ancestors[i] = new HashSet<>();
             graph[i] = new ArrayList<>();
         }
 
@@ -37,24 +36,30 @@ class CourseScheduleFour {
             List<Integer> destinations = graph[source];
 
             for (int destination: destinations) {
-                ancestors[destination].add(source);
-                ancestors[destination].addAll(ancestors[source]);
+                isAncestor[destination][source] = true;
+
+                for (int i = 0; i < isAncestor.length; i++) {
+                    if (isAncestor[source][i]) {
+                        isAncestor[destination][i] = true;
+                    }
+                }
                 if (--inDegree[destination] == 0) {
                     queue.offer(destination);
                 }
             }
         }
         if (isTest) {
-            System.out.println("-----------------------------------------\nancestors: ");
-            for (int i = 0; i < ancestors.length; i++) {
-                System.out.println(" * " + i + ": " + ancestors[i]);
+            System.out.println("-----------------------------------------\nisAncestor: ");
+            for (int i = 0; i < isAncestor.length; i++) {
+                boolean[] row = isAncestor[i];
+                System.out.println(" * " + i + ": " + Arrays.toString(row));
             }
         }
 
         for (int[] edge: queries) {
             int destination = edge[1];
             int source = edge[0];
-            if (ancestors[destination].contains(source)) {
+            if (isAncestor[destination][source]) {
                 result.add(true);
             } else {
                 result.add(false);
