@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 197/656.
+Completed: 198/663.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 197/656.
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)                                         | 0ms     | 100%   |
 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeDecimalRepresentation.java)                           | 1ms     | 100%   |
 | [Concatenate Non-Zero Digits and Multiply By Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenateNonZeroDigitsAndMultiplyBySumOne.java)            | 1ms     | 99.92% |
+| [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructUniformParityArrayOne.java)                         | 0ms     | 100%   |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBinaryNumberInALinkedListToInteger.java)              | 0ms     | 100%   |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertDateToBinary.java)                                    | 4ms     | 66.45% |
 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/description)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)              | 0ms     | 100%   |

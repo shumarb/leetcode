@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 617/2132.
+Completed: 618/2132.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 617/2132.
 | [Compute Alternating Sum](https://leetcode.com/problems/computing-alternating-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeAlternatingSum.java)                                  | 1ms     | 94.44% |
 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeDecimalRepresentation.java)                           | 1ms     | 100%   |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenationOfArrays.java)                                  | 1ms     | 96.28% |
+| [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructUniformParityArrayOne.java)                         | 0ms     | 100%   |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                      | 9ms     | 99.19% |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateTwo.java)                                   | 18ms    | 82.31% |
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                              | 2ms     | 100%   |
