@@ -1,51 +1,32 @@
 // Question: https://leetcode.com/problems/keys-and-rooms/description/
 
 class KeysAndRooms {
+    private int countVisitedRooms;
+
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-        Queue<Integer> queue = new LinkedList<>();
-        boolean[] isKeyTaken = new boolean[rooms.size()];
+        boolean[] isVisited = new boolean[rooms.size()];
         boolean isTest = false;
-        int countKeysTaken = 1; // Room 0 is unlocked, so it's key is taken.
+        countVisitedRooms = 0;
 
         if (isTest) {
-            System.out.println("before, isKeyTaken: " + Arrays.toString(isKeyTaken));
-            System.out.println("-------------------------------------------------------");
+            System.out.println("before, isVisited: " + Arrays.toString(isVisited));
         }
-
-        isKeyTaken[0] = true;
-        for (int key: rooms.get(0)) {
-            if (!isKeyTaken[key]) {
-                countKeysTaken++;
-                isKeyTaken[key] = true;
-                queue.offer(key);
-            }
-        }
-        while (!queue.isEmpty()) {
-            if (isTest) {
-                System.out.println(" * queue: " + queue);
-            }
-
-            int size = queue.size();
-
-            for (int i = 0; i < size; i++) {
-                int currentKey = queue.poll();
-                if (!isKeyTaken[currentKey]) {
-                    countKeysTaken++;
-                    isKeyTaken[currentKey] = true;
-                }
-
-                for (int key: rooms.get(currentKey)) {
-                    if (!isKeyTaken[key]) {
-                        queue.offer(key);
-                    }
-                }
-            }
-        }
+        dfs(0, rooms, isVisited);
         if (isTest) {
-            System.out.println("-------------------------------------------------------");
-            System.out.println("after, isKeyTaken: " + Arrays.toString(isKeyTaken) + "\ncountKeysTaken: " + countKeysTaken);
+            System.out.println("after, isVisited: " + Arrays.toString(isVisited) + "\ncountVisitedRooms: " + countVisitedRooms);
         }
 
-        return countKeysTaken == rooms.size();
+        return countVisitedRooms == rooms.size();
+    }
+
+    private void dfs(int id, List<List<Integer>> rooms, boolean[] isVisited) {
+        isVisited[id] = true;
+        countVisitedRooms++;
+
+        for (int key: rooms.get(id)) {
+            if (!isVisited[key]) {
+                dfs(key, rooms, isVisited);
+            }
+        }
     }
 }
