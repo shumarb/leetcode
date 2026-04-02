@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 16/180.
+Completed: 17/180.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 16/180.
 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleFour.java)                              | 11ms    | 97.56% |
 | [Find Champion II](https://leetcode.com/problems/find-champion-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindChampionTwo.java)                                 | 1ms     | 100%   |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90% |
+| [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 3ms     | 20.70% |
 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfVerticesToReachAllNodes.java)          | 8ms     | 99.23% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43% |
