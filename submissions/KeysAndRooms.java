@@ -5,7 +5,7 @@ class KeysAndRooms {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isKeyTaken = new boolean[rooms.size()];
         boolean isTest = false;
-        int largest = 0;
+        int countKeysTaken = 1; // Room 0 is unlocked, so it's key is taken.
 
         if (isTest) {
             System.out.println("before, isKeyTaken: " + Arrays.toString(isKeyTaken));
@@ -15,6 +15,7 @@ class KeysAndRooms {
         isKeyTaken[0] = true;
         for (int key: rooms.get(0)) {
             if (!isKeyTaken[key]) {
+                countKeysTaken++;
                 isKeyTaken[key] = true;
                 queue.offer(key);
             }
@@ -28,7 +29,10 @@ class KeysAndRooms {
 
             for (int i = 0; i < size; i++) {
                 int currentKey = queue.poll();
-                isKeyTaken[currentKey] = true;
+                if (!isKeyTaken[currentKey]) {
+                    countKeysTaken++;
+                    isKeyTaken[currentKey] = true;
+                }
 
                 for (int key: rooms.get(currentKey)) {
                     if (!isKeyTaken[key]) {
@@ -37,17 +41,11 @@ class KeysAndRooms {
                 }
             }
         }
-
         if (isTest) {
             System.out.println("-------------------------------------------------------");
-            System.out.println("after, isKeyTaken: " + Arrays.toString(isKeyTaken));
-        }
-        for (int i = 0; i < isKeyTaken.length; i++) {
-            if (!isKeyTaken[i]) {
-                return false;
-            }
+            System.out.println("after, isKeyTaken: " + Arrays.toString(isKeyTaken) + "\ncountKeysTaken: " + countKeysTaken);
         }
 
-        return true;
+        return countKeysTaken == rooms.size();
     }
 }
