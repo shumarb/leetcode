@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 198/663.
+Completed: 199/663.
 
 ## Submissions
 ### Easy
@@ -149,6 +149,7 @@ Completed: 198/663.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbers.java)                                               | 1ms     | 100%   |
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                            | 3ms     | 39.24% |
+| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BasicCalculatorTwo.java)                                          | 28ms    | 15.58% |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                              | 0ms     | 100%   |
 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrokenCalculator.java)                                            | 0ms     | 100%   |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberIsASumOfPowersOfThree.java)                          | 0ms     | 100%   |
