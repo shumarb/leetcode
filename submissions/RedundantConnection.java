@@ -16,7 +16,7 @@ class RedundantConnection {
         }
 
         for (int i = edges.length - 1; i >= 0; i--) {
-            if (isGraphWithAllNodes(edges, i)) {
+            if (isTreeWithAllNodes(edges, i)) {
                 return edges[i];
             }
         }
@@ -24,7 +24,7 @@ class RedundantConnection {
         return new int[] {-1, -1};
     }
 
-    private boolean isGraphWithAllNodes(int[][] edges, int indexToExclude) {
+    private boolean isTreeWithAllNodes(int[][] edges, int indexToExclude) {
         List<Integer>[] graph = new ArrayList[largest + 1];
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[largest + 1];
