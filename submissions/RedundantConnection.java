@@ -1,69 +1,56 @@
 // Question: https://leetcode.com/problems/redundant-connection/description/
 
 class RedundantConnection {
-    private boolean isTest;
-    private int largest;
+    private int countVisited;
 
     public int[] findRedundantConnection(int[][] edges) {
-        isTest = false;
-        largest = 0;
+        Set<Integer>[] graph;
+        int largest = 0;
+        countVisited = 0;
 
         for (int[] edge: edges) {
             largest = Math.max(largest, Math.max(edge[0], edge[1]));
         }
-        if (isTest) {
-            System.out.println("largest: " + largest);
-        }
 
+        graph = new HashSet[largest + 1];
+        for (int i = 0; i < graph.length; i++) {
+            graph[i] = new HashSet<>();
+        }
+        for (int[] edge: edges) {
+            int destination = edge[1];
+            int source = edge[0];
+            graph[source].add(destination);
+            graph[destination].add(source);
+        }
         for (int i = edges.length - 1; i >= 0; i--) {
-            if (isTreeWithAllNodes(edges, i)) {
-                return edges[i];
+            int[] edge = edges[i];
+            int destination = edge[1];
+            int source = edge[0];
+
+            graph[source].remove(destination);
+            graph[destination].remove(source);
+
+            dfs(graph, 1, new boolean[largest + 1]);
+            if (countVisited == largest) {
+                return edge;
             }
+
+            countVisited = 0;
+            graph[source].add(destination);
+            graph[destination].add(source);
         }
 
         return new int[] {-1, -1};
     }
 
-    private boolean isTreeWithAllNodes(int[][] edges, int indexToExclude) {
-        List<Integer>[] graph = new ArrayList[largest + 1];
-        Queue<Integer> queue = new LinkedList<>();
-        boolean[] isVisited = new boolean[largest + 1];
+    private void dfs(Set<Integer>[] graph, int vertex, boolean[] isVisited) {
+        isVisited[vertex] = true;
+        countVisited++;
 
-        for (int i = 0; i < graph.length; i++) {
-            graph[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < edges.length; i++) {
-            if (i == indexToExclude) {
-                continue;
-            }
-
-            int destination = edges[i][1];
-            int source = edges[i][0];
-            graph[source].add(destination);
-            graph[destination].add(source);
-        }
-
-        queue.offer(1);
-        while (!queue.isEmpty()) {
-            int source = queue.poll();
-            isVisited[source] = true;
-
-            for (int destination: graph[source]) {
-                if (!isVisited[destination]) {
-                    queue.offer(destination);
-                }
+        for (int destination: graph[vertex]) {
+            if (!isVisited[destination]) {
+                dfs(graph, destination, isVisited);
             }
         }
-        if (isTest) {
-            System.out.println("indexToExclude: " + indexToExclude + " | isVisited: " + Arrays.toString(isVisited));
-        }
-
-        for (int i = 1; i <= largest; i++) {
-            if (!isVisited[i]) {
-                return false;
-            }
-        }
-
-        return true;
     }
 }
