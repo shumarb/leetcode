@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/255.
+Completed: 56/255.
 
 ## Submissions
 ### Easy
@@ -68,6 +68,7 @@ Completed: 55/255.
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNode.java)           | 3ms     | 35.47% |
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNodeTwo.java)        | 2ms     | 37.45% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43% |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 8ms     | 10.03% |
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)                    | 0ms     | 100%   |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11% |
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                  | 128ms   | 11.37% |

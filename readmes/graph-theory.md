@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/180.
+Completed: 18/180.
 
 ## Submissions
 ### Easy
@@ -36,4 +36,5 @@ Completed: 17/180.
 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfVerticesToReachAllNodes.java)          | 8ms     | 99.23% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43% |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 8ms     | 10.03% |
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 27ms    | 7.43%  | 
