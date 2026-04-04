@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/255.
+Completed: 57/255.
 
 ## Submissions
 ### Easy
@@ -75,8 +75,9 @@ Completed: 56/255.
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 6ms     | 68.02% | 
 
 ### Hard
-| Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
-| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                         | 49ms    | 79.54% |
-| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
+| Question                                                                                                                          | Submission                                                                                                 | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                           | 49ms    | 79.54% |
+| [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnectionTwo.java)              | 92ms    | 6.03%  |
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java)   | 17ms    | 39.28% |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |

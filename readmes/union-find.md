@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 7/97.
+Completed: 8/97.
 
 ## Submissions
 ### Easy
@@ -27,3 +27,8 @@ Completed: 7/97.
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43% |
 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 7ms     | 11.36% |
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 6ms     | 68.02% | 
+
+### Hard
+| Question                                                                                      | Submission                                                                                    | Runtime | Rank  |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|-------|
+| [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnectionTwo.java) | 92ms    | 6.03% |
