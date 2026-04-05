@@ -2,41 +2,32 @@
 
 class PartitionArrayIntoThreePartsWithEqualSum {
     public boolean canThreePartsEqualSum(int[] arr) {
-        boolean isTest = false;
-        int count = 0;
-        int len = arr.length;
+        int countPartitions = 0;
         int runningSum = 0;
-        int sum = 0;
+        int total = 0;
 
-        for (int number: arr) {
-            sum += number;
-        }
-        if (isTest) {
-            System.out.println("arr: " + Arrays.toString(arr) + "\nsum: " + sum);
-        }
-
-        // 1. No 3 partitions if sum is not divisible by 3.
-        if (sum % 3 != 0) {
-            return false;
+        for (int e: arr) {
+            total += e;
         }
 
         /**
-         2.  For sum to be split into 3 parts with equal sum,
-             there must be at least 3 partitions, each with a sum of (sum / 3).
-             (>= 3 because edge case: sum = 0, array is filled with 0s).
-             Hence, traverse array from left to right and calculate running sum.
-             If running sum == sum / 3, 1 valid partition, so reset running sum to 0
-             to find next valid partition.
-             If count >= 3, then there exists 3 valid partitions each with a sum of (sum / 3).
+         1.  If sum of elements is divisible by 3,
+             it is possible to partition array into 3 parts,
+             so compute a running sum and increase number of partitions if it is equal to total / 3 and reset it to 0.
+             Return true once 3 partitions are formed.
          */
-        for (int i = 0; i < len; i++) {
-            runningSum += arr[i];
-            if (runningSum == sum / 3) {
-                count++;
-                runningSum = 0;
+        if (total % 3 == 0) {
+            for (int i = 0; i < arr.length; i++) {
+                runningSum += arr[i];
+                if (runningSum == (total / 3)) {
+                    if (++countPartitions == 3) {
+                        return true;
+                    }
+                    runningSum = 0;
+                }
             }
         }
 
-        return count >= 3;
+        return false;
     }
 }
