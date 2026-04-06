@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 52/271.
+Completed: 53/271.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 52/271.
 ### Medium
 | Question                                                                                                                                              | Submission                                                                                                            | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                    | 3ms     | 53.36% |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                               | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)    | 9ms     | 78.44% |
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                         | 12ms    | 88.41% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 618/2132.
+Completed: 619/2132.
 
 ## Submissions
 ### Easy
@@ -424,6 +424,7 @@ Completed: 618/2132.
 | [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java)                                              | 15ms    | 87.60% |
 | [Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayTwo.java)                               | 3ms     | 100%   |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 93ms    | 85.91% |
+| [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                                     | 3ms     | 53.36% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                            | 34ms    | 79.83% |
 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelStringsInRanges.java)                                       | 4ms     | 98.17% |
 | [Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnhappyFriends.java)                                             | 2ms     | 95.12% |
