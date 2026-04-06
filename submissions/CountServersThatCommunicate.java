@@ -8,7 +8,7 @@ class CountServersThatCommunicate {
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1 && isValid(grid, i, j, m, n)) {
+                if (grid[i][j] == 1 && isValid(grid, i, j)) {
                     result++;
                 }
             }
@@ -17,7 +17,7 @@ class CountServersThatCommunicate {
         return result;
     }
 
-    private boolean isValid(int[][] grid, int row, int column, int totalRows, int totalColumns) {
+    private boolean isValid(int[][] grid, int row, int column) {
         for (int j = 0; j < grid[0].length; j++) {
             if (j == column) {
                 continue;
