@@ -2,40 +2,40 @@
 
 class CountServersThatCommunicate {
     public int countServers(int[][] grid) {
+        boolean isTest = false;
         int m = grid.length;
         int n = grid[0].length;
         int result = 0;
+        int[] countServersInColumns = new int[n];
+        int[] countServersInRows = new int[m];
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1 && isValid(grid, i, j)) {
+                if (grid[i][j] == 1) {
+                    countServersInColumns[j]++;
+                    countServersInRows[i]++;
+                }
+            }
+        }
+        if (isTest) {
+            System.out.println("countServersInColumns:   " + Arrays.toString(countServersInColumns) + "\ncountServersInRows:      " + Arrays.toString(countServersInRows));
+            System.out.println("--------------------------------------");
+        }
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 1 && (countServersInColumns[j] > 1 || countServersInRows[i] > 1)) {
+                    if (isTest) {
+                        System.out.println(" * counted: [" + i + ", " + j + "]");
+                    }
                     result++;
                 }
             }
         }
+        if (isTest) {
+            System.out.println("--------------------------------------\nresult: " + result);
+        }
 
         return result;
-    }
-
-    private boolean isValid(int[][] grid, int row, int column) {
-        for (int j = 0; j < grid[0].length; j++) {
-            if (j == column) {
-                continue;
-            }
-            if (grid[row][j] == 1) {
-                return true;
-            }
-        }
-
-        for (int i = 0; i < grid.length; i++) {
-            if (i == row) {
-                continue;
-            }
-            if (grid[i][column] == 1) {
-                return true;
-            }
-        }
-
-        return false;
     }
 }
