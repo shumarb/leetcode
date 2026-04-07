@@ -1,9 +1,8 @@
 // Question: https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/
 
-class Solution {
+class FindAllPossibleRecipesFromGivenSupplies {
     public List<String> findAllRecipes(String[] recipes, List<List<String>> ingredients, String[] supplies) {
         List<String> result = new ArrayList<>();
-        List<String> topologicalOrder = new ArrayList<>();
         Map<String, Set<String>> graph = new HashMap<>();
         Map<String, Integer> inDegree = new HashMap<>();
         Queue<String> queue = new LinkedList<>();
@@ -21,11 +20,6 @@ class Solution {
                 inDegree.put(recipe, 1 + inDegree.getOrDefault(recipe, 0));
                 graph.putIfAbsent(part, new HashSet<>());
                 graph.get(part).add(recipe);
-            }
-        }
-        for (String key: inDegree.keySet()) {
-            if (!graph.containsKey(key)) {
-                graph.put(key, new HashSet<>());
             }
         }
         if (isTest) {
@@ -54,7 +48,6 @@ class Solution {
 
             for (int i = 0; i < size; i++) {
                 String source = queue.poll();
-                topologicalOrder.add(source);
 
                 if (recipesSet.contains(source)) {
                     result.add(source);
@@ -70,8 +63,7 @@ class Solution {
             }
         }
         if (isTest) {
-            System.out.println("-----------------------------------------------");
-            System.out.println("topologicalOrder: " + topologicalOrder + "\nresult: " + result);
+            System.out.println("-----------------------------------------------\nresult: " + result);
         }
 
         return result;
