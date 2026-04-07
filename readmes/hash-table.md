@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 310/803.
+Completed: 311/804.
 
 ## Submissions
 ### Easy
@@ -228,6 +228,7 @@ Completed: 310/803.
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                     | 9ms     | 91.31% |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                                   | 5ms     | 94.05% |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                               | 12ms    | 99.88% |
+| [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllPossibleRecipesFromGivenSupplies.java)                      | 147ms   | 16.50% |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                                   | 26ms    | 68.56% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)               | 35ms    | 27.51% |
 | [Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOccurrencesOfAnElementInAnArray.java)                          | 5ms     | 90.21% |

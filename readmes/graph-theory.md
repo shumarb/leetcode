@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/180.
+Completed: 20/180.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 19/180.
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 4ms     | 93.45% |
 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleFour.java)                              | 11ms    | 97.56% |
+| [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllPossibleRecipesFromGivenSupplies.java)         | 147ms   | 16.50% |
 | [Find Champion II](https://leetcode.com/problems/find-champion-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindChampionTwo.java)                                 | 1ms     | 100%   |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90% |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100%   |
