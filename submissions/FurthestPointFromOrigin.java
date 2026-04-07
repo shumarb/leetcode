@@ -19,10 +19,6 @@ class FurthestPointFromOrigin {
             System.out.println("netSteps: " + netSteps + "\ncountUnderscore: " + countUnderscore);
         }
 
-        if (netSteps == 0) {
-            return Math.abs(countUnderscore);
-        }
-
         return netSteps < 0 ? Math.abs(netSteps - countUnderscore) : netSteps + countUnderscore;
     }
 }
