@@ -12,10 +12,10 @@ class FindAllPossibleRecipesFromGivenSupplies {
 
         for (int i = 0; i < n; i++) {
             String recipe = recipes[i];
+            inDegree.put(recipe, ingredients.get(i).size());
 
             for (String part: ingredients.get(i)) {
                 graph.computeIfAbsent(part, k -> new ArrayList<>()).add(recipe);
-                inDegree.put(recipe, 1 + inDegree.getOrDefault(recipe, 0));
             }
         }
         if (isTest) {
