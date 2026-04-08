@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 314/863.
+Completed: 315/863.
 
 ## Submissions
 ### Easy
@@ -274,6 +274,7 @@ Completed: 314/863.
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                      | 17ms    | 52.51% | 
 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)                       | 16ms    | 81.38% | 
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |
+| [Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakingFileNamesUnique.java)                                        | 73ms    | 21.48% |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30% |
 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaskingPersonalInformation.java)                                   | 0ms     | 100%   |
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java)       | 11ms    | 60.59% |

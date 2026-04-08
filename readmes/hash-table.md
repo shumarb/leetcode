@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 311/804.
+Completed: 312/804.
 
 ## Submissions
 ### Easy
@@ -268,6 +268,7 @@ Completed: 311/804.
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                      | 17ms    | 52.51% | 
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                           | 12ms    | 38.35% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |
+| [Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakingFileNamesUnique.java)                                        | 73ms    | 21.48% |
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30% |
 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxNumberOfKSumPairs.java)                                         | 24ms    | 45.50% |
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                            | 54ms    | 36.20% |
