@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-height-trees/description/
 
-class MinimumHeightTrees class Solution {
+class MinimumHeightTrees {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         // 1. Edge case: Tree has 1 node, so distance from root to leaf is 0.
         if (n == 1) {
@@ -11,7 +11,6 @@ class MinimumHeightTrees class Solution {
         Queue<Integer> queue = new LinkedList<>();
         boolean isTest = false;
         int[] inDegree = new int[n];
-        int remainingNodes = n;
 
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
@@ -43,9 +42,9 @@ class MinimumHeightTrees class Solution {
                 queue.offer(i);
             }
         }
-        while (remainingNodes > 2) {
+        while (n > 2) {
             int size = queue.size();
-            remainingNodes -= size;
+            n -= size;
 
             if (isTest) {
                 System.out.println("------------------------------\nqueue: " + queue);
