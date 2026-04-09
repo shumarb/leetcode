@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 36/143.
+Completed: 37/146.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 36/143.
 | [Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeExpressionOfThreeElements.java)          | 1ms     | 99.82% |
 | [Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumHeightOfATriangle.java)                   | 0ms     | 100%   |
 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarrayWithEqualProducts.java)           | 4ms     | 16.89% |
+| [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifferenceBetweenTwoValues.java)  | 4ms     | 2.98%  |
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                 | 17ms    | 33.88% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCommonFactors.java)                      | 1ms     | 44.28% |
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                    | 132ms   | 74.11% |
