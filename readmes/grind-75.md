@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/75.
+Completed: 58/75.
 
 ## Submissions
 | #  | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -68,4 +68,5 @@ Completed: 57/75.
 | 68 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                             | 5ms     | 74.40% |
 | 69 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                   | 0ms     | 100%   |
 | 71 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                           | 9ms     | 91.31% |
+| 72 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                                 | 17ms    | 79.97% |
 | 75 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |

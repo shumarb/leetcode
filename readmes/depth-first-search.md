@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/337.
+Completed: 88/337.
 
 ## Submissions
 ### Easy
@@ -87,6 +87,7 @@ Completed: 87/337.
 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)               | 6ms     | 100%   |
 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenNodeAndAncestor.java)         | 0ms     | 100%   |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
+| [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 17ms    | 79.97% |
 | [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostFrequentSubtreeSum.java)                          | 3ms     | 98.36% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                                      | 1ms     | 99.84% |
