@@ -3,46 +3,33 @@
 class MakingFileNamesUnique {
     public String[] getFolderNames(String[] names) {
         Map<String, Integer> map = new HashMap<>();
-        String[] result = new String[names.length];
         boolean isTest = false;
-        int index = 0;
 
-        for (String name: names) {
-            if (isTest) {
-                System.out.println("name: " + name + "\n * before, map: " + map);
-            }
-            if (!map.containsKey(name)) {
-                result[index++] = name;
-                map.put(name, 1);
-
-            } else {
-                StringBuilder newName = new StringBuilder(name);
-                int k = map.get(name);
-
-                newName.append("(");
-                newName.append(k);
-                newName.append(")");
-
-                while (map.containsKey(newName.toString())) {
-                    newName = new StringBuilder(name);
-                    newName.append("(");
-                    newName.append(++k);
-                    newName.append(")");
-                }
-
-                result[index++] = newName.toString();
-                map.put(name, k + 1);
-                map.put(newName.toString(), 1);
-            }
+        for (int i = 0; i < names.length; i++) {
+            String file = names[i];
+            int count = map.getOrDefault(file, 0);
 
             if (isTest) {
-                System.out.println(" * after, map: " + map + "\n---------------------------------------------------------------------");
+                System.out.println("file: " + file + "\n * before, map: " + map);
+            }
+
+            while (map.containsKey(file)) {
+                file = names[i] + "(" + count + ")";
+                count++;
+            }
+
+            map.put(names[i], count);
+            map.put(file, 1);
+            names[i] = file;
+            if (isTest) {
+                System.out.println(" * after, map: " + map);
+                System.out.println("---------------------------------------------");
             }
         }
         if (isTest) {
-            System.out.println("final map: " + map + "\nresult: " + Arrays.toString(result));
+            System.out.println("result: " + Arrays.toString(names));
         }
 
-        return result;
+        return names;
     }
 }
