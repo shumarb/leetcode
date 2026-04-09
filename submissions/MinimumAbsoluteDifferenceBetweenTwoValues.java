@@ -7,19 +7,10 @@ class MinimumAbsoluteDifferenceBetweenTwoValues {
         int result = Integer.MAX_VALUE;
 
         for (int i = 0; i < n; i++) {
+            int first = nums[i];
             for (int j = i + 1; j < n; j++) {
-                if (nums[i] == 1 && nums[j] == 2) {
-                    if (isTest) {
-                        System.out.println("(i: " + i + ", j: " + j + ")");
-                    }
-                    result = Math.min(Math.abs(i - j), result);
-                }
-            }
-        }
-
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = n - 2; j >= 0; j--) {
-                if (nums[i] == 1 && nums[j] == 2) {
+                int second = nums[j];
+                if ((first == 1 && second == 2) || (first == 2 && second == 1)) {
                     if (isTest) {
                         System.out.println("(i: " + i + ", j: " + j + ")");
                     }
