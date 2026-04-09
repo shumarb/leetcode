@@ -1,12 +1,10 @@
-// Question:
+// Question: https://leetcode.com/problems/minimum-height-trees/description/
 
-class MinimumHeightTrees {
+class MinimumHeightTrees class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         // 1. Edge case: Tree has 1 node, so distance from root to leaf is 0.
         if (n == 1) {
-            List<Integer> result = new ArrayList<>();
-            result.add(0);
-            return result;
+            return List.of(0);
         }
 
         List<Integer>[] graph = new ArrayList[n];
