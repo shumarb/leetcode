@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 93/150.
+Completed: 94/150.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 93/150.
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                       | 1ms     | 92.71% |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                              | 0ms     | 100%   |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                           | 2ms     | 89.32% |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                                             | 7ms     | 12.01% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)                         | 0ms     | 100%   |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                        | 4ms     | 12.39% |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                                     | 0ms     | 100%   |
