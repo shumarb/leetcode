@@ -3,18 +3,28 @@
 class MinimumAbsoluteDifferenceBetweenTwoValues {
     public int minAbsoluteDifference(int[] nums) {
         boolean isTest = false;
-        int n = nums.length;
+        int last1Index = -1;
+        int last2Index = -1;
         int result = Integer.MAX_VALUE;
 
-        for (int i = 0; i < n; i++) {
-            int first = nums[i];
-            for (int j = i + 1; j < n; j++) {
-                int second = nums[j];
-                if ((first == 1 && second == 2) || (first == 2 && second == 1)) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1) {
+                last1Index = i;
+                if (last2Index != -1) {
                     if (isTest) {
-                        System.out.println("(i: " + i + ", j: " + j + ")");
+                        System.out.println(" * valid: (" + last1Index + ", " + last2Index + ")");
                     }
-                    result = Math.min(Math.abs(i - j), result);
+                    result = Math.min(Math.abs(last1Index - last2Index), result);
+                }
+            }
+
+            if (nums[i] == 2) {
+                last2Index = i;
+                if (last1Index != -1) {
+                    if (isTest) {
+                        System.out.println(" * valid: (" + last1Index + ", " + last2Index + ")");
+                    }
+                    result = Math.min(Math.abs(last1Index - last2Index), result);
                 }
             }
         }
