@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 316/866.
+Completed: 317/866.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 316/866.
 | [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLongestBalancedSubstringOfABinaryString.java)               | 1ms     | 100%   |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                                      | 1ms     | 40.75% |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstLetterToAppearTwice.java)                                     | 0ms     | 100%   |
+| [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMatchingCharacterFromBothEnds.java)                           | 0ms     | 100%   |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)                                | 5ms     | 94.83% |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FizzBuzz.java)                                                     | 1ms     | 99.69% |
 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FurthestPointFromOrigin.java)                                      | 1ms     | 100%   |
