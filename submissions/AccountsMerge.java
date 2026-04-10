@@ -8,27 +8,36 @@ class AccountsMerge {
         Set<String> isVisited = new HashSet<>();
         boolean isTest = false;
 
+        // 1. Edge case: 1 account.
+        if (accounts.size() == 1) {
+            result.add(accounts.get(0));
+            return result;
+        }
+
         for (List<String> account: accounts) {
             if (isTest) {
                 System.out.println(" * account: " + account);
             }
 
+            String firstEmail = account.get(1);
             String name = account.get(0);
 
-            for (int i = 1; i < account.size(); i++) {
-                String firstEmail = account.get(i);
-                emailToNameMap.putIfAbsent(firstEmail, name);
-                graph.putIfAbsent(firstEmail, new HashSet<>());
+            emailToNameMap.put(firstEmail, name);
+            graph.putIfAbsent(firstEmail, new HashSet<>());
 
-                for (int j = i + 1; j < account.size(); j++) {
-                    String additionalEmail = account.get(j);
+            for (int i = 2; i < account.size(); i++) {
+                String email = account.get(i);
 
-                    emailToNameMap.putIfAbsent(additionalEmail, name);
+                emailToNameMap.putIfAbsent(email, name);
+                graph.putIfAbsent(email, new HashSet<>());
 
-                    graph.putIfAbsent(additionalEmail, new HashSet<>());
-                    graph.get(additionalEmail).add(firstEmail);
-                    graph.get(firstEmail).add(additionalEmail);
-                }
+                /**
+                 2.  Store edges connecting email to firstEmail and vice versa,
+                 so that DFS checks all emails in same component, ensuring faster time
+                 compared to storing all email connections.
+                 */
+                graph.get(firstEmail).add(email);
+                graph.get(email).add(firstEmail);
             }
         }
         if (isTest) {
@@ -40,32 +49,24 @@ class AccountsMerge {
         }
 
         for (String email: graph.keySet()) {
-            String name = emailToNameMap.get(email);
             List<String> component = new ArrayList<>();
             List<String> mergedAccounts = new ArrayList<>();
 
-            component.add(name);
-            if (graph.get(email).isEmpty()) {
-                component.add(email);
-                result.add(component);
+            component.add(emailToNameMap.get(email));
+            if (isVisited.contains(email)) {
                 continue;
             }
 
-            if (!isVisited.contains(email)) {
-                if (isTest) {
-                    System.out.println(" ** dfs: " + email);
-                }
-                dfs(email, mergedAccounts, isVisited, graph);
-
-                if (mergedAccounts.size() > 1) {
-                    Collections.sort(mergedAccounts);
-                }
-
-                for (String value: mergedAccounts) {
-                    component.add(value);
-                }
-                result.add(component);
+            if (isTest) {
+                System.out.println(" ** dfs: " + email);
             }
+
+            dfs(email, mergedAccounts, isVisited, graph);
+            if (mergedAccounts.size() > 1) {
+                Collections.sort(mergedAccounts);
+            }
+            component.addAll(mergedAccounts);
+            result.add(component);
         }
         if (isTest) {
             System.out.println("----------------------------------------\nresult: " + result);
