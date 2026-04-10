@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/255.
+Completed: 60/255.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 59/255.
 ### Medium
 | Question                                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                   | 88ms    | 5.41%  |
 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllAncestorsOfANodeInADirectedAcyclicGraph.java)      | 86ms    | 45.87% |
 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllNodesDistanceKInBinaryTree.java)                   | 12ms    | 82.16% |
 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)                      | 1ms     | 100%   |

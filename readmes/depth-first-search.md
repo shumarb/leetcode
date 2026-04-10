@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 88/337.
+Completed: 89/337.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 88/337.
 ### Medium
 | Question                                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                   | 88ms    | 5.41%  |
 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllAncestorsOfANodeInADirectedAcyclicGraph.java)      | 86ms    | 45.87% |
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)               | 16ms    | 88.19% |
 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllNodesDistanceKInBinaryTree.java)                   | 12ms    | 82.16% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 9/97.
+Completed: 10/98.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 9/97.
 ### Medium
 | Question                                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                   | 88ms    | 5.41%  |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                      | 31ms    | 56.92% |

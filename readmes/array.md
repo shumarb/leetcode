@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 622/2140.
+Completed: 623/2140.
 
 ## Submissions
 ### Easy
@@ -390,6 +390,7 @@ Completed: 622/2140.
 | Question                                                                                                                                                                                                  | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                        | 30ms    | 84.37% |
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                                   | 88ms    | 5.41%  |
 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddMinimumNumberOfRungs.java)                                         | 1ms     | 100%   |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                           | 11ms    | 98.01% |
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                                | 76ms    | 25.33% |
