@@ -5,7 +5,7 @@ class FindAllPossibleRecipesFromGivenSupplies {
         List<String> result = new ArrayList<>();
         Map<String, List<String>> graph = new HashMap<>();
         Map<String, Integer> inDegree = new HashMap<>();
-        Queue<String> queue = new LinkedList<>();
+        Queue<String> queue = new LinkedList<>(Arrays.asList(supplies));
         Set<String> recipesSet = new HashSet<>(Arrays.asList(recipes));
         boolean isTest = false;
         int n = recipes.length;
@@ -29,9 +29,6 @@ class FindAllPossibleRecipesFromGivenSupplies {
             }
         }
 
-        for (String supply: supplies) {
-            queue.offer(supply);
-        }
         while (!queue.isEmpty()) {
             String source = queue.poll();
 
