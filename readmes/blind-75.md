@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/75.
+Completed: 60/75.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 59/75.
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                    | 1ms     | 99.92% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                     | 7ms     | 97.71% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                            | 46ms    | 82.48% |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                    | 2ms     | 99.93% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                              | 5ms     | 97.61% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                           | 2ms     | 89.32% |
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNthNodeFromEndOfList.java)                         | 0ms     | 100%   |

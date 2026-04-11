@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/255.
+Completed: 62/255.
 
 ## Submissions
 ### Easy
@@ -67,6 +67,7 @@ Completed: 61/255.
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |
 | [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreeLevelOrderTraversal.java)                     | 3ms     | 71.32% |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PerfectSquares.java)                                  | 22ms    | 91.76% |
 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNode.java)           | 3ms     | 35.47% |

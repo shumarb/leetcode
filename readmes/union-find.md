@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/98.
+Completed: 11/98.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 10/98.
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                      | 31ms    | 56.92% |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43% |
 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 7ms     | 12.01% |

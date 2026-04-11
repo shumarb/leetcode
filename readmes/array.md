@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 624/2140.
+Completed: 625/2140.
 
 ## Submissions
 ### Easy
@@ -563,6 +563,7 @@ Completed: 624/2140.
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                                       | 9ms     | 60.28% |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                                         | 46ms    | 82.48% |
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                                       | 95ms    | 58.65% |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                                 | 2ms     | 99.93% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                                    | 55ms    | 74.33% |
 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)            | 3ms     | 91.55% |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                            | 2ms     | 98.50% |

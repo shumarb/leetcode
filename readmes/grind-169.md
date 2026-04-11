@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 115/169.
+Completed: 116/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -43,6 +43,7 @@ Completed: 115/169.
 | 31  | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                                           | 5ms     | 83.54% |
 | 32  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedList.java)                                  | 0ms     | 100%   |
 | 33  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                           | 0ms     | 100%   | 
+| 34  | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                    | 2ms     | 99.93% |
 | 36  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInRotatedSortedArray.java)                         | 0ms     | 100%   |
 | 37  | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSum.java)                                     | 1ms     | 99.89% |
 | 38  | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                       | 1ms     | 92.71% |
