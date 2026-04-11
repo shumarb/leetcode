@@ -49,13 +49,14 @@ class AccountsMerge {
         }
 
         for (String email: graph.keySet()) {
+            if (isVisited.contains(email)) {
+                continue;
+            }
+
             List<String> component = new ArrayList<>();
             List<String> mergedAccounts = new ArrayList<>();
 
             component.add(emailToNameMap.get(email));
-            if (isVisited.contains(email)) {
-                continue;
-            }
 
             if (isTest) {
                 System.out.println(" ** dfs: " + email);
