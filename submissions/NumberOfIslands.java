@@ -24,15 +24,22 @@ class NumberOfIslands {
     }
 
     private void dfs(int row, int column) {
-        if (row < 0 || column < 0 || row >= m || column >= n || grid[row][column] == '0') {
-            return;
-        }
-
         grid[row][column] = '0';
 
-        dfs(row - 1, column);
-        dfs(row + 1, column);
-        dfs(row, column - 1);
-        dfs(row, column + 1);
+        if (row - 1 >= 0 && grid[row - 1][column] == '1') {
+            dfs(row - 1, column);
+        }
+
+        if (row + 1 < m && grid[row + 1][column] == '1') {
+            dfs(row + 1, column);
+        }
+
+        if (column - 1 >= 0 && grid[row][column - 1] == '1') {
+            dfs(row, column - 1);
+        }
+
+        if (column + 1 < n && grid[row][column + 1] == '1') {
+            dfs(row, column + 1);
+        }
     }
 }
