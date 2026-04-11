@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/255.
+Completed: 63/255.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 62/255.
 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfPathExistsInGraph.java)                               | 53ms    | 88.29% |
 | [Flood Fill](https://leetcode.com/problems/flood-fill/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FloodFill.java)                                             | 0ms     | 100%   |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvertBinaryTree.java)                                      | 0ms     | 100%   |
+| [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IslandPerimeter.java)                                       | 4ms     | 100%   |
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java)                              | 0ms     | 100%   |
 | [Maximum Depth of N-Ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfNAryTree.java)                                | 0ms     | 100%   |
 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoBinaryTrees.java)                                   | 0ms     | 100%   |

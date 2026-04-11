@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/273.
+Completed: 56/273.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 55/273.
 | [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlipSquareSubmatrixVertically.java)                    | 1ms     | 58.37% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                  | 0ms     | 100%   |
 | [Flood Fill](https://leetcode.com/problems/flood-fill/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FloodFill.java)                                        | 0ms     | 100%   |
+| [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IslandPerimeter.java)                                  | 4ms     | 100%   |
 | [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestLocalValuesInAMatrix.java)                      | 2ms     | 100%   |
 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LuckyNumbersInAMatrix.java)                            | 3ms     | 46.62% |
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                      | 0ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 625/2140.
+Completed: 626/2140.
 
 ## Submissions
 ### Easy
@@ -179,6 +179,7 @@ Completed: 625/2140.
 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfMultipleArrays.java)                           | 2ms     | 100%   |
 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArrays.java)                                | 0ms     | 100%   |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IntersectionOfTwoArraysTwo.java)                             | 0ms     | 100%   |
+| [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IslandPerimeter.java)                                        | 4ms     | 100%   |
 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions//KeepMultiplyingFoundValuesByTwo.java)                       | 0ms     | 100%   |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeyboardRow.java)                                            | 0ms     | 100%   |
 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KidsWithTheGreatestNumberOfCandies.java)                     | 1ms     | 87.73% |
