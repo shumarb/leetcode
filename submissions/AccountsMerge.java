@@ -4,14 +4,12 @@ class AccountsMerge {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
         List<List<String>> result = new ArrayList<>();
         Map<String, Set<String>> graph = new HashMap<>();
-        Map<String, String> emailToNameMap = new HashMap<>();
+        Map<String, String> owner = new HashMap<>();
         Set<String> isVisited = new HashSet<>();
         boolean isTest = false;
 
-        // 1. Edge case: 1 account.
         if (accounts.size() == 1) {
-            result.add(accounts.get(0));
-            return result;
+            return accounts;
         }
 
         for (List<String> account: accounts) {
@@ -22,17 +20,17 @@ class AccountsMerge {
             String firstEmail = account.get(1);
             String name = account.get(0);
 
-            emailToNameMap.put(firstEmail, name);
             graph.putIfAbsent(firstEmail, new HashSet<>());
+            owner.put(firstEmail, name);
 
             for (int i = 2; i < account.size(); i++) {
                 String email = account.get(i);
 
-                emailToNameMap.putIfAbsent(email, name);
                 graph.putIfAbsent(email, new HashSet<>());
+                owner.putIfAbsent(email, name);
 
                 /**
-                 2.  Store edges connecting email to firstEmail and vice versa,
+                 1.  Store edges connecting email to firstEmail and vice versa,
                  so that DFS checks all emails in same component, ensuring faster time
                  compared to storing all email connections.
                  */
@@ -41,6 +39,10 @@ class AccountsMerge {
             }
         }
         if (isTest) {
+            System.out.println("----------------------------------------\nowner:");
+            for (String key: owner.keySet()) {
+                System.out.println(" * " + key + ": " + owner.get(key));
+            }
             System.out.println("----------------------------------------\ngraph");
             for (String key: graph.keySet()) {
                 System.out.println(" * " + key + ": " + graph.get(key));
@@ -56,7 +58,7 @@ class AccountsMerge {
             List<String> component = new ArrayList<>();
             List<String> mergedAccounts = new ArrayList<>();
 
-            component.add(emailToNameMap.get(email));
+            component.add(owner.get(email));
 
             if (isTest) {
                 System.out.println(" ** dfs: " + email);
