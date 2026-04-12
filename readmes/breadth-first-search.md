@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/255.
+Completed: 65/255.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 64/255.
 | [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                                      | 24ms    | 96.59% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                      | 24ms    | 31.86% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                      | 1ms     | 100%   |
+| [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)          | 12ms    | 100%   |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |

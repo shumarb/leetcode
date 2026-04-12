@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/98.
+Completed: 12/98.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 11/98.
 | Question                                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                   | 42ms    | 29.13% |
+| [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)          | 12ms    | 100%   |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                      | 31ms    | 56.92% |

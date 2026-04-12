@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/273.
+Completed: 58/273.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 57/273.
 ### Medium
 | Question                                                                                                                                              | Submission                                                                                                            | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)         | 12ms    | 100%   |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                    | 2ms     | 100%   |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                               | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)    | 9ms     | 78.44% |
