@@ -18,11 +18,11 @@ class FloodFill {
         this.image = image;
 
         if (isTest) {
-            display("before:\n");
+            display("before:");
         }
         dfs(sr, sc);
         if (isTest) {
-            display("after:\n");
+            display("\nafter:");
         }
 
         return image;
@@ -33,28 +33,19 @@ class FloodFill {
             return;
         }
 
-        isVisited[row][column] = true;
         image[row][column] = color;
+        isVisited[row][column] = true;
 
-        dfs(row + 1, column);
         dfs(row - 1, column);
+        dfs(row + 1, column);
         dfs(row, column - 1);
         dfs(row, column + 1);
     }
 
     private void display(String s) {
         System.out.println(s);
-
-        System.out.println("image:");
         for (int[] row: image) {
             System.out.println(Arrays.toString(row));
         }
-
-        System.out.println("\nisVisited:");
-        for (boolean[] row: isVisited) {
-            System.out.println(Arrays.toString(row));
-        }
-
-        System.out.println("-----------------------------------");
     }
 }
