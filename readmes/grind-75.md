@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/75.
+Completed: 62/75.
 
 ## Submissions
 | #  | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -24,6 +24,7 @@ Completed: 61/75.
 | 10 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                    | 1ms     | 99.92% |
 | 11 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)            | 5ms     | 100%   |
 | 12 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                     | 2ms     | 36.52% |
+| 13 | [01 Matrix](https://leetcode.com/problems/01-matrix/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZeroOneatrix.java)                                       | 13ms    | 92.93% |
 | 14 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                             | 30ms    | 64.77% |
 | 15 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalancedBinaryTree.java)                                 | 0ms     | 100%   |
 | 16 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)                                    | 0ms     | 100%   |

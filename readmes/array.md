@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 628/2140.
+Completed: 629/2140.
 
 ## Submissions
 ### Easy
@@ -391,6 +391,7 @@ Completed: 628/2140.
 ### Medium
 | Question                                                                                                                                                                                                  | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [01 Matrix](https://leetcode.com/problems/01-matrix/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZeroOneatrix.java)                                                    | 13ms    | 92.93% |
 | [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                        | 30ms    | 84.37% |
 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                                   | 42ms    | 29.13% |
 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddMinimumNumberOfRungs.java)                                         | 1ms     | 100%   |

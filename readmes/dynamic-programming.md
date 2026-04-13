@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/646.
+Completed: 51/650.
 
 ## Submissions
 ### Easy
@@ -31,6 +31,7 @@ Completed: 50/646.
 ### Medium
 | Question                                                                                                                                            | Submission                                                                                                            | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [01 Matrix](https://leetcode.com/problems/01-matrix/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZeroOneatrix.java)                                   | 13ms    | 92.93% |
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                               | 0ms     | 100%   |
 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                           | 39ms    | 69.34% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                     | 24ms    | 31.86% |
