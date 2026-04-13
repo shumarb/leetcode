@@ -3,8 +3,8 @@
 class ShortestPathInBinaryMatrix {
     public int shortestPathBinaryMatrix(int[][] grid) {
         Queue<int[]> queue = new LinkedList<>();
-        int[] deltaRows =    new int[] {-1, -1, 0, 1, 1,  1, 0,  -1};
-        int[] deltaColumns = new int[] {0,   1, 1, 1, 0, -1, -1, -1};
+        int[] deltaColumns = new int[] {0, 1, 1, 1, 0, -1, -1, -1};
+        int[] deltaRows = new int[] {-1, -1, 0, 1, 1, 1, 0, -1};
         int level = 0;
         int n = grid.length;
         boolean[][] isVisited = new boolean[n][n];
@@ -32,7 +32,6 @@ class ShortestPathInBinaryMatrix {
                 for (int[] coordinate: queue) {
                     System.out.println(Arrays.toString(coordinate));
                 }
-                System.out.println("------------------------------");
             }
 
             int size = queue.size();
@@ -43,7 +42,7 @@ class ShortestPathInBinaryMatrix {
 
                 if (row == n - 1 && column == n - 1) {
                     if (isTest) {
-                        System.out.println(" ** found @ level " + level);
+                        System.out.println("\n * destination @ level " + level);
                     }
                     return level;
                 }
@@ -64,6 +63,9 @@ class ShortestPathInBinaryMatrix {
                         queue.offer(coordinate);
                     }
                 }
+            }
+            if (isTest) {
+                System.out.println("------------------------------");
             }
 
             level++;
