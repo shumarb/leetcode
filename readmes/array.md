@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 631/2140.
+Completed: 632/2140.
 
 ## Submissions
 ### Easy
@@ -530,6 +530,7 @@ Completed: 631/2140.
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                                 | 24ms    | 66.86% |
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java)          | 11ms    | 60.59% |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)                            | 26ms    | 61.51% |
+| [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                                      | 4ms     | 72.37% |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                              | 2ms     | 98.84% |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                                          | 0ms     | 100%   |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                                  | 291ms   | 48.57% |

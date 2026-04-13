@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/255.
+Completed: 69/255.
 
 ## Submissions
 ### Easy
@@ -69,6 +69,7 @@ Completed: 68/255.
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                      | 45ms    | 83.54% |
 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                                | 4`ms    | 89.78% |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
+| [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 4ms     | 72.37% |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |
 | [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreeLevelOrderTraversal.java)                     | 3ms     | 71.32% |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |

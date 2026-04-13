@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 94/337.
+Completed: 95/337.
 
 ## Submissions
 ### Easy
@@ -91,6 +91,7 @@ Completed: 94/337.
 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)               | 6ms     | 100%   |
 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenNodeAndAncestor.java)         | 0ms     | 100%   |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
+| [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 4ms     | 72.37% |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |
 | [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MostFrequentSubtreeSum.java)                          | 3ms     | 98.36% |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |
