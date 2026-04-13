@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/273.
+Completed: 60/273.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 59/273.
 | [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                       | 5ms     | 47.55% |
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)              | 4ms     | 94.20% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)              | 11ms    | 65.35% |
+| [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                               | 4`ms    | 89.78% |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                  | 245ms   | 26.60% |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                        | 3ms     | 96.09% |
 | [Minimum Absolute Difference in Sliding Window Matrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifferenceInSlidingWindowMatrix.java) | 37ms    | 23.40% |
