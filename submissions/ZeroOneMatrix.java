@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/01-matrix/description/
 
-class ZeroOneMatrix class Solution {
+class ZeroOneMatrix {
     public int[][] updateMatrix(int[][] mat) {
         Queue<int[]> queue = new LinkedList<>();
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
