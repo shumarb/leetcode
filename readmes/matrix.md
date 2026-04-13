@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/273.
+Completed: 61/273.
 
 ## Submissions
 ### Easy
@@ -78,4 +78,5 @@ Completed: 60/273.
 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheStudentsByTheirKthScore.java)                 | 2ms     | 94.15% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                   | 0ms     | 100%   |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                   | 13ms    | 99.35% |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                              | 8ms     | 5%     |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                 | 0ms     | 100%   |

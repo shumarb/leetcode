@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 92/337.
+Completed: 94/337.
 
 ## Submissions
 ### Easy
@@ -69,6 +69,7 @@ Completed: 92/337.
 | [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                                      | 24ms    | 96.59% |
 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)           | 64ms    | 80.61% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                      | 1ms     | 100%   |
+| [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)          | 12ms    | 100%   |
 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNodesEqualToAverageOfSubtree.java)               | 1ms     | 60.70% |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
@@ -106,6 +107,7 @@ Completed: 92/337.
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                  | 1ms     | 99.86% |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                            | 0ms     | 100%   |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                               | 8ms     | 5%     |
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                  | 128ms   | 11.37% |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                        | 0ms     | 100%   | 
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 6ms     | 68.02% | 
