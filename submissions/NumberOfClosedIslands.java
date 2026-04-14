@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/number-of-closed-islands/description/
 
-class NumberOfClosedIslands {
+class NumberOfClosedIslands class Solution {
     private int[][] grid;
     private int m;
     private int n;
@@ -16,61 +16,50 @@ class NumberOfClosedIslands {
             print("before:");
         }
         for (int i = 0; i < m; i++) {
+            if (grid[i][0] == 0) {
+                dfs(i, 0);
+            }
+            if (grid[i][n - 1] == 0) {
+                dfs(i, n - 1);
+            }
+        }
+
+        for (int j = 0; j < n; j++) {
+            if (grid[0][j] == 0) {
+                dfs(0, j);
+            }
+            if (grid[m - 1][j] == 0) {
+                dfs(m - 1, j);
+            }
+        }
+
+        for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 0) {
-                    List<int[]> component = new ArrayList<>();
-                    dfs(i, j, component);
-                    if (isTest) {
-                        System.out.print(" * component: ");
-                        for (int[] point: component) {
-                            System.out.print(Arrays.toString(point) + " ");
-                        }
-                    }
-                    if (isClosedIsland(component)) {
-                        if (isTest) {
-                            System.out.println("| closed island");
-                        }
-                        result++;
-                    } else {
-                        if (isTest) {
-                            System.out.println();
-                        }
-                    }
-                    component.clear();
+                    dfs(i, j);
+                    result++;
                 }
             }
         }
         if (isTest) {
-            print("-----------------------------\nafter:");
+            print("after:");
+            System.out.print("result: " + result);
         }
 
         return result;
     }
 
-    private boolean isClosedIsland(List<int[]> component) {
-        for (int[] point: component) {
-            int column = point[1];
-            int row = point[0];
-
-            if (column == 0 || column == n - 1 || row == 0 || row == m - 1) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    private void dfs(int row, int column, List<int[]> component) {
+    private void dfs(int row, int column) {
         if (column < 0 || column >= n || row < 0 || row >= m || grid[row][column] == 1) {
             return;
         }
 
-        component.add(new int[] {row, column});
         grid[row][column] = 1;
 
-        dfs(row - 1, column, component);
-        dfs(row + 1, column, component);
-        dfs(row, column - 1, component);
-        dfs(row, column + 1, component);
+        dfs(row - 1, column);
+        dfs(row + 1, column);
+        dfs(row, column - 1);
+        dfs(row, column + 1);
     }
 
     private void print(String s) {
@@ -78,6 +67,6 @@ class NumberOfClosedIslands {
         for (int[] row: grid) {
             System.out.println(Arrays.toString(row));
         }
-        System.out.println("-----------------------------");
+        System.out.println("--------------------------------");
     }
 }
