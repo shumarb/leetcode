@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 95/337.
+Completed: 96/337.
 
 ## Submissions
 ### Easy
@@ -89,6 +89,7 @@ Completed: 95/337.
 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnivaluePath.java)                             | 2ms     | 95.73% |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)         | 5ms     | 100%   |
 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)               | 6ms     | 100%   |
+| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                 | 1ms     | 100%   |
 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDifferenceBetweenNodeAndAncestor.java)         | 0ms     | 100%   |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 4ms     | 72.37% |

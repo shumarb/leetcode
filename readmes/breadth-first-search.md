@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 69/255.
+Completed: 70/255.
 
 ## Submissions
 ### Easy
@@ -68,6 +68,7 @@ Completed: 69/255.
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100%   |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                      | 45ms    | 83.54% |
 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                                | 4`ms    | 89.78% |
+| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                 | 1ms     | 100%   |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 4ms     | 72.37% |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |

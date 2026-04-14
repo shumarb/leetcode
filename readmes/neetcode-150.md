@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 96/150.
+Completed: 97/150.
 
 ## Submissions
 ### Easy
@@ -81,6 +81,7 @@ Completed: 96/150.
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                        | 18ms    | 51.89% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)          | 6ms     | 70.02% |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)            | 5ms     | 100%   |
+| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                    | 1ms     | 100%   |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                             | 1ms     | 90.84% |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                    | 1ms     | 99.51% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                     | 7ms     | 97.71% |
