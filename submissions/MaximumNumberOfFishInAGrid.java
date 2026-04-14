@@ -1,7 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/
 
 class MaximumNumberOfFishInAGrid {
-    private List<int[]> component;
     private int[][] grid;
     private int m;
     private int n;
@@ -10,7 +9,6 @@ class MaximumNumberOfFishInAGrid {
     public int findMaxFish(int[][] grid) {
         boolean isTest = false;
         int result = 0;
-        component = new ArrayList<>();
         m = grid.length;
         n = grid[0].length;
         sum = 0;
@@ -25,13 +23,8 @@ class MaximumNumberOfFishInAGrid {
                 dfs(i, j);
                 result = Math.max(result, sum);
                 if (isTest) {
-                    System.out.print("component: ");
-                    for (int[] point: component) {
-                        System.out.print(Arrays.toString(point) + " ");
-                    }
-                    System.out.println("| sum: " + sum);
+                    System.out.println("component sum starting @ [" + i + ", " + j + "]: " + sum);
                 }
-                component.clear();
                 sum = 0;
             }
         }
@@ -45,7 +38,6 @@ class MaximumNumberOfFishInAGrid {
             return;
         }
 
-        component.add(new int[] {row, column});
         sum += grid[row][column];
         grid[row][column] = 0;
 
