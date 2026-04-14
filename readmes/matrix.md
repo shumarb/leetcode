@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/273.
+Completed: 65/273.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 64/273.
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                 | 3ms     | 71.06% |
 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfClosedIslands.java)                          | 2ms     | 100%   |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                | 2ms     | 99.93% |
+| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RottingOranges.java)                                 | 2ms     | 90.26% |
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrix.java)                                | 0ms     | 100%   |
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                             | 5ms     | 99.37% |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                | 1ms     | 73.86% |
