@@ -42,9 +42,7 @@ class WordSearch {
     }
 
     private void dfs(int row, int column, int index, String word) {
-        if (index >= word.length()
-                || column < 0 || column >= n || row < 0 || row >= m
-                || board[row][column] != word.charAt(index)) {
+        if (index >= word.length()) {
             return;
         }
 
@@ -61,10 +59,18 @@ class WordSearch {
             return;
         }
 
-        dfs(row - 1, column, index + 1, word);
-        dfs(row + 1, column, index + 1, word);
-        dfs(row, column - 1, index + 1, word);
-        dfs(row, column + 1, index + 1, word);
+        if (row - 1 >= 0 && board[row - 1][column] == word.charAt(index + 1)) {
+            dfs(row - 1, column, index + 1, word);
+        }
+        if (row + 1 < m && board[row + 1][column] == word.charAt(index + 1)) {
+            dfs(row + 1, column, index + 1, word);
+        }
+        if (column - 1 >= 0 && board[row][column - 1] == word.charAt(index + 1)) {
+            dfs(row, column - 1, index + 1, word);
+        }
+        if (column + 1 < n && board[row][column + 1] == word.charAt(index + 1)) {
+            dfs(row, column + 1, index + 1, word);
+        }
 
         // 3. Backtrack and explore next path.
         board[row][column] = initial;
