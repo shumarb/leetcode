@@ -4,7 +4,6 @@ class RottingOranges {
     public int orangesRotting(int[][] grid) {
         Queue<int[]> queue = new LinkedList<>();
         boolean isTest = false;
-        int countEmptyCells = 0;
         int countFreshOranges = 0;
         int level = -1;
         int m = grid.length;
@@ -12,7 +11,6 @@ class RottingOranges {
         boolean[][] isVisited = new boolean[m][n];
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-        // 1. Edge case: all empty cells.
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
@@ -20,23 +18,22 @@ class RottingOranges {
                 } else if (grid[i][j] == 2) {
                     queue.offer(new int[] {i, j});
                     isVisited[i][j] = true;
-                } else {
-                    countEmptyCells++;
                 }
             }
         }
 
-        if (countEmptyCells == m * n) {
+        // 1. Edge case: Grid only has empty cells.
+        if (countFreshOranges == 0 && queue.isEmpty()) {
             return 0;
         }
+
         if (isTest) {
-            print("initial countFreshOranges: " + countFreshOranges + "\nbefore:", grid, isVisited);
+            print("initial countFreshOranges: " + countFreshOranges + "\n\nbefore:", grid, isVisited);
             System.out.println("----------------------------");
         }
-
         while (!queue.isEmpty()) {
             if (isTest) {
-                print("level: " + level + ", queue: ", queue, grid);
+                print("level: " + level + "\nqueue: ", queue, grid);
             }
 
             int size = queue.size();
@@ -64,12 +61,11 @@ class RottingOranges {
 
             level++;
         }
-
         if (isTest) {
             print("----------------------------\nfinal countFreshOranges: " + countFreshOranges + "\nlevel: " + level + "\n\nafter:", grid, isVisited);
         }
 
-        return countFreshOranges != 0 ? -1 : level;
+        return countFreshOranges == 0 ? level : -1;
     }
 
     private void print(String s, int[][] grid, boolean[][] isVisited) {
@@ -86,7 +82,7 @@ class RottingOranges {
     private void print(String s, Queue<int[]> queue, int[][] grid) {
         System.out.println(s);
         for (int[] point: queue) {
-            System.out.println(" * " + Arrays.toString(point) + ": " + grid[point[0]][point[1]]);
+            System.out.println(" * " + Arrays.toString(point));
         }
         System.out.println();
     }

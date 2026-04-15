@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/337.
+Completed: 99/337.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 98/337.
 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllPathsFromSourceToTarget.java)                      | 1ms     | 100%   |
 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AmountOfTimeForBinaryTreeToBeInfected.java)           | 97ms    | 52.34% |
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                        | 2ms     | 95.99% |
+| [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                            | 1ms     | 98.50% |
 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeToGreaterSumTree.java)                | 0ms     | 100%   |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                         | 1ms     | 71.44% |
 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                         | 1ms     | 17.79% |

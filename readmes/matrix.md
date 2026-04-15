@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/273.
+Completed: 67/273.
 
 ## Submissions
 ### Easy
@@ -55,6 +55,7 @@ Completed: 66/273.
 | Question                                                                                                                                              | Submission                                                                                                            | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [01 Matrix](https://leetcode.com/problems/01-matrix/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZeroOneMatrix.java)                                  | 13ms    | 92.93% |
+| [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                           | 1ms     | 98.50% |
 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)         | 12ms    | 100%   |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                    | 2ms     | 100%   |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                               | 7ms     | 25.66% |
