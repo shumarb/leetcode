@@ -31,7 +31,7 @@ class WordSearch {
                  1.  Only start at cell starting from first letter
                  to avoid running redundant searches.
                  */
-                dfs(i, j, 0, word, new boolean[m][n]);
+                dfs(i, j, 0, word);
                 if (isFound) {
                     return true;
                 }
@@ -41,10 +41,10 @@ class WordSearch {
         return false;
     }
 
-    private void dfs(int row, int column, int index, String word, boolean[][] isVisited) {
+    private void dfs(int row, int column, int index, String word) {
         if (index >= word.length()
                 || column < 0 || column >= n || row < 0 || row >= m
-                || isVisited[row][column] || board[row][column] != word.charAt(index)) {
+                || board[row][column] != word.charAt(index)) {
             return;
         }
 
@@ -52,7 +52,8 @@ class WordSearch {
             System.out.println("current: [" + row + ", " + column + "] | index: " + index);
         }
 
-        isVisited[row][column] = true;
+        char initial = board[row][column];
+        board[row][column] = '!';
 
         // 2. Path exists to form word.
         if (index == word.length() - 1) {
@@ -60,12 +61,12 @@ class WordSearch {
             return;
         }
 
-        dfs(row - 1, column, index + 1, word, isVisited);
-        dfs(row + 1, column, index + 1, word, isVisited);
-        dfs(row, column - 1, index + 1, word, isVisited);
-        dfs(row, column + 1, index + 1, word, isVisited);
+        dfs(row - 1, column, index + 1, word);
+        dfs(row + 1, column, index + 1, word);
+        dfs(row, column - 1, index + 1, word);
+        dfs(row, column + 1, index + 1, word);
 
         // 3. Backtrack and explore next path.
-        isVisited[row][column] = false;
+        board[row][column] = initial;
     }
 }
