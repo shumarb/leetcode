@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 317/866.
+Completed: 318/866.
 
 ## Submissions
 ### Easy
@@ -333,6 +333,7 @@ Completed: 317/866.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                            | 6ms     | 98%    | 
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)               | 141ms   | 42.47% | 
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                                    | 1ms     | 99.36% |
+| [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                                   | 151ms   | 36.32% |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                  | 14ms    | 45.41% |
 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ZigzagConversion.java)                                             | 4ms     | 86.11% |
 

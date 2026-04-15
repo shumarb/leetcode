@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/150.
+Completed: 99/150.
 
 ## Submissions
 ### Easy
@@ -112,6 +112,7 @@ Completed: 98/150.
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                        | 0ms     | 100%   |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                           | 0ms     | 100%   | 
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                          | 1ms     | 99.36% |
+| [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                         | 151ms   | 36.32% |
 
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |

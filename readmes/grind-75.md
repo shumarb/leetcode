@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/75.
+Completed: 64/75.
 
 ## Submissions
 | #  | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank   |
@@ -72,6 +72,7 @@ Completed: 63/75.
 | 67 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87% |
 | 68 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                             | 5ms     | 74.40% |
 | 69 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                   | 0ms     | 100%   |
+| 70 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                         | 151ms   | 36.32% |
 | 71 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                           | 9ms     | 91.31% |
 | 72 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                                 | 14ms    | 98.84% |
 | 75 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |
