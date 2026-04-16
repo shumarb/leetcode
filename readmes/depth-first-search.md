@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/337.
+Completed: 100/337.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 99/337.
 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)          | 12ms    | 100%   |
 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNodesEqualToAverageOfSubtree.java)               | 1ms     | 60.70% |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
+| [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubIslands.java)                                 | 18ms    | 99.29% |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 4ms     | 93.45% |
