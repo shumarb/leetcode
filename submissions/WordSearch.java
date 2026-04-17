@@ -1,25 +1,22 @@
 // Question: https://leetcode.com/problems/word-search/description/
 
 class WordSearch {
-    private boolean isFound;
+    private boolean isExist;
     private boolean isTest;
     private char[][] board;
+    private int index;
     private int m;
     private int n;
 
     public boolean exist(char[][] board, String word) {
-        isFound = false;
+        index = 0;
         isTest = false;
         m = board.length;
         n = board[0].length;
         this.board = board;
 
         if (isTest) {
-            System.out.println("board:");
-            for (char[] row: board) {
-                System.out.println(Arrays.toString(row));
-            }
-            System.out.println("------------------------------------");
+            print("word: " + word + "\nboard:");
         }
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -27,12 +24,10 @@ class WordSearch {
                     continue;
                 }
 
-                /**
-                 1.  Only start at cell starting from first letter
-                 to avoid running redundant searches.
-                 */
-                dfs(i, j, 0, word);
-                if (isFound) {
+                index = 0;
+                isExist = false;
+                dfs(i, j, word.toCharArray());
+                if (isExist) {
                     return true;
                 }
             }
@@ -41,38 +36,53 @@ class WordSearch {
         return false;
     }
 
-    private void dfs(int row, int column, int index, String word) {
-        if (index >= word.length()) {
+    private void dfs(int row, int column, char[] letters) {
+        // 1. Invalid for non-existent cell, visited cell, or invalid index.
+        if (column < 0 || column >= n || row < 0 || row >= m || board[row][column] == '!' || index >= letters.length) {
             return;
         }
+
+        // 2. Reach last letter of word, so a path exists.
+        if (index == letters.length - 1) {
+            if (isTest) {
+                print("found | path:");
+            }
+            isExist = true;
+            return;
+        }
+
+        // 3. Mark cell as visited, explore adjacent cells.
+        char initialLetter = board[row][column];
+        board[row][column] = '!';
+        index++;
 
         if (isTest) {
-            System.out.println("current: [" + row + ", " + column + "] | index: " + index);
+            System.out.println("current: [" + row + ", " + column + "] | next index: " + index);
+        }
+        if (row - 1 >= 0 && board[row - 1][column] == letters[index]) {
+            dfs(row - 1, column, letters);
+        }
+        if (row + 1 < m && board[row + 1][column] == letters[index]) {
+            dfs(row + 1, column, letters);
+        }
+        if (column - 1 >= 0 && board[row][column - 1] == letters[index]) {
+            dfs(row, column - 1, letters);
+        }
+        if (column + 1 < n && board[row][column + 1] == letters[index]) {
+            dfs(row, column + 1, letters);
         }
 
-        char initial = board[row][column];
-        board[row][column] = '!';
+        // 4. Current path does not lead to all letters of word being found sequentially,
+        // so backtrack and explore next path.
+        board[row][column] = initialLetter;
+        index--;
+    }
 
-        // 2. Path exists to form word.
-        if (index == word.length() - 1) {
-            isFound = true;
-            return;
+    private void print(String s) {
+        System.out.println(s);
+        for (char[] row: board) {
+            System.out.println(Arrays.toString(row));
         }
-
-        if (row - 1 >= 0 && board[row - 1][column] == word.charAt(index + 1)) {
-            dfs(row - 1, column, index + 1, word);
-        }
-        if (row + 1 < m && board[row + 1][column] == word.charAt(index + 1)) {
-            dfs(row + 1, column, index + 1, word);
-        }
-        if (column - 1 >= 0 && board[row][column - 1] == word.charAt(index + 1)) {
-            dfs(row, column - 1, index + 1, word);
-        }
-        if (column + 1 < n && board[row][column + 1] == word.charAt(index + 1)) {
-            dfs(row, column + 1, index + 1, word);
-        }
-
-        // 3. Backtrack and explore next path.
-        board[row][column] = initial;
+        System.out.println("-----------------------------------");
     }
 }
