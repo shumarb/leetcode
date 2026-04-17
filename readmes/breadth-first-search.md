@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/255.
+Completed: 74/255.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 73/255.
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 4ms     | 93.45% |
 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleFour.java)                              | 11ms    | 97.56% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                | 1ms     | 100%   |
+| [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCyclesInTwoDGrid.java)                          | 26ms    | 13.13% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                              | 4ms     | 99.25% |
 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenOddTree.java)                                     | 17ms    | 23.05% |
 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                         | 0ms     | 100%   |

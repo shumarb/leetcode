@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/98.
+Completed: 18/98.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 17/98.
 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)          | 12ms    | 100%   |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
+| [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCyclesInTwoDGrid.java)                          | 26ms    | 13.13% | 
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                      | 31ms    | 56.92% |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                 | 1ms     | 100%   |
 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 3ms     | 100%   |

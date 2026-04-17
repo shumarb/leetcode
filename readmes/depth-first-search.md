@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 100/337.
+Completed: 101/337.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 100/337.
 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleFour.java)                              | 11ms    | 97.56% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                | 1ms     | 100%   |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                  | 162ms   | 94.15% | 
+| [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCyclesInTwoDGrid.java)                          | 26ms    | 13.13% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                              | 4ms     | 99.25% |
 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                         | 0ms     | 100%   |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90% |
