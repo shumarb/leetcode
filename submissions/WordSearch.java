@@ -72,7 +72,12 @@ class WordSearch {
             dfs(row, column + 1, letters);
         }
 
-        // 4. Current path does not lead to all letters of word being found sequentially,
+        // 5. When backtracking, a path may have been found, so no need to explore further.
+        if (isExist) {
+            return;
+        }
+
+        // 6. Current path does not lead to all letters, and valid path not found yet,
         // so backtrack and explore next path.
         board[row][column] = initialLetter;
         index--;
