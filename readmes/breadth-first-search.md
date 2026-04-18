@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/255.
+Completed: 75/255.
 
 ## Submissions
 ### Easy
@@ -57,6 +57,7 @@ Completed: 74/255.
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                     | 2ms     | 100%   |
 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubIslands.java)                                 | 18ms    | 99.29% |
 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnreachablePairsOfNodesInAnUndirectedGraph.java) | 37ms    | 54.79% |
+| [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfCompleteComponents.java)              | 49ms    | 5.13%  |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 4ms     | 93.45% |
 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleFour.java)                              | 11ms    | 97.56% |
