@@ -53,7 +53,7 @@ class CountTheNumberOfCompleteComponents {
             List<Integer> destinations = graph[vertex];
             int totalConnections = getTotalConnections(component, destinations);
             if (isTest) {
-                System.out.println(" ** vertex: " + vertex + " | component: " + component + " | destinations: " + destinations + " | totalConnections: " + totalConnections);
+                System.out.println(" ** vertex: " + vertex + " | destinations: " + destinations + " | totalConnections: " + totalConnections);
             }
             if (totalConnections != component.size() - 1) {
                 return false;
