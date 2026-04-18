@@ -1,13 +1,11 @@
 // Question: https://leetcode.com/problems/count-the-number-of-complete-components/description/
 
 class CountTheNumberOfCompleteComponents {
-    private boolean isTest;
-
     public int countCompleteComponents(int n, int[][] edges) {
         List<Integer>[] graph = new ArrayList[n];
         boolean[] isVisited = new boolean[n];
+        boolean isTest = false;
         int result = 0;
-        isTest = false;
 
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
@@ -34,45 +32,23 @@ class CountTheNumberOfCompleteComponents {
             if (isTest) {
                 System.out.println(" * component: " + component);
             }
-            if (component.size() == 1 || isValid(component, graph)) {
+
+            boolean isCompleteComponent = true;
+            for (int part: component) {
+                if (graph[part].size() != component.size() - 1) {
+                    isCompleteComponent = false;
+                    break;
+                }
+            }
+            if (isCompleteComponent) {
                 if (isTest) {
-                    System.out.println(" * valid\n");
+                    System.out.println(" ** valid");
                 }
                 result++;
             }
         }
         if (isTest) {
             System.out.println("-----------------------------\nresult: " + result);
-        }
-
-        return result;
-    }
-
-    private boolean isValid(List<Integer> component, List<Integer>[] graph) {
-        for (int vertex: component) {
-            List<Integer> destinations = graph[vertex];
-            int totalConnections = getTotalConnections(component, destinations);
-            if (isTest) {
-                System.out.println(" ** vertex: " + vertex + " | destinations: " + destinations + " | totalConnections: " + totalConnections);
-            }
-            if (totalConnections != component.size() - 1) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    private int getTotalConnections(List<Integer> component, List<Integer> destinations) {
-        int result = 0;
-
-        for (int part: component) {
-            for (int destination: destinations) {
-                if (destination == part) {
-                    result++;
-                    break;
-                }
-            }
         }
 
         return result;
