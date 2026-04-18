@@ -66,10 +66,11 @@ class CountTheNumberOfCompleteComponents {
     private int getTotalConnections(List<Integer> component, List<Integer> destinations) {
         int result = 0;
 
-        for (int i = 0; i < component.size(); i++) {
-            for (int j = 0; j < destinations.size(); j++) {
-                if (component.get(i) == destinations.get(j)) {
+        for (int part: component) {
+            for (int destination: destinations) {
+                if (destination == part) {
                     result++;
+                    break;
                 }
             }
         }
