@@ -7,7 +7,7 @@ class FindAllGroupsOfFarmland {
     private int n;
 
     public int[][] findFarmland(int[][] land) {
-        List<List<Integer>> coordinates = new ArrayList<>();
+        List<int[]> coordinates = new ArrayList<>();
         boolean isTest = false;
         int[][] result = new int[0][0];
         m = land.length;
@@ -24,51 +24,48 @@ class FindAllGroupsOfFarmland {
                     continue;
                 }
 
-                int[] topLeft = new int[] {i, j};
-                List<Integer> list = dfs(topLeft);
+                int[] coordinate = dfs(i, j);
                 if (isTest) {
-                    System.out.println("farmland | list: " + list);
+                    System.out.println("farmland | coordinate: " + Arrays.toString(coordinate));
                 }
-                coordinates.add(list);
-            }
-        }
-        if (isTest) {
-            System.out.println("------------------------------------\ncoordinates:");
-            for (List<Integer> e: coordinates) {
-                System.out.println(e);
+                coordinates.add(coordinate);
             }
         }
 
         if (coordinates.size() > 0) {
             result = new int[coordinates.size()][4];
             for (int i = 0; i < coordinates.size(); i++) {
-                for (int j = 0; j < coordinates.get(i).size(); j++) {
-                    result[i][j] = coordinates.get(i).get(j);
-                }
+                result[i] = coordinates.get(i);
+            }
+        }
+        if (isTest) {
+            System.out.println("------------------------------------\nresult:");
+            for (int[] e: coordinates) {
+                System.out.println(Arrays.toString(e));
             }
         }
 
         return result;
     }
 
-    private List<Integer> dfs(int[] topLeft) {
-        List<Integer> values = new ArrayList<>();
+    private int[] dfs(int i, int j) {
         Queue<int[]> queue = new LinkedList<>();
-        int[] result = new int[] {topLeft[0], topLeft[1]};
+        int[] result = new int[4];
 
-        values.add(topLeft[0]);
-        values.add(topLeft[1]);
+        result[0] = i;
+        result[1] = j;
 
-        queue.offer(topLeft);
+        queue.offer(new int[] {i, j});
         while (!queue.isEmpty()) {
             int size = queue.size();
-            for (int i = 0; i < size; i++) {
+            for (int k = 0; k < size; k++) {
                 int[] top = queue.poll();
                 int column = top[1];
                 int row = top[0];
 
                 isVisited[row][column] = true;
-                result = top;
+                result[2] = row;
+                result[3] = column;
 
                 int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
                 for (int[] direction: directions) {
@@ -84,10 +81,8 @@ class FindAllGroupsOfFarmland {
                 }
             }
         }
-        values.add(result[0]);
-        values.add(result[1]);
 
-        return values;
+        return result;
     }
 
     private void print(String s) {
