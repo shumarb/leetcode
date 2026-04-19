@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 639/2140.
+Completed: 640/2140.
 
 ## Submissions
 ### Easy
@@ -460,6 +460,7 @@ Completed: 639/2140.
 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvaluateTheBracketPairsOfAString.java)                                | 39ms    | 51.16% | 
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                                        | 46ms    | 87.58% | 
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                                      | 5ms     | 94.05% |
+| [Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllGroupsOfFarmland.java)                                         | 27ms    | 12%    |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                                  | 12ms    | 99.88% |
 | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllPossibleRecipesFromGivenSupplies.java)                         | 62ms    | 60.49% |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)                  | 0ms     | 100%   |
