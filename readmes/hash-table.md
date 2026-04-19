@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 313/807.
+Completed: 314/807.
 
 ## Submissions
 ### Easy
@@ -190,6 +190,7 @@ Completed: 313/807.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                                | 47ms    | 20.04% |
 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllNodesDistanceKInBinaryTree.java)                                | 12ms    | 82.16% |
+| [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlphabetBoardPath.java)                                            | 1ms     | 44%    |
 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AmountOfTimeForBinaryTreeToBeInfected.java)                        | 97ms    | 52.34% |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                   | 0ms     | 100%   |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                                 | 1ms     | 100%   |
