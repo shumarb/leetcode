@@ -2,14 +2,29 @@
 
 class TwoFurthestHousesWithDifferentColors {
     public int maxDistance(int[] colors) {
-        int maximumDifference = 0;
-        for (int i = 0; i < colors.length - 1; i++) {
-            for (int j = i + 1; j < colors.length; j++) {
-                if (colors[i] != colors[j]) {
-                    maximumDifference = Math.max(maximumDifference, j - i);
-                }
+        int left = 0;
+        int n = colors.length;
+        int result = Integer.MIN_VALUE;
+        int right = n - 1;
+
+        while (left < right) {
+            if (colors[right] != colors[left]) {
+                result = right - left;
+                break;
             }
+            right--;
         }
-        return maximumDifference;
+
+        left = 0;
+        right = n - 1;
+        while (left < right) {
+            if (colors[right] != colors[left]) {
+                result = Math.max(result, right - left);
+                break;
+            }
+            left++;
+        }
+
+        return result;
     }
 }
