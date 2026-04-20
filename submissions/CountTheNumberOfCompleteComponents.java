@@ -30,7 +30,7 @@ class CountTheNumberOfCompleteComponents {
             List<Integer> component = new ArrayList<>();
             dfs(i, isVisited, graph, component);
             if (isTest) {
-                System.out.println(" * component: " + component);
+                System.out.print(" * component: " + component);
             }
 
             boolean isCompleteComponent = true;
@@ -42,9 +42,12 @@ class CountTheNumberOfCompleteComponents {
             }
             if (isCompleteComponent) {
                 if (isTest) {
-                    System.out.println(" ** valid");
+                    System.out.print(" | valid");
                 }
                 result++;
+            }
+            if (isTest) {
+                System.out.println();
             }
         }
         if (isTest) {

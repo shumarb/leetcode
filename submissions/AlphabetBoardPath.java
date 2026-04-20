@@ -25,8 +25,8 @@ class AlphabetBoardPath {
 
             /**
              1.  Edge case: z is only character with no adjacent neighbours,
-             so move horizontal steps first then move vertical steps
-             to ensure no stepping out of grid.
+                 so move horizontal steps first then move vertical steps
+                 to ensure no stepping out of grid.
              */
             if (c == 'z') {
                 moveHorizontal(cColumn - lastColumn, result);
@@ -48,30 +48,31 @@ class AlphabetBoardPath {
     }
 
     private void moveVertical(int steps, StringBuilder result) {
+        if (steps == 0) {
+            return;
+        }
+
+        char direction = steps < 0 ? 'U' : 'D';
         if (steps < 0) {
             steps = Math.abs(steps);
-            for (int i = 0; i < steps; i++) {
-                result.append('U');
-            }
+        }
 
-        } else {
-            for (int i = 0; i < steps; i++) {
-                result.append('D');
-            }
+        for (int i = 0; i < steps; i++) {
+            result.append(direction);
         }
     }
 
     private void moveHorizontal(int steps, StringBuilder result) {
+        if (steps == 0) {
+            return;
+        }
+
+        char direction = steps < 0 ? 'L' : 'R';
         if (steps < 0) {
             steps = Math.abs(steps);
-            for (int i = 0; i < steps; i++) {
-                result.append('L');
-            }
-
-        } else if (steps > 0) {
-            for (int i = 0; i < steps; i++) {
-                result.append('R');
-            }
+        }
+        for (int i = 0; i < steps; i++) {
+            result.append(direction);
         }
     }
 
