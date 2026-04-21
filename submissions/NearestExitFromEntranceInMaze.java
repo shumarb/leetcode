@@ -3,15 +3,14 @@
 class NearestExitFromEntranceInMaze {
     public int nearestExit(char[][] maze, int[] entrance) {
         Queue<int[]> queue = new LinkedList<>();
+        boolean isTest = false;
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         int m = maze.length;
         int n = maze[0].length;
         int level = 0;
-        boolean[][] isVisited = new boolean[m][n];
-        boolean isTest = false;
 
         queue.offer(entrance);
-        isVisited[entrance[0]][entrance[1]] = true;
+        maze[entrance[0]][entrance[1]] = 'V';
 
         while (!queue.isEmpty()) {
             if (isTest) {
@@ -24,9 +23,9 @@ class NearestExitFromEntranceInMaze {
                 int column = top[1];
                 int row = top[0];
 
-                if (level != 0 && (row == 0 || row == m - 1 || column == 0 || column == n - 1)) {
+                if ((row == 0 || row == m - 1 || column == 0 || column == n - 1) && level > 0) {
                     if (isTest) {
-                        System.out.println(" ** found valid exit @ " + level);
+                        System.out.println(" * found valid exit @ " + level);
                     }
                     return level;
                 }
@@ -36,12 +35,12 @@ class NearestExitFromEntranceInMaze {
                     int adjacentRow = row + direction[0];
 
                     if (adjacentColumn < 0 || adjacentColumn >= n || adjacentRow < 0 || adjacentRow >= m
-                            || isVisited[adjacentRow][adjacentColumn] || maze[adjacentRow][adjacentColumn] != '.') {
+                            || maze[adjacentRow][adjacentColumn] != '.') {
                         continue;
                     }
 
                     queue.offer(new int[] {adjacentRow, adjacentColumn});
-                    isVisited[adjacentRow][adjacentColumn] = true;
+                    maze[adjacentRow][adjacentColumn] = 'V';
                 }
             }
 
