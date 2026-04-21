@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/255.
+Completed: 77/255.
 
 ## Submissions
 ### Easy
@@ -76,6 +76,7 @@ Completed: 76/255.
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 93.82% |
 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                      | 3ms     | 100%   |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |
+| [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumJumpsToReachHome.java)                         | 25ms    | 78.72% |
 | [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreeLevelOrderTraversal.java)                     | 3ms     | 71.32% |
 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfClosedIslands.java)                           | 2ms     | 100%   |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |
