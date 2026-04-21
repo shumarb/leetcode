@@ -53,7 +53,7 @@ class MinimumJumpsToReachHome {
                     queue.offer(new int[] {countForward, 0});
                 }
 
-                if (isBackwardUsed == 0 && countBackward >= 0 && countBackward <= limit && !isForbidden[countBackward] && !isVisited[countBackward][1]) {
+                if (isBackwardUsed == 0 && countBackward >= 0 && !isForbidden[countBackward] && !isVisited[countBackward][1]) {
                     isVisited[countBackward][1] = true;
                     queue.offer(new int[] {countBackward, 1});
                 }
