@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 642/2140.
+Completed: 643/2144.
 
 ## Submissions
 ### Easy
@@ -334,6 +334,7 @@ Completed: 642/2140.
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java)   | 1ms     | 92.66% |
 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestMissingMultipleOfK.java)                             | 0ms     | 100%   |
 | [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPairWithDifferentFrequencies.java)                   | 1ms     | 100%   |
+| [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStableIndexOne.java)                                 | 1ms     | 100%   |
 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SnakeInMatrix.java)                                          | 2ms     | 91.68% |
 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByParity.java)                                      | 0ms     | 100%   |
 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortArrayByParityTwo.java)                                   | 2ms     | 99.96% |
