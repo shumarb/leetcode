@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 166/512.
+Completed: 167/512.
 
 ## Submissions
 ### Easy
@@ -109,6 +109,7 @@ Completed: 166/512.
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                | 76ms    | 25.33% |
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)               | 16ms    | 88.19% |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                               | 6ms     | 98.19% |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                      | 1ms     | 100%   |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java) | 810ms   | 7.09%  |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                        | 37ms    | 86.60% |
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)          | 43ms    | 53.25% |

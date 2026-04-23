@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 644/2144.
+Completed: 645/2144.
 
 ## Submissions
 ### Easy
@@ -406,6 +406,7 @@ Completed: 644/2144.
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                                 | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                       | 1ms     | 100%   |
 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CapacityToShipPackagesWithinDDays.java)                               | 11ms    | 69.45% |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                                      | 1ms     | 100%   |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                                | 2ms     | 99.45% |
 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)                           | 64ms    | 80.61% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                                      | 24ms    | 31.86% |

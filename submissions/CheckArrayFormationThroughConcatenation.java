@@ -18,8 +18,7 @@ class CheckArrayFormationThroughConcatenation {
 
             /**
              1.  For pieces of size 1, check if its element is in the map.
-             Return false if element is not in the map because array concatenation can't be formed
-             if element is not present.
+             Return false if element is not in the map because array concatenation can't be formed.
              */
             if (piece.length == 1) {
                 if (map[piece[0]] == -1) {

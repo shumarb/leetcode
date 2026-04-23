@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/239.
+Completed: 43/243.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 42/239.
 ### Medium
 | Question                                                                                                                                                                      | Submission                                                                                                                     | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                              | 1ms     | 100%   |
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)                                   | 24ms    | 67.47% |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                             | 51ms    | 81.88% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                              | 7ms     | 95.59% |
