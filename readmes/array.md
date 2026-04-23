@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 645/2144.
+Completed: 646/2144.
 
 ## Submissions
 ### Easy
@@ -451,6 +451,7 @@ Completed: 645/2144.
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                                | 7ms     | 25.66% |
 | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                                             | 16ms    | 99.60% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)                     | 9ms     | 78.44% |
+| [Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceOfNumberOfDistinctValuesOnDiagonals.java)                   | 5ms     | 88.52% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                                 | 15ms    | 83.05% |
 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistinctPrimeFactorsOfProductOfArray.java)                            | 127ms   | 9.06%  |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)                          | 215ms   | 39.47% |
