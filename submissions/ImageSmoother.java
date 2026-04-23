@@ -1,16 +1,10 @@
 // Question: https://leetcode.com/problems/image-smoother/description/
 
-class Solution {
+class ImageSmoother {
     public int[][] imageSmoother(int[][] img) {
         boolean isTest = false;
         int m = img.length;
         int n = img[0].length;
-        int[][] directions = {
-                {-1, 0}, {-1, -1},
-                {0, 1}, {1, 1},
-                {1, 0}, {1, -1},
-                {0, -1}, {-1, 1}
-        };
         int[][] result = new int[m][n];
 
         if (isTest) {
@@ -22,26 +16,23 @@ class Solution {
             return img;
         }
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                int total = img[i][j];
-                int count = 1;
+        for (int row = 0; row < m; row++) {
+            for (int column = 0; column < n; column++) {
+                int count = 0;
+                int sum = 0;
 
-                for (int[] direction: directions) {
-                    int adjacentColumn = j + direction[1];
-                    int adjacentRow = i + direction[0];
-
-                    if (adjacentColumn < 0 || adjacentColumn >= n || adjacentRow < 0 || adjacentRow >= m) {
-                        continue;
+                for (int adjacentRow = row - 1; adjacentRow <= row + 1; adjacentRow++) {
+                    for (int adjacentColumn = column - 1; adjacentColumn <= column + 1; adjacentColumn++) {
+                        if (adjacentColumn >= 0 && adjacentColumn < n && adjacentRow >= 0 && adjacentRow < m) {
+                            sum += img[adjacentRow][adjacentColumn];
+                            count++;
+                        }
                     }
-
-                    total += img[adjacentRow][adjacentColumn];
-                    count++;
                 }
                 if (isTest) {
-                    System.out.println(" * [" + i + ", " + j + "] | element: " + img[i][j] + "  | total: " + total + ", count: " + count);
+                    System.out.println(" * [" + row + ", " + column + "] | element: " + img[row][column] + "  | sum: " + sum + ", count: " + count);
                 }
-                result[i][j] = total / count;
+                result[row][column] = sum / count;
             }
         }
         if (isTest) {
