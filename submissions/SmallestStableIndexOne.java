@@ -1,28 +1,24 @@
 // Question: https://leetcode.com/problems/smallest-stable-index-i/description/
 
-class SmallestStableIndexOne {
+class SmallestStableIndexOne class Solution {
     public int firstStableIndex(int[] nums, int k) {
         boolean isTest = false;
+        int maximum = nums[0];
         int n = nums.length;
-        int[] prefix = new int[n];
         int[] suffix = new int[n];
 
-        prefix[0] = nums[0];
         suffix[n - 1] = nums[n - 1];
-        for (int i = 1; i < n; i++) {
-            prefix[i] = Math.max(nums[i], prefix[i - 1]);
-        }
         for (int i = n - 2; i >= 0; i--) {
-            suffix[i] = Math.min(nums[i], suffix[i + 1]);
+            suffix[i] = Math.min(suffix[i + 1], nums[i]);
         }
         if (isTest) {
-            System.out.println("prefix: " + Arrays.toString(prefix));
             System.out.println("nums:   " + Arrays.toString(nums));
             System.out.println("suffix: " + Arrays.toString(suffix));
+            System.out.println("----------------------------------");
         }
 
         for (int i = 0; i < n; i++) {
-            int maximum = prefix[i];
+            maximum = Math.max(maximum, nums[i]);
             int minimum = suffix[i];
             int instability = maximum - minimum;
             if (isTest) {
@@ -33,7 +29,6 @@ class SmallestStableIndexOne {
                 if (isTest) {
                     System.out.println(" * result: " + i);
                 }
-
                 return i;
             }
         }
