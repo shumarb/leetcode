@@ -64,21 +64,20 @@ class WordLadder {
 
     private List<String> getUnvisitedNeighnours(String source, Set<String> unvisited) {
         List<String> result = new ArrayList<>();
+        char[] sourceLetters = source.toCharArray();
 
         for (int j = 0; j < source.length(); j++) {
             for (char letter: letters) {
-                StringBuilder adjacentWord = new StringBuilder();
-                adjacentWord.append(source.substring(0, j));
-                adjacentWord.append(letter);
-                adjacentWord.append(source.substring(j + 1));
+                char[] letters = sourceLetters.clone();
+                letters[j] = letter;
 
-                String key = adjacentWord.toString();
-                if (unvisited.contains(key)) {
+                String adjacentWord = new String(letters);
+                if (unvisited.contains(adjacentWord)) {
                     if (isTest) {
                         System.out.println(" * source: " + source + " -> adjacentWord: " + adjacentWord);
                     }
-                    result.add(key);
-                    unvisited.remove(key);
+                    result.add(adjacentWord);
+                    unvisited.remove(adjacentWord);
                 }
             }
         }
