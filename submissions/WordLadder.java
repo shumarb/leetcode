@@ -1,48 +1,33 @@
 // Question: https://leetcode.com/problems/word-ladder/description/
 
 class WordLadder {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Map<String, Set<String>> graph = new HashMap<>();
-        Queue<String> queue = new LinkedList<>();
-        Set<String> isVisited = new HashSet<>();
-        boolean isTest = false;
-        int level = 1;
+    private boolean isTest;
+    private char[] letters;
 
-        // 1. Edge cases: transformation needed but no path to endWord.
-        if (!wordList.contains(endWord)) {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Queue<String> queue = new LinkedList<>();
+        Set<String> unvisited = new HashSet<>(wordList);
+        int level = 1;
+        isTest = false;
+        letters = new char[26];
+
+        // 1. Edge case: no path to form endWord.
+        if (!unvisited.contains(endWord)) {
             return 0;
         }
 
-        wordList.add(beginWord);
-        for (String word: wordList) {
-            graph.put(word, new HashSet<>());
+        for (int i = 0; i < letters.length; i++) {
+            letters[i] = (char) (i + 'a');
         }
-        for (String first: wordList) {
-            for (String second: wordList) {
-                if (first.equals(second) || first.length() != second.length()) {
-                    continue;
-                }
-                if (isAdjacent(first, second)) {
-                    graph.get(first).add(second);
-                    graph.get(second).add(first);
-                }
-            }
-        }
+
         if (isTest) {
-            System.out.println("beginWord: " + beginWord + ", endWord: " + endWord);
-            System.out.println("wordList: " + wordList + "\n-----------------------------------------------\ngraph:");
-            for (String key: graph.keySet()) {
-                System.out.println(" * " + key + ": " + graph.get(key));
-            }
-            System.out.println("-----------------------------------------------");
+            System.out.println(beginWord + " -> " + endWord + "\nunvisited: " + unvisited);
         }
-
         queue.offer(beginWord);
-        isVisited.add(beginWord);
-
         while (!queue.isEmpty()) {
             if (isTest) {
-                System.out.println(" * level: " + level + ": " + queue);
+                System.out.println("-------------------------------------------------");
+                System.out.println("level: " + level + ": " + queue);
             }
 
             int size = queue.size();
@@ -51,23 +36,23 @@ class WordLadder {
 
                 if (source.equals(endWord)) {
                     if (isTest) {
-                        System.out.println(" ** found @ level " + level);
+                        System.out.println(" * found @ level " + level);
                     }
                     return level;
                 }
 
-                for (String destination: graph.get(source)) {
-                    if (destination.equals(endWord)) {
+                List<String> unvisitedNeighbours = getUnvisitedNeighnours(source, unvisited);
+                if (isTest) {
+                    System.out.println(" * source: " + source + ", unvisitedNeighbours: " + unvisitedNeighbours);
+                }
+                for (String neighbour: unvisitedNeighbours) {
+                    if (neighbour.equals(endWord)) {
                         if (isTest) {
-                            System.out.println(" ** found @ level " + level);
+                            System.out.println(" * found @ level " + (level + 1));
                         }
                         return level + 1;
                     }
-
-                    if (!isVisited.contains(destination)) {
-                        isVisited.add(destination);
-                        queue.offer(destination);
-                    }
+                    queue.offer(neighbour);
                 }
             }
 
@@ -77,20 +62,27 @@ class WordLadder {
         return 0;
     }
 
-    private boolean isAdjacent(String first, String second) {
-        boolean isTest = true;
-        int countLetterDifference = 0;
-        int i = 0;
-        int j = 0;
+    private List<String> getUnvisitedNeighnours(String source, Set<String> unvisited) {
+        List<String> result = new ArrayList<>();
 
-        while (i < first.length() && j < second.length()) {
-            if (first.charAt(i++) != second.charAt(j++)) {
-                if (++countLetterDifference > 1) {
-                    return false;
+        for (int j = 0; j < source.length(); j++) {
+            for (char letter: letters) {
+                StringBuilder adjacentWord = new StringBuilder();
+                adjacentWord.append(source.substring(0, j));
+                adjacentWord.append(letter);
+                adjacentWord.append(source.substring(j + 1));
+
+                String key = adjacentWord.toString();
+                if (unvisited.contains(key)) {
+                    if (isTest) {
+                        System.out.println(" * source: " + source + " -> adjacentWord: " + adjacentWord);
+                    }
+                    result.add(key);
+                    unvisited.remove(key);
                 }
             }
         }
 
-        return countLetterDifference == 1;
+        return result;
     }
 }
