@@ -5,21 +5,20 @@ class WordLadder {
         Map<String, Set<String>> graph = new HashMap<>();
         Queue<String> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
-        Set<String> wordSet = new HashSet<>(wordList);
         boolean isTest = false;
         int level = 1;
 
         // 1. Edge cases: transformation needed but no path to endWord.
-        if (!wordSet.contains(endWord)) {
+        if (!wordList.contains(endWord)) {
             return 0;
         }
 
-        wordSet.add(beginWord);
-        for (String word: wordSet) {
+        wordList.add(beginWord);
+        for (String word: wordList) {
             graph.put(word, new HashSet<>());
         }
-        for (String first: wordSet) {
-            for (String second: wordSet) {
+        for (String first: wordList) {
+            for (String second: wordList) {
                 if (first.equals(second) || first.length() != second.length()) {
                     continue;
                 }
@@ -31,7 +30,7 @@ class WordLadder {
         }
         if (isTest) {
             System.out.println("beginWord: " + beginWord + ", endWord: " + endWord);
-            System.out.println("wordSet: " + wordSet + "\n-----------------------------------------------\ngraph:");
+            System.out.println("wordList: " + wordList + "\n-----------------------------------------------\ngraph:");
             for (String key: graph.keySet()) {
                 System.out.println(" * " + key + ": " + graph.get(key));
             }
