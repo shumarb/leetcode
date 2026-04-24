@@ -2,27 +2,22 @@
 
 class WordLadder {
     private boolean isTest;
-    private char[] letters;
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<String> queue = new LinkedList<>();
         Set<String> unvisited = new HashSet<>(wordList);
         int level = 1;
         isTest = false;
-        letters = new char[26];
 
         // 1. Edge case: no path to form endWord.
         if (!unvisited.contains(endWord)) {
             return 0;
         }
 
-        for (int i = 0; i < letters.length; i++) {
-            letters[i] = (char) (i + 'a');
-        }
-
         if (isTest) {
             System.out.println(beginWord + " -> " + endWord + "\nunvisited: " + unvisited);
         }
+
         queue.offer(beginWord);
         while (!queue.isEmpty()) {
             if (isTest) {
@@ -67,7 +62,7 @@ class WordLadder {
         char[] sourceLetters = source.toCharArray();
 
         for (int j = 0; j < source.length(); j++) {
-            for (char letter: letters) {
+            for (char letter = 'a'; letter <= 'z'; letter++) {
                 char[] letters = sourceLetters.clone();
                 letters[j] = letter;
 
