@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/150.
+Completed: 100/150.
 
 ## Submissions
 ### Easy
@@ -123,3 +123,4 @@ Completed: 99/150.
 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInKGroup.java)              | 1ms     | 30.85% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)              | 7ms     | 99.46% |
+| [Word Ladder](https://leetcode.com/problems/word-ladder/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordLadder.java)                        | 1870ms  | 5.01%  |
