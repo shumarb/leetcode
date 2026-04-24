@@ -62,8 +62,12 @@ class WordLadder {
         char[] sourceLetters = source.toCharArray();
 
         for (int j = 0; j < source.length(); j++) {
+            char[] letters = sourceLetters.clone();
             for (char letter = 'a'; letter <= 'z'; letter++) {
-                char[] letters = sourceLetters.clone();
+                if (letters[j] == letter) {
+                    continue;
+                }
+
                 letters[j] = letter;
 
                 String adjacentWord = new String(letters);
