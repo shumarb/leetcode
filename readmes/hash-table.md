@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 318/807.
+Completed: 319/807.
 
 ## Submissions
 ### Easy
@@ -295,6 +295,7 @@ Completed: 318/807.
 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfPairsOfStringsWithConcatenationEqualToTarget.java)         | 3ms     | 91.55% |
 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsContainingAllThreeCharacters.java)               | 15ms    | 42.72% |
 | [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java)  | 49ms    | 48.21% |
+| [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OpenTheLock.java)                                                  | 89ms    | 68.71% |
 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OptimalPartitionOfString.java)                                     | 14ms    | 68.52% |
 | [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                   | 2ms     | 96.88% |
 | [Partition String](https://leetcode.com/problems/partition-string/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionString.java)                                              | 165ms   | 82.28% |

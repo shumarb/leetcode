@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 321/866.
+Completed: 322/866.
 
 ## Submissions
 ### Easy
@@ -295,6 +295,7 @@ Completed: 321/866.
 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStepsToReduceANumberInBinaryRepresentationToOne.java)      | 7ms     | 9.84%  |
 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsContainingAllThreeCharacters.java)               | 15ms    | 42.72% |
 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubstringsWithOnly1s.java)                                 | 4ms     | 88.42% |
+| [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OpenTheLock.java)                                                  | 89ms    | 68.71% |
 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OptimalPartitionOfString.java)                                     | 14ms    | 68.52% |
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                                       | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                                        | 5ms     | 97.61% |
