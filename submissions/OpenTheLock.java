@@ -10,16 +10,13 @@ class OpenTheLock {
         Queue<String> queue = new LinkedList<>();
         boolean isTest = false;
         int level = 0;
-        banned = new HashSet<>();
+        banned = new HashSet<>(List.of(deadends));
         next = new char[] {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
         previous = new char[] {'9', '0', '1', '2', '3', '4', '5', '6', '7', '8'};
         visited = new HashSet<>();
 
-        for (String code: deadends) {
-            if (code.equals("0000")) {
-                return -1;
-            }
-            banned.add(code);
+        if (banned.contains("0000")) {
+            return -1;
         }
 
         if (isTest) {
