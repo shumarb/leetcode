@@ -59,10 +59,9 @@ class WordLadder {
 
     private List<String> getUnvisitedNeighnours(String source, Set<String> unvisited) {
         List<String> result = new ArrayList<>();
-        char[] sourceLetters = source.toCharArray();
 
         for (int j = 0; j < source.length(); j++) {
-            char[] letters = sourceLetters.clone();
+            char[] letters = source.toCharArray();
             for (char letter = 'a'; letter <= 'z'; letter++) {
                 if (letters[j] == letter) {
                     continue;
