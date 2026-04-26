@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 648/2144.
+Completed: 649/2144.
 
 ## Submissions
 ### Easy
@@ -563,6 +563,7 @@ Completed: 648/2144.
 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)                             | 11ms    | 12.02% |
 | [Minimum Number of Operations to Have Distinct Elements](https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToHaveDistinctElements.java)                 | 11ms    | 60.49% |
 | [Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeArrayEmpty.java)                       | 21ms    | 64.11% |
+| [Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToConvertNumber.java)                                | 1146ms  | 5.59%  |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)                      | 144ms   | 74.64% |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                                 | 172ms   | 82.34% |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java)         | 7ms     | 57.49% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 82/257.
+Completed: 83/257.
 
 ## Submissions
 ### Easy
@@ -78,6 +78,7 @@ Completed: 82/257.
 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumGeneticMutation.java)                          | 1ms     | 95.05% |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84% |
 | [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumJumpsToReachHome.java)                         | 25ms    | 78.72% |
+| [Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToConvertNumber.java)                | 1146ms  | 5.59%  |
 | [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreeLevelOrderTraversal.java)                     | 3ms     | 71.32% |
 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NearestExitFromEntranceInMaze.java)                   | 4ms     | 97.98% |
 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfClosedIslands.java)                           | 2ms     | 100%   |
