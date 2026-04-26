@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 649/2144.
+Completed: 650/2144.
 
 ## Submissions
 ### Easy
@@ -658,6 +658,7 @@ Completed: 649/2144.
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                                       | 1ms     | 99.36% |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                                      | 76ms    | 96.70% |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                     | 14ms    | 45.41% |
+| [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordsWithinTwoEditsOfDictionary.java)                                 | 12ms    | 30.08% |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
