@@ -3,24 +3,26 @@
 class MinimumOperationsToConvertNumber {
     public int minimumOperations(int[] nums, int start, int goal) {
         Queue<Integer> queue = new LinkedList<>();
-        Set<Integer> visited = new HashSet<>();
+        boolean[] isVisited = new boolean[1001];
         boolean isTest = false;
         int level = 0;
 
         if (isTest) {
-            System.out.println("start: " + start + " -> goal: " + goal + "\nnums: " + Arrays.toString(nums));
+            System.out.println("nums: " + Arrays.toString(nums) + "\n" + start + " -> " + goal);
         }
 
         queue.offer(start);
-        visited.add(start);
+        isVisited[start] = true;
+
         while (!queue.isEmpty()) {
             if (isTest) {
-                System.out.println("---------------------------------\nlevel: " + level + ": " + queue);
+                System.out.println("----------------------------------\nlevel " + level + ": " + queue);
             }
 
             int size = queue.size();
             while (size-- > 0) {
                 int top = queue.poll();
+
                 if (top == goal) {
                     if (isTest) {
                         System.out.println(" ** found @ level " + level);
@@ -29,14 +31,11 @@ class MinimumOperationsToConvertNumber {
                     return level;
                 }
 
-                List<Integer> neighbours = getNeighbours(top, nums, visited);
-                if (isTest) {
-                    System.out.println(" * " + top + ": " + neighbours);
-                }
-
-                for (int neighbour: neighbours) {
-                    if (neighbour == goal) {
+                for (int number: nums) {
+                    int x = top + number;
+                    if (x == goal) {
                         level++;
+
                         if (isTest) {
                             System.out.println(" ** found @ level " + level);
                         }
@@ -44,8 +43,41 @@ class MinimumOperationsToConvertNumber {
                         return level;
                     }
 
-                    if (neighbour >= 0 && neighbour <= 1000) {
-                        queue.offer(neighbour);
+                    if (x >= 0 && x <= 1000 && !isVisited[x]) {
+                        queue.offer(x);
+                        isVisited[x] = true;
+                    }
+
+                    x = top - number;
+                    if (x == goal) {
+                        level++;
+
+                        if (isTest) {
+                            System.out.println(" ** found @ level " + level);
+                        }
+
+                        return level;
+                    }
+
+                    if (x >= 0 && x <= 1000 && !isVisited[x]) {
+                        queue.offer(x);
+                        isVisited[x] = true;
+                    }
+
+                    x = top ^ number;
+                    if (x == goal) {
+                        level++;
+
+                        if (isTest) {
+                            System.out.println(" ** found @ level " + level);
+                        }
+
+                        return level;
+                    }
+
+                    if (x >= 0 && x <= 1000 && !isVisited[x]) {
+                        queue.offer(x);
+                        isVisited[x] = true;
                     }
                 }
             }
@@ -54,31 +86,5 @@ class MinimumOperationsToConvertNumber {
         }
 
         return -1;
-    }
-
-    private List<Integer> getNeighbours(int current, int[] nums, Set<Integer> visited) {
-        List<Integer> result = new ArrayList<>();
-
-        for (int number: nums) {
-            int x = current + number;
-            if (!visited.contains(x)) {
-                result.add(x);
-                visited.add(x);
-            }
-
-            x = current - number;
-            if (!visited.contains(x)) {
-                result.add(x);
-                visited.add(x);
-            }
-
-            x = current ^ number;
-            if (!visited.contains(x)) {
-                result.add(x);
-                visited.add(x);
-            }
-        }
-
-        return result;
     }
 }
