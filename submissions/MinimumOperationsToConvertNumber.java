@@ -23,17 +23,8 @@ class MinimumOperationsToConvertNumber {
             while (size-- > 0) {
                 int top = queue.poll();
 
-                if (top == goal) {
-                    if (isTest) {
-                        System.out.println(" ** found @ level " + level);
-                    }
-
-                    return level;
-                }
-
                 for (int number: nums) {
-                    int x = top + number;
-                    if (x == goal) {
+                    if (top + number == goal || top - number == goal || (top ^ number) == goal) {
                         level++;
 
                         if (isTest) {
@@ -43,38 +34,19 @@ class MinimumOperationsToConvertNumber {
                         return level;
                     }
 
+                    int x = top + number;
                     if (x >= 0 && x <= 1000 && !isVisited[x]) {
                         queue.offer(x);
                         isVisited[x] = true;
                     }
 
                     x = top - number;
-                    if (x == goal) {
-                        level++;
-
-                        if (isTest) {
-                            System.out.println(" ** found @ level " + level);
-                        }
-
-                        return level;
-                    }
-
                     if (x >= 0 && x <= 1000 && !isVisited[x]) {
                         queue.offer(x);
                         isVisited[x] = true;
                     }
 
                     x = top ^ number;
-                    if (x == goal) {
-                        level++;
-
-                        if (isTest) {
-                            System.out.println(" ** found @ level " + level);
-                        }
-
-                        return level;
-                    }
-
                     if (x >= 0 && x <= 1000 && !isVisited[x]) {
                         queue.offer(x);
                         isVisited[x] = true;

@@ -1,13 +1,11 @@
 // Question: https://leetcode.com/problems/word-ladder/description/
 
 class WordLadder {
-    private boolean isTest;
-
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<String> queue = new LinkedList<>();
         Set<String> unvisited = new HashSet<>(wordList);
+        boolean isTest = false;
         int level = 1;
-        isTest = false;
 
         // 1. Edge case: no path to form endWord.
         if (!unvisited.contains(endWord)) {
@@ -19,6 +17,7 @@ class WordLadder {
         }
 
         queue.offer(beginWord);
+        unvisited.remove(beginWord);
         while (!queue.isEmpty()) {
             if (isTest) {
                 System.out.println("-------------------------------------------------");
@@ -31,22 +30,27 @@ class WordLadder {
 
                 if (source.equals(endWord)) {
                     if (isTest) {
-                        System.out.println(" * found @ level " + level);
+                        System.out.println(" * found @ level " + (level + 1));
                     }
+
                     return level;
                 }
 
-                List<String> unvisitedNeighbours = getUnvisitedNeighnours(source, unvisited);
+                List<String> neighbours = getNeighbours(source, unvisited);
                 if (isTest) {
-                    System.out.println(" * source: " + source + ", unvisitedNeighbours: " + unvisitedNeighbours);
+                    System.out.println(" * source: " + source + ", neighbours: " + neighbours);
                 }
-                for (String neighbour: unvisitedNeighbours) {
+
+                for (String neighbour: neighbours) {
                     if (neighbour.equals(endWord)) {
+                        level++;
                         if (isTest) {
-                            System.out.println(" * found @ level " + (level + 1));
+                            System.out.println(" * found @ level " + level);
                         }
-                        return level + 1;
+
+                        return level;
                     }
+
                     queue.offer(neighbour);
                 }
             }
@@ -57,26 +61,26 @@ class WordLadder {
         return 0;
     }
 
-    private List<String> getUnvisitedNeighnours(String source, Set<String> unvisited) {
+    private List<String> getNeighbours(String source, Set<String> unvisited) {
         List<String> result = new ArrayList<>();
+        char[] letters = source.toCharArray();
 
         for (int j = 0; j < source.length(); j++) {
-            char[] letters = source.toCharArray();
             for (char letter = 'a'; letter <= 'z'; letter++) {
                 if (letters[j] == letter) {
                     continue;
                 }
 
+                char initial = letters[j];
                 letters[j] = letter;
 
                 String adjacentWord = new String(letters);
                 if (unvisited.contains(adjacentWord)) {
-                    if (isTest) {
-                        System.out.println(" * source: " + source + " -> adjacentWord: " + adjacentWord);
-                    }
                     result.add(adjacentWord);
                     unvisited.remove(adjacentWord);
                 }
+
+                letters[j] = initial;
             }
         }
 
