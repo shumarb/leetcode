@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 319/807.
+Completed: 320/807.
 
 ## Submissions
 ### Easy
@@ -339,6 +339,7 @@ Completed: 319/807.
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                           | 49ms    | 79.54% |
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)                | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)                | 31ms    | 84.09% |
+| [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29% |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)              | 14ms    | 70.35% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)             | 43ms    | 83.32% |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |

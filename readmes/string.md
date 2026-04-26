@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 322/866.
+Completed: 323/866.
 
 ## Submissions
 ### Easy
@@ -343,6 +343,7 @@ Completed: 322/866.
 ### Hard
 | Question                                                                                                                  | Submission                                                                                               | Runtime | Rank   |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
+| [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                   | 36ms    | 40.29% |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)            | 14ms    | 70.35% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordLadder.java)                        | 69ms    | 70.75% |
