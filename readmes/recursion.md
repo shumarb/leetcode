@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/51.
+Completed: 20/51.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 19/51.
 |---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                    | 0ms     | 100%   |
 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthCharacterInStringGameOne.java) | 4ms     | 56.59% |
+| [Finding 3-Digit Even Number](https://leetcode.com/problems/finding-3-digit-even-numbers/description/)                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Finding3DigitEvenNumber.java)            | 3ms     | 94.61% |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)                | 0ms     | 100%   |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)               | 4ms     | 70.03% |
 | [Power of Four](https://leetcode.com/problems/power-of-four/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowerOfFour.java)                        | 0ms     | 100%   |
