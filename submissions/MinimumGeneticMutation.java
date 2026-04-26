@@ -21,7 +21,7 @@ class MinimumGeneticMutation {
             return 0;
 
         } else if (!unvisited.contains(endGene)) {
-            // 1. Both genes are different, and no transformation from startGent to endGene can happen.
+            // 2. Both genes are different, and no transformation from startGent to endGene can happen.
             return -1;
         }
 
