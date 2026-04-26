@@ -30,7 +30,7 @@ class WordLadder {
 
                 if (source.equals(endWord)) {
                     if (isTest) {
-                        System.out.println(" * found @ level " + (level + 1));
+                        System.out.println(" * found @ level " + level);
                     }
 
                     return level;
