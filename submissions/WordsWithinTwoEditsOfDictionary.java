@@ -7,18 +7,14 @@ class WordsWithinTwoEditsOfDictionary {
 
         for (String query: queries) {
             for (String word: dictionary) {
-                char[] queryLetters = query.toCharArray();
-                char[] wordLetters = word.toCharArray();
 
-                boolean isValid = true;
                 int countLetterDifference = 0;
-                for (int i = 0; i < wordLetters.length; i++) {
-                    if (queryLetters[i] != wordLetters[i] && ++countLetterDifference > 2) {
-                        isValid = false;
+                for (int i = 0; i < word.length(); i++) {
+                    if (query.charAt(i) != word.charAt(i) && ++countLetterDifference > 2) {
                         break;
                     }
                 }
-                if (isValid) {
+                if (countLetterDifference <= 2) {
                     if (isTest) {
                         System.out.println(" * valid: " + query);
                     }
