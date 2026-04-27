@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/250.
+Completed: 102/250.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 101/250.
 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestPalindrome.java)             | 5ms     | 100%   |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)                                 | 0ms     | 100%   |
 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongPressedName.java)                                 | 1ms     | 82.56% |
+| [Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured//description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumEnemyFortsThatCanBeCaptured.java)              | 0ms     | 100%   |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSortedArray.java)                                | 0ms     | 100%   |
 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeStringsAlternately.java)                         | 1ms     | 82.95% |
 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwo2DArraysBySummingValues.java)                 | 1ms     | 84.70% |
