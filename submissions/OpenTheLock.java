@@ -8,6 +8,7 @@ class OpenTheLock {
         Queue<String> queue = new LinkedList<>();
         Set<String> banned = new HashSet<>(List.of(deadends));
         Set<String> visited = new HashSet<>();
+        String source = "0000";
         boolean isTest = false;
         int level = 0;
         next = new char[] {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
@@ -18,15 +19,15 @@ class OpenTheLock {
         }
 
         // 1. Edge case: impossible to unlock if start of target are deadends.
-        if (banned.contains("0000") || banned.contains(target)) {
+        if (banned.contains(source) || banned.contains(target)) {
             return -1;
 
-        } else if (target.equals("0000")) {
+        } else if (target.equals(source)) {
             return 0;
         }
 
-        queue.offer("0000");
-        visited.add("0000");
+        queue.offer(target);
+        visited.add(target);
         while (!queue.isEmpty()) {
             if (isTest) {
                 System.out.println("------------------------------------------------------");
@@ -36,7 +37,7 @@ class OpenTheLock {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 String code = queue.poll();
-                if (code.equals(target)) {
+                if (code.equals(source)) {
                     if (isTest) {
                         System.out.println(" ** found @ level " + level);
                     }
@@ -49,7 +50,7 @@ class OpenTheLock {
                 }
 
                 for (String neighbour: neighbours) {
-                    if (neighbour.equals(target)) {
+                    if (neighbour.equals(source)) {
                         level++;
                         if (isTest) {
                             System.out.println(" ** found @ level " + level);
