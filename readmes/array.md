@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 652/2144.
+Completed: 653/2144.
 
 ## Submissions
 ### Easy
@@ -595,6 +595,7 @@ Completed: 652/2144.
 | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OpenTheLock.java)                                                     | 79ms    | 84.29% |
 | [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                      | 2ms     | 96.88% |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                             | 5ms     | 75.52% |
+| [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathWithMaximumGold.java)                                             | 105ms   | 10.14% |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                                       | 0ms     | 100%   |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java)    | 279ms   | 66.51% |
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                                    | 1ms     | 92.71% |

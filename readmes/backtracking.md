@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/113.
+Completed: 27/113.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 26/113.
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                              | 9ms     | 60.28% |
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                                 | 7ms     | 96.05% |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumTwo.java)                                             | 1ms     | 99.84% |
+| [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathWithMaximumGold.java)                                    | 105ms   | 10.14% |
 | [Permutations](https://leetcode.com/problems/permutations/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Permutations.java)                                           | 1ms     | 92.71% |
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                        | 1ms     | 99.88% |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                         | 1ms     | 99.86% |
