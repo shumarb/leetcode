@@ -1,21 +1,17 @@
 // Question: https://leetcode.com/problems/path-with-maximum-gold/description/
 
 class PathWithMaximumGold {
-    private List<int[]> path;
     private boolean[][] isVisited;
-    private boolean isTest;
     private int[][] grid;
     private int m;
     private int n;
-    private int sum;
     private int result;
 
     public int getMaximumGold(int[][] grid) {
-        isTest = false;
+        boolean isTest = false;
         m = grid.length;
         n = grid[0].length;
         isVisited = new boolean[m][n];
-        path = new ArrayList<>();
         result = 0;
         this.grid = grid;
 
@@ -34,7 +30,7 @@ class PathWithMaximumGold {
             }
         }
         if (isTest) {
-            System.out.println("------------------------------------------------------------------------------\nresult: " + result);
+            System.out.println("---------------------\nresult: " + result);
         }
 
         return result;
@@ -46,19 +42,9 @@ class PathWithMaximumGold {
         }
 
         sum += grid[row][column];
-
         result = Math.max(result, sum);
 
-        path.add(new int[] {row, column});
         isVisited[row][column] = true;
-
-        if (isTest) {
-            System.out.print("------------------------------------------------------------------------------\npath: ");
-            for (int[] e: path) {
-                System.out.print(Arrays.toString(e) + " ");
-            }
-            System.out.println(" | sum: " + sum + ", result: " + result);
-        }
 
         dfs(row - 1, column, sum);
         dfs(row + 1, column, sum);
@@ -66,6 +52,5 @@ class PathWithMaximumGold {
         dfs(row, column + 1, sum);
 
         isVisited[row][column] = false;
-        path.removeLast();
     }
 }
