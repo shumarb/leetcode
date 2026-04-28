@@ -1,7 +1,6 @@
 // Question: https://leetcode.com/problems/path-with-maximum-gold/description/
 
 class PathWithMaximumGold {
-    private boolean[][] isVisited;
     private int[][] grid;
     private int m;
     private int n;
@@ -11,7 +10,6 @@ class PathWithMaximumGold {
         boolean isTest = false;
         m = grid.length;
         n = grid[0].length;
-        isVisited = new boolean[m][n];
         result = 0;
         this.grid = grid;
 
@@ -21,10 +19,9 @@ class PathWithMaximumGold {
                 System.out.println(Arrays.toString(row));
             }
         }
-
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] > 0 && !isVisited[i][j]) {
+                if (grid[i][j] > 0) {
                     dfs(i, j, 0);
                 }
             }
@@ -37,20 +34,28 @@ class PathWithMaximumGold {
     }
 
     private void dfs(int row, int column, int sum) {
-        if (column < 0 || column >= n || row < 0 || row >= m || isVisited[row][column] || grid[row][column] == 0) {
-            return;
-        }
+        int gold = grid[row][column];
 
-        sum += grid[row][column];
+        sum += gold;
         result = Math.max(result, sum);
 
-        isVisited[row][column] = true;
+        // 1. mark as visited and explore.
+        grid[row][column] = 0;
 
-        dfs(row - 1, column, sum);
-        dfs(row + 1, column, sum);
-        dfs(row, column - 1, sum);
-        dfs(row, column + 1, sum);
+        if (row - 1 >= 0 && grid[row - 1][column] > 0) {
+            dfs(row - 1, column, sum);
+        }
+        if (row + 1 < m && grid[row + 1][column] > 0) {
+            dfs(row + 1, column, sum);
+        }
+        if (column - 1 >= 0 && grid[row][column - 1] > 0) {
+            dfs(row, column - 1, sum);
+        }
+        if (column + 1 < n && grid[row][column + 1] > 0) {
+            dfs(row, column + 1, sum);
+        }
 
-        isVisited[row][column] = false;
+        // 2. backtrack.
+        grid[row][column] = gold;
     }
 }
