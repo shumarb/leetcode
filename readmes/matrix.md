@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/274.
+Completed: 74/274.
 
 ## Submissions
 ### Easy
@@ -92,3 +92,8 @@ Completed: 73/274.
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                              | 7ms     | 5.83%  |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                 | 0ms     | 100%   |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                     | 76ms    | 96.70% |
+
+### Hard
+| Question                                                                        | Submission                                                                              | Runtime | Rank  |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|-------|
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 3ms     | 9.85% |

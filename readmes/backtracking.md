@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/113.
+Completed: 26/113.
 
 ## Submissions
 ### Easy
@@ -45,3 +45,8 @@ Completed: 25/113.
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                             | 1ms     | 99.93% |
 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)  | 2ms     | 76.72% |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                             | 76ms    | 96.70% |
+
+### Hard
+| Question                                                                        | Submission                                                                              | Runtime | Rank  |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|-------|
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 3ms     | 9.85% |

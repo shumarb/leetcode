@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 651/2144.
+Completed: 652/2144.
 
 ## Submissions
 ### Easy
@@ -674,3 +674,4 @@ Completed: 651/2144.
 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java)      | 63ms    | 34.82% |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)            | 43ms    | 83.32% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)               | 7ms     | 99.46% |
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java)                   | 3ms     | 9.85%  |

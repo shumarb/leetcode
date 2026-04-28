@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/276.
+Completed: 66/281.
 
 ## Submissions
 ### Easy
@@ -85,3 +85,8 @@ Completed: 65/276.
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                 | 0ms     | 100%   |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                              | 1ms     | 99.93% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                        | 0ms     | 100%   |
+
+### Hard
+| Question                                                                        | Submission                                                                              | Runtime | Rank  |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|-------|
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 3ms     | 9.85% |
