@@ -96,4 +96,4 @@ Completed: 74/274.
 ### Hard
 | Question                                                                        | Submission                                                                              | Runtime | Rank  |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|-------|
-| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 3ms     | 9.85% |
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 0ms     | 100%   |

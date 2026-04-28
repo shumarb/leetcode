@@ -1,7 +1,6 @@
 // Question: https://leetcode.com/problems/unique-paths-iii/
 
 class UniquePathsThree {
-    private List<int[]> path = new ArrayList<>();
     private boolean[][] isVisited;
     private boolean isTest;
     private int[][] grid;
@@ -65,20 +64,12 @@ class UniquePathsThree {
         if (grid[row][column] == 2) {
             // 1. All non-obstacles excluding ending square visited, so valid path found.
             if (remainingValidCells == 1) {
-                if (isTest) {
-                    System.out.print("-----------------------------\npath: ");
-                    for (int[] point: path) {
-                        System.out.print(Arrays.toString(point) + " ");
-                    }
-                    System.out.println(Arrays.toString(new int[] {row, column}));
-                }
                 result++;
             }
             return;
         }
 
         // 2. Explore current path and backtrack.
-        path.add(new int[] {row, column});
         isVisited[row][column] = true;
 
         dfs(row - 1, column, remainingValidCells - 1);
@@ -87,6 +78,5 @@ class UniquePathsThree {
         dfs(row, column + 1, remainingValidCells - 1);
 
         isVisited[row][column] = false;
-        path.removeLast();
     }
 }
