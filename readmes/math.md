@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 199/663.
+Completed: 200/666.
 
 ## Submissions
 ### Easy
@@ -167,6 +167,7 @@ Completed: 199/663.
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                 | 93ms    | 85.91% |
 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSortedVowelStrings.java)                                     | 259ms   | 6.63%  |
 | [Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsStartingAndEndingWithGivenCharacter.java)          | 1ms     | 100%   |
+| [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTotalNumberOfColoredCells.java)                              | 6ms     | 11.23% |
 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistinctPrimeFactorsOfProductOfArray.java)                        | 127ms   | 9.06%  |
 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideTwoIntegers.java)                                           | 4ms     | 5.52%  |
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DoubleANumberRepresentedAsALinkedList.java)                       | 18ms    | 15.32% |
