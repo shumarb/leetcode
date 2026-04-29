@@ -22,7 +22,7 @@ class PathWithMaximumGold {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] > 0) {
-                    dfs(i, j, 0);
+                    dfs(i, j, grid[i][j]);
                 }
             }
         }
@@ -36,23 +36,22 @@ class PathWithMaximumGold {
     private void dfs(int row, int column, int sum) {
         int gold = grid[row][column];
 
-        sum += gold;
         result = Math.max(result, sum);
 
         // 1. mark as visited and explore.
         grid[row][column] = 0;
 
         if (row - 1 >= 0 && grid[row - 1][column] > 0) {
-            dfs(row - 1, column, sum);
+            dfs(row - 1, column, sum + grid[row - 1][column]);
         }
         if (row + 1 < m && grid[row + 1][column] > 0) {
-            dfs(row + 1, column, sum);
+            dfs(row + 1, column, sum + grid[row + 1][column]);
         }
         if (column - 1 >= 0 && grid[row][column - 1] > 0) {
-            dfs(row, column - 1, sum);
+            dfs(row, column - 1, sum + grid[row][column - 1]);
         }
         if (column + 1 < n && grid[row][column + 1] > 0) {
-            dfs(row, column + 1, sum);
+            dfs(row, column + 1, sum + grid[row][column + 1]);
         }
 
         // 2. backtrack.
