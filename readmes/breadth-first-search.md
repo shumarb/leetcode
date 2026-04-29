@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 85/257.
+Completed: 86/257.
 
 ## Submissions
 ### Easy
@@ -50,6 +50,7 @@ Completed: 85/257.
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                         | 1ms     | 71.44% |
 | [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeZigZagLevelOrderTraversal.java)             | 1ms     | 69.75% |
 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckCompletenessOfABinaryTree.java)                  | 0ms     | 100%   |
+| [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckKnightTourConfiguration.java)                    | 1ms     | 95.67% |
 | [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                                      | 24ms    | 96.59% |
 | [Coin Change](https://leetcode.com/problems/coin-change/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CoinChange.java)                                      | 24ms    | 31.86% |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                      | 1ms     | 100%   |

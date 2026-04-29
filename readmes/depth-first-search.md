@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 105/337.
+Completed: 106/337.
 
 ## Submissions
 ### Easy
@@ -66,6 +66,7 @@ Completed: 105/337.
 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                            | 1ms     | 98.50% |
 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeToGreaterSumTree.java)                | 0ms     | 100%   |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeRightSideView.java)                         | 1ms     | 71.44% |
+| [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckKnightTourConfiguration.java)                    | 1ms     | 95.67% |
 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                         | 1ms     | 17.79% |
 | [Clone Graph](https://leetcode.com/problems/clone-graph/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CloneGraph.java)                                      | 24ms    | 96.59% |
 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestNodeQueriesInABinarySearchTree.java)           | 64ms    | 80.61% |

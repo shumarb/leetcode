@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 111/207.
+Completed: 112/207.
 
 ## Submissions
 ### Easy
@@ -103,6 +103,7 @@ Completed: 111/207.
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                         | 0ms     | 100%   |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)               | 1ms     | 100%   |
 | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                              | 1ms     | 100%   |
+| [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckKnightTourConfiguration.java)                            | 1ms     | 95.67% |
 | [Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnhappyFriends.java)                                     | 2ms     | 95.12% |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                                        | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)             | 9ms     | 78.44% |
