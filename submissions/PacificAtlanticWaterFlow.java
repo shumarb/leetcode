@@ -19,10 +19,14 @@ class PacificAtlanticWaterFlow {
         for (int i = 0; i < m; i++) {
             atlanticQueue.offer(new int[] {i, n - 1});
             pacificQueue.offer(new int[] {i, 0});
+            canReachAtlantic[i][n - 1] = true;
+            canReachPacific[i][0] = true;
         }
         for (int j = 0; j < n; j++) {
             atlanticQueue.offer(new int[] {m - 1, j});
             pacificQueue.offer(new int[] {0, j});
+            canReachAtlantic[m - 1][j] = true;
+            canReachPacific[0][j] = true;
         }
 
         if (isTest) {
@@ -61,8 +65,6 @@ class PacificAtlanticWaterFlow {
             int column = source[1];
             int row = source[0];
 
-            isVisited[row][column] = true;
-
             for (int[] direction: directions) {
                 int adjacentColumn = column + direction[1];
                 int adjacentRow = row + direction[0];
@@ -75,6 +77,7 @@ class PacificAtlanticWaterFlow {
                 }
 
                 queue.offer(new int[] {adjacentRow, adjacentColumn});
+                isVisited[adjacentRow][adjacentColumn] = true;
             }
         }
     }
