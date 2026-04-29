@@ -3,26 +3,38 @@
 class PacificAtlanticWaterFlow {
     private boolean[][] canReachAtlantic;
     private boolean[][] canReachPacific;
+    private boolean[][] isVisited;
     private int[][] heights;
     private int m;
     private int n;
 
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
         List<List<Integer>> result = new ArrayList<>();
+        Queue<int[]> atlanticQueue = new LinkedList<>();
+        Queue<int[]> pacificQueue = new LinkedList<>();
         boolean isTest = false;
         m = heights.length;
         n = heights[0].length;
         canReachAtlantic = new boolean[m][n];
         canReachPacific = new boolean[m][n];
+        isVisited = new boolean[m][n];
         this.heights = heights;
 
         for (int i = 0; i < m; i++) {
             canReachAtlantic[i][n - 1] = true;
             canReachPacific[i][0] = true;
+            atlanticQueue.offer(new int[] {i, n - 1});
+            pacificQueue.offer(new int[] {i, 0});
+            isVisited[i][n - 1] = true;
+            isVisited[i][0] = true;
         }
         for (int j = 0; j < n; j++) {
             canReachAtlantic[m - 1][j] = true;
             canReachPacific[0][j] = true;
+            atlanticQueue.offer(new int[] {m - 1, j});
+            pacificQueue.offer(new int[] {0, j});
+            isVisited[m - 1][j] = true;
+            isVisited[0][j] = true;
         }
 
         if (isTest) {
@@ -33,17 +45,8 @@ class PacificAtlanticWaterFlow {
             print("-----------------------------------\nbefore:");
         }
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == 0 || j == 0) {
-                    bfs(i, j, "pacific");
-                }
-
-                if (i == m - 1 || j == n - 1) {
-                    bfs(i, j, "atlantic");
-                }
-            }
-        }
+        bfs(atlanticQueue, 0);
+        bfs(pacificQueue, 1);
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (canReachAtlantic[i][j] && canReachPacific[i][j]) {
@@ -62,20 +65,16 @@ class PacificAtlanticWaterFlow {
         return result;
     }
 
-    private void bfs(int i, int j, String ocean) {
-        Queue<int[]> queue = new LinkedList<>();
+    private void bfs(Queue<int[]> queue, int oceanCode) {
         boolean[][] isVisited = new boolean[m][n];
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
-        queue.offer(new int[] {i, j});
-        isVisited[i][j] = true;
 
         while (!queue.isEmpty()) {
             int[] source = queue.poll();
             int column = source[1];
             int row = source[0];
 
-            if (ocean.equals("atlantic")) {
+            if (oceanCode == 0) {
                 canReachAtlantic[row][column] = true;
             } else {
                 canReachPacific[row][column] = true;
