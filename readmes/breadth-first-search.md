@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/257.
+Completed: 85/257.
 
 ## Submissions
 ### Easy
@@ -82,6 +82,7 @@ Completed: 84/257.
 | [N-Ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NAryTreeLevelOrderTraversal.java)                     | 3ms     | 71.32% |
 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NearestExitFromEntranceInMaze.java)                   | 4ms     | 97.98% |
 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfClosedIslands.java)                           | 2ms     | 100%   |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEnclaves.java)                                | 17ms    | 12.82% |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                 | 2ms     | 99.93% |
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 1ms     | 88.24% |
 | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OpenTheLock.java)                                     | 79ms    | 84.29% |
