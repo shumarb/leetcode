@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/245.
+Completed: 46/245.
 
 ## Submissions
 ### Easy
@@ -33,7 +33,7 @@ Completed: 44/245.
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)             | 2ms     | 74.65% |
 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumArray.java)                                | 7ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                     | 0ms     | 100%   |
-| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
+| [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStableIndexOne.java)                  | 1ms     | 100%   |
 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllOddLengthSubarrays.java)              | 2ms     | 66.79% |
 | [Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfVariableLengthSubarrays.java)            | 1ms     | 98.79% |
 
@@ -62,5 +62,7 @@ Completed: 44/245.
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                    | 21ms    | 99.89% |
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                                               | 101ms   | 85.10% |
 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                            | 18ms    | 83.97% |
+| [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStableIndexTwo.java)                                          | 4ms     | 93.75% |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                | 4ms     | 99.98% |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                      | 24ms    | 75.04% |
 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAbsoluteDifferencesInASortedArray.java)                  | 5ms     | 44.72% |
