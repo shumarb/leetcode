@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 320/807.
+Completed: 321/807.
 
 ## Submissions
 ### Easy
@@ -268,6 +268,7 @@ Completed: 320/807.
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                 | 36ms    | 95.20% |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                    | 6ms     | 70.55% |
 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithAtLeastKRepeatingCharacters.java)              | 233ms   | 16.21% |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                                | 1100ms  | 5.11%  |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                      | 17ms    | 52.51% | 
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                           | 12ms    | 38.35% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |

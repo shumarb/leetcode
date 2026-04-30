@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 656/2144.
+Completed: 657/2144.
 
 ## Submissions
 ### Easy
@@ -522,6 +522,7 @@ Completed: 656/2144.
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                                    | 38ms    | 64.87% |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                                          | 2ms     | 99.72% |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                    | 36ms    | 95.20% |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                                   | 1100ms  | 5.11%  |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                         | 17ms    | 52.51% | 
 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)                          | 16ms    | 81.38% | 
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                              | 10ms    | 45.32% |
