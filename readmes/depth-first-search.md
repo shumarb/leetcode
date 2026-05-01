@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/337.
+Completed: 107/337.
 
 ## Submissions
 ### Easy
@@ -127,6 +127,7 @@ Completed: 106/337.
 ### Hard
 | Question                                                                                                                          | Submission                                                                                                 | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                    | 234ms   | 44.17% |
 | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnectionTwo.java)              | 92ms    | 6.03%  |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java)   | 17ms    | 39.28% |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |

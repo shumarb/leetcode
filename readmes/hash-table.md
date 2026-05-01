@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 321/807.
+Completed: 322/807.
 
 ## Submissions
 ### Easy
@@ -338,6 +338,7 @@ Completed: 321/807.
 | Question                                                                                                                                      | Submission                                                                                                 | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                           | 49ms    | 79.54% |
+| [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                    | 234ms   | 44.17% |
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)                | 1ms     | 100%   |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)                | 31ms    | 84.09% |
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29% |

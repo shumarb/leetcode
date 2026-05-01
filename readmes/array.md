@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 657/2144.
+Completed: 658/2144.
 
 ## Submissions
 ### Easy
@@ -671,6 +671,7 @@ Completed: 657/2144.
 | Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                          | 49ms    | 79.54% |
+| [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                   | 234ms   | 44.17% |
 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)        | 7ms     | 81.55% |
 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArrayTwo.java) | 0ms     | 100%   |
 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindInMountainArray.java)                | 0ms     | 100%   |
