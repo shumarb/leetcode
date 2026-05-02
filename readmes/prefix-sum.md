@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/245.
+Completed: 48/245.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 47/245.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                              | 1ms     | 100%   |
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)                                   | 24ms    | 67.47% |
+| [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CorporateFlightBookings.java)                                 | 1255ms  | 6.36%  |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                             | 51ms    | 81.88% |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                              | 7ms     | 95.59% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                    | 34ms    | 79.83% |
