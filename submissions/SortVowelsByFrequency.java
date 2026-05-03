@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/sort-vowels-by-frequency/description/
 
-class SortVowelsByFrequency class Solution {
+class SortVowelsByFrequency {
     public String sortVowels(String s) {
         List<Character> list = new ArrayList<>();
         PriorityQueue<Tuple> heap = new PriorityQueue<>(
