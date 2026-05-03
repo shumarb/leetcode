@@ -7,9 +7,7 @@ class FindTheDegreeOfEachVertex {
 
         for (int[] e: matrix) {
             for (int i = 0; i < e.length; i++) {
-                if (e[i] == 1) {
-                    result[i]++;
-                }
+                result[i] += e[i];
             }
         }
         if (isTest) {
