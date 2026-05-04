@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 200/666.
+Completed: 201/666.
 
 ## Submissions
 ### Easy
@@ -152,6 +152,7 @@ Completed: 200/666.
 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BasicCalculatorTwo.java)                                          | 27ms    | 20.39% |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                              | 0ms     | 100%   |
 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrokenCalculator.java)                                            | 0ms     | 100%   |
+| [Check Digitorial Permutation](https://leetcode.com/problems/check-digitorial-permutation/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckDigitorialPermutation.java)                                  | 1ms     | 100%   |
 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNumberIsASumOfPowersOfThree.java)                          | 0ms     | 100%   |
 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestDivisors.java)                                             | 6ms     | 87.97% |
 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClosestPrimeNumbersInRange.java)                                  | 91ms    | 56.31% |
