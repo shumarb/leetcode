@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/203.
+Completed: 100/203.
 
 ## Submissions
 ### Easy
@@ -99,6 +99,7 @@ Completed: 99/203.
 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstElementWithUniqueFrequency.java)                      | 7ms     | 99.99% |
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                             | 10ms    | 80.47% |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)            | 38ms    | 93.18% |
+| [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterTilePossibilities.java)                              | 20ms    | 27.47% |
 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubstringOne.java)                          | 32ms    | 92.97% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                   | 12ms    | 38.35% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                  | 12ms    | 39.22% |

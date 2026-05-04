@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/113.
+Completed: 28/113.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 27/113.
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                                    | 0ms     | 100%   |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                  | 3ms     | 47.09% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                       | 0ms     | 100%   |
+| [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterTilePossibilities.java)                                | 20ms    | 27.47% |
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java) | 11ms    | 60.59% |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                | 5ms     | 37.59% |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                              | 9ms     | 60.28% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 324/866.
+Completed: 325/866.
 
 ## Submissions
 ### Easy
@@ -268,6 +268,7 @@ Completed: 324/866.
 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-longest-alphabetical-continuous-substring/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestAlphabeticalContinuousSubstring.java)            | 11ms    | 80.20% |
 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCasePermutation.java)                                        | 3ms     | 47.09% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
+| [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterTilePossibilities.java)                                      | 20ms    | 27.47% |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)             | 102ms   | 86.78% |
 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubstringOne.java)                                  | 32ms    | 92.97% |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                                  | 18ms    | 51.89% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 322/807.
+Completed: 323/807.
 
 ## Submissions
 ### Easy
@@ -258,6 +258,7 @@ Completed: 322/807.
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                    | 38ms    | 93.18% |
 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestFibonacciSubsequence.java)                          | 196ms   | 35.02% |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterCombinationsOfAPhoneNumber.java)                             | 0ms     | 100%   |
+| [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterTilePossibilities.java)                                      | 20ms    | 27.47% |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)             | 102ms   | 86.78% |
 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListComponents.java)                                         | 1ms     | 100%   |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                           | 0ms     | 100%   |
