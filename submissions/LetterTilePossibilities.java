@@ -1,42 +1,30 @@
 // Question: https://leetcode.com/problems/letter-tile-possibilities/description/
 
 class LetterTilePossibilities {
-    private boolean isTest;
+    private int result;
 
     public int numTilePossibilities(String tiles) {
-        Set<String> set = new HashSet<>();
-        isTest = false;
+        char[] letters = tiles.toCharArray();
+        result = 0;
 
-        dfs(new StringBuilder(), set, new boolean[tiles.length()], tiles);
+        Arrays.sort(letters);
+        dfs(new boolean[tiles.length()], letters);
 
-        if (isTest) {
-            System.out.println("----------------------------\nset: " + set + "\nresult: " + set.size());
-        }
-
-        return set.size();
+        return result;
     }
 
-    private void dfs(StringBuilder path, Set<String> set, boolean[] isIndexUsed, String tiles) {
-        if (isTest) {
-            System.out.println(" * path: " + path);
-        }
-
-        if (path.length() > 0) {
-            set.add(path.toString());
-        }
-
+    private void dfs(boolean[] isIndexUsed, char[] letters) {
         for (int i = 0; i < isIndexUsed.length; i++) {
-            if (isIndexUsed[i]) {
+            if (i > 0 && !isIndexUsed[i - 1] && letters[i] == letters[i - 1]) {
                 continue;
             }
 
-            path.append(tiles.charAt(i));
-            isIndexUsed[i] = true;
-
-            dfs(path, set, isIndexUsed, tiles);
-
-            path.deleteCharAt(path.length() - 1);
-            isIndexUsed[i] = false;
+            if (!isIndexUsed[i]) {
+                isIndexUsed[i] = true;
+                result++;
+                dfs(isIndexUsed, letters);
+                isIndexUsed[i] = false;
+            }
         }
     }
 }
