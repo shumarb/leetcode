@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/target-sum/description/
 
 class TargetSum {
     private int[] nums;
@@ -10,30 +10,20 @@ class TargetSum {
         this.nums = nums;
         this.target = target;
 
-        dfs(new ArrayList<>(), 0, 0);
+        dfs(0, 0);
 
         return result;
     }
 
-    private void dfs(List<Integer> path, int index, int sum) {
-        boolean isTest = false;
-
+    private void dfs(int index, int sum) {
         if (index >= nums.length) {
             if (sum == target) {
-                if (isTest) {
-                    System.out.println(" * path: " + path);
-                }
                 result++;
             }
             return;
         }
 
-        path.add(nums[index]);
-        dfs(path, index + 1, sum + nums[index]);
-        path.removeLast();
-
-        path.add(-nums[index]);
-        dfs(path, index + 1, sum - nums[index]);
-        path.removeLast();
+        dfs(index + 1, sum + nums[index]);
+        dfs(index + 1, sum - nums[index]);
     }
 }
