@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 28/113.
+Completed: 29/113.
 
 ## Submissions
 ### Easy
@@ -45,6 +45,7 @@ Completed: 28/113.
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                         | 1ms     | 99.86% |
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                | 0ms     | 100%   |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                             | 1ms     | 99.93% |
+| [Target Sum](https://leetcode.com/problems/target-sum/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TargetSum.java)                                              | 2713ms  | 5.01%  |
 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)  | 2ms     | 76.72% |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                             | 76ms    | 96.70% |
 
