@@ -4,6 +4,10 @@ class LetterTilePossibilities {
     private int result;
 
     public int numTilePossibilities(String tiles) {
+        if (tiles.length() == 1) {
+            return 1;
+        }
+
         char[] letters = tiles.toCharArray();
         result = 0;
 
