@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/rotating-the-box/description/
 
-class RotatingTheBox {
+class RotatingTheBox class Solution {
     public char[][] rotateTheBox(char[][] boxGrid) {
         boolean isTest = false;
         int m = boxGrid.length;
@@ -23,14 +23,14 @@ class RotatingTheBox {
         m = result.length;
         n = result[0].length;
         for (int j = 0; j < n; j++) {
+            int empty = m - 1;
+
             for (int i = m - 1; i >= 0; i--) {
-                if (result[i][j] == '#') {
-                    k = i;
-                    while (k + 1 < m && result[k + 1][j] == '.') {
-                        result[k][j] = '.';
-                        result[k + 1][j] = '#';
-                        k++;
-                    }
+                if (result[i][j] == '*') {
+                    empty = i - 1;
+                } else if (result[i][j] == '#') {
+                    result[i][j] = '.';
+                    result[empty--][j] = '#';
                 }
             }
         }
