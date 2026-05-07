@@ -2,28 +2,23 @@
 
 class TargetSum {
     private int[] nums;
-    private int result;
     private int target;
 
     public int findTargetSumWays(int[] nums, int target) {
-        result = 0;
         this.nums = nums;
         this.target = target;
 
-        dfs(0, 0);
-
-        return result;
+        return dfs(0, 0);
     }
 
-    private void dfs(int index, int sum) {
+    private int dfs(int index, int sum) {
         if (index >= nums.length) {
-            if (sum == target) {
-                result++;
-            }
-            return;
+            return sum == target ? 1 : 0;
         }
 
-        dfs(index + 1, sum + nums[index]);
-        dfs(index + 1, sum - nums[index]);
+        int countStepsIfAdd = dfs(index + 1, sum + nums[index]);
+        int countStepsIfSubtract = dfs(index + 1, sum - nums[index]);
+
+        return countStepsIfAdd + countStepsIfSubtract;
     }
 }

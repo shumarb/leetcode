@@ -1,74 +1,53 @@
 // Question: https://leetcode.com/problems/surrounded-regions/description/
 
-class SurroundedRegions class Solution {
-    private List<int[]> component;
-    private boolean[][] isVisited;
+class SurroundedRegions {
     private char[][] board;
     private int m;
     private int n;
 
     public void solve(char[][] board) {
         boolean isTest = false;
-        component = new ArrayList<>();
         m = board.length;
         n = board[0].length;
-        isVisited = new boolean[m][n];
         this.board = board;
 
-        // 1. Edge case: single element.
-        if (m == 1 && n == 1) {
-            return;
+        if (isTest) {
+            print("initial, board: ");
         }
 
-        if (isTest) {
-            print("before:\n\nboard");
+        // 1. Mark cells reachable from border as safe.
+        for (int i = 0; i < m; i++) {
+            dfs(i, 0);
+            dfs(i, n - 1);
         }
+        for (int j = 0; j < n; j++) {
+            dfs(0, j);
+            dfs(m - 1, j);
+        }
+        if (isTest) {
+            print("board after marking safe: ");
+        }
+
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (board[i][j] == 'X' || isVisited[i][j]) {
-                    continue;
+                if (board[i][j] == '#') {
+                    board[i][j] = 'O';
+                } else if (board[i][j] == 'O') {
+                    board[i][j] = 'X';
                 }
-
-                dfs(i, j);
-                if (isTest) {
-                    System.out.print("component: ");
-                    for (int[] point: component) {
-                        System.out.print(Arrays.toString(point) + " ");
-                    }
-                    System.out.println();
-                }
-
-                boolean isValid = true;
-                for (int[] point: component) {
-                    int column = point[1];
-                    int row = point[0];
-
-                    if (column == 0 || column == n - 1 || row == 0 || row == m - 1) {
-                        isValid = false;
-                        break;
-                    }
-                }
-                if (isValid) {
-                    for (int[] point: component) {
-                        board[point[0]][point[1]] = 'X';
-                    }
-                }
-                component.clear();
             }
         }
         if (isTest) {
-            print("-------------------------------\nafter:\n\nboard");
+            print("final board: ");
         }
     }
 
     private void dfs(int row, int column) {
-        if (row < 0 || column < 0 || row >= m || column >= n || isVisited[row][column] || board[row][column] == 'X') {
+        if (row < 0 || row >= m || column < 0 || column >= n || board[row][column] == '#' || board[row][column] == 'X') {
             return;
         }
 
-        component.add(new int[] {row, column});
-        isVisited[row][column] = true;
-
+        board[row][column] = '#';
         dfs(row - 1, column);
         dfs(row + 1, column);
         dfs(row, column - 1);
@@ -80,11 +59,6 @@ class SurroundedRegions class Solution {
         for (char[] row: board) {
             System.out.println(Arrays.toString(row));
         }
-
-        System.out.println("\nisVisited:");
-        for (boolean[] row: isVisited) {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println("-------------------------------");
+        System.out.println("-----------------------------");
     }
 }

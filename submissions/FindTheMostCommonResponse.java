@@ -7,18 +7,13 @@ class FindTheMostCommonResponse {
         int frequency = 0;
 
         for (List<String> entry: responses) {
-            Set<String> set = new HashSet<>();
-            for (String word: entry) {
-                if (set.add(word)) {
-                    map.put(word, 1 + map.getOrDefault(word, 0));
-                    if (map.get(word) > frequency) {
-                        frequency = map.get(word);
-                        result = word;
-                    } else if (map.get(word) == frequency) {
-                        if (word.compareTo(result) < 0) {
-                            result = word;
-                        }
-                    }
+            for (String word: new HashSet<>(entry)) {
+                map.put(word, 1 + map.getOrDefault(word, 0));
+                if (map.get(word) > frequency) {
+                    frequency = map.get(word);
+                    result = word;
+                } else if (map.get(word) == frequency && word.compareTo(result) < 0) {
+                    result = word;
                 }
             }
         }
