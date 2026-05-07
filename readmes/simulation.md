@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 112/207.
+Completed: 113/207.
 
 ## Submissions
 ### Easy
@@ -121,6 +121,7 @@ Completed: 112/207.
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                     | 5ms     | 75.52% |
 | [Partition String](https://leetcode.com/problems/partition-string/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionString.java)                                         | 165ms   | 82.28% |
 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrintWordsVertically.java)                                    | 1ms     | 80.69% |
+| [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueriesOnAPermutationWithKey.java)                            | 6ms     | 59.67% |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                            | 3ms     | 100%   |
 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllOccurrencesOfASubstring.java)                        | 7ms     | 34.17% |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                                | 30ms    | 87.41% |
