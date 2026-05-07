@@ -1,10 +1,12 @@
 // Question: https://leetcode.com/problems/target-sum/description/
 
 class TargetSum {
+    private Map<String, Integer> memo;
     private int[] nums;
     private int target;
 
     public int findTargetSumWays(int[] nums, int target) {
+        memo = new HashMap<>();
         this.nums = nums;
         this.target = target;
 
@@ -16,9 +18,16 @@ class TargetSum {
             return sum == target ? 1 : 0;
         }
 
-        int countStepsIfAdd = dfs(index + 1, sum + nums[index]);
-        int countStepsIfSubtract = dfs(index + 1, sum - nums[index]);
+        String key = index + ", " + sum;
+        if (memo.containsKey(key)) {
+            return memo.get(key);
+        }
 
-        return countStepsIfAdd + countStepsIfSubtract;
+        int countWaysIfAdd = dfs(index + 1, sum + nums[index]);
+        int countWaysIfSubtract = dfs(index + 1, sum - nums[index]);
+
+        memo.put(key, countWaysIfAdd + countWaysIfSubtract);
+
+        return memo.get(key);
     }
 }
