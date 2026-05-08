@@ -14,11 +14,16 @@ class TargetSum {
     }
 
     private int dfs(int index, int sum) {
+        boolean isTest = false;
+
         if (index >= nums.length) {
             return sum == target ? 1 : 0;
         }
+        if (isTest) {
+            System.out.println("memo: " + memo);
+        }
 
-        String key = index + ", " + sum;
+        String key = "[" + index + ", " + sum + "]";
         if (memo.containsKey(key)) {
             return memo.get(key);
         }
@@ -28,6 +33,6 @@ class TargetSum {
 
         memo.put(key, countWaysIfAdd + countWaysIfSubtract);
 
-        return memo.get(key);
+        return countWaysIfAdd + countWaysIfSubtract;
     }
 }
