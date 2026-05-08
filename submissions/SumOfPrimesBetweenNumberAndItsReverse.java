@@ -6,9 +6,9 @@ class SumOfPrimesBetweenNumberAndItsReverse {
         boolean isTest = false;
         int maximum = 0;
         int minimum = 0;
-        int result = 0;
         int nCopy = n;
         int r = 0;
+        int result = 0;
 
         while (nCopy > 0) {
             r *= 10;
