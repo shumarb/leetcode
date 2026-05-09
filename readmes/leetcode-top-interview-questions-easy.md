@@ -37,6 +37,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 ### Linked List
 | Question                                                                                                        | Submission                                                                                        | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodeInALinkedList.java)    | 0ms     | 100%   |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)            | 0ms     | 100%   |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeTwoSortedLists.java)        | 0ms     | 100%   |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)       | 4ms     | 70.03% |
