@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/150.
+Completed: 102/150.
 
 ## Submissions
 ### Easy
@@ -108,6 +108,7 @@ Completed: 101/150.
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                         | 1ms     | 99.93% |
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                   | 0ms     | 100%   |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                                  | 7ms     | 5.83%  |
+| [Target Sum](https://leetcode.com/problems/target-sum/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TargetSum.java)                                          | 113ms   | 39.48% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                               | 6ms     | 99.38% |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                        | 2ms     | 92.54% |
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                        | 0ms     | 100%   |
