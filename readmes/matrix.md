@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 80/274.
+Completed: 81/274.
 
 ## Submissions
 ### Easy
@@ -70,6 +70,7 @@ Completed: 80/274.
 | [Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllGroupsOfFarmland.java)                        | 18ms    | 27.56% |
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)              | 4ms     | 94.20% |
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)              | 11ms    | 65.35% |
+| [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicSquaresInGrid.java)                             | 2ms     | 22.02% |
 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                               | 41ms    | 88.45% |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                | 1ms     | 100%   |
 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfFishInAGrid.java)                     | 3ms     | 100%   |

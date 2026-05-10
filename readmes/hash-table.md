@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 323/807.
+Completed: 324/807.
 
 ## Submissions
 ### Easy
@@ -271,6 +271,7 @@ Completed: 323/807.
 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithAtLeastKRepeatingCharacters.java)              | 233ms   | 16.21% |
 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                                | 1100ms  | 5.11%  |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                      | 17ms    | 52.51% | 
+| [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicSquaresInGrid.java)                                           | 2ms     | 22.02% |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementTwo.java)                                           | 12ms    | 38.35% |
 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeNumberOfDistinctCharactersEqual.java)                          | 12ms    | 39.22% |
 | [Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakingFileNamesUnique.java)                                        | 51ms    | 87.41% |
