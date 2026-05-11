@@ -2,24 +2,31 @@
 
 class SeparateTheDigitsInAnArray {
     public int[] separateDigits(int[] nums) {
-        boolean t = false;
-        List<Character> digits = new ArrayList<> ();
+        boolean isTest = false;
+        int[] result;
+        int index;
+        int size = 0;
 
-        for (int x: nums) {
-            char[] xDigits = String.valueOf(x).toCharArray();
-            for (char digit: xDigits) {
-                digits.add(digit);
+        for (int e: nums) {
+            while (e > 0) {
+                e /= 10;
+                size++;
             }
         }
-        if (t) {
-            System.out.println("nums: " + Arrays.toString(nums) + " | digits: " + digits);
+        if (isTest) {
+            System.out.println("size: " + size);
         }
 
-        int[] result = new int[digits.size()];
-        for (int i = 0; i < result.length; i++) {
-            result[i] = Character.getNumericValue(digits.get(i));
+        result = new int[size];
+        index = size - 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            int number = nums[i];
+            while (number > 0) {
+                result[index--] = number % 10;
+                number /= 10;
+            }
         }
-        if (t) {
+        if (isTest) {
             System.out.println("result: " + Arrays.toString(result));
         }
 
