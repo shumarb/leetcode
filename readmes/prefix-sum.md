@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 48/245.
+Completed: 49/245.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 48/245.
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                            | 196ms   | 78.19% |
 | [Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheSmallestBalancedIndex.java)                            | 8ms     | 41.42% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                       | 11ms    | 99.39% |
+| [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncrementSubmatricesByOne.java)                               | 699ms   | 17.04% |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                              | 146ms   | 93.80% |
 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                           | 1100ms  | 5.11%  |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                      | 2ms     | 98.84% |
