@@ -25,31 +25,35 @@ class EvenOddTree {
             int previous = isIncreasing ? Integer.MIN_VALUE : Integer.MAX_VALUE;
             int size = queue.size();
 
-            if (isIncreasing) {
-                for (TreeNode node: queue) {
+            while (size-- > 0) {
+                TreeNode node = queue.poll();
+                if (isIncreasing) {
                     if (node.val % 2 == 0 || node.val <= previous) {
                         return false;
                     }
 
                     previous = node.val;
-                }
-            } else {
-                for (TreeNode node: queue) {
+
+                    if (node.left != null) {
+                        queue.offer(node.left);
+                    }
+                    if (node.right != null) {
+                        queue.offer(node.right);
+                    }
+
+                } else {
                     if (node.val % 2 == 1 || node.val >= previous) {
                         return false;
                     }
 
                     previous = node.val;
-                }
-            }
 
-            while (size-- > 0) {
-                TreeNode node = queue.poll();
-                if (node.left != null) {
-                    queue.offer(node.left);
-                }
-                if (node.right != null) {
-                    queue.offer(node.right);
+                    if (node.left != null) {
+                        queue.offer(node.left);
+                    }
+                    if (node.right != null) {
+                        queue.offer(node.right);
+                    }
                 }
             }
 
