@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 664/2144.
+Completed: 665/2144.
 
 ## Submissions
 ### Easy
@@ -441,6 +441,7 @@ Completed: 664/2144.
 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubIslands.java)                                                 | 18ms    | 99.29% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                            | 34ms    | 79.83% |
 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelStringsInRanges.java)                                       | 4ms     | 98.17% |
+| [Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnguardedCellsInTheGrid.java)                                    | 17ms    | 99.23% |
 | [Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnhappyFriends.java)                                             | 2ms     | 95.12% |
 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                                | 40ms    | 95.74% |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 77ms    | 31.05% |
