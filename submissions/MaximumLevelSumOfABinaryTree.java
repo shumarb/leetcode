@@ -20,8 +20,8 @@ class MaximumLevelSumOfABinaryTree {
         Queue<TreeNode> queue = new LinkedList<>();
         boolean isTest = false;
         int level = 1;
-        int maximumSum = Integer.MIN_VALUE;
-        int smallestLevel = Integer.MAX_VALUE;
+        int levelOfMaximum = 1;
+        int maximumSum = root.val;
 
         queue.offer(root);
         while (!queue.isEmpty()) {
@@ -38,23 +38,23 @@ class MaximumLevelSumOfABinaryTree {
                     queue.offer(current.right);
                 }
             }
-
             if (isTest) {
                 System.out.println("level " + level + " -> " + sum );
-                System.out.println(" * before, maximumSum: " + maximumSum + ", smallestLevel: " + smallestLevel);
+                System.out.println(" * before, maximumSum: " + maximumSum + ", levelOfMaximum: " + levelOfMaximum);
             }
+
             if (sum > maximumSum) {
                 maximumSum = sum;
-                smallestLevel = level;
+                levelOfMaximum = level;
             }
             if (isTest) {
-                System.out.println(" * after, maximumSum: " + maximumSum + ", smallestLevel: " + smallestLevel);
+                System.out.println(" * after, maximumSum: " + maximumSum + ", levelOfMaximum: " + levelOfMaximum);
                 System.out.println("-------------------------------------------------------------------------");
             }
 
             level++;
         }
 
-        return smallestLevel;
+        return levelOfMaximum;
     }
 }
