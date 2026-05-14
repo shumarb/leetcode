@@ -3,32 +3,28 @@
 class MaximumPopulationYear {
     public int maximumPopulation(int[][] logs) {
         boolean isTest = false;
-        int maximumPopulation = 0;
-        int maximumPopulationYear = 0;
-        int[] population = new int[2051];
+        int[] count = new int[101];
+        int maximum;
+        int result;
 
         for (int[] log: logs) {
-            for (int i = log[0]; i <= log[1] - 1; i++) {
-                population[i]++;
-                if (population[i] > maximumPopulation) {
-                    maximumPopulation = population[i];
-                    maximumPopulationYear = i;
-                } else if (population[i] == maximumPopulation && i < maximumPopulationYear) {
-                    maximumPopulationYear = i;
-                }
+            count[log[0] - 1950]++;
+            count[log[1] - 1950]--;
+        }
+        maximum = count[0];
+        result = 1950;
+
+        for (int i = 1; i < count.length; i++) {
+            count[i] += count[i - 1];
+            if (count[i] > maximum) {
+                maximum = count[i];
+                result = i + 1950;
             }
         }
-
         if (isTest) {
-            System.out.println("--------------------------------------------------------------------");
-            System.out.println("maximum population year: " + maximumPopulationYear);
-            System.out.println("maximum population: " + maximumPopulation);
-            System.out.println("population:");
-            for (int i = 1950; i < 2051; i++) {
-                System.out.println(i + " --> " + population[i]);
-            }
+            System.out.println("count: " + Arrays.toString(count) + "\nmaximum: " + maximum + "\nresult: " + result);
         }
 
-        return maximumPopulationYear;
+        return result;
     }
 }

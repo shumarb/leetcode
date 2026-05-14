@@ -2,30 +2,30 @@
 
 class CheckIfArrayIsGood {
     public boolean isGood(int[] nums) {
-        int maximum = nums[0];
         boolean isTest = false;
+        int[] count;
+        int largest = 0;
 
-        for (int number: nums) {
-            maximum = Math.max(maximum, number);
+        for (int e: nums) {
+            largest = Math.max(e, largest);
+        }
+        count = new int[largest + 1];
+        for (int e: nums) {
+            count[e]++;
         }
         if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\nmaximum: " + maximum);
+            System.out.println("nums: " + Arrays.toString(nums) + "\ncount: " + Arrays.toString(count));
         }
 
-        int[] base = new int[maximum + 1];
-        base[base.length - 1] = maximum;
-        base[base.length - 2] = maximum;
-        for (int i = 0; i < base.length - 2; i++) {
-            base[i] = i + 1;
-        }
-        if (isTest) {
-            System.out.println("base: " + Arrays.toString(base));
-        }
-
-        if (base.length != nums.length) {
+        if (count[largest] != 2) {
             return false;
         }
-        Arrays.sort(nums);
-        return Arrays.equals(base, nums);
+        for (int i = 1; i < largest; i++) {
+            if (count[i] != 1) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
