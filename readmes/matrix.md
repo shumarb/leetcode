@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 83/274.
+Completed: 84/274.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 83/274.
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                | 2ms     | 99.93% |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PacificAtlanticWaterFlow.java)                       | 10ms    | 31.12% |
 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathWithMaximumGold.java)                            | 34ms    | 97.84% |
+| [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueensThatCanAttackTheKing.java)                     | 1ms     | 94.12% |
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                                      | 101ms   | 85.10% |
 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotatingTheBox.java)                                 | 8ms     | 59.38% |
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RottingOranges.java)                                 | 2ms     | 90.26% |

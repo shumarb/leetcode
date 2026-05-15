@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 665/2144.
+Completed: 666/2144.
 
 ## Submissions
 ### Easy
@@ -612,6 +612,7 @@ Completed: 665/2144.
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                                         | 132ms   | 74.11% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                        | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                                | 16ms    | 100%   |
+| [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueensThatCanAttackTheKing.java)                                      | 1ms     | 94.12% |
 | [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueriesOnAPermutationWithKey.java)                                    | 6ms     | 59.67% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                            | 21ms    | 99.89% |
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                                                       | 101ms   | 85.10% |
