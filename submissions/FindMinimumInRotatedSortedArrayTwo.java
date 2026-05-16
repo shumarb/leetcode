@@ -2,32 +2,43 @@
 
 class FindMinimumInRotatedSortedArrayTwo {
     public int findMin(int[] nums) {
-        // 1. Edge case: nums contains 1 element.
-        if (nums.length == 1) {
-            return nums[0];
-        }
-
+        boolean isTest = false;
         int left = 0;
-        int right = nums.length - 1;
+        int n = nums.length;
+        int right = n - 1;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
+            if (isTest) {
+                System.out.println(" * indices:  [" + left + ", " + mid + ", " + right + "]");
+                System.out.println(" * elements: [" + nums[left] + ", " + nums[mid] + ", " + nums[right] + "]");
+                System.out.println("-------------------------------------------------------");
+            }
 
-            // 1. Minimum is in range [mid + 1, right].
+            /**
+                1. Minimum is @ index after mid, so exclude all elements before mid.
+             */
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
-            // 2. Minimum is in range [left, mid].
-            } else if (nums[mid] < nums[left]) {
-                right = mid;
 
-           /**
-                3.  Duplicate detected.
-                    Unsure on which range contains minimium,
-                    so reduce right by 1 to reduce search range.
-            */
-            } else {
+                /**
+                 2.  Elements are the same, and we want the minimum element to be the found at the left index,
+                     so reduce right by 1.
+                 */
+            } else if (nums[mid] == nums[right]) {
                 right--;
+
+                /**
+                 3.  Mid-th element could be minimum, and it could also contain duplicates,
+                     so exlude all elements after it by setting right as mid,
+                     hence the minimum is in index range [left, mid].
+                 */
+            } else {
+                right = mid;
             }
+        }
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums) + "\nminimum: " + nums[left] + " @ index " + left);
         }
 
         return nums[left];
