@@ -2,45 +2,18 @@
 
 class JumpGameThree {
     public boolean canReach(int[] arr, int start) {
-        if (arr.length == 1) {
-            return arr[0] == 0;
+        // 1. Visited index marked as -1.
+        if (start < 0 || start >= arr.length || arr[start] == -1) {
+            return false;
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        boolean[] isVisited = new boolean[arr.length];
-        boolean isTest = false;
-        int largest = 0;
-        int level = 0;
-
-        queue.offer(start);
-        isVisited[start] = true;
-
-        while (!queue.isEmpty()) {
-            if (isTest) {
-                System.out.println("level: " + level + ": " + queue);
-            }
-
-            int size = queue.size();
-            while (size-- > 0) {
-                int index = queue.poll();
-                if (arr[index] == 0) {
-                    return true;
-                }
-
-                int backIndex = index - arr[index];
-                int forwardIndex = index + arr[index];
-                if (backIndex >= 0 && !isVisited[backIndex]) {
-                    isVisited[backIndex] = true;
-                    queue.offer(backIndex);
-                }
-                if (forwardIndex < arr.length && !isVisited[forwardIndex]) {
-                    isVisited[forwardIndex] = true;
-                    queue.offer(forwardIndex);
-                }
-            }
-            level++;
+        if (arr[start] == 0) {
+            return true;
         }
 
-        return false;
+        int jump = arr[start];
+        arr[start] = -1;
+
+        return canReach(arr, start + jump) || canReach(arr, start - jump);
     }
 }
