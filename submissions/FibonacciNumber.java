@@ -1,15 +1,18 @@
-import java.util.Vector;
-
 class FibonacciNumber {
-    public int fib(int N) {
-        Vector <Integer> fibNumbers = new Vector <Integer> ();
-        for (int i = 0; i <= N; i++) {
-            if (i <= 1) {
-                fibNumbers.add(i);
-            } else {
-                fibNumbers.add(fibNumbers.get(i - 2) + fibNumbers.get(i - 1));
-            }
+    public int fib(int n) {
+        if (n <= 1) {
+            return n;
         }
-        return fibNumbers.get(N);
+
+        int first = 0;
+        int second = 1;
+
+        for (int i = 2; i <= n; i++) {
+            int next = second + first;
+            first = second;
+            second = next;
+        }
+
+        return second;
     }
 }
