@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 107/337.
+Completed: 108/337.
 
 ## Submissions
 ### Easy
@@ -90,6 +90,7 @@ Completed: 107/337.
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)                   | 2ms     | 88.73% |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)                   | 1ms     | 18.41% |
 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)                                 | 27ms    | 58.30% | 
+| [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameThree.java)                                   | 8ms     | 45.03% |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100%   |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                        | 0ms     | 100%   |
 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnivaluePath.java)                             | 2ms     | 95.73% |

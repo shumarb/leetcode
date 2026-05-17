@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 666/2144.
+Completed: 667/2144.
 
 ## Submissions
 ### Easy
@@ -507,6 +507,7 @@ Completed: 666/2144.
 | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                                  | 2ms     | 31.53% |
 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InvalidTransactions.java)                                             | 77ms    | 16.45% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                                        | 2ms     | 84.17% |
+| [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameThree.java)                                                   | 8ms     | 45.03% |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                                          | 30ms    | 64.77% |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                                     | 190ms   | 59.09% |
 | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KRadiusSubarrayAverages.java)                                         | 6ms     | 68.46% |

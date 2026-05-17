@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/257.
+Completed: 88/257.
 
 ## Submissions
 ### Easy
@@ -70,6 +70,7 @@ Completed: 87/257.
 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindBottomLeftTreeValue.java)                         | 0ms     | 100%   |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90% |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)                   | 2ms     | 88.73% |
+| [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameThree.java)                                   | 8ms     | 45.03% |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100%   |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                      | 45ms    | 83.54% |
 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                                | 41ms    | 88.45% |
