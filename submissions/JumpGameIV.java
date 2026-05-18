@@ -14,8 +14,7 @@ class JumpGameIV {
         }
 
         for (int i = 0; i < n; i++) {
-            map.putIfAbsent(arr[i], new ArrayList<>());
-            map.get(arr[i]).add(i);
+            map.computeIfAbsent(arr[i], k -> new ArrayList<>()).add(i);
         }
         if (isTest) {
             System.out.println("arr: " + Arrays.toString(arr) + "\nmap:");
