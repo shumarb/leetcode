@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 88/257.
+Completed: 89/257.
 
 ## Submissions
 ### Easy
@@ -107,6 +107,7 @@ Completed: 88/257.
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                           | 49ms    | 79.54% |
 | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                    | 234ms   | 44.17% |
+| [Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIV.java)                          | 57ms    | 52.29% |
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29% |
 | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnectionTwo.java)              | 92ms    | 6.03%  |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java)   | 17ms    | 39.28% |
