@@ -41,16 +41,6 @@ class JumpGameIV {
                     return level;
                 }
 
-                if (index - 1 >= 0 && !isVisited[index - 1]) {
-                    queue.offer(index - 1);
-                    isVisited[index - 1] = true;
-                }
-
-                if (index + 1 < n && !isVisited[index + 1]) {
-                    queue.offer(index + 1);
-                    isVisited[index + 1] = true;
-                }
-
                 // 1. Add all available indices equal to key to queue
                 //    so that all possible paths from key to next key are explored in 1 level.
                 //    Otherwise, same keys are explored multiple times.
@@ -62,6 +52,16 @@ class JumpGameIV {
                     }
                 }
                 map.get(key).clear();
+
+                if (index - 1 >= 0 && !isVisited[index - 1]) {
+                    queue.offer(index - 1);
+                    isVisited[index - 1] = true;
+                }
+
+                if (index + 1 < n && !isVisited[index + 1]) {
+                    queue.offer(index + 1);
+                    isVisited[index + 1] = true;
+                }
             }
 
             level++;
