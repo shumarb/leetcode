@@ -45,13 +45,15 @@ class JumpGameIV {
                 //    so that all possible paths from key to next key are explored in 1 level.
                 //    Otherwise, same keys are explored multiple times.
                 int key = arr[index];
-                for (int nextIndex: map.get(key)) {
-                    if (!isVisited[nextIndex]) {
-                        queue.offer(nextIndex);
-                        isVisited[nextIndex] = true;
+                if (map.containsKey(key)) {
+                    for (int nextIndex: map.get(key)) {
+                        if (!isVisited[nextIndex]) {
+                            queue.offer(nextIndex);
+                            isVisited[nextIndex] = true;
+                        }
                     }
+                    map.remove(key);
                 }
-                map.get(key).clear();
 
                 if (index - 1 >= 0 && !isVisited[index - 1]) {
                     queue.offer(index - 1);
