@@ -8,6 +8,7 @@ class MaximumProductOfThreeElementsAfterOneReplacement {
         long result = 0l;
 
         Arrays.sort(nums);
+
         /**
          1. For all positive, compute product of largest 2 elements with limit.
          */
