@@ -10,15 +10,16 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 23/181.
+Completed: 24/185.
 
 ## Submissions
 ### Easy
-| Question                                                                                                | Submission                                                                                     | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
-| [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCenterOfStarGraph.java)   | 3ms     | 34.14% |
-| [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfPathExistsInGraph.java) | 53ms    | 88.29% |
-| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)        | 2ms     | 100%   |
+| Question                                                                                                    | Submission                                                                                       | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindCenterOfStarGraph.java)     | 3ms     | 34.14% |
+| [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindIfPathExistsInGraph.java)   | 53ms    | 88.29% |
+| [Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDegreeOfEachVertex.java) | 1ms     | 100%   |
+| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheTownJudge.java)          | 2ms     | 100%   |
 
 ### Medium
 | Question                                                                                                                                                      | Submission                                                                                                             | Runtime | Rank   |

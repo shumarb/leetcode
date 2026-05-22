@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 115/207.
+Completed: 116/211.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 115/207.
 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfDigitsAreEqualInStringAfterOperationsOne.java)  | 8ms     | 78.87% |
 | [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClearDigits.java)                                      | 1ms     | 100%   |
 | [Compute Alternating Sum](https://leetcode.com/problems/computing-alternating-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ComputeAlternatingSum.java)                            | 1ms     | 94.44% |
+| [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/description)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenateArrayWithReverse.java)                      | 1ms     | 99.99% |
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenationOfArrays.java)                            | 1ms     | 96.28% |
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                        | 2ms     | 100%   |
 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDistinctNumbersOnBoard.java)                      | 0ms     | 100%   |

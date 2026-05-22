@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/274.
+Completed: 85/276.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 84/274.
 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetermineWhetherMatrixCanBeObtainedByRotation.java)    | 0ms     | 100%   |
 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingAndRepeatedValues.java)                     | 1ms     | 100%   |
 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindWinnerOnATicTacToeGame.java)                       | 0ms     | 100%   |
+| [Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDegreeOfEachVertex.java)                        | 1ms     | 100%   |
 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWidthOfColumnsOfAGrid.java)                     | 2ms     | 97.87% |
 | [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/description)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlipSquareSubmatrixVertically.java)                    | 1ms     | 58.37% |
 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlippingAnImage.java)                                  | 0ms     | 100%   |

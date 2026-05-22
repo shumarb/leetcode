@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 168/512.
+Completed: 169/518.
 
 ## Submissions
 ### Easy
@@ -174,6 +174,7 @@ Completed: 168/512.
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java)                      | 36ms    | 82.14% |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                         | 9ms     | 94.52% |
 | [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortMatrixByDiagonals.java)                            | 5ms     | 58.74% |
+| [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsByFrequency.java)                            | 10ms    | 98.98% |
 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsInAString.java)                              | 47ms    | 68.53% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                      | 5ms     | 97.68% |
 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortTheMatrixDiagonally.java)                          | 2ms     | 96.51% |

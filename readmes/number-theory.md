@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 27/90.
+Completed: 28/98.
 
 ## Submissions
 ### Easy
@@ -47,3 +47,4 @@ Completed: 27/90.
 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueAfterReplacingWithSumOfPrimeFactors.java) | 0ms     | 100%   |
 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitArrayByPrimeIndices.java)                         | 4ms     | 100%   |
 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfLargestPrimeSubstrings.java)                      | 22ms    | 36.79% |
+| [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfPrimesBetweenNumberAndItsReverse.java)            | 2ms     | 99.11% |
