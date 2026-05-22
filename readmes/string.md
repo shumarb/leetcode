@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 328/873.
+Completed: 329/873.
 
 ## Submissions
 ### Easy
@@ -190,6 +190,7 @@ Completed: 328/873.
 | [Rings and Rods](https://leetcode.com/problems/rings-and-rods/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RingsAndRods.java)                                                 | 0ms     | 100%   |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                                          | 2ms     | 100%   |
 | [Rotate String](https://leetcode.com/problems/rotate-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateString.java)                                                 | 0ms     | 100%   |
+| [Score Validator](https://leetcode.com/problems/score-validator/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreValidator.java)                                               | 3ms     | 18.77% |
 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreOfAString.java)                                               | 1ms     | 99.49% |
 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SecondLargestDigitInAString.java)                                  | 0ms     | 100%   |
 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestCompletingWord.java)                                       | 4ms     | 81.11% |

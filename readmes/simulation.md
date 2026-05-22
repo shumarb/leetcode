@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 116/211.
+Completed: 117/211.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 116/211.
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100%   |
 | [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString..java)    | 4ms     | 32.75% |
 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RobotReturnToOrigin.java)                              | 2ms     | 100%   |
+| [Score Validator](https://leetcode.com/problems/score-validator/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreValidator.java)                                   | 3ms     | 18.77% |
 | [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SemiOrderedPermutation.java)                           | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                       | 1ms     | 100%   |
 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Shift2dGrid.java)                                      | 12ms    | 8.53%  |

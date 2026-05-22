@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 674/2170.
+Completed: 675/2170.
 
 ## Submissions
 ### Easy
@@ -319,6 +319,7 @@ Completed: 674/2170.
 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RichestCustomerWealth.java)                                  | 0ms     | 100%   |
 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RowWithMaximumOnes.java)                                     | 1ms     | 100%   |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RunningSumOf1DArray.java)                                    | 0ms     | 100%   |
+| [Score Validator](https://leetcode.com/problems/score-validator/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreValidator.java)                                         | 3ms     | 18.77% |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInsertPosition.java)                                   | 0ms     | 100%   |
 | [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SemiOrderedPermutation.java)                                 | 1ms     | 100%   |
 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeparateTheDigitsInAnArray.java)                             | 1ms     | 100%   |
