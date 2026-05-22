@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 117/211.
+Completed: 118/211.
 
 ## Submissions
 ### Easy
@@ -91,6 +91,7 @@ Completed: 117/211.
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                   | 3ms     | 83.20% |
 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                             | 0ms     | 100%   |
 | [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                 | 2ms     | 99.98% |
+| [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrafficSignalColor.java)                               | 1ms     | 71.26% |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                 | 1ms     | 96.44% |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100%   |
 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VowelConsonantScore.java)                              | 1ms     | 99.82% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 205/678.
+Completed: 206/678.
 
 ## Submissions
 ### Easy
@@ -136,6 +136,7 @@ Completed: 205/678.
 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumMultiples.java)                                           | 3ms     | 63.36% |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100%   |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeDivisors.java)                                          | 1ms     | 61.86% |
+| [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrafficSignalColor.java)                                     | 1ms     | 71.26% |
 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                         | 1ms     | 39.67% |
 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumber.java)                                             | 0ms     | 100%   |
 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                         | 0ms     | 100%   |

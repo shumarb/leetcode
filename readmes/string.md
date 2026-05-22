@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 329/873.
+Completed: 330/873.
 
 ## Submissions
 ### Easy
@@ -211,6 +211,7 @@ Completed: 329/873.
 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDigitsOfStringAfterConvert.java)                              | 0ms     | 100%   |
 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThousandSeparator.java)                                            | 0ms     | 100%   |
 | [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToLowerCase.java)                                                  | 0ms     | 100%   |
+| [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrafficSignalColor.java)                                           | 1ms     | 71.26% |
 | [Trim Trailing Words](https://leetcode.com/problems/trim-trailing-words/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrimTrailingWords.java)                                            | 1ms     | 99.90% |
 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TruncateSentence.java)                                             | 1ms     | 79.33% |
 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UncommonWordsFromTwoSentences.java)                                | 3ms     | 50.44% |
