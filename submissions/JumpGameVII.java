@@ -1,7 +1,8 @@
 // Question: https://leetcode.com/problems/jump-game-vii/description/
 
-class Solution {
+class JumpGameVII {
     public boolean canReach(String s, int minJump, int maxJump) {
+        char[] steps = s.toCharArray();
         int count = 0;
         int n = s.length();
         boolean isTest = false;
@@ -19,7 +20,7 @@ class Solution {
                 count--;
             }
 
-            if (s.charAt(i) == '0' && count > 0) {
+            if (steps[i] == '0' && count > 0) {
                 dp[i] = true;
             }
         }
