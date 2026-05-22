@@ -5,7 +5,7 @@ class ScoreValidator {
         int[] result = new int[2];
 
         for (String e: events) {
-            if (e.equals("1") || e.equals("2") || e.equals("3") || e.equals("4") || e.equals("5") || e.equals("6")) {
+            if (!e.equals("W") && e.length() == 1) {
                 result[0] += Integer.parseInt(e);
 
             } else if (e.equals("W")) {
@@ -23,3 +23,4 @@ class ScoreValidator {
         return result;
     }
 }
+
