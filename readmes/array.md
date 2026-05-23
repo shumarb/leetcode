@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 675/2170.
+Completed: 676/2170.
 
 ## Submissions
 ### Easy
@@ -424,6 +424,7 @@ Completed: 675/2170.
 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSumThree.java)                                             | 0ms     | 100%   |
 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CombinationSumFour.java)                                              | 1ms     | 71.15% |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java)                 | 810ms   | 7.09%  |
+| [Compare Sum of Bitonic Parts](https://leetcode.com/problems/compare-sum-of-bitonic-parts/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareSumsOfBitonicParts.java)                                       | 2ms     | 77.38% |
 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinarySearchTreeFromPreorderTraversal.java)                  | 0ms     | 100%   |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)              | 1ms     | 95.87% |
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)                                           | 24ms    | 67.47% |
