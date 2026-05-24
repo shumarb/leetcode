@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/password-strength/description/
 
-class PasswordStrength class Solution {
+class PasswordStrength {
     public int passwordStrength(String password) {
         Set<Character> special = new HashSet<>();
         boolean[] digits = new boolean[10];
@@ -25,7 +25,6 @@ class PasswordStrength class Solution {
                     }
                     letters[e - 'A'] = true;
                     result += 2;
-                    continue;
 
                 } else if (Character.isLowerCase(e) && !letters[e - 'a' + 26]) {
                     if (isTest) {
@@ -33,8 +32,9 @@ class PasswordStrength class Solution {
                     }
                     letters[e - 'a' + 26] = true;
                     result += 1;
-                    continue;
                 }
+
+                continue;
             }
 
             if ("!@#$".indexOf(e) >= 0 && special.add(e)) {
