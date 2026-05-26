@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 40/134.
+Completed: 41/134.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 40/134.
 | Question                                                                                                                                | Submission                                                                                        | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)   | 16ms    | 99.65% |
+| [Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CBTInserter.java)                | 15ms    | 74.59% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)             | 162ms   | 94.15% |
 | [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrowserHistory.java)             | 69ms    | 15.58% |
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)            | 5ms     | 86.24% |
