@@ -16,12 +16,15 @@
  * }
  */
 class CBTInserter {
-    private List<TreeNode> tree;
+    private TreeNode[] tree;
     private boolean isTest;
+    private int index;
 
     public CBTInserter(TreeNode root) {
+        index = 0;
         isTest = false;
-        tree = new ArrayList<>();
+        tree = new TreeNode[10001];
+
         bfs(root);
         if (isTest) {
             print("tree:");
@@ -30,8 +33,8 @@ class CBTInserter {
 
     private void print(String s) {
         System.out.println("-------------------------\n" + s);
-        for (TreeNode e: tree) {
-            System.out.print(e.val + " ");
+        for (int i = 0; i < index; i++) {
+            System.out.print(tree[i].val + " ");
         }
         System.out.println();
     }
@@ -41,16 +44,13 @@ class CBTInserter {
         queue.offer(node);
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
-            while (size-- > 0) {
-                TreeNode top = queue.poll();
-                tree.add(top);
-                if (top.left != null) {
-                    queue.offer(top.left);
-                }
-                if (top.right != null) {
-                    queue.offer(top.right);
-                }
+            TreeNode top = queue.poll();
+            tree[index++] = top;
+            if (top.left != null) {
+                queue.offer(top.left);
+            }
+            if (top.right != null) {
+                queue.offer(top.right);
             }
         }
     }
@@ -58,10 +58,10 @@ class CBTInserter {
     public int insert(int val) {
         TreeNode node = new TreeNode(val);
 
-        int n = tree.size();
+        int n = index;
         int parentIndex = (n - 1) / 2;
-        TreeNode parent = tree.get(parentIndex);
-        tree.add(node);
+        TreeNode parent = tree[parentIndex];
+        tree[index++] = node;
 
         if (isTest) {
             print("after inserting " + val + ", tree:");
@@ -79,7 +79,7 @@ class CBTInserter {
     }
 
     public TreeNode get_root() {
-        return tree.get(0);
+        return tree[0];
     }
 }
 
