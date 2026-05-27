@@ -36,7 +36,27 @@ class WordLadder {
                     return level;
                 }
 
-                List<String> neighbours = getNeighbours(source, unvisited);
+                List<String> neighbours = new ArrayList<>();
+                char[] letters = source.toCharArray();
+
+                for (int j = 0; j < source.length(); j++) {
+                    for (char letter = 'a'; letter <= 'z'; letter++) {
+                        if (letters[j] == letter) {
+                            continue;
+                        }
+
+                        char initial = letters[j];
+                        letters[j] = letter;
+
+                        String adjacentWord = new String(letters);
+                        if (unvisited.contains(adjacentWord)) {
+                            neighbours.add(adjacentWord);
+                            unvisited.remove(adjacentWord);
+                        }
+
+                        letters[j] = initial;
+                    }
+                }
                 if (isTest) {
                     System.out.println(" * source: " + source + ", neighbours: " + neighbours);
                 }
@@ -59,31 +79,5 @@ class WordLadder {
         }
 
         return 0;
-    }
-
-    private List<String> getNeighbours(String source, Set<String> unvisited) {
-        List<String> result = new ArrayList<>();
-        char[] letters = source.toCharArray();
-
-        for (int j = 0; j < source.length(); j++) {
-            for (char letter = 'a'; letter <= 'z'; letter++) {
-                if (letters[j] == letter) {
-                    continue;
-                }
-
-                char initial = letters[j];
-                letters[j] = letter;
-
-                String adjacentWord = new String(letters);
-                if (unvisited.contains(adjacentWord)) {
-                    result.add(adjacentWord);
-                    unvisited.remove(adjacentWord);
-                }
-
-                letters[j] = initial;
-            }
-        }
-
-        return result;
     }
 }
