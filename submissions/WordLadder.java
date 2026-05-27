@@ -41,10 +41,6 @@ class WordLadder {
 
                 for (int j = 0; j < source.length(); j++) {
                     for (char letter = 'a'; letter <= 'z'; letter++) {
-                        if (letters[j] == letter) {
-                            continue;
-                        }
-
                         char initial = letters[j];
                         letters[j] = letter;
 
