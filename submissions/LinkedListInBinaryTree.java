@@ -26,66 +26,25 @@
  * }
  */
 class LinkedListInBinaryTree {
-    private List<TreeNode> list;
-    private boolean isTest;
-    private boolean isSubPath;
-
     public boolean isSubPath(ListNode head, TreeNode root) {
-        isSubPath = false;
-        isTest = false;
-        list = new ArrayList<>();
-
-        dfs(head, root);
-        if (isTest) {
-            System.out.print("list: ");
-            for (TreeNode e: list) {
-                System.out.print(e.val + " ");
-            }
-            System.out.println();
-        }
-        for (TreeNode e: list) {
-            explore(head, e);
+        if (root == null) {
+            return false;
         }
 
-        return isSubPath;
+        return dfs(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
     }
 
-    private void dfs(ListNode head, TreeNode root) {
-        if (head == null || root == null) {
-            return;
+    private boolean dfs(ListNode head, TreeNode root) {
+        // 1. Entire linked list explored, so sub path exists.
+        if (head == null) {
+            return true;
         }
 
-        if (head.val == root.val) {
-            list.add(root);
-        }
-        dfs(head, root.left);
-        dfs(head, root.right);
-    }
-
-    private void explore(ListNode listNode, TreeNode treeNode) {
-        // 1. Entire linked list traversed, so a sub path exists.
-        if (listNode == null) {
-            if (isTest) {
-                System.out.println("end of list");
-            }
-            isSubPath = true;
-            return;
+        // 2. No path or invalid path to explore.
+        if (root == null || head.val != root.val) {
+            return false;
         }
 
-        if (isSubPath || treeNode == null || listNode.val != treeNode.val) {
-            return;
-        }
-
-        if (isTest) {
-            System.out.println("-------------------------------------");
-            System.out.println("listNode: " + listNode.val + ", treeNode: " + treeNode.val);
-            System.out.println(" * going left");
-        }
-        explore(listNode.next, treeNode.left);
-
-        if (isTest) {
-            System.out.println(" * going right");
-        }
-        explore(listNode.next, treeNode.right);
+        return dfs(head.next, root.left) || dfs(head.next, root.right);
     }
 }
