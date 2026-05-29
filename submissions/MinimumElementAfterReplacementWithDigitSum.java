@@ -2,20 +2,17 @@
 
 class MinimumElementAfterReplacementWithDigitSum {
     public int minElement(int[] nums) {
-        int minimumElement = Integer.MAX_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = getSumOfDigits(nums[i]);
-            minimumElement = Math.min(minimumElement, nums[i]);
-        }
-        return minimumElement;
-    }
+        int result = Integer.MAX_VALUE;
 
-    private int getSumOfDigits(int num) {
-        int sum = 0;
-        while (num != 0) {
-            sum += (num % 10);
-            num /= 10;
+        for (int e: nums) {
+            int digitSum = 0;
+            while (e > 0) {
+                digitSum += e % 10;
+                e /= 10;
+            }
+            result = Math.min(digitSum, result);
         }
-        return sum;
+
+        return result;
     }
 }
