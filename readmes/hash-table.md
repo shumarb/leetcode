@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 325/807.
+Completed: 325/814.
 
 ## Submissions
 ### Easy
@@ -245,7 +245,7 @@ Completed: 325/807.
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)                            | 4ms     | 94.20% |
 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstElementWithUniqueFrequency.java)                              | 7ms     | 99.99% |
 | [Frequency Tracker](https://leetcode.com/problems/frequency-tracker/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyTracker.java)                                             | 44ms    | 49.19% |
-| [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 7ms     | 65.30% |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                | 6ms     | 99.41% |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                  | 8ms     | 51.20% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                              | 63ms    | 27.26% |
 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)                                              | 27ms    | 58.30% | 

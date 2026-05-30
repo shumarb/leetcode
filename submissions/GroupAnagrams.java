@@ -1,35 +1,32 @@
 // Question: https://leetcode.com/problems/group-anagrams/description/
 
 class GroupAnagrams {
-    private boolean isTest = false;
-
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
-        Map<String, List<String>> map = new HashMap<>();
-
-        for (String word: strs) {
-            char[] letters = word.toCharArray();
-            Arrays.sort(letters);
-            String key = new String(letters);
-            map.putIfAbsent(key, new ArrayList<>());
-            map.get(key).add(word);
+        if (strs.length == 1) {
+            return List.of(List.of(strs));
         }
-        for (Map.Entry<String, List<String>> entry: map.entrySet()) {
-            result.add(entry.getValue());
+
+        Map<String, List<String>> map = new HashMap<>();
+        boolean isTest = false;
+
+        for (String s: strs) {
+            char[] sortedLetters = s.toCharArray();
+            Arrays.sort(sortedLetters);
+            if (isTest) {
+                System.out.println("s: " + s + " -> sortedLetters: " + Arrays.toString(sortedLetters));
+            }
+
+            String key = String.valueOf(sortedLetters);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(s);
         }
         if (isTest) {
-            System.out.println("--------------------------------------------------------------------");
-            System.out.println("map: ");
-            for (Map.Entry<String, List<String>> entry: map.entrySet()) {
-                System.out.println(entry.getKey() + " ---> " + entry.getValue());
-            }
-            System.out.println("--------------------------------------------------------------------");
-            System.out.println("result:");
-            for (List<String> entry: result) {
-                System.out.println(entry);
+            System.out.println("----------------------------------------\nmap:");
+            for (String key: map.keySet()) {
+                System.out.println(" * " + key + ": " + map.get(key));
             }
         }
 
-        return result;
+        return new ArrayList<>(map.values());
     }
 }
