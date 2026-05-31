@@ -66,10 +66,14 @@ class EventManager {
         }
 
         int result = -1;
-        if (!map.isEmpty() && !map.get(map.lastKey()).isEmpty()) {
-            result = map.get(map.lastKey()).pollFirst();
-            if (map.get(map.lastKey()).isEmpty()) {
-                map.remove(map.lastKey());
+        if (!map.isEmpty()) {
+            int highestPriority = map.lastKey();
+            TreeSet<Integer> set = map.get(highestPriority);
+            if (!set.isEmpty()) {
+                result = map.get(highestPriority).pollFirst();
+            }
+            if (set.isEmpty()) {
+                map.remove(highestPriority);
             }
         }
         if (isTest) {
