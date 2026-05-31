@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/214.
+Completed: 51/216.
 
 ## Submissions
 ### Easy
@@ -34,6 +34,7 @@ Completed: 50/214.
 ### Medium
 | Question                                                                                                                                                  | Submission                                                                                                              | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)                                     | 343ms   | 9.07%  |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                      | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                 | 70ms    | 90.71% |
 | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                              | 16ms    | 99.60% |

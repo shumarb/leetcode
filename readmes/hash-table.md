@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 326/814.
+Completed: 327/814.
 
 ## Submissions
 ### Easy
@@ -216,6 +216,7 @@ Completed: 326/814.
 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                             | 40ms    | 95.74% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05% |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                      | 4ms     | 95.87% |
+| [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)                                                 | 343ms   | 9.07%  |
 | [Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RideSharingSystem.java)                                            | 48ms    | 88.61% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                             | 70ms    | 90.71% |

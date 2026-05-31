@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 10/76.
+Completed: 11/76.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 10/76.
 ### Medium
 | Question                                                                                                                                | Submission                                                                                                   | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)                          | 343ms   | 9.07%  |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                           | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                      | 70ms    | 90.71% |
 | [Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DisplayTableOfFoodOrdersInARestaurant.java) | 24ms    | 90.60% |
