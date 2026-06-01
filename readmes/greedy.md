@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 86/460.
+Completed: 87/464.
 
 ## Submissions
 ### Easy
@@ -74,6 +74,7 @@ Completed: 86/460.
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)       | 8ms     | 51.20% |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                   | 63ms    | 27.26% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                          | 2ms     | 84.17% |
+| [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameII.java)                                        | 65ms    | 9.61%  |
 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingTripletSubsequence.java)                      | 2ms     | 98.72% |
 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPalindromicNumber.java)                          | 10ms    | 80.47% |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)         | 38ms    | 93.18% |

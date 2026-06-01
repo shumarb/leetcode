@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 102/150.
+Completed: 103/150.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 102/150.
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                               | 33ms    | 85.89% | 
 | [Insert Interval](https://leetcode.com/problems/insert-interval/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                     | 2ms     | 26.99% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                           | 2ms     | 84.17% |
+| [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameII.java)                                         | 65ms    | 9.61%  |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                             | 30ms    | 64.77% |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                         | 3ms     | 98.86% |
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                           | 0ms     | 100%   |
