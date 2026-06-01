@@ -14,8 +14,7 @@ class EventManager {
             int event = e[0];
             int priority = e[1];
             lastPriority.put(event, priority);
-            map.putIfAbsent(priority, new TreeSet<>());
-            map.get(priority).add(event);
+            map.computeIfAbsent(priority, k -> new TreeSet<>()).add(event);
         }
         if (isTest) {
             print("map:");
@@ -35,29 +34,17 @@ class EventManager {
             print("update | event: " + eventId + ", priority: " + newPriority + "\nmap:");
         }
 
-        // 1. Check if event assigned to a priority.
-        // If yes, remove event from that priority's set,
-        // and add event to new priority's set.
-        if (lastPriority.containsKey(eventId)) {
-            int lastPriorityValue = lastPriority.get(eventId);
-            lastPriority.remove(eventId);
-
-            if (map.containsKey(lastPriorityValue)) {
-                map.get(lastPriorityValue).remove(eventId);
-                if (map.get(lastPriorityValue).isEmpty()) {
-                    map.remove(lastPriorityValue);
-                }
-            }
-
-            if (map.containsKey(newPriority)) {
-                map.get(newPriority).add(eventId);
-                lastPriority.put(eventId, newPriority);
+        Integer priority = lastPriority.get(eventId);
+        if (priority != null) {
+            TreeSet<Integer> set = map.get(priority);
+            set.remove(eventId);
+            if (set.isEmpty()) {
+                map.remove(priority);
             }
         }
 
         lastPriority.put(eventId, newPriority);
-        map.putIfAbsent(newPriority, new TreeSet<>());
-        map.get(newPriority).add(eventId);
+        map.computeIfAbsent(newPriority, k -> new TreeSet<>()).add(eventId);
     }
 
     public int pollHighest() {
