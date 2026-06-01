@@ -102,11 +102,11 @@ Completed: 87/276.
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                   | 0ms     | 100%   |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                   | 13ms    | 99.35% |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                              | 2ms     | 76.85% |
-| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                 | 0ms     | 100%   |
+| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsII.java)                                  | 0ms     | 100%   |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                     | 76ms    | 96.70% |
 
 ### Hard
-| Question                                                                        | Submission                                                                              | Runtime | Rank   |
-|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java)    | 6ms     | 97.77% |
-| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 0ms     | 100%   |
+| Question                                                                        | Submission                                                                            | Runtime | Rank   |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|--------|
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java)  | 6ms     | 97.77% |
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsIII.java) | 0ms     | 100%   |

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/combination-sum-iii/description/
 
-class CombinationSumThree {
+class CombinationSumIII {
     private List<List<Integer>> result;
     private boolean isTest;
     private int[] numbers;

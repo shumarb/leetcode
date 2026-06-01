@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/unique-paths-iii/
 
-class UniquePathsThree {
+class UniquePathsIII {
     private boolean[][] isVisited;
     private boolean isTest;
     private int[][] grid;

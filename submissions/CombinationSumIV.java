@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/combination-sum-iv/description/
 
-class CombinationSumFour {
+class CombinationSumIV {
     public int combinationSum4(int[] nums, int target) {
         // 1. Edge case: single element.
         if (nums.length == 1) {

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/combination-sum-ii/description/
 
-class CombinationSumTwo {
+class CombinationSumII {
     private List<List<Integer>> result;
     private boolean isTest;
     private int[] candidates;

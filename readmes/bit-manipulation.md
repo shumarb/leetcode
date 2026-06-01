@@ -87,6 +87,6 @@ Completed: 66/281.
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                        | 0ms     | 100%   |
 
 ### Hard
-| Question                                                                        | Submission                                                                              | Runtime | Rank  |
-|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|-------|
-| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 0ms     | 100%   |
+| Question                                                                        | Submission                                                                            | Runtime | Rank  |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|-------|
+| [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsIII.java) | 0ms     | 100%   |

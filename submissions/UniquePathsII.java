@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/unique-paths-ii/description/
 
-class UniquePathsTwo {
+class UniquePathsII {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         boolean isTest = false;
         int m = obstacleGrid.length;
