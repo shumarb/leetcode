@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/course-schedule-ii/description/
 
-class CourseScheduleTwo {
+class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<Integer>[] graph = new ArrayList[numCourses];
         Queue<Integer> queue = new LinkedList<>();

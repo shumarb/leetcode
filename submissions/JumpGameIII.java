@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/jump-game-iii/description/
 
-class JumpGameThree {
+class JumpGameIII {
     public boolean canReach(int[] arr, int start) {
         // 1. Visited index marked as -1.
         if (start < 0 || start >= arr.length || arr[start] == -1) {

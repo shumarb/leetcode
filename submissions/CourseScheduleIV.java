@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/course-schedule-iv/description/
 
-class CourseScheduleFour {
+class CourseScheduleIV {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
         List<Boolean> result = new ArrayList<>();
         List<Integer>[] graph = new ArrayList[numCourses];
