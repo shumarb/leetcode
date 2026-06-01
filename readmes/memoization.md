@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/42.
+Completed: 6/43.
 
 ## Submissions
 ### Easy
@@ -25,3 +25,8 @@ Completed: 5/42.
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------|--------|
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java) | 36ms    | 82.14% |
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                   | 1ms     | 99.36% |
+
+### Hard
+| Question                                                                    | Submission                                                                           | Runtime | Rank   |
+|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------|--------|
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java) | 13ms    | 27.09% |

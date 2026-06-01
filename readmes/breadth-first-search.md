@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/259.
+Completed: 92/259.
 
 ## Submissions
 ### Easy
@@ -113,5 +113,6 @@ Completed: 91/259.
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29% |
 | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnectionTwo.java)              | 92ms    | 6.03%  |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java)   | 17ms    | 39.28% |
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java)                       | 13ms    | 27.09% |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40% |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordLadder.java)                          | 65ms    | 86.22% |

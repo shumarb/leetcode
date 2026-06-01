@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/654.
+Completed: 55/654.
 
 ## Submissions
 ### Easy
@@ -74,3 +74,8 @@ Completed: 54/654.
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                    | 0ms     | 100%   |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsTwo.java)                                 | 0ms     | 100%   |
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                      | 1ms     | 99.36% |
+
+### Hard
+| Question                                                                    | Submission                                                                           | Runtime | Rank   |
+|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------|--------|
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java) | 13ms    | 27.09% |
