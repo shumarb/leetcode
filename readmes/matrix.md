@@ -108,5 +108,5 @@ Completed: 87/276.
 ### Hard
 | Question                                                                        | Submission                                                                              | Runtime | Rank   |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java)    | 13ms    | 27.09% |
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java)    | 12ms    | 30.76% |
 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsThree.java) | 0ms     | 100%   |

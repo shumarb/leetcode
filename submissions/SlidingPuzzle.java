@@ -57,6 +57,15 @@ class SlidingPuzzle {
         return -1;
     }
 
+    private boolean isValid(int[][] grid) {
+        return grid[0][0] == 1
+                && grid[0][1] == 2
+                && grid[0][2] == 3
+                && grid[1][0] == 4
+                && grid[1][1] == 5
+                && grid[1][2] == 0;
+    }
+
     private List<int[][]> getNext(int[][] board, Set<String> isVisited) {
         List<int[][]> result = new ArrayList<>();
         int column = 0;
@@ -96,7 +105,6 @@ class SlidingPuzzle {
                          int toRow, int toColumn) {
 
         int[][] next = new int[2][3];
-        int[] arr = new int[6];
         int k = 0;
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 3; j++) {
@@ -108,25 +116,13 @@ class SlidingPuzzle {
         next[fromRow][fromColumn] = next[toRow][toColumn];
         next[toRow][toColumn] = temp;
 
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 3; j++) {
-                arr[k++] = next[i][j];
-            }
-        }
-
-        String key = Arrays.toString(arr);
+        String key = getKey(next);
         if (isVisited.add(key)) {
             result.add(next);
+            if (isValid(next)) {
+                return;
+            }
         }
-    }
-
-    private boolean isValid(int[][] grid) {
-        return grid[0][0] == 1
-                && grid[0][1] == 2
-                && grid[0][2] == 3
-                && grid[1][0] == 4
-                && grid[1][1] == 5
-                && grid[1][2] == 0;
     }
 
     private String getKey(int[][] board) {
