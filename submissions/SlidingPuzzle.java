@@ -37,16 +37,6 @@ class SlidingPuzzle {
                 }
 
                 for (int[][] next: getNext(top, isVisited)) {
-                    if (isValid(next)) {
-                        result++;
-
-                        if (isTest) {
-                            System.out.println(" * found @ level " + result);
-                        }
-
-                        return result;
-                    }
-
                     queue.offer(next);
                 }
             }
@@ -85,7 +75,7 @@ class SlidingPuzzle {
             getNext(result, isVisited, board, row, column, row - 1, column);
         }
 
-        if (row + 1 < 2) {
+        if (row + 1 < board.length) {
             getNext(result, isVisited, board, row, column, row + 1, column);
         }
 
@@ -93,7 +83,7 @@ class SlidingPuzzle {
             getNext(result, isVisited, board, row, column, row, column - 1);
         }
 
-        if (column + 1 < 3) {
+        if (column + 1 < board[0].length) {
             getNext(result, isVisited, board, row, column, row, column + 1);
         }
 
@@ -104,13 +94,7 @@ class SlidingPuzzle {
                          int[][] board, int fromRow, int fromColumn,
                          int toRow, int toColumn) {
 
-        int[][] next = new int[2][3];
-        int k = 0;
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 3; j++) {
-                next[i][j] = board[i][j];
-            }
-        }
+        int[][] next = {board[0].clone(), board[1].clone()};
 
         int temp = next[fromRow][fromColumn];
         next[fromRow][fromColumn] = next[toRow][toColumn];
@@ -126,15 +110,14 @@ class SlidingPuzzle {
     }
 
     private String getKey(int[][] board) {
-        int[] arr = new int[6];
-        int j = 0;
+        StringBuilder key = new StringBuilder();
 
         for (int[] row: board) {
             for (int e: row) {
-                arr[j++] = e;
+                key.append(e);
             }
         }
 
-        return Arrays.toString(arr);
+        return key.toString();
     }
 }
