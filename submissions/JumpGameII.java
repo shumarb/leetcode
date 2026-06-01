@@ -35,15 +35,6 @@ class JumpGameII {
                 int maximumJumps = nums[index];
                 while (maximumJumps > 0) {
                     int nextIndex = index + maximumJumps--;
-                    if (nextIndex == n - 1) {
-                        result++;
-                        if (isTest) {
-                            System.out.println(" * result @ level " + result);
-                        }
-
-                        return result;
-                    }
-
                     if (nextIndex < n && !isVisited[nextIndex]) {
                         queue.offer(nextIndex);
                         isVisited[nextIndex] = true;
