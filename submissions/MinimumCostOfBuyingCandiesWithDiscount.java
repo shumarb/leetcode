@@ -2,57 +2,39 @@
 
 class MinimumCostOfBuyingCandiesWithDiscount {
     public int minimumCost(int[] cost) {
-        int minimumCost = 0;
-
-        // 1. Edge case: There are up to 2 candies, so buy it all.
-        if (cost.length <= 2) {
-            for (int price: cost) {
-                minimumCost += price;
-            }
-            return minimumCost;
-        }
-
         boolean isTest = false;
+        int count = 0;
+        int result = 0;
 
-        Arrays.sort(cost);
+        sort(cost);
+
+        for (int i = cost.length - 1; i >= 0; i--) {
+            // 1. Among 3 consecutive values, count the last 2 to get the first one for free.
+            if (++count == 3) {
+                count = 0;
+            } else {
+                result += cost[i];
+            }
+        }
         if (isTest) {
-            System.out.println("sorted cost: " + Arrays.toString(cost));
-            System.out.println("-------------------------------------------------------------------------------------");
+            System.out.println("sorted cost: " + Arrays.toString(cost) + "\nresult: " + result);
         }
 
-        int i = 0;
-        for (i = cost.length - 1; i >= 2; i -= 3) {
-            if (isTest) {
-                System.out.println(" * indices: " + i + ", " + (i - 1) + ", " + (i - 2));
-                System.out.println(" * elements: " + cost[i] + ", " + cost[i - 1] + ", " + cost[i - 2]);
-            }
+        return result;
+    }
 
-            if (cost[i - 2] <= cost[i - 1]) {
-                if (isTest) {
-                    System.out.println(" * adding to minimumCost:");
-                    System.out.println(" ** indices: " + (i - 1) + ", " + i);
-                    System.out.println(" ** elements: " + cost[i - 1] + ", " + cost[i]);
-                }
-                minimumCost += (cost[i] + cost[i - 1]);
-                if (isTest) {
-                    System.out.println(" *** so far, minimumCost: " + minimumCost);
-                }
-            }
+    private void sort(int[] cost) {
+        int[] count = new int[101];
+        int j = 0;
 
-            if (isTest) {
-                System.out.println("-------------------------------------------------------------------------------------");
+        for (int e: cost) {
+            count[e]++;
+        }
+
+        for (int i = 1; i < count.length; i++) {
+            while (count[i]-- > 0) {
+                cost[j++] = i;
             }
         }
-
-        while (i >= 0) {
-            minimumCost += cost[i--];
-        }
-
-        if (isTest) {
-            System.out.println("i: " + i);
-            System.out.println("minimum cost: " + minimumCost);
-        }
-
-        return minimumCost;
     }
 }
