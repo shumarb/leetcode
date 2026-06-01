@@ -1,4 +1,6 @@
-class UglyNumberTwo {
+// Question: https://leetcode.com/problems/ugly-number-ii/description/
+
+class UglyNumberII {
     public int nthUglyNumber(int n) {
         int[] uglyNumbers = new int[n];
         int numberOfMultiplesOf2 = 0;

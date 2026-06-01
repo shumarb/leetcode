@@ -1,6 +1,6 @@
-// Question:
+// Question: https://leetcode.com/problems/wiggle-sort-ii/description/
 
-class WiggleSortTwo {
+class WiggleSortII {
     public void wiggleSort(int[] nums) {
         boolean isTest = false;
         int[] sorted = sort(nums.clone());
