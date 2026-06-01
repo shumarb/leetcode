@@ -5,6 +5,7 @@ class SlidingPuzzle {
         Queue<String> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
         String target = "123450";
+        StringBuilder key = new StringBuilder();
         boolean isTest = false;
         int[][] neighbours = {
                 {1, 3},
@@ -16,9 +17,13 @@ class SlidingPuzzle {
         };
         int result = 0;
 
-        String key = getKey(board);
-        queue.offer(key);
-        isVisited.add(key);
+        for (int[] row: board) {
+            for (int e: row) {
+                key.append(e);
+            }
+        }
+        queue.offer(key.toString());
+        isVisited.add(key.toString());
 
         while (!queue.isEmpty()) {
             if (isTest) {
@@ -59,17 +64,5 @@ class SlidingPuzzle {
         digits[to] = temp;
 
         return new String(digits);
-    }
-
-    private String getKey(int[][] board) {
-        StringBuilder key = new StringBuilder();
-
-        for (int[] row: board) {
-            for (int e: row) {
-                key.append(e);
-            }
-        }
-
-        return key.toString();
     }
 }
