@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/jump-game-ii/description/
 
-class JumpGameII class Solution {
+class JumpGameII {
     public int jump(int[] nums) {
         Queue<Integer> queue = new LinkedList<>();
         int n = nums.length;
@@ -33,8 +33,8 @@ class JumpGameII class Solution {
                 }
 
                 int maximumJumps = nums[index];
-                for (int i = 1; i <= maximumJumps; i++) {
-                    int nextIndex = index + i;
+                while (maximumJumps > 0) {
+                    int nextIndex = index + maximumJumps--;
                     if (nextIndex == n - 1) {
                         result++;
                         if (isTest) {
