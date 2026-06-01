@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 92/259.
+Completed: 93/259.
 
 ## Submissions
 ### Easy
@@ -62,7 +62,7 @@ Completed: 92/259.
 | [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfCompleteComponents.java)              | 9ms     | 81.22% |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseSchedule.java)                                  | 6ms     | 74.22% |
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleTwo.java)                               | 4ms     | 93.45% |
-| [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleIV.java)                           | 11ms    | 99.22% |
+| [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleIV.java)                                | 11ms    | 99.22% |
 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeepestLeavesSum.java)                                | 1ms     | 100%   |
 | [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCyclesInTwoDGrid.java)                          | 24ms    | 22.44% | 
 | [Employee Importance](https://leetcode.com/problems/employee-importance/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EmployeeImportance.java)                              | 4ms     | 99.25% |
@@ -100,6 +100,7 @@ Completed: 92/259.
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RottingOranges.java)                                  | 2ms     | 90.26% |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11% |
 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestPathInBinaryMatrix.java)                      | 15ms    | 61.62% |
+| [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfNodesWithEvenValuedGrandparent.java)             | 1ms     | 100%   |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                               | 2ms     | 76.85% |
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                  | 128ms   | 11.37% |
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 6ms     | 68.02% | 
