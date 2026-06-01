@@ -2,33 +2,34 @@
 
 class SlidingPuzzle {
     public int slidingPuzzle(int[][] board) {
-        Queue<int[][]> queue = new LinkedList<>();
+        Queue<String> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
+        String target = "123450";
         boolean isTest = false;
+        int[][] neighbours = {
+                {1, 3},
+                {0, 4, 2},
+                {1, 5},
+                {0, 4},
+                {1, 3, 5},
+                {2, 4}
+        };
         int result = 0;
 
-        queue.offer(board);
-        isVisited.add(getKey(board));
+        String key = getKey(board);
+        queue.offer(key);
+        isVisited.add(key);
 
         while (!queue.isEmpty()) {
             if (isTest) {
-                System.out.println("------------------------\nlevel " + result + ":");
-                for (int[][] e: queue) {
-                    for (int i = 0; i < e.length; i++) {
-                        for (int j = 0; j < e[0].length; j++) {
-                            System.out.print(" " + e[i][j] + " ");
-                        }
-                        System.out.println();
-                    }
-                    System.out.println();
-                }
+                System.out.println("------------------------\nlevel " + result + ": " + queue);
             }
 
             int size = queue.size();
             while (size-- > 0) {
-                int[][] top = queue.poll();
+                String source = queue.poll();
 
-                if (isValid(top)) {
+                if (source.equals(target)) {
                     if (isTest) {
                         System.out.println(" * found @ level " + result);
                     }
@@ -36,8 +37,12 @@ class SlidingPuzzle {
                     return result;
                 }
 
-                for (int[][] next: getNext(top, isVisited)) {
-                    queue.offer(next);
+                int zeroIndex = source.indexOf('0');
+                for (int nextIndex: neighbours[zeroIndex]) {
+                    String next = swap(source, zeroIndex, nextIndex);
+                    if (isVisited.add(next)) {
+                        queue.offer(next);
+                    }
                 }
             }
 
@@ -47,66 +52,13 @@ class SlidingPuzzle {
         return -1;
     }
 
-    private boolean isValid(int[][] grid) {
-        return grid[0][0] == 1
-                && grid[0][1] == 2
-                && grid[0][2] == 3
-                && grid[1][0] == 4
-                && grid[1][1] == 5
-                && grid[1][2] == 0;
-    }
+    private String swap(String s, int from, int to) {
+        char[] digits = s.toCharArray();
+        char temp = digits[from];
+        digits[from] = digits[to];
+        digits[to] = temp;
 
-    private List<int[][]> getNext(int[][] board, Set<String> isVisited) {
-        List<int[][]> result = new ArrayList<>();
-        int column = 0;
-        int row = 0;
-
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                if (board[i][j] == 0) {
-                    column = j;
-                    row = i;
-                    break;
-                }
-            }
-        }
-
-        if (row - 1 >= 0) {
-            getNext(result, isVisited, board, row, column, row - 1, column);
-        }
-
-        if (row + 1 < board.length) {
-            getNext(result, isVisited, board, row, column, row + 1, column);
-        }
-
-        if (column - 1 >= 0) {
-            getNext(result, isVisited, board, row, column, row, column - 1);
-        }
-
-        if (column + 1 < board[0].length) {
-            getNext(result, isVisited, board, row, column, row, column + 1);
-        }
-
-        return result;
-    }
-
-    private void getNext(List<int[][]> result, Set<String> isVisited,
-                         int[][] board, int fromRow, int fromColumn,
-                         int toRow, int toColumn) {
-
-        int[][] next = {board[0].clone(), board[1].clone()};
-
-        int temp = next[fromRow][fromColumn];
-        next[fromRow][fromColumn] = next[toRow][toColumn];
-        next[toRow][toColumn] = temp;
-
-        String key = getKey(next);
-        if (isVisited.add(key)) {
-            result.add(next);
-            if (isValid(next)) {
-                return;
-            }
-        }
+        return new String(digits);
     }
 
     private String getKey(int[][] board) {

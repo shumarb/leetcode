@@ -78,4 +78,4 @@ Completed: 55/654.
 ### Hard
 | Question                                                                    | Submission                                                                           | Runtime | Rank   |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java) | 9ms     | 62.17% |
+| [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingPuzzle.java) | 6ms     | 97.77% |
