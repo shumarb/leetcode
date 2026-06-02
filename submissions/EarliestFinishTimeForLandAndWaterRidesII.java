@@ -1,6 +1,6 @@
-// Question: https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/
+// Question: https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/
 
-class EarliestFinishTimeForLandAndWaterRidesI {
+class EarliestFinishTimeForLandAndWaterRidesII {
     public int earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
         return Math.min(
                 solve(landStartTime, landDuration, waterStartTime, waterDuration),

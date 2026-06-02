@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 88/464.
+Completed: 89/464.
 
 ## Submissions
 ### Easy
@@ -21,7 +21,7 @@ Completed: 88/464.
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                    | 11ms    | 35.51% |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                     | 1ms     | 100%   |
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java)                      | 1ms     | 97.29% |
-| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)          | 4ms     | 26.19% |
+| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)          | 1ms     | 100%   |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestOddNumberInString.java)                         | 1ms     | 99.71% |
 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                         | 38ms    | 6.78%  |
@@ -69,6 +69,7 @@ Completed: 88/464.
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                   | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)            | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)            | 7ms     | 100%   |
+| [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesII.java)          | 2ms     | 100%   |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                 | 56ms    | 86.73% |
 | [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java) | 2ms     | 58.72% |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                 | 11ms    | 99.39% |

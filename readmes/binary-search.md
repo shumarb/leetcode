@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/339.
+Completed: 66/339.
 
 ## Submissions
 ### Easy
@@ -22,7 +22,7 @@ Completed: 65/339.
 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteTreeNodes.java)                          | 0ms     | 100%   |
 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNegativeNumbersInASortedMatrix.java)             | 0ms     | 100%   |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100%   |
-| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)         | 4ms     | 26.19% |
+| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)         | 1ms     | 100%   |
 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                   | 3ms     | 99.76% |
 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSmallestLetterGreaterThanTarget.java)             | 0ms     | 100%   |
 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTargetIndicesAfterSortingArray.java)              | 0ms     | 100%   |
@@ -50,6 +50,7 @@ Completed: 65/339.
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java) | 810ms   | 7.09%  |
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)          | 43ms    | 53.25% |
 | [Count K-th Roots in an Range](https://leetcode.com/problems/count-k-th-roots-in-a-range/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountKthRootsInARange.java)                           | 1ms     | 99.98% |
+| [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesII.java)        | 2ms     | 100%   |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)  | 0ms     | 100%   |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                            | 4ms     | 96.68% |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)  | 35ms    | 27.51% |

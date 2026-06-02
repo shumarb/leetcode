@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 171/518.
+Completed: 172/518.
 
 ## Submissions
 ### Easy
@@ -30,7 +30,7 @@ Completed: 171/518.
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)                   | 1ms     | 100%   |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                  | 20ms    | 49.03% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
-| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)              | 4ms     | 26.19% |
+| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)              | 1ms     | 100%   |
 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                        | 3ms     | 99.76% |
 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingElements.java)                                  | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindResultantArraysAfterRemovingAnagrams.java)             | 1ms     | 100%   |
@@ -121,6 +121,7 @@ Completed: 171/518.
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)           | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)           | 7ms     | 100%   |
 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DividePlayersIntoTeamsOfEqualSkill.java)               | 5ms     | 96.36% |
+| [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesII.java)         | 2ms     | 100%   |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllDuplicatesInAnArray.java)                       | 5ms     | 94.05% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                             | 4ms     | 96.68% |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                | 56ms    | 86.73% |
