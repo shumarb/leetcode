@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 170/518.
+Completed: 171/518.
 
 ## Submissions
 ### Easy
@@ -30,6 +30,7 @@ Completed: 170/518.
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)                   | 1ms     | 100%   |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                  | 20ms    | 49.03% |
 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteGreatestValueInEachRow.java)                         | 4ms     | 91.17% |
+| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)              | 4ms     | 26.19% |
 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FairCandySwap.java)                                        | 3ms     | 99.76% |
 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMissingElements.java)                                  | 1ms     | 100%   |
 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindResultantArraysAfterRemovingAnagrams.java)             | 1ms     | 100%   |
@@ -96,7 +97,7 @@ Completed: 170/518.
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SquaresOfASortedArray.java)                                | 1ms     | 100%   |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                             | 2ms     | 76.03% |
 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThirdMaximumNumber.java)                                   | 1ms     | 97.13% |
-| [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                       | 2ms     | 99.98% |
+| [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                     | 2ms     | 99.98% |
 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformArrayByParity.java)                               | 1ms     | 100%   |
 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                       | 1ms     | 39.67% |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)                                         | 1ms     | 99.65% |

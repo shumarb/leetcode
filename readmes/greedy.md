@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/464.
+Completed: 88/464.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 87/464.
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                    | 11ms    | 35.51% |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                     | 1ms     | 100%   |
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java)                      | 1ms     | 97.29% |
+| [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)          | 4ms     | 26.19% |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestOddNumberInString.java)                         | 1ms     | 99.71% |
 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPerimeterTriangle.java)                         | 38ms    | 6.78%  |
@@ -48,7 +49,7 @@ Completed: 87/464.
 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeTheArrayIncreasing.java)        | 3ms     | 87.17% |
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)           | 2ms     | 98.90% |
 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfFourDigitNumberAfterSplittingDigits.java)  | 0ms     | 100%   |
-| [Minimum Time to Type Words Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToTypeWordUsingSpecialTypewriter.java)                    | 0ms     | 100%   |
+| [Minimum Time to Type Words Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToTypeWordUsingSpecialTypewriter.java)      | 0ms     | 100%   |
 | [Partition Array Into Three Equal Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayIntoThreePartsWithEqualSum.java)         | 2ms     | 54.80% |
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)            | 2ms     | 72.81% |
 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitWithMinimumSum.java)                              | 0ms     | 100%   |
