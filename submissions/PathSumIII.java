@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class PathSumThree {
+class PathSumIII {
     private int count = 0;
 
     public int pathSum(TreeNode root, int targetSum) {

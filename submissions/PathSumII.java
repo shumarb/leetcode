@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class PathSumTwo {
+class PathSumII {
     private List<List<Integer>> result = new ArrayList<>();
     private boolean isTest = false;
 
