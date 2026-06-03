@@ -33,25 +33,23 @@ class Cashier {
     }
 
     public double getBill(int[] product, int[] amount) {
+        boolean isDiscountApplied = false;
         double bill = 0;
 
         for (int i = 0; i < amount.length; i++) {
             bill += amount[i] * price[product[i]];
         }
-        if (++totalOrders % n == 0 && discount > 0) {
-            double reduction = bill * ((double) discount) / 100.0;
-            if (isTest) {
-                System.out.println("apply " + discount + "% discount");
-                System.out.println(" * before, bill: " + bill + "\n * reduction: " + reduction);
-            }
-            bill -= reduction;
-            if (isTest) {
-                System.out.println(" * after, bill: " + bill);
-            }
+        if (++totalOrders % n == 0) {
+            isDiscountApplied = true;
+            bill = bill * ((double) (100.0 - discount) / 100.0);
+            totalOrders = 0;
         }
         if (isTest) {
             System.out.println("------------------------------------------------------------------------------------------");
             System.out.println("product: " + Arrays.toString(product) + ", amount: " + Arrays.toString(amount) + "\nbill: " + bill);
+            if (isDiscountApplied) {
+                System.out.println(" * applied " + discount + "% discount");
+            }
         }
 
         return bill;
