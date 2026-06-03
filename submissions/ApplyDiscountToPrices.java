@@ -39,8 +39,8 @@ class ApplyDiscountToPrices {
         int countDigits = 0;
 
         for (char e: token.toCharArray()) {
-            if (e == '$') {
-                countDollar++;
+            if (e == '$' && ++countDollar > 1) {
+                return false;
             } else if (Character.isDigit(e)) {
                 countDigits++;
             }
