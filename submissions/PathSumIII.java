@@ -16,40 +16,34 @@
  * }
  */
 class PathSumIII {
-    private int count = 0;
+    private int result;
+    private long target;
 
-    public int pathSum(TreeNode root, int targetSum) {
-        if (root == null) {
-            return 0;
-        }
-
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-
-        while (!stack.isEmpty()) {
-            TreeNode current = stack.pop();
-            if (current.left != null) {
-                stack.push(current.left);
+    private void dfs(TreeNode node, long sum) {
+        if (node != null) {
+            sum += node.val;
+            if (sum == target) {
+                result++;
             }
-            if (current.right != null) {
-                stack.push(current.right);
-            }
-            findPath(current, (long) targetSum);
-        }
 
-        return count;
+            dfs(node.left, sum);
+            dfs(node.right, sum);
+        }
     }
 
-    private void findPath(TreeNode node, long targetSum) {
-        if (node == null) {
-            return;
+    private void dfs(TreeNode node) {
+        if (node != null) {
+            dfs(node, 0);
+            dfs(node.left);
+            dfs(node.right);
         }
+    }
 
-        if ((long) node.val == targetSum) {
-            count++;
-        }
+    public int pathSum(TreeNode root, int targetSum) {
+        result = 0;
+        target = targetSum;
+        dfs(root);
 
-        findPath(node.left, targetSum - node.val);
-        findPath(node.right, targetSum - node.val);
+        return result;
     }
 }

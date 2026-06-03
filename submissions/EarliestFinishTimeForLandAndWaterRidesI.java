@@ -9,19 +9,22 @@ class EarliestFinishTimeForLandAndWaterRidesI {
     }
 
     private int solve(int[] firstStart, int[] firstDuration, int[] secondStart, int[] secondDuration) {
-        int finish1 = Integer.MAX_VALUE;
-        int finish2 = Integer.MAX_VALUE;
+        int minimumFirstFinishTime = Integer.MAX_VALUE;
+        int minimumSecondFinishTime = Integer.MAX_VALUE;
 
         for (int i = 0; i < firstStart.length; i++) {
-            finish1 = Math.min(finish1, firstStart[i] + firstDuration[i]);
+            minimumFirstFinishTime = Math.min(
+                    minimumFirstFinishTime,
+                    firstStart[i] + firstDuration[i]
+            );
         }
         for (int i = 0; i < secondStart.length; i++) {
-            finish2 = Math.min(
-                    finish2,
-                    Math.max(finish1, secondStart[i]) + secondDuration[i]
+            minimumSecondFinishTime = Math.min(
+                    minimumSecondFinishTime,
+                    Math.max(minimumFirstFinishTime, secondStart[i]) + secondDuration[i]
             );
         }
 
-        return finish2;
+        return minimumSecondFinishTime;
     }
 }
