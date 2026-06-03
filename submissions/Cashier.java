@@ -23,13 +23,9 @@ class Cashier {
             price[products[i]] = prices[i];
         }
         if (isTest) {
-            print();
+            System.out.println("------------------------------------------------------------------------------------------");
+            System.out.println("price: " + Arrays.toString(Arrays.copyOfRange(price, 0, largest + 1)));
         }
-    }
-
-    private void print() {
-        System.out.println("------------------------------------------------------------------------------------------");
-        System.out.println("price: " + Arrays.toString(Arrays.copyOfRange(price, 0, largest + 1)));
     }
 
     public double getBill(int[] product, int[] amount) {
