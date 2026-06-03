@@ -4,9 +4,9 @@ class Cashier {
     private boolean isTest;
     private int[] price;
     private int[] product;
-    private int totalCustomers;
     private int discount;
     private int largest;
+    private int totalOrders;
     private long n;
 
     public Cashier(int n, int discount, int[] products, int[] prices) {
@@ -15,14 +15,13 @@ class Cashier {
         price = new int[1001];
         this.discount = discount;
         this.n = n;
-        totalCustomers = 0;
+        totalOrders = 0;
 
         Arrays.fill(price, -1);
         for (int i = 0; i < prices.length; i++) {
             largest = Math.max(largest, products[i]);
             price[products[i]] = prices[i];
         }
-
         if (isTest) {
             print();
         }
@@ -35,12 +34,11 @@ class Cashier {
 
     public double getBill(int[] product, int[] amount) {
         double bill = 0;
-        totalCustomers++;
 
         for (int i = 0; i < amount.length; i++) {
             bill += amount[i] * price[product[i]];
         }
-        if (discount > 0 && totalCustomers % n == 0) {
+        if (++totalOrders % n == 0 && discount > 0) {
             double reduction = bill * ((double) discount) / 100.0;
             if (isTest) {
                 System.out.println("apply " + discount + "% discount");
