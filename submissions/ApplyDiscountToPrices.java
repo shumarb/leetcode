@@ -14,7 +14,7 @@ class ApplyDiscountToPrices {
         }
         for (int i = 0; i < tokens.length; i++) {
             String token = tokens[i];
-            if (token.length() > 1 && isValid(token)) {
+            if (token.length() > 1 && token.charAt(0) == '$' && isValid(token)) {
                 tokens[i] = update(tokens[i], discount);
             }
         }
@@ -31,10 +31,6 @@ class ApplyDiscountToPrices {
     }
 
     private boolean isValid(String token) {
-        if (token.indexOf('$') != 0) {
-            return false;
-        }
-
         int countDollar = 0;
         int countDigits = 0;
 
@@ -46,7 +42,7 @@ class ApplyDiscountToPrices {
             }
         }
 
-        return countDollar == 1 && countDigits == token.length() - 1;
+        return countDigits == token.length() - 1;
     }
 
     private String update(String token, int discount) {
