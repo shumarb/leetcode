@@ -2,18 +2,18 @@
 
 class Cashier {
     private boolean isTest;
+    private double discountedRate;
     private int[] price;
     private int[] product;
-    private int discount;
     private int largest;
+    private int n;
     private int totalOrders;
-    private long n;
 
     public Cashier(int n, int discount, int[] products, int[] prices) {
+        discountedRate = 1.0 - (discount / 100.0);
         isTest = false;
         largest = 0;
-        price = new int[1001];
-        this.discount = discount;
+        price = new int[201];
         this.n = n;
         totalOrders = 0;
 
@@ -31,20 +31,21 @@ class Cashier {
     public double getBill(int[] product, int[] amount) {
         boolean isDiscountApplied = false;
         double bill = 0;
+        int total = amount.length;
 
-        for (int i = 0; i < amount.length; i++) {
+        for (int i = 0; i < total; i++) {
             bill += amount[i] * price[product[i]];
         }
         if (++totalOrders % n == 0) {
+            bill *= discountedRate;
             isDiscountApplied = true;
-            bill = bill * ((double) (100.0 - discount) / 100.0);
             totalOrders = 0;
         }
         if (isTest) {
             System.out.println("------------------------------------------------------------------------------------------");
             System.out.println("product: " + Arrays.toString(product) + ", amount: " + Arrays.toString(amount) + "\nbill: " + bill);
             if (isDiscountApplied) {
-                System.out.println(" * applied " + discount + "% discount");
+                System.out.println(" * applied discount");
             }
         }
 
