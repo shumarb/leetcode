@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 42/134.
+Completed: 43/134.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 42/134.
 ### Medium
 | Question                                                                                                                                | Submission                                                                                        | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------|--------|
+| [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Cashier.java)                    | 119ms   | 84.92% |
 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)   | 16ms    | 99.65% |
 | [Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CBTInserter.java)                | 15ms    | 74.59% |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)             | 162ms   | 94.15% |

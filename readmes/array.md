@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 683/2170.
+Completed: 684/2170.
 
 ## Submissions
 ### Easy
@@ -406,6 +406,7 @@ Completed: 683/2170.
 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddMinimumNumberOfRungs.java)                                         | 1ms     | 100%   |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                           | 11ms    | 98.01% |
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                                | 76ms    | 25.33% |
+| [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Cashier.java)                                                         | 119ms   | 84.92% |
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100%   |
 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                                            | 1ms     | 98.50% |
 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                                            | 39ms    | 69.34% |
