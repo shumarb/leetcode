@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/464.
+Completed: 90/464.
 
 ## Submissions
 ### Easy
@@ -90,6 +90,7 @@ Completed: 89/464.
 | [Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeElementsAfterOneReplacement.java)  | 42ms    | 47.24% |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                           | 5ms     | 37.59% |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                     | 245ms   | 26.60% |
+| [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                 | 52ms    | 12%    |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                     | 11ms    | 96.62% |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                  | 1ms     | 51.13% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                 | 10ms    | 90.87% |

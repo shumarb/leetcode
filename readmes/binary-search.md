@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 66/339.
+Completed: 67/339.
 
 ## Submissions
 ### Easy
@@ -66,6 +66,7 @@ Completed: 66/339.
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                    | 38ms    | 64.87% |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                    | 36ms    | 95.20% |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                 | 24ms    | 66.86% |
+| [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)               | 52ms    | 12%    |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                          | 1ms     | 99.72% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                                      | 19ms    | 83.88% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                    | 55ms    | 74.33% |

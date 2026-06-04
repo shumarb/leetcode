@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 684/2170.
+Completed: 685/2170.
 
 ## Submissions
 ### Easy
@@ -572,6 +572,7 @@ Completed: 684/2170.
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                                   | 245ms   | 26.60% |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 4ms     | 100%   |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                                         | 3ms     | 96.09% |
+| [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                               | 52ms    | 12%    |
 | [Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeAdjacentEqualElements.java)                                      | 72ms    | 40.36% |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                                  | 7ms     | 98.89% |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                                   | 11ms    | 96.62% |
