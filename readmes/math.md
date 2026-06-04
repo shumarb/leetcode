@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 206/678.
+Completed: 207/678.
 
 ## Submissions
 ### Easy
@@ -221,6 +221,7 @@ Completed: 206/678.
 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfTwoIntegers.java)                                            | 0ms     | 100%   |
 | [Super Pow](https://leetcode.com/problems/super-pow/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SuperPow.java)                                                    | 32ms    | 5.10%  |
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)              | 141ms   | 42.47% |
+| [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)                              | 27ms    | 59.11% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberII.java)                                                | 2ms     | 99.46% | 
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                                 | 0ms     | 100%   |
 

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 37/146.
+Completed: 38/147.
 
 ## Submissions
 ### Easy
@@ -57,3 +57,4 @@ Completed: 37/146.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                      | 2ms     | 99.72% |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                     | 5ms     | 37.59% |
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65% |
+| [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)              | 27ms    | 59.11% |

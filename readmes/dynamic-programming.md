@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/654.
+Completed: 56/654.
 
 ## Submissions
 ### Easy
@@ -70,7 +70,8 @@ Completed: 55/654.
 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByThePowerValue.java)                    | 36ms    | 82.14% |
 | [Target Sum](https://leetcode.com/problems/target-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TargetSum.java)                                      | 113ms   | 39.48% |
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java) | 141ms   | 42.47% | 
-| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberII.java)                                   | 2ms     | 99.46% | 
+| [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)                 | 27ms    | 59.11% |
+| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberII.java)                                   | 2ms     | 99.46% | 
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                    | 0ms     | 100%   |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsII.java)                                  | 0ms     | 100%   |
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                      | 1ms     | 99.36% |
