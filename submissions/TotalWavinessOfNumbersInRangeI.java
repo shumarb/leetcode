@@ -20,17 +20,20 @@ class TotalWavinessOfNumbersInRangeI {
     }
 
     private int countWaviness(int number) {
-        char[] digits = Integer.toString(number).toCharArray();
-        int n = digits.length;
+        int last = number % 10;
         int result = 0;
+        number /= 10;
+        int current = number % 10;
+        number /= 10;
 
-        for (int i = 1; i < n - 1; i++) {
-            if (
-                    (digits[i] > digits[i - 1] && digits[i] > digits[i + 1])
-                            || (digits[i] < digits[i - 1] && digits[i] < digits[i + 1])
-            ) {
+        while (number > 0) {
+            int next = number % 10;
+            if ((current < last && current < next) || (current > last && current > next)) {
                 result++;
             }
+            last = current;
+            current = next;
+            number /= 10;
         }
 
         return result;

@@ -103,7 +103,7 @@ Completed: 87/276.
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                   | 13ms    | 99.35% |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                              | 2ms     | 76.85% |
 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePathsII.java)                                  | 0ms     | 100%   |
-| [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                     | 76ms    | 96.70% |
+| [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                     | 76ms    | 96.95% |
 
 ### Hard
 | Question                                                                        | Submission                                                                            | Runtime | Rank   |
