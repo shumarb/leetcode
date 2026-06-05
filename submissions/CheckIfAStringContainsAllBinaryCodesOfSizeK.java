@@ -3,15 +3,14 @@
 class CheckIfAStringContainsAllBinaryCodesOfSizeK {
     public boolean hasAllCodes(String s, int k) {
         Set<String> set = new HashSet<>();
-        boolean isTest = false;
+        int requiredSize = (int) Math.pow(2.0, k);
 
         for (int i = 0; i <= s.length() - k; i++) {
-            set.add(s.substring(i, i + k));
-        }
-        if (isTest) {
-            System.out.println("set: " + set);
+            if (set.add(s.substring(i, i + k)) && set.size() == requiredSize) {
+                return true;
+            }
         }
 
-        return set.size() == (int) Math.pow(2, k);
+        return false;
     }
 }
