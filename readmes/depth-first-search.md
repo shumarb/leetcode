@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 110/338.
+Completed: 111/338.
 
 ## Submissions
 ### Easy
@@ -125,6 +125,7 @@ Completed: 110/338.
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                  | 128ms   | 11.37% |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                        | 0ms     | 100%   | 
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 6ms     | 68.02% | 
+| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterAndJugProblem.java)                              | 4ms     | 9.59%  |
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                      | 76ms    | 96.95% |
 
 ### Hard

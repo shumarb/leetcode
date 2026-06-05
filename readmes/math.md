@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 207/678.
+Completed: 208/678.
 
 ## Submissions
 ### Easy
@@ -224,6 +224,7 @@ Completed: 207/678.
 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)                              | 12ms    | 94.05% |
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberII.java)                                                | 2ms     | 99.46% | 
 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniquePaths.java)                                                 | 0ms     | 100%   |
+| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterAndJugProblem.java)                                          | 4ms     | 9.59%  |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank   |
