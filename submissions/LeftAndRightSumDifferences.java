@@ -2,19 +2,26 @@
 
 class LeftAndRightSumDifferences {
     public int[] leftRightDifference(int[] nums) {
-        int leftSum = 0;
-        int rightSum = 0;
-        for (int element: nums) {
-            rightSum += element;
+        boolean isTest = false;
+        int n = nums.length;
+        int[] leftSum = new int[n];
+        int[] result = new int[n];
+        int[] rightSum = new int[n];
+
+        for (int i = 1; i < n; i++) {
+            leftSum[i] = nums[i - 1] + leftSum[i - 1];
+        }
+        for (int i = n - 2; i >= 0; i--) {
+            rightSum[i] = nums[i + 1] + rightSum[i + 1];
+        }
+        for (int i = 0; i < n; i++) {
+            result[i] = Math.abs(leftSum[i] - rightSum[i]);
+        }
+        if (isTest) {
+            System.out.println("leftSum: " + Arrays.toString(leftSum) + "\nnums:   " + Arrays.toString(nums));
+            System.out.println("rightSum: " + Arrays.toString(rightSum) + "\nresult: " + Arrays.toString(result));
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            int value = nums[i];
-            rightSum -= value;
-            nums[i] = Math.abs(leftSum - rightSum);
-            leftSum += value;
-        }
-
-        return nums;
+        return result;
     }
 }
