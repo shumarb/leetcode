@@ -2,19 +2,16 @@
 
 class ExactlyOneConsecutiveSetBitsPair {
     public boolean consecutiveSetBits(int n) {
-        boolean isTest = false;
-        char[] bits = Integer.toBinaryString(n).toCharArray();
         int countConsecutiveSetBits = 0;
+        int last = -1;
 
-        if (isTest) {
-            System.out.println("n: " + n + "\nbits: " + Arrays.toString(bits));
-        }
-        for (int i = 1; i < bits.length; i++) {
-            if (bits[i] == '1' && bits[i - 1] == '1') {
-                if (++countConsecutiveSetBits > 1) {
-                    return false;
-                }
+        while (n > 0) {
+            int bit = n % 2;
+            if (last == 1 && bit == 1 && ++countConsecutiveSetBits > 1) {
+                return false;
             }
+            last = bit;
+            n /= 2;
         }
 
         return countConsecutiveSetBits == 1;
