@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 332/873.
+Completed: 333/875.
 
 ## Submissions
 ### Easy
@@ -307,6 +307,7 @@ Completed: 332/873.
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                                       | 7ms     | 96.05% |
 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromicSubstrings.java)                                        | 5ms     | 97.61% |
 | [Partition String](https://leetcode.com/problems/partition-string/description/)                                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionString.java)                                              | 165ms   | 82.28% |
+| [Password Strength](https://leetcode.com/problems/password-strength/description/)                                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PasswordStrength.java)                                             | 3ms     | 99.87% |
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java) | 279ms   | 66.51% |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                          | 6ms     | 86.31% |
 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrintWordsVertically.java)                                         | 1ms     | 80.69% |
