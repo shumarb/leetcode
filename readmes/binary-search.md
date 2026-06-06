@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 67/339.
+Completed: 68/339.
 
 ## Submissions
 ### Easy
@@ -70,6 +70,7 @@ Completed: 67/339.
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                          | 1ms     | 99.72% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                                      | 19ms    | 83.88% |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                    | 55ms    | 74.33% |
+| [Online Election](https://leetcode.com/problems/online-election/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OnlineElection.java)                                  | 423ms   | 5.02%  |
 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeakIndexInAMountainArray.java)                       | 0ms     | 100%   |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                            | 21ms    | 99.89% |
 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                    | 18ms    | 83.97% |

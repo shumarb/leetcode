@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 43/134.
+Completed: 44/134.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 43/134.
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                     | 10ms    | 97.30% |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                   | 5ms     | 83.54% |
 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCalendar.java)                 | 19ms    | 83.88% |
+| [Online Election](https://leetcode.com/problems/online-election/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OnlineElection.java)             | 423ms   | 5.02%  |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)           | 16ms    | 100%   |
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                  | 101ms   | 85.10% |
 | [Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SeatManager.java)                | 33ms    | 89.31% |

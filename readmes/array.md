@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 685/2170.
+Completed: 686/2183.
 
 ## Submissions
 ### Easy
@@ -616,6 +616,7 @@ Completed: 685/2170.
 | [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithBoundedMaximum.java)                             | 3ms     | 99.79% |
 | [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers.java)     | 49ms    | 48.21% |
 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfZeroFilledSubarrays.java)                                     | 3ms     | 95.56% |
+| [Online Election](https://leetcode.com/problems/online-election/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OnlineElection.java)                                                  | 423ms   | 5.02%  |
 | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OpenTheLock.java)                                                     | 79ms    | 84.29% |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PacificAtlanticWaterFlow.java)                                        | 10ms    | 31.12% |
 | [Pair of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairOfSongsWithTotalDurationsDivisibleBy60.java)                      | 2ms     | 96.88% |
