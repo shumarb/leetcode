@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/134.
+Completed: 45/134.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 44/134.
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                | 5ms     | 91.76% |
 | [Design Linked List](https://leetcode.com/problems/design-linked-list/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyLinkedList.java)               | 6ms     | 99.03% |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                 | 26ms    | 68.56% |
+| [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindElements.java)               | 22ms    | 61.09% |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)               | 153ms   | 42.29% |
 | [Frequency Tracker](https://leetcode.com/problems/frequency-tracker/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyTracker.java)           | 44ms    | 49.19% |
 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)            | 27ms    | 58.30% | 
