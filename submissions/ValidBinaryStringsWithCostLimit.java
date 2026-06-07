@@ -55,8 +55,6 @@ class ValidBinaryStringsWithCostLimit {
             if (bits[i] == '1' && bits[i - 1] == '1') {
                 return false;
             }
-        }
-        for (int i = 0; i < n; i++) {
             if (bits[i] == '1') {
                 cost += i;
             }

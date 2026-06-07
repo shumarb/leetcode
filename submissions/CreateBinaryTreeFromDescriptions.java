@@ -17,64 +17,53 @@
  */
 class CreateBinaryTreeFromDescriptions {
     public TreeNode createBinaryTree(int[][] descriptions) {
-        Map<Integer, TreeNode> map = new HashMap<>();
+        TreeNode[] nodes = new TreeNode[100001];
         TreeNode root = null;
-        boolean[] isChild;
+        boolean[] isChild = new boolean[100001];
         boolean isTest = false;
-        int largest = 0;
 
-        for (int[] row: descriptions) {
-            largest = Math.max(largest, Math.max(row[0], row[1]));
-        }
-        isChild = new boolean[largest + 1];
+        for (int[] e: descriptions) {
+            int child = e[1];
+            int childType = e[2];
+            int parent = e[0];
 
-        for (int[] row: descriptions) {
-            int child = row[1];
-            int isLeft = row[2];
-            int parent = row[0];
-            if (isTest) {
-                System.out.println(" * parent: " + parent + " | child: " + child + " | isLeft: " + isLeft);
+            if (nodes[parent] == null) {
+                nodes[parent] = new TreeNode(parent);
             }
-
-            TreeNode childNode = map.getOrDefault(child, new TreeNode(child));
-            TreeNode parentNode = map.getOrDefault(parent, new TreeNode(parent));
-            if (isLeft == 1) {
-                parentNode.left = childNode;
-            } else {
-                parentNode.right = childNode;
+            if (nodes[child] == null) {
+                nodes[child] = new TreeNode(child);
             }
-
-            map.put(child, childNode);
-            map.put(parent, parentNode);
             isChild[child] = true;
-        }
-        if (isTest) {
-            System.out.println("---------------------------------------\nmap:");
-            for (Map.Entry<Integer, TreeNode> e: map.entrySet()) {
-                System.out.print(" * " + e.getKey());
-
-                TreeNode node = e.getValue();
-                if (node.left != null) {
-                    System.out.print(" | left: " + node.left.val);
-                } else {
-                    System.out.print(" | left: null ");
-                }
-                if (node.right != null) {
-                    System.out.println(" | right: " + node.right.val);
-                } else {
-                    System.out.println(" | right: null ");
-                }
+            if (childType == 0) {
+                nodes[parent].right = nodes[child];
+            } else {
+                nodes[parent].left = nodes[child];
             }
         }
-
-        for (int[] row: descriptions) {
-            if (!isChild[row[0]]) {
-                root = map.get(row[0]);
+        for (int i = 1; i < nodes.length; i++) {
+            if (nodes[i] != null && !isChild[i]) {
+                root = nodes[i];
                 break;
             }
         }
         if (isTest) {
-            System.out.println("---------------------------------------\nisChild: " + Arrays.toString(isChild) + "\nroot: " + root.val);
+            System.out.println("root: " + root.val + "\ntree:");
+            for (int i = 1; i < nodes.length; i++) {
+                if (nodes[i] != null) {
+                    System.out.print(" * node: " + nodes[i].val + " | left: ");
+                    if (nodes[i].left == null) {
+                        System.out.print("null");
+                    } else {
+                        System.out.print(nodes[i].left.val);
+                    }
+                    System.out.print(" | right: ");
+                    if (nodes[i].right == null) {
+                        System.out.println("null");
+                    } else {
+                        System.out.println(nodes[i].right.val);
+                    }
+                }
+            }
         }
 
         return root;
