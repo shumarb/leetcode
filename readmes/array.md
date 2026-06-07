@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 686/2183.
+Completed: 688/2183.
 
 ## Submissions
 ### Easy
@@ -199,6 +199,7 @@ Completed: 686/2183.
 | [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LastVisitedIntegers.java)                                    | 1ms     | 100%   |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeftAndRightSumDifferences.java)                             | 2ms     | 98.84% |
 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LemonadeChange.java)                                         | 2ms     | 93.83% |
+| [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LimitOccurrencesInSortedArray.java)                          | 1ms     | 100%   |
 | [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestAlternatingSubarray.java)                             | 1ms     | 100%   |
 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousIncreasingSubsequence.java)                 | 1ms     | 99.68% |
 | [Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestEvenOddSubarrayWithThreshold.java)                    | 4ms     | 98.16% |
@@ -276,6 +277,7 @@ Completed: 686/2183.
 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRightShiftsToSortTheArray.java)                       | 1ms     | 100%   |
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)                 | 2ms     | 98.90% |
 | [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsOne.java)                        | 1ms     | 100%   |
+| [Minimum Swaps to Moves Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSwapsToMoveZerosToEnd.java)                           | 1ms     | 99.70% |
 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumValueToGetPositiveStepByStepSum.java)                 | 0ms     | 100%   |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                          | 0ms     | 100%   |
 | [Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ModifyTheMatrix.java)                                        | 1ms     | 100%   |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 105/251.
+Completed: 107/253.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 105/251.
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                                   | 1ms     | 92.35% |
 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPositiveIntegerThatExistsWithItsNegative.java) | 6ms     | 61.28% |
 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestPalindrome.java)             | 5ms     | 100%   |
+| [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LimitOccurrencesInSortedArray.java)                   | 1ms     | 100%   |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycle.java)                                 | 0ms     | 100%   |
 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongPressedName.java)                                 | 1ms     | 82.56% |
 | [Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumEnemyFortsThatCanBeCaptured.java)              | 0ms     | 100%   |
@@ -53,6 +54,7 @@ Completed: 105/251.
 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageOfSmallestAndLargestElements.java)      | 2ms     | 97.31% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCommonValue.java)                              | 0ms     | 100%   |
 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfFlipsToReverseBinaryString.java)       | 1ms     | 99.99% |
+| [Minimum Swaps to Moves Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSwapsToMoveZerosToEnd.java)                    | 1ms     | 99.70% |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MoveZeroes.java)                                      | 1ms     | 99.74% |
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                      | 17ms    | 33.88% |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDistinctAverages.java)                        | 1ms     | 99.35% |
