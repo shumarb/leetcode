@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/251.
+Completed: 53/256.
 
 ## Submissions
 ### Easy
@@ -26,6 +26,7 @@ Completed: 51/251.
 | [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePivotInteger.java)                     | 1ms     | 70.60% |
 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeftAndRightSumDifferences.java)              | 2ms     | 98.84% |
 | [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubsequenceWithLimitedSum.java)        | 7ms     | 22.61% |
+| [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayElementsEqualToZero.java)            | 814ms   | 5.42%  |
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPopulationYear.java)                   | 0ms     | 100%   |
 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumScoreAfterSplittingAString.java)       | 2ms     | 38.65% |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)              | 3ms     | 74.01% |
@@ -62,6 +63,7 @@ Completed: 51/251.
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                       | 52ms    | 12%    |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49% |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                  | 1ms     | 99.72% |
+| [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodWaysToSplitAString.java)                          | 6ms     | 83.89% |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                | 2ms     | 89.32% |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                        | 16ms    | 100%   |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                    | 21ms    | 99.89% |
