@@ -16,37 +16,37 @@
  * }
  */
 class FindElements {
-    private Set<Long> set;
+    private Set<Integer> set;
 
     public FindElements(TreeNode root) {
         set = new HashSet<>();
 
         root.val = 0;
-        set.add(0l);
+        set.add(0);
 
         dfs(root);
     }
 
     private void dfs(TreeNode node) {
-        if (node == null) {
-            return;
-        }
-
         if (node.left != null) {
             node.left.val = node.val * 2 + 1;
-            set.add((long) node.left.val);
+            set.add(node.left.val);
         }
         if (node.right != null) {
             node.right.val = node.val * 2 + 2;
-            set.add((long) node.right.val);
+            set.add(node.right.val);
         }
 
-        dfs(node.left);
-        dfs(node.right);
+        if (node.left != null) {
+            dfs(node.left);
+        }
+        if (node.right != null) {
+            dfs(node.right);
+        }
     }
 
     public boolean find(int target) {
-        return set.contains((long) target);
+        return set.contains(target);
     }
 }
 
