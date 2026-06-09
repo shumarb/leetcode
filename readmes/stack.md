@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 54/179.
+Completed: 55/179.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 54/179.
 | Question                                                                                                                                                  | Submission                                                                                                              | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddTwoNumbersTwo.java)                                 | 3ms     | 39.24% |
+| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AsteroidCollision.java)                                | 5ms     | 66.33% |
 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BasicCalculatorTwo.java)                               | 27ms    | 20.39% |
 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySearchTreeIterator.java)                         | 16ms    | 99.65% |
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                  | 0ms     | 100%   |
