@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 173/518.
+Completed: 174/523.
 
 ## Submissions
 ### Easy
@@ -115,6 +115,7 @@ Completed: 173/518.
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                         | 37ms    | 86.60% |
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)           | 43ms    | 53.25% |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                 | 4ms     | 22.05% |
+| [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroyingAsteroids.java)                              | 12ms    | 95.46% |
 | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverseTwo.java)                              | 16ms    | 99.60% |
 | [Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DisplayTableOfFoodOrdersInARestaurant.java)            | 24ms    | 90.60% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                  | 15ms    | 83.05% |

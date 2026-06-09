@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 91/467.
+Completed: 92/467.
 
 ## Submissions
 ### Easy
@@ -66,6 +66,7 @@ Completed: 91/467.
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                 | 6ms     | 98.19% |
 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrokenCalculator.java)                                  | 0ms     | 100%   |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                            | 5ms     | 74.40% |
+| [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroyingAsteroids.java)                               | 12ms    | 95.46% |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                   | 15ms    | 83.05% |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)            | 215ms   | 39.47% |
 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayIntoArraysWithMaxDifference.java)            | 7ms     | 100%   |
