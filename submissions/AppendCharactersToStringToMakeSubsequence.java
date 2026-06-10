@@ -6,11 +6,6 @@ class AppendCharactersToStringToMakeSubsequence {
         int index = 0;
         int tLen = t.length();
 
-        // 1. Edge case: t is a substring of s.
-        if (s.indexOf(t) >= 0) {
-            return 0;
-        }
-
         for (char c: s.toCharArray()) {
             if (index == tLen) {
                 break;
