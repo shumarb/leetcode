@@ -4,15 +4,16 @@ class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
         int i = 0;
         int j = 0;
-        int n = s.length();
+        int sLength = s.length();
+        int tLength = t.length();
 
-        while (i < n && j < t.length()) {
+        while (i < sLength && j < t.length()) {
             if (s.charAt(i) == t.charAt(j)) {
                 i++;
             }
             j++;
         }
 
-        return i == n;
+        return i == s.length();
     }
 }
