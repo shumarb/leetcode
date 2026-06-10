@@ -8,7 +8,7 @@ class AppendCharactersToStringToMakeSubsequence {
 
         for (char c: s.toCharArray()) {
             if (index == tLen) {
-                break;
+                return 0;
             }
 
             if (c == t.charAt(index)) {
