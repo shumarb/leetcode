@@ -2,12 +2,14 @@
 
 class FindTheHighestAltitude {
     public int largestAltitude(int[] gain) {
-        int highestAltitude = 0;
-        int cumulativeAltitude = 0;
-        for (int netGain: gain) {
-            cumulativeAltitude += netGain;
-            highestAltitude = Math.max(highestAltitude, cumulativeAltitude);
+        int currentAltitude = 0;
+        int result = 0;
+
+        for (int g: gain) {
+            currentAltitude += g;
+            result = Math.max(currentAltitude, result);
         }
-        return highestAltitude;
+
+        return result;
     }
 }

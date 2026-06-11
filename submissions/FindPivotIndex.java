@@ -2,31 +2,27 @@
 
 class FindPivotIndex {
     public int pivotIndex(int[] nums) {
-        int n = nums.length;
-        int[] pSum = new int[n];
-        int[] sSum = new int[n];
-        boolean t = false;
+        boolean isTest = false;
+        int leftSum = 0;
+        int rightSum = 0;
 
-        pSum[0] = 0;
-        for (int i = 1; i < pSum.length; i++) {
-            pSum[i] = nums[i - 1] + pSum[i - 1];
+        for (int e: nums) {
+            rightSum += e;
         }
-        sSum[n - 1] = 0;
-        for (int i = n - 2; i >= 0; i--) {
-            sSum[i] = nums[i + 1] + sSum[i + 1];
-        }
+        for (int i = 0; i < nums.length; i++) {
+            int current = nums[i];
 
-        if (t) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("pSum: " + Arrays.toString(pSum));
-            System.out.println("sSum: " + Arrays.toString(sSum));
-        }
-
-        for (int i = 0; i < n; i++) {
-            if (pSum[i] == sSum[i]) {
+            rightSum -= current;
+            if (isTest) {
+                System.out.println(" * i: " + i + " | leftSum: " + leftSum + ", rightSum: " + rightSum);
+            }
+            if (leftSum == rightSum) {
                 return i;
             }
+
+            leftSum += current;
         }
+
         return -1;
     }
 }
