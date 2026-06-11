@@ -7,7 +7,7 @@ class DestroyingAsteroids {
         int n = asteroids.length;
         long total = mass;
 
-        asteroids = sort(asteroids);
+        sort(asteroids);
         if (isTest) {
             System.out.println("sorted: " + Arrays.toString(asteroids));
         }
@@ -15,16 +15,18 @@ class DestroyingAsteroids {
             if (isTest) {
                 System.out.println(" * i: " + i + " | mass: " + mass + " | incoming: " + asteroids[i]);
             }
-            if (total < (long) asteroids[i]) {
+
+            if (total < asteroids[i]) {
                 return false;
             }
+
             total += asteroids[i++];
         }
 
         return true;
     }
 
-    private int[] sort(int[] arr) {
+    private void sort(int[] arr) {
         int[] count;
         int j = 0;
         int largest = 0;
@@ -41,7 +43,5 @@ class DestroyingAsteroids {
                 arr[j++] = i;
             }
         }
-
-        return arr;
     }
 }
