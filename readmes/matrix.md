@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 87/276.
+Completed: 88/277.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 87/276.
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                    | 2ms     | 100%   |
 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubIslands.java)                                | 18ms    | 99.29% |
 | [Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnguardedCellsInTheGrid.java)                   | 17ms    | 99.23% |
+| [Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Spreadsheet.java)                                    | 115ms   | 80.40% |
 | [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectCyclesInTwoDGrid.java)                         | 24ms    | 22.44% | 
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DiagonalTraverse.java)                               | 7ms     | 25.66% |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceBetweenOnesAndZerosInRowAndColumn.java)    | 9ms     | 78.44% |

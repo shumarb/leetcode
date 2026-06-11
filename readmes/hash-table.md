@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 333/821.
+Completed: 334/821.
 
 ## Submissions
 ### Easy
@@ -221,6 +221,7 @@ Completed: 333/821.
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                      | 4ms     | 95.87% |
 | [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)                                                 | 321ms   | 12.77% |
 | [Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RideSharingSystem.java)                                            | 48ms    | 88.61% |
+| [Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Spreadsheet.java)                                                  | 115ms   | 80.40% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                  | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                             | 70ms    | 90.71% |
 | [Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DifferenceOfNumberOfDistinctValuesOnDiagonals.java)                | 5ms     | 88.52% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/134.
+Completed: 46/134.
 
 ## Submissions
 ### Easy
@@ -39,6 +39,7 @@ Completed: 45/134.
 | [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)               | 321ms   | 12.77% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)       | 8ms     | 34.76% |
 | [Design Ride Sharing System](https://leetcode.com/problems/design-ride-sharing-system/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RideSharingSystem.java)          | 48ms    | 88.61% |
+| [Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Spreadsheet.java)                | 115ms   | 80.40% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)           | 70ms    | 90.71% |
 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomStack.java)                | 5ms     | 91.76% |
