@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 335/875.
+Completed: 336/875.
 
 ## Submissions
 ### Easy
@@ -341,6 +341,7 @@ Completed: 335/875.
 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsByFrequency.java)                                        | 10ms    | 98.98% |
 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortVowelsInAString.java)                                          | 47ms    | 68.53% |
 | [String Without AAA or BBB](https://leetcode.com/problems/sort-vowels-in-a-string/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringWithoutAAAOrBBB.java)                                        | 0ms     | 100%   |
+| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringToIntegerAtoi.java)                                          | 2ms     | 12.80% |
 | [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfBeautyOfAllSubstrings.java)                                   | 1153ms  | 5.02%  |
 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfLargestPrimeSubstrings.java)                                  | 22ms    | 36.79% |
 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)        | 2ms     | 76.72% |
