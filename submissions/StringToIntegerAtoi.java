@@ -3,46 +3,45 @@
 class StringToIntegerAtoi {
     public int myAtoi(String s) {
         s = s.trim();
-        if (s.isEmpty()) {
-            return 0;
-        }
 
-        boolean isNegative = false;
         boolean isTest = false;
         char[] tokens = s.toCharArray();
         int index = 0;
-        long result = 0;
+        int sign = 1;
+        long value = 0l;
 
-        if (tokens[0] == '-' || tokens[0] == '+') {
-            if (tokens[0] == '-') {
-                isNegative = true;
-            }
-            index++;
-
-        } else if (!Character.isDigit(tokens[0])) {
+        if (isTest) {
+            System.out.println("tokens: " + Arrays.toString(tokens));
+        }
+        if (tokens.length == 0
+                || Character.isLetter(tokens[0])
+                || tokens[0] == '.') {
             return 0;
+        } else if (tokens[0] == '-' || tokens[0] == '+') {
+            index++;
+            if (tokens[0] == '-') {
+                sign = -1;
+            }
         }
 
         for (int i = index; i < tokens.length; i++) {
             char c = tokens[i];
-
-            if (!Character.isDigit(c)) {
+            if (c < '0' || c > '9') {
                 break;
             }
 
-            result = result * 10l + (c - '0');
-            if (isNegative && -result < Integer.MIN_VALUE) {
-                return Integer.MIN_VALUE;
-            }
+            value = value * 10l + (c - '0');
 
-            if (!isNegative && result > Integer.MAX_VALUE) {
+            if (sign * value > Integer.MAX_VALUE) {
                 return Integer.MAX_VALUE;
+            } else if (sign * value < Integer.MIN_VALUE) {
+                return Integer.MIN_VALUE;
             }
         }
         if (isTest) {
-            System.out.println("tokens: " + Arrays.toString(tokens) + "\nresult: " + result);
+            System.out.println("sign: " + sign + "\nvalue: " + value);
         }
 
-        return isNegative ? (int) -result : (int) result;
+        return sign * (int) value;
     }
 }
