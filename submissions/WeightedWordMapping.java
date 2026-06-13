@@ -2,26 +2,21 @@
 
 class WeightedWordMapping {
     public String mapWordWeights(String[] words, int[] weights) {
-        StringBuilder result = new StringBuilder();
         boolean isTest = false;
+        char[] result = new char[words.length];
+        int index = 0;
 
-        for (String w: words) {
-            int wordWeight = 0;
-
-            for (char c: w.toCharArray()) {
-                wordWeight += weights[c - 'a'];
+        for (String word: words) {
+            int sum = 0;
+            for (char letter: word.toCharArray()) {
+                sum += weights[letter - 'a'];
             }
-            int value = wordWeight % 26;
-            char letter = (char) ('z' - value);
-            result.append(letter);
-            if (isTest) {
-                System.out.println("w: " + w + " -> weight: " + wordWeight + " | value: " + value + " -> letter: " + letter);
-            }
+            result[index++] = (char) ('z' - (sum % 26));
         }
         if (isTest) {
-            System.out.println("-----------------------------------\nresult: " + result);
+            System.out.println("result: " + Arrays.toString(result));
         }
 
-        return result.toString();
+        return new String(result);
     }
 }
