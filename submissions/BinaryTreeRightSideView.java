@@ -18,31 +18,28 @@
 class BinaryTreeRightSideView {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
 
-        // 1. Empty tree.
         if (root == null) {
             return result;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+
         queue.offer(root);
         while (!queue.isEmpty()) {
+            int lastValue = -1;
             int size = queue.size();
-            List<TreeNode> nodesOnCurrentLevel = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                nodesOnCurrentLevel.add(current);
-                if (current.left != null) {
-                    queue.offer(current.left);
+
+            while (size-- > 0) {
+                TreeNode top = queue.poll();
+                lastValue = top.val;
+                if (top.left != null) {
+                    queue.offer(top.left);
                 }
-                if (current.right != null) {
-                    queue.offer(current.right);
+                if (top.right != null) {
+                    queue.offer(top.right);
                 }
             }
-            if (nodesOnCurrentLevel.size() == 1) {
-                result.add(nodesOnCurrentLevel.get(0).val);
-            } else  {
-                result.add(nodesOnCurrentLevel.get(nodesOnCurrentLevel.size() - 1).val);
-            }
+            result.add(lastValue);
         }
 
         return result;

@@ -14,6 +14,6 @@ Completed: 1/28.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                | Submission                                                                                                  | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinningPlayerInCoinGame.java)       | 0ms     | 100%   |
+| Question                                                                                                                | Submission                                                                                                  | Runtime | Rank    |
+|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinningPlayerInCoinGame.java)       | 0ms     | 100.00% |

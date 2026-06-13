@@ -16,4 +16,4 @@ Completed: 1/7.
 ### Medium
 | Question                                                                                                                                       | Submission                                                                                                       | Runtime | Rank   |
 |------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                | 1ms     | 99%    |
+| [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                | 1ms     | 99.00% |

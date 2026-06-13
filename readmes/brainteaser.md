@@ -14,11 +14,11 @@ Completed: 2/20.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                | Submission                                                                                              | Runtime | Rank |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|------|
-| [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java) | 0ms     | 100% |
+| Question                                                                                                                | Submission                                                                                              | Runtime | Rank    |
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
+| [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java) | 0ms     | 100.00% |
 
 ### Medium
-| Question                                                                                                                | Submission                                                                                              | Runtime | Rank  |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|-------|
-| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java)        | 0ms     | 100%  |
+| Question                                                                                              | Submission                                                                                       | Runtime | Rank    |
+|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|---------|
+| [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java) | 0ms     | 100.00% |

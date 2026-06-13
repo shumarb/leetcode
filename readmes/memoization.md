@@ -14,11 +14,11 @@ Completed: 6/43.
 
 ## Submissions
 ### Easy
-| Question                                                                                             | Submission                                                                                    | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|--------|
-| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)         | 0ms     | 100%   |
-| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)        | 0ms     | 100%   |
-| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)    | 0ms     | 100%   |
+| Question                                                                                             | Submission                                                                                    | Runtime | Rank    |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------|---------|
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)         | 0ms     | 100.00% |
+| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)        | 0ms     | 100.00% |
+| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)    | 0ms     | 100.00% |
 
 ### Medium
 | Question                                                                                                        | Submission                                                                                         | Runtime | Rank   |

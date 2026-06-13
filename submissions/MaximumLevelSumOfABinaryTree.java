@@ -20,41 +20,38 @@ class MaximumLevelSumOfABinaryTree {
         Queue<TreeNode> queue = new LinkedList<>();
         boolean isTest = false;
         int level = 1;
-        int levelOfMaximum = 1;
-        int maximumSum = root.val;
+        int result = 1;
+        long maximumSum = Long.MIN_VALUE;
 
         queue.offer(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
-            int sum = 0;
+            long sum = 0l;
 
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
-                sum += current.val;
-                if (current.left != null) {
-                    queue.offer(current.left);
+            while (size-- > 0) {
+                TreeNode top = queue.poll();
+                sum += top.val;
+                if (top.left != null) {
+                    queue.offer(top.left);
                 }
-                if (current.right != null) {
-                    queue.offer(current.right);
+                if (top.right != null) {
+                    queue.offer(top.right);
                 }
             }
             if (isTest) {
-                System.out.println("level " + level + " -> " + sum );
-                System.out.println(" * before, maximumSum: " + maximumSum + ", levelOfMaximum: " + levelOfMaximum);
+                System.out.println("level " + level + ": " + sum);
             }
-
             if (sum > maximumSum) {
                 maximumSum = sum;
-                levelOfMaximum = level;
-            }
-            if (isTest) {
-                System.out.println(" * after, maximumSum: " + maximumSum + ", levelOfMaximum: " + levelOfMaximum);
-                System.out.println("-------------------------------------------------------------------------");
+                result = level;
             }
 
             level++;
         }
+        if (isTest) {
+            System.out.println("--------------\nresult: " + result);
+        }
 
-        return levelOfMaximum;
+        return result;
     }
 }
