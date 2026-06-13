@@ -1,11 +1,12 @@
 // Question: https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/
 
 class ShortestDistanceAfterRoadAdditionQueriesI {
+    private List<Integer>[] graph;
     private int n;
 
     public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
-        List<Integer>[] graph = new ArrayList[n];
         boolean isTest = false;
+        graph = new ArrayList[n];
         int j = 0;
         int size = queries.length;
         int[] result = new int[size];
@@ -26,7 +27,7 @@ class ShortestDistanceAfterRoadAdditionQueriesI {
                 print(first + " -> " + second + "\ngraph:", graph);
             }
 
-            result[j++] = compute(graph);
+            result[j++] = compute();
         }
         if (isTest) {
             System.out.println("---------------------------------------\nresult: " + Arrays.toString(result));
@@ -35,7 +36,7 @@ class ShortestDistanceAfterRoadAdditionQueriesI {
         return result;
     }
 
-    private int compute(List<Integer>[] graph) {
+    private int compute() {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[n];
         int result = 0;
@@ -47,7 +48,7 @@ class ShortestDistanceAfterRoadAdditionQueriesI {
 
             while (size-- > 0) {
                 int top = queue.poll();
-                if (top == graph.length - 1) {
+                if (top == n - 1) {
                     return result;
                 }
 
