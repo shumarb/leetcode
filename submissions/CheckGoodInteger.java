@@ -3,8 +3,8 @@
 class CheckGoodInteger {
     public boolean checkGoodInteger(int n) {
         boolean isTest = false;
-        long digitSum = 0;
-        long squareSum = 0;
+        int digitSum = 0;
+        int squareSum = 0;
 
         while (n > 0) {
             int digit = n % 10;
