@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 120/211.
+Completed: 121/211.
 
 ## Submissions
 ### Easy
@@ -120,6 +120,7 @@ Completed: 120/211.
 | [Find the First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheFirstPlayerToWinKGamesInARow.java)                     | 1ms     | 100.00% |
 | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheNthValueAfterKSeconds.java)                            | 196ms   | 78.19%  |
 | [Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinnerOfAnArrayGame.java)                              | 0ms     | 100.00% |
+| [Game of Life](https://leetcode.com/problems/game-of-life/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GameOfLife.java)                                              | 0ms     | 100.00% |
 | [Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeAdjacentEqualElements.java)                              | 72ms    | 40.36%  |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                                | 5ms     | 83.64%  |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)              | 144ms   | 74.64%  |
