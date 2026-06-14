@@ -12,78 +12,33 @@
  */
 class MaximumTwinSumOfALinkedList {
     public int pairSum(ListNode head) {
-        ListNode first = head;
-        ListNode second = head.next;
+        ListNode current = head;
         boolean isTest = false;
-        int index = 0;
+        int[] values = new int[100001];
+        int i = 0;
+        int j;
         int result = 0;
+        int total = 0;
 
-        while (second != null && second.next != null) {
-            second = second.next.next;
-            first = first.next;
-            index++;
+        while (current != null) {
+            values[total++] = current.val;
+            current = current.next;
         }
         if (isTest) {
-            System.out.println("first: " + first.val + ", index: " + index);
-            display("before: ", head);
+            System.out.println("values: " + Arrays.toString(Arrays.copyOfRange(values, 0, total)));
         }
 
-        first.next = reverse(first.next);
-
-        first = head;
-        second = head;
-        while (first != null && first.next != null) {
-            first = first.next.next;
-            second = second.next;
-        }
-        if (isTest) {
-            System.out.print("second: " + second.val);
-            if (second.next == null) {
-                System.out.println(", next: " + null);
-            } else {
-                System.out.println(", next: " + second.next.val);
-            }
-            System.out.println("--------------------------------");
-        }
-        first = head;
-        while (first != second && second != null) {
-            int sum = first.val + second.val;
+        j = total - 1;
+        while (i < j) {
             if (isTest) {
-                System.out.println(" * first: " + first.val + ", second: " + second.val + " -> sum: " + sum);
+                System.out.println(values[i] + ", " + values[j]);
             }
-            result = Math.max(result, sum);
-            first = first.next;
-            second = second.next;
+            result = Math.max(result, values[i++] + values[j--]);
         }
         if (isTest) {
-            display("after: ", head);
+            System.out.println("result: " + result);
         }
 
         return result;
-    }
-
-    private ListNode reverse(ListNode head) {
-        ListNode current = head;
-        ListNode previous = null;
-
-        while (current != null) {
-            ListNode next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
-        }
-
-        return previous;
-    }
-
-    private void display(String s, ListNode head) {
-        System.out.print(s);
-        ListNode current = head;
-
-        while (current != null) {
-            System.out.print(current.val + " ");
-            current = current.next;
-        }
-        System.out.println("\n--------------------------------");
     }
 }
