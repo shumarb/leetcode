@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 209/679.
+Completed: 210/681.
 
 ## Submissions
 ### Easy
@@ -193,6 +193,7 @@ Completed: 209/679.
 | [Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeElementsAfterOneReplacement.java)            | 42ms    | 47.24%  |
 | [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                   | 47ms    | 95.31%  |
 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)                         | 11ms    | 12.02%  |
+| [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfLaserBeamsInABank.java)                                   | 19ms    | 5.57%   |
 | [Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSmoothDescentPeriodsOfAStock.java)                        | 2ms     | 98.50%  |
 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithGcdEqualToK.java)                            | 5ms     | 91.72%  |
 | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithLcmEqualToK.java)                            | 14ms    | 61.11%  |

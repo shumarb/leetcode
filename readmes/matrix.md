@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 89/277.
+Completed: 90/277.
 
 ## Submissions
 ### Easy
@@ -88,6 +88,7 @@ Completed: 89/277.
 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfClosedIslands.java)                          | 2ms     | 100.00% |
 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEnclaves.java)                               | 6ms     | 99.08%  |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIslands.java)                                | 2ms     | 99.93%  |
+| [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfLaserBeamsInABank.java)                      | 19ms    | 5.57%   |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PacificAtlanticWaterFlow.java)                       | 10ms    | 31.12%  |
 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathWithMaximumGold.java)                            | 34ms    | 97.84%  |
 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueensThatCanAttackTheKing.java)                     | 1ms     | 94.12%  |
