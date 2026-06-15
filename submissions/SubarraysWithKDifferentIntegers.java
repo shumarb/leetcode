@@ -6,6 +6,7 @@ class SubarraysWithKDifferentIntegers {
     }
 
     private int countAtMost(int[] nums, int limit) {
+        boolean isTest = false;
         if (limit == 0) {
             return 0;
         }
@@ -14,6 +15,9 @@ class SubarraysWithKDifferentIntegers {
         int left = 0;
         int result = 0;
 
+        if (isTest) {
+            System.out.println("-------------------------\nsubarrays with at most " + limit + " different integers: ");
+        }
         for (int right = 0; right < nums.length; right++) {
             int incoming = nums[right];
 
@@ -26,7 +30,15 @@ class SubarraysWithKDifferentIntegers {
                 }
             }
 
-            result += (right - left + 1);
+            int totalSubarrays = right - left + 1;
+            if (isTest) {
+                System.out.println(" * " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + ", totalSubarrays: " + totalSubarrays);
+            }
+
+            result += totalSubarrays;
+        }
+        if (isTest) {
+            System.out.println("\nresult: " + result);
         }
 
         return result;
