@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 38/147.
+Completed: 40/152.
 
 ## Submissions
 ### Easy
@@ -40,6 +40,7 @@ Completed: 38/147.
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)      | 2ms     | 72.81%  |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestDivisibleDigitProductOne.java)           | 1ms     | 65.70%  |
 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAllSubsetXorTotals.java)                    | 6ms     | 17.81%  |
+| [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfCompatibleNumbersInRangeI.java)             | 1ms     | 100.00% |
 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-elements/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquaresOfSpecialElements.java)              | 1ms     | 100.00% |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeDivisors.java)                              | 1ms     | 61.86%  |
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                    | 7ms     | 17.93%  |
@@ -58,3 +59,4 @@ Completed: 38/147.
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                     | 5ms     | 37.59% |
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65% |
 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)              | 12ms    | 94.05% |
+| [Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBinaryStringsWithCostLimit.java)             | 79ms    | 17.94% | 

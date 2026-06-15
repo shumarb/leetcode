@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 56/654.
+Completed: 57/661.
 
 ## Submissions
 ### Easy
@@ -27,6 +27,7 @@ Completed: 56/654.
 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NthTribonacciNumber.java)                        | 0ms     | 100.00% |
 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)                            | 1ms     | 95.20%  |
 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangleTwo.java)                         | 1ms     | 66.61%  |
+| [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfCompatibleNumbersInRangeI.java)             | 1ms     | 100.00% |
 
 ### Medium
 | Question                                                                                                                                            | Submission                                                                                                            | Runtime | Rank    |

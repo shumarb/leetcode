@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 30/113.
+Completed: 31/114.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 30/113.
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                             | 1ms     | 99.93%  |
 | [Target Sum](https://leetcode.com/problems/target-sum/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TargetSum.java)                                              | 113ms   | 39.48%  |
 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKthLexicographicalStringOfAllHappyStringsOfLengthN.java)  | 2ms     | 76.72%  |
+| [Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBinaryStringsWithCostLimit.java)                        | 79ms    | 17.94%  | 
 | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSearch.java)                                             | 76ms    | 96.95%  |
 
 ### Hard
