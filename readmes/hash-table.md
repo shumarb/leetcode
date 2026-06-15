@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 334/821.
+Completed: 335/822.
 
 ## Submissions
 ### Easy
@@ -356,5 +356,6 @@ Completed: 334/821.
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29%  |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)              | 14ms    | 70.35%  |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)             | 43ms    | 83.32%  |
+| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java)     | 56ms    | 7.90%   |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/VerticalOrderTraversalOfABinaryTree.java) | 3ms     | 94.40%  |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordLadder.java)                          | 65ms    | 86.22%  |
