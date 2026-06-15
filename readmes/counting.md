@@ -122,6 +122,6 @@ Completed: 102/206.
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)       | 141ms   | 42.47%  | 
 
 ### Hard
-| Question                                                                                                              | Submission                                                                                             | Runtime | Rank    |
-|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|---------|
-| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 56ms    | 7.90%   |
+| Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
+| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 48ms    | 76.96% |

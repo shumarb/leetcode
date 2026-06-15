@@ -6,8 +6,11 @@ class SubarraysWithKDifferentIntegers {
     }
 
     private int countAtMost(int[] nums, int limit) {
+        if (limit == 0) {
+            return 0;
+        }
+
         Map<Integer, Integer> map = new HashMap<>();
-        int countDistinct = 0;
         int left = 0;
         int result = 0;
 
@@ -15,22 +18,17 @@ class SubarraysWithKDifferentIntegers {
             int incoming = nums[right];
 
             map.put(incoming, 1 + map.getOrDefault(incoming, 0));
-            if (map.get(incoming) == 1) {
-                countDistinct++;
-            }
-
-            while (countDistinct > limit) {
+            while (map.size() > limit) {
                 int remove = nums[left++];
-
                 map.put(remove, map.get(remove) - 1);
                 if (map.get(remove) == 0) {
-                    countDistinct--;
                     map.remove(remove);
                 }
             }
 
             result += (right - left + 1);
         }
+
         return result;
     }
 }
