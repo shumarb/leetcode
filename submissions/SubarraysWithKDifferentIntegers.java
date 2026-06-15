@@ -11,22 +11,31 @@ class SubarraysWithKDifferentIntegers {
             return 0;
         }
 
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] frequency;
+        int countDifferentIntegers = 0;
+        int largest = 0;
         int left = 0;
         int result = 0;
 
+        for (int e: nums) {
+            largest = Math.max(e, largest);
+        }
+        frequency = new int[largest + 1];
+
         if (isTest) {
-            System.out.println("-------------------------\nsubarrays with at most " + limit + " different integers: ");
+            System.out.println("-----------------------------------------------\nsubarrays with at most " + limit + " different integers: ");
         }
         for (int right = 0; right < nums.length; right++) {
             int incoming = nums[right];
 
-            map.put(incoming, 1 + map.getOrDefault(incoming, 0));
-            while (map.size() > limit) {
+            if (++frequency[incoming] == 1) {
+                countDifferentIntegers++;
+            }
+
+            while (countDifferentIntegers > limit) {
                 int remove = nums[left++];
-                map.put(remove, map.get(remove) - 1);
-                if (map.get(remove) == 0) {
-                    map.remove(remove);
+                if (--frequency[remove] == 0) {
+                    countDifferentIntegers--;
                 }
             }
 
