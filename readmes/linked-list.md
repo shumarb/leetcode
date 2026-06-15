@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 51/82.
+Completed: 52/82.
 
 ## Submissions
 ### Easy
@@ -65,6 +65,7 @@ Completed: 51/82.
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZeroSumConsecutiveNodesFromLinkedList.java)                | 2ms     | 91.55%  |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                                | 4ms     | 12.39%  |
 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLinkedListTwo.java)                                       | 0ms     | 100.00% |
+| [Reverse Nodes in Even Length Groups](https://leetcode.com/problemsreverse-nodes-in-even-length-groups/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseNodesInEvenLengthGroups.java)                             | 8ms     | 16.74%  |
 | [Rotate List](https://leetcode.com/problems/rotate-list/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateList.java)                                                 | 0ms     | 100.00% |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                                   | 9ms     | 94.52%  |
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)                                           | 0ms     | 100.00% |
