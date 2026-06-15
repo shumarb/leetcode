@@ -2,83 +2,29 @@
 
 class LatestTimeByReplacingHiddenDigits {
     public String maximumTime(String time) {
-        String[] hours = getList(23);
-        String[] minutes = getList(59);
-        String hour = time.substring(0, 2);
-        String minute = time.substring(3);
-        StringBuilder result = new StringBuilder();
-        boolean isTest = false;
+        char[] digits = time.toCharArray();
 
-        if (isTest) {
-            System.out.println("hour: " + hour + "\nminute: " + minute);
-            System.out.println("\nhours: " + Arrays.toString(hours) + "\nminutes: " + Arrays.toString(minutes));
-        }
-
-        if (hour.equals("??")) {
-            result.append("23:");
-
-        } else if (hour.indexOf("?") >= 0) {
-            for (int i = hours.length - 1; i >= 0; i--) {
-                String check = hours[i];
-                int countMatches = 0;
-
-                if (hour.charAt(0) == check.charAt(0)) {
-                    countMatches++;
-                }
-                if (hour.charAt(1) == check.charAt(1)) {
-                    countMatches++;
-                }
-
-                if (countMatches >= 1) {
-                    result.append(check + ":");
-                    break;
-                }
+        if (digits[0] == '?') {
+            if (digits[1] == '?' || digits[1] <= '3') {
+                digits[0] = '2';
             }
-
-        } else {
-            result.append(hour + ":");
-        }
-
-        if (minute.equals("??")) {
-            result.append("59");
-
-        } else if (minute.indexOf("?") >= 0) {
-            for (int i = minutes.length - 1; i >= 0; i--) {
-                String check = minutes[i];
-                int countMatches = 0;
-
-                if (minute.charAt(0) == check.charAt(0)) {
-                    countMatches++;
-                }
-                if (minute.charAt(1) == check.charAt(1)) {
-                    countMatches++;
-                }
-
-                if (countMatches >= 1) {
-                    result.append(check);
-                    break;
-                }
+            else {
+                digits[0] = '1';
             }
-
-        } else {
-            result.append(minute);
         }
 
-        return result.toString();
-    }
-
-    private String[] getList(int limit) {
-        String[] result = new String[limit + 1];
-
-        for (int i = 0; i < result.length; i++) {
-            StringBuilder part = new StringBuilder();
-            if (i < 10) {
-                part.append("0");
-            }
-            part.append(i);
-            result[i] = part.toString();
+        if (digits[1] == '?') {
+            digits[1] = digits[0] == '0' || digits[0] == '1' ? '9' : '3';
         }
 
-        return result;
+        if (digits[3] == '?') {
+            digits[3] = '5';
+        }
+
+        if (digits[4] == '?') {
+            digits[4] = '9';
+        }
+
+        return new String(digits);
     }
 }
