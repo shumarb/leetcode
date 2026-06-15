@@ -11,16 +11,11 @@ class SubarraysWithKDifferentIntegers {
             return 0;
         }
 
-        int[] frequency;
+        int[] frequency = new int[20001];
         int countDifferentIntegers = 0;
         int largest = 0;
         int left = 0;
         int result = 0;
-
-        for (int e: nums) {
-            largest = Math.max(e, largest);
-        }
-        frequency = new int[largest + 1];
 
         if (isTest) {
             System.out.println("-----------------------------------------------\nsubarrays with at most " + limit + " different integers: ");
