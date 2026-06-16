@@ -19,7 +19,7 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsII {
         for (int right = 0; right < n; right++) {
             char incoming = letters[right];
 
-            if (isVowel(incoming)) {
+            if (incoming == 'a' || incoming == 'e' || incoming == 'i' || incoming == 'o' || incoming == 'u') {
                 if (++count[incoming - 'a'] == 1) {
                     countUniqueVowels++;
                 }
@@ -29,9 +29,10 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsII {
 
             while (countUniqueVowels == 5 && countConsonants >= limit) {
                 result += (n - right);
+
                 char remove = letters[left++];
 
-                if (isVowel(remove)) {
+                if (remove == 'a' || remove == 'e' || remove == 'i' || remove == 'o' || remove == 'u') {
                     if (--count[remove - 'a'] == 0) {
                         countUniqueVowels--;
                     }
@@ -42,9 +43,5 @@ class CountOfSubstringsContainingEveryVowelAndKConsonantsII {
         }
 
         return result;
-    }
-
-    private boolean isVowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }
