@@ -21,7 +21,7 @@ class ProcessStringWithSpecialOperationsI {
             } else if (c == '#') {
                 result.append(result);
 
-            } else if (c == '%') {
+            } else {
                 result = result.reverse();
             }
 
