@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 339/877.
+Completed: 340/877.
 
 ## Submissions
 ### Easy
@@ -315,6 +315,7 @@ Completed: 339/877.
 | [People Whose List of Favourite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PeopleWhoseListOfFavouriteCompaniesIsNotASubsetOfAnotherList.java) | 279ms   | 66.51%  |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationInString.java)                                          | 6ms     | 86.31%  |
 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PrintWordsVertically.java)                                         | 1ms     | 80.69%  |
+| [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProcessStringWithSpecialOperationsI.java)                          | 15ms    | 20.59%  |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                             | 5ms     | 84.98%  |
 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                                   | 22ms    | 87.96%  |
 | [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReconstructOriginalDigitsFromEnglish.java)                         | 4ms     | 78.33%  |
