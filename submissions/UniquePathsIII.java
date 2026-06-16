@@ -10,10 +10,8 @@ class UniquePathsIII {
 
     public int uniquePathsIII(int[][] grid) {
         int countNonObstaclesCells = 0;
-        int endColumn = -1;
-        int endRow = -1;
-        int startRow = -1;
         int startColumn = -1;
+        int startRow = -1;
         isTest = false;
         m = grid.length;
         n = grid[0].length;
@@ -32,11 +30,6 @@ class UniquePathsIII {
                     startColumn = j;
                     startRow = i;
                 }
-
-                if (grid[i][j] == 2) {
-                    endColumn = j;
-                    endRow = i;
-                }
             }
         }
         if (isTest) {
@@ -44,8 +37,7 @@ class UniquePathsIII {
             for (int[] row: grid) {
                 System.out.println(Arrays.toString(row));
             }
-            System.out.println("source: [" + startRow + ", " + startColumn + "]");
-            System.out.println("destination: [" + endRow + ", " + endColumn + "]\ncountNonObstaclesCells: " + countNonObstaclesCells);
+            System.out.println("\nsource: [" + startRow + ", " + startColumn + "]" + "\ncountNonObstaclesCells: " + countNonObstaclesCells);
         }
 
         dfs(startRow, startColumn, countNonObstaclesCells);
@@ -62,14 +54,12 @@ class UniquePathsIII {
         }
 
         if (grid[row][column] == 2) {
-            // 1. All non-obstacles excluding ending square visited, so valid path found.
             if (remainingValidCells == 1) {
                 result++;
             }
             return;
         }
 
-        // 2. Explore current path and backtrack.
         isVisited[row][column] = true;
 
         dfs(row - 1, column, remainingValidCells - 1);

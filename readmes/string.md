@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 340/877.
+Completed: 341/877.
 
 ## Submissions
 ### Easy
@@ -249,6 +249,7 @@ Completed: 340/877.
 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                   | 39ms    | 31.92%  |
 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelStringsInRanges.java)                                    | 4ms     | 98.17%  |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsOne.java)       | 8ms     | 61.03%  |
+| [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsII.java)        | 122ms   | 81.82%  |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersTwo.java)                         | 8ms     | 97.11%  |
 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)                                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CustomSortString.java)                                             | 4ms     | 22.05%  |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                               | 162ms   | 94.15%  | 
