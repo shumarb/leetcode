@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 697/2188.
+Completed: 698/2188.
 
 ## Submissions
 ### Easy
@@ -354,6 +354,7 @@ Completed: 697/2188.
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)                         | 8ms     | 61.40%  |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                          | 4ms     | 97.69%  |
 | [Special Array I](https://leetcode.com/problems/special-array-i/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayOne.java)                                        | 0ms     | 100.00% |
+| [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayWithXElementsGreaterThanOrEqualX.java)           | 1ms     | 83.54%  |
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialPositionsInABinaryMatrix.java)                        | 2ms     | 83.84%  |
 | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitStringsBySeparator.java)                                | 6ms     | 84.62%  |
 | [Split the Array](https://leetcode.com/problems/split-the-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitTheArray.java)                                          | 0ms     | 100.00% |

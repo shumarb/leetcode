@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 174/523.
+Completed: 175/525.
 
 ## Submissions
 ### Easy
@@ -93,6 +93,7 @@ Completed: 174/523.
 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortIntegersByTheNumberOf1Bits.java)                       | 8ms     | 61.40%  |
 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortThePeople.java)                                        | 4ms     | 97.69%  |
 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortingTheSentence.java)                                   | 0ms     | 100.00% |
+| [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayWithXElementsGreaterThanOrEqualX.java)         | 1ms     | 83.54%  |
 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitWithMinimumSum.java)                                  | 0ms     | 100.00% |
 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SquaresOfASortedArray.java)                                | 1ms     | 100.00% |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                             | 2ms     | 76.03%  |

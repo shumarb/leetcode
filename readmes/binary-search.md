@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/339.
+Completed: 69/341.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 68/339.
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCommonValue.java)                              | 0ms     | 100.00% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                   | 0ms     | 100.00% |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInsertPosition.java)                            | 0ms     | 100.00% |
+| [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayWithXElementsGreaterThanOrEqualX.java)    | 1ms     | 83.54%  |
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SqrtX.java)                                           | 1ms     | 98.02%  |
 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheKWeakestRowsInAMatrix.java)                        | 2ms     | 76.03%  |
 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPerfectSquare.java)                              | 0ms     | 100.00% |
