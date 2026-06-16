@@ -2,34 +2,34 @@
 
 class LongestSubstringOfAllVowelsInOrder {
     public int longestBeautifulSubstring(String word) {
-        // 1. Edge case: word has insufficient characters.
-        if (word.length() < 5) {
+        char[] letters = word.toCharArray();
+        int current = 1;
+        int countUniqueVowels = 1;
+        int n = letters.length;
+        int result = 0;
+
+        if (n < 5) {
             return 0;
         }
 
-        int count = 1;
-        int current = 1;
-        int longest = 0;
-        int n = word.length();
-
         for (int i = 1; i < n; i++) {
-            if (word.charAt(i) == word.charAt(i - 1)) {
+            if (letters[i] == letters[i - 1]) {
                 current++;
 
-            } else if (word.charAt(i) > word.charAt(i - 1)) {
-                count++;
+            } else if (letters[i] > letters[i - 1]) {
+                countUniqueVowels++;
                 current++;
 
             } else {
-                count = 1;
+                countUniqueVowels = 1;
                 current = 1;
             }
 
-            if (count == 5) {
-                longest = Math.max(current, longest);
+            if (countUniqueVowels == 5) {
+                result = Math.max(current, result);
             }
         }
 
-        return longest;
+        return result;
     }
 }
