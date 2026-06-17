@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 698/2188.
+Completed: 699/2188.
 
 ## Submissions
 ### Easy
@@ -539,6 +539,7 @@ Completed: 698/2188.
 | [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)                             | 190ms   | 57.17%  |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)                       | 38ms    | 93.18%  |
 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestFibonacciSubsequence.java)                             | 196ms   | 35.02%  |
+| [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestSubarrayWithAtMostKFrequency.java)                     | 66ms    | 73.07%  |
 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListComponents.java)                                            | 1ms     | 100.00% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83%  |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                                      | 146ms   | 93.80%  |
