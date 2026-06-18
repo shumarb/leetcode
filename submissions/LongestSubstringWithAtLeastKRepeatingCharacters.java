@@ -2,38 +2,43 @@
 
 class LongestSubstringWithAtLeastKRepeatingCharacters {
     public int longestSubstring(String s, int k) {
-        boolean isTest = false;
-        int n = s.length();
+        char[] letters = s.toCharArray();
+        int n = letters.length;
         int result = 0;
 
-        for (int i = 0; i < n; i++) {
-            int[] window = new int[26];
-            for (int j = i; j < n; j++) {
-                window[s.charAt(j) - 'a']++;
+        for (int targetUnique = 1; targetUnique <= 26; targetUnique++) {
+            int[] count = new int[26];
+            int countAtLeastK = 0;
+            int countUnique = 0;
+            int left = 0;
 
-                int len = j - i + 1;
-                if (len >= k && len > result && isValid(window, k)) {
-                    if (isTest) {
-                        System.out.println(" * valid: " + s.substring(i, j + 1));
+            for (int right = 0; right < n; right++) {
+                char incoming = letters[right];
+
+                if (++count[incoming - 'a'] == 1) {
+                    countUnique++;
+                }
+                if (count[incoming - 'a'] == k) {
+                    countAtLeastK++;
+                }
+
+                while (countUnique > targetUnique) {
+                    char remove = letters[left++];
+
+                    if (count[remove - 'a'] == k) {
+                        countAtLeastK--;
                     }
-                    result = len;
+                    if (--count[remove - 'a'] == 0) {
+                        countUnique--;
+                    }
+                }
+
+                if (countUnique == targetUnique && countAtLeastK == targetUnique) {
+                    result = Math.max(result, right - left + 1);
                 }
             }
         }
 
         return result;
-    }
-
-    private boolean isValid(int[] window, int k) {
-        for (int i = 0; i < window.length; i++) {
-            if (window[i] == 0) {
-                continue;
-            }
-            if (window[i] < k) {
-                return false;
-            }
-        }
-
-        return true;
     }
 }
