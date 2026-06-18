@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 699/2188.
+Completed: 700/2188.
 
 ## Submissions
 ### Easy
@@ -410,6 +410,7 @@ Completed: 699/2188.
 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddMinimumNumberOfRungs.java)                                         | 1ms     | 100.00% |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                           | 11ms    | 98.01%  |
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                                | 76ms    | 25.33%  |
+| [Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsII.java)                                             | 5ms     | 69.69%  |
 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Cashier.java)                                                         | 113ms   | 100.00% |
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100.00% |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AsteroidCollision.java)                                               | 5ms     | 66.33%  |
