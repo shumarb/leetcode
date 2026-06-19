@@ -2,42 +2,22 @@
 
 class BackspaceStringCompare {
     public boolean backspaceCompare(String s, String t) {
-        Stack<Character> sStack = new Stack<>();
-        Stack<Character> tStack = new Stack<>();
-        boolean isTest = false;
-        populate(sStack, s);
-        populate(tStack, t);
-
-        if (isTest) {
-            System.out.println("s: " + s + " | sStack: " + sStack);
-            System.out.println("t: " + t + " | tStack: " + tStack);
-        }
-
-        if (sStack.size() != tStack.size()) {
-            return false;
-        }
-        while (!sStack.isEmpty() || !tStack.isEmpty()) {
-            if (sStack.pop() != tStack.pop()) {
-                return false;
-            }
-        }
-
-        return true;
+        return getString(s).equals(getString(t));
     }
 
-    private void populate(Stack<Character> stack, String str) {
-        for (char c: str.toCharArray()) {
-            if (stack.isEmpty()) {
-                if (c != '#') {
-                    stack.push(c);
+    private String getString(String s) {
+        StringBuilder result = new StringBuilder();
+
+        for (char c: s.toCharArray()) {
+            if (c == '#') {
+                if (!result.isEmpty()) {
+                    result.setLength(result.length() - 1);
                 }
             } else {
-                if (c == '#') {
-                    stack.pop();
-                } else {
-                    stack.push(c);
-                }
+                result.append(c);
             }
         }
+
+        return result.toString();
     }
 }
