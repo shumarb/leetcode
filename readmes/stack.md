@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 55/179.
+Completed: 56/179.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 55/179.
 | [Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeAdjacentEqualElements.java)                       | 72ms    | 40.36%  |
 | [Min Stack](https://leetcode.com/problems/min-stack/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)                                         | 5ms     | 83.54%  |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                 | 1ms     | 51.13%  |
+| [Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterBalancedRemovals.java)         | 30ms    | 22.93%  |
 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterElementTwo.java)                            | 9ms     | 94.03%  |
 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NextGreaterNodeInLinkedList.java)                      | 16ms    | 92.23%  |
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringTwo.java)           | 31ms    | 52.93%  |
