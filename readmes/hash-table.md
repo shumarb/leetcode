@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 337/822.
+Completed: 338/822.
 
 ## Submissions
 ### Easy
@@ -287,6 +287,7 @@ Completed: 337/822.
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30%  |
 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxNumberOfKSumPairs.java)                                         | 24ms    | 45.50%  |
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                            | 54ms    | 36.20%  |
+| [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumErasureValue.java)                                          | 6ms     | 97.55%  |
 | [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOccurrencesOfASubstring.java)                       | 37ms    | 75.61%  |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                     | 4ms     | 99.82%  |
 | [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                    | 47ms    | 95.31%  |

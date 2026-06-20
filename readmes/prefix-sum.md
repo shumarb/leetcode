@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 53/256.
+Completed: 54/258.
 
 ## Submissions
 ### Easy
@@ -57,6 +57,7 @@ Completed: 53/256.
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                             | 10ms    | 64.27%  |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayOne.java)                              | 146ms   | 93.80%  |
 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                           | 1100ms  | 5.11%   |
+| [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnesIII.java)                                   | 4ms     | 46.56%  |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                      | 2ms     | 98.84%  |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                                 | 3ms     | 96.09%  |
 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageDifference.java)                                | 7ms     | 20.00%  |
