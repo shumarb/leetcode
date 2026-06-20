@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/661.
+Completed: 58/661.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 57/661.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                         | 2ms     | 99.72%  |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                    | 18ms    | 51.89%  |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                   | 36ms    | 95.20%  |
+| [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayOf1sAfterDeletingOneElement.java)     | 2ms     | 99.25%  |
 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAbsoluteSumOfAnySubarray.java)                | 7ms     | 57.18%  |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                       | 9ms     | 80.63%  |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                | 24ms    | 66.86%  |

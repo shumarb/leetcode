@@ -2,7 +2,6 @@
 
 class MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
-        boolean isTest = false;
         int left = 0;
         int limit = k;
         int n = nums.length;
@@ -17,9 +16,6 @@ class MaxConsecutiveOnesIII {
                 if (nums[left++] == 0) {
                     limit++;
                 }
-            }
-            if (isTest) {
-                System.out.println(" * valid | indices [" + left + ", " + right + "] | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
             }
 
             result = Math.max(result, right - left + 1);
