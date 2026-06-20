@@ -2,38 +2,17 @@
 
 class MinimumStringLengthAfterBalancedRemovals {
     public int minLengthAfterRemovals(String s) {
-        Stack<Character> stack = new Stack<>();
-        boolean isTest = false;
-        char[] letters = s.toCharArray();
+        int countA = 0;
+        int countB = 0;
 
-        if (letters.length == 1) {
-            return 1;
-        }
-
-        for (char c: letters) {
-            if (isTest) {
-                System.out.println("------------------------------\nincoming: " + c);
-                System.out.println(" * before | stack: " + stack);
-            }
-
-            if (stack.isEmpty()) {
-                stack.push(c);
-
+        for (char c: s.toCharArray()) {
+            if (c == 'a') {
+                countA++;
             } else {
-                char top = stack.peek();
-
-                if ((top == 'a' && c == 'b') || (top == 'b' && c == 'a')) {
-                    stack.pop();
-                } else {
-                    stack.push(c);
-                }
-            }
-
-            if (isTest) {
-                System.out.println(" * after  | stack: " + stack);
+                countB++;
             }
         }
 
-        return stack.size();
+        return Math.abs(countA - countB);
     }
 }

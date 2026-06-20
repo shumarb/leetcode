@@ -2,34 +2,26 @@
 
 class RemoveAllAdjacentDuplicatesInString {
     public String removeDuplicates(String s) {
-        boolean isTest = false;
         StringBuilder result = new StringBuilder();
-        Stack<Character> stack = new Stack<>();
+        boolean isTest = false;
 
-        for (char letter: s.toCharArray()) {
+        for (char c: s.toCharArray()) {
             if (isTest) {
-                System.out.println("check: " + letter + ", stack so far: " + stack);
+                System.out.println("incoming: " + c + "\n * before: " + result);
             }
-            if (stack.isEmpty()) {
-                stack.push(letter);
-            } else {
-                if (stack.peek() == letter) {
-                    stack.pop();
-                } else {
-                    stack.push(letter);
-                }
-            }
-        }
-        if (isTest) {
-            System.out.println("final stack: " + stack);
-        }
 
-        while (!stack.isEmpty()) {
-            result.append(stack.pop());
+            if (result.isEmpty() || c != result.charAt(result.length() - 1)) {
+                result.append(c);
+            } else if (c == result.charAt(result.length() - 1)) {
+                result.setLength(result.length() - 1);
+            }
+
+            if (isTest) {
+                System.out.println(" * after: " + result + "\n------------------------");
+            }
         }
-        result.reverse();
         if (isTest) {
-            System.out.println("result: " + result.toString());
+            System.out.println("result: " + result);
         }
 
         return result.toString();
