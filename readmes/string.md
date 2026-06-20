@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 342/877.
+Completed: 343/877.
 
 ## Submissions
 ### Easy
@@ -48,6 +48,7 @@ Completed: 342/877.
 | [Clear Digits](https://leetcode.com/problems/clear-digits/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClearDigits.java)                                                  | 1ms     | 100.00% |
 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConsecutiveCharacters.java)                                        | 1ms     | 99.83%  |
 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertDateToBinary.java)                                          | 4ms     | 66.45%  |
+| [Count Asterisks](https://leetcode.com/problems/count-asterisks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAsterisks.java)                                               | 1ms     | 99.03%  |
 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBinarySubstrings.java)                                        | 6ms     | 99.70%  |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                            | 6ms     | 89.98%  |
 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountItemsMatchingARule.java)                                      | 3ms     | 98.81%  |

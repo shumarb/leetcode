@@ -5,12 +5,18 @@ class RemoveAllAdjacentDuplicatesInStringII {
 
     public String removeDuplicates(String s, int k) {
         boolean isTest = false;
-        char[] letters = new char[0];
+        char[] letters = s.toCharArray();
+        char[] result = new char[0];
         int j = 0;
         int totalLetters = 0;
         stack = new Stack<>();
 
-        for (char c: s.toCharArray()) {
+        // 1. Not enough consecutive characters to remove.
+        if (k > letters.length) {
+            return s;
+        }
+
+        for (char c: letters) {
             if (isTest) {
                 print("incoming: " + c + "\n\nbefore: ");
             }
@@ -31,22 +37,22 @@ class RemoveAllAdjacentDuplicatesInStringII {
             }
         }
 
-        letters = new char[totalLetters];
-        j = totalLetters - 1;
+        result = new char[totalLetters];
 
         if (totalLetters > 0) {
+            j = totalLetters - 1;
             while (!stack.isEmpty()) {
                 Pair top = stack.pop();
                 while (top.count-- > 0) {
-                    letters[j--] = top.c;
+                    result[j--] = top.c;
                 }
             }
         }
         if (isTest) {
-            System.out.println("totalLetters: " + totalLetters + "\nletters: " + Arrays.toString(letters));
+            System.out.println("totalLetters: " + totalLetters + "\nresult: " + Arrays.toString(result));
         }
 
-        return new String(letters);
+        return new String(result);
     }
 
     private void print(String s) {
