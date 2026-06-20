@@ -2,18 +2,16 @@
 
 class UniqueNumberOfOccurrences {
     public boolean uniqueOccurrences(int[] arr) {
-        Map<Integer, Integer> numbers = new HashMap<>();
-        boolean[] frequency = new boolean[1001];
+        int[] count = new int[2001];
+        int[] countFrequency = new int[2001];
 
-        for (int number: arr) {
-            numbers.put(number, 1 + numbers.getOrDefault(number, 0));
+        for (int e: arr) {
+            count[e + 1000]++;
         }
-
-        for (int numberOfOccurrences: numbers.values()) {
-            if (frequency[numberOfOccurrences]) {
+        for (int i = 0; i < count.length; i++) {
+            if (count[i] > 0 && ++countFrequency[count[i]] > 1) {
                 return false;
             }
-            frequency[numberOfOccurrences] = true;
         }
 
         return true;

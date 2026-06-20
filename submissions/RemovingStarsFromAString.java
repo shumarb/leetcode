@@ -7,19 +7,18 @@ class RemovingStarsFromAString {
 
         for (char c: s.toCharArray()) {
             if (isTest) {
-                System.out.println("c: " + c + "\nbefore: " + result);
+                System.out.println("incoming: " + c + "\nbefore: " + result);
             }
 
-            if (c >= 'a' && c <= 'z') {
+            int n = result.length();
+            if (c != '*') {
                 result.append(c);
-
-            } else if (!result.isEmpty()) {
-                result.setLength(result.length() - 1);
+            } else if (c == '*' && n > 0) {
+                result.setLength(n - 1);
             }
 
             if (isTest) {
-                System.out.println("after: " + result);
-                System.out.println("--------------------------------");
+                System.out.println("after: " + result + "\n--------------------------");
             }
         }
         if (isTest) {

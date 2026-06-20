@@ -38,14 +38,11 @@ class RemoveAllAdjacentDuplicatesInStringII {
         }
 
         result = new char[totalLetters];
-
-        if (totalLetters > 0) {
-            j = totalLetters - 1;
-            while (!stack.isEmpty()) {
-                Pair top = stack.pop();
-                while (top.count-- > 0) {
-                    result[j--] = top.c;
-                }
+        j = totalLetters - 1;
+        while (!stack.isEmpty()) {
+            Pair top = stack.pop();
+            while (top.count-- > 0) {
+                result[j--] = top.c;
             }
         }
         if (isTest) {

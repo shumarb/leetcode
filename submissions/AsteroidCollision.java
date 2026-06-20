@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/asteroid-collision/description/
 
 class AsteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
@@ -18,21 +18,13 @@ class AsteroidCollision {
                  incoming and top element travel in same direction,
                  or top element travels left and incoming travels right.
              */
-            if (stack.isEmpty()
-                    || (incoming < 0 && stack.peek() < 0)
-                    || (incoming < 0 && stack.peek() < 0)
-                    || incoming > 0 && stack.peek() < 0) {
-                stack.push(incoming);
-
-            } else {
+            if (!stack.isEmpty() && incoming < 0 && stack.peek() > 0) {
                 boolean isSurvive = true;
                 int incomingStrength = Math.abs(incoming);
 
                 while (!stack.isEmpty()) {
                     int top = stack.peek();
-                    if ((top < 0 && incoming < 0)
-                            || (top > 0 && incoming > 0)
-                            || (top < 0 && incoming > 0)) {
+                    if (!(top > 0 && incoming < 0)) {
                         break;
                     }
 
@@ -53,6 +45,8 @@ class AsteroidCollision {
                 if (isSurvive) {
                     stack.push(incoming);
                 }
+            } else {
+                stack.push(incoming);
             }
             if (isTest) {
                 System.out.println(" * after: " + stack);
