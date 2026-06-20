@@ -2,50 +2,41 @@
 
 class MaximumSumOfDistinctSubarraysWithLengthK {
     public long maximumSubarraySum(int[] nums, int k) {
+        int[] count = new int[100001];
         int countDistinct = 0;
-        int largest = nums[0];
-        int len = nums.length;
-        int[] frequency;
+        int n = nums.length;
         long currentSubarraySum = 0;
-        long maximumSubarraySum = 0;
-
-        for (int number: nums) {
-            largest = Math.max(largest, number);
-        }
-        frequency = new int[largest + 1];
+        long result = 0;
 
         for (int i = 0; i < k; i++) {
-            int current = nums[i];
-            frequency[current]++;
-            currentSubarraySum += current;
-            if (frequency[current] == 1) {
+            int incoming = nums[i];
+            currentSubarraySum += incoming;
+            if (++count[incoming] == 1) {
                 countDistinct++;
             }
         }
         if (countDistinct == k) {
-            maximumSubarraySum = currentSubarraySum;
+            result = currentSubarraySum;
         }
 
-        for (int i = k; i < len; i++) {
+        for (int i = k; i < n; i++) {
             int remove = nums[i - k];
             currentSubarraySum -= remove;
-            frequency[remove]--;
-            if (frequency[remove] == 0) {
+            if (--count[remove] == 0) {
                 countDistinct--;
             }
 
             int incoming = nums[i];
             currentSubarraySum += incoming;
-            frequency[incoming]++;
-            if (frequency[incoming] == 1) {
+            if (++count[incoming] == 1) {
                 countDistinct++;
             }
 
             if (countDistinct == k) {
-                maximumSubarraySum = Math.max(maximumSubarraySum, currentSubarraySum);
+                result = Math.max(currentSubarraySum, result);
             }
         }
 
-        return maximumSubarraySum;
+        return result;
     }
 }
