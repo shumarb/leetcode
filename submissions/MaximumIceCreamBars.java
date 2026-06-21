@@ -2,39 +2,38 @@
 
 class MaximumIceCreamBars {
     public int maxIceCream(int[] costs, int coins) {
-        int maxIceCream = 0;
         boolean isTest = false;
+        int[] count = new int[100001];
+        int largest = 0;
+        int result = 0;
 
-        int maximumCost = costs[0];
-        for (int cost: costs) {
-            maximumCost = Math.max(maximumCost, cost);
-        }
-
-        int[] costFrequency = new int[maximumCost + 1];
-        for (int cost: costs) {
-            costFrequency[cost]++;
+        for (int e: costs) {
+            count[e]++;
+            largest = Math.max(e, largest);
         }
         if (isTest) {
-            System.out.println("coins: " + coins + "\ncosts: " + Arrays.toString(costs) + "\ncostFrequency: " + Arrays.toString(costFrequency));
-            System.out.println("-----------------------------------------------------------------------------------------------------");
+            System.out.println("coins: " + coins + "\ncosts: " + Arrays.toString(costs));
+            System.out.println("count: " + Arrays.toString(Arrays.copyOfRange(count, 0, largest + 1)));
+            System.out.println("---------------------------");
         }
 
-        for (int i = 1; i < costFrequency.length && coins > 0; i++) {
-            while (costFrequency[i] > 0 && (coins - i) >= 0) {
-                if (isTest) {
-                    System.out.println("adding to cost: " + i);
-                    System.out.println("before | coins: " + coins + ", maxIceCream: " + maxIceCream);
-                }
+        for (int i = 1; i <= largest; i++) {
+            if (coins < i) {
+                break;
+            }
+            while (count[i] > 0 && coins - i >= 0) {
+                result++;
                 coins -= i;
-                costFrequency[i]--;
-                maxIceCream++;
+                count[i]--;
                 if (isTest) {
-                    System.out.println("after | coins: " + coins + ", maxIceCream: " + maxIceCream);
-                    System.out.println("-----------------------------------------------------------------------------------------------------");
+                    System.out.println(" * buy: " + i + " | balance: " + coins);
                 }
             }
         }
+        if (isTest) {
+            System.out.println("---------------------------\nresult: " + result);
+        }
 
-        return maxIceCream;
+        return result;
     }
 }

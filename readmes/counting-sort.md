@@ -25,6 +25,6 @@ Completed: 8/11.
 ### Medium
 | Question                                                                                                                | Submission                                                                                                 | Runtime | Rank   |
 |-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                 | 6ms     | 88.17% |
+| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                 | 5ms     | 91.89%  |
 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPalindromicRearrangementOne.java) | 43ms    | 36.19% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                         | 5ms     | 97.68% |
