@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 704/2188.
+Completed: 705/2188.
 
 ## Submissions
 ### Easy
@@ -517,6 +517,7 @@ Completed: 704/2188.
 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstElementWithUniqueFrequency.java)                                 | 7ms     | 99.99%  |
 | [Four Divisors](https://leetcode.com/problems/four-divisors/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FourDivisors.java)                                                    | 17ms    | 56.54%  |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39%  |
+| [Fruits into Baskets](https://leetcode.com/problems/fruits-into-baskets/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBaskets.java)                                               | 9ms     | 93.80%  |
 | [Game of Life](https://leetcode.com/problems/game-of-life/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GameOfLife.java)                                                      | 0ms     | 100.00% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 6ms     | 99.41%  |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                     | 8ms     | 51.20%  |
