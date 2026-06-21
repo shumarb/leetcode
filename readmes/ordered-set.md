@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 11/76.
+Completed: 12/79.
 
 ## Submissions
 ### Easy
@@ -32,6 +32,7 @@ Completed: 11/76.
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)                            | 109ms   | 52.64% |
 
 ### Hard
-| Question                                                                                                                                       | Submission                                                                                                         | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                              | 51ms    | 84.31% |
+| Question                                                                                    | Submission                                                                                  | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java) | 198ms   | 19.56% |
+| [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)       | 51ms    | 84.31% |

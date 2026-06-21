@@ -10,14 +10,14 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/167.
+Completed: 65/167.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                                                          | Submission                                                                                                               | Runtime | Rank    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|---------|
 | [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsI.java)                                | 1ms     | 99.43%  |
-| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateTwo.java)                              | 18ms    | 89.16%  |
+| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateII.java)                               | 18ms    | 98.98%  |
 | [Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsThatSatisfyKConstraintsOne.java)         | 2ms     | 52.78%  |
 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                     | 4ms     | 6.06%   |
 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                    | 7ms     | 96.27%  |
@@ -85,6 +85,7 @@ Completed: 64/167.
 ### Hard
 | Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java)            | 198ms   | 19.56% |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)          | 14ms    | 70.35% |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)            | 7ms     | 99.46% |
 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 93.85% |

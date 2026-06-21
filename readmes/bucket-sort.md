@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/6.
+Completed: 6/6.
 
 ## Submissions
 ### Medium
@@ -21,3 +21,8 @@ Completed: 5/6.
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)               | 5ms     | 97.68% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)      | 6ms     | 99.38% |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)         | 6ms     | 99.71%  | 
+
+### Hard
+| Question                                                                                    | Submission                                                                                  | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java) | 198ms   | 19.56% |

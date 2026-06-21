@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 705/2188.
+Completed: 706/2188.
 
 ## Submissions
 ### Easy
@@ -64,7 +64,7 @@ Completed: 705/2188.
 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConcatenationOfArrays.java)                                  | 1ms     | 96.28%  |
 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/description)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructUniformParityArrayOne.java)                         | 0ms     | 100.00% |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                      | 9ms     | 99.19%  |
-| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateTwo.java)                                   | 18ms    | 82.31%  |
+| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateII.java)                                    | 18ms    | 98.98%  |
 | [Convert 1D Array into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Convert1DArrayInto2DArray.java)                              | 2ms     | 100.00% |
 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedArrayToBinarySearchTree.java)                   | 0ms     | 100.00% |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                      | 6ms     | 89.98%  |
@@ -715,6 +715,7 @@ Completed: 705/2188.
 | Question                                                                                                                                      | Submission                                                                                                | Runtime | Rank    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|---------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                          | 49ms    | 79.54%  |
+| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java)               | 198ms   | 19.56%  |
 | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                   | 234ms   | 44.17%  |
 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)        | 7ms     | 81.55%  |
 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArrayTwo.java) | 0ms     | 100.00% |
