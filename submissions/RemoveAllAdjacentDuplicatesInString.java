@@ -10,10 +10,11 @@ class RemoveAllAdjacentDuplicatesInString {
                 System.out.println("incoming: " + c + "\n * before: " + result);
             }
 
-            if (result.isEmpty() || c != result.charAt(result.length() - 1)) {
+            int n = result.length();
+            if (result.isEmpty() || c != result.charAt(n - 1)) {
                 result.append(c);
-            } else if (c == result.charAt(result.length() - 1)) {
-                result.setLength(result.length() - 1);
+            } else {
+                result.setLength(n - 1);
             }
 
             if (isTest) {
