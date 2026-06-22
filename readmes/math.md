@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 210/681.
+Completed: 211/681.
 
 ## Submissions
 ### Easy
@@ -141,6 +141,7 @@ Completed: 210/681.
 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                         | 1ms     | 39.67%  |
 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumber.java)                                             | 0ms     | 100.00% |
 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                         | 0ms     | 100.00% |
+| [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidDigitNumber.java)                                       | 1ms     | 98.99%  |
 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPerfectSquare.java)                                     | 0ms     | 100.00% |
 | [Water Bottles](https://leetcode.com/problems/water-bottles/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WaterBottles.java)                                           | 0ms     | 100.00% |
 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/XOfAKindInADeckOfCards.java)                                 | 2ms     | 97.02%  |
