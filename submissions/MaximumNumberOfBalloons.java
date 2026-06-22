@@ -2,44 +2,49 @@
 
 class MaximumNumberOfBalloons {
     public int maxNumberOfBalloons(String text) {
-        String word = "balloon";
         boolean isTest = false;
-        int count = Integer.MAX_VALUE;
-        int[] textFrequency = new int[26];
-        int[] wordFrequency = new int[26];
+        int[] count = new int[26];
+        int result = 0;
 
-        for (char letter: text.toCharArray()) {
-            textFrequency[letter - 'a']++;
+        for (char c: text.toCharArray()) {
+            count[c - 'a']++;
         }
-        for (char letter: word.toCharArray()) {
-            wordFrequency[letter - 'a']++;
-        }
-        /**
-         1.  Divide frequency by 2 for letters 'l' and 'o'
-         as these letters are counted as a pair.
-         */
-        wordFrequency['l' - 'a'] /= 2;
-        wordFrequency['o' - 'a'] /= 2;
-        textFrequency['l' - 'a'] /= 2;
-        textFrequency['o' - 'a'] /= 2;
         if (isTest) {
-            System.out.println("text: " + text + "\nword: " + word);
-            System.out.println("textFrequency: " + Arrays.toString(textFrequency));
-            System.out.println("wordFrequency: " + Arrays.toString(wordFrequency));
+            System.out.println("text: " + text + "\ncount: " + Arrays.toString(count));
         }
 
-        for (char letter: word.toCharArray()) {
-            // 2. Can't form "balloon" if text has insufficient letters.
-            if (textFrequency[letter - 'a'] == 0 || textFrequency[letter - 'a'] < wordFrequency[letter - 'a']) {
-                return 0;
-            } else {
-                count = Math.min(count, textFrequency[letter - 'a'] / wordFrequency[letter - 'a']);
+        while (true) {
+            if (count['b' - 'a'] == 0) {
+                break;
             }
+            count['b' - 'a']--;
+
+            if (count['a' - 'a'] == 0) {
+                break;
+            }
+            count['a' - 'a']--;
+
+            if (count['l' - 'a'] <= 1) {
+                break;
+            }
+            count['l' - 'a'] -= 2;
+
+            if (count['o' - 'a'] <= 1) {
+                break;
+            }
+            count['o' - 'a'] -= 2;
+
+            if (count['n' - 'a'] == 0) {
+                break;
+            }
+            count['n' - 'a']--;
+
+            result++;
         }
         if (isTest) {
-            System.out.println("count: " + count);
+            System.out.println("result: " + result);
         }
 
-        return count;
+        return result;
     }
 }
