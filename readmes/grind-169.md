@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 123/169.
+Completed: 124/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank    |
@@ -96,6 +96,7 @@ Completed: 123/169.
 | 100 | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-subsequence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSubsequence.java)                      | 31ms    | 56.92%  |
 | 101 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                        | 0ms     | 100.00% |
 | 106 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                               | 4ms     | 96.68%  |
+| 107 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestRepeatingCharacterReplacement.java)               | 10ms    | 57.04%  |
 | 109 | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SameTree.java)                                           | 0ms     | 100.00% |
 | 110 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)                                      | 0ms     | 100.00% |
 | 111 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonPrefix.java)                                | 1ms     | 64.00%  |

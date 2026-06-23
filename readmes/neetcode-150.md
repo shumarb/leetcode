@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 103/150.
+Completed: 104/150.
 
 ## Submissions
 ### Easy
@@ -80,6 +80,7 @@ Completed: 103/150.
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                         | 31ms    | 56.92%  |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                       | 38ms    | 64.87%  |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                        | 18ms    | 51.89%  |
+| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestRepeatingCharacterReplacement.java)               | 10ms    | 57.04%  |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)          | 2ms     | 97.58%  |
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)            | 5ms     | 100.00% |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                    | 1ms     | 100.00% |
