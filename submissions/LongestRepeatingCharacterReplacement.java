@@ -7,12 +7,13 @@ class LongestRepeatingCharacterReplacement {
 
     public int characterReplacement(String s, int k) {
         boolean[] isPresent = new boolean[26];
+        letters = s.toCharArray();
+        int n = letters.length;
         int result = 0;
         isTest = false;
-        letters = s.toCharArray();
         this.k = k;
 
-        if (letters.length == 1) {
+        if (n == 1) {
             return 1;
         }
 
@@ -23,6 +24,12 @@ class LongestRepeatingCharacterReplacement {
             if (!isPresent[c - 'A']) {
                 int longestReplacementLength = getLongestReplacementLength(c);
                 result = Math.max(longestReplacementLength, result);
+
+                // 1. Stop all checks if longest replacement length is equal to string's length.
+                if (result == n) {
+                    return n;
+                }
+
                 isPresent[c - 'A'] = true;
             }
         }
