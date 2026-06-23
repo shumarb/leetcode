@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 707/2188.
+Completed: 708/2188.
 
 ## Submissions
 ### Easy
@@ -652,6 +652,7 @@ Completed: 707/2188.
 | [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueriesOnAPermutationWithKey.java)                                    | 6ms     | 59.67%  |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                            | 21ms    | 99.89%  |
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                                                       | 101ms   | 85.10%  |
+| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumQueryMutable.java)                                            | 73ms    | 88.23%  |
 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                                    | 18ms    | 83.97%  |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                                | 5ms     | 84.98%  |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                                  | 47ms    | 87.43%  |

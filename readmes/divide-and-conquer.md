@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/64.
+Completed: 26/67.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 25/64.
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                    | 1ms     | 99.92%  |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                             | 30ms    | 64.77%  |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestElementInAnArray.java)                         | 3ms     | 98.86%  |
+| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumQueryMutable.java)                               | 73ms    | 88.23%  |
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchA2DMatrixTwo.java)                                 | 5ms     | 99.37%  |
 | [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                           | 9ms     | 94.52%  |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                                        | 5ms     | 97.68%  |

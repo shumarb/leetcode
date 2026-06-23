@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/44.
+Completed: 4/44.
 
 ## Submissions
 ### Medium
@@ -18,6 +18,7 @@ Completed: 3/44.
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------|--------|
 | [Count Number of Teams](https://leetcode.com/problems/number-of-teams/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfTeams.java)           | 15ms    | 87.60% |
 | [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/QueriesOnAPermutationWithKey.java) | 6ms     | 59.67% |
+| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumQueryMutable.java)         | 73ms    | 88.23% |
 
 ### Hard
 | Question                                                                        | Submission                                                                                             | Runtime | Rank   |
