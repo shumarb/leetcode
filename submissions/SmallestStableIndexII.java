@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/smallest-stable-index-ii/description/
 
-class SmallestStableIndexTwo {
+class SmallestStableIndexII {
     public int firstStableIndex(int[] nums, int k) {
         boolean isTest = false;
         int maximum = nums[0];
@@ -29,6 +29,7 @@ class SmallestStableIndexTwo {
                 if (isTest) {
                     System.out.println(" * result: " + i);
                 }
+                
                 return i;
             }
         }

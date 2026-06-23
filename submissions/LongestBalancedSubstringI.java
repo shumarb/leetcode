@@ -1,8 +1,9 @@
 // Question: https://leetcode.com/problems/longest-balanced-substring-i/description/
 
-class LongestBalancedSubstringOne {
+class LongestBalancedSubstringI {
     public int longestBalanced(String s) {
         boolean isTest = false;
+        char[] letters = s.toCharArray();
         int n = s.length();
         int result = 0;
 
@@ -12,7 +13,7 @@ class LongestBalancedSubstringOne {
             int maximumCount = 0;
 
             for (int j = i; j < n; j++) {
-                char c = s.charAt(j);
+                char c = letters[j];
                 if (++count[c - 'a'] == 1) {
                     ++countDistinctLetters;
                 }

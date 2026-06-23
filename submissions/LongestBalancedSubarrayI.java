@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/longest-balanced-subarray-i/description/
 
-class LongestBalancedSubarrayOne {
+class LongestBalancedSubarrayI {
     public int longestBalanced(int[] nums) {
         boolean isTest = false;
         int n = nums.length;
