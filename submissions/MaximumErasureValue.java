@@ -19,7 +19,8 @@ class MaximumErasureValue {
                 sum -= remove;
             }
             if (isTest) {
-                System.out.println(" * valid | indices: [" + left + ", " + right + "] | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + " | sum: " + sum);
+                System.out.println(" * index range: [" + left + ", " + right
+                        + "] | sum: " + sum + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
             }
 
             result = Math.max(result, sum);

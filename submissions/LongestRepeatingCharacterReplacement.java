@@ -1,29 +1,24 @@
 // Question: https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
 class LongestRepeatingCharacterReplacement {
-    private boolean isTest;
     private char[] letters;
     private int k;
+    private int result;
 
     public int characterReplacement(String s, int k) {
         boolean[] isPresent = new boolean[26];
+        int n = s.length();
         letters = s.toCharArray();
-        int n = letters.length;
-        int result = 0;
-        isTest = false;
+        result = 0;
         this.k = k;
 
         if (n == 1) {
             return 1;
         }
 
-        if (isTest) {
-            System.out.println("k: " + k + "\nletters: " + Arrays.toString(letters));
-        }
         for (char c: letters) {
             if (!isPresent[c - 'A']) {
-                int longestReplacementLength = getLongestReplacementLength(c);
-                result = Math.max(longestReplacementLength, result);
+                getLongestReplacementLength(c);
 
                 // 1. Stop all checks if longest replacement length is equal to string's length.
                 if (result == n) {
@@ -33,21 +28,14 @@ class LongestRepeatingCharacterReplacement {
                 isPresent[c - 'A'] = true;
             }
         }
-        if (isTest) {
-            System.out.println("--------------------------------------------------\nresult: " + result);
-        }
 
         return result;
     }
 
-    private int getLongestReplacementLength(char letter) {
+    private void getLongestReplacementLength(char letter) {
         int left = 0;
         int limit = k;
-        int result = 0;
 
-        if (isTest) {
-            System.out.println("--------------------------------------------------\nletter: " + letter);
-        }
         for (int right = 0; right < letters.length; right++) {
             if (letters[right] != letter) {
                 limit--;
@@ -59,16 +47,7 @@ class LongestRepeatingCharacterReplacement {
                 }
             }
 
-            int length = right - left + 1;
-            if (isTest) {
-                System.out.println(" * indices: [" + left + ", " + right + "] | limit: " + limit
-                        + " | length: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(letters, left, right + 1))
-                );
-            }
-
-            result = Math.max(length, result);
+            result = Math.max(result, right - left + 1);
         }
-
-        return result;
     }
 }
