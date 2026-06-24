@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 708/2188.
+Completed: 709/2188.
 
 ## Submissions
 ### Easy
@@ -521,6 +521,7 @@ Completed: 708/2188.
 | [Game of Life](https://leetcode.com/problems/game-of-life/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GameOfLife.java)                                                      | 0ms     | 100.00% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                                   | 6ms     | 99.41%  |
 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-todescription/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)                     | 8ms     | 51.20%  |
+| [Grumpy Store Owner](https://leetcode.com/problems/grumpy-bookstore-owner/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GrumpyStoreOwner.java)                                                | 3ms     | 97.00%  |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                                 | 63ms    | 27.26%  |
 | [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                                     | 0ms     | 100.00% |
 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncreasingTripletSubsequence.java)                                    | 2ms     | 98.72%  |

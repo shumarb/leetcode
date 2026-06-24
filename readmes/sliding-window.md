@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/167.
+Completed: 69/167.
 
 ## Submissions
 ### Easy
@@ -54,6 +54,7 @@ Completed: 68/167.
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 98.02%  |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)                               | 11ms    | 99.39%  |
 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitIntoBaskets.java)                                                | 9ms     | 93.80%  |
+| [Grumpy Store Owner](https://leetcode.com/problems/grumpy-bookstore-owner/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GrumpyStoreOwner.java)                                                | 3ms     | 97.00%  |
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                                     | 10ms    | 64.27%  |
 | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KRadiusSubarrayAverages.java)                                         | 6ms     | 68.46%  |
 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestSubarrayWithAtMostKFrequency.java)                     | 66ms    | 73.07%  |
