@@ -2,51 +2,53 @@
 
 class ReverseVowelsOfAString {
     public String reverseVowels(String s) {
-        StringBuilder reverseVowelsString = new StringBuilder();
         boolean isTest = false;
+        char[] letters = s.toCharArray();
+        int left = 0;
+        int n = letters.length;
+        int right = n - 1;
 
-        for (char letter: s.toCharArray()) {
-            reverseVowelsString.append(letter);
+        if (n == 1) {
+            return s;
         }
+
         if (isTest) {
-            System.out.println("s: " + s + "\nreverseVowelsString: " + reverseVowelsString);
+            System.out.println("before: " + Arrays.toString(letters));
+            System.out.println("----------------------------");
         }
-        int low = 0;
-        int high = s.length() - 1;
-        while (low < high) {
-            boolean isStop = false;
 
-            while (!isVowel(Character.toLowerCase(reverseVowelsString.charAt(high)))) {
-                high--;
-                if (high < low) {
-                    isStop = true;
-                    break;
-                }
-            }
-            while (!isVowel(Character.toLowerCase(reverseVowelsString.charAt(low)))) {
-                low++;
-                if (low > high) {
-                    isStop = true;
-                    break;
-                }
-            }
-            if (isStop) {
-                break;
+        while (left < right) {
+            while (left < n && left < right && !isVowel(letters[left])) {
+                left++;
             }
 
-            char lowLetter = reverseVowelsString.charAt(low);
-            char highLetter = reverseVowelsString.charAt(high);
+            while (right >= 0 && left < right && !isVowel(letters[right])) {
+                right--;
+            }
+
             if (isTest) {
-                System.out.println("swap | " + low + "-" + reverseVowelsString.charAt(low) + ", " + high + "-" + reverseVowelsString.charAt(high));
+                System.out.println(" * left: " + left + ", right: " + right);
             }
-            reverseVowelsString.setCharAt(high--, lowLetter);
-            reverseVowelsString.setCharAt(low++, highLetter);
+
+            if (left < n && right >= 0 && left < right) {
+                char temp = letters[left];
+                letters[left] = letters[right];
+                letters[right] = temp;
+            }
+
+            left++;
+            right--;
         }
 
-        return reverseVowelsString.toString();
+        if (isTest) {
+            System.out.println("----------------------------\nafter:  " + Arrays.toString(letters));
+        }
+
+        return new String(letters);
     }
 
-    private boolean isVowel(char letter) {
-        return letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
+    private boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'
+                || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
     }
 }

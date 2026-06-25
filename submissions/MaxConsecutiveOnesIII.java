@@ -2,12 +2,13 @@
 
 class MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
+        boolean isTest = false;
         int left = 0;
         int limit = k;
         int n = nums.length;
         int result = 0;
 
-        for (int right = 0; right < n; right++) {
+        for (int right = 0; right < nums.length; right++) {
             if (nums[right] == 0) {
                 limit--;
             }
@@ -18,7 +19,12 @@ class MaxConsecutiveOnesIII {
                 }
             }
 
-            result = Math.max(result, right - left + 1);
+            int length = right - left + 1;
+            if (length == n) {
+                return length;
+            }
+
+            result = Math.max(length, result);
         }
 
         return result;
