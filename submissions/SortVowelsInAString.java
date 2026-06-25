@@ -2,35 +2,41 @@
 
 class SortVowelsInAString {
     public String sortVowels(String s) {
-        List<Character> list = new ArrayList<>();
-        boolean isTest = false;
         char[] letters = s.toCharArray();
-
-        for (char letter: letters) {
-            if (isVowel(letter)) {
-                list.add(letter);
-            }
-        }
-        Collections.sort(list);
-        if (isTest) {
-            System.out.println("s: " + s + "\nbefore, letters: " + Arrays.toString(letters) + "\nlist: " + list);
-        }
-
+        char[] vowels;
         int j = 0;
-        for (int i = 0; i < letters.length; i++) {
-            if (isVowel(letters[i])) {
-                letters[i] = list.get(j++);
+        int n = letters.length;
+        int totalVowels = 0;
+
+        for (char c: letters) {
+            if (isVowel(c)) {
+                totalVowels++;
             }
         }
-        if (isTest) {
-            System.out.println("after, letters: " + Arrays.toString(letters));
+        if (n == 1 || totalVowels <= 1) {
+            return s;
+        }
+
+        vowels = new char[totalVowels];
+        for (char c: letters) {
+            if (isVowel(c)) {
+                vowels[j++] = c;
+            }
+        }
+        Arrays.sort(vowels);
+
+        j = 0;
+        for (int i = 0; i < n; i++) {
+            if (isVowel(letters[i])) {
+                letters[i] = vowels[j++];
+            }
         }
 
         return new String(letters);
     }
 
-    private boolean isVowel(char letter) {
-        return letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ||
-                letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u';
+    private boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+                c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
     }
 }
