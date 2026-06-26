@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 345/877.
+Completed: 346/877.
 
 ## Submissions
 ### Easy
@@ -282,6 +282,7 @@ Completed: 345/877.
 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LetterTilePossibilities.java)                                      | 1ms     | 94.09%  |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)             | 102ms   | 86.78%  |
 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubstringI.java)                                    | 24ms    | 91.99%  |
+| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonSubsequence.java)                                     | 10ms    | 99.47%  |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                                  | 18ms    | 51.89%  |
 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestRepeatingCharacterReplacement.java)                         | 8ms     | 67.65%  |
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                           | 12ms    | 93.06%  |
