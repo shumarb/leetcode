@@ -17,15 +17,9 @@ class SortVowelsInAString {
             return s;
         }
 
-        vowels = new char[totalVowels];
-        for (char c: letters) {
-            if (isVowel(c)) {
-                vowels[j++] = c;
-            }
-        }
-        Arrays.sort(vowels);
-
+        vowels = getSortedVowels(letters, totalVowels);
         j = 0;
+
         for (int i = 0; i < n; i++) {
             if (isVowel(letters[i])) {
                 letters[i] = vowels[j++];
@@ -38,5 +32,35 @@ class SortVowelsInAString {
     private boolean isVowel(char c) {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
                 c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+    }
+
+    private char[] getSortedVowels(char[] letters, int totalVowels) {
+        char[] result = new char[totalVowels];
+        int[] count = new int[52];
+        int j = 0;
+
+        for (char c: letters) {
+            if (!isVowel(c)) {
+                continue;
+
+            } else if (c >= 'a' && c <= 'z') {
+                count[c - 'a' + 26]++;
+
+            } else {
+                count[c - 'A']++;
+            }
+        }
+
+        for (int i = 0; i < count.length; i++) {
+            while (count[i]-- > 0) {
+                if (i < 26) {
+                    result[j++] = (char) ('A' + i);
+                } else {
+                    result[j++] = (char) ('a' + i - 26);
+                }
+            }
+        }
+
+        return result;
     }
 }

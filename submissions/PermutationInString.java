@@ -2,30 +2,36 @@
 
 class PermutationInString {
     public boolean checkInclusion(String s1, String s2) {
-        /**
-         1.  Edge case: s2 is shorter than s1,
-             hence s1's permutation is not a substring of s2.
-         */
-        if (s2.length() < s1.length()) {
+        boolean isTest = false;
+        char[] letters1 = s1.toCharArray();
+        char[] letters2 = s2.toCharArray();
+        int[] s1Window = new int[26];
+        int[] s2Window = new int[26];
+        int k = letters1.length;
+        int n = letters2.length;
+
+        if (k > n) {
             return false;
         }
 
-        int[] s1LetterFrequency = countLetters(s1);
-        int windowSize = s1.length();
-        StringBuilder window = new StringBuilder();
-
-        for (int i = 0; i < windowSize; i++) {
-            window.append(s2.charAt(i));
+        s1Window = getWindow(letters1, 0, k - 1);
+        s2Window = getWindow(letters2, 0, k - 1);
+        if (isTest) {
+            System.out.println("[0, " + (k - 1) + "]\n * s1Window: " + Arrays.toString(s1Window) + "\n * s2Window: " + Arrays.toString(s2Window));
         }
-        int[] windowLetterFrequency = countLetters(window.toString());
-        if (isS1Permutation(s1LetterFrequency, windowLetterFrequency)) {
+        if (containsPermutation(s2Window, s1Window)) {
             return true;
         }
 
-        for (int i = windowSize; i < s2.length(); i++) {
-            windowLetterFrequency[s2.charAt(i - windowSize) - 'a']--;
-            windowLetterFrequency[s2.charAt(i) - 'a']++;
-            if (isS1Permutation(s1LetterFrequency, windowLetterFrequency)) {
+        for (int i = k; i < n; i++) {
+            char remove = letters2[i - k];
+            char incoming = letters2[i];
+            s2Window[remove - 'a']--;
+            s2Window[incoming - 'a']++;
+            if (isTest) {
+                System.out.println("\n[" + (i - k + 1) + ", " + i + "]\nremove: " + remove + "\nincoming: " + incoming + "\n * s1Window: " + Arrays.toString(s1Window) + "\n * s2Window: " + Arrays.toString(s2Window));
+            }
+            if (containsPermutation(s2Window, s1Window)) {
                 return true;
             }
         }
@@ -33,15 +39,26 @@ class PermutationInString {
         return false;
     }
 
-    private boolean isS1Permutation(int[] s1LetterFrequency, int[] windowLetterFrequency) {
-        return Arrays.equals(s1LetterFrequency, windowLetterFrequency);
+    private boolean containsPermutation(int[] window, int[] pattern) {
+        for (int i = 0; i < window.length; i++) {
+            if (pattern[i] == 0) {
+                continue;
+            }
+            if (pattern[i] > window[i]) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
-    private int[] countLetters(String word) {
-        int[] letterFrequency = new int[26];
-        for (int i = 0; i < word.length(); i++) {
-            letterFrequency[word.charAt(i) - 'a']++;
+    private int[] getWindow(char[] letters, int start, int end) {
+        int[] result = new int[26];
+
+        for (int i = start; i <= end; i++) {
+            result[letters[i] - 'a']++;
         }
-        return letterFrequency;
+
+        return result;
     }
 }
