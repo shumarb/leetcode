@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 95/264.
+Completed: 96/264.
 
 ## Submissions
 ### Easy
@@ -108,6 +108,7 @@ Completed: 95/264.
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)                       | 0ms     | 100.00% |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                         | 10ms    | 39.11%  |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                     | 1ms     | 99.86%  |
+| [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubtreeWithAllTheDeepestNodes.java)              | 2ms     | 11.96%  |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                               | 0ms     | 100.00% |
 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfNodesWithEvenValuedGrandparent.java)                | 1ms     | 100.00% |
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                     | 128ms   | 11.37%  |

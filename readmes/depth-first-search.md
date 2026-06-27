@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 113/341.
+Completed: 114/343.
 
 ## Submissions
 ### Easy
@@ -121,6 +121,7 @@ Completed: 113/341.
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)                    | 0ms     | 100.00% |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11%  |
 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStringStartingFromLeaf.java)                  | 1ms     | 99.86%  |
+| [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubtreeWithAllTheDeepestNodes.java)           | 2ms     | 11.96%  |
 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumRootToLeafNumbers.java)                            | 0ms     | 100.00% |
 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfNodesWithEvenValuedGrandparent.java)             | 1ms     | 100.00% |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                               | 2ms     | 76.85%  |

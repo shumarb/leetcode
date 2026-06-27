@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/259.
+Completed: 98/259.
 
 ## Submissions
 ### Easy
@@ -103,6 +103,7 @@ Completed: 97/259.
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11%  |
 | [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceAfterRoadAdditionQueriesI.java)       | 85ms    | 74.42%  |
 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestPathInBinaryMatrix.java)                      | 15ms    | 61.62%  |
+| [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubtreeWithAllTheDeepestNodes.java)           | 2ms     | 11.96%  |
 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfNodesWithEvenValuedGrandparent.java)             | 1ms     | 100.00% |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                               | 2ms     | 76.85%  |
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                  | 128ms   | 11.37%  |

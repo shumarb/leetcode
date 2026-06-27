@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 343/822.
+Completed: 344/822.
 
 ## Submissions
 ### Easy
@@ -340,6 +340,7 @@ Completed: 343/822.
 | [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingSubarrayBeauty.java)                                        | 41ms    | 36.53%  |
 | [Smallest All-Ones Multiple](https://leetcode.com/problems/smallest-all-ones-multiple/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestAllOnesMultiple.java)                                      | 8ms     | 98.47%  |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)                                          | 16ms    | 33.15%  |
+| [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestSubtreeWithAllTheDeepestNodes.java)                        | 2ms     | 11.96%  |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                                    | 8ms     | 90.66%  |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)                                                   | 109ms   | 52.64%  |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                           | 24ms    | 75.04%  |
