@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 342/822.
+Completed: 343/822.
 
 ## Submissions
 ### Easy
@@ -247,6 +247,7 @@ Completed: 342/822.
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                               | 44ms    | 93.03%  |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                       | 0ms     | 100.00% |
 | [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLengthOfTheLongestCommonPrefix.java)                        | 68ms    | 52.61%  |
+| [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMaximumNumberOfElementsInSubset.java)                       | 49ms    | 93.02%  |
 | [Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMostCommonResponse.java)                                    | 123ms   | 90.97%  |
 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                          | 3ms     | 60.99%  |
 | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindSumPairs.java)                                                 | 153ms   | 42.29%  |
