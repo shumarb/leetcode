@@ -15,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class SmallestSubtreeWithAllTheDeepestNodes {
     private TreeNode result;
     private boolean isTest;
 
@@ -60,14 +60,6 @@ class Solution {
                 System.out.print(node.val + " ");
             }
             System.out.println("\n----------------------");
-        }
-
-        if (deepestNodes.size() == 1) {
-            for (TreeNode e: deepestNodes) {
-                result = e;
-            }
-
-            return result;
         }
 
         dfs(root, deepestNodes);
