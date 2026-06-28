@@ -16,30 +16,17 @@ class CreateGridWithExactlyOnePath {
         this.m = m;
         this.n = n;
 
-        if (m == 1) {
-            StringBuilder value = new StringBuilder();
-            for (int i = 0; i < n; i++) {
-                value.append('.');
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                grid[i][j] = '#';
             }
-
-            result[0] = value.toString();
-
-            return result;
         }
-
         dfs(true);
         for (int i = row; i < m; i++) {
             grid[i][n - 1] = '.';
         }
         for (int j = column; j < n; j++) {
             grid[m - 1][j] = '.';
-        }
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] != '.') {
-                    grid[i][j] = '#';
-                }
-            }
         }
         if (isTest) {
             System.out.println("final row: " + row + " | final column: " + column + "\ngrid:");
