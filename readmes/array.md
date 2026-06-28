@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 710/2188.
+Completed: 711/2188.
 
 ## Submissions
 ### Easy
@@ -569,6 +569,7 @@ Completed: 710/2188.
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 1ms     | 100.00% |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41%  |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                                         | 6ms     | 87.20%  |
+| [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)                     | 12ms    | 6.67%   |
 | [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumErasureValue.java)                                             | 6ms     | 97.65%  |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                                      | 11ms    | 93.10%  |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                                             | 5ms     | 91.89%  |

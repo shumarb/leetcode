@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 94/468.
+Completed: 95/468.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 94/468.
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)  | 102ms   | 86.78%  |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)              | 130ms   | 63.04%  |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                           | 6ms     | 87.20%  |
+| [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)       | 12ms    | 6.67%   |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                               | 5ms     | 91.89%  |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                          | 9ms     | 80.63%  |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)              | 26ms    | 61.51%  |
