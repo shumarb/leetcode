@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/259.
+Completed: 99/259.
 
 ## Submissions
 ### Easy
@@ -76,6 +76,7 @@ Completed: 98/259.
 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIII.java)                                     | 1ms     | 99.28%  |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100.00% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                      | 45ms    | 83.54%  |
+| [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfDeepestLeaves.java)             | 4ms     | 5.57%   | 
 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapOfHighestPeak.java)                                | 41ms    | 88.45%  |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                 | 1ms     | 100.00% |
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java)                    | 8ms     | 96.00%  |

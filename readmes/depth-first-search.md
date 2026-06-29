@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 114/343.
+Completed: 115/343.
 
 ## Submissions
 ### Easy
@@ -97,6 +97,7 @@ Completed: 114/343.
 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInABST.java)                        | 0ms     | 100.00% |
 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListInBinaryTree.java)                          | 1ms     | 99.77%  |
 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnivaluePath.java)                             | 2ms     | 95.73%  |
+| [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfDeepestLeaves.java)             | 4ms     | 5.57%   | 
 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinarySearchTree.java)         | 5ms     | 100.00% |
 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LowestCommonAncestorOfABinaryTree.java)               | 6ms     | 100.00% |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxAreaOfIsland.java)                                 | 1ms     | 100.00% |

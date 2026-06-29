@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 17/75.
+Completed: 18/75.
 
 ## Submissions
 ### Array / String
@@ -50,9 +50,10 @@ Completed: 17/75.
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java) | 25ms    | 93.15%  |
 
 ### Binary Tree - DFS
-| Question                                                                                                | Submission                                                                                      | Runtime | Rank   |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                | Submission                                                                                      | Runtime | Rank    |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|---------|
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDepthOfBinaryTree.java) | 0ms     | 100.00% |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)        | 0ms     | 100.00% |
 
 ### Binary Tree - BFS
 | Question                                                                                                            | Submission                                                                                          | Runtime | Rank   |
