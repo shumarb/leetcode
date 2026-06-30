@@ -17,32 +17,39 @@
  */
 class SmallestSubtreeWithAllTheDeepestNodes {
     private TreeNode result;
+    private boolean[] isDeepestLeaf;
+    private boolean isSolutionFound;
     private boolean isTest;
+    private int totalDeepestLeaves;
 
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
-        Set<TreeNode> deepestNodes = new HashSet<>();
         int level = 0;
+        isDeepestLeaf = new boolean[501];
+        isSolutionFound = false;
         isTest = false;
         result = null;
+        totalDeepestLeaves = 0;
 
         queue.offer(root);
         while (!queue.isEmpty()) {
-            deepestNodes = new HashSet<>();
-            for (TreeNode node: queue) {
-                deepestNodes.add(node);
-            }
             if (isTest) {
                 System.out.print("level " + level + ": ");
-                for (TreeNode node: queue) {
-                    System.out.print(node.val + " ");
+                for (TreeNode e: queue) {
+                    System.out.print(e.val + " ");
                 }
                 System.out.println();
             }
 
             int size = queue.size();
+            isDeepestLeaf = new boolean[1001];
+            totalDeepestLeaves = 0;
+
             while (size-- > 0) {
                 TreeNode top = queue.poll();
+
+                isDeepestLeaf[top.val] = true;
+                totalDeepestLeaves++;
 
                 if (top.left != null) {
                     queue.offer(top.left);
@@ -55,40 +62,45 @@ class SmallestSubtreeWithAllTheDeepestNodes {
             level++;
         }
         if (isTest) {
-            System.out.print("----------------------\ndeepestNodes: ");
-            for (TreeNode node: deepestNodes) {
-                System.out.print(node.val + " ");
+            System.out.print("----------------------\ntotalDeepestLeaves: " + totalDeepestLeaves + "\ndeepestLeaves: ");
+            for (int i = 0; i < isDeepestLeaf.length; i++) {
+                if (isDeepestLeaf[i]) {
+                    System.out.print(i + " ");
+                }
             }
             System.out.println("\n----------------------");
         }
 
-        dfs(root, deepestNodes);
+        dfs(root);
         if (isTest) {
-            System.out.println("----------------------\nresult: " + result.val);
+            System.out.print("----------------------\nresult: " + result.val);
         }
 
         return result;
     }
 
-    private int dfs(TreeNode root, Set<TreeNode> set) {
-        if (result != null || root == null) {
+    private int dfs(TreeNode root) {
+        if (isSolutionFound || root == null) {
             return 0;
         }
 
-        int left = dfs(root.left, set);
-        int right = dfs(root.right, set);
-        int totalDeepestNodes = left + right;
+        int countDeepestLeavesInLeft = dfs(root.left);
+        int countDeepestLeavesInRight = dfs(root.right);
+        int totalDeepestLeavesInRootSubtree = countDeepestLeavesInLeft + countDeepestLeavesInRight;
 
-        if (set.contains(root)) {
-            totalDeepestNodes++;
+        if (isDeepestLeaf[root.val]) {
+            totalDeepestLeavesInRootSubtree++;
         }
+
         if (isTest) {
-            System.out.println("root: " + root.val + " | total deepest nodes: " + totalDeepestNodes);
+            System.out.println(" * root: " + root.val + " | countDeepestLeavesInLeft: " + countDeepestLeavesInLeft + " | countDeepestLeavesInRight: " + countDeepestLeavesInRight + " | totalDeepestLeavesInRootSubtree: " + totalDeepestLeavesInRootSubtree);
         }
-        if (result == null && totalDeepestNodes == set.size()) {
+
+        if (!isSolutionFound && totalDeepestLeavesInRootSubtree == totalDeepestLeaves) {
+            isSolutionFound = true;
             result = root;
         }
 
-        return totalDeepestNodes;
+        return totalDeepestLeavesInRootSubtree;
     }
 }
