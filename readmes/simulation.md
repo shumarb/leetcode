@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 123/211.
+Completed: 124/211.
 
 ## Submissions
 ### Easy
@@ -123,6 +123,7 @@ Completed: 123/211.
 | [Game of Life](https://leetcode.com/problems/game-of-life/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GameOfLife.java)                                              | 0ms     | 100.00% |
 | [Merge Adjacent Equal Elements](https://leetcode.com/problems/merge-adjacent-equal-elements/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeAdjacentEqualElements.java)                              | 72ms    | 40.36%  |
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeNodesInBetweenZeros.java)                                | 5ms     | 83.64%  |
+| [Minimum Discards to Balance Inventory](https://leetcode.com/problems/minimum-discards-to-balance-inventory/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDiscardsToBalanceInventory.java)                       | 3ms     | 100.00% |
 | [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToExceedThresholdValueTwo.java)              | 144ms   | 74.64%  |
 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStepsToReduceANumberInBinaryRepresentationToOne.java) | 7ms     | 9.84%   |
 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArrayAccordingToGivenPivot.java)                     | 5ms     | 73.56%  |

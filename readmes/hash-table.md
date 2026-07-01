@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 347/824.
+Completed: 348/824.
 
 ## Submissions
 ### Easy
@@ -297,6 +297,7 @@ Completed: 347/824.
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                     | 4ms     | 99.82%  |
 | [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDistanceBetweenMirrorPairs.java)                    | 47ms    | 95.31%  |
 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumConsecutiveCardsToPickUp.java)                              | 16ms    | 96.94%  |
+| [Minimum Discards to Balance Inventory](https://leetcode.com/problems/minimum-discards-to-balance-inventory/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDiscardsToBalanceInventory.java)                            | 3ms     | 100.00% |
 | [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDistanceBetweenThreeEqualElementsTwo.java)                  | 47ms    | 97.21%  |
 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumGeneticMutation.java)                                       | 1ms     | 95.05%  |
 | [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumJumpsToReachHome.java)                                      | 25ms    | 78.72%  |
