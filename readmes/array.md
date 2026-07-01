@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 711/2188.
+Completed: 712/2196.
 
 ## Submissions
 ### Easy
@@ -706,6 +706,7 @@ Completed: 711/2188.
 | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSubarrayRanges.java)                                             | 16ms    | 80.24%  |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SurroundedRegions.java)                                               | 7ms     | 5.83%   |
 | [Target Sum](https://leetcode.com/problems/target-sum/description/)                                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TargetSum.java)                                                       | 113ms   | 39.48%  |
+| [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TaskSchedulerII.java)                                                 | 49ms    | 6.53%   |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)                                            | 6ms     | 99.38%  |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                               | 6ms     | 99.71%  | 
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                                     | 2ms     | 92.54%  |

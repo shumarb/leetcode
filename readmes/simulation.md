@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 122/211.
+Completed: 123/211.
 
 ## Submissions
 ### Easy
@@ -142,3 +142,4 @@ Completed: 122/211.
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                            | 0ms     | 100.00% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                            | 13ms    | 99.35%  |
 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfEvenNumbersAfterQueries.java)                            | 4ms     | 99.66%  |
+| [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TaskSchedulerII.java)                                         | 49ms    | 6.53%   |
