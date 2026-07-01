@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 41/152.
+Completed: 42/153.
 
 ## Submissions
 ### Easy
@@ -61,3 +61,4 @@ Completed: 41/152.
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65% |
 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)              | 12ms    | 94.05% |
 | [Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBinaryStringsWithCostLimit.java)             | 79ms    | 17.94% | 
+| [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)        | 2092ms  | 11.34% | 

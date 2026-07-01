@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 69/167.
+Completed: 70/169.
 
 ## Submissions
 ### Easy
@@ -85,6 +85,7 @@ Completed: 69/167.
 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestAndLexicographicallySmallestBeautifulString.java)             | 1ms     | 100.00% |
 | [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingSubarrayBeauty.java)                                           | 41ms    | 36.53%  |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 4ms     | 99.98%  |
+| [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)                            | 2092ms  | 11.34%  | 
 
 ### Hard
 | Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |

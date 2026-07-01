@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 346/824.
+Completed: 347/824.
 
 ## Submissions
 ### Easy
@@ -353,6 +353,7 @@ Completed: 346/824.
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                                            | 6ms     | 99.71%  | 
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)               | 141ms   | 42.47%  | 
 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumberII.java)                                                 | 2ms     | 99.46%  | 
+| [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)                         | 2092ms  | 11.34%  | 
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                                                    | 1ms     | 99.36%  |
 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordSubsets.java)                                                  | 14ms    | 45.41%  |
 

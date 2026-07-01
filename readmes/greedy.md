@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 95/468.
+Completed: 96/470.
 
 ## Submissions
 ### Easy
@@ -95,6 +95,7 @@ Completed: 95/468.
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                           | 5ms     | 37.59%  |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                     | 245ms   | 26.60%  |
 | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumTotalSubarrayValueI.java)                        | 1ms     | 100.00% |
+| [Maximum Total Sum of K Selected Elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumTotalSumOfKSelectedElements.java)                | 22ms    | 99.92%  |
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                 | 52ms    | 12.00%  |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                     | 11ms    | 96.62%  |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                  | 1ms     | 51.13%  |

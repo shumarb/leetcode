@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 177/525.
+Completed: 178/527.
 
 ## Submissions
 ### Easy
@@ -156,6 +156,7 @@ Completed: 177/525.
 | [Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeElementsAfterOneReplacement.java) | 42ms    | 47.24%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                          | 5ms     | 37.59%  |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                    | 245ms   | 26.60%  |
+| [Maximum Total Sum of K Selected Elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumTotalSumOfKSelectedElements.java)               | 22ms    | 99.92%  |
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                | 52ms    | 12.00%  |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeIntervals.java)                                   | 7ms     | 98.89%  |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                    | 11ms    | 96.62%  |
