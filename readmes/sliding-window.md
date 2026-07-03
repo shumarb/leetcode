@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/169.
+Completed: 72/169.
 
 ## Submissions
 ### Easy
@@ -89,9 +89,10 @@ Completed: 71/169.
 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)                            | 2092ms  | 11.34%  | 
 
 ### Hard
-| Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java)            | 198ms   | 19.56% |
-| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)          | 14ms    | 62.14% |
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)            | 7ms     | 99.46% |
-| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 93.85% |
+| Question                                                                                                                          | Submission                                                                                             | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
+| [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java)            | 198ms   | 19.56% |
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)          | 14ms    | 62.14% |
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java)            | 7ms     | 99.46% |
+| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 93.85% |
+| [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 2857ms  | 5.01%  |
