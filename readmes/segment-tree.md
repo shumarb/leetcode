@@ -14,10 +14,10 @@ Completed: 8/74.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                              | Submission                                                                                                     | Runtime | Rank    |
-|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|---------|
-| [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsII.java)                     | 1ms     | 100.00% |
-| [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysDistinctElementSumOfSquaresOne.java) | 3ms     | 98.91%  |
+| Question                                                                                                                              | Submission                                                                                                     | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsII.java)                     | 2ms     | 82.16% |
+| [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysDistinctElementSumOfSquaresOne.java) | 3ms     | 98.91% |
 
 ### Medium
 | Question                                                                                                                      | Submission                                                                                                  | Runtime | Rank   |

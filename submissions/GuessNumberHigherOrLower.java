@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/guess-number-higher-or-lower/description/
 
 /**
  * Forward declaration of guess API.
@@ -9,19 +9,23 @@
  * int guess(int num);
  */
 
-public class GuessNumberHigherOrLower extends GuessGame {
+public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int left = 0;
-        int right = Integer.MAX_VALUE;
+        int right = n;
 
         while (left <= right) {
             int num = left + (right - left) / 2;
-            if (guess(num) == 0) {
+            int result = guess(num);
+
+            if (result == 0) {
                 return num;
-            } else if (guess(num) == -1) {
-                right = num - 1;
-            } else {
+
+            } else if (result == 1) {
                 left = num + 1;
+
+            } else {
+                right = num - 1;
             }
         }
 

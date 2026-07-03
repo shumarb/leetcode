@@ -1,26 +1,24 @@
 // Question: https://leetcode.com/problems/fruits-into-baskets-ii/description/
 
-class FruitsIntoBasketsTwo {
+class FruitsIntoBasketsII {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         boolean isTest = false;
-        int countUsedBaskets = 0;
+        int n = fruits.length;
+        int result = n;
 
         if (isTest) {
-            System.out.println("before:\nfruits: " + Arrays.toString(fruits));
-            System.out.println("baskets: " + Arrays.toString(baskets));
+            System.out.println("before:\n * fruits:  " + Arrays.toString(fruits) + "\n * baskets: " + Arrays.toString(baskets));
             System.out.println("--------------------------------");
         }
 
-        for (int i = 0; i < fruits.length; i++) {
-            int fruit = fruits[i];
-            for (int j = 0; j < baskets.length; j++) {
-                int basket = baskets[j];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
                 if (isTest) {
-                    System.out.println("fruit: " + fruit + " | basket: " + basket);
+                    System.out.println("fruit: " + fruits[i] + " | basket: " + baskets[j]);
                 }
-                if (basket >= fruit) {
+                if (baskets[j] >= fruits[i]) {
                     baskets[j] = -1;
-                    countUsedBaskets++;
+                    result--;
                     if (isTest) {
                         System.out.println(" * insert");
                     }
@@ -31,12 +29,11 @@ class FruitsIntoBasketsTwo {
                 System.out.println("--------------------------------");
             }
         }
+
         if (isTest) {
-            System.out.println("after:\nfruits: " + Arrays.toString(fruits));
-            System.out.println("baskets: " + Arrays.toString(baskets));
-            System.out.println("countUsedBaskets: " + countUsedBaskets);
+            System.out.println("after:\n * fruits:  " + Arrays.toString(fruits) + "\n * baskets: " + Arrays.toString(baskets) + "\n * result: " + result);
         }
 
-        return baskets.length - countUsedBaskets;
+        return result;
     }
 }

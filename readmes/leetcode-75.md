@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/75.
+Completed: 19/75.
 
 ## Submissions
 ### Array / String
@@ -62,6 +62,7 @@ Completed: 18/75.
 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLevelSumOfABinaryTree.java) | 8ms     | 96.00%  |
 
 ### Binary Search Tree
-| Question                                                                                                    | Submission                                                                                       | Runtime | Rank   |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                    | Submission                                                                                       | Runtime | Rank    |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|---------|
+| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GuessNumberHigherOrLower.java)  | 0ms     | 100.00% |
 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInABinarySearchTree.java) | 0ms     | 100.00% |
