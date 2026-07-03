@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
 
-class Solution {
+class SubstringWithConcatenationOfAllWords {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
         Map<String, Integer> concatenatedWordsMap = new HashMap<>();
@@ -30,19 +30,15 @@ class Solution {
             }
             if (isTest) {
                 System.out.println("------------------------------------------------------------------------");
-                System.out.print(" * [" + i + ", " + (i + k - 1) + "] | token: " + token + " | tokenMap: " + tokenMap);
+                System.out.println(" * [" + i + ", " + (i + k - 1) + "] | token: " + token + " | tokenMap: " + tokenMap);
             }
 
             if (concatenatedWordsMap.equals(tokenMap)) {
                 if (isTest) {
-                    System.out.println(" -> valid");
+                    System.out.println(" ** valid");
                 }
-                result.add(i);
 
-            } else {
-                if (isTest) {
-                    System.out.println();
-                }
+                result.add(i);
             }
         }
         if (isTest) {
