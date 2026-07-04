@@ -2,8 +2,8 @@
 
 class SubarraySumsDivisibleByK {
     public int subarraysDivByK(int[] nums, int k) {
-        Map<Integer, Integer> countRemainders = new HashMap<>();
         boolean isTest = false;
+        int[] countRemainders = new int[k];
         int n = nums.length;
         int result = 0;
         long kLong = k;
@@ -13,7 +13,7 @@ class SubarraySumsDivisibleByK {
             System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums));
             System.out.println("-------------------------------------");
         }
-        countRemainders.put(0, 1);
+        countRemainders[0]++;
         for (int i = 0; i < n; i++) {
             sum += nums[i];
             int remainder = (int) (sum % kLong);
@@ -21,19 +21,16 @@ class SubarraySumsDivisibleByK {
             if (remainder < 0) {
                 remainder += k;
             }
-            if (countRemainders.containsKey(remainder)) {
-                result += countRemainders.get(remainder);
-            }
-
-            countRemainders.put(remainder, 1 + countRemainders.getOrDefault(remainder, 0));
+            result += countRemainders[remainder];
+            countRemainders[remainder]++;
             if (isTest) {
                 System.out.println("index " + i + " | element: " + nums[i]);
-                System.out.println(" * remainder: " + remainder + "\n * sum: " + sum + "\n * countRemainders: " + countRemainders);
+                System.out.println(" * remainder: " + remainder + "\n * sum: " + sum + "\n * countRemainders: " + Arrays.toString(countRemainders));
                 System.out.println("-------------------------------------");
             }
         }
         if (isTest) {
-            System.out.println("final countRemainders: " + countRemainders + "\nresult: " + result);
+            System.out.println("final countRemainders: " + Arrays.toString(countRemainders) + "\nresult: " + result);
         }
 
         return result;
