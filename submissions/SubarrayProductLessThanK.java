@@ -2,37 +2,42 @@
 
 class SubarrayProductLessThanK {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-        // 1. Edge case: k == 1, so no subarrays to form.
+        boolean isTest = false;
+        int left = 0;
+        int n = nums.length;
+        int result = 0;
+        long product = 1;
+
+        // 1. Edge case: 0 positive product <= 1.
         if (k <= 1) {
             return 0;
+
+        } else if (n == 1) {
+            return nums[0] < k ? 1 : 0;
         }
 
-        int count = 0;
-        int left = 0;
-        int product = 1;
-        int right = 0;
-
-        while (right < nums.length) {
-            /**
-             2.  Count current element on right
-                 by multiplying product with it,
-                 then remove each left element from product
-                 until product < k (if required).
-             */
+        if (isTest) {
+            System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums));
+            System.out.println("-------------------------------");
+        }
+        for (int right = 0; right < n; right++) {
             product *= nums[right];
+
             while (product >= k) {
-                product /= nums[left];
-                left++;
+                product /= nums[left++];
+            }
+            if (isTest) {
+                System.out.println(" * index range: [" + left + ", " + right + "]"
+                        + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1))
+                        + " | total subarrays: " + (right - left + 1));
             }
 
-            /**
-             3.  Subarray comprises of 1-based difference
-                 between left and right indices.
-             */
-            count += right - left + 1;
-            right++;
+            result += (right - left + 1);
+        }
+        if (isTest) {
+            System.out.println("-------------------------------\nresult: " + result);
         }
 
-        return count;
+        return result;
     }
 }

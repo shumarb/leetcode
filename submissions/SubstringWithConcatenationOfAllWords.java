@@ -10,7 +10,7 @@ class SubstringWithConcatenationOfAllWords {
         int wordLength = words[0].length();
 
         for (String word: words) {
-            k += word.length();
+            k += wordLength;
             concatenatedWordsMap.put(word, 1 + concatenatedWordsMap.getOrDefault(word, 0));
         }
         if (isTest) {
