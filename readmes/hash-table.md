@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 349/824.
+Completed: 350/824.
 
 ## Submissions
 ### Easy
@@ -346,6 +346,7 @@ Completed: 349/824.
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java)                                    | 8ms     | 90.66%  |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)                                                   | 109ms   | 52.64%  |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                           | 24ms    | 75.04%  |
+| [Subarray Sums Divisble by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumsDivisibleByK.java)                                     | 26ms    | 26.93%  |
 | [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfBeautyOfAllSubstrings.java)                                   | 1153ms  | 5.02%   |
 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfLargestPrimeSubstrings.java)                                  | 22ms    | 36.79%  |
 | [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfMatrixAfterQueries.java)                                      | 3ms     | 100.00% |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 715/2196.
+Completed: 716/2196.
 
 ## Submissions
 ### Easy
@@ -699,6 +699,7 @@ Completed: 715/2196.
 | [Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StatisticsFromALargeSample.java)                                      | 1ms     | 99%     |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                        | 3ms     | 99.36%  |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                              | 24ms    | 75.04%  |
+| [Subarray Sums Divisble by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumsDivisibleByK.java)                                        | 26ms    | 26.93%  |
 | [Subsets](https://leetcode.com/problems/subsets/description/)                                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Subsets.java)                                                         | 0ms     | 100.00% |
 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/)                                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubsetsTwo.java)                                                      | 1ms     | 99.93%  |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                                    | 13ms    | 99.35%  |
