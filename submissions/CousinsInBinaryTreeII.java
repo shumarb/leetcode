@@ -52,7 +52,6 @@ class CousinsInBinaryTreeII {
 
             for (TreeNode node: list) {
                 long siblingSum = 0l;
-                long val = nextLevelSum;
 
                 if (node.left != null) {
                     siblingSum += node.left.val;
