@@ -21,7 +21,7 @@ Completed: 19/75.
 ### Two Pointers
 | Question                                                                    | Submission                                                                           | Runtime | Rank    |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------|---------|
-| [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java) | 1ms     | 95.05%  |
+| [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java) | 0ms     | 100.00% |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MoveZeroes.java)    | 1ms     | 99.83%  |
 
 ### Sliding Window

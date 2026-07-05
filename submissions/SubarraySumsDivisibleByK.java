@@ -21,8 +21,7 @@ class SubarraySumsDivisibleByK {
             if (remainder < 0) {
                 remainder += k;
             }
-            result += countRemainders[remainder];
-            countRemainders[remainder]++;
+            result += countRemainders[remainder]++;
             if (isTest) {
                 System.out.println("index " + i + " | element: " + nums[i]);
                 System.out.println(" * remainder: " + remainder + "\n * sum: " + sum + "\n * countRemainders: " + Arrays.toString(countRemainders));

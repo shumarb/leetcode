@@ -2,18 +2,20 @@
 
 class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
+        char[] sLetters = s.toCharArray();
+        char[] tLetters = t.toCharArray();
         int i = 0;
         int j = 0;
-        int sLength = s.length();
-        int tLength = t.length();
+        int m = sLetters.length;
 
-        while (i < sLength && j < t.length()) {
-            if (s.charAt(i) == t.charAt(j)) {
+        while (i < m && j < tLetters.length) {
+            if (sLetters[i] == tLetters[j]) {
                 i++;
             }
+
             j++;
         }
 
-        return i == s.length();
+        return i == m;
     }
 }
