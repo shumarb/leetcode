@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 71/341.
+Completed: 72/342.
 
 ## Submissions
 ### Easy
@@ -57,6 +57,7 @@ Completed: 71/341.
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceOne.java)  | 35ms    | 27.51%  |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                 | 0ms     | 100.00% |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                 | 0ms     | 100.00% |
+| [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAPeakElementII.java)                              | 0ms     | 100.00% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                          | 4ms     | 88.75%  |
 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrequencyOfTheMostFrequentElement.java)               | 11ms    | 99.39%  |
 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDiffPairsInAnArray.java)                             | 11ms    | 59.51%  |

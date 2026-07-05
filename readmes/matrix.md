@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 90/277.
+Completed: 91/277.
 
 ## Submissions
 ### Easy
@@ -71,6 +71,7 @@ Completed: 90/277.
 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualRowAndColumnPairs.java)                         | 12ms    | 88.41%  |
 | [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                       | 5ms     | 47.55%  |
 | [Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllGroupsOfFarmland.java)                        | 18ms    | 27.56%  |
+| [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAPeakElementII.java)                             | 0ms     | 100.00% |
 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstCompletelyPaintedRowOrColumn.java)              | 4ms     | 94.20%  |
 | [Game of Life](https://leetcode.com/problems/game-of-life/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GameOfLife.java)                                     | 0ms     | 100.00% |
 | [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncrementSubmatricesByOne.java)                      | 699ms   | 17.04%  |
