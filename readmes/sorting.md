@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 178/527.
+Completed: 179/527.
 
 ## Submissions
 ### Easy
@@ -171,6 +171,7 @@ Completed: 178/527.
 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                       | 22ms    | 87.96%  |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                         | 17ms    | 92.02%  |
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java)   | 34ms    | 70.37%  |
+| [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveCoveredIntervals.java)                           | 7ms     | 52.31%  |
 | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorganizeString.java)                                 | 3ms     | 65.10%  |
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                               | 65ms    | 86.25%  |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                          | 38ms    | 36.75%  |

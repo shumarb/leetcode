@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 717/2196.
+Completed: 718/2196.
 
 ## Submissions
 ### Easy
@@ -665,6 +665,7 @@ Completed: 717/2196.
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayElementsBySign.java)                                    | 3ms     | 100.00% |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                                        | 17ms    | 92.02%  |
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java)                  | 34ms    | 70.37%  |
+| [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveCoveredIntervals.java)                                          | 7ms     | 52.31%  |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                                  | 335ms   | 88.82%  |
 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingMinimumAndMaximumFromArray.java)                              | 2ms     | 100.00% |
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                        | 13ms    | 98.85%  |
