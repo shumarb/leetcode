@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/
 
-class ConcatenateNonZeroDigitsAndMultiplyBySumOne {
+class ConcatenateNonZeroDigitsAndMultiplyBySumI {
     public long sumAndMultiply(int n) {
         boolean isTest = false;
         long number = 0;

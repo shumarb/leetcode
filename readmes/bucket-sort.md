@@ -20,7 +20,7 @@ Completed: 6/6.
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortCharactersByFrequency.java) | 8ms     | 90.66% |
 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)               | 5ms     | 97.68% |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentElements.java)      | 6ms     | 99.38% |
-| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)         | 6ms     | 99.71%  | 
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)         | 6ms     | 99.76% | 
 
 ### Hard
 | Question                                                                                    | Submission                                                                                  | Runtime | Rank   |

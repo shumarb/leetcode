@@ -7,6 +7,10 @@ class CoveredIntervals {
         int n = intervals.length;
         int result = n;
 
+        if (n == 1) {
+            return n;
+        }
+
         Arrays.sort(intervals,
                 (a, b) -> Integer.compare(a[0], b[0]) == 0
                         ? Integer.compare(b[1], a[1])
@@ -23,7 +27,7 @@ class CoveredIntervals {
         current = intervals[0];
         for (int i = 1; i < n; i++) {
             int[] incoming = intervals[i];
-            if (incoming[0] >= current[0] && incoming[1] <= current[1]) {
+            if (incoming[1] <= current[1]) {
                 result--;
                 if (isTest) {
                     System.out.println(" * remove: " + Arrays.toString(incoming));
