@@ -2,36 +2,25 @@
 
 class ANumberAfterADoubleReversal {
     public boolean isSameAfterReversals(int num) {
-        int numCopy = num;
         boolean isTest = false;
-
-        int reversed1 = getReversedNumber(numCopy);
-        if (isTest) {
-            System.out.println("num: " + num + "\nreversed1: " + reversed1);
-        }
-
+        int reversed1 = getReversedNumber(num);
         int reversed2 = getReversedNumber(reversed1);
+
         if (isTest) {
-            System.out.println("num: " + num + "\nreversed2: " + reversed2);
+            System.out.println("num: " + num + "\nreversed1: " + reversed1 + "\nreversed2: " + reversed2);
         }
 
         return reversed2 == num;
     }
 
     private int getReversedNumber(int num) {
-        int reversedNumber = 0;
+        int result = 0;
 
-        // 1. Eliminate leading zeroes
-        while (num % 10 == 0 && num != 0) {
+        while (num > 0) {
+            result = result * 10 + num % 10;
             num /= 10;
         }
 
-        while (num != 0) {
-            int digit = num % 10;
-            reversedNumber = reversedNumber * 10 + digit;
-            num /= 10;
-        }
-
-        return reversedNumber;
+        return result;
     }
 }
