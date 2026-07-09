@@ -3,7 +3,6 @@
 class FlowerPlantingWithNoAdjacent {
     private List<Integer>[] graph;
     private int[] colour;
-    private int n;
 
     public int[] gardenNoAdj(int n, int[][] paths) {
         if (n == 1) {
@@ -15,7 +14,6 @@ class FlowerPlantingWithNoAdjacent {
         int[] result = new int[n];
         colour = new int[n + 1];
         graph = new ArrayList[n + 1];
-        this.n = n;
 
         for (int i = 1; i <= n; i++) {
             graph[i] = new ArrayList<>();
@@ -27,7 +25,11 @@ class FlowerPlantingWithNoAdjacent {
             graph[second].add(first);
         }
         if (isTest) {
-            print("before\n");
+            System.out.println("graph:");
+            for (int i = 1; i <= n; i++) {
+                System.out.println(" * " + i + ": " + graph[i]);
+            }
+            print("before");
         }
         for (int i = 1; i <= n; i++) {
             if (!isVisited[i]) {
@@ -38,8 +40,8 @@ class FlowerPlantingWithNoAdjacent {
             result[i - 1] = colour[i];
         }
         if (isTest) {
-            print("after\n");
-            System.out.println("result: " + Arrays.toString(result));
+            print("after");
+            System.out.println(" * result: " + Arrays.toString(result));
         }
 
         return result;
@@ -71,10 +73,7 @@ class FlowerPlantingWithNoAdjacent {
     }
 
     private void print(String s) {
-        System.out.println(s + "\ncolour: " + Arrays.toString(colour) + "\ngraph:");
-        for (int i = 1; i <= n; i++) {
-            System.out.println(" * " + i + ": " + graph[i]);
-        }
         System.out.println("-----------------------------");
+        System.out.println(s + "\n * colour: " + Arrays.toString(colour));
     }
 }
