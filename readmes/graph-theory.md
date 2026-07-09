@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 25/185.
+Completed: 26/187.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 25/185.
 | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllPossibleRecipesFromGivenSupplies.java)         | 62ms    | 60.49%  |
 | [Find Champion II](https://leetcode.com/problems/find-champion-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindChampionTwo.java)                                 | 1ms     | 100.00% |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90%  |
+| [Flower Adjacent With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlowerPlantingWithNoAdjacent.java)                    | 14ms    | 64.85%  |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100.00% |
 | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalNetworkRank.java)                              | 4ms     | 99.20%  |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHeightTrees.java)                              | 14ms    | 98.84%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/259.
+Completed: 100/259.
 
 ## Submissions
 ### Easy
@@ -73,6 +73,7 @@ Completed: 99/259.
 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindElements.java)                                    | 21ms    | 94.22%  |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindEventualSafeStates.java)                          | 3ms     | 99.90%  |
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)                   | 2ms     | 88.73%  |
+| [Flower Adjacent With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlowerPlantingWithNoAdjacent.java)                    | 14ms    | 64.85%  |
 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIII.java)                                     | 1ms     | 99.28%  |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100.00% |
 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthLargestSumInABinaryTree.java)                      | 45ms    | 83.54%  |
