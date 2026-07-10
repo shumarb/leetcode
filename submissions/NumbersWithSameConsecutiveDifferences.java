@@ -4,7 +4,6 @@ class NumbersWithSameConsecutiveDifferences {
     public int[] numsSameConsecDiff(int n, int k) {
         List<Integer> list = new ArrayList<>();
         Queue<StringBuilder> queue = new LinkedList<>();
-        Set<String> set = new HashSet<>();
         boolean isTest = false;
         int[] result;
         int level = 0;
@@ -35,24 +34,17 @@ class NumbersWithSameConsecutiveDifferences {
 
                 if (digit + k <= 9) {
                     nextDigit = digit + k;
-                    nextNumber = new StringBuilder(top).append(nextDigit);
-                    if (set.add(nextNumber.toString())) {
-                        queue.offer(nextNumber);
-                    }
+                    queue.offer(new StringBuilder(top).append(nextDigit));
                 }
 
-                if (digit - k >= 0) {
+                if (k != 0 && digit - k >= 0) {
                     nextDigit = digit - k;
-                    nextNumber = new StringBuilder(top).append(nextDigit);
-                    if (set.add(nextNumber.toString())) {
-                        queue.offer(nextNumber);
-                    }
+                    queue.offer(new StringBuilder(top).append(nextDigit));
                 }
             }
 
             level++;
         }
-
         while (!queue.isEmpty()) {
             list.add(Integer.parseInt(queue.poll().toString()));
         }
