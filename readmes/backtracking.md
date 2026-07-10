@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 31/114.
+Completed: 32/114.
 
 ## Submissions
 ### Easy
@@ -37,6 +37,7 @@ Completed: 31/114.
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java) | 11ms    | 60.59%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                | 5ms     | 37.59%  |
 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonDecreasingSubsequences.java)                              | 9ms     | 60.28%  |
+| [Numbers With Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/description/)                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumbersWithSameConsecutiveDifferences.java)                  | 11ms    | 5.31%   |
 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromePartitioning.java)                                 | 7ms     | 96.05%  |
 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumII.java)                                              | 1ms     | 100.00% |
 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathWithMaximumGold.java)                                    | 34ms    | 97.84%  |
