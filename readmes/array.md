@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 718/2196.
+Completed: 719/2196.
 
 ## Submissions
 ### Easy
@@ -606,6 +606,7 @@ Completed: 718/2196.
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                               | 10ms    | 90.87%  |
 | [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumJumpsToReachHome.java)                                         | 25ms    | 78.72%  |
 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)                             | 11ms    | 12.02%  |
+| [Minimum Number of Groups to Create a Valid Assignment](https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfGroupsToCreateAValidAssignment.java)                   | 42ms    | 35.94%  |
 | [Minimum Number of Operations to Have Distinct Elements](https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToHaveDistinctElements.java)                 | 11ms    | 60.49%  |
 | [Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeArrayEmpty.java)                       | 21ms    | 64.11%  |
 | [Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToConvertNumber.java)                                | 18ms    | 95.65%  |
