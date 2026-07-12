@@ -5,9 +5,10 @@ class RepeatedDnaSequences {
         Set<String> repeated = new HashSet<>();
         Set<String> seen = new HashSet<>();
         boolean isTest = false;
+        char[] letters = s.toCharArray();
 
         for (int i = 0; i <= s.length() - 10; i++) {
-            String substring = s.substring(i, i + 10);
+            String substring = new String(letters, i, 10);
             if (!seen.add(substring)) {
                 repeated.add(substring);
             }
