@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 347/879.
+Completed: 348/879.
 
 ## Submissions
 ### Easy
@@ -114,6 +114,7 @@ Completed: 347/879.
 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestEvenNumber.java)                                            | 0ms     | 100.00% |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestOddNumberInString.java)                                     | 1ms     | 99.71%  |
 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestSubstringBetweenTwoEqualCharacters.java)                    | 1ms     | 86.43%  |
+| [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LatestTimeYouCanObtainAfterReplacingCharacters.java)               | 61ms    | 8.45%   |
 | [Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LatestTimeByReplacingHiddenDigits.java)                            | 0ms     | 100.00% |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLastWord.java)                                             | 0ms     | 100.00% |
 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallySmallestPalindrome.java)                          | 5ms     | 100.00% |
