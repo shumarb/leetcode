@@ -13,36 +13,38 @@ class SequentialDigits {
         this.low = low;
 
         for (int i = 1; i <= 9; i++) {
+            dfs(i, 0);
             if (isTest) {
                 System.out.println("------------------------------");
             }
-            dfs(i, 0);
         }
         Collections.sort(result);
+        if (isTest) {
+            System.out.println("result: " + result);
+        }
 
         return result;
     }
 
     private void dfs(int digit, int value) {
+        value = value * 10 + digit;
+
+        if (digit == 10 || value > high) {
+            return;
+        }
+
         if (isTest) {
             System.out.println(" * digit: " + digit + " | value: " + value);
         }
 
-        int next = value * 10 + digit;
-
-        if (digit > 9 || next > high) {
-            return;
-        }
-
-        if (next >= low) {
+        if (value >= low) {
             if (isTest) {
-                System.out.println(" ** valid: " + next);
+                System.out.println(" ** valid");
             }
 
-            result.add(next);
+            result.add(value);
         }
 
-        dfs(digit + 1, next);
-
+        dfs(digit + 1, value);
     }
 }

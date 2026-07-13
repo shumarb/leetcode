@@ -1,25 +1,26 @@
 // Question: https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/
 
 class LatestTimeByReplacingHiddenDigits {
-    public String maximumTime(String time) {
-        char[] digits = time.toCharArray();
+    public String findLatestTime(String s) {
+        char[] result = s.toCharArray();
 
-        if (digits[0] == '?') {
-            digits[0] = digits[1] == '?' || digits[1] <= '3' ? '2' : '1';
+        if (result[0] == '?' && result[1] == '?') {
+            result[0] = '1';
+            result[1] = '1';
+        } else if (result[0] == '?' && result[1] != '?') {
+            result[0] = result[1] <= '1' ? '1' : '0';
+        } else if (result[1] == '?' && result[0] != '?') {
+            result[1] = result[0] == '0' ? '9' : '1';
         }
 
-        if (digits[1] == '?') {
-            digits[1] = digits[0] <= '1' ? '9' : '3';
+        if (result[3] == '?') {
+            result[3] = '5';
         }
 
-        if (digits[3] == '?') {
-            digits[3] = '5';
+        if (result[4] == '?') {
+            result[4] = '9';
         }
 
-        if (digits[4] == '?') {
-            digits[4] = '9';
-        }
-
-        return new String(digits);
+        return new String (result);
     }
 }
