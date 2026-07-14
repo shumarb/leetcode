@@ -1,6 +1,7 @@
 // Question: https://leetcode.com/problems/pacific-atlantic-water-flow/description/
 
 class PacificAtlanticWaterFlow {
+    private int[][] directions;
     private int[][] heights;
     private int m;
     private int n;
@@ -12,6 +13,7 @@ class PacificAtlanticWaterFlow {
         boolean[][] isAtlantic = new boolean[m][n];
         boolean[][] isPacific = new boolean[m][n];
         boolean isTest = false;
+        directions = new int[][] {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         this.heights = heights;
 
         for (int i = 0; i < m; i++) {
@@ -56,8 +58,6 @@ class PacificAtlanticWaterFlow {
     }
 
     private void dfs(boolean[][] isOceanReachable, int row, int column) {
-        int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
         if (column < 0
                 || column >= n
                 || row < 0
