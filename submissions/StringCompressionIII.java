@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/string-compression-iii/description/
 
 class StringCompressionIII {
     public String compressedString(String word) {
@@ -15,20 +15,13 @@ class StringCompressionIII {
                 System.out.println("i: " + i + ", incoming: " + incoming + "\n\nbefore: " + result + "\n * last: " + last + "\n * count: " + count);
             }
 
-            if (incoming != last) {
-                if (count > 0) {
-                    result.append(count);
-                    result.append(last);
-                }
-                last = incoming;
-                count = 1;
+            if (incoming == last && count < 9) {
+                count++;
 
             } else {
-                if (++count == 9) {
-                    result.append(count);
-                    result.append(last);
-                    count = 0;
-                }
+                result.append(count).append(last);
+                count = 1;
+                last = incoming;
             }
 
             if (isTest) {
@@ -39,10 +32,7 @@ class StringCompressionIII {
         if (isTest) {
             System.out.println("after iteration\n\nbefore\n * result: " + result + "\n * last: " + last + "\n * count: " + count);
         }
-        if (count > 0) {
-            result.append(count);
-            result.append(last);
-        }
+        result.append(count).append(last);
         if (isTest) {
             System.out.println("\nafter\n * result: " + result);
         }
