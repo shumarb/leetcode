@@ -9,14 +9,15 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 19/75.
+Completed: 20/75.
 
 ## Submissions
 ### Array / String
-| Question                                                                                            | Submission                                                                                     | Runtime | Rank    |
-|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|---------|
-| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeStringsAlternately.java) | 1ms     | 95.52%  |
-| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseVowelsOfAString.java)  | 2ms     | 99.31%  |
+| Question                                                                                            | Submission                                                                                     | Runtime | Rank   |
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
+| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeStringsAlternately.java) | 1ms     | 95.52% |
+| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseVowelsOfAString.java)  | 2ms     | 99.31% |
+| [String Compression](https://leetcode.com/problems/string-compression/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringCompression.java)       | 1ms     | 99.90% |
 
 ### Two Pointers
 | Question                                                                    | Submission                                                                           | Runtime | Rank    |

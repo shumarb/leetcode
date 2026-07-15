@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 108/253.
+Completed: 109/253.
 
 ## Submissions
 ### Easy
@@ -123,6 +123,7 @@ Completed: 108/253.
 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortColors.java)                                                  | 0ms     | 100.00% |
 | [Sort List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                                                    | 9ms     | 94.52%  |
 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StrictlyPalindromicNumber.java)                                   | 0ms     | 100.00% |
+| [String Compression](https://leetcode.com/problems/string-compression/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringCompression.java)                                           | 1ms     | 99.90%  |
 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfSquareNumbers.java)                                          | 3ms     | 93.35%  |
 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwappingNodesInALinkedList.java)                                  | 2ms     | 53.34%  |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSumTwoInputArrayIsSorted.java)                                 | 2ms     | 92.54%  |
