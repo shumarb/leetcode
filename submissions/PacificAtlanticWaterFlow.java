@@ -58,15 +58,8 @@ class PacificAtlanticWaterFlow {
     }
 
     private void dfs(boolean[][] isOceanReachable, int row, int column) {
-        if (column < 0
-                || column >= n
-                || row < 0
-                || row >= m
-                || isOceanReachable[row][column]) {
-            return;
-        }
-
         isOceanReachable[row][column] = true;
+
         for (int[] direction: directions) {
             int nextColumn = column + direction[1];
             int nextRow = row + direction[0];
