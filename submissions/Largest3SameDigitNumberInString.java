@@ -2,35 +2,37 @@
 
 class Largest3SameDigitNumberInString {
     public String largestGoodInteger(String num) {
-        String result = "";
-        boolean isTest = false;
-        int largest3SameDigit = -1;
+        if (num.contains("999")) {
+            return "999";
 
-        if (isTest) {
-            System.out.println("num: " + num);
-            System.out.println("---------------------------------------------------------");
-        }
-        for (int i = 0; i <= num.length() - 3; i++) {
-            String current = "";
-            if (num.charAt(i) == num.charAt(i + 1) && num.charAt(i) == num.charAt(i + 2)) {
-                current = num.substring(i, i + 3);
-                if (isTest) {
-                    System.out.println("index: " + i);
-                    System.out.println(" * before | result: " + result + ", current: " + current);
-                }
-                if (current.compareTo(result) > 0) {
-                    result = current;
-                }
-                if (isTest) {
-                    System.out.println(" * after  | result: " + result);
-                    System.out.println("---------------------------------------------------------");
-                }
-            }
-        }
-        if (isTest) {
-            System.out.println("result: " + result.toString());
+        } else if (num.contains("888")) {
+            return "888";
+
+        } else if (num.contains("777")) {
+            return "777";
+
+        } else if (num.contains("666")) {
+            return "666";
+
+        }  else if (num.contains("555")) {
+            return "555";
+
+        } else if (num.contains("444")) {
+            return "444";
+
+        } else if (num.contains("333")) {
+            return "333";
+
+        } else if (num.contains("222")) {
+            return "222";
+
+        }  else if (num.contains("111")) {
+            return "111";
+
+        }  else if (num.contains("000")) {
+            return "000";
         }
 
-        return result;
+        return "";
     }
 }

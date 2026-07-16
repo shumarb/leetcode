@@ -25,8 +25,7 @@ class StringCompression {
                 chars[index++] = last;
 
                 if (count > 1) {
-                    String countString = Integer.toString(count);
-                    for (char c: countString.toCharArray()) {
+                    for (char c: Integer.toString(count).toCharArray()) {
                         chars[index++] = c;
                     }
                 }
@@ -45,8 +44,7 @@ class StringCompression {
 
         chars[index++] = last;
         if (count > 1) {
-            String countString = Integer.toString(count);
-            for (char c: countString.toCharArray()) {
+            for (char c: Integer.toString(count).toCharArray()) {
                 chars[index++] = c;
             }
         }
