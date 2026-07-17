@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 351/824.
+Completed: 352/824.
 
 ## Submissions
 ### Easy
@@ -339,6 +339,7 @@ Completed: 351/824.
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                           | 65ms    | 86.25%  |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                   | 49ms    | 78.74%  |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                              | 1ms     | 73.86%  |
+| [Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUncommonSubstringInAnArray.java)                           | 341ms   | 7.81%   |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                         | 95ms    | 96.22%  |
 | [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingSubarrayBeauty.java)                                        | 41ms    | 36.53%  |
 | [Smallest All-Ones Multiple](https://leetcode.com/problems/smallest-all-ones-multiple/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestAllOnesMultiple.java)                                      | 8ms     | 98.47%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 18/61.
+Completed: 19/61.
 
 ## Submissions
 ### Easy
@@ -35,6 +35,7 @@ Completed: 18/61.
 | [Partition String](https://leetcode.com/problems/partition-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionString.java)                       | 165ms   | 82.28% |
 | [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceWords.java)                          | 46ms    | 44.44% |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)               | 38ms    | 36.75% |
+| [Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUncommonSubstringInAnArray.java)    | 341ms   | 7.81%  |
 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TopKFrequentWords.java)                     | 6ms     | 99.76% | 
 | [Word Break](https://leetcode.com/problems/word-break/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordBreak.java)                             | 1ms     | 99.36% |
 | [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordsWithinTwoEditsOfDictionary.java)       | 6ms     | 56.54% |

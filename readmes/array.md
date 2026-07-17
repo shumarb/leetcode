@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 719/2196.
+Completed: 720/2196.
 
 ## Submissions
 ### Easy
@@ -686,6 +686,7 @@ Completed: 719/2196.
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMatrixZeroes.java)                                                 | 1ms     | 73.86%  |
 | [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceAfterRoadAdditionQueriesI.java)                       | 85ms    | 74.42%  |
 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestPathInBinaryMatrix.java)                                      | 15ms    | 61.62%  |
+| [Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUncommonSubstringInAnArray.java)                              | 341ms   | 7.81%   |
 | [Shortest Unsorted Continuous Array](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUnsortedContinuousArray.java)                                 | 1ms     | 91.16%  |
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)                                                  | 53ms    | 34.10%  |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                            | 95ms    | 96.22%  |

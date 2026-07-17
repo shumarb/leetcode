@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 350/879.
+Completed: 351/879.
 
 ## Submissions
 ### Easy
@@ -342,6 +342,7 @@ Completed: 350/879.
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                      | 38ms    | 36.75%  |
 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SenderWithLargestWordCount.java)                                   | 49ms    | 78.74%  |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                                   | 10ms    | 39.11%  |
+| [Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestUncommonSubstringInAnArray.java)                           | 341ms   | 7.81%   |
 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestAndLexicographicallySmallestBeautifulString.java)          | 1ms     | 100.00% |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SimplifyPath.java)                                                 | 5ms     | 51.87%  |
 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestPalindromicRearrangementOne.java)                          | 43ms    | 36.19%  |
