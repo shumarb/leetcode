@@ -20,7 +20,7 @@ class NumberOfProvinces {
         isVisited[vertex] = true;
 
         for (int j = 0; j < isConnected.length; j++) {
-            if (isConnected[vertex][j] == 1 && !isVisited[j]) {
+            if (!isVisited[j] && isConnected[vertex][j] == 1) {
                 dfs(j, isConnected, isVisited);
             }
         }
