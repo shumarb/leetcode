@@ -9,6 +9,10 @@ class MaximumSubstringsWithDistinctStart {
             if (++count[c - 'a'] == 1) {
                 result++;
             }
+
+            if (result == 26) {
+                break;
+            }
         }
 
         return result;
