@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 351/879.
+Completed: 352/879.
 
 ## Submissions
 ### Easy
@@ -300,6 +300,7 @@ Completed: 351/879.
 | [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOccurrencesOfASubstring.java)                       | 37ms    | 75.61%  |
 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java)               | 10ms    | 95.48%  |
 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                                  | 242ms   | 19.79%  |
+| [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubstringsWithDistinctStart.java)                           | 7ms     | 76.93%  |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                             | 1ms     | 51.13%  |
 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumGeneticMutation.java)                                       | 1ms     | 95.05%  |
 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)                  | 6ms     | 98.87%  |
