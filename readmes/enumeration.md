@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 44/153.
+Completed: 45/153.
 
 ## Submissions
 ### Easy
@@ -60,6 +60,7 @@ Completed: 44/153.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                      | 2ms     | 99.72%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                     | 5ms     | 37.59%  |
 | [Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCenteredSubarrays.java)                   | 95ms    | 58.65%  |
+| [Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysToBuyPensAndPencils.java)             | 12ms    | 79.00%  |
 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SequentialDigits.java)                            | 0ms     | 100.00% |
 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalWavinessOfNumbersInRangeI.java)              | 12ms    | 94.05%  |
 | [Valid Binary Strings With Cost Limit](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBinaryStringsWithCostLimit.java)             | 79ms    | 17.94%  | 
