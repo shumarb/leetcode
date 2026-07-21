@@ -10,6 +10,7 @@ class SmallestSubsequenceOfDistinctCharacters {
         Stack<Character> stack = new Stack<>();
         boolean[] isLetterInStack = new boolean[26];
         boolean isTest = false;
+        char[] letters = s.toCharArray();
         char[] result;
         int[] frequency = new int[26];
 
@@ -17,8 +18,7 @@ class SmallestSubsequenceOfDistinctCharacters {
             frequency[letter - 'a']++;
         }
 
-        for (int i = 0; i < s.length(); i++) {
-            char letter = s.charAt(i);
+        for (char letter: letters) {
             if (isLetterInStack[letter - 'a']) {
                 frequency[letter - 'a']--;
                 continue;

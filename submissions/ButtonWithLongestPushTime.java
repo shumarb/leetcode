@@ -6,13 +6,9 @@ class ButtonWithLongestPushTime {
         int longestTimeIndex = events[0][0];
 
         for (int i = 1; i < events.length; i++) {
-            int currentTime = events[i][1];
             int difference = events[i][1] - events[i - 1][1];
-            if (difference > longestTime) {
+            if ((difference > longestTime) || (difference == longestTime && events[i][0] < longestTimeIndex)) {
                 longestTime = difference;
-                longestTimeIndex = events[i][0];
-
-            } else if (difference == longestTime && events[i][0] < longestTimeIndex) {
                 longestTimeIndex = events[i][0];
             }
         }

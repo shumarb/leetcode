@@ -20,8 +20,8 @@ class CountDominantNodesInABinaryTree {
     private int result;
 
     public int countDominantNodes(TreeNode root) {
-        result = 0;
         isTest = false;
+        result = 0;
 
         dfs(root);
 
@@ -43,9 +43,7 @@ class CountDominantNodesInABinaryTree {
             return node.val;
         }
 
-        // 2. Get subtree's maximum values in its left and right subtrees.
-        //    Root's subtree value is dominant if it is the largest value
-        //    after comparing the root's subtree value with the largest values in its left and right subtrees.
+        // 2. Node is dominant if it's value is the maximum after comparing it with the maximum values in its left and right subtrees.
         int leftMaximum = dfs(node.left);
         int rightMaximum = dfs(node.right);
         int subtreeMaximum = Math.max(node.val, Math.max(leftMaximum, rightMaximum));
@@ -59,6 +57,5 @@ class CountDominantNodesInABinaryTree {
         }
 
         return subtreeMaximum;
-
     }
 }
