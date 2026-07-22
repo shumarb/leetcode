@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 352/879.
+Completed: 353/879.
 
 ## Submissions
 ### Easy
@@ -91,8 +91,9 @@ Completed: 352/879.
 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDifference.java)                                            | 1ms     | 99.40%  |
 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheEncryptedString.java)                                       | 1ms     | 100.00% |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheIndexOfTheFirstOccurrenceInAString.java)                    | 0ms     | 100.00% |
-| [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLongestBalancedSubstringOfABinaryString.java)               | 1ms     | 100.00% |
 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKBeautyOfANumber.java)                                      | 1ms     | 40.75%  |
+| [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheLongestBalancedSubstringOfABinaryString.java)               | 1ms     | 100.00% |
+| [Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheOriginalTypedStringI.java)                                  | 1ms     | 85.49%  |
 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstLetterToAppearTwice.java)                                     | 0ms     | 100.00% |
 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMatchingCharacterFromBothEnds.java)                           | 0ms     | 100.00% |
 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstUniqueCharacterInAString.java)                                | 5ms     | 94.83%  |
