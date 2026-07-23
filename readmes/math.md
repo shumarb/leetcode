@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 212/684.
+Completed: 213/684.
 
 ## Submissions
 ### Easy
@@ -211,6 +211,7 @@ Completed: 212/684.
 | [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReconstructOriginalDigitsFromEnglish.java)                        | 4ms     | 78.33%  |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseInteger.java)                                              | 0ms     | 100.00% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                 | 0ms     | 100.00% |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateImage.java)                                                 | 0ms     | 100.00% |
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java)                                              | 53ms    | 34.10%  |
 | [Smallest All-Ones Multiple](https://leetcode.com/problems/smallest-all-ones-multiple/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestAllOnesMultiple.java)                                     | 8ms     | 98.47%  |
 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueAfterReplacingWithSumOfPrimeFactors.java)            | 0ms     | 100.00% |

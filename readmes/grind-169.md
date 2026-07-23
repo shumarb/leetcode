@@ -7,7 +7,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 124/169.
+Completed: 125/169.
 
 ## Submissions
 | #   | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank    |
@@ -111,6 +111,7 @@ Completed: 124/169.
 | 127 | [Single Number](https://leetcode.com/problems/single-number/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                                       | 1ms     | 99.85%  |
 | 128 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)                               | 4ms     | 70.03%  |
 | 129 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MoveZeroes.java)                                         | 1ms     | 99.83%  |
+| 131 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateImage.java)                                        | 0ms     | 100.00% |
 | 132 | [Binary Tree ZigZag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryTreeZigZagLevelOrderTraversal.java)                | 1ms     | 69.75%  |
 | 134 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PathSumIII.java)                                         | 19ms    | 25.17%  |
 | 135 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                                              | 0ms     | 100.00% |

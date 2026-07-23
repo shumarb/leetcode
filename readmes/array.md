@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 720/2196.
+Completed: 721/2196.
 
 ## Submissions
 ### Easy
@@ -675,6 +675,7 @@ Completed: 720/2196.
 | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RestoreTheArrayFromAdjacentPairs.java)                                | 99ms    | 66.23%  | 
 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RewardTopKStudents.java)                                              | 65ms    | 86.25%  |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                                                     | 0ms     | 100.00% |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateImage.java)                                                     | 0ms     | 100.00% |
 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotatingTheBox.java)                                                  | 8ms     | 59.38%  |
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RottingOranges.java)                                                  | 2ms     | 90.26%  |
 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchSuggestionsSystem.java)                                         | 38ms    | 36.75%  |
