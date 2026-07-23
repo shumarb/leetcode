@@ -21,6 +21,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Plus One](https://leetcode.com/problems/plus-one/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PlusOne.java)                         | 0ms     | 100.00% |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedArray.java) | 0ms     | 100.00% |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateArray.java)                     | 0ms     | 100.00% |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateImage.java)                     | 0ms     | 100.00% |
 | [Single Number](https://leetcode.com/problems/single-number/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SingleNumber.java)                    | 1ms     | 99.93%  |
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                          | 2ms     | 98.93%  |
 
