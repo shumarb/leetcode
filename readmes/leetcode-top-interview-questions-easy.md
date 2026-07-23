@@ -72,7 +72,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 ### Design
 | Question                                                                        | Submission                                                                            | Runtime | Rank   |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------|--------|
-| [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)       | 5ms     | 83.54% |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinStack.java)       | 30ms    | 77.28% |
 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShuffleAnArray.java) | 53ms    | 34.10% |
 
 ### Math

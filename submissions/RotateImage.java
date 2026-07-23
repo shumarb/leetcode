@@ -24,17 +24,16 @@ class RotateImage {
         }
 
         for (int i = 0; i < n; i++) {
-            int adjacentColumn = i + 1;
-            int adjacentRow = i + 1;
+            int next = i + 1;
 
-            while (adjacentColumn < n && adjacentRow < n) {
+            while (next < n) {
                 if (isTest) {
-                    System.out.println(" * swap [" + adjacentRow + ", " + i + "] " + matrix[adjacentRow][i] + " | [" + i + ", " + adjacentColumn + "]: " + matrix[i][adjacentColumn]);
+                    System.out.println(" * [" + next + ", " + i + "]: " + matrix[next][i] + " | [" + i + ", " + next + "]: " + matrix[i][next]);
                 }
 
-                int temp = matrix[adjacentRow][i];
-                matrix[adjacentRow++][i] = matrix[i][adjacentColumn];
-                matrix[i][adjacentColumn++] = temp;
+                int temp = matrix[next][i];
+                matrix[next][i] = matrix[i][next];
+                matrix[i][next++] = temp;
             }
         }
         if (isTest) {
