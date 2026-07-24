@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 72/342.
+Completed: 73/342.
 
 ## Submissions
 ### Easy
@@ -55,6 +55,7 @@ Completed: 72/342.
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)  | 0ms     | 100.00% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                            | 4ms     | 96.68%  |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceI.java)    | 3ms     | 91.60%  |
+| [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceII.java)   | 237ms   | 9.00%   |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                 | 0ms     | 100.00% |
 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPeakElement.java)                                 | 0ms     | 100.00% |
 | [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAPeakElementII.java)                              | 0ms     | 100.00% |

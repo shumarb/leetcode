@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 353/824.
+Completed: 354/824.
 
 ## Submissions
 ### Easy
@@ -242,6 +242,7 @@ Completed: 353/824.
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                                   | 26ms    | 68.56%  |
 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindElements.java)                                                 | 21ms    | 94.22%  |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceI.java)                 | 3ms     | 91.60%  |
+| [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceII.java)                | 237ms   | 9.00%   |
 | [Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOccurrencesOfAnElementInAnArray.java)                          | 5ms     | 90.21%  |
 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindOriginalArrayFromDoubledArray.java)                            | 56ms    | 86.73%  |
 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindPlayersWithZeroOrOneLosses.java)                               | 44ms    | 93.03%  |

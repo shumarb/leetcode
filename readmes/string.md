@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 353/879.
+Completed: 354/879.
 
 ## Submissions
 ### Easy
@@ -264,6 +264,7 @@ Completed: 353/879.
 | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllPossibleRecipesFromGivenSupplies.java)                      | 62ms    | 60.49%  |
 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthBitInNBinaryString.java)                                    | 224ms   | 5.41%   |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceI.java)                 | 3ms     | 91.60%  |
+| [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/description/)                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceII.java)                | 237ms   | 9.00%   |
 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindUniqueBinaryString.java)                                       | 0ms     | 100.00% |
 | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/description/)                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDivisibilityArrayOfAString.java)                            | 7ms     | 83.98%  |
 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheKthLargestIntegerInTheArray.java)                           | 16ms    | 89.32%  |
