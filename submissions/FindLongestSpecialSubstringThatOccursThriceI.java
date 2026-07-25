@@ -16,17 +16,18 @@ class FindLongestSpecialSubstringThatOccursThriceI {
 
         for (int i = 1; i < n; i++) {
             char current = letters[i];
+            int index = current - 'a';
 
-            if (!isPresent[current - 'a']) {
-                isPresent[current - 'a'] = true;
+            if (!isPresent[index]) {
+                isPresent[index] = true;
             }
 
             if (current == previous) {
-                map[current - 'a'][++count]++;
+                map[index][++count]++;
 
             } else {
                 count = 1;
-                map[current - 'a'][1]++;
+                map[index][1]++;
                 previous = current;
             }
         }
@@ -38,28 +39,26 @@ class FindLongestSpecialSubstringThatOccursThriceI {
 
             for (int j = n - 1; j >= 1; j--) {
                 map[i][j] += map[i][j + 1];
+
+                if (map[i][j] >= 3) {
+                    result = Math.max(result, j);
+                    break;
+                }
+            }
+
+            if (result == n) {
+                break;
             }
         }
         if (isTest) {
-            System.out.println("letters: " + Arrays.toString(letters) + "\nmap:");
+            System.out.println("letters: " + Arrays.toString(letters));
+            System.out.println("------------------------------\nmap:");
             for (int i = 0; i < isPresent.length; i++) {
                 if (isPresent[i]) {
                     System.out.println(" * " + (char) ('a' + i) + ": " + Arrays.toString(map[i]));
                 }
             }
-        }
-
-        for (int i = 0; i < isPresent.length; i++) {
-            if (!isPresent[i]) {
-                continue;
-            }
-
-            for (int j = n; j >= 1; j--) {
-                if (map[i][j] >= 3) {
-                    result = Math.max(j, result);
-                    break;
-                }
-            }
+            System.out.println("------------------------------\nresult: " + result);
         }
 
         return result;
