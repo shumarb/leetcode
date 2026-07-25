@@ -2,25 +2,19 @@
 
 class FindLongestSpecialSubstringThatOccursThriceII {
     public int maximumLength(String s) {
-        boolean[] isPresent = new boolean[26];
         boolean isTest = false;
         char[] letters = s.toCharArray();
         char previous = letters[0];
         int count = 1;
-        int n = letters.length;
+        int n = s.length();
         int result = -1;
         int[][] map = new int[26][n + 1];
 
-        isPresent[previous - 'a'] = true;
         map[previous - 'a'][1]++;
 
         for (int i = 1; i < n; i++) {
             char current = letters[i];
             int index = current - 'a';
-
-            if (!isPresent[index]) {
-                isPresent[index] = true;
-            }
 
             if (current == previous) {
                 map[index][++count]++;
@@ -32,11 +26,7 @@ class FindLongestSpecialSubstringThatOccursThriceII {
             }
         }
 
-        for (int i = 0; i < isPresent.length; i++) {
-            if (!isPresent[i]) {
-                continue;
-            }
-
+        for (int i = 0; i < 26; i++) {
             for (int j = n - 1; j >= 1; j--) {
                 map[i][j] += map[i][j + 1];
 
@@ -51,12 +41,9 @@ class FindLongestSpecialSubstringThatOccursThriceII {
             }
         }
         if (isTest) {
-            System.out.println("letters: " + Arrays.toString(letters));
-            System.out.println("------------------------------\nmap:");
-            for (int i = 0; i < isPresent.length; i++) {
-                if (isPresent[i]) {
-                    System.out.println(" * " + (char) ('a' + i) + ": " + Arrays.toString(map[i]));
-                }
+            System.out.println("letters: " + Arrays.toString(letters) + "\n------------------------------\nmap:");
+            for (int i = 0; i < 26; i++) {
+                System.out.println(" * " + (char) ('a' + i) + ": " + Arrays.toString(map[i]));
             }
             System.out.println("------------------------------\nresult: " + result);
         }
