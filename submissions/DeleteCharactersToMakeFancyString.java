@@ -2,34 +2,21 @@
 
 class DeleteCharactersToMakeFancyString {
     public String makeFancyString(String s) {
-        StringBuilder result = new StringBuilder();
         char[] letters = s.toCharArray();
-        char last = letters[0];
-        int count = 1;
+        int index = 2;
         int n = letters.length;
 
-        // 1. Edge case: s has < 3 characters, so answer is itself.
         if (n < 3) {
             return s;
         }
 
-        result.append(last);
-        for (int i = 1; i < n; i++) {
-            char c = letters[i];
-            if (c != last) {
-                result.append(c);
-                count = 1;
-
-            } else {
-                if (count + 1 != 3) {
-                    result.append(c);
-                    count++;
-                }
+        for (int i = 2; i < n; i++) {
+            char current = letters[i];
+            if (current != letters[index - 1] || current != letters[index - 2]) {
+                letters[index++] = current;
             }
-
-            last = c;
         }
 
-        return result.toString();
+        return new String(letters, 0, index);
     }
 }

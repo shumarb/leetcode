@@ -33,13 +33,9 @@ class FindLongestSpecialSubstringThatOccursThriceII {
                 map[i][j] += map[i][j + 1];
 
                 if (map[i][j] >= 3) {
-                    result = Math.max(result, j);
+                    result = Math.max(j, result);
                     break;
                 }
-            }
-
-            if (result == n) {
-                break;
             }
         }
         if (isTest) {
