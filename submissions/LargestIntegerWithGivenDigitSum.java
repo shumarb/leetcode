@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/largest-integer-with-given-digit-sum/description/
 
-class LargestIntegerWithGivenDigitSum {
+class LargestIntegerWithGivenDigitSum class Solution {
     public int largestInteger(int n, int s) {
         if (s == 0) {
             return 0;
@@ -8,16 +8,24 @@ class LargestIntegerWithGivenDigitSum {
 
         boolean isTest = false;
         int largest = getLargest(n);
+        int largestSingleDigit = Math.min(9, largest);
         int result = -1;
+        int[] sum = new int[largest + 1];
 
+        for (int i = 1; i <= largestSingleDigit; i++) {
+            sum[i] = i;
+        }
+        for (int i = 10; i <= largest; i++) {
+            sum[i] = sum[i / 10] + i % 10;
+        }
         if (isTest) {
-            System.out.println("n: " + n + "\ns: " + s + "\nlimit: " + "\nrange: [1, " + largest + "]");
+            System.out.println("n: " + n + "\ns: " + s + "\nnumber range: [1, " + largest + "]" + "\nsum: " + Arrays.toString(sum));
         }
 
         for (int i = largest; i >= 1; i--) {
-            if (isValid(i, s)) {
+            if (sum[i] == s) {
                 if (isTest) {
-                    System.out.println("result: " + i);
+                    System.out.println("---------------------\nresult: " + i);
                 }
 
                 return i;
@@ -25,17 +33,6 @@ class LargestIntegerWithGivenDigitSum {
         }
 
         return result;
-    }
-
-    private boolean isValid(int number, int sumOfDigits) {
-        int result = 0;
-
-        while (number != 0) {
-            result += number % 10;
-            number /= 10;
-        }
-
-        return result == sumOfDigits;
     }
 
     private int getLargest(int n) {
