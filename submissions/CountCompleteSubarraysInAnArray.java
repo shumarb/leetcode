@@ -1,44 +1,60 @@
 // Question: https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/
 
-class CountCompleteSubarraysInAnArray class Solution {
+class CountCompleteSubarraysInAnArray {
+    private boolean isTest;
+    private int[] nums;
+
     public int countCompleteSubarrays(int[] nums) {
-        // 1. Edge case: nums ha 1 element.
-        if (nums.length == 1) {
-            return 1;
-        }
+        int[] count = new int[2001];
+        int k = 0;
+        isTest = false;
+        this.nums = nums;
 
-        int countCompleteSubarrays = 0;
-        int largest = nums[0];
-        int len = nums.length;
-        int totalDistinct = 0;
-
-        for (int number: nums) {
-            largest = Math.max(largest, number);
-        }
-        boolean[] isNumberPresent = new boolean[largest + 1];
-        for (int number: nums) {
-            if (!isNumberPresent[number]) {
-                isNumberPresent[number] = true;
-                totalDistinct++;
+        for (int e: nums) {
+            if (++count[e] == 1) {
+                k++;
             }
         }
-
-        for (int i = 0; i < len; i++) {
-            boolean[] isNumberCounted = new boolean[largest + 1];
-            int countDistinct = 0;
-
-            for (int j = i; j < len; j++) {
-                int current = nums[j];
-                if (!isNumberCounted[current]) {
-                    isNumberCounted[current] = true;
-                    countDistinct++;
-                }
-                if (countDistinct == totalDistinct) {
-                    countCompleteSubarrays++;
-                }
-            }
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums) + "\nk: " + k);
         }
 
-        return countCompleteSubarrays;
+        return countAtLeast(k) - countAtLeast(k - 1);
+    }
+
+    private int countAtLeast(int k) {
+        int[] count = new int[2001];
+        int countDistinct = 0;
+        int left = 0;
+        int result = 0;
+
+        if (isTest) {
+            System.out.println("------------------------------------------------------------------\nlimit of distinct elements: " + k);
+        }
+        for (int right = 0; right < nums.length; right++) {
+            int incoming = nums[right];
+
+            if (++count[incoming] == 1) {
+                countDistinct++;
+            }
+
+            while (countDistinct > k) {
+                if (--count[nums[left++]] == 0) {
+                    countDistinct--;
+                }
+            }
+
+            int totalCompleteSubarrays = right - left + 1;
+            if (isTest) {
+                System.out.println(" * complete subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + " -> total complete subarrays: " + totalCompleteSubarrays);
+            }
+
+            result += totalCompleteSubarrays;
+        }
+        if (isTest) {
+            System.out.println("\ntotal complete subarrays: " + result);
+        }
+
+        return result;
     }
 }
