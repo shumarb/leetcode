@@ -1,12 +1,12 @@
 // Question: https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/
 
-class FindLongestSpecialSubstringThatOccursThriceI class Solution {
+class FindLongestSpecialSubstringThatOccursThriceI {
     public int maximumLength(String s) {
         boolean isTest = false;
         char[] letters = s.toCharArray();
         char previous = letters[0];
         int count = 1;
-        int n = letters.length;
+        int n = s.length();
         int result = -1;
         int[][] map = new int[26][n + 1];
 
@@ -27,7 +27,9 @@ class FindLongestSpecialSubstringThatOccursThriceI class Solution {
         }
 
         for (int i = 0; i < 26; i++) {
-            for (int j = n - 1; j >= 1; j--) {
+            int minimum = result == -1 ? 1 : result + 1;
+
+            for (int j = n - 1; j >= minimum; j--) {
                 map[i][j] += map[i][j + 1];
 
                 if (map[i][j] >= 3) {

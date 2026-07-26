@@ -27,7 +27,9 @@ class FindLongestSpecialSubstringThatOccursThriceII {
         }
 
         for (int i = 0; i < 26; i++) {
-            for (int j = n - 1; j >= 1; j--) {
+            int minimum = result == -1 ? 1 : result + 1;
+
+            for (int j = n - 1; j >= minimum; j--) {
                 map[i][j] += map[i][j + 1];
 
                 if (map[i][j] >= 3) {
