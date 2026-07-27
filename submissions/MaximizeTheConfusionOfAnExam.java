@@ -1,13 +1,14 @@
 // Question: https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/
 
 class MaximizeTheConfusionOfAnExam {
-    public int maxConsecutiveAnswers(String answerKey, int k) {
-        char[] letters = answerKey.toCharArray();
+    private char[] letters;
 
-        return Math.max(getLongest(letters, k, 'T'), getLongest(letters, k, 'F'));
+    public int maxConsecutiveAnswers(String answerKey, int k) {
+        letters = answerKey.toCharArray();
+        return Math.max(getLongest(k, 'T'), getLongest(k, 'F'));
     }
 
-    private int getLongest(char[] letters, int k, char letter) {
+    private int getLongest(int k, char letter) {
         boolean isTest = false;
         int left = 0;
         int limit = k;
@@ -23,8 +24,7 @@ class MaximizeTheConfusionOfAnExam {
                 limit--;
             }
             while (limit < 0) {
-                char remove = letters[left++];
-                if (remove != letter) {
+                if (letters[left++] != letter) {
                     limit++;
                 }
             }

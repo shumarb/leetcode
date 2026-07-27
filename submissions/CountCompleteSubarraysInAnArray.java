@@ -29,7 +29,7 @@ class CountCompleteSubarraysInAnArray {
         int result = 0;
 
         if (isTest) {
-            System.out.println("------------------------------------------------------------------\nlimit of distinct elements: " + k);
+            System.out.println("------------------------------------------------------------------\nsubarrays with <= " + k + " distinct elements:\n");
         }
         for (int right = 0; right < nums.length; right++) {
             int incoming = nums[right];
@@ -46,7 +46,7 @@ class CountCompleteSubarraysInAnArray {
 
             int totalCompleteSubarrays = right - left + 1;
             if (isTest) {
-                System.out.println(" * complete subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + " -> total complete subarrays: " + totalCompleteSubarrays);
+                System.out.println(" * indices [" + left + ", " + right + "]: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + " -> total complete subarrays: " + totalCompleteSubarrays);
             }
 
             result += totalCompleteSubarrays;
