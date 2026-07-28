@@ -3,25 +3,28 @@
 class SmallestPalindromicRearrangementI {
     public String smallestPalindrome(String s) {
         boolean isTest = false;
-        char[] letters = s.toCharArray();
-        char[] result = new char[letters.length];
         int[] count = new int[26];
-        int firstIndex = 0;
-        int n = letters.length;
-        int lastIndex = n - 1;
+        int left = 0;
+        int n = s.length();
+        int right = n - 1;
+        char[] result = new char[n];
 
-        for (char c: letters) {
+        for (char c: s.toCharArray()) {
             count[c - 'a']++;
         }
         if (isTest) {
-            System.out.println("letters: " + Arrays.toString(letters) + "\ncount: " + Arrays.toString(count));
+            System.out.println("count: " + Arrays.toString(count));
         }
 
         for (int i = 0; i < count.length; i++) {
+            if (count[i] == 0) {
+                continue;
+            }
+
+            char letter = (char) ('a' + i);
             while (count[i] > 1) {
-                char letter = (char) ('a' + i);
-                result[firstIndex++] = letter;
-                result[lastIndex--] = letter;
+                result[left++] = letter;
+                result[right--] = letter;
                 count[i] -= 2;
             }
         }
@@ -31,9 +34,9 @@ class SmallestPalindromicRearrangementI {
         }
 
         for (int i = 0; i < count.length; i++) {
-            while (count[i] > 0) {
+            if (count[i] > 0) {
                 char letter = (char) ('a' + i);
-                result[firstIndex++] = letter;
+                result[left++] = letter;
                 count[i]--;
             }
         }
