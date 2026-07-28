@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 721/2196.
+Completed: 722/2196.
 
 ## Submissions
 ### Easy
@@ -412,6 +412,7 @@ Completed: 721/2196.
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                                | 76ms    | 25.33%  |
 | [Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsII.java)                                             | 5ms     | 69.69%  |
 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Cashier.java)                                                         | 113ms   | 100.00% |
+| [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                                | 18ms    | 93.01%  |
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100.00% |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AsteroidCollision.java)                                               | 4ms     | 82.73%  |
 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                                            | 1ms     | 98.50%  |

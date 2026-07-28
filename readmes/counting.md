@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 105/207.
+Completed: 106/207.
 
 ## Submissions
 ### Easy
@@ -81,6 +81,7 @@ Completed: 105/207.
 ### Medium
 | Question                                                                                                                                                                  | Submission                                                                                                                  | Runtime | Rank    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                     | 18ms    | 93.01%  |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                         | 1ms     | 100.00% |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                     | 2ms     | 99.45%  |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                              | 31ms    | 92.75%  |

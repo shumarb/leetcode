@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 354/824.
+Completed: 355/824.
 
 ## Submissions
 ### Easy
@@ -194,6 +194,7 @@ Completed: 354/824.
 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlphabetBoardPath.java)                                            | 1ms     | 44.00%  |
 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AmountOfTimeForBinaryTreeToBeInfected.java)                        | 97ms    | 52.34%  |
 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Cashier.java)                                                      | 113ms   | 100.00% |
+| [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                             | 18ms    | 93.01%  |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                   | 0ms     | 100.00% |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                                 | 1ms     | 100.00% |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                    | 1ms     | 100.00% |
