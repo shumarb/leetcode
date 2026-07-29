@@ -11,10 +11,9 @@ class ApplyOperationsToMakeStringEmpty {
         int n = letters.length;
 
         /**
-         1.  Count frequency of each letter and its last index.
-             Letters with the maximum frequency will remain after simulation.
-             Since the order of the letters matter when forming s right before applying the last operation
-             store the last index of each letter.
+         1.  Characters with the maximum frequency must be in the final operation before the string becomes empty.
+             Hence, store the last index of all letters to ensure result preserves the ordering of the letters.
+             Iterate letters from left to right, append the i-th letter to result only if its frequency is the maxmimum frequency and i is the last index of the letter.
          */
         Arrays.fill(lastIndex, -1);
         for (int i = 0; i < n; i++) {
