@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 98/470.
+Completed: 99/470.
 
 ## Submissions
 ### Easy
@@ -104,6 +104,7 @@ Completed: 98/470.
 | [Minimum Number of Groups to Create a Valid Assignment](https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfGroupsToCreateAValidAssignment.java)     | 42ms    | 35.94%  |
 | [Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeArrayEmpty.java)         | 21ms    | 64.11%  |
 | [Minimum Operations to Half Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToHalfArraySum.java)                   | 172ms   | 82.34%  |
+| [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordII.java)                 | 10ms    | 66.76%  |
 | [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRoundsToCompleteAllTasks.java)                   | 31ms    | 63.62%  |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                     | 11ms    | 24.39%  |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                           | 46ms    | 82.48%  |

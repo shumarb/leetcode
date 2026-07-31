@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 355/879.
+Completed: 356/879.
 
 ## Submissions
 ### Easy
@@ -306,6 +306,7 @@ Completed: 355/879.
 | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubstringsWithDistinctStart.java)                           | 5ms     | 99.34%  |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java)                             | 1ms     | 51.13%  |
 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumGeneticMutation.java)                                       | 1ms     | 95.05%  |
+| [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordII.java)                            | 10ms    | 66.76%  |
 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/)                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)                  | 6ms     | 98.87%  |
 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagramTwo.java)               | 11ms    | 96.36%  |
 | [Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterBalancedRemovals.java)                     | 3ms     | 99.04%  |

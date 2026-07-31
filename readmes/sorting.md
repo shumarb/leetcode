@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 180/527.
+Completed: 181/527.
 
 ## Submissions
 ### Easy
@@ -164,6 +164,7 @@ Completed: 180/527.
 | [Minimum Absolute Difference in Sliding Window Matrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifferenceInSlidingWindowMatrix.java)   | 37ms    | 23.40%  |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                | 10ms    | 90.87%  |
 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToEqualArrayElementsTwo.java)              | 11ms    | 12.02%  |
+| [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordII.java)                | 10ms    | 66.76%  |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                          | 46ms    | 82.48%  |
 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfMatchingSubsequences.java)                     | 55ms    | 74.33%  |
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                  | 1ms     | 99.88%  |

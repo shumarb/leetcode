@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/207.
+Completed: 107/207.
 
 ## Submissions
 ### Easy
@@ -109,6 +109,7 @@ Completed: 106/207.
 | [Minimum Discards to Balance Inventory](https://leetcode.com/problems/minimum-discards-to-balance-inventory/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDiscardsToBalanceInventory.java)                    | 3ms     | 100.00% |
 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumIncrementToMakeArrayUnique.java)                    | 10ms    | 90.87%  |
 | [Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfOperationsToMakeArrayEmpty.java)            | 21ms    | 64.11%  |
+| [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordII.java)                    | 10ms    | 66.76%  |
 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagram.java)          | 6ms     | 98.87%  |
 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfStepsToMakeTwoStringsAnagramTwo.java)       | 11ms    | 96.36%  |
 | [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRoundsToCompleteAllTasks.java)                      | 31ms    | 63.62%  |
