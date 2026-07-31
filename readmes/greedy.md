@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/470.
+Completed: 98/470.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 97/470.
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)     | 2ms     | 97.55%  |
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToConvertString.java)                      | 1ms     | 71.27%  |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfMovesToSeatEveryone.java)               | 1ms     | 100.00% |
+| [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordI.java)                 | 3ms     | 11.35%  |
 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | 1ms     | 100.00% |
 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeTheArrayIncreasing.java)        | 3ms     | 87.17%  |
 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSubsequenceInNonIncreasingOrder.java)           | 2ms     | 98.90%  |
