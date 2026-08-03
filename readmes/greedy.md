@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 99/470.
+Completed: 100/470.
 
 ## Submissions
 ### Easy
@@ -21,6 +21,7 @@ Completed: 99/470.
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                    | 11ms    | 35.51%  |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                     | 1ms     | 100.00% |
 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanPlaceFlowers.java)                      | 1ms     | 97.29%  |
+| [Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeMoneyToMaximumChildren.java)                 | 2ms     | 98.37%  |
 | [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)          | 1ms     | 100.00% |
 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KItemsWithTheMaximumSum.java)                          | 1ms     | 89.54%  |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestOddNumberInString.java)                         | 1ms     | 99.71%  |
