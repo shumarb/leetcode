@@ -16,11 +16,15 @@
  * }
  */
 class DiameterOfBinaryTree {
-    private boolean isTest = false;
-    private int diameter = 0;
+    private boolean isTest;
+    private int diameter;
 
     public int diameterOfBinaryTree(TreeNode root) {
+        diameter = 0;
+        isTest = false;
+
         findDepth(root);
+
         return diameter;
     }
 
@@ -32,6 +36,7 @@ class DiameterOfBinaryTree {
         int leftDepth = findDepth(current.left);
         int rightDepth = findDepth(current.right);
         diameter = Math.max(diameter, leftDepth + rightDepth);
+
         if (isTest) {
             System.out.println("-------------------------------------------");
             System.out.println("current: " + current.val);
