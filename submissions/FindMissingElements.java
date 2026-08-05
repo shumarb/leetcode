@@ -4,18 +4,18 @@ class FindMissingElements {
     public List<Integer> findMissingElements(int[] nums) {
         List<Integer> result = new ArrayList<>();
         boolean[] isPresent;
-        int largest = nums[0];
-        int smallest = nums[0];
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
 
-        for (int i = 1; i < nums.length; i++) {
-            largest = Math.max(largest, nums[i]);
-            smallest = Math.min(smallest, nums[i]);
+        for (int e: nums) {
+            largest = Math.max(e, largest);
+            smallest = Math.min(e, smallest);
         }
         isPresent = new boolean[largest + 1];
+
         for (int e: nums) {
             isPresent[e] = true;
         }
-
         for (int i = smallest; i <= largest; i++) {
             if (!isPresent[i]) {
                 result.add(i);
