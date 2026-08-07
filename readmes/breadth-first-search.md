@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/259.
+Completed: 102/259.
 
 ## Submissions
 ### Easy
@@ -101,6 +101,7 @@ Completed: 101/259.
 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PopulatingNextRightPointersInEachNodeTwo.java)        | 2ms     | 37.45%  |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43%  |
 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 7ms     | 12.01%  |
+| [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveMethodsFromProject.java)                        | 45ms    | 96.83%  | 
 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOddLevelsOfBinaryTree.java)                    | 0ms     | 100.00% |
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RottingOranges.java)                                  | 2ms     | 90.26%  |
 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBST.java)                      | 10ms    | 39.11%  |

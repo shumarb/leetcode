@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 26/187.
+Completed: 27/187.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 26/187.
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfProvinces.java)                               | 0ms     | 100.00% |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                  | 47ms    | 87.43%  |
 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedundantConnection.java)                             | 7ms     | 12.01%  |
+| [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveMethodsFromProject.java)                        | 45ms    | 96.83%  | 
 | [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ShortestDistanceAfterRoadAdditionQueriesI.java)       | 85ms    | 74.42%  |
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                         | 27ms    | 7.43%   | 
 
