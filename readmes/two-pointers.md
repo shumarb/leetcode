@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 109/253.
+Completed: 110/253.
 
 ## Submissions
 ### Easy
@@ -24,6 +24,7 @@ Completed: 109/253.
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100.00% |
 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBinarySubstrings.java)                           | 6ms     | 99.70%  |
 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsWhoseSumIsLessThanTarget.java)              | 1ms     | 100.00% |
+| [DI String Match](https://leetcode.com/problems/di-string-match/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DIStringMatch.java)                                   | 2ms     | 99.51%  |
 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                   | 4ms     | 6.06%   |
 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DuplicateZeros.java)                                  | 3ms     | 44.61%  |
 | [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesI.java)         | 1ms     | 100.00% |

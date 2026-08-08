@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 356/879.
+Completed: 357/879.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 356/879.
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                                | 0ms     | 100.00% |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                          | 20ms    | 49.03%  |
 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CrawlerLogFolder.java)                                             | 1ms     | 99.52%  |
+| [DI String Match](https://leetcode.com/problems/di-string-match/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DIStringMatch.java)                                                | 2ms     | 99.51%  |
 | [Decode the Message](https://leetcode.com/problems/decode-the-message/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecodeTheMessage.java)                                             | 4ms     | 93.90%  |
 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecryptStringFromAlphabetToIntegerMapping.java)                    | 1ms     | 79.11%  |
 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefangingAnIPAddress.java)                                         | 0ms     | 100.00% |
