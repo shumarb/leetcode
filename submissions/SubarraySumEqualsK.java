@@ -2,32 +2,33 @@
 
 class SubarraySumEqualsK {
     public int subarraySum(int[] nums, int k) {
-        int count = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        boolean isTest = false;
         int prefixSum = 0;
-        Map<Integer, Integer> prefixSumMap = new HashMap<>();
+        int result = 0;
 
-        // 1. Prefix sum is 0 before iteration, so include 0 in prefix sums so far.
-        prefixSumMap.put(0, 1);
+        map.put(0, 1);
 
-        for (int number: nums) {
-            // 2. Increase prefix sum by current number.
-            prefixSum += number;
+        for (int i = 0; i < nums.length; i++) {
+            int e = nums[i];
 
-            // 3. Obtain complement to find.
-            int complement = prefixSum - k;
-
-            /**
-             4.  If complement exists,
-                 subArray that ends at current number sums to k.
-             */
-            if (prefixSumMap.containsKey(complement)) {
-                count += prefixSumMap.get(complement);
+            if (isTest) {
+                System.out.println("index: " + i + ", element: " + e + "\n\n * before, prefixSum: " + prefixSum + ", map: " + map);
             }
 
-            // 5. Increase number of occurrences of sum by 1.
-            prefixSumMap.put(prefixSum, 1 + prefixSumMap.getOrDefault(prefixSum, 0));
+            prefixSum += e;
+            int complement = prefixSum - k;
+
+            result += map.getOrDefault(complement, 0);
+            map.put(prefixSum, 1 + map.getOrDefault(prefixSum, 0));
+            if (isTest) {
+                System.out.println("\n * after, prefixSum: " + prefixSum + ", map: " + map + "\n---------------------------------------");
+            }
+        }
+        if (isTest) {
+            System.out.println("result: " + result);
         }
 
-        return count;
+        return result;
     }
 }
