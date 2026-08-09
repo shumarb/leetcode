@@ -8,26 +8,13 @@ class DIStringMatch {
         int n = s.length();
         int rightValue = n;
         int[] result = new int[n + 1];
-        boolean[] isUsed = new boolean[n + 1];
 
         for (char c: s.toCharArray()) {
-            if (c == 'I') {
-                result[index++] = leftValue;
-                isUsed[leftValue++] = true;
-            } else {
-                result[index++] = rightValue;
-                isUsed[rightValue--] = true;
-            }
+            result[index++] = c == 'I' ? leftValue++ : rightValue--;
         }
-        for (int i = 0; i < isUsed.length; i++) {
-            if (!isUsed[i]) {
-                isUsed[i] = true;
-                result[n] = i;
-                break;
-            }
-        }
+        result[index] = leftValue;
         if (isTest) {
-            System.out.println("result: " + Arrays.toString(result) + "\nisUsed: " + Arrays.toString(isUsed));
+            System.out.println("result: " + Arrays.toString(result));
         }
 
         return result;
