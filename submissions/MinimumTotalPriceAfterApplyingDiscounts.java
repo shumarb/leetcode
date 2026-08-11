@@ -13,25 +13,25 @@ class MinimumTotalPriceAfterApplyingDiscounts {
             System.out.println("---------------------------------------------------------------------");
         }
         for (int i = prices.length - 1; i >= 0; i--) {
+            double p = prices[i];
+
             if (discountsIndex < 0) {
                 if (isTest) {
-                    System.out.println(" * discountsIndex: " + discountsIndex + ", price: " + prices[i] + " -> add: " + prices[i]);
+                    System.out.println(" * discountsIndex: " + discountsIndex + ", price: " + p + " -> add: " + p);
                 }
-                result += (double) prices[i];
 
             } else {
-                int price = prices[i];
-                double discountRate = discounts[discountsIndex];
-                double discountedPrice = (((double) price) * (100.0 - discountRate)) / 100.0;
+                p = (p * (100.0 - discounts[discountsIndex])) / 100.0;
+
                 if (isTest) {
-                    System.out.println(" * discountsIndex: " + discountsIndex + ", price: " + price + " -> add: " + discountedPrice);
+                    System.out.println(" * discountsIndex: " + discountsIndex + ", discount: " + discounts[discountsIndex] + "%, price: " + prices[i] + " -> add: " + p);
                 }
+
                 discountsIndex--;
-
-                result += discountedPrice;
             }
-        }
 
+            result += p;
+        }
         if (isTest) {
             System.out.println("---------------------------------------------------------------------\nresult: " + result);
         }
