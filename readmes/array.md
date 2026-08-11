@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 723/2196.
+Completed: 724/2196.
 
 ## Submissions
 ### Easy
@@ -570,6 +570,7 @@ Completed: 723/2196.
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                            | 130ms   | 63.04%  |
 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAbsoluteSumOfAnySubarray.java)                                 | 7ms     | 57.18%  |
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 1ms     | 100.00% |
+| [Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCandiesAllocatedToKChildren.java)                              | 24ms    | 94.34%  |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41%  |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                                         | 6ms     | 87.20%  |
 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)                     | 9ms     | 67.50%  |
