@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 73/169.
+Completed: 74/169.
 
 ## Submissions
 ### Easy
@@ -59,6 +59,7 @@ Completed: 73/169.
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                                     | 10ms    | 64.27%  |
 | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KRadiusSubarrayAverages.java)                                         | 6ms     | 68.46%  |
 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestSubarrayWithAtMostKFrequency.java)                     | 60ms    | 92.38%  |
+| [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 116ms   | 16.14%  |
 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestRepeatingCharacterReplacement.java)                            | 8ms     | 67.65%  |
 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayOf1sAfterDeletingOneElement.java)                      | 2ms     | 99.25%  |
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                              | 12ms    | 93.06%  |

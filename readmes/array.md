@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 724/2196.
+Completed: 725/2196.
 
 ## Submissions
 ### Easy
@@ -551,6 +551,7 @@ Completed: 724/2196.
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83%  |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayI.java)                                        | 146ms   | 86.02%  |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 31ms    | 56.92%  |
+| [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 116ms   | 16.14%  |
 | [Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestFibonacciSubarray.java)                                        | 1ms     | 100.00% |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                                    | 38ms    | 64.87%  |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                                          | 2ms     | 99.72%  |
