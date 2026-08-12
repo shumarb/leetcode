@@ -2,9 +2,10 @@
 
 class PartitionArraySuchThatMaximumDifferenceIsK {
     public int partitionArray(int[] nums, int k) {
-        TreeMap<Integer, Integer> map = new TreeMap<>();
         boolean isTest = false;
+        int left = 0;
         int result = 0;
+        int right = 1;
 
         sort(nums);
         if (isTest) {
@@ -12,32 +13,19 @@ class PartitionArraySuchThatMaximumDifferenceIsK {
             System.out.println("---------------------------------------------------");
         }
 
-        for (int e: nums) {
-            map.merge(e, 1, Integer::sum);
-
-            int maximum = map.lastKey();
-            int minimum = map.firstKey();
-
-            if (maximum - minimum > k) {
-                map.remove(e);
+        for (; right < nums.length; right++) {
+            if (nums[right] - nums[left] > k) {
                 if (isTest) {
-                    System.out.println(" * valid partition: " + map);
+                    System.out.println(" * index: [" + left + ", " + (right - 1) + "] | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right)));
                 }
+
+                left = right;
                 result++;
-
-                map.clear();
-                map.merge(e, 1, Integer::sum);
             }
         }
-        if (!map.isEmpty()) {
-            if (isTest) {
-                System.out.println(" * valid partition: " + map);
-            }
-
-            result++;
-        }
+        result++;
         if (isTest) {
-            System.out.println("---------------------------------------------------\nresult: " + result);
+            System.out.println(" * index: [" + left + ", " + (right - 1) + "] | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right)) + "\n---------------------------------------------------\nresult: " + result);
         }
 
         return result;
