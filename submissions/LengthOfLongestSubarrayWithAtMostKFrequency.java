@@ -14,21 +14,18 @@ class LengthOfLongestSubarrayWithAtMostKFrequency {
 
         for (int right = 0; right < n; right++) {
             int incoming = nums[right];
-            map.put(incoming, 1 + map.getOrDefault(incoming, 0));
+            map.merge(incoming, 1, Integer::sum);
 
             while (map.get(incoming) > k) {
-                int remove = nums[left++];
-                map.put(remove, map.get(remove) - 1);
-            }
-            if (isTest) {
-                System.out.print(" * valid | indices: [" + left + ", " + right + "]");
-                System.out.println(" | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + " | map: " + map);
+                map.computeIfPresent(nums[left++], (key, count) -> count == 1 ? null : count - 1);
             }
 
-            result = Math.max(result, right - left + 1);
-        }
-        if (isTest) {
-            System.out.println("--------------------------------\nresult: " + result);
+            int length = right - left + 1;
+            if (isTest) {
+                System.out.println(" * length: " + length + " | indices: [" + left + ", " + right + "] | map: " + map + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
+            }
+
+            result = Math.max(length, result);
         }
 
         return result;
