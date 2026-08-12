@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 101/470.
+Completed: 102/470.
 
 ## Submissions
 ### Easy
@@ -111,6 +111,7 @@ Completed: 101/470.
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                     | 11ms    | 24.39%  |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                           | 46ms    | 82.48%  |
 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OptimalPartitionOfString.java)                          | 14ms    | 68.52%  |
+| [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArraySuchThatMaximumDifferenceIsK.java)        | 114ms   | 5.19%   |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                          | 17ms    | 92.02%  |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                            | 2ms     | 94.48%  |
 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveStonesToMinimizeTheTotal.java)                    | 335ms   | 88.82%  |
