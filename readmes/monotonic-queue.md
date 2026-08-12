@@ -15,7 +15,7 @@ Completed: 2/25.
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
-| [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 116ms   | 16.14% |
+| [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 78ms    | 24.21% |
 
 ### Hard
 | Question                                                                                             | Submission                                                                                  | Runtime | Rank   |

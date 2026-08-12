@@ -2,44 +2,34 @@
 
 class MaximumLengthSubstringWithTwoOccurrences {
     public int maximumLengthSubstring(String s) {
-        String maximumSubstring = "";
         boolean isTest = false;
+        char[] letters = s.toCharArray();
+        int[] count = new int[26];
+        int left = 0;
+        int result = 0;
 
         if (isTest) {
-            System.out.println("s: " + s);
-            System.out.println("-----------------------------------------------------------------------");
+            System.out.println("letters: " + Arrays.toString(letters) + "\n-----------------------------------------------------------");
         }
-        for (int i = 0; i < s.length(); i++) {
-            StringBuilder current = new StringBuilder();
-            current.append(s.charAt(i));
-            for (int j = i + 1; j < s.length(); j++) {
-                current.append(s.charAt(j));
-                if (isTest) {
-                    System.out.println(" * checking: " + current.toString());
-                }
-                if (current.toString().length() > maximumSubstring.length() && isValidSubstring(current.toString())) {
-                    maximumSubstring = current.toString();
-                }
+        for (int right = 0; right < letters.length; right++) {
+            char incoming = letters[right];
+            count[incoming - 'a']++;
+
+            while (count[incoming - 'a'] > 2) {
+                count[letters[left++] - 'a']--;
             }
+
+            int length = right - left + 1;
+            if (isTest) {
+                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | substring: " + s.substring(left, left + length));
+            }
+
+            result = Math.max(length, result);
         }
         if (isTest) {
-            System.out.println("-----------------------------------------------------------------------");
-            System.out.println("maximumSubstring: " + maximumSubstring);
+            System.out.println("-----------------------------------------------------------\nresult: " + result);
         }
 
-        return maximumSubstring.length();
-    }
-
-    private boolean isValidSubstring(String str) {
-        int[] strFrequency = new int[26];
-        for (char letter: str.toCharArray()) {
-            strFrequency[letter - 'a']++;
-        }
-        for (int i = 0; i < 26; i++) {
-            if (strFrequency[i] > 2) {
-                return false;
-            }
-        }
-        return true;
+        return result;
     }
 }

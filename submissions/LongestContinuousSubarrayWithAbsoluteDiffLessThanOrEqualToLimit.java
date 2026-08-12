@@ -12,15 +12,12 @@ class LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit {
             System.out.println("------------------------------------------------------------");
         }
         for (int right = 0; right < nums.length; right++) {
-            int incoming = nums[right];
-
-            map.put(incoming, 1 + map.getOrDefault(incoming, 0));
-
+            map.merge(nums[right], 1, Integer::sum);
             int maximum = map.lastKey();
             int minimum = map.firstKey();
 
             while (maximum - minimum > limit) {
-                map.computeIfPresent(nums[left++], (key, count) -> count == 1 ? null : count - 1);
+                map.computeIfPresent(nums[left++], (key, value) -> value == 1 ? null : value - 1);
                 maximum = map.lastKey();
                 minimum = map.firstKey();
             }
@@ -30,7 +27,7 @@ class LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit {
                 System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
             }
 
-            result = Math.max(result, right - left + 1);
+            result = Math.max(length, result);
         }
         if (isTest) {
             System.out.println("------------------------------------------------------------\nresult: " + result);
