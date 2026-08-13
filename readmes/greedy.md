@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 102/470.
+Completed: 103/470.
 
 ## Submissions
 ### Easy
@@ -46,6 +46,7 @@ Completed: 102/470.
 | [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAmountOfTimeToFillCups.java)                    | 3ms     | 11.87%  |
 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCostOfBuyingCandiesWithDiscount.java)           | 1ms     | 100.00% |
 | [Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumDeletionsForAtMostKDistinctCharacters.java)     | 2ms     | 97.55%  |
+| [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumHoursOfTrainingToWinACompetition.java)          | 1ms     | 16.88%  |
 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumMovesToConvertString.java)                      | 1ms     | 71.27%  |
 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfMovesToSeatEveryone.java)               | 1ms     | 100.00% |
 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordI.java)                 | 0ms     | 100.00% |
