@@ -5,47 +5,47 @@ class LongestNiceSubstring {
         String result = "";
         boolean isTest = false;
 
+        if (isTest) {
+            System.out.println("s: " + s + "\n------------------------");
+        }
         for (int i = 0; i < s.length() - 1; i++) {
             for (int j = i + 1; j < s.length(); j++) {
                 String str = s.substring(i, j + 1);
-                if (isTest) {
-                    System.out.println(" * check: " + str);
-                }
-                if (str.length() > result.length() && isNiceSubstring(str)) {
+                int n = str.length();
+
+                if (n >= 2 && n > result.length() && isNiceSubstring(str)) {
+                    if (isTest) {
+                        System.out.println(" * indices: [" + i + ", " + j + "] | substring: " + str);
+                    }
+
                     result = str;
                 }
             }
         }
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("------------------------\nresult: " + result);
         }
 
         return result;
     }
 
     private boolean isNiceSubstring(String word) {
-        int[] frequency = new int[52];
+        boolean[] isPresent = new boolean[52];
 
         for (char letter: word.toCharArray()) {
             if (Character.isUpperCase(letter)) {
-                frequency[letter - 'A']++;
+                isPresent[letter - 'A'] = true;
             } else {
-                frequency[letter - 'a' + 26]++;
+                isPresent[letter - 'a' + 26] = true;
             }
         }
 
         for (char letter: word.toCharArray()) {
-            char complement;
-            if (Character.isUpperCase(letter)) {
-                complement = Character.toLowerCase(letter);
-                if (frequency[complement - 'a' + 26] == 0) {
-                    return false;
-                }
-            } else {
-                complement = Character.toUpperCase(letter);
-                if (frequency[complement - 'A'] == 0) {
-                    return false;
-                }
+            char lower = Character.toLowerCase(letter);
+            char upper = Character.toUpperCase(letter);
+
+            if (!isPresent[lower - 'a' + 26] || !isPresent[upper - 'A']) {
+                return false;
             }
         }
 

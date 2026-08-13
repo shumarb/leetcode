@@ -2,11 +2,10 @@
 
 class RunningSumOf1DArray {
     public int[] runningSum(int[] nums) {
-        int cumulativeSum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            cumulativeSum += nums[i];
-            nums[i] = cumulativeSum;
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i - 1];
         }
+
         return nums;
     }
 }
