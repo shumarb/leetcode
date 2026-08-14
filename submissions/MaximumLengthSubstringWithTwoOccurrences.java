@@ -9,7 +9,7 @@ class MaximumLengthSubstringWithTwoOccurrences {
         int result = 0;
 
         if (isTest) {
-            System.out.println("letters: " + Arrays.toString(letters) + "\n-----------------------------------------------------------");
+            System.out.println("letters: " + Arrays.toString(letters) + "\n-------------------------------------------------");
         }
         for (int right = 0; right < letters.length; right++) {
             char incoming = letters[right];
@@ -27,7 +27,7 @@ class MaximumLengthSubstringWithTwoOccurrences {
             result = Math.max(length, result);
         }
         if (isTest) {
-            System.out.println("-----------------------------------------------------------\nresult: " + result);
+            System.out.println("-------------------------------------------------\nresult: " + result);
         }
 
         return result;

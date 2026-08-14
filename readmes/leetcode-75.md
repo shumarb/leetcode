@@ -9,7 +9,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 20/75.
+Completed: 21/75.
 
 ## Submissions
 ### Array / String
@@ -17,6 +17,7 @@ Completed: 20/75.
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|---------|--------|
 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeStringsAlternately.java) | 1ms     | 95.52% |
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseVowelsOfAString.java)  | 2ms     | 99.31% |
+| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsInAString.java)   | 6ms     | 80.36% |
 | [String Compression](https://leetcode.com/problems/string-compression/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StringCompression.java)       | 1ms     | 99.90% |
 
 ### Two Pointers
@@ -67,3 +68,8 @@ Completed: 20/75.
 |-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------|---------|
 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GuessNumberHigherOrLower.java)  | 0ms     | 100.00% |
 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInABinarySearchTree.java) | 0ms     | 100.00% |
+
+### Monotonic Stack
+| Question                                                                            | Submission                                                                               | Runtime | Rank   |
+|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java) | 76ms    | 33.93% |
