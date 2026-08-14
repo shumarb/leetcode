@@ -52,13 +52,20 @@ class LongestNiceSubstring {
             }
         }
 
+        int partitionIndex = -1;
         for (int i = left; i <= right; i++) {
             char letter = letters[i];
             char lower = Character.toLowerCase(letter);
             char upper = Character.toUpperCase(letter);
 
+            /**
+             1. i-th character's complement does not exist,
+             so this index is not part of a nice substring if it exists,
+             and a nice substring may exist in indices [left, partitionIndex - 1] and [partitionIndex + 1, right].
+             */
             if (!isPresent[upper - 'A'] || !isPresent[lower - 'a' + 26]) {
                 isNiceSubstring = false;
+                partitionIndex = i;
                 break;
             }
         }
@@ -75,7 +82,7 @@ class LongestNiceSubstring {
             return;
         }
 
-        helper(left + 1, right);
-        helper(left, right - 1);
+        helper(left, partitionIndex - 1);
+        helper(partitionIndex + 1, right);
     }
 }
