@@ -11,9 +11,7 @@ class MultiSourceFloodFill {
 
         Arrays.sort(sources, (a, b) -> Integer.compare(b[2], a[2]));
         for (int[] source: sources) {
-            int column = source[1];
-            int row = source[0];
-            isVisited[row][column] = true;
+            isVisited[source[0]][source[1]] = true;
             queue.offer(source);
         }
 
