@@ -22,33 +22,19 @@ class MaximumGapBetweenStations {
         }
 
         j = m - 1;
-        for (int i = n - 1; i >= 0; i--) {
+
+        // 2. For every consecutive worker, compare the difference in distance between the first worker's earliest index (i - 1) and the second worker's latest index (j) to determine the maximum possible difference between the station indices.
+        for (int i = n - 1; i > 0; i--) {
             while (skills[i] != stations[j]) {
                 j--;
             }
 
+            result = Math.max(result, j - earliest[i - 1]);
             latest[i] = j--;
         }
         if (isTest) {
             System.out.println("station:  " + Arrays.toString(stations) + "\nskills:   " + Arrays.toString(skills) + "\nearliest: " + Arrays.toString(earliest) + "\nlatest:   " + Arrays.toString(latest));
-            System.out.println("----------------------------------------------------------------------------");
-        }
-
-        // 2. For every consecutive worker, compare the difference in distance between the first worker's earliest index and the second
-        //    worker's latest index to determine the maximum possible difference between the station indices.
-        for (int i = 0; i < n - 1; i++) {
-            char first = skills[i];
-            char second = skills[i + 1];
-            int gap = latest[i + 1] - earliest[i];
-
-            if (isTest) {
-                System.out.println(" * indices: [" + i + ", " + (i + 1) + "] | letters: [" + first + ", " + second + "] | earliest-latest: [" + earliest[i] + ", " + latest[i + 1] + "] | gap: " + gap);
-            }
-
-            result = Math.max(gap, result);
-        }
-        if (isTest) {
-            System.out.println("-----------------------------------------------------------------------------\nresult: " + result);
+            System.out.println("----------------------------------------------------------------------------\nresult: " + result);
         }
 
         return result;

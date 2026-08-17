@@ -1,16 +1,17 @@
 // Question: https://leetcode.com/problems/majority-element-ii/description/
 
-class MajorityElementTwo {
+class MajorityElementII {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> result = new ArrayList<>();
         Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
 
-        for (int number: nums) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+        for (int e: nums) {
+            map.merge(e, 1, Integer::sum);
         }
-        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
-            if (entry.getValue() > nums.length / 3) {
-                result.add(entry.getKey());
+        for (int key: map.keySet()) {
+            if (map.get(key) > n / 3) {
+                result.add(key);
             }
         }
 
