@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 74/342.
+Completed: 75/342.
 
 ## Submissions
 ### Easy
@@ -71,6 +71,7 @@ Completed: 74/342.
 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnesIII.java)                           | 4ms     | 44.30%  |
 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeTheConfusionOfAnExam.java)                    | 11ms    | 93.69%  |
 | [Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCandiesAllocatedToKChildren.java)              | 24ms    | 94.34%  |
+| [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceBetweenAPairOfValues.java)             | 20ms    | 9.69%   |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                 | 24ms    | 66.86%  |
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)               | 52ms    | 12.00%  |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                          | 1ms     | 99.93%  |

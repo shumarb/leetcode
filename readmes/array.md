@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 727/2196.
+Completed: 728/2196.
 
 ## Submissions
 ### Easy
@@ -575,6 +575,7 @@ Completed: 727/2196.
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 1ms     | 100.00% |
 | [Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCandiesAllocatedToKChildren.java)                              | 24ms    | 94.34%  |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41%  |
+| [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceBetweenAPairOfValues.java)                             | 20ms    | 9.69%   |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                                         | 6ms     | 87.20%  |
 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)                     | 9ms     | 67.50%  |
 | [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumErasureValue.java)                                             | 6ms     | 97.65%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 110/253.
+Completed: 111/253.
 
 ## Submissions
 ### Easy
@@ -101,6 +101,7 @@ Completed: 110/253.
 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)                      | 16ms    | 81.38%  | 
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListCycleTwo.java)                                          | 0ms     | 100.00% |
 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxNumberOfKSumPairs.java)                                        | 24ms    | 45.50%  |
+| [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceBetweenAPairOfValues.java)                         | 20ms    | 9.69%   |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)                        | 26ms    | 61.51%  |
 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumTwinSumOfALinkedList.java)                                 | 4ms     | 98.30%  |
 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimizeMaximumPairSumInArray.java)                               | 11ms    | 96.62%  |
