@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 357/879.
+Completed: 362/879.
 
 ## Submissions
 ### Easy
@@ -302,6 +302,7 @@ Completed: 357/879.
 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)                                                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MapSum.java)                                                       | 10ms    | 97.30%  |
 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaskingPersonalInformation.java)                                   | 0ms     | 100.00% |
 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeTheConfusionOfAnExam.java)                                 | 11ms    | 93.69%  |
+| [Maximum Gap Between Stations](https://leetcode.com/problems/maximum-gap-between-stations/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGapBetweenStations.java)                                    | 30ms    | 99.24%  |
 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java)       | 11ms    | 60.59%  |
 | [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfOccurrencesOfASubstring.java)                       | 37ms    | 75.61%  |
 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java)               | 10ms    | 95.48%  |

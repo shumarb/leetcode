@@ -10,15 +10,16 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 4/14.
+Completed: 5/15.
 
 ## Submissions
 ### Medium
-| Question                                                                                                                          | Submission                                                                                                    | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|--------|
+| Question                                                                                                                      | Submission                                                                                                  | Runtime | Rank   |
+|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Subarrays With Even Odd Ratio I](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithEvenOddRatioI.java)      | 45ms    | 22.88% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java) | 34ms    | 79.83% |
-| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                          | 9ms     | 94.52% |
-| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                       | 5ms     | 97.68% |
+| [Sort List](https://leetcode.com/problems/sort-list/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortList.java)                             | 9ms     | 94.52% |
+| [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SortAnArray.java)                          | 5ms     | 97.68% |
 
 ### Hard
 | Question                                                                                | Submission                                                                                    | Runtime | Rank |

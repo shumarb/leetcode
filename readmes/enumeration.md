@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 46/153.
+Completed: 48/153.
 
 ## Submissions
 ### Easy
@@ -33,6 +33,7 @@ Completed: 46/153.
 | [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestAlternatingSubarray.java)                     | 1ms     | 100.00% |
 | [Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeASquareWithTheSameColor.java)                    | 0ms     | 100.00% |
 | [Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeExpressionOfThreeElements.java)              | 1ms     | 99.82%  |
+| [Maximize Pair Strength Using GCD](https://leetcode.com/problems/maximize-pair-strength-using-gcd/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizePairStrengthUsingGcd.java)                   | 1079ms  | 10.40%  |
 | [Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumHeightOfATriangle.java)                       | 0ms     | 100.00% |
 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarrayWithEqualProducts.java)               | 4ms     | 16.89%  |
 | [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAbsoluteDifferenceBetweenTwoValues.java)      | 1ms     | 99.91%  |

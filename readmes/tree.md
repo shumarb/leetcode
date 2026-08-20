@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/265.
+Completed: 99/265.
 
 ## Submissions
 ### Easy
@@ -116,6 +116,7 @@ Completed: 97/265.
 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeededToInformAllEmployees.java)                     | 128ms   | 11.37%  |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinarySearchTree.java)                           | 0ms     | 100.00% | 
 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidateBinaryTreeNodes.java)                            | 6ms     | 68.02%  | 
+| [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WeightedSumOfATree.java)                                 | 66ms    | 25.75%  | 
 
 ### Hard
 | Question                                                                                                                          | Submission                                                                                                 | Runtime | Rank   |

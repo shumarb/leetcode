@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 103/470.
+Completed: 106/470.
 
 ## Submissions
 ### Easy
@@ -92,6 +92,7 @@ Completed: 103/470.
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)              | 130ms   | 63.04%  |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                           | 6ms     | 87.20%  |
 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)       | 9ms     | 67.50%  |
+| [Maximum Gap Between Stations](https://leetcode.com/problems/maximum-gap-between-stations/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGapBetweenStations.java)                         | 30ms    | 99.24%  |
 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumIceCreamBars.java)                               | 5ms     | 91.89%  |
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                          | 9ms     | 80.63%  |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)              | 26ms    | 61.51%  |
@@ -111,6 +112,7 @@ Completed: 103/470.
 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordII.java)                 | 10ms    | 66.76%  |
 | [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumRoundsToCompleteAllTasks.java)                   | 31ms    | 63.62%  |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                     | 11ms    | 24.39%  |
+| [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTotalPriceAfterApplyingDiscounts.java)           | 31ms    | 99.97%  |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                           | 46ms    | 82.48%  |
 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/OptimalPartitionOfString.java)                          | 14ms    | 68.52%  |
 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PartitionArraySuchThatMaximumDifferenceIsK.java)        | 13ms    | 98.82%  |
