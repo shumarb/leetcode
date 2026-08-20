@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 728/2196.
+Completed: 729/2196.
 
 ## Submissions
 ### Easy
@@ -88,6 +88,7 @@ Completed: 728/2196.
 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysOfLengthThreeWithACondition.java)              | 1ms     | 100.00% |
 | [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTestedDevicesAfterTestOperations.java)                  | 0ms     | 100.00% |
 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfConsistentStrings.java)                      | 6ms     | 86.92%  |
+| [Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfIncremovableSubarraysI.java)                 | 294ms   | 5.18%   |
 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfVowelStringsInRange.java)                    | 1ms     | 100.00% |
 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                          | 0ms     | 100.00% |
 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CouponCodeValidator.java)                                    | 20ms    | 49.03%  |

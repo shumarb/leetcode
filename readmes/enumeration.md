@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 45/153.
+Completed: 46/153.
 
 ## Submissions
 ### Easy
@@ -22,6 +22,7 @@ Completed: 45/153.
 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSpecialQuadruplets.java)                        | 12ms    | 86.95%  |
 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSquareSumTriples.java)                          | 4ms     | 96.87%  |
 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSymmetricIntegers.java)                         | 44ms    | 25.05%  |
+| [Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfIncremovableSubarraysI.java)         | 294ms   | 5.18%   |
 | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DetectPatternOfLengthMRepeatedKOrMoreTimes.java)     | 0ms     | 100.00% |
 | [Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesAmongChildrenOne.java)              | 12ms    | 32.40%  |
 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePeaks.java)                                   | 1ms     | 100.00% |
