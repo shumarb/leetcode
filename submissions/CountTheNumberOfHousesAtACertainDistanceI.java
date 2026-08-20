@@ -7,8 +7,8 @@ class CountTheNumberOfHousesAtACertainDistanceI {
 
     public int[] countOfPairs(int n, int x, int y) {
         boolean isTest = false;
-        result = new int[n];
         graph = new ArrayList[n + 1];
+        result = new int[n];
         this.n = n;
 
         if (isTest) {
@@ -17,6 +17,7 @@ class CountTheNumberOfHousesAtACertainDistanceI {
         for (int i = 1; i <= n; i++) {
             graph[i] = new ArrayList<>();
         }
+
         graph[x].add(y);
         graph[y].add(x);
         for (int i = 1; i < n; i++) {
@@ -30,10 +31,8 @@ class CountTheNumberOfHousesAtACertainDistanceI {
             }
         }
 
-        for (int k = 1; k <= n; k++) {
-            for (int i = 1; i <= n; i++) {
-                bfs(i, k);
-            }
+        for (int i = 1; i <= n; i++) {
+            bfs(i);
         }
         if (isTest) {
             System.out.println("---------------------------\nresult: " + Arrays.toString(result));
@@ -42,31 +41,32 @@ class CountTheNumberOfHousesAtACertainDistanceI {
         return result;
     }
 
-    private void bfs(int node, int k) {
+    private void bfs(int source) {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[n + 1];
-        int depth = 0;
+        int level = 0;
 
-        queue.offer(node);
-        isVisited[node] = true;
+        queue.offer(source);
+        isVisited[source] = true;
+
         while (!queue.isEmpty()) {
             int size = queue.size();
 
-            if (depth++ == k) {
-                result[k - 1] += queue.size();
-                break;
+            if (level > 0) {
+                result[level - 1] += size;
             }
 
             while (size-- > 0) {
-                int top = queue.poll();
-
-                for (int next: graph[top]) {
+                int house = queue.poll();
+                for (int next: graph[house]) {
                     if (!isVisited[next]) {
                         queue.offer(next);
                         isVisited[next] = true;
                     }
                 }
             }
+
+            level++;
         }
     }
 }
