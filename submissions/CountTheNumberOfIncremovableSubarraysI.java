@@ -7,27 +7,30 @@ class CountTheNumberOfIncremovableSubarraysI {
         int result = 0;
 
         for (int i = 0; i < n; i++) {
-            Set<Integer> set = new HashSet<>();
+            boolean[] isIndexExcluded = new boolean[n];
+
             for (int j = i; j < n; j++) {
-                set.add(j);
+                isIndexExcluded[j] = true;
                 if (isTest) {
-                    System.out.print(" * indices to exclude: " + set);
+                    System.out.print(" * indices to exclude: " + Arrays.toString(isIndexExcluded));
                 }
 
-                List<Integer> list = new ArrayList<>();
+                int[] values = new int[n];
+                int index = 0;
+
                 for (int k = 0; k < n; k++) {
-                    if (set.contains(k)) {
+                    if (isIndexExcluded[k]) {
                         continue;
                     }
-                    list.add(nums[k]);
+                    values[index++] = nums[k];
                 }
                 if (isTest) {
-                    System.out.println(" | list: " + list);
+                    System.out.println(" | values: " + Arrays.toString(values));
                 }
 
                 boolean isIncreasing = true;
-                for (int k = 1; k < list.size(); k++) {
-                    if (list.get(k) <= list.get(k - 1)) {
+                for (int k = 1; k < index; k++) {
+                    if (values[k] <= values[k - 1]) {
                         isIncreasing = false;
                         break;
                     }
@@ -37,6 +40,7 @@ class CountTheNumberOfIncremovableSubarraysI {
                 }
             }
         }
+
         return result;
     }
 }

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 97/264.
+Completed: 97/265.
 
 ## Submissions
 ### Easy
@@ -75,6 +75,7 @@ Completed: 97/264.
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | 1ms     | 95.87%  |
 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertBstToGreaterTree.java)                            | 1ms     | 17.79%  |
 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertSortedListToBinarySearchTree.java)                | 0ms     | 100.00% |
+| [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDominantNodesInABinaryTree.java)                    | 7ms     | 96.35%  |
 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountGoodNodesInBinaryTree.java)                         | 1ms     | 100.00% |
 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNodesEqualToAverageOfSubtree.java)                  | 1ms     | 60.70%  |
 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CousinsInBinaryTreeII.java)                              | 20ms    | 86.30%  |
