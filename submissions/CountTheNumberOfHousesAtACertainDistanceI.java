@@ -44,29 +44,31 @@ class CountTheNumberOfHousesAtACertainDistanceI {
     private void bfs(int source) {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[n + 1];
-        int level = 0;
+        int level = 1;
 
-        queue.offer(source);
         isVisited[source] = true;
+        for (int next: graph[source]) {
+            if (!isVisited[next]) {
+                isVisited[next] = true;
+                queue.offer(next);
+            }
+        }
+        result[level - 1] += queue.size();
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-
-            if (level > 0) {
-                result[level - 1] += size;
-            }
 
             while (size-- > 0) {
                 int house = queue.poll();
                 for (int next: graph[house]) {
                     if (!isVisited[next]) {
-                        queue.offer(next);
                         isVisited[next] = true;
+                        queue.offer(next);
                     }
                 }
             }
 
-            level++;
+            result[++level - 1] += queue.size();
         }
     }
 }
