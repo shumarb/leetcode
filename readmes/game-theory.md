@@ -10,10 +10,11 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 1/28.
+Completed: 2/30.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                | Submission                                                                                                  | Runtime | Rank    |
-|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------|---------|
-| [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinningPlayerInCoinGame.java)       | 0ms     | 100.00% |
+| Question                                                                                                                | Submission                                                                                            | Runtime | Rank    |
+|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------|---------|
+| [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinningPlayerInCoinGame.java) | 0ms     | 100.00% |
+| [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfCoinsYouCanGet.java)  | 7ms     | 96.17%  |
