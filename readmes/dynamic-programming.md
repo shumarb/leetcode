@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/661.
+Completed: 60/676.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 59/661.
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83%  |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                            | 0ms     | 100.00% |
 | [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                    | 0ms     | 100.00% |
+| [House Robber III](https://leetcode.com/problems/house-robber-ii/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobberIII.java)                                 | 0ms     | 100.00% |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                       | 2ms     | 84.17%  |
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameII.java)                                     | 36ms    | 14.95%  |
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                    | 10ms    | 64.27%  |

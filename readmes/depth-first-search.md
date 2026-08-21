@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 119/344.
+Completed: 120/349.
 
 ## Submissions
 ### Easy
@@ -93,6 +93,7 @@ Completed: 119/344.
 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLargestValueInEachTreeRow.java)                   | 2ms     | 88.73%  |
 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlattenBinaryTreeToLinkedList.java)                   | 1ms     | 18.41%  |
 | [Flower Adjacent With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FlowerPlantingWithNoAdjacent.java)                    | 13ms    | 74.02%  |
+| [House Robber III](https://leetcode.com/problems/house-robber-ii/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobberIII.java)                                  | 0ms     | 100.00% |
 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicDictionary.java)                                 | 27ms    | 58.30%  | 
 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIII.java)                                     | 1ms     | 99.28%  |
 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KeysAndRooms.java)                                    | 0ms     | 100.00% |
