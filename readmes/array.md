@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 738/2196.
+Completed: 739/2237.
 
 ## Submissions
 ### Easy
@@ -399,6 +399,7 @@ Completed: 738/2196.
 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                         | 1ms     | 39.67%  |
 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Unique3DigitEvenNumbers.java)                                | 7ms     | 17.93%  |
 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueEmailAddresses.java)                                   | 5ms     | 99.15%  |
+| [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueMiddleElement.java)                                    | 1ms     | 94.72%  |
 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueMorseCodeWords.java)                                   | 1ms     | 100.00% |
 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UniqueNumberOfOccurrences.java)                              | 1ms     | 99.83%  |
 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidBoomerang.java)                                         | 0ms     | 100.00% |
