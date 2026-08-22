@@ -7,11 +7,9 @@ class MaximumNumberOfCoinsYouCanGet {
         int largest = 0;
         int left = 0;
         int n = piles.length / 3;
-        int p = 3 * n - 1;
         int result = 0;
         int right = piles.length - 2;
         int[] count = new int[100001];
-        int[] highest = new int[2 * n];
 
         for (int e: piles) {
             count[e]++;
@@ -23,15 +21,12 @@ class MaximumNumberOfCoinsYouCanGet {
             }
         }
 
-        for (int i = highest.length - 1; i >= 0; i--) {
-            highest[i] = piles[p--];
-        }
         while (left++ < right) {
             result += piles[right];
             right -= 2;
         }
         if (isTest) {
-            System.out.println("sorted piles: " + Arrays.toString(piles) + "\nhighest: " + Arrays.toString(highest) + "\nresult: " + result);
+            System.out.println("sorted piles: " + Arrays.toString(piles) + "\nresult: " + result);
         }
 
         return result;
