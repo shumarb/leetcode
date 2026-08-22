@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 740/2237.
+Completed: 741/2237.
 
 ## Submissions
 ### Easy
@@ -452,6 +452,7 @@ Completed: 740/2237.
 | [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                                       | 3ms     | 95.26%  |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 4ms     | 98.13%  |
 | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysWithoutMeetings.java)                                        | 37ms    | 86.60%  |
+| [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDigitAppearances.java)                                           | 3ms     | 100.00% |
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)                          | 43ms    | 53.25%  |
 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIslandsWithTotalValueDivisibleByK.java)                          | 12ms    | 100.00% |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                                         | 31ms    | 92.75%  |

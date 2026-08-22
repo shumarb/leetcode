@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 222/702.
+Completed: 223/702.
 
 ## Submissions
 ### Easy
@@ -171,6 +171,7 @@ Completed: 222/702.
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)                                       | 24ms    | 67.47%  |
 | [Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAlternatingSubarrays.java)                                   | 3ms     | 95.26%  |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                                 | 51ms    | 81.88%  |
+| [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDigitAppearances.java)                                       | 3ms     | 100.00% |
 | [Count K-th Roots in an Range](https://leetcode.com/problems/count-k-th-roots-in-a-range/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountKthRootsInARange.java)                                       | 1ms     | 99.98%  |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                                     | 31ms    | 92.75%  |
 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfBadPairs.java)                                       | 45ms    | 23.08%  |
