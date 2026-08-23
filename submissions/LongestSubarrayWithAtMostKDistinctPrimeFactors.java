@@ -2,24 +2,24 @@
 
 class LongestSubarrayWithAtMostKDistinctPrimeFactors {
     public int longestSubarray(int[] nums, int k) {
-        Map<Integer, Integer> union = new HashMap<>();
         boolean[] isPrime;
         boolean isTest = false;
+        int countDistinctPrimeFactors = 0;
         int largest = 0;
         int left = 0;
         int n = nums.length;
         int result = 0;
         int[][] primeFactors = new int[n][];
+        int[] window;
 
         for (int e: nums) {
             largest = Math.max(e, largest);
         }
         isPrime = new boolean[largest + 1];
+        window = new int[largest + 1];
 
         Arrays.fill(isPrime, true);
-        isPrime[0] = false;
-        isPrime[1] = false;
-
+        isPrime[0] = isPrime[1] = false;
         for (int i = 2; i <= largest / i; i++) {
             if (isPrime[i]) {
                 for (int j = i * i; j <= largest; j += i) {
@@ -27,69 +27,75 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
                 }
             }
         }
+        if (isTest) {
+            System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums) + "\nisPrime: " + Arrays.toString(isPrime));
+            System.out.println("---------------------------------------------------------------------------------------");
+        }
 
         for (int i = 0; i < n; i++) {
-            primeFactors[i] = getPrimeFactors(nums[i], isPrime);
+            int element = nums[i];
+
+            primeFactors[i] = getPrimeFactors(element, isPrime);
+            if (isTest) {
+                System.out.println(" * " + element + ": " + Arrays.toString(primeFactors[i]));
+            }
         }
         if (isTest) {
-            System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums));
-            System.out.println("---------------------------------------------\nprimeFactors: ");
-            for (int i = 0; i < n; i++) {
-                System.out.println(" * " + nums[i] + ": " + Arrays.toString(primeFactors[i]));
-            }
-            System.out.println("---------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------------");
         }
 
         for (int right = 0; right < n; right++) {
             for (int e: primeFactors[right]) {
-                union.merge(e, 1, Integer::sum);
+                if (++window[e] == 1) {
+                    countDistinctPrimeFactors++;
+                }
             }
 
-            while (union.size() > k) {
-                int[] primesToRemove = primeFactors[left++];
-
-                for (int e: primesToRemove) {
-                    union.put(e, union.get(e) - 1);
-                    if (union.get(e) == 0) {
-                        union.remove(e);
+            while (countDistinctPrimeFactors > k) {
+                int[] primesFactorsToRemove = primeFactors[left++];
+                for (int e: primesFactorsToRemove) {
+                    if (--window[e] == 0) {
+                        countDistinctPrimeFactors--;
                     }
                 }
             }
 
             int length = right - left + 1;
             if (isTest) {
-                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | union: " + union);
+                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | window: " + Arrays.toString(window));
             }
 
-            result = Math.max(length, result);
+            result = Math.max(result, right - left + 1);
         }
         if (isTest) {
-            System.out.println("---------------------------------------------\nresult: " + result);
+            System.out.println("---------------------------------------------------------------------------------------\nresult: " + result);
         }
 
         return result;
     }
 
-    private int[] getPrimeFactors(int key, boolean[] isPrime) {
+    private int[] getPrimeFactors(int e, boolean[] isPrime) {
         List<Integer> primes = new ArrayList<>();
+        int n;
         int[] result;
 
-        for (int i = 2; i <= key / i; i++) {
-            if (isPrime[i] && key % i == 0) {
+        for (int i = 2; i <= e / i; i++) {
+            if (isPrime[i] && e % i == 0) {
                 primes.add(i);
+            }
 
-                while (key % i == 0) {
-                    key /= i;
-                }
+            // 1. Reduce e by its multiples for optimisation.
+            while (e % i == 0) {
+                e /= i;
             }
         }
-
-        if (key > 1) {
-            primes.add(key);
+        if (isPrime[e]) {
+            primes.add(e);
         }
 
-        result = new int[primes.size()];
-        for (int i = 0; i < primes.size(); i++) {
+        n = primes.size();
+        result = new int[n];
+        for (int i = 0; i < n; i++) {
             result[i] = primes.get(i);
         }
 
