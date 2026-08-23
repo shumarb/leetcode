@@ -82,7 +82,7 @@ Completed: 62/270.
 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAbsoluteDifferencesInASortedArray.java)                  | 5ms     | 44.72%  |
 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)                    | 2092ms  | 11.34%  | 
 
-### Medium
+### Hard
 | Question                                                                                                                    | Submission                                                                                              | Runtime | Rank    |
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
 | [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithScoreLessThanK.java) | 2ms     | 100.00% |
