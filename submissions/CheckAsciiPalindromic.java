@@ -3,6 +3,7 @@
 class CheckAsciiPalindromic {
     public boolean isPalindromic(String s) {
         StringBuilder key = new StringBuilder();
+        String[] map = new String[26];
         boolean isTest = false;
         char[] bits;
         int left = 0;
@@ -12,11 +13,14 @@ class CheckAsciiPalindromic {
             System.out.println("s: " + s + "\n------------------------------------------------------------------------");
         }
         for (char letter: s.toCharArray()) {
-            String binary = String.format("%8s", Integer.toBinaryString((int) letter)).replace(' ', '0');
-            if (isTest) {
-                System.out.println(" * letter: " + letter + " -> value: " + ((int) letter) + " -> binary: " + binary);
+            int index = letter - 'a';
+            if (map[index] == null) {
+                map[index] = String.format("%8s", Integer.toBinaryString((int) letter)).replace(' ', '0');
             }
-            key.append(binary);
+            if (isTest) {
+                System.out.println(" * letter: " + letter + " -> value: " + ((int) letter) + " -> binary: " + map[index]);
+            }
+            key.append(map[index]);
         }
         if (isTest) {
             System.out.println("------------------------------------------------------------------------\nkey: " + key);
