@@ -2,18 +2,15 @@
 
 class LongestSubarrayWithAtMostKDistinctPrimeFactors {
     public int longestSubarray(int[] nums, int k) {
+        Map<Integer, Integer> union = new HashMap<>();
         boolean[] isPrime;
         boolean isTest = false;
         int largest = 0;
         int left = 0;
         int n = nums.length;
         int result = 0;
-        List<Integer>[] primeFactors = new ArrayList[n];
-        Map<Integer, Integer> union = new HashMap<>();
+        int[][] primeFactors = new int[n][];
 
-        for (int i = 0; i < n; i++) {
-            primeFactors[i] = new ArrayList<>();
-        }
         for (int e: nums) {
             largest = Math.max(e, largest);
         }
@@ -22,6 +19,7 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         Arrays.fill(isPrime, true);
         isPrime[0] = false;
         isPrime[1] = false;
+
         for (int i = 2; i <= largest / i; i++) {
             if (isPrime[i]) {
                 for (int j = i * i; j <= largest; j += i) {
@@ -29,28 +27,27 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
                 }
             }
         }
+
         for (int i = 0; i < n; i++) {
             primeFactors[i] = getPrimeFactors(nums[i], isPrime);
         }
-
         if (isTest) {
             System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums));
             System.out.println("---------------------------------------------\nprimeFactors: ");
             for (int i = 0; i < n; i++) {
-                System.out.println(" * " + nums[i] + ": " + primeFactors[i]);
+                System.out.println(" * " + nums[i] + ": " + Arrays.toString(primeFactors[i]));
             }
             System.out.println("---------------------------------------------");
         }
 
         for (int right = 0; right < n; right++) {
-            List<Integer> primes = primeFactors[right];
-
-            for (int e: primes) {
+            for (int e: primeFactors[right]) {
                 union.merge(e, 1, Integer::sum);
             }
 
             while (union.size() > k) {
-                List<Integer> primesToRemove = primeFactors[left++];
+                int[] primesToRemove = primeFactors[left++];
+
                 for (int e: primesToRemove) {
                     union.put(e, union.get(e) - 1);
                     if (union.get(e) == 0) {
@@ -73,12 +70,13 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         return result;
     }
 
-    private List<Integer> getPrimeFactors(int key, boolean[] isPrime) {
-        List<Integer> result = new ArrayList<>();
+    private int[] getPrimeFactors(int key, boolean[] isPrime) {
+        List<Integer> primes = new ArrayList<>();
+        int[] result;
 
         for (int i = 2; i <= key / i; i++) {
             if (isPrime[i] && key % i == 0) {
-                result.add(i);
+                primes.add(i);
 
                 while (key % i == 0) {
                     key /= i;
@@ -87,7 +85,12 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         }
 
         if (key > 1) {
-            result.add(key);
+            primes.add(key);
+        }
+
+        result = new int[primes.size()];
+        for (int i = 0; i < primes.size(); i++) {
+            result[i] = primes.get(i);
         }
 
         return result;
