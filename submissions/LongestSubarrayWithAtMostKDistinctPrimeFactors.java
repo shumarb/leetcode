@@ -8,11 +8,11 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         int left = 0;
         int n = nums.length;
         int result = 0;
+        List<Integer>[] primeFactors = new ArrayList[n];
         Map<Integer, Integer> union = new HashMap<>();
-        Set<Integer>[] primeFactors = new HashSet[n];
 
         for (int i = 0; i < n; i++) {
-            primeFactors[i] = new HashSet<>();
+            primeFactors[i] = new ArrayList<>();
         }
         for (int e: nums) {
             largest = Math.max(e, largest);
@@ -43,14 +43,14 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         }
 
         for (int right = 0; right < n; right++) {
-            Set<Integer> primes = primeFactors[right];
+            List<Integer> primes = primeFactors[right];
 
             for (int e: primes) {
                 union.merge(e, 1, Integer::sum);
             }
 
             while (union.size() > k) {
-                Set<Integer> primesToRemove = primeFactors[left++];
+                List<Integer> primesToRemove = primeFactors[left++];
                 for (int e: primesToRemove) {
                     union.put(e, union.get(e) - 1);
                     if (union.get(e) == 0) {
@@ -73,8 +73,8 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         return result;
     }
 
-    private Set<Integer> getPrimeFactors(int key, boolean[] isPrime) {
-        Set<Integer> result = new HashSet<>();
+    private List<Integer> getPrimeFactors(int key, boolean[] isPrime) {
+        List<Integer> result = new ArrayList<>();
 
         for (int i = 2; i <= key / i; i++) {
             if (isPrime[i] && key % i == 0) {
