@@ -5,7 +5,6 @@ class CheckAsciiPalindromic {
         StringBuilder key = new StringBuilder();
         String[] map = new String[26];
         boolean isTest = false;
-        char[] bits;
         int left = 0;
         int right;
 
@@ -14,12 +13,20 @@ class CheckAsciiPalindromic {
         }
         for (char letter: s.toCharArray()) {
             int index = letter - 'a';
+            int value = (int) letter;
+
             if (map[index] == null) {
-                map[index] = String.format("%8s", Integer.toBinaryString((int) letter)).replace(' ', '0');
+                String binary = Integer.toBinaryString(value);
+                while (binary.length() < 8) {
+                    binary = "0" + binary;
+                }
+
+                map[index] = binary;
             }
             if (isTest) {
-                System.out.println(" * letter: " + letter + " -> value: " + ((int) letter) + " -> binary: " + map[index]);
+                System.out.println(" * letter: " + letter + " -> value: " + value + " -> binary: " + map[index]);
             }
+
             key.append(map[index]);
         }
         if (isTest) {
