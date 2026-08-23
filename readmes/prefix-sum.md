@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 59/263.
+Completed: 62/270.
 
 ## Submissions
 ### Easy
@@ -29,6 +29,7 @@ Completed: 59/263.
 | [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayElementsEqualToZero.java)            | 814ms   | 5.42%   |
 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPopulationYear.java)                   | 0ms     | 100.00% |
 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumScoreAfterSplittingAString.java)       | 2ms     | 38.65%  |
+| [Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumValueOfAnOrderedTripletOne.java)       | 3ms     | 40.06%  |
 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPositiveSumSubarray.java)              | 3ms     | 74.01%  |
 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumValueToGetPositiveStepByStepSum.java)  | 0ms     | 100.00% |
 | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PointsThatIntersectWithCars.java)             | 2ms     | 74.65%  |
@@ -67,6 +68,7 @@ Completed: 59/263.
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                       | 52ms    | 12.00%  |
 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeBinaryArrayElementsEqualToOneOne.java) | 7ms     | 57.49%  |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                  | 1ms     | 99.93%  |
+| [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsTwo.java)                         | 2ms     | 100.00% |
 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodWaysToSplitAString.java)                          | 6ms     | 83.89%  |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                | 2ms     | 89.32%  |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                        | 16ms    | 100.00% |
@@ -79,3 +81,8 @@ Completed: 59/263.
 | [Subarray Sums Divisble by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumsDivisibleByK.java)                                | 3ms     | 99.79%  |
 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfAbsoluteDifferencesInASortedArray.java)                  | 5ms     | 44.72%  |
 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidSubarraysWithMatchingSumDigitsI.java)                    | 2092ms  | 11.34%  | 
+
+### Medium
+| Question                                                                                                                    | Submission                                                                                              | Runtime | Rank    |
+|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
+| [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithScoreLessThanK.java) | 2ms     | 100.00% |

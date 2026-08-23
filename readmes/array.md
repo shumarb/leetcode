@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 741/2237.
+Completed: 742/2237.
 
 ## Submissions
 ### Easy
@@ -751,6 +751,7 @@ Completed: 741/2237.
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|---------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                          | 49ms    | 79.54%  |
 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateIII.java)               | 198ms   | 19.56%  |
+| [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithScoreLessThanK.java)   | 2ms     | 100.00% |
 | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                   | 234ms   | 44.17%  |
 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthSmallestPairDistance.java)        | 7ms     | 81.55%  |
 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArrayTwo.java) | 0ms     | 100.00% |
