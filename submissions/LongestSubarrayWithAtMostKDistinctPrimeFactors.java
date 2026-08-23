@@ -9,13 +9,14 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         int left = 0;
         int n = nums.length;
         int result = 0;
-        int[][] primeFactors = new int[n][];
+        int[][] primeFactors;
         int[] window;
 
         for (int e: nums) {
             largest = Math.max(e, largest);
         }
         isPrime = new boolean[largest + 1];
+        primeFactors = new int[largest + 1][];
         window = new int[largest + 1];
 
         Arrays.fill(isPrime, true);
@@ -35,9 +36,11 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         for (int i = 0; i < n; i++) {
             int element = nums[i];
 
-            primeFactors[i] = getPrimeFactors(element, isPrime);
+            if (primeFactors[element] == null) {
+                primeFactors[element] = getPrimeFactors(element, isPrime);
+            }
             if (isTest) {
-                System.out.println(" * " + element + ": " + Arrays.toString(primeFactors[i]));
+                System.out.println(" * " + element + ": " + Arrays.toString(primeFactors[element]));
             }
         }
         if (isTest) {
@@ -45,15 +48,18 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
         }
 
         for (int right = 0; right < n; right++) {
-            for (int e: primeFactors[right]) {
+            int incoming = nums[right];
+
+            for (int e: primeFactors[incoming]) {
                 if (++window[e] == 1) {
                     countDistinctPrimeFactors++;
                 }
             }
 
             while (countDistinctPrimeFactors > k) {
-                int[] primesFactorsToRemove = primeFactors[left++];
-                for (int e: primesFactorsToRemove) {
+                int remove = nums[left++];
+
+                for (int e: primeFactors[remove]) {
                     if (--window[e] == 0) {
                         countDistinctPrimeFactors--;
                     }
@@ -76,15 +82,15 @@ class LongestSubarrayWithAtMostKDistinctPrimeFactors {
 
     private int[] getPrimeFactors(int e, boolean[] isPrime) {
         List<Integer> primes = new ArrayList<>();
-        int n;
         int[] result;
+        int n;
 
         for (int i = 2; i <= e / i; i++) {
             if (isPrime[i] && e % i == 0) {
                 primes.add(i);
             }
 
-            // 1. Reduce e by its multiples for optimisation.
+            // 1. Exponentionally reduce e by dividing itself with i to avoid checking if its multiples are prime.
             while (e % i == 0) {
                 e /= i;
             }
