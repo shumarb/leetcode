@@ -10,14 +10,15 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/25.
+Completed: 3/25.
 
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithCostLessThanOrEqualToK.java)                        | 555ms   | 14.17% |
 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 78ms    | 24.21% |
 
 ### Hard
-| Question                                                                                             | Submission                                                                                  | Runtime | Rank   |
-|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 7ms     | 99.46% |
+| Question                                                                                    | Submission                                                                                  | Runtime | Rank   |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------|--------|
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SlidingWindowMaximum.java) | 7ms     | 99.46% |

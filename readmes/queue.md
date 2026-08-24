@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/57.
+Completed: 14/57.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 13/57.
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithCostLessThanOrEqualToK.java)                        | 555ms   | 14.17%  |
 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularDeque.java)                                                 | 5ms     | 86.24%  |
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MyCircularQueue.java)                                                 | 4ms     | 100.00% |
 | [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FrontMiddleBackQueue.java)                                            | 8ms     | 34.76%  |
