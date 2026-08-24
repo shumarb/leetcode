@@ -12,16 +12,14 @@ class MaximumNumberOfVowelsInASubstringOfGivenLength {
                 current++;
             }
         }
+
         result = current;
 
         for (int i = k; i < n; i++) {
-            char incoming = letters[i];
-            char remove = letters[i - k];
-
-            if (isVowel(remove)) {
+            if (isVowel(letters[i - k])) {
                 current--;
             }
-            if (isVowel(incoming)) {
+            if (isVowel(letters[i])) {
                 current++;
             }
 

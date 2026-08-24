@@ -18,13 +18,8 @@ class CountSubarraysWithCostLessThanOrEqualToK {
             long length = right - left + 1;
 
             while ((maximum - minimum) * length > k) {
-                long remove = nums[left++];
+                window.computeIfPresent((long) nums[left++], (key, value) -> value == 1 ? null : value - 1);
                 length--;
-
-                window.put(remove, window.get(remove) - 1);
-                if (window.get(remove) == 0) {
-                    window.remove(remove);
-                }
 
                 maximum = window.lastKey();
                 minimum = window.firstKey();

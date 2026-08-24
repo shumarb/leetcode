@@ -32,7 +32,7 @@ Completed: 21/75.
 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayOf1sAfterDeletingOneElement.java)     | 2ms     | 99.25%  |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnes.java)                             | 2ms     | 98.51%  |
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAverageSubarrayI.java)                        | 4ms     | 47.29%  |
-| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java) | 10ms    | 95.48%  |
+| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfVowelsInASubstringOfGivenLength.java) | 10ms    | 96.40%  |
 
 ### Prefix Sum
 | Question                                                                                          | Submission                                                                                    | Runtime | Rank    |
