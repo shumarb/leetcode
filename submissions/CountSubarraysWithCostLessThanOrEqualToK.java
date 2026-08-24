@@ -15,9 +15,11 @@ class CountSubarraysWithCostLessThanOrEqualToK {
 
             long maximum = window.lastKey();
             long minimum = window.firstKey();
+            long length = right - left + 1;
 
-            while ((maximum - minimum) * (right - left + 1) > k) {
+            while ((maximum - minimum) * length > k) {
                 long remove = nums[left++];
+                length--;
 
                 window.put(remove, window.get(remove) - 1);
                 if (window.get(remove) == 0) {
@@ -28,10 +30,10 @@ class CountSubarraysWithCostLessThanOrEqualToK {
                 minimum = window.firstKey();
             }
             if (isTest) {
-                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + (right - left + 1) + " | window: " + window);
+                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | window: " + window);
             }
 
-            result += (right - left + 1);
+            result += length;
         }
         if (isTest) {
             System.out.println("-----------------------------------------------------------\nresult: " + result);
