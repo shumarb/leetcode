@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 742/2237.
+Completed: 743/2237.
 
 ## Submissions
 ### Easy
@@ -604,6 +604,7 @@ Completed: 742/2237.
 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfWordLengths.java)                                     | 242ms   | 19.79%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                                         | 5ms     | 37.59%  |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                                 | 1ms     | 99.92%  |
+| [Maximum Subarray Sum With Length Divisible By K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarraySumWithLengthDivisibleByK.java)                        | 4ms     | 99.60%  |
 | [Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumWithAtMostKElements.java)                                   | 245ms   | 26.60%  |
 | [Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAlmostUniqueSubarray.java)                                | 22ms    | 79.37%  |
 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfDistinctSubarraysWithLengthK.java)                        | 7ms     | 99.33%  |

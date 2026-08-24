@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/270.
+Completed: 63/270.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 62/270.
 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnesIII.java)                                   | 4ms     | 44.30%  |
 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeTheConfusionOfAnExam.java)                            | 11ms    | 93.69%  |
 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPointsYouCanObtainFromCards.java)                      | 2ms     | 98.84%  |
+| [Maximum Subarray Sum With Length Divisible By K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarraySumWithLengthDivisibleByK.java)                | 4ms     | 99.60%  |
 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSumOfAnHourglass.java)                                 | 3ms     | 96.09%  |
 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAverageDifference.java)                                | 7ms     | 20.00%  |
 | [Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumWhiteTilesCoveredByACarpet.java)                       | 52ms    | 12.00%  |
