@@ -10,11 +10,12 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 3/25.
+Completed: 4/25.
 
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarrays.java)                                             | 26ms    | 44.67% |
 | [Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithCostLessThanOrEqualToK.java)                        | 392ms   | 16.54% |
 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 78ms    | 24.21% |
 

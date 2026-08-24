@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 13/79.
+Completed: 14/80.
 
 ## Submissions
 ### Easy
@@ -23,6 +23,7 @@ Completed: 13/79.
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
+| [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarrays.java)                                             | 26ms    | 44.67% |
 | [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EventManager.java)                                                    | 321ms   | 12.77% |
 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FoodRatings.java)                                                     | 337ms   | 7.16%  |
 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberContainers.java)                                                | 70ms    | 90.71% |
