@@ -12,16 +12,15 @@ class CountSubarraysWithScoreLessThanK {
             System.out.println("--------------------------------------------------------------------------------");
         }
         for (int right = 0; right < nums.length; right++) {
+            long length = right - left + 1;
             sum += nums[right];
 
-            long length = right - left + 1;
             while (sum * length >= k) {
                 sum -= nums[left++];
                 length--;
             }
-
             if (isTest) {
-                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | total subarrays: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
+                System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
             }
 
             result += length;
