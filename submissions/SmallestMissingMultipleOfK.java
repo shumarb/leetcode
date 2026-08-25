@@ -3,22 +3,15 @@
 class SmallestMissingMultipleOfK {
     public int missingMultiple(int[] nums, int k) {
         boolean[] isPresent = new boolean[101];
-        boolean isTest = false;
-        int key = k;
+        int result = k;
 
-        for (int number: nums) {
-            isPresent[number] = true;
+        for (int e: nums) {
+            isPresent[e] = true;
         }
-        while (key <= 100 && isPresent[key]) {
-            if (isTest) {
-                System.out.println(" * key: " + key);
-            }
-            key += k;
-        }
-        if (isTest) {
-            System.out.println(" * key: " + key);
+        while (result <= 100 && isPresent[result]) {
+            result += k;
         }
 
-        return key;
+        return result;
     }
 }

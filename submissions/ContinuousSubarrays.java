@@ -13,7 +13,7 @@ class ContinuousSubarrays {
         for (int right = 0; right < nums.length; right++) {
             window.merge(nums[right], 1, Integer::sum);
 
-            while (Math.abs(window.lastKey() - window.firstKey()) > 2) {
+            while (window.lastKey() - window.firstKey() > 2) {
                 window.computeIfPresent(nums[left++], (key, value) -> value == 1 ? null : value - 1);
             }
 
