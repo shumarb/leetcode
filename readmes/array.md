@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 745/2237.
+Completed: 746/2237.
 
 ## Submissions
 ### Easy
@@ -465,6 +465,7 @@ Completed: 745/2237.
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                                     | 93ms    | 85.91%  |
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                                     | 2ms     | 100.00% |
 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubIslands.java)                                                 | 18ms    | 99.29%  |
+| [Count Subarrays Where Max Elements Appears at Least K Times](https://leetcode.com/problems/count-where-max-element-appears-at-least-k-times/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWhereMaxElementsAppearsAtLeastKTimes.java)              | 5ms     | 87.89%  |
 | [Count Subarrays With Cost Less Than or Equal to K](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithCostLessThanOrEqualToK.java)                        | 391ms   | 16.54%  |
 | [Count Subarrays With Even Odd Ratio I](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithEvenOddRatioI.java)                                 | 45ms    | 22.88%  |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                            | 34ms    | 79.83%  |

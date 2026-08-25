@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 76/169.
+Completed: 77/169.
 
 ## Submissions
 ### Easy
@@ -44,6 +44,7 @@ Completed: 76/169.
 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarrays.java)                                             | 25ms    | 45.47%  |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 4ms     | 98.13%  |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                      | 7ms     | 95.59%  |
+| [Count Subarrays Where Max Elements Appears at Least K Times](https://leetcode.com/problems/count-where-max-element-appears-at-least-k-times/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWhereMaxElementsAppearsAtLeastKTimes.java)              | 5ms     | 87.89%  |
 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                      | 39ms    | 31.92%  |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)            | 2ms     | 98.31%  |
 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsII.java)           | 81ms    | 84.09%  |
