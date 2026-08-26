@@ -8,7 +8,6 @@ class CountSubarraysWhereMaxElementsAppearsAtLeastKTimes {
         int maximum = 0;
         int n = nums.length;
         long result = 0;
-        long totalElements = nums.length;
 
         for (int e: nums) {
             maximum = Math.max(e, maximum);
@@ -25,9 +24,9 @@ class CountSubarraysWhereMaxElementsAppearsAtLeastKTimes {
 
             while (countMaximum >= k) {
                 if (isTest) {
-                    System.out.println(" * indices: [" + left + ", " + right + "] | total valid subarrays: " + (totalElements - right) + " | countMaximum: " + countMaximum + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
+                    System.out.println(" * indices: [" + left + ", " + right + "] | total valid subarrays: " + (n - right) + " | countMaximum: " + countMaximum + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
                 }
-                result += totalElements - right;
+                result += n - right;
                 if (nums[left++] == maximum) {
                     countMaximum--;
                 }
