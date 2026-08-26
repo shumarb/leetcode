@@ -10,12 +10,13 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 2/20.
+Completed: 3/21.
 
 ## Submissions
 ### Easy
 | Question                                                                                                                | Submission                                                                                              | Runtime | Rank    |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
+| [Divisor Game](https://leetcode.com/problems/divisor-game/description)                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivisiorGame.java)                     | 0ms     | 100.00% |
 | [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToEqualizeArray.java) | 0ms     | 100.00% |
 
 ### Medium

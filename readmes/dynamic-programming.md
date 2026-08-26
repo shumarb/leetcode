@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 60/676.
+Completed: 61/676.
 
 ## Submissions
 ### Easy
@@ -18,7 +18,8 @@ Completed: 60/676.
 |-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------|---------|
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java)                  | 1ms     | 99.88%  |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)                             | 0ms     | 100.00% |
-| [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)                               | 2ms     | 95%     |
+| [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingBits.java)                               | 2ms     | 95.79%  |
+| [Divisor Game](https://leetcode.com/problems/divisor-game/description)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivisiorGame.java)                               | 0ms     | 100.00% |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                            | 0ms     | 100.00% |
 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IsSubsequence.java)                              | 0ms     | 100.00% |
 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUnequalAdjacentGroupsSubsequenceOne.java) | 1ms     | 92.54%  |

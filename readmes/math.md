@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 223/702.
+Completed: 224/702.
 
 ## Submissions
 ### Easy
@@ -63,6 +63,7 @@ Completed: 223/702.
 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeCandiesToPeople.java)                              | 1ms     | 97.73%  |
 | [Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistributeMoneyToMaximumChildren.java)                       | 2ms     | 98.37%  |
 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivisibleAndNonDivisibleSumsDifference.java)                 | 0ms     | 100.00% |
+| [Divisor Game](https://leetcode.com/problems/divisor-game/description)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivisiorGame.java)                                           | 0ms     | 100.00% |
 | [Even Number of Knight Moves](https://leetcode.com/problems/even-number-of-knight-moves/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EvenNumberOfKnightMoves.java)                                | 7ms     | 5.38%   |
 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FibonacciNumber.java)                                        | 0ms     | 100.00% |
 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FinalArrayStateAfterKMultiplicationOperationsOne.java)       | 4ms     | 17.42%  |
