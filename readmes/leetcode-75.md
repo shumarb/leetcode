@@ -72,4 +72,4 @@ Completed: 21/75.
 ### Monotonic Stack
 | Question                                                                            | Submission                                                                               | Runtime | Rank   |
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------|--------|
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java) | 76ms    | 33.93% |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java) | 22ms    | 96.42% |

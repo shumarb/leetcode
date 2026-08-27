@@ -2,7 +2,7 @@
 
 class DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int n = temperatures.length;
         int[] result = new int[n];
 
