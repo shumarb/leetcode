@@ -3,8 +3,8 @@
 class ShortestAndLexicographicallySmallestBeautifulString {
     public String shortestBeautifulSubstring(String s, int k) {
         String result = "";
-        char[] letters = s.toCharArray();
         boolean isTest = false;
+        char[] letters = s.toCharArray();
         int countOnes = 0;
         int left = 0;
 
