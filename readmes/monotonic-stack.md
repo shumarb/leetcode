@@ -37,4 +37,4 @@ Completed: 14/73.
 ### Hard
 | Question                                                                                                              | Submission                                                                                           | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------|--------|
-| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java) | 63ms    | 34.82% |
+| [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java) | 22ms    | 87.08% |

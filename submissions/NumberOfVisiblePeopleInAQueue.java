@@ -2,10 +2,10 @@
 
 class NumberOfVisiblePeopleInAQueue {
     public int[] canSeePersonsCount(int[] heights) {
-        int n = heights.length;
-        int[] answer = new int[n];
+        Deque<Integer> stack = new ArrayDeque<>();
         boolean isTest = false;
-        Stack<Integer> stack = new Stack<>();
+        int n = heights.length;
+        int[] result = new int[n];
 
         if (isTest) {
             System.out.println("heights: " + Arrays.toString(heights));
@@ -13,13 +13,14 @@ class NumberOfVisiblePeopleInAQueue {
 
         // 1. Edge case: only 1 person in queue, return answer containing element of 0.
         if (heights.length == 1) {
-            return answer;
+            return result;
         }
 
         for (int i = n - 1; i >= 0; i--) {
             // 2. Number of people current element can see to its right.
             int count = 0;
             int current = heights[i];
+
             if (isTest) {
                 System.out.println("-------------------------------------------------------------");
                 System.out.println("current: " + current + ", index: " + i);
@@ -47,7 +48,7 @@ class NumberOfVisiblePeopleInAQueue {
              5.  Confirm number of people that current element at index i can seen,
              and add current to stack for next iteration.
              */
-            answer[i] = count;
+            result[i] = count;
             stack.push(current);
 
             if (isTest) {
@@ -56,9 +57,9 @@ class NumberOfVisiblePeopleInAQueue {
         }
         if (isTest) {
             System.out.println("-------------------------------------------------------------");
-            System.out.println("final stack: " + stack + ", final answer: " + Arrays.toString(answer));
+            System.out.println("final stack: " + stack + ", result: " + Arrays.toString(result));
         }
 
-        return answer;
+        return result;
     }
 }

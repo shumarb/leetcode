@@ -48,7 +48,7 @@ Completed: 21/75.
 ### Stack
 | Question                                                                                                | Submission                                                                                      | Runtime | Rank    |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|---------|
-| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AsteroidCollision.java)        | 4ms     | 82.73%  |
+| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AsteroidCollision.java)        | 2ms     | 97.73%  |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java) | 25ms    | 93.15%  |
 
 ### Binary Tree - DFS

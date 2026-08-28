@@ -27,18 +27,17 @@ class DestroyingAsteroids {
     }
 
     private void sort(int[] arr) {
-        int[] count;
+        int[] count = new int[100001];
         int j = 0;
         int largest = 0;
+        int smallest = Integer.MAX_VALUE;
 
         for (int e: arr) {
-            largest = Math.max(e, largest);
-        }
-        count = new int[largest + 1];
-        for (int e: arr) {
             count[e]++;
+            largest = Math.max(e, largest);
+            smallest = Math.min(e, smallest);
         }
-        for (int i = 1; i <= largest; i++) {
+        for (int i = smallest; i <= largest; i++) {
             while (count[i]-- > 0) {
                 arr[j++] = i;
             }

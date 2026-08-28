@@ -2,23 +2,25 @@
 
 class MinimumStringLengthAfterRemovingSubstrings {
     public int minLength(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new ArrayDeque<>();
         boolean isTest = false;
+        char[] letters = s.toCharArray();
 
-        for (int i = 0; i < s.length(); i++) {
-            char letter = s.charAt(i);
+        for (int i = 0; i < letters.length; i++) {
+            char letter = letters[i];
             if (isTest) {
-                System.out.println(" * incoming: " + letter + "\nbefore, stack: " + stack);
+                System.out.println("incoming: " + letter + "\n * before, stack: " + stack);
             }
 
             if (!stack.isEmpty() && ((stack.peek() == 'A' && letter == 'B') || (stack.peek() == 'C' && letter == 'D'))) {
                 stack.pop();
+
             } else {
                 stack.push(letter);
             }
 
             if (isTest) {
-                System.out.println("after, stack: " + stack);
+                System.out.println(" * after, stack: " + stack);
                 System.out.println("---------------------------------------------------------");
             }
         }

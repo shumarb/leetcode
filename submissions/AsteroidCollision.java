@@ -2,7 +2,7 @@
 
 class AsteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         boolean isTest = false;
         int[] result;
         int j;
@@ -15,8 +15,8 @@ class AsteroidCollision {
 
             /**
              1.  No collision for empty stack,
-                 incoming and top element travel in same direction,
-                 or top element travels left and incoming travels right.
+             incoming and top element travel in same direction,
+             or top element travels left and incoming travels right.
              */
             if (!stack.isEmpty() && incoming < 0 && stack.peek() > 0) {
                 boolean isSurvive = true;
