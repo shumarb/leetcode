@@ -1,4 +1,4 @@
-// Question:
+// Question: https://leetcode.com/problems/arithmetic-subarrays/description/
 
 class ArithmeticSubarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
