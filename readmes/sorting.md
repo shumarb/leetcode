@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 184/534.
+Completed: 185/534.
 
 ## Submissions
 ### Easy
@@ -111,6 +111,7 @@ Completed: 184/534.
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                 | 76ms    | 25.33%  |
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)                | 16ms    | 88.19%  |
 | [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                 | 18ms    | 93.01%  |
+| [Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSubarrays.java)                              | 22ms    | 86.11%  |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                | 6ms     | 98.19%  |
 | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                       | 1ms     | 100.00% |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java)  | 810ms   | 7.09%   |
