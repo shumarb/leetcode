@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 362/879.
+Completed: 363/892.
 
 ## Submissions
 ### Easy
@@ -381,6 +381,7 @@ Completed: 362/879.
 | Question                                                                                                                          | Submission                                                                                               | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------|--------|
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                   | 36ms    | 40.29% |
+| [Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestValidSubstring.java)  | 128ms   | 66.40%  |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)            | 14ms    | 62.14% |
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SerializeAndDeserializeBinaryTree.java) | 17ms    | 39.28% |
 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java)   | 2657ms  | 5.03%  |

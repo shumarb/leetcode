@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 359/831.
+Completed: 360/831.
 
 ## Submissions
 ### Easy
@@ -377,6 +377,7 @@ Completed: 359/831.
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)                | 31ms    | 84.09%  |
 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIV.java)                          | 44ms    | 98.41%  |
 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KSimilarStrings.java)                     | 36ms    | 40.29%  |
+| [Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestValidSubstring.java)    | 128ms   | 66.40%  |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumWindowSubstring.java)              | 14ms    | 62.14%  |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)             | 43ms    | 83.32%  |
 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java)     | 6ms     | 93.85%  |

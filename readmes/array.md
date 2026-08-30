@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 747/2237.
+Completed: 748/2237.
 
 ## Submissions
 ### Easy
@@ -764,6 +764,7 @@ Completed: 747/2237.
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)               | 1ms     | 100.00% |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)               | 31ms    | 84.09%  |
 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameIV.java)                         | 44ms    | 98.41%  |
+| [Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfTheLongestValidSubstring.java)   | 128ms   | 66.40%  |
 | [Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MakeArrayEmpty.java)                     | 51ms    | 84.31%  |
 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfVisiblePeopleInAQueue.java)      | 22ms    | 87.08%  |
 | [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithBlacklist.java)            | 43ms    | 83.32%  |
