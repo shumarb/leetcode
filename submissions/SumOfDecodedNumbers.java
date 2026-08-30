@@ -1,17 +1,19 @@
 // Question: https://leetcode.com/problems/sum-of-decoded-numbers/description/
 
 class SumOfDecodedNumbers {
+    private long mod;
+
     public int sumDecoded(long[] nums) {
         boolean isTest = false;
-        long mod = 1000000007;
         long result = 0;
+        mod = 1000000007;
 
         for (long e: nums) {
-            long width = e % 10;
             long d = e / 10;
             long decodedValue = 0;
             long x = 0;
             long y = 0;
+            long width = e % 10;
             char[] digits = Long.toString(d).toCharArray();
 
             for (int i = 0; i < width; i++) {
@@ -23,7 +25,7 @@ class SumOfDecodedNumbers {
                 y += (long) (digits[i] - '0');
             }
 
-            decodedValue = modPow(x, y, mod);
+            decodedValue = modPow(x, y);
             if (isTest) {
                 System.out.println(" * e: " + e + " | width: " + width + " | d: " + d + " | x: " + x + " | y: " + y + " | decodedValue: " + decodedValue);
             }
@@ -37,7 +39,7 @@ class SumOfDecodedNumbers {
         return (int) result;
     }
 
-    private long modPow(long x, long y, long mod) {
+    private long modPow(long x, long y) {
         long result = 1;
 
         while (y > 0) {
