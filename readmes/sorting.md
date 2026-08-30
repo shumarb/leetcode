@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 185/534.
+Completed: 186/534.
 
 ## Submissions
 ### Easy
@@ -22,7 +22,7 @@ Completed: 185/534.
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                        | 11ms    | 35.51%  |
 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AverageSalaryExcludingTheMinimumAndMaximumSalary.java)     | 0ms     | 100.00% |
 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/BuyTwoChocolates.java)                         | 1ms     | 100.00% |
-| [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanMakeArithmeticProgressionFromSequence.java) | 2ms     | 98.24%  |
+| [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/submissions/CanMakeArithmeticProgressionFromSequence.java) | 5ms     | 84.66%  |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                            | 1ms     | 99.29%  |
 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayIsGood.java)                                   | 1ms     | 91.05%  |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicate.java)                                    | 9ms     | 99.19%  |
@@ -81,6 +81,7 @@ Completed: 185/534.
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDistinctAverages.java)                             | 1ms     | 99.35%  |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfUnequalTripletsInArray.java)                       | 5ms     | 85.76%  |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTransformOfAnArray.java)                               | 25ms    | 86.01%  |
+| [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeStringToAvoidCharacterPair.java)                  | 1ms     | 100.00% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeRanks.java)                                        | 9ms     | 61.66%  |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeSortArray.java)                                    | 0ms     | 100.00% |
 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SetMismatch.java)                                          | 2ms     | 94.95%  |
