@@ -1,42 +1,56 @@
 // Question: https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/
 
 class CountVowelSubstringsOfAString {
-    public int countVowelSubstrings(String word) {
-        if (word.length() < 5) {
-            return 0;
-        }
+    private char[] letters;
 
-        boolean[] isVowel = new boolean[26];
-        int n = word.length();
+    public int countVowelSubstrings(String word) {
+        letters = word.toCharArray();
+        return countAtLeast(0) - countAtLeast(1);
+    }
+
+    private int countAtLeast(int minimumConsonants) {
+        boolean isTest = false;
+        int[] count = new int[26];
+        int countDistinctConsonants = 0;
+        int countDistinctVowels = 0;
+        int left = 0;
+        int n = letters.length;
         int result = 0;
 
-        isVowel['a' - 'a'] = true;
-        isVowel['e' - 'a'] = true;
-        isVowel['i' - 'a'] = true;
-        isVowel['o' - 'a'] = true;
-        isVowel['u' - 'a'] = true;
+        if (isTest) {
+            System.out.println("letters: " + Arrays.toString(letters) + "\ncount subarrays with all 5 vowels and >= " + minimumConsonants + " consonants\n");
+        }
+        for (int right = 0; right < letters.length; right++) {
+            char incoming = letters[right];
 
-        for (int i = 0; i < n; i++) {
-            if (!isVowel(word.charAt(i))) {
-                continue;
-            }
-
-            boolean[] isSeen = new boolean[26];
-            int countSeen = 0;
-            for (int j = i; j < n; j++) {
-                char c = word.charAt(j);
-                if (!isVowel(c)) {
-                    break;
-                }
-
-                if (!isSeen[c - 'a']) {
-                    countSeen++;
-                }
-                isSeen[c - 'a'] = true;
-                if (countSeen == 5) {
-                    result++;
+            if (++count[incoming - 'a'] == 1) {
+                if (isVowel(incoming)) {
+                    countDistinctVowels++;
+                } else {
+                    countDistinctConsonants++;
                 }
             }
+
+            while (countDistinctVowels == 5 && countDistinctConsonants >= minimumConsonants) {
+                int countValidSubarrays = n - right;
+                if (isTest) {
+                    System.out.println(" * indices: [" + left + ", " + right + "] | countValidSubarrays: " + countValidSubarrays + " | subarray: " + Arrays.toString(Arrays.copyOfRange(letters, left, right + 1)));
+                }
+
+                char remove = letters[left++];
+                if (--count[remove - 'a'] == 0) {
+                    if (isVowel(remove)) {
+                        countDistinctVowels--;
+                    } else {
+                        countDistinctConsonants--;
+                    }
+                }
+            }
+
+            result += left;
+        }
+        if (isTest) {
+            System.out.println("\nresult: " + result + "\n---------------------------------------------------------------");
         }
 
         return result;
