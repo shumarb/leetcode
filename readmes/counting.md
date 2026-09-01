@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 109/212.
+Completed: 110/212.
 
 ## Submissions
 ### Easy
@@ -130,6 +130,7 @@ Completed: 109/212.
 | [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalCharactersInStringAfterTransformationsOne.java)       | 141ms   | 42.47%  | 
 
 ### Hard
-| Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |
-|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 94.30% |
+| Question                                                                                                                        | Submission                                                                                                 | Runtime | Rank    |
+|---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Count Subarrays With K Distinct Integers](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithKDistinctIntegers.java) | 15ms    | 100.00% |
+| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java)     | 6ms     | 94.30%  |

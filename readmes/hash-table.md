@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 361/831.
+Completed: 362/831.
 
 ## Submissions
 ### Easy
@@ -373,6 +373,7 @@ Completed: 361/831.
 | Question                                                                                                                                      | Submission                                                                                                 | Runtime | Rank    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------|---------|
 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BusRoutes.java)                           | 49ms    | 79.54%  |
+| [Count Subarrays With K Distinct Integers](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithKDistinctIntegers.java) | 15ms    | 100.00% |
 | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EscapeALargeMaze.java)                    | 234ms   | 44.17%  |
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FirstMissingPositive.java)                | 1ms     | 100.00% |
 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomizedCollection.java)                | 31ms    | 84.09%  |
