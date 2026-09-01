@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/169.
+Completed: 79/169.
 
 ## Submissions
 ### Easy
@@ -41,6 +41,7 @@ Completed: 78/169.
 | [Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsII.java)                                             | 5ms     | 69.69%  |
 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSlices.java)                                                | 0ms     | 100.00% |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                      | 0ms     | 100.00% |
+| [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySubarraysWithSum.java)                                          | 1ms     | 99.97%  |
 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarrays.java)                                             | 25ms    | 45.47%  |
 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCompleteSubarraysInAnArray.java)                                 | 4ms     | 98.13%  |
 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfNiceSubarrays.java)                                      | 7ms     | 95.59%  |

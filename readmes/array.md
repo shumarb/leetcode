@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 748/2237.
+Completed: 749/2237.
 
 ## Submissions
 ### Easy
@@ -428,6 +428,7 @@ Completed: 748/2237.
 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BattleshipsInABoard..java)                                            | 1ms     | 98.50%  |
 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArrangement.java)                                            | 39ms    | 69.34%  |
 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/description/)                                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BeautifulArray.java)                                                  | 0ms     | 100.00% |
+| [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySubarraysWithSum.java)                                          | 1ms     | 99.97%  |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                               | 6ms     | 98.19%  |
 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BuildAnArrayWithStackOperations.java)                                 | 0ms     | 100.00% |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                       | 1ms     | 100.00% |

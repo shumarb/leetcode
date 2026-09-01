@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 360/831.
+Completed: 361/831.
 
 ## Submissions
 ### Easy
@@ -197,6 +197,7 @@ Completed: 360/831.
 | [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                             | 18ms    | 93.01%  |
 | [Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ArithmeticSubarrays.java)                                          | 21ms    | 90.56%  |
 | [Binary String With Substrings Representing 1 to N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinaryStringWithSubstringsRepresenting1ToN.java)                   | 0ms     | 100.00% |
+| [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySubarraysWithSum.java)                                       | 1ms     | 99.97%  |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                                 | 1ms     | 100.00% |
 | [Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CalculateScoreAfterPerformingInstructions.java)                    | 1ms     | 100.00% |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                             | 2ms     | 99.45%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/270.
+Completed: 64/270.
 
 ## Submissions
 ### Easy
@@ -42,6 +42,7 @@ Completed: 63/270.
 ### Medium
 | Question                                                                                                                                                                      | Submission                                                                                                                     | Runtime | Rank    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BinarySubarraysWithSum.java)                                  | 1ms     | 99.97%  |
 | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CarPooling.java)                                              | 1ms     | 100.00% |
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContinuousSubarraySum.java)                                   | 24ms    | 67.47%  |
 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CorporateFlightBookings.java)                                 | 4ms     | 41.17%  |
