@@ -132,4 +132,4 @@ Completed: 109/212.
 ### Hard
 | Question                                                                                                              | Submission                                                                                             | Runtime | Rank   |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|
-| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 93.85% |
+| [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraysWithKDifferentIntegers.java) | 6ms     | 94.30% |

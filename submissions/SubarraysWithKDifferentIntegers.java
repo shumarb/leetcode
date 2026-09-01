@@ -1,48 +1,42 @@
 // Question: https://leetcode.com/problems/subarrays-with-k-different-integers/description/
 
 class SubarraysWithKDifferentIntegers {
+    private int[] nums;
+
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return countAtMost(nums, k) - countAtMost(nums, k - 1);
+        this.nums = nums;
+        return countAtMost(k) - countAtMost(k - 1);
     }
 
-    private int countAtMost(int[] nums, int limit) {
+    private int countAtMost(int limit) {
         boolean isTest = false;
-        if (limit == 0) {
-            return 0;
-        }
-
-        int[] frequency = new int[20001];
-        int countDifferentIntegers = 0;
-        int largest = 0;
+        int[] count = new int[20001];
+        int countDistinctIntegers = 0;
         int left = 0;
         int result = 0;
 
         if (isTest) {
-            System.out.println("-----------------------------------------------\nsubarrays with at most " + limit + " different integers: ");
+            System.out.println("------------------------------------------------------------------------------\nnums: " + Arrays.toString(nums) + "\ncheck subarrays with <= " + limit + " distinct integers\n");
         }
         for (int right = 0; right < nums.length; right++) {
-            int incoming = nums[right];
-
-            if (++frequency[incoming] == 1) {
-                countDifferentIntegers++;
+            if (++count[nums[right]] == 1) {
+                countDistinctIntegers++;
             }
 
-            while (countDifferentIntegers > limit) {
-                int remove = nums[left++];
-                if (--frequency[remove] == 0) {
-                    countDifferentIntegers--;
+            while (countDistinctIntegers > limit) {
+                if (--count[nums[left++]] == 0) {
+                    countDistinctIntegers--;
                 }
             }
 
-            int totalSubarrays = right - left + 1;
+            int countSubarrays = right - left + 1;
             if (isTest) {
-                System.out.println(" * " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)) + ", totalSubarrays: " + totalSubarrays);
+                System.out.println(" * indices: [" + left + ", " + right + "] | countSubarrays: " + countSubarrays + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
             }
-
-            result += totalSubarrays;
+            result += countSubarrays;
         }
         if (isTest) {
-            System.out.println("\nresult: " + result);
+            System.out.println("\ntotal subarrays: " + result);
         }
 
         return result;
