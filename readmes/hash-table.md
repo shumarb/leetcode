@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 362/831.
+Completed: 363/831.
 
 ## Submissions
 ### Easy
@@ -218,6 +218,7 @@ Completed: 362/831.
 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                   | 39ms    | 31.92%  |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)         | 2ms     | 98.31%  |
 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsII.java)        | 81ms    | 84.09%  |
+| [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfGoodSubarrays.java)                                | 61ms    | 29.93%  |
 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfSpecialCharactersTwo.java)                         | 8ms     | 97.11%  |
 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CousinsInBinaryTreeII.java)                                        | 20ms    | 86.30%  |
 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                             | 10ms    | 99.15%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 750/2237.
+Completed: 751/2237.
 
 ## Submissions
 ### Easy
@@ -474,6 +474,7 @@ Completed: 750/2237.
 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountVowelStringsInRanges.java)                                       | 4ms     | 98.17%  |
 | [Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnguardedCellsInTheGrid.java)                                    | 17ms    | 99.23%  |
 | [Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountUnhappyFriends.java)                                             | 2ms     | 95.12%  |
+| [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfGoodSubarrays.java)                                   | 61ms    | 29.93%  |
 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CreateBinaryTreeFromDescriptions.java)                                | 10ms    | 99.15%  |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                               | 22ms    | 96.42%  |
 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DeleteNodesFromLinkedListPresentInArray.java)                         | 4ms     | 95.87%  |

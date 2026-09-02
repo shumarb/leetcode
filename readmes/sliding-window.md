@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 80/169.
+Completed: 81/169.
 
 ## Submissions
 ### Easy
@@ -49,6 +49,7 @@ Completed: 80/169.
 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsWithKFrequencyCharactersOne.java)                      | 39ms    | 31.92%  |
 | [Count of Substrings Containing Every Vowel and K Consonants I](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsI.java)            | 2ms     | 98.31%  |
 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountOfSubstringsContainingEveryVowelAndKConsonantsII.java)           | 81ms    | 84.09%  |
+| [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountTheNumberOfGoodSubarrays.java)                                   | 61ms    | 29.93%  |
 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllAnagramsInAString.java)                                        | 8ms     | 95.38%  |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                                            | 4ms     | 96.68%  |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceI.java)                    | 3ms     | 92.13%  |
