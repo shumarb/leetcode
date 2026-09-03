@@ -2,33 +2,33 @@
 
 class LongestHarmoniousSubsequence {
     public int findLHS(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Arrays.sort(nums);
         boolean isTest = false;
-        int longest = 0;
+        int left = 0;
+        int result = 0;
 
-        for (int number: nums) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums));
+            System.out.println("------------------------------------------------------------");
         }
-        for (int number: map.keySet()) {
-            int current = number;
-            int next = current + 1;
-            if (map.containsKey(next)) {
+        for (int right = 0; right < nums.length; right++) {
+            while (nums[right] - nums[left] > 1) {
+                left++;
+            }
+
+            if (nums[right] - nums[left] == 1) {
+                int length = right - left + 1;
+                result = Math.max(length, result);
+
                 if (isTest) {
-                    System.out.println("current: " + current + " -> frequency: " + map.get(current));
-                    System.out.println("next: " + next + " -> frequency: " + map.get(next));
-                    System.out.println("before, longest: " + longest);
-                }
-                longest = Math.max(longest, map.get(next) + map.get(current));
-                if (isTest) {
-                    System.out.println("after, longest: " + longest);
-                    System.out.println("-----------------------------------------------------");
+                    System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
                 }
             }
         }
         if (isTest) {
-            System.out.println("map: " + map);
+            System.out.println("------------------------------------------------------------\nresult: " + result);
         }
 
-        return longest;
+        return result;
     }
 }
