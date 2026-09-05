@@ -2,11 +2,11 @@
 
 class SmallestMissingIntegerGreaterThanSequentialPrefixSum {
     public int missingInteger(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isPresent = new boolean[2502];
         int result = nums[0];
 
         for (int e: nums) {
-            set.add(e);
+            isPresent[e] = true;
         }
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != 1 + nums[i - 1]) {
@@ -15,7 +15,7 @@ class SmallestMissingIntegerGreaterThanSequentialPrefixSum {
 
             result += nums[i];
         }
-        while (set.contains(result)) {
+        while (isPresent[result]) {
             result++;
         }
 

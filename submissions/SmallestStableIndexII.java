@@ -3,33 +3,31 @@
 class SmallestStableIndexII {
     public int firstStableIndex(int[] nums, int k) {
         boolean isTest = false;
-        int maximum = nums[0];
+        int leftLargest = 0;
         int n = nums.length;
         int[] suffix = new int[n];
 
         suffix[n - 1] = nums[n - 1];
         for (int i = n - 2; i >= 0; i--) {
-            suffix[i] = Math.min(suffix[i + 1], nums[i]);
+            suffix[i] = Math.min(nums[i], suffix[i + 1]);
         }
         if (isTest) {
-            System.out.println("nums:   " + Arrays.toString(nums));
-            System.out.println("suffix: " + Arrays.toString(suffix));
-            System.out.println("----------------------------------");
+            System.out.println("k: " + k + "\nnums:   " + Arrays.toString(nums) + "\nsuffix: " + Arrays.toString(suffix));
+            System.out.println("--------------------------------------------------------------------");
         }
 
         for (int i = 0; i < n; i++) {
-            maximum = Math.max(maximum, nums[i]);
-            int minimum = suffix[i];
-            int instability = maximum - minimum;
-            if (isTest) {
-                System.out.println("i: " + i + " | [" + maximum + ", " + minimum + "] | instability: " + instability);
-            }
+            leftLargest = Math.max(leftLargest, nums[i]);
+            int instabilityScore = leftLargest - suffix[i];
 
-            if (instability <= k) {
+            if (isTest) {
+                System.out.println(" * i: " + i + " | leftLargest: " + leftLargest + " | rightSmallest: " + suffix[i] + " | instabilityScore: " + instabilityScore);
+            }
+            if (instabilityScore <= k) {
                 if (isTest) {
-                    System.out.println(" * result: " + i);
+                    System.out.println(" ** result @ index " + i);
                 }
-                
+
                 return i;
             }
         }
