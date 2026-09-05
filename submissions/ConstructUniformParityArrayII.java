@@ -1,13 +1,13 @@
 // Question: https://leetcode.com/problems/construct-uniform-parity-array-ii/description/
 
-class ConstructUniformParityArrayII {
+class ConstructUniformParityArrayII class Solution {
     public boolean uniformArray(int[] nums1) {
         boolean isTest = false;
         int countOdd = 0;
         int minimumOdd = Integer.MAX_VALUE;
 
         for (int e: nums1) {
-            if (e % 2 == 1) {
+            if ((e & 1) == 1) {
                 countOdd++;
                 minimumOdd = Math.min(e, minimumOdd);
             }
@@ -23,7 +23,7 @@ class ConstructUniformParityArrayII {
 
         // 2. For every integer, determine if a positive integer smaller than itself can be formed (even - odd = odd). If not, impossible to form uniform parity array.
         for (int e: nums1) {
-            if (e % 2 == 0 && e < minimumOdd) {
+            if ((e & 1) == 0 && e < minimumOdd) {
                 return false;
             }
         }

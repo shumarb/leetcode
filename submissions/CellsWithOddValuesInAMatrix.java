@@ -23,7 +23,7 @@ class CellsWithOddValuesInAMatrix {
 
         for (int[] row: matrix) {
             for (int element: row) {
-                if (element % 2 != 0) {
+                if ((element & 1) == 1) {
                     countOddCells++;
                 }
             }
