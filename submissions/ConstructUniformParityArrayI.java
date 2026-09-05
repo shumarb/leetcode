@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/construct-uniform-parity-array-i/description/
 
-class ConstructUniformParityArrayOne {
+class ConstructUniformParityArrayI {
     public boolean uniformArray(int[] nums1) {
         return true;
     }
