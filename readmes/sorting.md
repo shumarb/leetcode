@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 187/534.
+Completed: 188/534.
 
 ## Submissions
 ### Easy
@@ -151,6 +151,7 @@ Completed: 187/534.
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementII.java)                                | 11ms    | 48.62%  |
 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxNumberOfKSumPairs.java)                             | 24ms    | 45.50%  |
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                | 54ms    | 36.20%  |
+| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBagsWithFullCapacityOfRocks.java)               | 59ms    | 8.71%   |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)     | 30ms    | 94.41%  |
 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)      | 9ms     | 67.50%  |
 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)                                                                                          | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGap.java)                                       | 11ms    | 93.10%  |

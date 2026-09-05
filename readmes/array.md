@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 752/2237.
+Completed: 754/2237.
 
 ## Submissions
 ### Easy
@@ -589,6 +589,7 @@ Completed: 752/2237.
 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxSumOfAPairWithEqualSumOfDigits.java)                               | 54ms    | 36.20%  |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)                            | 130ms   | 63.04%  |
 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumAbsoluteSumOfAnySubarray.java)                                 | 7ms     | 57.18%  |
+| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBagsWithFullCapacityOfRocks.java)                              | 59ms    | 8.71%   |
 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)                                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBinaryTree.java)                                               | 1ms     | 100.00% |
 | [Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCandiesAllocatedToKChildren.java)                              | 24ms    | 94.34%  |
 | [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumConsecutiveFloorsWithoutSpecialFloors.java)                    | 30ms    | 94.41%  |

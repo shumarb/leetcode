@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 107/481.
+Completed: 108/481.
 
 ## Submissions
 ### Easy
@@ -90,6 +90,7 @@ Completed: 107/481.
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)         | 38ms    | 93.18%  |
 | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LexicographicallyMinimumStringAfterRemovingStars.java)  | 102ms   | 86.78%  |
 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximalScoreAfterApplyingKOperations.java)              | 130ms   | 63.04%  |
+| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumBagsWithFullCapacityOfRocks.java)                | 59ms    | 8.71%   |
 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumDistanceInArrays.java)                           | 6ms     | 87.20%  |
 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumElementAfterDecreasingAndRearranging.java)       | 9ms     | 67.50%  |
 | [Maximum Gap Between Stations](https://leetcode.com/problems/maximum-gap-between-stations/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumGapBetweenStations.java)                         | 30ms    | 99.24%  |
