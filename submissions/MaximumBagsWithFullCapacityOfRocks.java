@@ -2,52 +2,35 @@
 
 class MaximumBagsWithFullCapacityOfRocks {
     public int maximumBags(int[] capacity, int[] rocks, int additionalRocks) {
-        int index = 0;
+        boolean isTest = false;
         int n = rocks.length;
         int result = 0;
-        int[][] bags = new int[n][4];
-        boolean isTest = false;
+        int[] remainder = new int[n];
 
-        if (isTest) {
-            System.out.println("additionalRocks: " + additionalRocks + "\ncapacity: " + Arrays.toString(capacity) + "\nrocks:    " + Arrays.toString(rocks) + "\n");
-        }
         for (int i = 0; i < n; i++) {
-            bags[i] = new int[] {i, capacity[i], rocks[i], capacity[i] - rocks[i]};
+            remainder[i] = capacity[i] - rocks[i];
         }
+        Arrays.sort(remainder);
         if (isTest) {
-            System.out.println("------------------------------------------------");
+            System.out.println("additionalRocks: " + additionalRocks + "\ncapacity:  " + Arrays.toString(capacity) + "\nrocks:     " + Arrays.toString(rocks) + "\nremainder: " + Arrays.toString(remainder) + "\n-----------------------------------------------------");
         }
 
-        Arrays.sort(bags, (a, b) -> Integer.compare(a[3], b[3]));
-        if (isTest) {
-            System.out.println("bags: ");
-            for (int[] e: bags) {
-                System.out.println(" * id: " + e[0] + " | capacity: " + e[1] + " | rocks: " + e[2] + " | remainder: " + e[3]);
-            }
-            System.out.println("------------------------------------------------");
-        }
+        for (int i = 0; i < n; i++) {
+            int countRocksToAdd = remainder[i];
 
-        for (int i = 0; i < n && additionalRocks > 0; i++) {
-            int[] bag = bags[i];
-            if (bag[3] == 0) {
+            if (additionalRocks - countRocksToAdd >= 0) {
                 if (isTest) {
-                    System.out.println(" * filled: " + bag[0]);
+                    System.out.println(" * full: " + i + " | countRocksToAdd: " + countRocksToAdd + " | balance rocks: " + additionalRocks);
                 }
-
+                additionalRocks -= countRocksToAdd;
                 result++;
 
-            } else if (additionalRocks - bag[3] >= 0) {
-                additionalRocks -= bag[3];
-                if (isTest) {
-                    System.out.println(" * filled: " + bag[0]);
-                }
-
-                result++;
+            } else {
+                break;
             }
         }
-
         if (isTest) {
-            System.out.println("------------------------------------------------\nresult: " + result);
+            System.out.println("-----------------------------------------------------\nresult: " + result);
         }
 
         return result;
