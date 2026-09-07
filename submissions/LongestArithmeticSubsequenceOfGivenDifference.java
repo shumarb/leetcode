@@ -2,27 +2,30 @@
 
 class LongestArithmeticSubsequenceOfGivenDifference {
     public int longestSubsequence(int[] arr, int difference) {
-        Map<Integer, Integer> map = new HashMap<>();
         boolean isTest = false;
+        int largest = 0;
         int n = arr.length;
         int result = 0;
-        int[] dp = new int[n];
+        int[] dp = new int[20001];
 
+        if (isTest) {
+            System.out.println("absolute difference: " + difference + "\n-----------------------------------------------");
+        }
         for (int i = 0; i < n; i++) {
             int element = arr[i];
-            int complement = arr[i] - difference;
+            int previous = arr[i] - difference;
+            largest = Math.max(element, largest);
 
-            if (map.containsKey(complement)) {
-                dp[i] = 1 + map.get(complement);
+            if (previous >= -10000 && previous <= 10000) {
+                dp[element + 10000] = 1 + dp[previous + 10000];
             } else {
-                dp[i] = 1;
+                dp[element + 10000] = 1;
             }
 
-            map.put(element, dp[i]);
-            result = Math.max(dp[i], result);
+            result = Math.max(dp[element + 10000], result);
         }
         if (isTest) {
-            System.out.println("difference: " + difference + "\nmap: " + map + "\n\narr: " + Arrays.toString(arr) + "\ndp:  " + Arrays.toString(dp) + "\n\nresult: " + result);
+            System.out.println("arr: " + Arrays.toString(arr) + "\ndp:  " + Arrays.toString(Arrays.copyOfRange(dp, 0, largest + 1)) + "\n\nresult: " + result);
         }
 
         return result;
