@@ -1,22 +1,38 @@
-// Question:
+// Question: https://leetcode.com/problems/longest-arithmetic-subsequence/description/
 
 class LongestArithmeticSubsequence {
     public int longestArithSeqLength(int[] nums) {
-        int countElements = nums.length;
-        int longestArithSeqLength = 0;
-        Map<Integer, Integer>[] map = new HashMap[countElements];
+        int maximum = 0;
+        int minimum = 500;
+        int range;
+        int result = 0;
 
-        for (int i = 0; i < countElements; i++) {
-            map[i] = new HashMap<>();
+        for (int e: nums) {
+            maximum = Math.max(e, maximum);
+            minimum = Math.min(e, minimum);
+        }
 
-            for (int j = 0; j < i; j++) {
-                int difference = nums[j] - nums[i];
-                int len = map[j].getOrDefault(difference, 1) + 1;
-                map[i].put(difference, len);
-                longestArithSeqLength = Math.max(longestArithSeqLength, len);
+        range = maximum - minimum;
+        for (int i = -range; i <= range; i++) {
+            result = Math.max(longestSubsequence(nums, i), result);
+            if (result == nums.length) {
+                break;
             }
         }
 
-        return longestArithSeqLength;
+        return result;
+    }
+
+    private int longestSubsequence(int[] nums, int difference) {
+        int[] dp = new int[501];
+        int result = 0;
+
+        for (int e: nums) {
+            int previous = e - difference;
+            dp[e] = previous >= 0 && previous <= 500 ? 1 + dp[previous] : 1;
+            result = Math.max(dp[e], result);
+        }
+
+        return result;
     }
 }

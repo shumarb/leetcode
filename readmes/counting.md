@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 110/212.
+Completed: 111/212.
 
 ## Submissions
 ### Easy
@@ -93,6 +93,7 @@ Completed: 110/212.
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                          | 2ms     | 100.00% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                 | 34ms    | 79.83%  |
 | [Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsStartingAndEndingWithGivenCharacter.java)   | 1ms     | 100.00% |
+| [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroySequentialTargets.java)                             | 31ms    | 92.05%  |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                      | 15ms    | 83.05%  |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                       | 12ms    | 99.88%  |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                           | 26ms    | 68.56%  |

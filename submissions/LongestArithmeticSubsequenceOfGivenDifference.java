@@ -3,29 +3,21 @@
 class LongestArithmeticSubsequenceOfGivenDifference {
     public int longestSubsequence(int[] arr, int difference) {
         boolean isTest = false;
-        int largest = 0;
-        int n = arr.length;
-        int result = 0;
         int[] dp = new int[20001];
+        int offset = 10000;
+        int result = 0;
 
-        if (isTest) {
-            System.out.println("absolute difference: " + difference + "\n-----------------------------------------------");
+        for (int e: arr) {
+            int previous = e - difference;
+            dp[e + offset] = previous >= -offset && previous <= offset ? 1 + dp[previous + offset] : 1;
+            result = Math.max(dp[e + offset], result);
         }
-        for (int i = 0; i < n; i++) {
-            int element = arr[i];
-            int previous = arr[i] - difference;
-            largest = Math.max(element, largest);
-
-            if (previous >= -10000 && previous <= 10000) {
-                dp[element + 10000] = 1 + dp[previous + 10000];
-            } else {
-                dp[element + 10000] = 1;
+        if (isTest) {
+            System.out.println("difference: " + difference + "\narr: " + Arrays.toString(arr) + "\n\ndp:");
+            for (int e: arr) {
+                System.out.println(" * " + e + ": " + dp[e + offset]);
             }
-
-            result = Math.max(dp[element + 10000], result);
-        }
-        if (isTest) {
-            System.out.println("arr: " + Arrays.toString(arr) + "\ndp:  " + Arrays.toString(Arrays.copyOfRange(dp, 0, largest + 1)) + "\n\nresult: " + result);
+            System.out.println("\nresult: " + result);
         }
 
         return result;
