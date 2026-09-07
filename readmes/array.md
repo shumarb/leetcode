@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 754/2237.
+Completed: 755/2237.
 
 ## Submissions
 ### Easy
@@ -568,6 +568,7 @@ Completed: 754/2237.
 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestSubarrayWithAtMostKFrequency.java)                     | 60ms    | 92.38%  |
 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListComponents.java)                                            | 1ms     | 100.00% |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                                    | 383ms   | 69.83%  |
+| [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequenceOfGivenDifference.java)                   | 42ms    | 45.08%  |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayI.java)                                        | 146ms   | 86.02%  |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestConsecutiveSequence.java)                                      | 31ms    | 56.92%  |
 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | 78ms    | 23.76%  |

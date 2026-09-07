@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 61/676.
+Completed: 62/676.
 
 ## Submissions
 ### Easy
@@ -51,6 +51,7 @@ Completed: 61/676.
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                    | 10ms    | 64.27%  |
 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LengthOfLongestFibonacciSubsequence.java)            | 196ms   | 35.02%  |
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                   | 383ms   | 69.83%  |
+| [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequenceOfGivenDifference.java)  | 42ms    | 45.08%  |
 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonSubsequence.java)                       | 10ms    | 99.47%  |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87%  |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                         | 2ms     | 99.72%  |
