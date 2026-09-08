@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 111/212.
+Completed: 112/212.
 
 ## Submissions
 ### Easy
@@ -25,6 +25,7 @@ Completed: 111/212.
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                  | 6ms     | 89.98%  |
 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithMaximumFrequency.java)                  | 0ms     | 100.00% |
 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithStrictlySmallerAndGreaterElements.java) | 0ms     | 100.00% |
+| [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountLargestGroup.java)                                  | 3ms     | 99.37%  |
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/)                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfPairsWithAbsoluteDifferenceK.java)          | 1ms     | 98.63%  |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsOfSimilarStrings.java)                         | 58ms    | 41.34%  |
 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsThatFormACompleteDayOne.java)                  | 1ms     | 97.87%  |
@@ -93,7 +94,7 @@ Completed: 111/212.
 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountServersThatCommunicate.java)                          | 2ms     | 100.00% |
 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubarraysWithMajorityElementOne.java)                 | 34ms    | 79.83%  |
 | [Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsStartingAndEndingWithGivenCharacter.java)   | 1ms     | 100.00% |
-| [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroySequentialTargets.java)                             | 31ms    | 92.05%  |
+| [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroySequentialTargets.java)                             | 28ms    | 98.68%  |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                      | 15ms    | 83.05%  |
 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllLonelyNumbersInTheArray.java)                       | 12ms    | 99.88%  |
 | [Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DataStream.java)                                           | 26ms    | 68.56%  |

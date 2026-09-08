@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 62/676.
+Completed: 63/676.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 62/676.
 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequence.java)                   | 30ms    | 99.28%  |
 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestArithmeticSubsequenceOfGivenDifference.java)  | 5ms     | 99.83%  |
 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestCommonSubsequence.java)                       | 10ms    | 99.47%  |
+| [Longest Ideal Sequence](https://leetcode.com/problems/longest-ideal-sequence/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIdealSequence.java)                           | 20ms    | 79.68%  |
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestIncreasingSubsequence.java)                   | 38ms    | 64.87%  |
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                         | 2ms     | 99.72%  |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestPalindromicSubstring.java)                    | 18ms    | 51.89%  |

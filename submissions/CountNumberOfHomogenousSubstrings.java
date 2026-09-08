@@ -7,7 +7,7 @@ class CountNumberOfHomogenousSubstrings {
         long modulo = 1000000007;
         long result = 0;
 
-        for (int i = 1; i < s.length(); i++) {
+        for (int i = 1; i < letters.length; i++) {
             if (letters[i] == letters[i - 1]) {
                 count++;
 

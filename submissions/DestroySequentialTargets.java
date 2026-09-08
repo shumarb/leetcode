@@ -18,7 +18,7 @@ class DestroySequentialTargets {
         }
         for (int e: nums) {
             int remainder = e % space;
-            int countDestroyed = map.get(e % space);
+            int countDestroyed = map.get(remainder);
 
             if (isTest) {
                 System.out.println(" * " + e + ", group number: " + remainder + ", group size: " + countDestroyed);

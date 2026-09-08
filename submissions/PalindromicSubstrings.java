@@ -1,31 +1,26 @@
 // Question: https://leetcode.com/problems/palindromic-substrings/description/
 
 class PalindromicSubstrings {
-    private String s;
+    private char[] letters;
     private int n;
     private int result;
 
     public int countSubstrings(String s) {
-        n = s.length();
+        letters = s.toCharArray();
+        n = letters.length;
         result = 0;
-        this.s = s;
 
         for (int i = 0; i < n; i++) {
-            // 1. Count palindromes where i-th character is center of initial odd-length palindrome.
             countPalindromes(i, i);
-
-            // 2. Count palindromes where i-th & (i + 1)-th characters are center of initial even-length palindrome.
             countPalindromes(i, i + 1);
         }
 
         return result;
     }
 
-    private void countPalindromes(int i, int j) {
-        while (i >= 0 && j < n && s.charAt(i) == s.charAt(j)) {
+    private void countPalindromes(int left, int right) {
+        while (left >= 0 && right < n && letters[left--] == letters[right++]) {
             result++;
-            i--;
-            j++;
         }
     }
 }
