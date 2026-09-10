@@ -16,11 +16,9 @@
  * }
  */
 class CountNodesEqualToAverageOfSubtree {
-    private boolean isTest;
     private int result;
 
     public int averageOfSubtree(TreeNode root) {
-        isTest = false;
         result = 0;
 
         dfs(root);
@@ -33,19 +31,26 @@ class CountNodesEqualToAverageOfSubtree {
             return new int[] {0, 0};
         }
 
+        boolean isTest = false;
         int[] leftSubtree = dfs(node.left);
         int[] rightSubtree = dfs(node.right);
+        int element = node.val;
+        int n = 1 + leftSubtree[1] + rightSubtree[1];
+        int sum = element + leftSubtree[0] + rightSubtree[0];
+        int average = sum / n;
 
-        int count = leftSubtree[1] + rightSubtree[1] + 1;
-        int sum = leftSubtree[0] + rightSubtree[0] + node.val;
-
-        if (isTest) {
-            System.out.println(" * node: " + node.val + " | leftSubtree: " + Arrays.toString(leftSubtree) + " | rightSubtree: " + Arrays.toString(rightSubtree));
-        }
-        if ((sum / count) == node.val) {
+        if (average == element) {
             result++;
         }
+        if (isTest) {
+            System.out.print("-----------------------------------\n" + node.val + "\n * leftSubtree: " + Arrays.toString(leftSubtree) + "\n * rightSubtreee: " + Arrays.toString(leftSubtree) + "\n * sum: " + sum + "\n * n: " + n + "\n * average: " + average);
+            if (average == element) {
+                System.out.println("\n ** valid");
+            } else {
+                System.out.println();
+            }
+        }
 
-        return new int[] {sum, count};
+        return new int[] {sum, n};
     }
 }

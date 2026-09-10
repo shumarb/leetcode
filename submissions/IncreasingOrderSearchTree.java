@@ -15,42 +15,50 @@
  */
 class IncreasingOrderSearchTree {
     public TreeNode increasingBST(TreeNode root) {
-        List<TreeNode> elements = new ArrayList<>();
+        List<TreeNode> list = new ArrayList<>();
+        TreeNode last;
         boolean isTest = false;
+        int n;
 
-        inOrderTraversal(root, elements);
+        inOrder(list, root);
+
+        n = list.size();
         if (isTest) {
-            display(elements);
-        }
-        for (int i = 0; i < elements.size(); i++) {
-            TreeNode current = elements.get(i);
-            current.left = null;
-            if (i == elements.size() - 1) {
-                // 1. Only last element's right child is set to null
-                current.right = null;
-            } else {
-                current.right = elements.get(i + 1);
-            }
+            print("before, list:", list);
         }
 
-        // 2. Set root to first element in the list.
-        root = elements.get(0);
-        return root;
+        last = list.get(n - 1);
+        last.left = null;
+        last.right = null;
+        for (int i = 0; i < n - 1; i++) {
+            TreeNode node = list.get(i);
+            node.left = null;
+            node.right = list.get(i + 1);
+        }
+        if (isTest) {
+            print("after, list:", list);
+        }
+
+        return list.get(0);
     }
 
-    private void display(List<TreeNode> elements) {
-        System.out.print("in order: ");
-        for (int i = 0; i < elements.size() - 1; i++) {
-            System.out.print(elements.get(i).val + " -> ");
+    private void print(String s, List<TreeNode> list) {
+        System.out.println(s);
+        for (TreeNode e: list) {
+            int l = e.left == null ? -1 : e.left.val;
+            int r = e.right == null ? -1 : e.right.val;
+            System.out.println(" * " + e.val + " | l: " + l + " | r: " + r);
         }
-        System.out.println(elements.get(elements.size() - 1).val);
+        System.out.println("-----------------------------");
     }
 
-    private void inOrderTraversal(TreeNode node, List<TreeNode> elements) {
-        if (node != null) {
-            inOrderTraversal(node.left, elements);
-            elements.add(node);
-            inOrderTraversal(node.right, elements);
+    private void inOrder(List<TreeNode> list, TreeNode node) {
+        if (node == null) {
+            return;
         }
+
+        inOrder(list, node.left);
+        list.add(node);
+        inOrder(list, node.right);
     }
 }
