@@ -2,7 +2,6 @@
 
 class CountValuesWithEquallySpacedOccurrencesII {
     public int countSpecialIntegers(int[] nums) {
-        Map<Integer, Integer> count = new HashMap<>();
         Map<Integer, int[]> map = new HashMap<>();
         Set<Integer> isNotSpecial = new HashSet<>();
         boolean isTest = false;
@@ -10,13 +9,13 @@ class CountValuesWithEquallySpacedOccurrencesII {
         int result = 0;
 
         for (int i = 0; i < n; i++) {
-            map.putIfAbsent(nums[i], new int[] {-1, -1});
+            map.putIfAbsent(nums[i], new int[] {-1, -1, 0});
         }
         for (int i = 0; i < n; i++) {
             int key = nums[i];
             int[] value = map.get(key);
 
-            count.merge(key, 1, Integer::sum);
+            value[2]++;
             if (isNotSpecial.contains(key)) {
                 continue;
             }
@@ -39,14 +38,16 @@ class CountValuesWithEquallySpacedOccurrencesII {
             }
         }
         if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\n\ncount: " + count + "\n\nmap: ");
+            System.out.println("nums: " + Arrays.toString(nums) + "\n\nmap: ");
             for (int key: map.keySet()) {
                 System.out.println(" * " + key + ": " + Arrays.toString(map.get(key)));
             }
             System.out.println("\nisNotSpecial: " + isNotSpecial + "\n------------------------------------------");
         }
         for (int key: map.keySet()) {
-            if (count.get(key) >= 3 && !isNotSpecial.contains(key)) {
+            int[] value = map.get(key);
+
+            if (value[2] >= 3 && !isNotSpecial.contains(key)) {
                 if (isTest) {
                     System.out.println(" * valid: " + key);
                 }
