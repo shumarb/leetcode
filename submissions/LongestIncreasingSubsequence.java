@@ -1,8 +1,8 @@
-// Question:
+// Question: https://leetcode.com/problems/longest-increasing-subsequence/description/
 
 class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
-        boolean isTest = true;
+        boolean isTest = false;
         int n = nums.length;
         int result = 0;
         int[] dp = new int[n];
@@ -14,10 +14,12 @@ class LongestIncreasingSubsequence {
                     dp[i] = Math.max(dp[i], 1 + dp[j]);
                 }
             }
+        }
+        for (int i = 0; i < n; i++) {
             result = Math.max(dp[i], result);
         }
         if (isTest) {
-            System.out.println("dp: " + Arrays.toString(dp) + "\nresult: " + result);
+            System.out.println("nums: " + Arrays.toString(nums) + "\ndp:   " + Arrays.toString(dp));
         }
 
         return result;

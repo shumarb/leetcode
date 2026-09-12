@@ -1,51 +1,35 @@
 // Question: https://leetcode.com/problems/unique-3-digit-even-numbers/description/
 
 class Unique3DigitEvenNumbers {
-    private boolean isTest = false;
-
     public int totalNumbers(int[] digits) {
-        int count = 0;
-        int[] digitFrequency = new int[10];
+        boolean[] isFormed = new boolean[999];
+        boolean isTest = false;
+        int n = digits.length;
+        int result = 0;
 
-        for (int digit: digits) {
-            digitFrequency[digit]++;
-        }
-        if (isTest) {
-            System.out.println("digits: " + Arrays.toString(digits));
-            System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
-        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (digits[i] == 0 || i == j) {
+                    continue;
+                }
 
-        for (int i = 100; i <= 998; i += 2) {
-            if (isValidNumber(i, digitFrequency)) {
-                count++;
+                for (int k = 0; k < n; k++) {
+                    if (digits[k] % 2 == 1 || k == i || k == j) {
+                        continue;
+                    }
+
+                    int number = digits[i] * 100 + digits[j] * 10 + digits[k];
+                    if (!isFormed[number]) {
+                        if (isTest) {
+                            System.out.println(" * " + number);
+                        }
+                        isFormed[number] = true;
+                        result++;
+                    }
+                }
             }
         }
 
-        return count;
-    }
-
-    private boolean isValidNumber(int number, int[] digitFrequency) {
-        int[] numberFrequency = new int[10];
-        int n = number;
-        while (n != 0) {
-            int digit = n % 10;
-            // 1. Digit in number is not in digits array.
-            if (digitFrequency[digit] == 0) {
-                return false;
-            }
-            numberFrequency[n % 10]++;
-            n /= 10;
-        }
-        if (isTest) {
-            System.out.println("number: " + number + "\nnumberFrequency: " + Arrays.toString(numberFrequency));
-            System.out.println("digitFrequency: " + Arrays.toString(digitFrequency));
-            System.out.println("-------------------------------------------------------------------------------------");
-        }
-        for (int i = 0; i < 10; i++) {
-            if (numberFrequency[i] > digitFrequency[i]) {
-                return false;
-            }
-        }
-        return true;
+        return result;
     }
 }
