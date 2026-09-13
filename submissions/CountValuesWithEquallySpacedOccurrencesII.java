@@ -3,20 +3,20 @@
 class CountValuesWithEquallySpacedOccurrencesII {
     public int countSpecialIntegers(int[] nums) {
         Map<Integer, int[]> map = new HashMap<>();
-        Set<Integer> isNotSpecial = new HashSet<>();
         boolean isTest = false;
         int n = nums.length;
         int result = 0;
 
         for (int i = 0; i < n; i++) {
-            map.putIfAbsent(nums[i], new int[] {-1, -1, 0});
+            // 1. Each element's initial mapping: [secondLastIndex, lastIndex, count, isSpecial]
+            map.putIfAbsent(nums[i], new int[] {-1, -1, 0, 1});
         }
         for (int i = 0; i < n; i++) {
             int key = nums[i];
             int[] value = map.get(key);
 
             value[2]++;
-            if (isNotSpecial.contains(key)) {
+            if (value[3] == 0) {
                 continue;
             }
 
@@ -30,7 +30,8 @@ class CountValuesWithEquallySpacedOccurrencesII {
                 int difference = value[1] - value[0];
 
                 if (i - value[1] != difference) {
-                    isNotSpecial.add(key);
+                    value[3] = 0;
+
                 } else {
                     value[0] = value[1];
                     value[1] = i;
@@ -42,12 +43,12 @@ class CountValuesWithEquallySpacedOccurrencesII {
             for (int key: map.keySet()) {
                 System.out.println(" * " + key + ": " + Arrays.toString(map.get(key)));
             }
-            System.out.println("\nisNotSpecial: " + isNotSpecial + "\n------------------------------------------");
+            System.out.println("------------------------------------------");
         }
         for (int key: map.keySet()) {
             int[] value = map.get(key);
 
-            if (value[2] >= 3 && !isNotSpecial.contains(key)) {
+            if (value[2] >= 3 && value[3] == 1) {
                 if (isTest) {
                     System.out.println(" * valid: " + key);
                 }
