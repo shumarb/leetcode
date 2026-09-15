@@ -2,17 +2,17 @@
 
 class DivideArrayInSetsOfKConsecutiveNumbers {
     public boolean isPossibleDivide(int[] nums, int k) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         boolean isTest = false;
-        int len = nums.length;
+        int n = nums.length;
 
         // 1. Can't form sets of k if nums.length is not divisible by k.
-        if (len % k != 0) {
+        if (n % k != 0) {
             return false;
         }
 
-        TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int number: nums) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+            map.merge(number, 1, Integer::sum);
         }
         if (isTest) {
             System.out.println("nums: " + Arrays.toString(nums) + "\nmap: " + map);
@@ -21,6 +21,7 @@ class DivideArrayInSetsOfKConsecutiveNumbers {
         while (!map.isEmpty()) {
             int count = k;
             int current = map.firstKey();
+
             if (isTest) {
                 System.out.println("--------------------------------------------");
                 System.out.println("count: " + count + "\ncurrent: " + current);
@@ -30,10 +31,8 @@ class DivideArrayInSetsOfKConsecutiveNumbers {
                 if (!map.containsKey(current)) {
                     return false;
                 }
-                map.put(current, map.get(current) - 1);
-                if (map.get(current) == 0) {
-                    map.remove(current);
-                }
+
+                map.compute(current, (key, value) -> value == 1 ? null : value - 1);
                 count--;
                 current++;
             }

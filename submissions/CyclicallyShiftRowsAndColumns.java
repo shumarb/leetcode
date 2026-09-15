@@ -10,29 +10,29 @@ class CyclicallyShiftRowsAndColumns {
         this.n = n;
 
         if (isTest) {
-            print("initial:", grid);
+            print("n: " + n + "\n\ninitial:", grid);
         }
         for (int i = 0; i < n; i++) {
-            int k = rowShift[i] % n;
+            int k = rowShift[i];
             if (isTest) {
                 System.out.println(" * row " + i + ", shift left by " + k);
             }
 
             if (k > 0) {
-                shiftRow(i, k);
+                shiftRow(i, k % n);
             }
             if (isTest) {
                 print("\nafter shift:", grid);
             }
         }
         for (int j = 0; j < n; j++) {
-            int k = colShift[j] % n;
+            int k = colShift[j];
             if (isTest) {
                 System.out.println(" * col " + j + ", shift up by " + k);
             }
 
             if (k > 0) {
-                shiftColumn(j, k);
+                shiftColumn(j, k % n);
             }
             if (isTest) {
                 print("\nafter shift:", grid);
@@ -47,7 +47,6 @@ class CyclicallyShiftRowsAndColumns {
 
     private void shiftRow(int row, int k) {
         int[] updated = new int[n];
-        k %= n;
 
         for (int j = 0; j < n; j++) {
             int newIndex = (j - k + n) % n;
@@ -59,7 +58,6 @@ class CyclicallyShiftRowsAndColumns {
 
     private void shiftColumn(int column, int k) {
         int[] updated = new int[n];
-        k %= n;
 
         for (int i = 0; i < n; i++) {
             int newIndex = (i - k + n) % n;

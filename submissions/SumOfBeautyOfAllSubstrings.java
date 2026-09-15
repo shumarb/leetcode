@@ -1,37 +1,34 @@
 // Question: https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/
 
 class SumOfBeautyOfAllSubstrings {
+    private char[] letters;
+
     public int beautySum(String s) {
-        int n = s.length();
+        letters = s.toCharArray();
+        int n = letters.length;
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
+            int[] count = new int[26];
+
             for (int j = i; j < n; j++) {
-                String substring = s.substring(i, j + 1);
-                if (substring.length() > 1) {
-                    sum += compute(substring);
+                int maximum = 0;
+                int minimum = Integer.MAX_VALUE;
+                count[letters[j] - 'a']++;
+
+                for (int e: count) {
+                    if (e == 0) {
+                        continue;
+                    }
+
+                    maximum = Math.max(e, maximum);
+                    minimum = Math.min(e, minimum);
                 }
+
+                sum += maximum - minimum;
             }
         }
 
         return sum;
-    }
-
-    private int compute(String s) {
-        int[] count = new int[26];
-        int maximum = Integer.MIN_VALUE;
-        int minimum = Integer.MAX_VALUE;
-
-        for (char c: s.toCharArray()) {
-            count[c - 'a']++;
-        }
-        for (char c: s.toCharArray()) {
-            if (count[c - 'a'] > 0) {
-                maximum = Math.max(count[c - 'a'], maximum);
-                minimum = Math.min(count[c - 'a'], minimum);
-            }
-        }
-
-        return maximum - minimum;
     }
 }

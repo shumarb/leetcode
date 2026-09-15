@@ -9,7 +9,7 @@ class MinimumNumberOfGroupsToCreateAValidAssignment {
         map = new HashMap<>();
 
         for (int e: balls) {
-            map.put(e, 1 + map.getOrDefault(e, 0));
+            map.merge(e, 1, Integer::sum);
         }
         for (int key: map.keySet()) {
             smallestSize = Math.min(map.get(key), smallestSize);

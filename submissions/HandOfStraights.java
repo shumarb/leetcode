@@ -1,25 +1,25 @@
 // Question: https://leetcode.com/problems/hand-of-straights/description/
 
-class HandOfStraights {
+class HandOfStraightsclass {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         TreeMap<Integer, Integer> map = new TreeMap<>();
         boolean isTest = false;
-        int len = hand.length;
+        int n = hand.length;
 
-        if (len % groupSize != 0) {
+        if (n % groupSize != 0) {
             return false;
         }
         for (int number: hand) {
-            map.put(number, 1 + map.getOrDefault(number, 0));
+            map.merge(number, 1, Integer::sum);
         }
         if (isTest) {
-            System.out.println("hand: " + Arrays.toString(hand) + ", groupSize: " + groupSize);
-            System.out.println("map: " + map);
+            System.out.println("hand: " + Arrays.toString(hand) + ", groupSize: " + groupSize + "\nmap: " + map);
         }
 
         while (!map.isEmpty()) {
             int count = groupSize;
             int current = map.firstKey();
+
             if (isTest) {
                 System.out.println("-----------------------------------------------------------------------");
                 System.out.println(" * current: " + current);
@@ -30,10 +30,8 @@ class HandOfStraights {
                 if (!map.containsKey(current)) {
                     return false;
                 }
-                map.put(current, map.get(current) - 1);
-                if (map.get(current) == 0) {
-                    map.remove(current);
-                }
+
+                map.compute(current, (key, value) -> value == 1 ? null : value - 1);
                 current++;
                 count--;
             }
