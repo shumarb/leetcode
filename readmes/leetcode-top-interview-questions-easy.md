@@ -67,7 +67,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BestTimeToBuyAndSellStock.java) | 1ms     | 99.88%  |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ClimbingStairs.java)            | 0ms     | 100.00% |
 | [House Robber](https://leetcode.com/problems/house-robber/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)               | 0ms     | 100.00% |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)           | 1ms     | 99.92%  |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)           | 1ms     | 99.93%  |
 
 ### Design
 | Question                                                                        | Submission                                                                            | Runtime | Rank   |

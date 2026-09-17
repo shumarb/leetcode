@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 63/676.
+Completed: 64/676.
 
 ## Submissions
 ### Easy
@@ -43,6 +43,7 @@ Completed: 63/676.
 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSortedVowelStrings.java)                        | 259ms   | 6.63%   |
 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ExtraCharactersInAString.java)                       | 46ms    | 87.58%  | 
 | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindGoodDaysToRobTheBank.java)                       | 5ms     | 88.83%  |
+| [Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheSubstringWithMaximumCost.java)                | 5ms     | 44.12%  |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                            | 0ms     | 100.00% |
 | [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                    | 0ms     | 100.00% |
 | [House Robber III](https://leetcode.com/problems/house-robber-ii/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobberIII.java)                                 | 0ms     | 100.00% |
@@ -64,7 +65,7 @@ Completed: 63/676.
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfRepeatedSubarray.java)                | 24ms    | 66.86%  |
 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductSubarray.java)                         | 1ms     | 90.84%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                        | 5ms     | 37.59%  |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                | 1ms     | 99.92%  |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumSubarray.java)                                | 1ms     | 99.93%  |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPathSum.java)                                 | 3ms     | 71.06%  |
 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumTimeToMakeRopeColorful.java)                  | 11ms    | 24.39%  |
 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NonOverlappingIntervals.java)                        | 46ms    | 82.48%  |

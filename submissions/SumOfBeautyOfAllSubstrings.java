@@ -1,10 +1,8 @@
 // Question: https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/
 
 class SumOfBeautyOfAllSubstrings {
-    private char[] letters;
-
     public int beautySum(String s) {
-        letters = s.toCharArray();
+        char[] letters = s.toCharArray();
         int n = letters.length;
         int sum = 0;
 

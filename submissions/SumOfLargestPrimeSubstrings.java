@@ -14,28 +14,33 @@ class SumOfLargestPrimeSubstrings {
             long value = 0;
             for (int j = i; j < n; j++) {
                 value = value * 10 + s.charAt(j) - '0';
-                if (value > 1 && !set.contains(value) && isPrime(value)) {
+
+                if (value == 1) {
+                    continue;
+                }
+
+                if (isPrime(value) && set.add(value)) {
                     if (isTest) {
                         System.out.println(" * unique prime: " + value);
-                    }
-                    set.add(value);
-
-                    if (value > largest) {
-                        thirdLargest = secondLargest;
-                        secondLargest = largest;
-                        largest = value;
-
-                    } else if (value > secondLargest) {
-                        thirdLargest = secondLargest;
-                        secondLargest = value;
-
-                    } else if (value > thirdLargest) {
-                        thirdLargest = value;
                     }
                 }
             }
         }
 
+        for (long e: set) {
+            if (e > largest) {
+                thirdLargest = secondLargest;
+                secondLargest = largest;
+                largest = e;
+
+            } else if (e > secondLargest) {
+                thirdLargest = secondLargest;
+                secondLargest = e;
+
+            } else if (e > thirdLargest) {
+                thirdLargest = e;
+            }
+        }
         if (largest > 1l) {
             result += largest;
         }
