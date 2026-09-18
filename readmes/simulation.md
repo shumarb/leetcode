@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 124/211.
+Completed: 125/217.
 
 ## Submissions
 ### Easy
@@ -139,6 +139,7 @@ Completed: 124/211.
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                | 13ms    | 98.85%  |
 | [Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ResultingStringAfterAdjacentRemovals.java)                    | 81ms    | 93.01%  |
 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsWithSameVowelCount.java)                          | 54ms    | 87.90%  |
+| [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateNonNegativeElements.java)                               | 12ms    | 93.64%  |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                    | 95ms    | 96.22%  |
 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueAfterReplacingWithSumOfPrimeFactors.java)        | 0ms     | 100.00% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                            | 0ms     | 100.00% |
