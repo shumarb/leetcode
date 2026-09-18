@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 81/169.
+Completed: 82/172.
 
 ## Submissions
 ### Easy
@@ -18,6 +18,7 @@ Completed: 81/169.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------|---------|
 | [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AlternatingGroupsI.java)                                | 1ms     | 99.43%  |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainsDuplicateII.java)                               | 18ms    | 98.98%  |
+| [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/description/)             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountRotationsWithExactlyKEqualAdjacentPairs.java)      | 11ms    | 33.91%  |
 | [Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsThatSatisfyKConstraintsOne.java)         | 2ms     | 52.78%  |
 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DefuseTheBomb.java)                                     | 4ms     | 6.06%   |
 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindXSumOfAllKLongSubarraysOne.java)                    | 7ms     | 96.27%  |

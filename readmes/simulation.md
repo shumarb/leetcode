@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 125/217.
+Completed: 127/217.
 
 ## Submissions
 ### Easy
@@ -139,10 +139,11 @@ Completed: 125/217.
 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReplaceElementsInAnArray.java)                                | 13ms    | 98.85%  |
 | [Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ResultingStringAfterAdjacentRemovals.java)                    | 81ms    | 93.01%  |
 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseWordsWithSameVowelCount.java)                          | 54ms    | 87.90%  |
-| [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateNonNegativeElements.java)                               | 12ms    | 93.64%  |
+| [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RotateNonNegativeElements.java)                               | 11ms    | 99.09%  |
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                                                    | 95ms    | 96.22%  |
 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestValueAfterReplacingWithSumOfPrimeFactors.java)        | 0ms     | 100.00% |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpiralMatrix.java)                                            | 0ms     | 100.00% |
 | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumInAMatrix.java)                                            | 13ms    | 99.35%  |
+| [Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfDecodedNumbers.java)                                     | 104ms   | 76.30%  |
 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfEvenNumbersAfterQueries.java)                            | 4ms     | 99.66%  |
 | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TaskSchedulerII.java)                                         | 49ms    | 6.53%   |
