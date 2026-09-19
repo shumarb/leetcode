@@ -9,7 +9,7 @@ class CountValuesWithEquallySpacedOccurrencesII {
 
         for (int i = 0; i < n; i++) {
             // 1. Each element's initial mapping: [secondLastIndex, lastIndex, count, isSpecial]
-            map.putIfAbsent(nums[i], new int[] {-1, -1, 0, 1});
+            map.computeIfAbsent(nums[i], x -> new int[] {-1, -1, 0, 1});
         }
         for (int i = 0; i < n; i++) {
             int key = nums[i];

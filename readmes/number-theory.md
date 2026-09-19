@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 29/99.
+Completed: 30/105.
 
 ## Submissions
 ### Easy
@@ -41,6 +41,7 @@ Completed: 29/99.
 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTriangularSumOfAnArray.java)                       | 40ms    | 97.87%  |
 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertGreatestCommonDivisorsInLinkedList.java)         | 2ms     | 57.29%  |
 | [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)              | 190ms   | 57.17%  |
+| [Longest Subarray With at Most K Distinct Prime Factors](https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayWithAtMostKDistinctPrimeFactors.java)   | 78ms    | 94.00%  |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                           | 0ms     | 100.00% |
 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithGcdEqualToK.java)                 | 5ms     | 91.72%  |
 | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfSubarraysWithLcmEqualToK.java)                 | 14ms    | 61.11%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 229/708.
+Completed: 230/708.
 
 ## Submissions
 ### Easy
@@ -202,6 +202,7 @@ Completed: 229/708.
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KClosestPointsToOrigin.java)                                      | 30ms    | 64.77%  |
 | [Largest Prime From Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LargestPrimeFromConsecutivePrimeSum.java)                         | 190ms   | 57.17%  |
 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/description/)                                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LinkedListRandomNode.java)                                        | 9ms     | 100.00% |
+| [Longest Subarray With at Most K Distinct Prime Factors](https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayWithAtMostKDistinctPrimeFactors.java)              | 78ms    | 94.00%  |
 | [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MagicSquaresInGrid.java)                                          | 2ms     | 22.02%  |
 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfCoinsYouCanGet.java)                               | 6ms     | 96.17%  |
 | [Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumPrimeDifference.java)                                      | 0ms     | 100.00% |
