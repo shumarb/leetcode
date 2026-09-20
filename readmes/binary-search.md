@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 77/347.
+Completed: 78/352.
 
 ## Submissions
 ### Easy
@@ -53,6 +53,7 @@ Completed: 77/347.
 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountElementsWithAtLeastKGreaterValues.java)          | 43ms    | 53.25%  |
 | [Count K-th Roots in an Range](https://leetcode.com/problems/count-k-th-roots-in-a-range/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountKthRootsInARange.java)                           | 1ms     | 99.98%  |
 | [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EarliestFinishTimeForLandAndWaterRidesII.java)        | 2ms     | 100.00% |
+| [Find All Numbers Disappeared in an Array II](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindAllNumbersDisappearedInAnArrayII.java)                            | 11ms    | 99.99%  |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindFirstAndLastPositionOfElementInSortedArray.java)  | 0ms     | 100.00% |
 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKClosestElements.java)                            | 4ms     | 96.68%  |
 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindLongestSpecialSubstringThatOccursThriceI.java)    | 3ms     | 92.13%  |

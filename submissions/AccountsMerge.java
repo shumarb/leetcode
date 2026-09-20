@@ -26,7 +26,7 @@ class AccountsMerge {
             for (int i = 2; i < account.size(); i++) {
                 String email = account.get(i);
 
-                graph.putIfAbsent(email, new HashSet<>());
+                graph.computeIfAbsent(email, k -> new HashSet<>());
                 owner.putIfAbsent(email, name);
 
                 /**

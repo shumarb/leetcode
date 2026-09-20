@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 117/263.
+Completed: 119/263.
 
 ## Submissions
 ### Easy
@@ -19,6 +19,7 @@ Completed: 117/263.
 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToAnArray.java)                        | 1ms     | 95.99%  |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookie/description/)                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AssignCookies.java)                                   | 11ms    | 35.51%  |
 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BackspaceStringCompare.java)                          | 1ms     | 79.90%  |
+| [Check ASCII Palindromic](https://leetcode.com/problems/check-ascii-palindromic/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckAsciiPalindromic.java)                           | 4ms     | 75.14%  |
 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfNAndItsDoubleExist.java)                       | 1ms     | 99.29%  |
 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfStringIsAPrefixOfArray.java)                   | 1ms     | 87.61%  |
 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountingWordsWithAGivenPrefix.java)                   | 0ms     | 100.00% |
@@ -61,6 +62,7 @@ Completed: 117/263.
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                      | 17ms    | 33.88%  |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDistinctAverages.java)                        | 1ms     | 99.35%  |
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)                            | 4ms     | 66.58%  |
+| [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeStringToAvoidCharacterPair.java)             | 1ms     | 100.00% |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedArray.java)                 | 0ms     | 100.00% |
 | [Remove Element](https://leetcode.com/problems/remove-element/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveElement.java)                                   | 0ms     | 100.00% |
 | [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString.java)    | 4ms     | 27.95%  |
