@@ -6,13 +6,8 @@ class NumberOfIntersectingIntervalPairsI {
         int m = intervals.length;
         int result = 0;
 
-        Arrays.sort(intervals,
-                (a, b) -> Integer.compare(a[0], b[0]) == 0
-                        ? Integer.compare(b[1], a[1])
-                        : Integer.compare(a[0], b[0])
-        );
         if (isTest) {
-            System.out.println("sorted intervals:");
+            System.out.println("intervals:");
             for (int[] e: intervals) {
                 System.out.println(Arrays.toString(e));
             }
@@ -24,11 +19,7 @@ class NumberOfIntersectingIntervalPairsI {
             for (int j = i + 1; j < m; j++) {
                 int[] second = intervals[j];
 
-                if (second[0] > first[1]) {
-                    continue;
-                }
-
-                if (second[0] <= first[1]) {
+                if (first[0] <= second[1] && second[0] <= first[1]) {
                     result++;
                     if (isTest) {
                         System.out.println(" * intersect: " + Arrays.toString(first) + ", " + Arrays.toString(second));

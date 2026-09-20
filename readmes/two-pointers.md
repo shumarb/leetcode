@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 116/261.
+Completed: 117/263.
 
 ## Submissions
 ### Easy
@@ -63,9 +63,10 @@ Completed: 116/261.
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PalindromeLinkedList.java)                            | 4ms     | 66.58%  |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicatesFromSortedArray.java)                 | 0ms     | 100.00% |
 | [Remove Element](https://leetcode.com/problems/remove-element/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveElement.java)                                   | 0ms     | 100.00% |
-| [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString..java)   | 4ms     | 32.75%  |
-| [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOnlyLetters..java)                             | 0ms     | 100.00% |
-| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord..java)                            | 1ms     | 52.92%  |
+| [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseLettersThenSpecialCharactersInAString.java)    | 4ms     | 27.95%  |
+| [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseOnlyLetters.java)                              | 0ms     | 100.00% |
+| [Reverse Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovePalindromicSubsequences.java)                   | 0ms     | 100.00% |
+| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReversePrefixOfWord.java)                             | 1ms     | 52.92%  |
 | [Reverse String](https://leetcode.com/problems/reverse-string/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseString.java)                                   | 0ms     | 100.00% |
 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseStringII.java)                                 | 1ms     | 96.29%  |
 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseStringPrefix.java)                             | 1ms     | 99.94%  |
