@@ -2,25 +2,35 @@
 
 class ReverseDegreeOfAString {
     public int reverseDegree(String s) {
-        String key = "zyxwvutsrqponmlkjihgfedcba";
         boolean isTest = false;
-        int reverseDegree = 0;
+        char[] letters = s.toCharArray();
+        int[] score = new int[26];
+        int n = score.length;
+        int result = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            char letter = s.charAt(i);
-            int letterValue = letter - 'a';
-            char letterKey = key.charAt(letterValue);
-            if (isTest) {
-                System.out.println("------------------------------------------------------------------");
-                System.out.println("s letter: " + letter + "\nletterValue: " + letterValue);
-                System.out.println("before, reverseDegree: " + reverseDegree);
-            }
-            reverseDegree += ((i + 1) * (1 + letterKey - 'a'));
-            if (isTest) {
-                System.out.println("after, reverseDegree: " + reverseDegree);
-            }
+        for (int i = 0; i < n; i++) {
+            score[i] = n - i;
+        }
+        if (isTest) {
+            System.out.println("letters: " + Arrays.toString(letters) + "\nscore: " + Arrays.toString(score));
+            System.out.println("-------------------------------------------------------------------------------------------------");
         }
 
-        return reverseDegree;
+        for (int i = 0; i < letters.length; i++) {
+            char letter = letters[i];
+            int value = score[letter - 'a'];
+            int product = (i + 1) * value;
+
+            if (isTest) {
+                System.out.println(" * letter: " + letter + ", value: " + value + ", index: " + (i + 1) + " -> product: " + product);
+            }
+
+            result += product;
+        }
+        if (isTest) {
+            System.out.println("-------------------------------------------------------------------------------------------------\nresult: " + result);
+        }
+
+        return result;
     }
 }
