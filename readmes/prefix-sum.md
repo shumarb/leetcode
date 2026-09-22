@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 64/270.
+Completed: 65/274.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 64/270.
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSizeSubarraySum.java)                                  | 1ms     | 99.81%  |
 | [Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfMountainTripletsTwo.java)                         | 2ms     | 100.00% |
 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodWaysToSplitAString.java)                          | 6ms     | 83.89%  |
+| [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfWaysToSplitArray.java)                                | 5ms     | 14.88%  |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfArrayExceptSelf.java)                                | 2ms     | 89.32%  |
 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ProductOfNumbers.java)                                        | 16ms    | 100.00% |
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickWithWeight.java)                                    | 21ms    | 99.89%  |
