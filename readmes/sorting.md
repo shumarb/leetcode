@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 189/536.
+Completed: 190/536.
 
 ## Submissions
 ### Easy
@@ -147,6 +147,7 @@ Completed: 189/536.
 | [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KthSmallestElementInASortedMatrix.java)                | 11ms    | 65.35%  |
 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LeastNumberOfUniqueIntegersAfterKRemovals.java)        | 38ms    | 93.18%  |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                     | 36ms    | 95.20%  |
+| [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUncommonSubsequenceII.java)                     | 2ms     | 28.79%  |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                          | 17ms    | 52.51%  | 
 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)           | 16ms    | 81.38%  | 
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MajorityElementII.java)                                | 11ms    | 48.62%  |

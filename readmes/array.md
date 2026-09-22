@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 766/2260.
+Completed: 767/2260.
 
 ## Submissions
 ### Easy
@@ -586,6 +586,7 @@ Completed: 766/2260.
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                    | 36ms    | 95.20%  |
 | [Longest Subarray With at Most K Distinct Prime Factors](https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayWithAtMostKDistinctPrimeFactors.java)                  | 78ms    | 94.00%  |
 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayOf1sAfterDeletingOneElement.java)                      | 2ms     | 99.25%  |
+| [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUncommonSubsequenceII.java)                                    | 2ms     | 28.79%  |
 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                                   | 1100ms  | 5.11%   |
 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionary.java)                                         | 17ms    | 52.51%  | 
 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWordInDictionaryThroughDeleting.java)                          | 16ms    | 81.38%  | 
