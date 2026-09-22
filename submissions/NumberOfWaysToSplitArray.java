@@ -3,36 +3,38 @@
 class NumberOfWaysToSplitArray {
     public int waysToSplitArray(int[] nums) {
         boolean isTest = false;
-        int n = nums.length;
         int result = 0;
-        long sum = 0;
-        long[] prefix = new long[n];
-        long[] suffix = new long[n];
+        long leftSum = 0;
+        long rightSum = 0;
 
-        for (int e: nums) {
-            sum += e;
-        }
-        prefix[0] = nums[0];
-        for (int i = 1; i < n; i++) {
-            prefix[i] = nums[i] + prefix[i - 1];
-        }
-        for (int i = 0; i < n; i++) {
-            suffix[i] = sum - prefix[i];
-        }
         if (isTest) {
-            System.out.println("prefix: " + Arrays.toString(prefix) + "\nnums:   " + Arrays.toString(nums) + "\nsuffix: " + Arrays.toString(suffix));
-            System.out.println("--------------------------------");
+            System.out.println("nums: " + Arrays.toString(nums) + "\n------------------------------------");
         }
-        for (int i = 0; i < n - 1; i++) {
-            if (prefix[i] >= suffix[i]) {
-                if (isTest) {
-                    System.out.println(" * split @ index " + i);
-                }
+        for (int e: nums) {
+            rightSum += e;
+        }
+        for (int i = 0; i < nums.length - 1; i++) {
+            int current = nums[i];
+            leftSum += current;
+            rightSum -= current;
+            if (isTest) {
+                System.out.print("i: " + i + "\n * leftSum: " + leftSum + "\n * rightSum: " + rightSum);
+            }
+
+            if (leftSum >= rightSum) {
                 result++;
+                if (isTest) {
+                    System.out.println("\n ** split\n");
+                }
+
+            } else {
+                if (isTest) {
+                    System.out.println("\n");
+                }
             }
         }
         if (isTest) {
-            System.out.println("--------------------------------\nresult: " + result);
+            System.out.print("------------------------------------\nresult: " + result);
         }
 
         return result;
