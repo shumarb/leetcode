@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 113/213.
+Completed: 114/213.
 
 ## Submissions
 ### Easy
@@ -88,6 +88,7 @@ Completed: 113/213.
 | [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                     | 18ms    | 93.01%  |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                         | 1ms     | 100.00% |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                     | 2ms     | 99.45%  |
+| [Construct K Palindrome Substrings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructKPalindromeSubstrings.java)                       | 4ms     | 89.06%  |
 | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNicePairsInAnArray.java)                              | 31ms    | 92.75%  |
 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfBadPairs.java)                                | 45ms    | 23.08%  |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfDistinctIntegersAfterReverseOperations.java)  | 33ms    | 98.46%  |

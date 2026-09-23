@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 369/895.
+Completed: 370/895.
 
 ## Submissions
 ### Easy
@@ -253,6 +253,7 @@ Completed: 369/895.
 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/)                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfAStringContainsAllBinaryCodesOfSizeK.java)                  | 129ms   | 69.23%  |
 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareStringsByFrequencyOfTheSmallestCharacter.java)              | 810ms   | 7.09%   |
 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompareVersionNumbers.java)                                        | 0ms     | 100.00% |
+| [Construct K Palindrome Substrings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructKPalindromeSubstrings.java)                               | 4ms     | 89.06%  |
 | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                                  | 51ms    | 81.88%  |
 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountNumberOfHomogenousSubstrings.java)                            | 7ms     | 96.28%  |
 | [Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountSubstringsStartingAndEndingWithGivenCharacter.java)           | 1ms     | 100.00% |

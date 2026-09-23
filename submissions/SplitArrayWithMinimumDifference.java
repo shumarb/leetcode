@@ -31,7 +31,7 @@ class SplitArrayWithMinimumDifference {
             }
         }
         if (isTest) {
-            System.out.println("nums:   " + Arrays.toString(nums) + "\nisIncreasing: " + Arrays.toString(isIncreasing) + "\nisDecreasing: " + Arrays.toString(isDecreasing) + "\n----------------------------------------------------------------------");
+            System.out.print("nums:   " + Arrays.toString(nums) + "\nisIncreasing: " + Arrays.toString(isIncreasing) + "\nisDecreasing: " + Arrays.toString(isDecreasing) + "\n----------------------------------------------");
         }
 
         for (int i = 0; i < n - 1; i++) {
@@ -40,19 +40,19 @@ class SplitArrayWithMinimumDifference {
             rightSum -= element;
 
             if (isTest) {
-                System.out.println(" * [0, " + i + "] | leftSum: " + leftSum + " | [" + (i + 1) + ", " + (n - 1) + "] | rightSum: " + rightSum);
+                System.out.println("\n* [0, " + i + "] | leftSum: " + leftSum + " | [" + (i + 1) + ", " + (n - 1) + "] | rightSum: " + rightSum);
             }
             if (isIncreasing[i] && isDecreasing[i + 1]) {
                 long absoluteDifference = Math.abs(leftSum - rightSum);
                 if (isTest) {
-                    System.out.println(" ** valid | absoluteDifference: " + absoluteDifference + "\n");
+                    System.out.println("** valid | absoluteDifference: " + absoluteDifference);
                 }
 
                 result = Math.min(absoluteDifference, result);
             }
         }
         if (isTest) {
-            System.out.print("----------------------------------------------------------------------\nresult: " + result);
+            System.out.print("----------------------------------------------\nresult: " + result);
         }
 
         return result == Long.MAX_VALUE ? -1 : result;

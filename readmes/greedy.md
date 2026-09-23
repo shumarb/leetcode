@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 108/481.
+Completed: 109/482.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 108/481.
 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BalanceABinarySearchTree.java)                          | 2ms     | 95.99%  |
 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BoatsToSavePeople.java)                                 | 6ms     | 98.19%  |
 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrokenCalculator.java)                                  | 0ms     | 100.00% |
+| [Construct K Palindrome Substrings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructKPalindromeSubstrings.java)                    | 4ms     | 89.06%  |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                            | 5ms     | 74.40%  |
 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroyingAsteroids.java)                               | 13ms    | 96.44%  |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                   | 15ms    | 83.05%  |
