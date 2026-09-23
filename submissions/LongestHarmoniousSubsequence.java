@@ -2,31 +2,17 @@
 
 class LongestHarmoniousSubsequence {
     public int findLHS(int[] nums) {
-        Arrays.sort(nums);
-        boolean isTest = false;
-        int left = 0;
+        Map<Integer, Integer> map = new HashMap<>();
         int result = 0;
 
-        if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("------------------------------------------------------------");
+        for (int e: nums) {
+            map.merge(e, 1, Integer::sum);
         }
-        for (int right = 0; right < nums.length; right++) {
-            while (nums[right] - nums[left] > 1) {
-                left++;
+        for (int key: map.keySet()) {
+            int next = key + 1;
+            if (map.containsKey(next)) {
+                result = Math.max(map.get(key) + map.get(next), result);
             }
-
-            if (nums[right] - nums[left] == 1) {
-                int length = right - left + 1;
-                result = Math.max(length, result);
-
-                if (isTest) {
-                    System.out.println(" * indices: [" + left + ", " + right + "] | length: " + length + " | subarray: " + Arrays.toString(Arrays.copyOfRange(nums, left, right + 1)));
-                }
-            }
-        }
-        if (isTest) {
-            System.out.println("------------------------------------------------------------\nresult: " + result);
         }
 
         return result;

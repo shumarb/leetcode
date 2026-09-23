@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 65/274.
+Completed: 66/274.
 
 ## Submissions
 ### Easy
@@ -79,6 +79,7 @@ Completed: 65/274.
 | [Range Sum Query - 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumMatrix.java)                                               | 101ms   | 85.10%  |
 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                            | 18ms    | 83.97%  |
 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestStableIndexII.java)                                   | 3ms     | 100.00% |
+| [Split Array With Minimum Difference](https://leetcode.com/problems/split-array-with-minimum-difference/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SplitArrayWithMinimumDifference.java)                         | 5ms     | 59.52%  |
 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarrayProductLessThanK.java)                                | 3ms     | 99.36%  |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumEqualsK.java)                                      | 24ms    | 76.49%  |
 | [Subarray Sums Divisble by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubarraySumsDivisibleByK.java)                                | 3ms     | 99.79%  |
