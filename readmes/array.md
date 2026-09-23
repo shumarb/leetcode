@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 769/2260.
+Completed: 770/2260.
 
 ## Submissions
 ### Easy
@@ -539,6 +539,7 @@ Completed: 769/2260.
 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysOne.java)                                 | 1ms     | 100.00% |
 | [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePowerOfKSizeSubarraysTwo.java)                                 | 3ms     | 98.02%  |
 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindThePrefixCommonArrayOfTwoArrays.java)                             | 3ms     | 60.99%  |
+| [Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheScoreOfAllPrefixesOfAnArray.java)                              | 3ms     | 91.99%  |
 | [Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheSubstringWithMaximumCost.java)                                 | 3ms     | 100.00% |
 | [Find the Smallest Balanced Index](https://leetcode.com/problems/find-the-smallest-balanced-index/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheSmallestBalancedIndex.java)                                    | 8ms     | 41.42%  |
 | [Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheWinnerOfAnArrayGame.java)                                      | 0ms     | 100.00% |

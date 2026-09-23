@@ -15,7 +15,7 @@ class ConstructKPalindromeSubstrings {
             count[c - 'a']++;
         }
         for (int e: count) {
-            if (e % 2 == 1) {
+            if ((e & 1) == 1) {
                 countOdd++;
             }
         }
