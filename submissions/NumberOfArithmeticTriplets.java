@@ -2,20 +2,32 @@
 
 class NumberOfArithmeticTriplets {
     public int arithmeticTriplets(int[] nums, int diff) {
-        int count = 0;
-        int len = nums.length;
-        for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < len; j++) {
-                for (int k = j + 1; k < len; k++) {
-                    if (nums[j] - nums[i] != diff) {
-                        continue;
-                    }
-                    if (nums[k] - nums[j] == diff) {
-                        count++;
-                    }
+        boolean[] isPresent = new boolean[201];
+        boolean isTest = false;
+        int result = 0;
+
+        if (isTest) {
+            System.out.println("diff: " + diff + "\nnums: " + Arrays.toString(nums));
+            System.out.println("----------------------------------");
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int third = nums[i];
+            int first = third - 2 * diff;
+            int second = third - diff;
+            isPresent[third] = true;
+
+            if (first >= 0 && second >= 0 && isPresent[first] && isPresent[second]) {
+                if (isTest) {
+                    System.out.println(" * valid: [" + first + ", " + second + ", " + third + "]");
                 }
+
+                result++;
             }
         }
-        return count;
+        if (isTest) {
+            System.out.println("----------------------------------\nresult: " + result);
+        }
+
+        return result;
     }
 }
