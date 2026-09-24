@@ -2,17 +2,15 @@
 
 class SmallestIndexWithDigitSumEqualToIndex {
     public int smallestIndex(int[] nums) {
-        int len = nums.length;
-
-        for (int i = 0; i < len; i++) {
-            int element = nums[i];
+        for (int i = 0; i < nums.length; i++) {
             int digitSum = 0;
+            int element = nums[i];
 
-            while (element > 9) {
+            while (element > 0) {
                 digitSum += element % 10;
                 element /= 10;
             }
-            digitSum += element;
+
             if (digitSum == i) {
                 return i;
             }
