@@ -2,37 +2,45 @@
 
 class CountIntegersAppearingInASingleBlock {
     public int countSpecialIntegers(int[] nums) {
-        int[] firstIndex = new int[101];
+        boolean[] isPresent = new boolean[101];
+        boolean[] isSpecial = new boolean[101];
+        boolean isTest = false;
         int[] lastIndex = new int[101];
         int result = 0;
 
-        Arrays.fill(firstIndex, -1);
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums) + "\n---------------------------------------");
+        }
+        Arrays.fill(isSpecial, true);
         Arrays.fill(lastIndex, -1);
+        for (int e: nums) {
+            isPresent[e] = true;
+        }
+
         for (int i = 0; i < nums.length; i++) {
             int current = nums[i];
-            if (firstIndex[current] == -1) {
-                firstIndex[current] = i;
+
+            if (lastIndex[current] == -1) {
+                lastIndex[current] = i;
+
+            } else if (i - lastIndex[current] != 1) {
+                isSpecial[current] = false;
             }
 
             lastIndex[current] = i;
         }
-        for (int i = 0; i < firstIndex.length; i++) {
-            if (firstIndex[i] != -1 && lastIndex[i] != -1) {
-                boolean isSpecial = true;
-
-                for (int j = firstIndex[i]; j <= lastIndex[i]; j++) {
-                    if (nums[j] != i) {
-                        isSpecial = false;
-                        break;
-                    }
+        for (int i = 0; i < isSpecial.length; i++) {
+            if (isPresent[i] && isSpecial[i]) {
+                if (isTest) {
+                    System.out.println(" * special: " + i);
                 }
 
-                if (isSpecial) {
-                    result++;
-                }
+                result++;
             }
         }
-
+        if (isTest) {
+            System.out.println("---------------------------------------\nresult: " + result);
+        }
         return result;
     }
 }
