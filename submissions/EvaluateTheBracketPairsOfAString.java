@@ -2,41 +2,48 @@
 
 class EvaluateTheBracketPairsOfAString {
     public String evaluate(String s, List<List<String>> knowledge) {
-        StringBuilder current = new StringBuilder();
-        StringBuilder result = new StringBuilder();
         Map<String, String> map = new HashMap<>();
+        StringBuilder current;
+        StringBuilder result = new StringBuilder();
         boolean isTest = false;
+        char[] tokens = s.toCharArray();
+        int i = 0;
+        int n = tokens.length;
 
         for (List<String> e: knowledge) {
             map.put(e.get(0), e.get(1));
         }
         if (isTest) {
-            System.out.println("map: " + map);
-            System.out.println("-------------------------------------------------");
+            System.out.println("tokens: " + Arrays.toString(tokens) + "\nmap: " + map);
+            System.out.println("----------------------------------------------------");
         }
+        while (i < n) {
+            char c = tokens[i];
 
-        for (char c: s.toCharArray()) {
-            if (c == '(') {
-                result.append(current);
-                current = new StringBuilder();
-            } else if (c == ')') {
+            if (c >= 'a' && c <= 'z') {
+                result.append(c);
+                i++;
+
+            } else if (c == '(') {
+                int j = i + 1;
+
+                while (j < n && tokens[j] != ')') {
+                    j++;
+                }
+
+                String key = s.substring(i + 1, j);
+                String value = map.getOrDefault(key, "?");
                 if (isTest) {
-                    System.out.println(" * within brackets: " + current.toString());
+                    System.out.println(" * key: " + key + " | indices: [" + i + ", " + (j - 1) + "]" + ", value: " + value);
                 }
-                if (map.containsKey(current.toString())) {
-                    result.append(map.get(current.toString()));
-                } else {
-                    result.append('?');
-                }
-                current = new StringBuilder();
-            } else {
-                current.append(c);
+
+                result.append(value);
+
+                i = j + 1;
             }
         }
-        result.append(current);
         if (isTest) {
-            System.out.println("-------------------------------------------------");
-            System.out.println("result: " + result);
+            System.out.println("----------------------------------------------------\nresult: " + result);
         }
 
         return result.toString();
