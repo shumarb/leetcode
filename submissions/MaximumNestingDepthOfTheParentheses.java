@@ -2,18 +2,18 @@
 
 class MaximumNestingDepthOfTheParentheses {
     public int maxDepth(String s) {
-        int currentDepth = 0;
-        int maxDepth = 0;
+        int current = 0;
+        int result = 0;
 
         for (char c: s.toCharArray()) {
             if (c == '(') {
-                currentDepth++;
-                maxDepth = Math.max(maxDepth, currentDepth);
+                current++;
+
             } else if (c == ')') {
-                currentDepth--;
+                result = Math.max(current--, result);
             }
         }
 
-        return maxDepth;
+        return result;
     }
 }
