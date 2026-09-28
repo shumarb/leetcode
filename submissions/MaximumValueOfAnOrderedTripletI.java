@@ -1,21 +1,18 @@
 // Question: https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/
 
-class MaximumValueOfAnOrderedTripletOne {
+class MaximumValueOfAnOrderedTripletI {
     public long maximumTripletValue(int[] nums) {
-        int len = nums.length;
-        long maximumTripletValue = 0;
+        long maximum = nums[0];
+        long maximumDifference = 0;
+        long result = 0;
 
-        for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < len; j++) {
-                for (int k = j + 1; k < len; k++) {
-                    long currentTripletValue = ((long) nums[i] - (long) nums[j]) * (long) nums[k];
-                    if (currentTripletValue > 0) {
-                        maximumTripletValue = Math.max(maximumTripletValue, currentTripletValue);
-                    }
-                }
-            }
+        for (int k = 1; k < nums.length; k++) {
+            long current = nums[k];
+            result = Math.max(maximumDifference * current, result);
+            maximumDifference = Math.max(maximumDifference, maximum - current);
+            maximum = Math.max(current, maximum);
         }
 
-        return maximumTripletValue;
+        return result;
     }
 }
