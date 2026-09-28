@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-queen-moves-to-reach-target/description/
 
-class MiniumumQueenMovesToReachTarget {
+class MinimumQueenMovesToReachTarget {
     public int minQueenMoves(int[] source, int[] target) {
         // 1. source == target.
         if (Arrays.equals(source, target)) {
