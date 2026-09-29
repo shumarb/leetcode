@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 47/134.
+Completed: 48/134.
 
 ## Submissions
 ### Easy
@@ -64,6 +64,7 @@ Completed: 47/134.
 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Bank.java)                       | 95ms    | 96.22%  |
 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestInfiniteSet.java)        | 16ms    | 33.15%  |
 | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/StockPrice.java)                 | 109ms   | 52.64%  |
+| [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SubrectangleQueries.java)        | 21ms    | 79.65%  |
 
 ### Hard
 | Question                                                                                                                                      | Submission                                                                                               | Runtime | Rank   |
