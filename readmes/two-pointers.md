@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 120/263.
+Completed: 121/263.
 
 ## Submissions
 ### Easy
@@ -85,7 +85,8 @@ Completed: 120/263.
 ### Medium
 | Question                                                                                                                                                                                        | Submission                                                                                                                         | Runtime | Rank    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------|---------|
-| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                    | 30ms    | 84.37%  |
+| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                                    | 32ms    | 75.32%  |
+| [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)                                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSumClosest.java)                                             | 75ms    | 5.16%   |
 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AddingSpacesToAString.java)                                       | 11ms    | 98.01%  |
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                            | 76ms    | 25.33%  |
 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AppendCharactersToStringToMakeSubsequence.java)                   | 4ms     | 97.04%  |

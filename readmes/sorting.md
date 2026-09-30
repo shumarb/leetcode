@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 190/536.
+Completed: 191/536.
 
 ## Submissions
 ### Easy
@@ -105,9 +105,10 @@ Completed: 190/536.
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)                                         | 1ms     | 99.65%  |
 
 ### Medium
-| Question                                                                                                                                                       | Submission                                                                                                              | Runtime | Rank    |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------|---------|
-| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                         | 30ms    | 84.37%  |
+| Question                                                                                                                                                       | Submission                                                                                                               | Runtime | Rank    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|---------|
+| [3Sum](https://leetcode.com/problems/3sum/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSum.java)                                         | 32ms    | 75.32%  |
+| [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSumClosest.java)                                  | 75ms    | 5.16%   |
 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AccountsMerge.java)                                    | 41ms    | 20.98%  |
 | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AdvantageShuffle.java)                                 | 76ms    | 25.33%  |
 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/AllElementsInTwoBinarySearchTrees.java)                | 16ms    | 88.19%  |
