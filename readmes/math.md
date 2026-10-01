@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 230/708.
+Completed: 231/710.
 
 ## Submissions
 ### Easy
@@ -109,6 +109,7 @@ Completed: 230/708.
 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/description/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumNumberOfFlipsToReverseBinaryString.java)              | 1ms     | 99.99%  |
 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/)                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MininumNumberOfPushesToTypeWordI.java)                       | 0ms     | 100.00% |
 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-perations-to-make-array-sum-divisible-by-k/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumOperationsToMakeArraySumDivisibleByK.java)            | 1ms     | 92.04%  |
+| [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumQueenMovesToReachTarget.java)                         | 1ms     | 100.00% |
 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/)                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumSumOfFourDigitNumberAfterSplittingDigits.java)        | 0ms     | 100.00% |
 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MirrorDistanceOfAnInteger.java)                              | 1ms     | 99.89%  |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                          | 0ms     | 100.00% |

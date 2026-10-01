@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 68/274.
+Completed: 69/277.
 
 ## Submissions
 ### Easy
@@ -61,6 +61,7 @@ Completed: 68/274.
 | [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/IncrementSubmatricesByOne.java)                               | 699ms   | 17.04%  |
 | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGameVII.java)                                             | 10ms    | 64.27%  |
 | [Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestBalancedSubarrayI.java)                                | 146ms   | 86.02%  |
+| [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayDivisibleByKWithAtMostOneNegationI.java)       | 127ms   | 78.31%  |
 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestWellPerformingInterval.java)                           | 1100ms  | 5.11%   |
 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnesIII.java)                                   | 4ms     | 44.30%  |
 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeTheConfusionOfAnExam.java)                            | 11ms    | 93.69%  |

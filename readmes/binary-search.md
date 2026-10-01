@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 78/352.
+Completed: 79/356.
 
 ## Submissions
 ### Easy
@@ -38,6 +38,7 @@ Completed: 78/352.
 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumCountOfPositiveIntegerAndNegativeInteger.java) | 0ms     | 100.00% |
 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumCommonValue.java)                              | 0ms     | 100.00% |
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                   | 0ms     | 100.00% |
+| [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIntersectingIntervalPairsI.java)              | 4ms     | 99.78%  |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SearchInsertPosition.java)                            | 0ms     | 100.00% |
 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SpecialArrayWithXElementsGreaterThanOrEqualX.java)    | 1ms     | 83.54%  |
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SqrtX.java)                                           | 1ms     | 98.02%  |

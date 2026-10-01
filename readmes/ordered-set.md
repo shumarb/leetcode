@@ -10,15 +10,16 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 14/80.
+Completed: 15/81.
 
 ## Submissions
 ### Easy
-| Question                                                                                                                | Submission                                                                                              | Runtime | Rank    |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
-| [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsII.java)              | 2ms     | 82.16%  |
-| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                | 2ms     | 100.00% |
-| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java) | 2ms     | 79.90%  |
+| Question                                                                                                                              | Submission                                                                                                    | Runtime | Rank    |
+|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------|---------|
+| [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FruitsIntoBasketsII.java)                    | 2ms     | 82.16%  |
+| [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MergeSimilarItems.java)                      | 2ms     | 100.00% |
+| [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumPairRemovalToSortArrayOne.java)       | 2ms     | 79.90%  |
+| [Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayByRemovingDistinctValues.java) | 1ms     | 100.00% |
 
 ### Medium
 | Question                                                                                                                                                                                            | Submission                                                                                                                             | Runtime | Rank   |

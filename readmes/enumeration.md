@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 49/162.
+Completed: 50/163.
 
 ## Submissions
 ### Easy
@@ -41,6 +41,7 @@ Completed: 49/162.
 | [Nearest Available Drone](https://leetcode.com/problems/nearest-available-drone/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NearestAvailableDrone.java)                          | 1ms     | 100.00% |
 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfArithmeticTriplets.java)                     | 0ms     | 100.00% |
 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfCommonFactors.java)                          | 1ms     | 44.28%  |
+| [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIntersectingIntervalPairsI.java)             | 4ms     | 99.78%  |
 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PairPrimesWithTargetSum.java)                        | 132ms   | 74.11%  |
 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDigitFromNumberToMaximizeResult.java)          | 2ms     | 72.81%  |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SmallestDivisibleDigitProductOne.java)               | 1ms     | 65.70%  |

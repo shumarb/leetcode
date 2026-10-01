@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 129/217.
+Completed: 130/218.
 
 ## Submissions
 ### Easy
@@ -79,6 +79,7 @@ Completed: 129/217.
 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumStringLengthAfterRemovingSubstrings.java)       | 3ms     | 95.77%  |
 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfStudentsUnableToEatLunch.java)                 | 0ms     | 100.00% |
 | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PassThePillow.java)                                    | 0ms     | 100.00% |
+| [Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayByRemovingDistinctValues.java)           | 1ms     | 100.00% |
 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZerosInDecimalRepresentation.java)               | 1ms     | 98.59%  |
 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReshapeTheMatrix.java)                                 | 0ms     | 100.00% |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseDegreeOfAString.java)                           | 1ms     | 100.00% |

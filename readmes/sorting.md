@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 191/536.
+Completed: 193/540.
 
 ## Submissions
 ### Easy
@@ -79,8 +79,10 @@ Completed: 191/536.
 | [Missing Number](https://leetcode.com/problems/missing-number/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MissingNumber.java)                                        | 0ms     | 100.00% |
 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NeitherMinimumNorMaximum.java)                             | 4ms     | 99.50%  |
 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfDistinctAverages.java)                             | 1ms     | 99.35%  |
+| [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/description/)                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfIntersectingIntervalPairsI.java)                   | 4ms     | 99.78%  |
 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfUnequalTripletsInArray.java)                       | 5ms     | 85.76%  |
 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTransformOfAnArray.java)                               | 25ms    | 86.01%  |
+| [Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayByRemovingDistinctValues.java)               | 1ms     | 100.00% |
 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeStringToAvoidCharacterPair.java)                  | 1ms     | 100.00% |
 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeRanks.java)                                        | 9ms     | 61.66%  |
 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RelativeSortArray.java)                                    | 0ms     | 100.00% |

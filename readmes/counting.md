@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 114/213.
+Completed: 115/215.
 
 ## Submissions
 ### Easy
@@ -67,6 +67,7 @@ Completed: 114/213.
 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfEquivalentDominoPairs.java)                      | 3ms     | 82.93%  |
 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOfGoodPairs.java)                                  | 0ms     | 100.00% |
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RansomNote.java)                                         | 1ms     | 99.14%  |
+| [Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeArrayByRemovingDistinctValues.java)             | 1ms     | 100.00% |
 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeCharactersToMakeTargetString.java)              | 0ms     | 100.00% |
 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RedistributeCharactersToMakeAllStringsEqual.java)        | 2ms     | 94.26%  |
 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveLetterToEqualizeFrequency.java)                    | 1ms     | 49.79%  |
