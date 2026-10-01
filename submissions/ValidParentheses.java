@@ -2,14 +2,15 @@
 
 class ValidParentheses {
     public boolean isValid(String s) {
-        if (s.length() % 2 != 0) {
+        Stack<Character> stack = new Stack<>();
+        char[] tokens = s.toCharArray();
+
+        if (tokens.length % 2 == 1) {
             return false;
         }
 
-        Stack<Character> stack = new Stack<>();
-
-        for (char c: s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') {
+        for (char c: tokens) {
+            if (c == '(' || c == '[' || c == '{') {
                 stack.push(c);
 
             } else {
@@ -17,14 +18,16 @@ class ValidParentheses {
                     return false;
                 }
 
-                char top = stack.pop();
-                if (c == ')' && top != '(') {
-                    return false;
+                char top = stack.peek();
 
-                } else if (c == '}' && top != '{') {
-                    return false;
+                if (
+                        (top == '(' && c == ')')
+                                || (top == '[' && c == ']')
+                                || (top == '{' && c == '}')
+                ) {
+                    stack.pop();
 
-                } else if (c == ']' && top != '[') {
+                } else {
                     return false;
                 }
             }

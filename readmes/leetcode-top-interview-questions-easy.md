@@ -90,4 +90,4 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/NumberOf1Bits.java)    | 0ms     | 100.00% |
 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PascalsTriangle.java)  | 1ms     | 95.20%  |
 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReverseBits.java)      | 2ms     | 13.57%  |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java) | 2ms     | 97.66%  |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java) | 3ms     | 85.88%  |

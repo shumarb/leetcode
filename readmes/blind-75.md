@@ -34,7 +34,7 @@ Completed: 65/75.
 | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TwoSum.java)                    | 2ms     | 99.34%  |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidAnagram.java)              | 1ms     | 99.65%  |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidPalindrome.java)           | 2ms     | 98.56%  |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)          | 3ms     | 87.37%  |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ValidParentheses.java)          | 3ms     | 85.88%  |
 
 ### Medium
 | Question                                                                                                                                                          | Submission                                                                                                                | Runtime | Rank    |
