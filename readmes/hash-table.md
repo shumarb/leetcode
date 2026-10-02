@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 375/843.
+Completed: 376/843.
 
 ## Submissions
 ### Easy
@@ -348,6 +348,7 @@ Completed: 375/843.
 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RandomPickIndex.java)                                              | 58ms    | 99.02%  |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                             | 5ms     | 84.98%  |
 | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReachableNodesWithRestrictions.java)                               | 47ms    | 87.43%  |
+| [Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeKSubstringsToFormTargetString.java)                       | 71ms    | 40.23%  |
 | [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReconstructOriginalDigitsFromEnglish.java)                         | 4ms     | 78.33%  |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                                     | 17ms    | 92.02%  |
 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveZeroSumConsecutiveNodesFromLinkedList.java)                  | 2ms     | 91.55%  |

@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 193/540.
+Completed: 194/540.
 
 ## Submissions
 ### Easy
@@ -182,6 +182,7 @@ Completed: 193/540.
 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PermutationsTwo.java)                                  | 1ms     | 99.88%  |
 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RangeSumOfSortedSubarraySums.java)                     | 18ms    | 83.97%  |
 | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RankTeamsByVotes.java)                                 | 5ms     | 84.98%  |
+| [Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/description/)                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangeKSubstringsToFormTargetString.java)           | 71ms    | 40.23%  |
 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RearrangesWordsInASentence.java)                       | 22ms    | 87.96%  |
 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/description/)                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReduceArraySizeToTheHalf.java)                         | 17ms    | 92.02%  |
 | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/)       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReductionOperationsToMakeTheArrayElementsEqual.java)   | 34ms    | 70.37%  |
