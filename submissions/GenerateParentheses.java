@@ -10,44 +10,39 @@ class GenerateParentheses {
         result = new ArrayList<>();
         this.n = n;
 
-        helper(new StringBuilder(), 0, 0);
+        dfs(new char[2 * n], 0, 0, 0);
         if (isTest) {
-            System.out.println("-----------------------------------\nresult: " + result);
+            System.out.println("result:");
+            for (String e: result) {
+                System.out.println(" * " + e);
+            }
         }
 
         return result;
     }
 
-    private void helper(StringBuilder current, int open, int close) {
+    private void dfs(char[] tokens, int index, int countOpen, int countClose) {
         if (isTest) {
-            System.out.println("current: " + current);
+            System.out.println(" * index: " + index + ", countOpen: " + countOpen + ", countClose: " + countClose + " | tokens: " + Arrays.toString(tokens));
         }
 
-        // 1. Base case: Valid parentheses formed with n '(' & ')' in correct positions.
-        if (current.length() == 2 * n) {
+        if (index == 2 * n) {
             if (isTest) {
-                System.out.println(" * adding: " + current);
-                System.out.println("-----------------------------------");
+                System.out.println(" ** valid\n-----------------------------------------------------------------------");
             }
-            result.add(current.toString());
+
+            result.add(new String(tokens));
             return;
         }
 
-        /**
-         2.  Recursive case: Explore recursive tree for valid parenthese after adding '(',
-             until current has n '(', the explore recursive tree for valid parentheses
-             after adding ')' until open == close.
-         */
-        if (open < n) {
-            current.append('(');
-            helper(current, open + 1, close);
-            current.setLength(current.length() - 1);
+        if (countOpen < n) {
+            tokens[index] = '(';
+            dfs(tokens, index + 1, countOpen + 1, countClose);
         }
 
-        if (close < open) {
-            current.append(')');
-            helper(current, open, close + 1);
-            current.setLength(current.length() - 1);
+        if (countClose < countOpen) {
+            tokens[index] = ')';
+            dfs(tokens, index + 1, countOpen, countClose + 1);
         }
     }
 }

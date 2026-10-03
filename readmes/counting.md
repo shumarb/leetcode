@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 115/215.
+Completed: 116/215.
 
 ## Submissions
 ### Easy
@@ -86,6 +86,7 @@ Completed: 115/215.
 ### Medium
 | Question                                                                                                                                                                  | Submission                                                                                                                  | Runtime | Rank    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------|---------|
+| [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeSumWithMultiplicity.java)                             | 11ms    | 56.99%  |
 | [Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ApplyOperationsToMakeStringEmpty.java)                     | 18ms    | 93.01%  |
 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BullsAndCows.java)                                         | 1ms     | 100.00% |
 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CheckIfArrayPairsAreDivisibleByK.java)                     | 2ms     | 99.45%  |
