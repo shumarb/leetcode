@@ -77,32 +77,24 @@ class ThreeSumWithMultiplicity {
         int first = triplet[0];
         int second = triplet[1];
         int third = triplet[2];
+        long n;
 
-        // 2. Apply correct combination formula.
         if (first == second && second == third) {
-            long value = count[first];
-
-            return ((value * (value - 1) * (value - 2)) / 6l);
+            n = count[first];
+            return (n * (n - 1) * (n - 2)) / 6l;
         }
 
-        if (first == second && first != third && second != third) {
-            long value = count[first];
-            long numerator = value * (value - 1);
-            numerator *= count[third];
-
-            return numerator / 2l;
+        if (first == second) {
+            n = count[first];
+            return ((long) count[third] * n * (n - 1)) / 2l;
         }
 
-        if (first != second && first != third && second == third) {
-            long value = count[second];
-            long numerator = value * (value - 1);
-            numerator *= count[first];
-
-            return numerator / 2l;
+        if (second == third) {
+            n = count[second];
+            return ((long) count[first] * n * (n - 1)) / 2l;
         }
 
-
-        return (long) (count[first] * count[second] * count[third]);
+        return count[first] * count[second] * count[third];
     }
 
     private void sort() {
