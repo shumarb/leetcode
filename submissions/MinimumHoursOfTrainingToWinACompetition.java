@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/description/
 
-class MinimumHoursOfTrainingToWinACompetition class Solution {
+class MinimumHoursOfTrainingToWinACompetition {
     public int minNumberOfHours(int initialEnergy, int initialExperience, int[] energy, int[] experience) {
         boolean isTest = false;
         int n = energy.length;

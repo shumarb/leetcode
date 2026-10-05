@@ -10,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class AddTwoNumbersTwo {
+class AddTwoNumbersII {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = null;
         int carry = 0;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/fruit-into-baskets/description/
 
-class FruitsIntoBaskets {
+class FruitIntoBaskets {
     public int totalFruit(int[] fruits) {
         boolean isTest = false;
         int[] count = new int[100001];

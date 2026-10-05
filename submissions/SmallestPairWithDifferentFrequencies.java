@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/smallest-pair-with-different-frequencies/description/
 
-class SmallestPairWithDifferentFrequencie {
+class SmallestPairWithDifferentFrequencies {
     public int[] minDistinctFreqPair(int[] nums) {
         // 1. Edge case: nums has 1 element.
         if (nums.length == 1) {

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/number-of-closed-islands/description/
 
-class NumberOfClosedIslands class Solution {
+class NumberOfClosedIslands {
     private int[][] grid;
     private int m;
     private int n;

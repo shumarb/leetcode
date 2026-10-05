@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/hand-of-straights/description/
 
-class HandOfStraightsclass {
+class HandOfStraights {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         TreeMap<Integer, Integer> map = new TreeMap<>();
         boolean isTest = false;

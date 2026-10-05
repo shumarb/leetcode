@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-average-subarray-i/description/
 
-class MaximumAverageSubarrayOne {
+class MaximumAverageSubarrayI {
     public double findMaxAverage(int[] nums, int k) {
         double result;
         double sum = 0;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/
 
-class MaximumSumOfAlmostUniqueSubarray class Solution {
+class MaximumSumOfAlmostUniqueSubarray {
     public long maxSum(List<Integer> nums, int m, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int n = nums.size();

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/remove-covered-intervals/description/
 
-class CoveredIntervals {
+class RemoveCoveredIntervals {
     public int removeCoveredIntervals(int[][] intervals) {
         boolean isTest = false;
         int[] current;

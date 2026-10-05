@@ -5,36 +5,37 @@ class MinimumWindowSubstring {
 
     public String minWindow(String s, String t) {
         countT = new int[52];
+        char[] sLetters = s.toCharArray();
         int[] window = new int[52];
-        int minWindowLength = Integer.MAX_VALUE;
-        int minWindowStartIndex = -1;
         int left = 0;
-        int n = s.length();
+        int minimumWindowLength = Integer.MAX_VALUE;
+        int minimumWindowStartIndex = -1;
+        int n = sLetters.length;
 
         for (char letter: t.toCharArray()) {
-            int index = Character.isUpperCase(letter) ? letter - 'A' : 26 + letter - 'a';
+            int index = letter >= 'A' && letter <= 'Z' ? letter - 'A' : 26 + letter - 'a';
             countT[index]++;
         }
 
         for (int right = 0; right < n; right++) {
-            char letter = s.charAt(right);
-            int index = Character.isUpperCase(letter) ? letter - 'A' : 26 + letter - 'a';
+            char letter = sLetters[right];
+            int index = letter >= 'A' && letter <= 'Z' ? letter - 'A' : 26 + letter - 'a';
             window[index]++;
 
             while (isValid(window)) {
-                int currentLength = right - left + 1;
-                if (currentLength < minWindowLength) {
-                    minWindowLength = currentLength;
-                    minWindowStartIndex = left;
+                int length = right - left + 1;
+                if (length < minimumWindowLength) {
+                    minimumWindowLength = length;
+                    minimumWindowStartIndex = left;
                 }
 
-                letter = s.charAt(left++);
-                index = Character.isUpperCase(letter) ? letter - 'A' : 26 + letter - 'a';
+                letter = sLetters[left++];
+                index = letter >= 'A' && letter <= 'Z' ? letter - 'A' : 26 + letter - 'a';
                 window[index]--;
             }
         }
 
-        return minWindowStartIndex == -1 ? "" : s.substring(minWindowStartIndex, minWindowStartIndex + minWindowLength);
+        return minimumWindowStartIndex == -1 ? "" : s.substring(minimumWindowStartIndex, minimumWindowStartIndex + minimumWindowLength);
     }
 
     private boolean isValid(int[] countS) {

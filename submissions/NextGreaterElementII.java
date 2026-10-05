@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/next-greater-element-ii/description/
 
-class NextGreaterElementTwo {
+class NextGreaterElementII {
     public int[] nextGreaterElements(int[] nums) {
         int len = nums.length;
         boolean isTest = false;

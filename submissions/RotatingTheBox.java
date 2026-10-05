@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/rotating-the-box/description/
 
-class RotatingTheBox class Solution {
+class RotatingTheBox {
     public char[][] rotateTheBox(char[][] boxGrid) {
         boolean isTest = false;
         int m = boxGrid.length;

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/description/
 
-class RearrangeKSubstringsToFormTargetString class Solution {
+class RearrangeKSubstringsToFormTargetString {
     public boolean isPossibleToRearrange(String s, String t, int k) {
         Map<String, Integer> map = new HashMap<>();
         boolean isTest = false;

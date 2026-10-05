@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/cyclically-shift-rows-and-columns/description/
 
-class CyclicallyShiftRowsAndColumns class Solution {
+class CyclicallyShiftRowsAndColumns {
     private int[][] grid;
     private int n;
 

@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/
 
-class MinimumValueToGetPositiveStepByStepSum class Solution {
+class MinimumValueToGetPositiveStepByStepSum {
     public int minStartValue(int[] nums) {
         boolean isTest = false;
         int n = nums.length;

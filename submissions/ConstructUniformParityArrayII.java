@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/construct-uniform-parity-array-ii/description/
 
-class ConstructUniformParityArrayII class Solution {
+class ConstructUniformParityArrayII {
     public boolean uniformArray(int[] nums1) {
         boolean isTest = false;
         int countOdd = 0;

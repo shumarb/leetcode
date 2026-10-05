@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/
 
-class MininumNumberOfPushesToTypeWordI {
+class MinimumNumberOfPushesToTypeWordI {
     public int minimumPushes(String word) {
         boolean isTest = false;
         int countLettersPerGroup = 0;

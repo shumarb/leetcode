@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/description/
 
-class FilterRestaurantsByVeganFriendlyPrice {
+class FilterRestaurantsByVeganFriendlyPriceAndDistance {
     public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
         List<Integer> result = new ArrayList<>();
         boolean isTest = false;

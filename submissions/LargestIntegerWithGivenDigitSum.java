@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/largest-integer-with-given-digit-sum/description/
 
-class LargestIntegerWithGivenDigitSum class Solution {
+class LargestIntegerWithGivenDigitSum {
     public int largestInteger(int n, int s) {
         if (s == 0) {
             return 0;

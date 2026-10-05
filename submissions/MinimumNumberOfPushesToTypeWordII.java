@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/
 
-class MininumNumberOfPushesToTypeWordII {
+class MinimumNumberOfPushesToTypeWordII {
     public int minimumPushes(String word) {
         int[] count = new int[26];
         int countPresses = 1;

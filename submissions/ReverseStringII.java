@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/reverse-string-ii/description/
 
-class ReverseStringTwo {
+class ReverseStringII {
     public String reverseStr(String s, int k) {
         boolean isTest = false;
         char[] letters = s.toCharArray();
