@@ -2,21 +2,24 @@
 
 class CountSpecialQuadruplets {
     public int countQuadruplets(int[] nums) {
-        int count = 0;
-        int len = nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        int result = 0;
 
-        for (int a = 0; a < len; a++) {
-            for (int b = a + 1; b < len; b++) {
-                for (int c = b + 1; c < len; c++) {
-                    for (int d = c + 1; d < len; d++) {
-                        if ((nums[a] + nums[b] + nums[c]) == nums[d]) {
-                            count++;
-                        }
-                    }
-                }
+        for (int c = 2; c < n - 1; c++) {
+            for (int a = 0; a < c - 1; a++) {
+                // 1. Store all possible nums[a] + nums[b] for range [0, n - 3],
+                // where is in range [a + 1, c - 1].
+                map.merge(nums[a] + nums[c - 1], 1, Integer::sum);
+            }
+
+            // 2. nums[a] + nums[b] == nums[d] - nums[c].
+            for (int d = c + 1; d < n; d++) {
+                int complement = nums[d] - nums[c];
+                result += map.getOrDefault(complement, 0);
             }
         }
 
-        return count;
+        return result;
     }
 }
