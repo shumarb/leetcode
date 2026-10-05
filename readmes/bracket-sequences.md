@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 5/15.
+Completed: 6/15.
 
 ## Submissions
 ### Easy
@@ -25,3 +25,4 @@ Completed: 5/15.
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|---------|
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)              | 0ms     | 100.00% |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MinimumAddToMakeParenthesesValid.java) | 1ms     | 51.13%  |
+| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ScoreOfParentheses.java)               | 1ms     | 61.96%  |
