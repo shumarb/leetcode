@@ -2,45 +2,29 @@
 
 class ThirdMaximumNumber {
     public int thirdMax(int[] nums) {
-        long firstMax = Long.MIN_VALUE;
-        long secondMax = Long.MIN_VALUE;
-        long thirdMax = Long.MIN_VALUE;
         boolean isTest = false;
+        long maximum = Long.MIN_VALUE;
+        long secondMaximum = Long.MIN_VALUE;
+        long thirdMaximum = Long.MIN_VALUE;
 
-        for (int number: nums) {
-            /**
-             1.  Ensures only top three distinct elements are processed
-             if nums has >= 3 distinct elements
-             */
-            if (firstMax == number || secondMax == number || thirdMax == number) {
-                continue;
-            } else {
-                if (number > firstMax) {
-                    thirdMax = secondMax;
-                    secondMax = firstMax;
-                    firstMax = number;
-                } else if (number > secondMax) {
-                    thirdMax = secondMax;
-                    secondMax =  number;
-                } else if (number > thirdMax) {
-                    thirdMax = number;
-                }
-            }
+        for (int e: nums) {
+            if (e > maximum) {
+                thirdMaximum = secondMaximum;
+                secondMaximum = maximum;
+                maximum = e;
 
-            if (isTest) {
-                System.out.println("firstMax so far: " + firstMax);
-                System.out.println("secondMax so far: " + secondMax);
-                System.out.println("thirdMax so far: " + thirdMax);
+            } else if (maximum > e && e > secondMaximum) {
+                thirdMaximum = secondMaximum;
+                secondMaximum = e;
+
+            } else if (secondMaximum > e && e > thirdMaximum) {
+                thirdMaximum = e;
             }
         }
-
         if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums));
-            System.out.println("firstMax: " + firstMax);
-            System.out.println("secondMax: " + secondMax);
-            System.out.println("thirdMax: " + thirdMax);
+            System.out.println("nums: " + Arrays.toString(nums) + "\nmaximum: " + maximum + "\nsecondMaximum: " + secondMaximum + "\nthirdMaximum: " + thirdMaximum);
         }
 
-        return (thirdMax == Long.MIN_VALUE) ? (int) firstMax : (int) thirdMax;
+        return thirdMaximum == Long.MIN_VALUE ? (int) maximum : (int) thirdMaximum;
     }
 }

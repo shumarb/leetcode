@@ -2,20 +2,23 @@
 
 class MinimumAddToMakeParenthesesValid {
     public int minAddToMakeValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        boolean isTest = false;
+        int countClose = 0;
+        int countOpen = 0;
 
-        for (char part: s.toCharArray()) {
-            if (!stack.isEmpty() && part == ')' && stack.peek() == '(') {
-                stack.pop();
+        for (char c: s.toCharArray()) {
+            if (c == '(') {
+                countOpen++;
+
             } else {
-                stack.push(part);
+                if (countOpen > 0) {
+                    countOpen--;
+
+                } else {
+                    countClose++;
+                }
             }
         }
-        if (isTest) {
-            System.out.println("s: " + s + "\nstack: " + stack + "\nanswer: " + stack.size());
-        }
 
-        return stack.size();
+        return countOpen + countClose;
     }
 }
