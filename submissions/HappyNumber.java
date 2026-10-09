@@ -2,29 +2,20 @@
 
 class HappyNumber {
     public boolean isHappy(int n) {
-        int sum = 0;
-        boolean t = false;
         while (n > 0) {
-            if (t) {
-                System.out.println("n: " + n + " | sum: " + sum);
+            int sumOfSquareOfDigits = 0;
+
+            while (n > 0) {
+                sumOfSquareOfDigits += (int) Math.pow(n % 10, 2);
+                n /= 10;
             }
-            sum += (n % 10) * (n % 10);
-            n /= 10;
-            if (n == 0) {
-                if (t) {
-                    System.out.println("n: " + n + " | sum: " + sum);
-                }
-                if (sum < 9) {
-                    break;
-                } else {
-                    n = sum;
-                    sum = 0;
-                }
+
+            n = sumOfSquareOfDigits;
+            if (n < 9) {
+                break;
             }
         }
-        if (t) {
-            System.out.println("sum: " + sum);
-        }
-        return sum == 1 || sum == 7;
+
+        return n == 1 || n == 7;
     }
 }
