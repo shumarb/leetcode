@@ -9,7 +9,7 @@
  * int guess(int num);
  */
 
-public class Solution extends GuessGame {
+public class GuessNumberHigherOrLower extends GuessGame {
     public int guessNumber(int n) {
         int left = 0;
         int right = n;

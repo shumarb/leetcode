@@ -36,7 +36,7 @@ Completed: 20/51.
 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/)   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindKthBitInNBinaryString.java) | 224ms   | 5.41%   |
 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/PowXN.java)                     | 0ms     | 100.00% |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java) | 7ms     | 73.29%  |
-| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)               | 4ms     | 12.39%  |
+| [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)               | 2ms     | 85.91%  |
 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/descript-ion/)                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SwapNodesInPairs.java)          | 0ms     | 100.00% |
 
 ### Hard

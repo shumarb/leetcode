@@ -6,6 +6,9 @@ class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
         List<Integer> closestTriplet = new ArrayList<>();
         boolean isTest = false;
+        int closestFirst = 0;
+        int closestSecond = 0;
+        int closestThird = 0;
         int n = nums.length;
         int result = 0;
         this.nums = nums;
@@ -36,17 +39,20 @@ class ThreeSumClosest {
                     System.out.println(" * indices: [" + i + ", " + j + ", " + k + "] | sum: " + sum + " | triplet: [" + nums[i] + ", " + nums[j] + ", " + nums[k] + "]");
                 }
 
-                // 1. Identify triplet whose sum is closest to target.
+                // 1. Triplet's sum is target, so no other triplet exists whose sum is closer to target than this.
+                if (sum == target) {
+                    return sum;
+                }
+
+                // 2. Identify triplet whose sum is closest to target.
                 if (Math.abs(sum - target) < Math.abs(result - target)) {
-                    closestTriplet = List.of(nums[i], nums[j], nums[k]);
+                    closestFirst = nums[i];
+                    closestSecond = nums[j];
+                    closestThird = nums[k];
                     result = sum;
                 }
 
-                // 2. Triplet's sum is target, so no other triplet exists whose sum is closer to target than this.
-                if (sum == target) {
-                    break;
-
-                } else if (sum < target) {
+                if (sum < target) {
                     j++;
 
                 } else {
@@ -55,7 +61,7 @@ class ThreeSumClosest {
             }
         }
         if (isTest) {
-            System.out.println("-------------------------------------------------------------\nclosestTriplet: " + closestTriplet + "\nresult: " + result);
+            System.out.println("-------------------------------------------------------------\nclosestTriplet: [" + closestFirst + ", " + closestSecond + ", " + closestThird + "]\nresult: " + result);
         }
 
         return result;
