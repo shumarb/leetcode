@@ -4,7 +4,6 @@ class ThreeSumClosest {
     private int[] nums;
 
     public int threeSumClosest(int[] nums, int target) {
-        List<Integer> closestTriplet = new ArrayList<>();
         boolean isTest = false;
         int closestFirst = 0;
         int closestSecond = 0;
