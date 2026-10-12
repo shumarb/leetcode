@@ -1,11 +1,9 @@
-// Question: https://leetcode.com/contest/weekly-contest-523/problems/prime-subset-selection-i/description/
+// Question: https://leetcode.com/problems/prime-subset-selection-i/description/
 
 class PrimeSubsetSelectionI {
     public List<Integer> maxPrimes(int n, int s) {
         List<Integer> result = new ArrayList<>();
-        List<Integer> primes = new ArrayList<>();
         boolean[] isPrime = new boolean[n + 1];
-        boolean isTest = false;
         int sum = 0;
 
         if (s == 1) {
@@ -22,27 +20,17 @@ class PrimeSubsetSelectionI {
             }
         }
 
-        for (int i = 2; i <= n; i++) {
-            if (isPrime[i]) {
-                primes.add(i);
+        for (int i = 0; i <= n; i++) {
+            if (!isPrime[i]) {
+                continue;
             }
-        }
-        if (isTest) {
-            System.out.println("n: " + n + "\ns: " + s + "\nprimes: " + primes);
-        }
 
-        for (int i = 0; i < primes.size() && sum <= s; i++) {
-            int e = primes.get(i);
-
-            if (sum + e > s) {
+            if (sum + i > s) {
                 break;
             }
 
-            result.add(e);
-            sum += e;
-        }
-        if (isTest) {
-            System.out.println("result: " + result);
+            result.add(i);
+            sum += i;
         }
 
         return result;
