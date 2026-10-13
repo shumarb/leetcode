@@ -3,21 +3,17 @@
 class SumOfBeautyInTheArray {
     public int sumOfBeauties(int[] nums) {
         boolean isTest = false;
+        int maximum = nums[0];
         int n = nums.length;
-        int[] prefix = new int[n];
+        int result = 0;
         int[] suffix = new int[n];
-        long result = 0;
 
-        prefix[0] = nums[0];
         suffix[n - 1] = nums[n - 1];
-        for (int i = 1; i < n; i++) {
-            prefix[i] = Math.max(nums[i], prefix[i - 1]);
-        }
         for (int i = n - 2; i >= 0; i--) {
             suffix[i] = Math.min(nums[i], suffix[i + 1]);
         }
         if (isTest) {
-            System.out.println("prefix: " + Arrays.toString(prefix) + "\nnums:   " + Arrays.toString(nums) + "\nsuffix: " + Arrays.toString(suffix));
+            System.out.println("nums:   " + Arrays.toString(nums) + "\nsuffix: " + Arrays.toString(suffix));
             System.out.println("-----------------------------------------------");
         }
 
@@ -25,7 +21,7 @@ class SumOfBeautyInTheArray {
             int beauty = 0;
             int element = nums[i];
 
-            if (prefix[i - 1] < element && element < suffix[i + 1]) {
+            if (maximum < element && element < suffix[i + 1]) {
                 beauty = 2;
 
             } else if (nums[i - 1] < element && element < nums[i + 1]) {
@@ -36,12 +32,13 @@ class SumOfBeautyInTheArray {
                 System.out.println(" * index: " + i + " | element: " + element + " | beauty: " + beauty);
             }
 
+            maximum = Math.max(element, maximum);
             result += beauty;
         }
         if (isTest) {
             System.out.println("-----------------------------------------------\nresult: " + result);
         }
 
-        return (int) result;
+        return result;
     }
 }
