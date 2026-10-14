@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 781/2273.
+Completed: 782/2273.
 
 ## Submissions
 ### Easy
@@ -591,6 +591,7 @@ Completed: 781/2273.
 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/)                                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestMountainInArray.java)                                          | 2ms     | 99.72%  |
 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSquareStreakInAnArray.java)                                    | 36ms    | 95.20%  |
 | [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayDivisibleByKWithAtMostOneNegationI.java)               | 127ms   | 78.31%  |
+| [Longest Subarray With Restricted Pair Sums](https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayWithRestrictedPairSums.java)                           | 558ms   | 13.63%  |
 | [Longest Subarray With at Most K Distinct Prime Factors](https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayWithAtMostKDistinctPrimeFactors.java)                  | 78ms    | 94.00%  |
 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubarrayOf1sAfterDeletingOneElement.java)                      | 2ms     | 99.25%  |
 | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)                                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestUncommonSubsequenceII.java)                                    | 2ms     | 28.79%  |
