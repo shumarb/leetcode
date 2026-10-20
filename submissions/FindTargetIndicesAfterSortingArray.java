@@ -4,49 +4,71 @@ class FindTargetIndicesAfterSortingArray {
     public List<Integer> targetIndices(int[] nums, int target) {
         List<Integer> result = new ArrayList<>();
         boolean isTest = false;
-        int startIndexOfTarget = 0;
-        int countTarget = 0;
+        int[] count = new int[101];
+        int firstIndex = -1;
+        int j = 0;
+        int lastIndex = -1;
+        int left = 0;
+        int n = nums.length;
+        int right = n - 1;
 
-        for (int element: nums) {
-            /**
-             1. Count number of elements < target
-             to identify start index of target when nums is sorted
-             */
-            if (element < target) {
-                startIndexOfTarget++;
+        for (int e: nums) {
+            count[e]++;
+        }
+        for (int i = 1; i < count.length; i++) {
+            while (count[i]-- > 0) {
+                nums[j++] = i;
             }
+        }
 
-            /**
-             2. Count number of times target is in nums
-             to know range of indices whose element is equal to target
-             from aforementioned start index
-             */
-            if (element == target) {
-                countTarget++;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int key = nums[mid];
+
+            if (key >= target) {
+                right = mid - 1;
+
+                if (key == target) {
+                    firstIndex = mid;
+                }
+
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        left = 0;
+        right = n - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int key = nums[mid];
+
+            if (key <= target) {
+                left = mid + 1;
+
+                if (key == target) {
+                    lastIndex = mid;
+                }
+
+            } else {
+                right = mid - 1;
             }
         }
         if (isTest) {
-            System.out.println("nums: " + Arrays.toString(nums) + "\ntarget: " + target);
-            System.out.println("startIndexOfTarget: " + startIndexOfTarget + ", countTarget: " + countTarget);
+            System.out.println("sorted nums: " + Arrays.toString(nums) + "\n\ntarget: " + target + ", index range: [" + firstIndex + ", " + lastIndex + "]");
         }
 
-        while (countTarget != 0) {
-            /**
-             3. Assuming nums is sorted,
-             the target element is stored in a consecutive manner starting frmo startIndexOfTarget,
-             so add incrementally from startIndexOfTarget by number of times target appears.
-             Eg: [3 1 2 4 2], target = 2 ==> sorted: [1 2 2 3 4], target = 2.
-             - start index of target (2) in sorted nums: 1,
-             - number of times target appears is 2,
-             ==> target indices are 1 & 2 ==> result {1, 2}.
-             */
-            result.add(startIndexOfTarget++);
-            countTarget--;
+        if (firstIndex == -1) {
+            return result;
         }
 
+        for (int i = firstIndex; i <= lastIndex; i++) {
+            result.add(i);
+        }
         if (isTest) {
-            System.out.println("result: " + result);
+            System.out.println("\nresult: " + result);
         }
+
         return result;
     }
 }
