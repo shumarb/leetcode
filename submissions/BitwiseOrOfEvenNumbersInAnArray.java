@@ -5,7 +5,7 @@ class BitwiseOrOfEvenNumbersInAnArray {
         int result = 0;
 
         for (int number: nums) {
-            if (number % 2 == 0) {
+            if ((number & 1) == 0) {
                 result |= number;
             }
         }
