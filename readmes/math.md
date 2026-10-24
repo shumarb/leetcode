@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 231/710.
+Completed: 232/710.
 
 ## Submissions
 ### Easy
@@ -47,6 +47,7 @@ Completed: 231/710.
 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/description)                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertIntegerToTheSumOfTwoNoZeroIntegers.java)              | 0ms     | 100.00% |
 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/description)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConvertTheTemperature.java)                                  | 0ms     | 100.00% |
 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/description/)                                                                                    | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommasInRange.java)                                     | 1ms     | 83.65%  |
+| [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/description/)                                                                            | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysSpentTogether.java)                                 | 0ms     | 100.00% |
 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDistinctNumbersOnBoard.java)                            | 0ms     | 100.00% |
 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/description)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountIntegersWithEvenDigitSum.java)                          | 1ms     | 86.87%  |
 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/description/)                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountLargestGroup.java)                                      | 3ms     | 99.37%  |

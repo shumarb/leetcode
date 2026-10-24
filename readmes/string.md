@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 372/895.
+Completed: 373/895.
 
 ## Submissions
 ### Easy
@@ -52,6 +52,7 @@ Completed: 372/895.
 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountAsterisks.java)                                               | 1ms     | 99.03%  |
 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBinarySubstrings.java)                                        | 6ms     | 99.70%  |
 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/description/)                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountCommonWordsWithOneOccurrence.java)                            | 6ms     | 89.98%  |
+| [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountDaysSpentTogether.java)                                       | 0ms     | 100.00% |
 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/description/)                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountItemsMatchingARule.java)                                      | 3ms     | 98.81%  |
 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPairsOfSimilarStrings.java)                                   | 11ms    | 64.52%  |
 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrefixAndSuffixPairsOne.java)                                 | 2ms     | 99.94%  |
