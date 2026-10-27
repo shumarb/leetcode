@@ -2,56 +2,46 @@
 
 class MaximizeSumAfterAtMostKDigitRearrangements {
     public long maximizeSum(int[] nums, int k) {
-        List<int[]> list = new ArrayList<>();
         boolean isTest = false;
+        int n = nums.length;
+        long[] gain = new long[n];
         long result = 0;
 
-        for (int e: nums) {
+        for (int i = 0; i < n; i++) {
             int[] count = new int[10];
-            int newNumber = 0;
-            int eCopy = e;
+            int complement = 0;
+            int e = nums[i];
+
             result += e;
-
-            while (eCopy > 0) {
-                count[eCopy % 10]++;
-                eCopy /= 10;
+            while (e > 0) {
+                count[e % 10]++;
+                e /= 10;
             }
-
-            for (int i = 9; i >= 0; i--) {
-                while (count[i]-- > 0) {
-                    newNumber *= 10;
-                    newNumber += i;
+            for (int j = 9; j >= 0; j--) {
+                while (count[j]-- > 0) {
+                    complement = complement * 10 + j;
                 }
             }
-
-            list.add(new int[] {e, newNumber});
+            gain[i] = complement - nums[i];
         }
 
-        list.sort((a, b) -> Integer.compare(b[1] - b[0], a[1] - a[0]));
+        Arrays.sort(gain);
         if (isTest) {
-            System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums) + "\nlist: ");
-            for (int[] e: list) {
-                System.out.println(" * " + Arrays.toString(e));
-            }
-            System.out.println("----------------------------------------------------------------------------------");
+            System.out.println("k: " + k + "\nnums: " + Arrays.toString(nums) + "\nsorted gain: " + Arrays.toString(gain) + "\nbefore, result: " + result);
+            System.out.println("-----------------------------------");
         }
-        for (int[] e: list) {
-            int gain = e[1] - e[0];
+
+        for (int i = n - 1; i >= n - k; i--) {
+            long toAdd = gain[i];
 
             if (isTest) {
-                System.out.println(" * e: " + e[0] + ", complement: " + e[1] + ", gain: " + gain);
+                System.out.println(" * add gain: " + toAdd);
             }
 
-            if (gain > 0 && k > 0) {
-                result += gain;
-                k--;
-
-            } else {
-                break;
-            }
+            result += toAdd;
         }
         if (isTest) {
-            System.out.println("----------------------------------------------------------------------------------\nresult: " + result);
+            System.out.println("-----------------------------------\nafter, result: " + result);
         }
 
         return result;
