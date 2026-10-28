@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/maximum-product-pair-with-target-sum/description/
 
-class MaximumProductAfterKIncrements {
+class MaximumProductPairWithTargetSum {
     public int[] maxProductPair(int[] nums, int target) {
         int[] map = new int[201];
         int[] result = new int[] {-1, -1};
