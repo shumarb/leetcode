@@ -2,16 +2,20 @@
 
 class SumOfSquareNumbers {
     public boolean judgeSquareSum(int c) {
-        long low = 0;
-        long high = (long) Math.sqrt(c);
+        long left = 0;
+        long right = (long) Math.sqrt(c);
 
-        while (low <= high) {
-            if (low * low + high * high == (long) c) {
+        while (left <= right) {
+            long sum = left * left + right * right;
+
+            if (sum == c) {
                 return true;
-            } else if (low * low + high * high < (long) c) {
-                low++;
+
+            } else if (sum < c) {
+                left++;
+
             } else {
-                high--;
+                right--;
             }
         }
 
