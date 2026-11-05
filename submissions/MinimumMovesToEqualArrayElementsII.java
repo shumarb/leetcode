@@ -1,8 +1,8 @@
 // Question: https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/
 
-class MinimumMovesToEqualArrayElementsTwo {
+class MinimumMovesToEqualArrayElementsII {
     public int minMoves2(int[] nums) {
-        boolean isTest = false;
+        boolean isTest = true;
         int median;
         int n = nums.length;
         int result = 0;
@@ -18,7 +18,7 @@ class MinimumMovesToEqualArrayElementsTwo {
             result += Math.abs(element - median);
         }
         if (isTest) {
-            System.out.println("median: " + median + "\nresult: " + result);
+            System.out.println("nums: " + Arrays.toString(nums) + "\nmedian: " + median + "\nresult: " + result);
         }
 
         return result;

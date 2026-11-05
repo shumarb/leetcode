@@ -1,25 +1,22 @@
 // Question: https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/
 
-class MinimumMovesToEqualArrayElementsThree {
+class MinimumMovesToEqualArrayElementsIII {
     public int minMoves(int[] nums) {
-        // 1. Edge case: Nums has 1 element.
-        if (nums.length == 1) {
+        int maximum = Integer.MIN_VALUE;
+        int n = nums.length;
+        int sum = 0;
+
+        if (n == 1) {
             return 0;
         }
-
-        int largest = nums[0];
-        int result = 0;
-
-        for (int i = 1; i < nums.length; i++) {
-            largest = Math.max(largest, nums[i]);
-        }
-        for (int element: nums) {
-            if (element == largest) {
-                continue;
+        for (int e: nums) {
+            if (e > maximum) {
+                maximum = e;
             }
-            result += (largest - element);
+
+            sum += e;
         }
 
-        return result;
+        return n * maximum - sum;
     }
 }
