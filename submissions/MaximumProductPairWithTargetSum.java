@@ -2,35 +2,30 @@
 
 class MaximumProductPairWithTargetSum {
     public int[] maxProductPair(int[] nums, int target) {
-        int[] map = new int[201];
         int[] result = new int[] {-1, -1};
-        int maximumProduct = Integer.MIN_VALUE;
-        int offset = 100;
+        int n = nums.length;
+        long maximumProduct = Long.MIN_VALUE;
 
-        Arrays.fill(map, -1);
-        for (int i = 0; i < nums.length; i++) {
-            int e = nums[i];
-            int complement = target - e;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                long first = nums[i];
+                long second = nums[j];
 
-            if (e != complement && complement >= -100 && complement <= 100 && map[complement + 100] != -1) {
-                int jIndex = map[complement + 100];
-                int product = e * complement;
+                if (first != second && first + second == (long) target) {
+                    long product = first * second;
 
-                if (product > maximumProduct) {
-                    maximumProduct = product;
-
-                    if (nums[jIndex] > nums[i]) {
-                        result[0] = jIndex;
-                        result[1] = i;
-
-                    } else {
-                        result[1] = jIndex;
-                        result[0] = i;
+                    if (product > maximumProduct) {
+                        maximumProduct = product;
+                        if (first > second) {
+                            result[0] = i;
+                            result[1] = j;
+                        } else {
+                            result[0] = j;
+                            result[1] = i;
+                        }
                     }
                 }
             }
-
-            map[e + offset] = i;
         }
 
         return result;
