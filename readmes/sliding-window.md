@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 84/175.
+Completed: 85/175.
 
 ## Submissions
 ### Easy
@@ -72,6 +72,7 @@ Completed: 84/175.
 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringOfAllVowelsInOrder.java)                              | 12ms    | 93.06%  |
 | [Longest Substring Without Repeated Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithoutRepeatedCharacters.java)                       | 2ms     | 97.58%  |
 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestSubstringWithAtLeastKRepeatingCharacters.java)                 | 4ms     | 69.09%  |
+| [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/description/)                                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/LongestTurbulentSubarray.java)                                        | 8ms     | 23.51% |
 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaxConsecutiveOnesIII.java)                                           | 4ms     | 44.30%  |
 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximizeTheConfusionOfAnExam.java)                                    | 11ms    | 93.69%  |
 | [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/description/)                                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumErasureValue.java)                                             | 6ms     | 97.65%  |
