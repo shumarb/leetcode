@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 57/182.
+Completed: 58/183.
 
 ## Submissions
 ### Easy
@@ -67,6 +67,7 @@ Completed: 57/182.
 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllAdjacentDuplicatesInStringII.java)            | 22ms    | 77.58%  |
 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/)                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveAllOccurrencesOfASubstring.java)                 | 7ms     | 34.17%  |
 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveDuplicateLetters.java)                           | 2ms     | 94.48%  |
+| [Remove Elements by Type and Color](https://leetcode.com/problems/remove-elements-by-type-and-color/description/)                                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveElementsByTypeAndColor.java)                                    | 86ms    | 21.88%  |
 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemoveNodesFromLinkedList.java)                        | 7ms     | 73.29%  |
 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/RemovingStarsFromAString.java)                         | 25ms    | 93.15%  |
 | [Reorder List](https://leetcode.com/problems/reorder-list/description/)                                                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ReorderList.java)                                      | 2ms     | 85.91%  |

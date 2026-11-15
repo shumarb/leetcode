@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 50/163.
+Completed: 51/165.
 
 ## Submissions
 ### Easy
@@ -55,8 +55,9 @@ Completed: 50/163.
 | Question                                                                                                                                      | Submission                                                                                                         | Runtime | Rank    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------|---------|
 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/description/)                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CompletePrimeNumber.java)                         | 2ms     | 92.81%  |
-| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsOne.java)                 | 51ms    | 81.88%  |
+| [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountBeautifulSubstringsI.java)                      | 51ms    | 84.49%  |
 | [Count Primes](https://leetcode.com/problems/count-primes/description/)                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountPrimes.java)                                 | 93ms    | 85.91%  |
+| [Count Valid Substrings I](https://leetcode.com/problems/count-valid-substrings-i/description/)                                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CountValidSubstringsI.java)                                           | 12ms    | 96.87%  |
 | [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/EqualSumGridPartitionOne.java)                    | 5ms     | 47.55%  |
 | [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/)     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheMaximumNumberOfElementsInSubset.java)      | 49ms    | 93.02%  |
 | [K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/description/)                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/KDivisibleElementsSubarrays.java)                 | 190ms   | 59.09%  |

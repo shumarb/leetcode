@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/count-beautiful-substrings-i/description/
 
-class CountBeautifulSubstringsOne {
+class CountBeautifulSubstringsI {
     public int beautifulSubstrings(String s, int k) {
         int countBeautifulSubstrings = 0;
         int len = s.length();

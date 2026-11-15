@@ -17,6 +17,7 @@ class LongestStrictlyIncreasingOrStrictlyDecreasingSubarray {
                 currentDecreasing = 1;
                 currentIncreasing = 1;
             }
+            
             longest = Math.max(longest, Math.max(currentDecreasing, currentIncreasing));
         }
 
