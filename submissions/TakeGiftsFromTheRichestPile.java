@@ -3,19 +3,18 @@
 class TakeGiftsFromTheRichestPile {
     public long pickGifts(int[] gifts, int k) {
         PriorityQueue<Long> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-        long result = 0;
         boolean isTest = false;
+        long result = 0;
 
-        for (int number: gifts) {
-            maxHeap.offer((long) number);
+        for (long number: gifts) {
+            maxHeap.offer(number);
         }
         if (isTest) {
             System.out.println("gifts: " + Arrays.toString(gifts) + ", k: " + k + "\nmax heap: " + maxHeap);
         }
 
-        for (int i = 0; i < k; i++) {
-            long topGift = maxHeap.poll();
-            maxHeap.offer((long) Math.sqrt(topGift));
+        while (k-- > 0) {
+            maxHeap.offer((long) Math.sqrt(maxHeap.poll()));
         }
         if (isTest) {
             System.out.println("after iteration, max heap: " + maxHeap);

@@ -16,39 +16,35 @@
  * }
  */
 class FlattenBinaryTreeToLinkedList {
-    private List<TreeNode> elements = new ArrayList<>();
+    private TreeNode previous;
 
     public void flatten(TreeNode root) {
-        if (root == null) {
+        if (root == null || (root.left == null && root.right == null)) {
             return;
         }
 
-        boolean isTest = false;
-        preOrderTraversal(root);
-        if (isTest) {
-            System.out.println("number of elements: " + elements.size());
-            for (TreeNode element: elements) {
-                System.out.print(element.val + " --> ");
-            }
-            System.out.println("null");
-        }
-
-        for (int i = 0; i < elements.size(); i++) {
-            TreeNode current = elements.get(i);
-            current.left = null;
-            if (i != elements.size() - 1) {
-                current.right = elements.get(i + 1);
-            }
-        }
-        root = elements.get(0);
+        previous = null;
+        dfs(root);
     }
 
-    private void preOrderTraversal(TreeNode node) {
+    private void dfs(TreeNode node) {
         if (node == null) {
             return;
         }
-        elements.add(node);
-        preOrderTraversal(node.left);
-        preOrderTraversal(node.right);
+
+        TreeNode left = node.left;
+        TreeNode right = node.right;
+
+        node.left = null;
+        node.right = null;
+
+        if (previous != null) {
+            previous.right = node;
+        }
+
+        previous = node;
+        dfs(left);
+        dfs(right);
+
     }
 }

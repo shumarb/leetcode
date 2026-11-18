@@ -15,12 +15,14 @@ class CalculateDigitSumOfAString {
             }
 
             StringBuilder newS = new StringBuilder();
+            char[] digits = s.toCharArray();
+
             for (int i = 0; i < s.length(); i += k) {
                 StringBuilder current = new StringBuilder();
                 int upperBound = Math.min(i + k, s.length());
 
                 for (int j = i; j < upperBound; j++) {
-                    current.append(s.charAt(j));
+                    current.append(digits[j]);
                 }
                 if (isTest) {
                     System.out.println(" * i: " + i + " -> current: " + current.toString());

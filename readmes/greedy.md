@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 110/483.
+Completed: 111/486.
 
 ## Submissions
 ### Easy
@@ -100,6 +100,7 @@ Completed: 110/483.
 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-gap/description/)                                                                                | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumLengthOfPairChain.java)                          | 9ms     | 80.63%  |
 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumMatchingOfPlayersWithTrainers.java)              | 26ms    | 61.51%  |
 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/)                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfCoinsYouCanGet.java)                     | 6ms     | 96.17%  |
+| [Maximum Number of Distinct Elements After Operations](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumNumberOfDistinctElementsAfterOperations.java)                                      | 23ms     | 54.22% |
 | [Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/description/)                                                   | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductAfterKIncrements.java)                    | 291ms   | 48.57%  |
 | [Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/description/)         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumProductOfThreeElementsAfterOneReplacement.java)  | 42ms    | 47.24%  |
 | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/MaximumStrengthOfAGroup.java)                           | 5ms     | 37.59%  |
