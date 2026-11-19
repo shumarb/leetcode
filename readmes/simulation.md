@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 130/218.
+Completed: 131/218.
 
 ## Submissions
 ### Easy
@@ -96,6 +96,7 @@ Completed: 130/218.
 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TeemoAttacking.java)                                   | 3ms     | 83.20%  |
 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TimeNeedToBuyTickets.java)                             | 0ms     | 100.00% |
 | [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ToggleLightBulbs.java)                                 | 2ms     | 99.98%  |
+| [Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalDistanceTraveled.java)                                 | 12ms     | 31.80%  |
 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrafficSignalColor.java)                               | 1ms     | 71.26%  |
 | [Transformed Array](https://leetcode.com/problems/transformed-array/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransformedArray.java)                                 | 1ms     | 96.44%  |
 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)                                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TransposeMatrix.java)                                  | 0ms     | 100.00% |

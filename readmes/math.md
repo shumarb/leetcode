@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 233/710.
+Completed: 234/712.
 
 ## Submissions
 ### Easy
@@ -149,6 +149,7 @@ Completed: 233/710.
 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/description/)                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/SumOfIntegersWithMaximumDigitRange.java)                     | 1ms     | 100.00% |
 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TheTwoSneakyNumbersOfDigitville.java)                        | 1ms     | 100.00% |
 | [Three Divisors](https://leetcode.com/problems/three-divisors/description/)                                                                                                  | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ThreeDivisors.java)                                          | 1ms     | 61.86%  |
+| [Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/description/)                                                                         | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TotalDistanceTraveled.java)                                 | 12ms     | 31.80%  |
 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/description/)                                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TrafficSignalColor.java)                                     | 1ms     | 71.26%  |
 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/description/)                                                                                              | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/TypeOfTriangle.java)                                         | 1ms     | 39.67%  |
 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)                                                                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/UglyNumber.java)                                             | 0ms     | 100.00% |
