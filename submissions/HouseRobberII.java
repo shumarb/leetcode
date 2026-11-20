@@ -1,49 +1,43 @@
-// Question: https://leetcode.com/problems/house-robber-iii/description/
+// Question: https://leetcode.com/problems/house-robber-ii/description/
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class HouseRobberIII {
-    public int rob(TreeNode root) {
-        int[] result = dfs(root);
+class HouseRobberII
+    private boolean isTest;
 
-        // result[0]: maximum if we don't rob this node.
-        // result[1]: maximum if we rob this node.
-        return Math.max(result[0], result[1]);
-    }
+    public int rob(int[] nums) {
+        isTest = false;
+        int n = nums.length;
+        int robFirstToSecondLast;
+        int robSecondToLast;
 
-    private int[] dfs(TreeNode node) {
-        if (node == null) {
-            return new int[] {0, 0};
+        if (n == 1) {
+            return nums[0];
+
+        } else if (n == 2) {
+            return Math.max(nums[0], nums[1]);
         }
 
-        // left: maximum if we don't rob this node.
-        // right: maximum if we rob this node.
-        int[] left = dfs(node.left);
-        int[] right = dfs(node.right);
+        if (isTest) {
+            System.out.println("nums: " + Arrays.toString(nums));
+        }
 
-        int notRobLeft = left[0];
-        int notRobRight = right[0];
-        int robLeft = left[1];
-        int robRight = right[1];
+        robFirstToSecondLast = getTotal(nums, 0, nums.length - 2);
+        robSecondToLast = getTotal(nums, 1, nums.length - 1);
 
-        // 1. Rob node => can't rob both left and right.
-        //    Not rob node ==> choose maximum combination of robbing/not robbing node's left and right subtrees.
-        int totalIfNotRobNode = Math.max(notRobLeft, robLeft) + Math.max(notRobRight, robRight);
-        int totalIfRobNode = node.val + notRobLeft + notRobRight;
+        return Math.max(robFirstToSecondLast, robSecondToLast);
+    }
 
-        return new int[] {totalIfNotRobNode, totalIfRobNode};
+    private int getTotal(int[] nums, int start, int end) {
+        int[] arr = nums.clone();
+
+        for (int i = end - 1; i >= 0; i--) {
+            int totalIfAvoidCurrent = arr[i + 1];
+            int totalIfRobCurrent = arr[i] + ((i + 2 <= end) ? arr[i + 2] : 0);
+            arr[i] = Math.max(totalIfAvoidCurrent, totalIfRobCurrent);
+        }
+        if (isTest) {
+            System.out.println(" * index: [" + start + ", " + end + "] | subarray dp: " + Arrays.toString(Arrays.copyOfRange(arr, start, end + 1)));
+        }
+
+        return Math.max(arr[start], arr[start + 1]);
     }
 }
