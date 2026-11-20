@@ -6,17 +6,18 @@ class TotalDistanceTraveled {
         int result = 0;
 
         while (mainTank >= 5) {
+            if (additionalTank <= 0) {
+                break;
+            }
+
             if (isTest) {
                 System.out.println("before:\n * mainTank: " + mainTank + "\n * additionalTank: " + additionalTank);
             }
 
             result += 50;
             mainTank -= 5;
-
-            if (additionalTank > 0) {
-                additionalTank--;
-                mainTank += 1;
-            }
+            additionalTank--;
+            mainTank++;
 
             if (isTest) {
                 System.out.println("\nafter:\n * mainTank: " + mainTank + "\n * additionalTank: " + additionalTank);

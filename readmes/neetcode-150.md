@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 106/150.
+Completed: 108/150.
 
 ## Submissions
 ### Easy
@@ -63,12 +63,14 @@ Completed: 106/150.
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/CourseScheduleII.java)                                   | 4ms     | 95.17%  |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DailyTemperatures.java)                                  | 22ms    | 96.42%  |
 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/WordDictionary.java)                                     | 162ms   | 94.15%  | 
+| [Design Twitter](https://leetcode.com/problems/design-twitter/description/)                                                                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Twitter.java)                                                         | 32ms    | 71.53%  |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindMinimumInRotatedSortedArray.java)                    | 0ms     | 100.00% |
 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/FindTheDuplicateNumber.java)                             | 4ms     | 88.06%  |
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GenerateParentheses.java)                                | 0ms     | 100.00% |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/GroupAnagrams.java)                                      | 6ms     | 99.41%  |
 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HandOfStraights.java)                                    | 63ms    | 27.26%  |
 | [House Robber](https://leetcode.com/problems/house-robber/description/)                                                                                           | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobber.java)                                        | 0ms     | 100.00% |
+| [House Robber II](https://leetcode.com/problems/house-robber-ii/description/)                                                                      | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/HouseRobberII.java)                                 | 0ms     | 100.00% |
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/Trie.java)                                               | 33ms    | 85.89%  | 
 | [Insert Interval](https://leetcode.com/problems/insert-interval/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/InsertInterval.java)                                     | 2ms     | 26.99%  |
 | [Jump Game](https://leetcode.com/problems/jump-game/description/)                                                                                                 | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/JumpGame.java)                                           | 2ms     | 84.17%  |
