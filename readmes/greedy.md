@@ -10,7 +10,7 @@ All entries are sourced from my [LeetCode](https://github.com/shumarb/leetcode) 
 
 (*Note*: Rank indicates the percentage of submissions that my code outperforms in terms of runtime.)
 
-Completed: 111/486.
+Completed: 112/486.
 
 ## Submissions
 ### Easy
@@ -74,6 +74,7 @@ Completed: 111/486.
 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/description/)                                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/BrokenCalculator.java)                                  | 0ms     | 100.00% |
 | [Construct K Palindrome Substrings](https://leetcode.com/problems/construct-k-palindrome-strings/description/)                                                        | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ConstructKPalindromeSubstrings.java)                    | 4ms     | 89.06%  |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)                                                                     | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/ContainerWithMostWater.java)                            | 5ms     | 74.40%  |
+| [Decrease Elements To Make Array ZigZag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/description/)                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DecreaseElementsToMakeArrayZigZag.java)                         | 0ms     | 100.00%  |
 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/description/)                                                                               | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DestroyingAsteroids.java)                               | 13ms    | 96.44%  |
 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/description/)                                                                                       | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DistantBarcodes.java)                                   | 15ms    | 83.05%  |
 | [Divide Array In Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)                             | [Java](https://github.com/shumarb/leetcode/blob/main/submissions/DivideArrayInSetsOfKConsecutiveNumbers.java)            | 215ms   | 39.47%  |
